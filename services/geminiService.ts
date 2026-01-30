@@ -5,7 +5,21 @@ import { decodeBase64, decodeAudioData, audioBufferToWav } from "./audioUtils";
 import { saveLessonData, getCachedLessonData, getCustomWords } from "./storage";
 import { STATIC_LESSONS } from "../data/staticLessons";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+function getBrowserApiKey(): string {
+  const saved = localStorage.getItem("gemini_api_key");
+  if (saved && saved.trim().length > 0) return saved.trim();
+
+  const input = window.prompt("Enter your Gemini API Key (saved in this browser):");
+  if (!input || input.trim().length === 0) {
+    throw new Error("Gemini API Key is required.");
+  }
+  const key = input.trim();
+  localStorage.setItem("gemini_api_key", key);
+  return key;
+}
+
+const ai = new GoogleGenAI({ apiKey: getBrowserApiKey() });
+
 
 let sharedAudioContext: AudioContext | null = null;
 
