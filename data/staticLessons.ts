@@ -55,6 +55,257 @@ export const STATIC_LESSONS: Record<number, VocabularyItem[]> = {
     { "id": "L2-W24", "category": "Nouns", "kanji": "ラジオ", "kana": "ラジオ", "romaji": "rajio", "meaning": "收音机", "sentences": [{ "ja": "ラジオを聞きます。", "zh": "听广播。" }, { "ja": "ラジオはどこにありますか。", "zh": "收音机在哪里？" }] },
     { "id": "L2-W25", "category": "Nouns", "kanji": "カメラ", "kana": "カメラ", "romaji": "kamera", "meaning": "照相机", "sentences": [{ "ja": "カメラで写真を撮ります。", "zh": "用相机拍照。" }, { "ja": "それは日本のカメラですか。", "zh": "那是日本产的相机吗？" }] }
   ],
+  3: [
+  { "id": "L3-W1", "category": "Nouns", "kanji": "教室", "kana": "きょうしつ", "romaji": "kyoushitsu", "meaning": "教室", "sentences": [{ "ja": "教室はあそこです。", "zh": "教室在那边。" }, { "ja": "教室に学生がいます。", "zh": "教室里有学生。" }] },
+
+  { "id": "L3-W2", "category": "Nouns", "kanji": "食堂", "kana": "しょくどう", "romaji": "shokudou", "meaning": "食堂", "sentences": [{ "ja": "食堂は二階です。", "zh": "食堂在二楼。" }, { "ja": "食堂で昼ご飯を食べます。", "zh": "在食堂吃午饭。" }] },
+
+  { "id": "L3-W3", "category": "Nouns", "kanji": "事務所", "kana": "じむしょ", "romaji": "jimusho", "meaning": "办公室", "sentences": [{ "ja": "事務所はここです。", "zh": "办公室在这里。" }, { "ja": "事務所に先生がいます。", "zh": "办公室里有老师。" }] },
+
+  { "id": "L3-W4", "category": "Nouns", "kanji": "会議室", "kana": "かいぎしつ", "romaji": "kaigishitsu", "meaning": "会议室", "sentences": [{ "ja": "会議室は三階です。", "zh": "会议室在三楼。" }, { "ja": "会議室で会議があります。", "zh": "会议室有会议。" }] },
+
+  { "id": "L3-W5", "category": "Nouns", "kanji": "受付", "kana": "うけつけ", "romaji": "uketsuke", "meaning": "接待处", "sentences": [{ "ja": "受付はあちらです。", "zh": "接待处在那边。" }, { "ja": "受付で名前を書きます。", "zh": "在接待处写名字。" }] },
+
+  { "id": "L3-W6", "category": "Nouns", "kanji": "ロビー", "kana": "ロビー", "romaji": "robii", "meaning": "大厅", "sentences": [{ "ja": "ロビーに人がいます。", "zh": "大厅里有人。" }, { "ja": "ロビーで待ちます。", "zh": "在大厅等。" }] },
+
+  { "id": "L3-W7", "category": "Nouns", "kanji": "部屋", "kana": "へや", "romaji": "heya", "meaning": "房间", "sentences": [{ "ja": "私の部屋は二階です。", "zh": "我的房间在二楼。" }, { "ja": "部屋にテレビがあります。", "zh": "房间里有电视。" }] },
+
+  { "id": "L3-W8", "category": "Nouns", "kanji": "トイレ", "kana": "トイレ", "romaji": "toire", "meaning": "厕所", "sentences": [{ "ja": "トイレはどこですか。", "zh": "厕所在哪里？" }, { "ja": "トイレはあそこです。", "zh": "厕所在那边。" }] },
+
+  { "id": "L3-W9", "category": "Nouns", "kanji": "お手洗い", "kana": "おてあらい", "romaji": "otearai", "meaning": "洗手间（礼貌）", "sentences": [{ "ja": "お手洗いはどちらですか。", "zh": "洗手间在哪边？" }, { "ja": "お手洗いは二階です。", "zh": "洗手间在二楼。" }] },
+
+  { "id": "L3-W10", "category": "Nouns", "kanji": "階段", "kana": "かいだん", "romaji": "kaidan", "meaning": "楼梯", "sentences": [{ "ja": "階段はあちらです。", "zh": "楼梯在那边。" }, { "ja": "階段で上へ行きます。", "zh": "走楼梯上去。" }] },
+
+  { "id": "L3-W11", "category": "Nouns", "kanji": "エレベーター", "kana": "エレベーター", "romaji": "erebeetaa", "meaning": "电梯", "sentences": [{ "ja": "エレベーターはそこです。", "zh": "电梯在那里。" }, { "ja": "エレベーターで三階へ行きます。", "zh": "坐电梯去三楼。" }] },
+
+  { "id": "L3-W12", "category": "Expressions", "kanji": "ここ", "kana": "ここ", "romaji": "koko", "meaning": "这里", "sentences": [{ "ja": "ここは教室です。", "zh": "这里是教室。" }, { "ja": "ここに座ってください。", "zh": "请坐在这里。" }] },
+
+  { "id": "L3-W13", "category": "Expressions", "kanji": "そこ", "kana": "そこ", "romaji": "soko", "meaning": "那里（靠近对方）", "sentences": [{ "ja": "そこは図書館です。", "zh": "那里是图书馆。" }, { "ja": "そこに何がありますか。", "zh": "那里有什么？" }] },
+
+  { "id": "L3-W14", "category": "Expressions", "kanji": "あそこ", "kana": "あそこ", "romaji": "asoko", "meaning": "那边（远方）", "sentences": [{ "ja": "あそこは食堂です。", "zh": "那边是食堂。" }, { "ja": "あそこに山があります。", "zh": "那边有山。" }] },
+
+  { "id": "L3-W15", "category": "Expressions", "kanji": "どこ", "kana": "どこ", "romaji": "doko", "meaning": "哪里", "sentences": [{ "ja": "トイレはどこですか。", "zh": "厕所在哪里？" }, { "ja": "あなたの家はどこですか。", "zh": "你家在哪里？" }] },
+
+  { "id": "L3-W16", "category": "Expressions", "kanji": "こちら", "kana": "こちら", "romaji": "kochira", "meaning": "这边（礼貌）", "sentences": [{ "ja": "こちらは受付です。", "zh": "这边是前台。" }, { "ja": "こちらへどうぞ。", "zh": "请这边走。" }] },
+
+  { "id": "L3-W17", "category": "Expressions", "kanji": "そちら", "kana": "そちら", "romaji": "sochira", "meaning": "那边（礼貌）", "sentences": [{ "ja": "そちらは会議室です。", "zh": "那边是会议室。" }, { "ja": "そちらに行きます。", "zh": "去那边。" }] },
+
+  { "id": "L3-W18", "category": "Expressions", "kanji": "あちら", "kana": "あちら", "romaji": "achira", "meaning": "那边（远方，礼貌）", "sentences": [{ "ja": "あちらは出口です。", "zh": "那边是出口。" }, { "ja": "あちらに先生がいます。", "zh": "那边有老师。" }] },
+
+  { "id": "L3-W19", "category": "Expressions", "kanji": "どちら", "kana": "どちら", "romaji": "dochira", "meaning": "哪边（礼貌）", "sentences": [{ "ja": "駅はどちらですか。", "zh": "车站在哪边？" }, { "ja": "どちらへ行きますか。", "zh": "去哪里？" }] },
+
+  { "id": "L3-W20", "category": "Expressions", "kanji": "いくら", "kana": "いくら", "romaji": "ikura", "meaning": "多少钱", "sentences": [{ "ja": "これはいくらですか。", "zh": "这个多少钱？" }, { "ja": "りんごはいくらですか。", "zh": "苹果多少钱？" }] }
+],
+  4: [
+  { "id": "L4-W1", "category": "Nouns", "kanji": "今", "kana": "いま", "romaji": "ima", "meaning": "现在", "sentences": [{ "ja": "今、何時ですか。", "zh": "现在几点？" }, { "ja": "今、忙しいです。", "zh": "现在很忙。" }] },
+
+  { "id": "L4-W2", "category": "Nouns", "kanji": "時", "kana": "～じ", "romaji": "~ji", "meaning": "...点钟", "sentences": [{ "ja": "7時です。", "zh": "7点。" }, { "ja": "8時に起きます。", "zh": "8点起床。" }] },
+
+  { "id": "L4-W3", "category": "Nouns", "kanji": "分", "kana": "～ふん／ぷん", "romaji": "~fun/pun", "meaning": "...分", "sentences": [{ "ja": "10時5分です。", "zh": "10点5分。" }, { "ja": "30分待ちます。", "zh": "等30分钟。" }] },
+
+  { "id": "L4-W4", "category": "Nouns", "kanji": "半", "kana": "はん", "romaji": "han", "meaning": "半", "sentences": [{ "ja": "7時半です。", "zh": "7点半。" }, { "ja": "6時半に帰ります。", "zh": "6点半回家。" }] },
+
+  { "id": "L4-W5", "category": "Nouns", "kanji": "午前", "kana": "ごぜん", "romaji": "gozen", "meaning": "上午", "sentences": [{ "ja": "午前7時です。", "zh": "上午7点。" }, { "ja": "午前に勉強します。", "zh": "上午学习。" }] },
+
+  { "id": "L4-W6", "category": "Nouns", "kanji": "午後", "kana": "ごご", "romaji": "gogo", "meaning": "下午", "sentences": [{ "ja": "午後3時です。", "zh": "下午3点。" }, { "ja": "午後に会議があります。", "zh": "下午有会议。" }] },
+
+  { "id": "L4-W7", "category": "Nouns", "kanji": "朝", "kana": "あさ", "romaji": "asa", "meaning": "早上", "sentences": [{ "ja": "朝6時に起きます。", "zh": "早上6点起床。" }, { "ja": "朝ご飯を食べます。", "zh": "吃早饭。" }] },
+
+  { "id": "L4-W8", "category": "Nouns", "kanji": "昼", "kana": "ひる", "romaji": "hiru", "meaning": "中午", "sentences": [{ "ja": "昼にご飯を食べます。", "zh": "中午吃饭。" }, { "ja": "昼は忙しいです。", "zh": "中午很忙。" }] },
+
+  { "id": "L4-W9", "category": "Nouns", "kanji": "夜", "kana": "よる", "romaji": "yoru", "meaning": "晚上", "sentences": [{ "ja": "夜10時に寝ます。", "zh": "晚上10点睡觉。" }, { "ja": "夜に勉強します。", "zh": "晚上学习。" }] },
+
+  { "id": "L4-W10", "category": "Expressions", "kanji": "毎日", "kana": "まいにち", "romaji": "mainichi", "meaning": "每天", "sentences": [{ "ja": "毎日勉強します。", "zh": "每天学习。" }, { "ja": "毎日働きます。", "zh": "每天工作。" }] },
+
+  { "id": "L4-W11", "category": "Expressions", "kanji": "今晩", "kana": "こんばん", "romaji": "konban", "meaning": "今晚", "sentences": [{ "ja": "今晩勉強します。", "zh": "今晚学习。" }, { "ja": "今晩早く寝ます。", "zh": "今晚早点睡。" }] },
+
+  { "id": "L4-W12", "category": "Verbs", "kanji": "起きます", "kana": "おきます", "romaji": "okimasu", "meaning": "起床", "sentences": [{ "ja": "6時に起きます。", "zh": "6点起床。" }, { "ja": "毎朝7時に起きます。", "zh": "每天早上7点起床。" }] },
+
+  { "id": "L4-W13", "category": "Verbs", "kanji": "寝ます", "kana": "ねます", "romaji": "nemasu", "meaning": "睡觉", "sentences": [{ "ja": "11時に寝ます。", "zh": "11点睡觉。" }, { "ja": "早く寝ます。", "zh": "早点睡。" }] },
+
+  { "id": "L4-W14", "category": "Verbs", "kanji": "働きます", "kana": "はたらきます", "romaji": "hatarakimasu", "meaning": "工作", "sentences": [{ "ja": "会社で働きます。", "zh": "在公司工作。" }, { "ja": "毎日働きます。", "zh": "每天工作。" }] },
+
+  { "id": "L4-W15", "category": "Verbs", "kanji": "休みます", "kana": "やすみます", "romaji": "yasumimasu", "meaning": "休息，请假", "sentences": [{ "ja": "日曜日に休みます。", "zh": "星期天休息。" }, { "ja": "今日は会社を休みます。", "zh": "今天请假。" }] },
+
+  { "id": "L4-W16", "category": "Verbs", "kanji": "勉強します", "kana": "べんきょうします", "romaji": "benkyoushimasu", "meaning": "学习", "sentences": [{ "ja": "日本語を勉強します。", "zh": "学习日语。" }, { "ja": "夜に勉強します。", "zh": "晚上学习。" }] },
+
+  { "id": "L4-W17", "category": "Verbs", "kanji": "終わります", "kana": "おわります", "romaji": "owarimasu", "meaning": "结束", "sentences": [{ "ja": "仕事は5時に終わります。", "zh": "工作5点结束。" }, { "ja": "授業が終わります。", "zh": "课结束。" }] }
+],
+ 5: [
+
+  { "id": "L5-W1", "category": "Verbs", "grammarType": "Group I", "kanji": "行きます", "kana": "いきます", "romaji": "ikimasu", "meaning": "去", "conjugations": { "masu": "行きます", "dictionary": "行く", "te": "行って" }, "sentences": [{ "ja": "学校へ行きます。", "zh": "去学校。" }] },
+
+  { "id": "L5-W2", "category": "Verbs", "grammarType": "Irregular", "kanji": "来ます", "kana": "きます", "romaji": "kimasu", "meaning": "来", "conjugations": { "masu": "来ます", "dictionary": "来る", "te": "来て" }, "sentences": [{ "ja": "友達が来ます。", "zh": "朋友来。" }] },
+
+  { "id": "L5-W3", "category": "Verbs", "grammarType": "Group I", "kanji": "帰ります", "kana": "かえります", "romaji": "kaerimasu", "meaning": "回去，回家", "conjugations": { "masu": "帰ります", "dictionary": "帰る", "te": "帰って" }, "sentences": [{ "ja": "家へ帰ります。", "zh": "回家。" }] },
+
+  { "id": "L5-W4", "category": "Nouns", "kanji": "学校", "kana": "がっこう", "romaji": "gakkou", "meaning": "学校", "sentences": [{ "ja": "学校へ行きます。", "zh": "去学校。" }] },
+
+  { "id": "L5-W5", "category": "Nouns", "kanji": "会社", "kana": "かいしゃ", "romaji": "kaisha", "meaning": "公司", "sentences": [{ "ja": "会社へ行きます。", "zh": "去公司。" }] },
+
+  { "id": "L5-W6", "category": "Nouns", "kanji": "家", "kana": "いえ", "romaji": "ie", "meaning": "家", "sentences": [{ "ja": "家へ帰ります。", "zh": "回家。" }] },
+
+  { "id": "L5-W7", "category": "Nouns", "kanji": "駅", "kana": "えき", "romaji": "eki", "meaning": "车站", "sentences": [{ "ja": "駅へ行きます。", "zh": "去车站。" }] },
+
+  { "id": "L5-W8", "category": "Nouns", "kanji": "スーパー", "kana": "スーパー", "romaji": "suupaa", "meaning": "超市", "sentences": [{ "ja": "スーパーへ行きます。", "zh": "去超市。" }] },
+
+  { "id": "L5-W9", "category": "Nouns", "kanji": "デパート", "kana": "デパート", "romaji": "depaato", "meaning": "百货商店", "sentences": [{ "ja": "デパートへ行きます。", "zh": "去百货公司。" }] },
+
+  { "id": "L5-W10", "category": "Nouns", "kanji": "銀行", "kana": "ぎんこう", "romaji": "ginkou", "meaning": "银行", "sentences": [{ "ja": "銀行へ行きます。", "zh": "去银行。" }] },
+
+  { "id": "L5-W11", "category": "Nouns", "kanji": "郵便局", "kana": "ゆうびんきょく", "romaji": "yuubinkyoku", "meaning": "邮局", "sentences": [{ "ja": "郵便局へ行きます。", "zh": "去邮局。" }] },
+
+  { "id": "L5-W12", "category": "Nouns", "kanji": "図書館", "kana": "としょかん", "romaji": "toshokan", "meaning": "图书馆", "sentences": [{ "ja": "図書館へ行きます。", "zh": "去图书馆。" }] },
+
+  { "id": "L5-W13", "category": "Nouns", "kanji": "美術館", "kana": "びじゅつかん", "romaji": "bijutsukan", "meaning": "美术馆", "sentences": [{ "ja": "美術館へ行きます。", "zh": "去美术馆。" }] },
+
+  { "id": "L5-W14", "category": "Nouns", "kanji": "飛行機", "kana": "ひこうき", "romaji": "hikouki", "meaning": "飞机", "sentences": [{ "ja": "飛行機で行きます。", "zh": "坐飞机去。" }] },
+
+  { "id": "L5-W15", "category": "Nouns", "kanji": "電車", "kana": "でんしゃ", "romaji": "densha", "meaning": "电车", "sentences": [{ "ja": "電車で学校へ行きます。", "zh": "坐电车去学校。" }] },
+
+  { "id": "L5-W16", "category": "Nouns", "kanji": "バス", "kana": "バス", "romaji": "basu", "meaning": "公交车", "sentences": [{ "ja": "バスで行きます。", "zh": "坐公交去。" }] },
+
+  { "id": "L5-W17", "category": "Nouns", "kanji": "タクシー", "kana": "タクシー", "romaji": "takushii", "meaning": "出租车", "sentences": [{ "ja": "タクシーで帰ります。", "zh": "坐出租车回家。" }] },
+
+  { "id": "L5-W18", "category": "Nouns", "kanji": "自転車", "kana": "じてんしゃ", "romaji": "jitensha", "meaning": "自行车", "sentences": [{ "ja": "自転車で学校へ行きます。", "zh": "骑车去学校。" }] },
+
+  { "id": "L5-W19", "category": "Expressions", "kanji": "歩いて", "kana": "あるいて", "romaji": "aruite", "meaning": "步行", "sentences": [{ "ja": "歩いて帰ります。", "zh": "走路回家。" }] },
+
+  { "id": "L5-W20", "category": "Nouns", "kanji": "今日", "kana": "きょう", "romaji": "kyou", "meaning": "今天", "sentences": [{ "ja": "今日学校へ行きます。", "zh": "今天去学校。" }] },
+
+  { "id": "L5-W21", "category": "Nouns", "kanji": "明日", "kana": "あした", "romaji": "ashita", "meaning": "明天", "sentences": [{ "ja": "明日会社へ行きます。", "zh": "明天去公司。" }] },
+
+  { "id": "L5-W22", "category": "Nouns", "kanji": "昨日", "kana": "きのう", "romaji": "kinou", "meaning": "昨天", "sentences": [{ "ja": "昨日家へ帰りました。", "zh": "昨天回家了。" }] },
+
+  { "id": "L5-W23", "category": "Nouns", "kanji": "月曜日", "kana": "げつようび", "romaji": "getsuyoubi", "meaning": "星期一", "sentences": [{ "ja": "月曜日に学校へ行きます。", "zh": "星期一去学校。" }] },
+
+  { "id": "L5-W24", "category": "Nouns", "kanji": "火曜日", "kana": "かようび", "romaji": "kayoubi", "meaning": "星期二", "sentences": [{ "ja": "火曜日に会社へ行きます。", "zh": "星期二去公司。" }] },
+
+  { "id": "L5-W25", "category": "Nouns", "kanji": "水曜日", "kana": "すいようび", "romaji": "suiyoubi", "meaning": "星期三", "sentences": [{ "ja": "水曜日に図書館へ行きます。", "zh": "星期三去图书馆。" }] },
+
+  { "id": "L5-W26", "category": "Nouns", "kanji": "木曜日", "kana": "もくようび", "romaji": "mokuyoubi", "meaning": "星期四", "sentences": [{ "ja": "木曜日に銀行へ行きます。", "zh": "星期四去银行。" }] },
+
+  { "id": "L5-W27", "category": "Nouns", "kanji": "金曜日", "kana": "きんようび", "romaji": "kinyoubi", "meaning": "星期五", "sentences": [{ "ja": "金曜日に帰ります。", "zh": "星期五回家。" }] },
+
+  { "id": "L5-W28", "category": "Nouns", "kanji": "土曜日", "kana": "どようび", "romaji": "doyoubi", "meaning": "星期六", "sentences": [{ "ja": "土曜日に友達と行きます。", "zh": "星期六和朋友去。" }] },
+
+  { "id": "L5-W29", "category": "Nouns", "kanji": "日曜日", "kana": "にちようび", "romaji": "nichiyoubi", "meaning": "星期日", "sentences": [{ "ja": "日曜日に休みます。", "zh": "星期日休息。" }] }
+],
+  6: [
+
+  { "id": "L6-W1", "category": "Verbs", "grammarType": "Group II", "kanji": "食べます", "kana": "たべます", "romaji": "tabemasu", "meaning": "吃", "conjugations": { "masu": "食べます", "dictionary": "食べる", "te": "食べて" }, "sentences": [{ "ja": "ご飯を食べます。", "zh": "吃饭。" }] },
+
+  { "id": "L6-W2", "category": "Verbs", "grammarType": "Group I", "kanji": "飲みます", "kana": "のみます", "romaji": "nomimasu", "meaning": "喝", "conjugations": { "masu": "飲みます", "dictionary": "飲む", "te": "飲んで" }, "sentences": [{ "ja": "水を飲みます。", "zh": "喝水。" }] },
+
+  { "id": "L6-W3", "category": "Verbs", "grammarType": "Group I", "kanji": "吸います", "kana": "すいます", "romaji": "suimasu", "meaning": "吸（烟）", "conjugations": { "masu": "吸います", "dictionary": "吸う", "te": "吸って" }, "sentences": [{ "ja": "たばこを吸います。", "zh": "抽烟。" }] },
+
+  { "id": "L6-W4", "category": "Verbs", "grammarType": "Group II", "kanji": "見ます", "kana": "みます", "romaji": "mimasu", "meaning": "看", "conjugations": { "masu": "見ます", "dictionary": "見る", "te": "見て" }, "sentences": [{ "ja": "テレビを見ます。", "zh": "看电视。" }] },
+
+  { "id": "L6-W5", "category": "Verbs", "grammarType": "Group I", "kanji": "聞きます", "kana": "ききます", "romaji": "kikimasu", "meaning": "听；问", "conjugations": { "masu": "聞きます", "dictionary": "聞く", "te": "聞いて" }, "sentences": [{ "ja": "音楽を聞きます。", "zh": "听音乐。" }] },
+
+  { "id": "L6-W6", "category": "Verbs", "grammarType": "Group I", "kanji": "読みます", "kana": "よみます", "romaji": "yomimasu", "meaning": "读", "conjugations": { "masu": "読みます", "dictionary": "読む", "te": "読んで" }, "sentences": [{ "ja": "本を読みます。", "zh": "读书。" }] },
+
+  { "id": "L6-W7", "category": "Verbs", "grammarType": "Group I", "kanji": "書きます", "kana": "かきます", "romaji": "kakimasu", "meaning": "写", "conjugations": { "masu": "書きます", "dictionary": "書く", "te": "書いて" }, "sentences": [{ "ja": "手紙を書きます。", "zh": "写信。" }] },
+
+  { "id": "L6-W8", "category": "Verbs", "grammarType": "Group I", "kanji": "買います", "kana": "かいます", "romaji": "kaimasu", "meaning": "买", "conjugations": { "masu": "買います", "dictionary": "買う", "te": "買って" }, "sentences": [{ "ja": "本を買います。", "zh": "买书。" }] },
+
+  { "id": "L6-W9", "category": "Verbs", "grammarType": "Group I", "kanji": "撮ります", "kana": "とります", "romaji": "torimasu", "meaning": "拍（照）", "conjugations": { "masu": "撮ります", "dictionary": "撮る", "te": "撮って" }, "sentences": [{ "ja": "写真を撮ります。", "zh": "拍照片。" }] },
+
+  { "id": "L6-W10", "category": "Verbs", "grammarType": "Irregular", "kanji": "します", "kana": "します", "romaji": "shimasu", "meaning": "做", "conjugations": { "masu": "します", "dictionary": "する", "te": "して" }, "sentences": [{ "ja": "勉強をします。", "zh": "学习。" }] },
+
+  { "id": "L6-W11", "category": "Nouns", "kanji": "ご飯", "kana": "ごはん", "romaji": "gohan", "meaning": "饭", "sentences": [{ "ja": "ご飯を食べます。", "zh": "吃饭。" }] },
+
+  { "id": "L6-W12", "category": "Nouns", "kanji": "パン", "kana": "パン", "romaji": "pan", "meaning": "面包", "sentences": [{ "ja": "パンを食べます。", "zh": "吃面包。" }] },
+
+  { "id": "L6-W13", "category": "Nouns", "kanji": "水", "kana": "みず", "romaji": "mizu", "meaning": "水", "sentences": [{ "ja": "水を飲みます。", "zh": "喝水。" }] },
+
+  { "id": "L6-W14", "category": "Nouns", "kanji": "お茶", "kana": "おちゃ", "romaji": "ocha", "meaning": "茶", "sentences": [{ "ja": "お茶を飲みます。", "zh": "喝茶。" }] },
+
+  { "id": "L6-W15", "category": "Nouns", "kanji": "コーヒー", "kana": "コーヒー", "romaji": "koohii", "meaning": "咖啡", "sentences": [{ "ja": "コーヒーを飲みます。", "zh": "喝咖啡。" }] },
+
+  { "id": "L6-W16", "category": "Nouns", "kanji": "たばこ", "kana": "たばこ", "romaji": "tabako", "meaning": "香烟", "sentences": [{ "ja": "たばこを吸います。", "zh": "抽烟。" }] },
+
+  { "id": "L6-W17", "category": "Nouns", "kanji": "本", "kana": "ほん", "romaji": "hon", "meaning": "书", "sentences": [{ "ja": "本を読みます。", "zh": "读书。" }] },
+
+  { "id": "L6-W18", "category": "Nouns", "kanji": "新聞", "kana": "しんぶん", "romaji": "shinbun", "meaning": "报纸", "sentences": [{ "ja": "新聞を読みます。", "zh": "读报纸。" }] },
+
+  { "id": "L6-W19", "category": "Nouns", "kanji": "手紙", "kana": "てがみ", "romaji": "tegami", "meaning": "信", "sentences": [{ "ja": "手紙を書きます。", "zh": "写信。" }] },
+
+  { "id": "L6-W20", "category": "Nouns", "kanji": "写真", "kana": "しゃしん", "romaji": "shashin", "meaning": "照片", "sentences": [{ "ja": "写真を撮ります。", "zh": "拍照。" }] }
+
+],
+  7: [
+
+  { "id": "L7-W1", "category": "Nouns", "kanji": "切手", "kana": "きって", "romaji": "kitte", "meaning": "邮票", "sentences": [{ "ja": "切手をください。", "zh": "请给我邮票。" }] },
+
+  { "id": "L7-W2", "category": "Nouns", "kanji": "はがき", "kana": "はがき", "romaji": "hagaki", "meaning": "明信片", "sentences": [{ "ja": "はがきを買います。", "zh": "买明信片。" }] },
+
+  { "id": "L7-W3", "category": "Nouns", "kanji": "封筒", "kana": "ふうとう", "romaji": "fuutou", "meaning": "信封", "sentences": [{ "ja": "封筒をください。", "zh": "请给我信封。" }] },
+
+  { "id": "L7-W4", "category": "Nouns", "kanji": "速達", "kana": "そくたつ", "romaji": "sokutatsu", "meaning": "速递", "sentences": [{ "ja": "速達で送ります。", "zh": "用快递寄。" }] },
+
+  { "id": "L7-W5", "category": "Nouns", "kanji": "書留", "kana": "かきとめ", "romaji": "kakitome", "meaning": "挂号信", "sentences": [{ "ja": "書留で出します。", "zh": "用挂号信寄。" }] },
+
+  { "id": "L7-W6", "category": "Nouns", "kanji": "航空便", "kana": "こうくうびん", "romaji": "koukuubin", "meaning": "航空邮件", "sentences": [{ "ja": "航空便で送ります。", "zh": "用航空邮件寄。" }] },
+
+  { "id": "L7-W7", "category": "Nouns", "kanji": "船便", "kana": "ふなびん", "romaji": "funabin", "meaning": "海运邮件", "sentences": [{ "ja": "船便で送ります。", "zh": "用海运寄。" }] },
+
+  { "id": "L7-W8", "category": "Nouns", "kanji": "荷物", "kana": "にもつ", "romaji": "nimotsu", "meaning": "行李，包裹", "sentences": [{ "ja": "荷物を送ります。", "zh": "寄包裹。" }] },
+
+  { "id": "L7-W9", "category": "Nouns", "kanji": "お金", "kana": "おかね", "romaji": "okane", "meaning": "钱", "sentences": [{ "ja": "お金をあげます。", "zh": "给钱。" }] },
+
+  { "id": "L7-W10", "category": "Nouns", "kanji": "プレゼント", "kana": "プレゼント", "romaji": "purezento", "meaning": "礼物", "sentences": [{ "ja": "プレゼントをもらいました。", "zh": "收到了礼物。" }] },
+
+  { "id": "L7-W11", "category": "Verbs", "grammarType": "Group I", "kanji": "送ります", "kana": "おくります", "romaji": "okurimasu", "meaning": "寄送", "conjugations": { "masu": "送ります", "dictionary": "送る", "te": "送って" }, "sentences": [{ "ja": "荷物を送ります。", "zh": "寄包裹。" }] },
+
+  { "id": "L7-W12", "category": "Verbs", "grammarType": "Group I", "kanji": "出します", "kana": "だします", "romaji": "dashimasu", "meaning": "寄出；拿出", "conjugations": { "masu": "出します", "dictionary": "出す", "te": "出して" }, "sentences": [{ "ja": "手紙を出します。", "zh": "寄信。" }] },
+
+  { "id": "L7-W13", "category": "Verbs", "grammarType": "Group II", "kanji": "もらいます", "kana": "もらいます", "romaji": "moraimasu", "meaning": "收到", "conjugations": { "masu": "もらいます", "dictionary": "もらう", "te": "もらって" }, "sentences": [{ "ja": "友達から本をもらいました。", "zh": "从朋友那里收到了书。" }] },
+
+  { "id": "L7-W14", "category": "Verbs", "grammarType": "Group II", "kanji": "あげます", "kana": "あげます", "romaji": "agemasu", "meaning": "给（别人）", "conjugations": { "masu": "あげます", "dictionary": "あげる", "te": "あげて" }, "sentences": [{ "ja": "友達に本をあげます。", "zh": "给朋友书。" }] },
+
+  { "id": "L7-W15", "category": "Verbs", "grammarType": "Group II", "kanji": "くれます", "kana": "くれます", "romaji": "kuremasu", "meaning": "给（我）", "conjugations": { "masu": "くれます", "dictionary": "くれる", "te": "くれて" }, "sentences": [{ "ja": "母が花をくれました。", "zh": "妈妈给了我花。" }] },
+
+  { "id": "L7-W16", "category": "Expressions", "kanji": "ください", "kana": "ください", "romaji": "kudasai", "meaning": "请给我", "sentences": [{ "ja": "切手をください。", "zh": "请给我邮票。" }] },
+
+  { "id": "L7-W17", "category": "Expressions", "kanji": "どういたしまして", "kana": "どういたしまして", "romaji": "douitashimashite", "meaning": "不客气", "sentences": [{ "ja": "どういたしまして。", "zh": "不客气。" }] }
+
+],
+  8: [
+
+  { "id": "L8-W1", "category": "Adjectives", "kanji": "ハンサムな", "kana": "ハンサムな", "romaji": "hansamu na", "meaning": "英俊的", "sentences": [{ "ja": "田中さんはハンサムな人です。", "zh": "田中先生是个帅气的人。" }] },
+
+  { "id": "L8-W2", "category": "Adjectives", "kanji": "きれいな", "kana": "きれいな", "romaji": "kirei na", "meaning": "漂亮的；干净的", "sentences": [{ "ja": "きれいな町ですね。", "zh": "真是个漂亮的城市。" }] },
+
+  { "id": "L8-W3", "category": "Adjectives", "kanji": "静かな", "kana": "しずかな", "romaji": "shizuka na", "meaning": "安静的", "sentences": [{ "ja": "ここは静かな所です。", "zh": "这里很安静。" }] },
+
+  { "id": "L8-W4", "category": "Adjectives", "kanji": "にぎやかな", "kana": "にぎやかな", "romaji": "nigiyaka na", "meaning": "热闹的", "sentences": [{ "ja": "東京はにぎやかな町です。", "zh": "东京是个热闹的城市。" }] },
+
+  { "id": "L8-W5", "category": "Adjectives", "kanji": "有名な", "kana": "ゆうめいな", "romaji": "yuumei na", "meaning": "有名的", "sentences": [{ "ja": "これは有名な寺です。", "zh": "这是有名的寺庙。" }] },
+
+  { "id": "L8-W6", "category": "Adjectives", "kanji": "親切な", "kana": "しんせつな", "romaji": "shinsetsu na", "meaning": "亲切的", "sentences": [{ "ja": "先生は親切な人です。", "zh": "老师是个亲切的人。" }] },
+
+  { "id": "L8-W7", "category": "Adjectives", "kanji": "元気な", "kana": "げんきな", "romaji": "genki na", "meaning": "健康的；有精神的", "sentences": [{ "ja": "元気な子どもです。", "zh": "是个有精神的孩子。" }] },
+
+  { "id": "L8-W8", "category": "Adjectives", "kanji": "暇な", "kana": "ひまな", "romaji": "hima na", "meaning": "空闲的", "sentences": [{ "ja": "今日は暇です。", "zh": "今天有空。" }] },
+
+  { "id": "L8-W9", "category": "Nouns", "kanji": "山", "kana": "やま", "romaji": "yama", "meaning": "山", "sentences": [{ "ja": "あれは富士山です。", "zh": "那是富士山。" }] },
+
+  { "id": "L8-W10", "category": "Nouns", "kanji": "川", "kana": "かわ", "romaji": "kawa", "meaning": "河", "sentences": [{ "ja": "川がきれいです。", "zh": "河很干净。" }] },
+
+  { "id": "L8-W11", "category": "Nouns", "kanji": "町", "kana": "まち", "romaji": "machi", "meaning": "城市，城镇", "sentences": [{ "ja": "この町は静かです。", "zh": "这座城市很安静。" }] },
+
+  { "id": "L8-W12", "category": "Nouns", "kanji": "食べ物", "kana": "たべもの", "romaji": "tabemono", "meaning": "食物", "sentences": [{ "ja": "日本の食べ物はおいしいです。", "zh": "日本的食物很好吃。" }] },
+
+  { "id": "L8-W13", "category": "Nouns", "kanji": "所", "kana": "ところ", "romaji": "tokoro", "meaning": "地方", "sentences": [{ "ja": "ここはきれいな所です。", "zh": "这里是漂亮的地方。" }] },
+
+  { "id": "L8-W14", "category": "Expressions", "kanji": "どう", "kana": "どう", "romaji": "dou", "meaning": "怎么样", "sentences": [{ "ja": "京都はどうですか。", "zh": "京都怎么样？" }] },
+
+  { "id": "L8-W15", "category": "Expressions", "kanji": "とても", "kana": "とても", "romaji": "totemo", "meaning": "非常", "sentences": [{ "ja": "とてもきれいです。", "zh": "非常漂亮。" }] },
+
+  { "id": "L8-W16", "category": "Expressions", "kanji": "あまり", "kana": "あまり", "romaji": "amari", "meaning": "不太（用于否定）", "sentences": [{ "ja": "あまり静かではありません。", "zh": "不太安静。" }] }
+
+],
   14: [
     { "id": "L14-W1", "category": "Verbs", "grammarType": "Group I", "kanji": "つけます", "kana": "つけます", "romaji": "tsukemasu", "meaning": "开（灯、空调等）", "conjugations": { "masu": "つけます", "dictionary": "つける", "te": "つけて" }, "sentences": [{ "ja": "電気をつけます。", "zh": "开灯。" }] },
     { "id": "L14-W2", "category": "Verbs", "grammarType": "Group II", "kanji": "消します", "kana": "けします", "romaji": "keshimasu", "meaning": "关，切断（电源）", "conjugations": { "masu": "消します", "dictionary": "消す", "te": "消して" }, "sentences": [{ "ja": "テレビを消してください。", "zh": "请关掉电视。" }] },
