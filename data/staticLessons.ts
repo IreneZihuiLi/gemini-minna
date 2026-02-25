@@ -306,6 +306,191 @@ export const STATIC_LESSONS: Record<number, VocabularyItem[]> = {
   { "id": "L8-W16", "category": "Expressions", "kanji": "あまり", "kana": "あまり", "romaji": "amari", "meaning": "不太（用于否定）", "sentences": [{ "ja": "あまり静かではありません。", "zh": "不太安静。" }] }
 
 ],
+  9: [
+
+  { "id": "L9-W1", "category": "Nouns", "kanji": "料理", "kana": "りょうり", "romaji": "ryouri", "meaning": "料理", "sentences": [{ "ja": "日本料理が好きです。", "zh": "喜欢日本料理。" }] },
+
+  { "id": "L9-W2", "category": "Nouns", "kanji": "野球", "kana": "やきゅう", "romaji": "yakyuu", "meaning": "棒球", "sentences": [{ "ja": "野球が好きです。", "zh": "喜欢棒球。" }] },
+
+  { "id": "L9-W3", "category": "Nouns", "kanji": "音楽", "kana": "おんがく", "romaji": "ongaku", "meaning": "音乐", "sentences": [{ "ja": "音楽を聞きます。", "zh": "听音乐。" }] },
+
+  { "id": "L9-W4", "category": "Nouns", "kanji": "スポーツ", "kana": "スポーツ", "romaji": "supootsu", "meaning": "运动", "sentences": [{ "ja": "スポーツが好きです。", "zh": "喜欢运动。" }] },
+
+  { "id": "L9-W5", "category": "Nouns", "kanji": "映画", "kana": "えいが", "romaji": "eiga", "meaning": "电影", "sentences": [{ "ja": "映画を見るのが好きです。", "zh": "喜欢看电影。" }] },
+
+  { "id": "L9-W6", "category": "Nouns", "kanji": "歌", "kana": "うた", "romaji": "uta", "meaning": "歌", "sentences": [{ "ja": "歌が好きです。", "zh": "喜欢唱歌。" }] },
+
+  { "id": "L9-W7", "category": "Nouns", "kanji": "絵", "kana": "え", "romaji": "e", "meaning": "画", "sentences": [{ "ja": "絵を描きます。", "zh": "画画。" }] },
+
+  { "id": "L9-W8", "category": "Nouns", "kanji": "字", "kana": "じ", "romaji": "ji", "meaning": "字", "sentences": [{ "ja": "字がきれいです。", "zh": "字很漂亮。" }] },
+
+  { "id": "L9-W9", "category": "Nouns", "kanji": "運転", "kana": "うんてん", "romaji": "unten", "meaning": "驾驶", "sentences": [{ "ja": "運転ができます。", "zh": "会开车。" }] },
+
+  { "id": "L9-W10", "category": "Nouns", "kanji": "買い物", "kana": "かいもの", "romaji": "kaimono", "meaning": "购物", "sentences": [{ "ja": "買い物が好きです。", "zh": "喜欢购物。" }] },
+
+  { "id": "L9-W11", "category": "Verbs", "grammarType": "Group I", "kanji": "分かります", "kana": "わかります", "romaji": "wakarimasu", "meaning": "明白，懂", "conjugations": { "masu": "分かります", "dictionary": "分かる", "te": "分かって" }, "sentences": [{ "ja": "日本語が分かります。", "zh": "懂日语。" }] },
+
+  { "id": "L9-W12", "category": "Verbs", "grammarType": "Group II", "kanji": "あります", "kana": "あります", "romaji": "arimasu", "meaning": "有（无生命）", "conjugations": { "masu": "あります", "dictionary": "ある", "te": "あって" }, "sentences": [{ "ja": "時間があります。", "zh": "有时间。" }] },
+
+  { "id": "L9-W13", "category": "Verbs", "grammarType": "Group II", "kanji": "好きです", "kana": "すきです", "romaji": "suki desu", "meaning": "喜欢", "conjugations": { "masu": "好きです", "dictionary": "好きだ", "te": "好きで" }, "sentences": [{ "ja": "映画が好きです。", "zh": "喜欢电影。" }] },
+
+  { "id": "L9-W14", "category": "Verbs", "grammarType": "Group II", "kanji": "嫌いです", "kana": "きらいです", "romaji": "kirai desu", "meaning": "讨厌", "conjugations": { "masu": "嫌いです", "dictionary": "嫌いだ", "te": "嫌いで" }, "sentences": [{ "ja": "野菜が嫌いです。", "zh": "讨厌蔬菜。" }] },
+
+  { "id": "L9-W15", "category": "Verbs", "grammarType": "Group II", "kanji": "上手です", "kana": "じょうずです", "romaji": "jouzu desu", "meaning": "擅长", "conjugations": { "masu": "上手です", "dictionary": "上手だ", "te": "上手で" }, "sentences": [{ "ja": "料理が上手です。", "zh": "擅长做菜。" }] },
+
+  { "id": "L9-W16", "category": "Verbs", "grammarType": "Group II", "kanji": "下手です", "kana": "へたです", "romaji": "heta desu", "meaning": "不擅长", "conjugations": { "masu": "下手です", "dictionary": "下手だ", "te": "下手で" }, "sentences": [{ "ja": "歌が下手です。", "zh": "不擅长唱歌。" }] },
+
+  { "id": "L9-W17", "category": "Expressions", "kanji": "どうして", "kana": "どうして", "romaji": "doushite", "meaning": "为什么", "sentences": [{ "ja": "どうして来ませんか。", "zh": "为什么不来？" }] }
+
+],
+  10: [
+
+  { "id": "L10-W1", "category": "Nouns", "kanji": "あります", "kana": "あります", "romaji": "arimasu", "meaning": "有（无生命）", "sentences": [{ "ja": "机の上に本があります。", "zh": "桌子上有书。" }] },
+
+  { "id": "L10-W2", "category": "Nouns", "kanji": "います", "kana": "います", "romaji": "imasu", "meaning": "有（人/动物）", "sentences": [{ "ja": "部屋に猫がいます。", "zh": "房间里有猫。" }] },
+
+  { "id": "L10-W3", "category": "Nouns", "kanji": "上", "kana": "うえ", "romaji": "ue", "meaning": "上面", "sentences": [{ "ja": "机の上に本があります。", "zh": "桌子上有书。" }] },
+
+  { "id": "L10-W4", "category": "Nouns", "kanji": "下", "kana": "した", "romaji": "shita", "meaning": "下面", "sentences": [{ "ja": "机の下に犬がいます。", "zh": "桌子下面有狗。" }] },
+
+  { "id": "L10-W5", "category": "Nouns", "kanji": "前", "kana": "まえ", "romaji": "mae", "meaning": "前面", "sentences": [{ "ja": "駅の前に銀行があります。", "zh": "车站前有银行。" }] },
+
+  { "id": "L10-W6", "category": "Nouns", "kanji": "後ろ", "kana": "うしろ", "romaji": "ushiro", "meaning": "后面", "sentences": [{ "ja": "家の後ろに山があります。", "zh": "房子后面有山。" }] },
+
+  { "id": "L10-W7", "category": "Nouns", "kanji": "右", "kana": "みぎ", "romaji": "migi", "meaning": "右边", "sentences": [{ "ja": "右にポストがあります。", "zh": "右边有邮箱。" }] },
+
+  { "id": "L10-W8", "category": "Nouns", "kanji": "左", "kana": "ひだり", "romaji": "hidari", "meaning": "左边", "sentences": [{ "ja": "左にコンビニがあります。", "zh": "左边有便利店。" }] },
+
+  { "id": "L10-W9", "category": "Nouns", "kanji": "中", "kana": "なか", "romaji": "naka", "meaning": "里面", "sentences": [{ "ja": "かばんの中に財布があります。", "zh": "包里有钱包。" }] },
+
+  { "id": "L10-W10", "category": "Nouns", "kanji": "外", "kana": "そと", "romaji": "soto", "meaning": "外面", "sentences": [{ "ja": "家の外に車があります。", "zh": "房子外有车。" }] },
+
+  { "id": "L10-W11", "category": "Nouns", "kanji": "近く", "kana": "ちかく", "romaji": "chikaku", "meaning": "附近", "sentences": [{ "ja": "駅の近くに店があります。", "zh": "车站附近有商店。" }] },
+
+  { "id": "L10-W12", "category": "Nouns", "kanji": "間", "kana": "あいだ", "romaji": "aida", "meaning": "之间", "sentences": [{ "ja": "銀行と郵便局の間にあります。", "zh": "在银行和邮局之间。" }] },
+
+  { "id": "L10-W13", "category": "Nouns", "kanji": "部屋", "kana": "へや", "romaji": "heya", "meaning": "房间", "sentences": [{ "ja": "部屋に机があります。", "zh": "房间里有桌子。" }] },
+
+  { "id": "L10-W14", "category": "Nouns", "kanji": "机", "kana": "つくえ", "romaji": "tsukue", "meaning": "桌子", "sentences": [{ "ja": "机の上に本があります。", "zh": "桌子上有书。" }] },
+
+  { "id": "L10-W15", "category": "Nouns", "kanji": "いす", "kana": "いす", "romaji": "isu", "meaning": "椅子", "sentences": [{ "ja": "いすの下に猫がいます。", "zh": "椅子下面有猫。" }] },
+
+  { "id": "L10-W16", "category": "Nouns", "kanji": "本棚", "kana": "ほんだな", "romaji": "hondana", "meaning": "书架", "sentences": [{ "ja": "本棚の中に本があります。", "zh": "书架里有书。" }] },
+
+  { "id": "L10-W17", "category": "Nouns", "kanji": "猫", "kana": "ねこ", "romaji": "neko", "meaning": "猫", "sentences": [{ "ja": "部屋に猫がいます。", "zh": "房间里有猫。" }] },
+
+  { "id": "L10-W18", "category": "Nouns", "kanji": "犬", "kana": "いぬ", "romaji": "inu", "meaning": "狗", "sentences": [{ "ja": "庭に犬がいます。", "zh": "院子里有狗。" }] }
+
+],
+  11: [
+
+  { "id": "L11-W1", "category": "Nouns", "kanji": "います", "kana": "います", "romaji": "imasu", "meaning": "有（人/动物）", "sentences": [{ "ja": "兄がいます。", "zh": "有哥哥。" }] },
+
+  { "id": "L11-W2", "category": "Nouns", "kanji": "あります", "kana": "あります", "romaji": "arimasu", "meaning": "有（无生命）", "sentences": [{ "ja": "車があります。", "zh": "有车。" }] },
+
+  { "id": "L11-W3", "category": "Nouns", "kanji": "兄", "kana": "あに", "romaji": "ani", "meaning": "（我）哥哥", "sentences": [{ "ja": "兄がいます。", "zh": "有哥哥。" }] },
+
+  { "id": "L11-W4", "category": "Nouns", "kanji": "姉", "kana": "あね", "romaji": "ane", "meaning": "（我）姐姐", "sentences": [{ "ja": "姉がいます。", "zh": "有姐姐。" }] },
+
+  { "id": "L11-W5", "category": "Nouns", "kanji": "弟", "kana": "おとうと", "romaji": "otouto", "meaning": "（我）弟弟", "sentences": [{ "ja": "弟がいます。", "zh": "有弟弟。" }] },
+
+  { "id": "L11-W6", "category": "Nouns", "kanji": "妹", "kana": "いもうと", "romaji": "imouto", "meaning": "（我）妹妹", "sentences": [{ "ja": "妹がいます。", "zh": "有妹妹。" }] },
+
+  { "id": "L11-W7", "category": "Nouns", "kanji": "父", "kana": "ちち", "romaji": "chichi", "meaning": "（我）父亲", "sentences": [{ "ja": "父がいます。", "zh": "有父亲。" }] },
+
+  { "id": "L11-W8", "category": "Nouns", "kanji": "母", "kana": "はは", "romaji": "haha", "meaning": "（我）母亲", "sentences": [{ "ja": "母がいます。", "zh": "有母亲。" }] },
+
+  { "id": "L11-W9", "category": "Nouns", "kanji": "家族", "kana": "かぞく", "romaji": "kazoku", "meaning": "家人", "sentences": [{ "ja": "家族がいます。", "zh": "有家人。" }] },
+
+  { "id": "L11-W10", "category": "Nouns", "kanji": "会社", "kana": "かいしゃ", "romaji": "kaisha", "meaning": "公司", "sentences": [{ "ja": "会社があります。", "zh": "有公司。" }] },
+
+  { "id": "L11-W11", "category": "Nouns", "kanji": "公園", "kana": "こうえん", "romaji": "kouen", "meaning": "公园", "sentences": [{ "ja": "公園があります。", "zh": "有公园。" }] },
+
+  { "id": "L11-W12", "category": "Nouns", "kanji": "店", "kana": "みせ", "romaji": "mise", "meaning": "商店", "sentences": [{ "ja": "店があります。", "zh": "有商店。" }] },
+
+  { "id": "L11-W13", "category": "Nouns", "kanji": "上司", "kana": "じょうし", "romaji": "joushi", "meaning": "上司", "sentences": [{ "ja": "上司がいます。", "zh": "有上司。" }] },
+
+  { "id": "L11-W14", "category": "Nouns", "kanji": "友達", "kana": "ともだち", "romaji": "tomodachi", "meaning": "朋友", "sentences": [{ "ja": "友達がいます。", "zh": "有朋友。" }] },
+
+  { "id": "L11-W15", "category": "Expressions", "kanji": "何人", "kana": "なんにん", "romaji": "nannin", "meaning": "几个人", "sentences": [{ "ja": "家族は何人ですか。", "zh": "家里有几口人？" }] },
+
+  { "id": "L11-W16", "category": "Expressions", "kanji": "一人", "kana": "ひとり", "romaji": "hitori", "meaning": "一个人", "sentences": [{ "ja": "兄弟は一人です。", "zh": "有一个兄弟。" }] },
+
+  { "id": "L11-W17", "category": "Expressions", "kanji": "二人", "kana": "ふたり", "romaji": "futari", "meaning": "两个人", "sentences": [{ "ja": "兄弟は二人です。", "zh": "有两个兄弟。" }] }
+
+],
+  12: [
+
+  { "id": "L12-W1", "category": "Adjectives", "kanji": "簡単な", "kana": "かんたんな", "romaji": "kantan na", "meaning": "简单的", "sentences": [{ "ja": "これは簡単な問題です。", "zh": "这是简单的问题。" }] },
+
+  { "id": "L12-W2", "category": "Adjectives", "kanji": "近い", "kana": "ちかい", "romaji": "chikai", "meaning": "近的", "sentences": [{ "ja": "駅は近いです。", "zh": "车站很近。" }] },
+
+  { "id": "L12-W3", "category": "Adjectives", "kanji": "遠い", "kana": "とおい", "romaji": "tooi", "meaning": "远的", "sentences": [{ "ja": "会社は遠いです。", "zh": "公司很远。" }] },
+
+  { "id": "L12-W4", "category": "Adjectives", "kanji": "速い", "kana": "はやい", "romaji": "hayai", "meaning": "快的（速度）", "sentences": [{ "ja": "この車は速いです。", "zh": "这辆车很快。" }] },
+
+  { "id": "L12-W5", "category": "Adjectives", "kanji": "遅い", "kana": "おそい", "romaji": "osoi", "meaning": "慢的", "sentences": [{ "ja": "電車は遅いです。", "zh": "电车很慢。" }] },
+
+  { "id": "L12-W6", "category": "Adjectives", "kanji": "多い", "kana": "おおい", "romaji": "ooi", "meaning": "多的", "sentences": [{ "ja": "人が多いです。", "zh": "人很多。" }] },
+
+  { "id": "L12-W7", "category": "Adjectives", "kanji": "少ない", "kana": "すくない", "romaji": "sukunai", "meaning": "少的", "sentences": [{ "ja": "時間が少ないです。", "zh": "时间很少。" }] },
+
+  { "id": "L12-W8", "category": "Adjectives", "kanji": "暖かい", "kana": "あたたかい", "romaji": "atatakai", "meaning": "温暖的", "sentences": [{ "ja": "今日は暖かいです。", "zh": "今天很暖和。" }] },
+
+  { "id": "L12-W9", "category": "Adjectives", "kanji": "涼しい", "kana": "すずしい", "romaji": "suzushii", "meaning": "凉爽的", "sentences": [{ "ja": "秋は涼しいです。", "zh": "秋天很凉爽。" }] },
+
+  { "id": "L12-W10", "category": "Adjectives", "kanji": "甘い", "kana": "あまい", "romaji": "amai", "meaning": "甜的", "sentences": [{ "ja": "このケーキは甘いです。", "zh": "这个蛋糕很甜。" }] },
+
+  { "id": "L12-W11", "category": "Adjectives", "kanji": "辛い", "kana": "からい", "romaji": "karai", "meaning": "辣的", "sentences": [{ "ja": "この料理は辛いです。", "zh": "这个菜很辣。" }] },
+
+  { "id": "L12-W12", "category": "Adjectives", "kanji": "重い", "kana": "おもい", "romaji": "omoi", "meaning": "重的", "sentences": [{ "ja": "この荷物は重いです。", "zh": "这个行李很重。" }] },
+
+  { "id": "L12-W13", "category": "Adjectives", "kanji": "軽い", "kana": "かるい", "romaji": "karui", "meaning": "轻的", "sentences": [{ "ja": "このかばんは軽いです。", "zh": "这个包很轻。" }] },
+
+  { "id": "L12-W14", "category": "Verbs", "grammarType": "Group I", "kanji": "歩きます", "kana": "あるきます", "romaji": "arukimasu", "meaning": "走路", "conjugations": { "masu": "歩きます", "dictionary": "歩く", "te": "歩いて" }, "sentences": [{ "ja": "駅まで歩きます。", "zh": "走到车站。" }] },
+
+  { "id": "L12-W15", "category": "Verbs", "grammarType": "Group I", "kanji": "飛びます", "kana": "とびます", "romaji": "tobimasu", "meaning": "飞", "conjugations": { "masu": "飛びます", "dictionary": "飛ぶ", "te": "飛んで" }, "sentences": [{ "ja": "鳥が飛びます。", "zh": "鸟飞。" }] },
+
+  { "id": "L12-W16", "category": "Verbs", "grammarType": "Group I", "kanji": "泳ぎます", "kana": "およぎます", "romaji": "oyogimasu", "meaning": "游泳", "conjugations": { "masu": "泳ぎます", "dictionary": "泳ぐ", "te": "泳いで" }, "sentences": [{ "ja": "海で泳ぎます。", "zh": "在海里游泳。" }] }
+
+],
+  13: [
+
+  { "id": "L13-W1", "category": "Verbs", "grammarType": "Group I", "kanji": "遊びます", "kana": "あそびます", "romaji": "asobimasu", "meaning": "玩，玩耍", "conjugations": { "masu": "遊びます", "dictionary": "遊ぶ", "te": "遊んで" }, "sentences": [{ "ja": "友達と遊びます。", "zh": "和朋友玩。" }] },
+
+  { "id": "L13-W2", "category": "Verbs", "grammarType": "Group I", "kanji": "泳ぎます", "kana": "およぎます", "romaji": "oyogimasu", "meaning": "游泳", "conjugations": { "masu": "泳ぎます", "dictionary": "泳ぐ", "te": "泳いで" }, "sentences": [{ "ja": "海で泳ぎます。", "zh": "在海里游泳。" }] },
+
+  { "id": "L13-W3", "category": "Verbs", "grammarType": "Group II", "kanji": "迎えます", "kana": "むかえます", "romaji": "mukaemasu", "meaning": "迎接", "conjugations": { "masu": "迎えます", "dictionary": "迎える", "te": "迎えて" }, "sentences": [{ "ja": "駅へ友達を迎えます。", "zh": "去车站接朋友。" }] },
+
+  { "id": "L13-W4", "category": "Verbs", "grammarType": "Group II", "kanji": "疲れます", "kana": "つかれます", "romaji": "tsukaremasu", "meaning": "累", "conjugations": { "masu": "疲れます", "dictionary": "疲れる", "te": "疲れて" }, "sentences": [{ "ja": "仕事で疲れました。", "zh": "工作累了。" }] },
+
+  { "id": "L13-W5", "category": "Verbs", "grammarType": "Group II", "kanji": "出かけます", "kana": "でかけます", "romaji": "dekakemasu", "meaning": "外出", "conjugations": { "masu": "出かけます", "dictionary": "出かける", "te": "出かけて" }, "sentences": [{ "ja": "日曜日に出かけます。", "zh": "星期天外出。" }] },
+
+  { "id": "L13-W6", "category": "Verbs", "grammarType": "Irregular", "kanji": "買い物します", "kana": "かいものします", "romaji": "kaimono shimasu", "meaning": "购物", "conjugations": { "masu": "買い物します", "dictionary": "買い物する", "te": "買い物して" }, "sentences": [{ "ja": "デパートで買い物します。", "zh": "在百货公司购物。" }] },
+
+  { "id": "L13-W7", "category": "Nouns", "kanji": "公園", "kana": "こうえん", "romaji": "kouen", "meaning": "公园", "sentences": [{ "ja": "公園で遊びます。", "zh": "在公园玩。" }] },
+
+  { "id": "L13-W8", "category": "Nouns", "kanji": "川", "kana": "かわ", "romaji": "kawa", "meaning": "河", "sentences": [{ "ja": "川で泳ぎます。", "zh": "在河里游泳。" }] },
+
+  { "id": "L13-W9", "category": "Nouns", "kanji": "美術館", "kana": "びじゅつかん", "romaji": "bijutsukan", "meaning": "美术馆", "sentences": [{ "ja": "美術館へ行きます。", "zh": "去美术馆。" }] },
+
+  { "id": "L13-W10", "category": "Nouns", "kanji": "博物館", "kana": "はくぶつかん", "romaji": "hakubutsukan", "meaning": "博物馆", "sentences": [{ "ja": "博物館へ行きます。", "zh": "去博物馆。" }] },
+
+  { "id": "L13-W11", "category": "Nouns", "kanji": "図書館", "kana": "としょかん", "romaji": "toshokan", "meaning": "图书馆", "sentences": [{ "ja": "図書館で勉強します。", "zh": "在图书馆学习。" }] },
+
+  { "id": "L13-W12", "category": "Nouns", "kanji": "映画", "kana": "えいが", "romaji": "eiga", "meaning": "电影", "sentences": [{ "ja": "映画を見ます。", "zh": "看电影。" }] },
+
+  { "id": "L13-W13", "category": "Nouns", "kanji": "一人で", "kana": "ひとりで", "romaji": "hitori de", "meaning": "一个人", "sentences": [{ "ja": "一人で行きます。", "zh": "一个人去。" }] },
+
+  { "id": "L13-W14", "category": "Nouns", "kanji": "家族で", "kana": "かぞくで", "romaji": "kazoku de", "meaning": "和家人一起", "sentences": [{ "ja": "家族で旅行します。", "zh": "和家人旅行。" }] },
+
+  { "id": "L13-W15", "category": "Expressions", "kanji": "どうやって", "kana": "どうやって", "romaji": "douyatte", "meaning": "怎么做", "sentences": [{ "ja": "どうやって行きますか。", "zh": "怎么去？" }] },
+
+  { "id": "L13-W16", "category": "Expressions", "kanji": "どのくらい", "kana": "どのくらい", "romaji": "donokurai", "meaning": "多久，多长时间", "sentences": [{ "ja": "どのくらいかかりますか。", "zh": "要多久？" }] },
+
+  { "id": "L13-W17", "category": "Expressions", "kanji": "それから", "kana": "それから", "romaji": "sorekara", "meaning": "然后", "sentences": [{ "ja": "昼ご飯を食べます。それから勉強します。", "zh": "吃午饭，然后学习。" }] }
+
+],
   14: [
     { "id": "L14-W1", "category": "Verbs", "grammarType": "Group I", "kanji": "つけます", "kana": "つけます", "romaji": "tsukemasu", "meaning": "开（灯、空调等）", "conjugations": { "masu": "つけます", "dictionary": "つける", "te": "つけて" }, "sentences": [{ "ja": "電気をつけます。", "zh": "开灯。" }] },
     { "id": "L14-W2", "category": "Verbs", "grammarType": "Group II", "kanji": "消します", "kana": "けします", "romaji": "keshimasu", "meaning": "关，切断（电源）", "conjugations": { "masu": "消します", "dictionary": "消す", "te": "消して" }, "sentences": [{ "ja": "テレビを消してください。", "zh": "请关掉电视。" }] },
@@ -501,7 +686,39 @@ export const STATIC_LESSONS: Record<number, VocabularyItem[]> = {
     { "id": "L20-W24", "category": "Expressions", "kanji": "よかったら", "kana": "よかったら", "romaji": "yokattara", "meaning": "如果方便的话", "sentences": [{ "ja": "よかったら、一緒に来ない？", "zh": "如果你愿意的话，要不要一起去？" }] },
     { "id": "L20-W25", "category": "Expressions", "kanji": "色々", "kana": "いろいろ", "romaji": "iroiro", "meaning": "各种各样", "sentences": [{ "ja": "色々お世話になりました。", "zh": "承蒙各种关照。" }] }
   ],
+  21: [
+
+  { "id": "L21-W1", "category": "Verbs", "grammarType": "Group I", "kanji": "思います", "kana": "おもいます", "romaji": "omoimasu", "meaning": "认为，想", "conjugations": { "masu": "思います", "dictionary": "思う", "te": "思って" }, "sentences": [{ "ja": "いいと思います。", "zh": "我觉得很好。" }] },
+
+  { "id": "L21-W2", "category": "Verbs", "grammarType": "Group I", "kanji": "言います", "kana": "いいます", "romaji": "iimasu", "meaning": "说", "conjugations": { "masu": "言います", "dictionary": "言う", "te": "言って" }, "sentences": [{ "ja": "先生はそう言いました。", "zh": "老师那样说了。" }] },
+
+  { "id": "L21-W3", "category": "Verbs", "grammarType": "Group I", "kanji": "足ります", "kana": "たります", "romaji": "tarimasu", "meaning": "足够", "conjugations": { "masu": "足ります", "dictionary": "足りる", "te": "足りて" }, "sentences": [{ "ja": "お金が足りません。", "zh": "钱不够。" }] },
+
+  { "id": "L21-W4", "category": "Verbs", "grammarType": "Group I", "kanji": "勝ちます", "kana": "かちます", "romaji": "kachimasu", "meaning": "赢", "conjugations": { "masu": "勝ちます", "dictionary": "勝つ", "te": "勝って" }, "sentences": [{ "ja": "日本が勝ちました。", "zh": "日本赢了。" }] },
+
+  { "id": "L21-W5", "category": "Verbs", "grammarType": "Group I", "kanji": "負けます", "kana": "まけます", "romaji": "makemasu", "meaning": "输", "conjugations": { "masu": "負けます", "dictionary": "負ける", "te": "負けて" }, "sentences": [{ "ja": "試合に負けました。", "zh": "比赛输了。" }] },
+
+  { "id": "L21-W6", "category": "Verbs", "grammarType": "Group I", "kanji": "あります", "kana": "あります", "romaji": "arimasu", "meaning": "举行；发生", "conjugations": { "masu": "あります", "dictionary": "ある", "te": "あって" }, "sentences": [{ "ja": "会議があります。", "zh": "有会议。" }] },
+
+  { "id": "L21-W7", "category": "Nouns", "kanji": "意見", "kana": "いけん", "romaji": "iken", "meaning": "意见", "sentences": [{ "ja": "意見があります。", "zh": "有意见。" }] },
+
+  { "id": "L21-W8", "category": "Nouns", "kanji": "話", "kana": "はなし", "romaji": "hanashi", "meaning": "话，谈话", "sentences": [{ "ja": "いい話ですね。", "zh": "是个好故事。" }] },
+
+  { "id": "L21-W9", "category": "Nouns", "kanji": "試合", "kana": "しあい", "romaji": "shiai", "meaning": "比赛", "sentences": [{ "ja": "試合があります。", "zh": "有比赛。" }] },
+
+  { "id": "L21-W10", "category": "Nouns", "kanji": "約束", "kana": "やくそく", "romaji": "yakusoku", "meaning": "约定", "sentences": [{ "ja": "約束があります。", "zh": "有约定。" }] },
+
+  { "id": "L21-W11", "category": "Nouns", "kanji": "お祭り", "kana": "おまつり", "romaji": "omatsuri", "meaning": "节日，祭典", "sentences": [{ "ja": "お祭りがあります。", "zh": "有节日活动。" }] },
+
+  { "id": "L21-W12", "category": "Expressions", "kanji": "たぶん", "kana": "たぶん", "romaji": "tabun", "meaning": "大概", "sentences": [{ "ja": "たぶん来ません。", "zh": "大概不来。" }] },
+
+  { "id": "L21-W13", "category": "Expressions", "kanji": "きっと", "kana": "きっと", "romaji": "kitto", "meaning": "一定", "sentences": [{ "ja": "きっと成功します。", "zh": "一定会成功。" }] },
+
+  { "id": "L21-W14", "category": "Expressions", "kanji": "本当に", "kana": "ほんとうに", "romaji": "hontou ni", "meaning": "真的", "sentences": [{ "ja": "本当にそうですか。", "zh": "真的吗？" }] },
+
+  { "id": "L21-W15", "category": "Expressions", "kanji": "もちろん", "kana": "もちろん", "romaji": "mochiron", "meaning": "当然", "sentences": [{ "ja": "もちろんいいです。", "zh": "当然可以。" }] }
+
+],
   // (Adding skeletal keys for others to ensure 'Ready' status while providing prompt updates for AI generation)
-  9: [], 10: [], 11: [], 12: [], 13: [], 
-  21: [], 22: [], 23: [], 24: [], 25: []
+  22: [], 23: [], 24: [], 25: []
 };
