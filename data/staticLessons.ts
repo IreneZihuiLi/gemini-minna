@@ -502,6 +502,6 @@ export const STATIC_LESSONS: Record<number, VocabularyItem[]> = {
     { "id": "L20-W25", "category": "Expressions", "kanji": "色々", "kana": "いろいろ", "romaji": "iroiro", "meaning": "各种各样", "sentences": [{ "ja": "色々お世話になりました。", "zh": "承蒙各种关照。" }] }
   ],
   // (Adding skeletal keys for others to ensure 'Ready' status while providing prompt updates for AI generation)
-  3: [], 4: [], 5: [], 6: [], 7: [], 8: [], 9: [], 10: [], 11: [], 12: [], 13: [], 
+  9: [], 10: [], 11: [], 12: [], 13: [], 
   21: [], 22: [], 23: [], 24: [], 25: []
 };
