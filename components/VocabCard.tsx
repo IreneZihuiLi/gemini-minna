@@ -96,8 +96,9 @@ const getInferredGrammarType = (item: VocabularyItem) => {
 };
 
 const GrammarBadge = ({ type }: { type: string }) => {
+  const label = type === 'Irregular' ? 'Group III' : type;
   let colorClass = 'bg-slate-100 text-slate-500';
-  switch (type) {
+  switch (label) {
     case 'Group I': colorClass = 'bg-blue-100 text-blue-700'; break;
     case 'Group II': colorClass = 'bg-green-100 text-green-700'; break;
     case 'Group III': colorClass = 'bg-orange-100 text-orange-700'; break;
@@ -106,9 +107,20 @@ const GrammarBadge = ({ type }: { type: string }) => {
   }
   return (
     <span className={`text-[10px] font-bold uppercase tracking-wide px-2 py-0.5 rounded-full ${colorClass}`}>
-      {type}
+      {label}
     </span>
   );
+};
+
+const getVerbForms = (item: VocabularyItem) => {
+  if (!item.conjugations) return [];
+  return [
+    { label: '辞書形', hint: 'Dictionary', value: item.conjugations.dictionary, accent: true },
+    { label: 'ます形', hint: 'Masu-form', value: item.conjugations.masu },
+    { label: 'て形', hint: 'Te-form', value: item.conjugations.te, accent: true },
+    { label: 'ない形', hint: 'Nai-form', value: item.conjugations.nai },
+    { label: 'た形', hint: 'Ta-form', value: item.conjugations.ta },
+  ].filter(form => Boolean(form.value));
 };
 
 export const VocabCard: React.FC<VocabCardProps> = ({ item, onDelete }) => {
@@ -118,6 +130,7 @@ export const VocabCard: React.FC<VocabCardProps> = ({ item, onDelete }) => {
   const audioCache = useRef<Map<string, string>>(new Map());
   const synth = useRef(window.speechSynthesis);
   const grammarType = getInferredGrammarType(item);
+  const verbForms = getVerbForms(item);
 
   const [collectedMap, setCollectedMap] = useState<Record<string, boolean>>({});
 
@@ -231,23 +244,24 @@ export const VocabCard: React.FC<VocabCardProps> = ({ item, onDelete }) => {
       )}
 
       <div className="p-4 flex-1">
-        {/* REDESIGNED Conjugations section */}
-        {item.category === 'Verbs' && item.conjugations && (
+        {item.category === 'Verbs' && verbForms.length > 0 && (
           <div className="mb-5">
-            <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">Verb Forms</h4>
-            <div className="bg-slate-50 border border-slate-200 rounded-lg p-2 space-y-1">
-              <div className="flex justify-between items-center px-2 py-1">
-                <span className="text-sm font-semibold text-slate-600">辞書形 (Dictionary)</span>
-                <span className="font-bold text-indigo-600 text-base bg-white px-2 py-1 rounded-md shadow-sm border border-slate-100">{item.conjugations.dictionary}</span>
-              </div>
-              <div className="flex justify-between items-center px-2 py-1">
-                <span className="text-sm font-semibold text-slate-600">ます形 (Masu-form)</span>
-                <span className="font-bold text-slate-700 text-base bg-white px-2 py-1 rounded-md shadow-sm border border-slate-100">{item.conjugations.masu}</span>
-              </div>
-              <div className="flex justify-between items-center px-2 py-1">
-                <span className="text-sm font-semibold text-slate-600">て形 (Te-form)</span>
-                <span className="font-bold text-indigo-600 text-base bg-white px-2 py-1 rounded-md shadow-sm border border-slate-100">{item.conjugations.te}</span>
-              </div>
+            <div className="flex items-center justify-between mb-2">
+              <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider">Verb Forms</h4>
+              {grammarType && <span className="text-[11px] font-bold text-slate-500 bg-slate-100 px-2 py-1 rounded-full">{grammarType === 'Irregular' ? 'Group III' : grammarType}</span>}
+            </div>
+            <div className="bg-slate-50 border border-slate-200 rounded-xl p-2 grid gap-2">
+              {verbForms.map((form) => (
+                <div key={form.label} className="grid grid-cols-[1fr_auto] items-center gap-3 px-2 py-1.5 rounded-lg bg-white/70">
+                  <span className="min-w-0">
+                    <span className="block text-sm font-semibold text-slate-600">{form.label}</span>
+                    <span className="block text-[11px] text-slate-400 font-medium">{form.hint}</span>
+                  </span>
+                  <span className={`font-bold text-base px-2.5 py-1 rounded-md shadow-sm border border-slate-100 bg-white ${form.accent ? 'text-indigo-600' : 'text-slate-700'}`}>
+                    {form.value}
+                  </span>
+                </div>
+              ))}
             </div>
           </div>
         )}

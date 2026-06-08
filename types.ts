@@ -8,6 +8,8 @@ export interface VerbConjugations {
   masu: string;      // e.g., おきます
   dictionary: string; // e.g., おく
   te: string;         // e.g., おいて
+  nai?: string;        // e.g., おかない
+  ta?: string;         // e.g., おいた
 }
 
 export interface VocabularyItem {
@@ -22,6 +24,48 @@ export interface VocabularyItem {
   audioUrl?: string; // Cache the generated audio URL
   isCustom?: boolean; // Flag for user-added words
   conjugations?: VerbConjugations; // NEW: For verb forms
+}
+
+export interface GrammarExample {
+  ja: string;
+  zh: string;
+  note?: string;
+}
+
+export interface GrammarPoint {
+  id: string;
+  title: string;
+  pattern: string;
+  meaning: string;
+  usage: string;
+  tip?: string;
+  examples: GrammarExample[];
+}
+
+export interface LessonExampleBlock {
+  id: string;
+  kind: 'pattern' | 'example';
+  title: string;
+  ja: string;
+  zh: string;
+}
+
+export interface DialogueLine {
+  speaker: string;
+  ja: string;
+  zh: string;
+}
+
+export interface LessonText {
+  id: string;
+  title: string;
+  subtitle?: string;
+  lines: DialogueLine[];
+}
+
+export interface LessonContent {
+  examples: LessonExampleBlock[];
+  texts: LessonText[];
 }
 
 export interface CollectedSentence extends Sentence {

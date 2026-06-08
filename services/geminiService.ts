@@ -18,8 +18,14 @@ function getBrowserApiKey(): string {
   return key;
 }
 
-const ai = new GoogleGenAI({ apiKey: getBrowserApiKey() });
+let aiClient: GoogleGenAI | null = null;
 
+function getAiClient(): GoogleGenAI {
+  if (!aiClient) {
+    aiClient = new GoogleGenAI({ apiKey: getBrowserApiKey() });
+  }
+  return aiClient;
+}
 
 let sharedAudioContext: AudioContext | null = null;
 
@@ -62,10 +68,10 @@ export const fetchVocabularyForLesson = async (lessonId: number): Promise<Vocabu
         - romaji: string
         - meaning: string (Chinese Simplified)
         - sentences: array of 2 example sentences {ja, zh}
-        - conjugations: object {masu: string, dictionary: string, te: string} (ONLY for verbs, otherwise null)
+        - conjugations: object {masu: string, dictionary: string, te: string, nai: string, ta: string} (ONLY for verbs, otherwise null)
       `;
 
-      const response = await ai.models.generateContent({
+    const response = await getAiClient().models.generateContent({
         model: "gemini-3-flash-preview",
         contents: prompt,
         config: {
@@ -101,6 +107,8 @@ export const fetchVocabularyForLesson = async (lessonId: number): Promise<Vocabu
                         masu: { type: Type.STRING },
                         dictionary: { type: Type.STRING },
                         te: { type: Type.STRING },
+                        nai: { type: Type.STRING, nullable: true },
+                        ta: { type: Type.STRING, nullable: true },
                       },
                     },
                   },
@@ -132,10 +140,10 @@ export const fetchDetailsForNewWord = async (input: string, lessonId: number): P
   const prompt = `
     The user wants to add the word "${input}" to Lesson ${lessonId}.
     Return JSON: {category, grammarType, kanji, kana, romaji, meaning, sentences: [{ja, zh}, {ja, zh}]}.
-    If the word is a verb, CRITICALLY include a "conjugations" object: {masu, dictionary, te}.
+    If the word is a verb, CRITICALLY include a "conjugations" object: {masu, dictionary, te, nai, ta}.
   `;
 
-  const response = await ai.models.generateContent({
+  const response = await getAiClient().models.generateContent({
     model: "gemini-3-flash-preview",
     contents: prompt,
     config: {
@@ -166,6 +174,8 @@ export const fetchDetailsForNewWord = async (input: string, lessonId: number): P
               masu: { type: Type.STRING },
               dictionary: { type: Type.STRING },
               te: { type: Type.STRING },
+              nai: { type: Type.STRING, nullable: true },
+              ta: { type: Type.STRING, nullable: true },
             },
           },
         },
@@ -194,7 +204,7 @@ export const explainJapaneseContent = async (selectedText: string): Promise<Expl
   `;
 
   try {
-    const response = await ai.models.generateContent({
+      const response = await getAiClient().models.generateContent({
       model: "gemini-3-flash-preview",
       contents: prompt,
       config: {
@@ -223,7 +233,7 @@ export const explainJapaneseContent = async (selectedText: string): Promise<Expl
 
 export const generateSpeech = async (text: string): Promise<string> => {
   try {
-    const response = await ai.models.generateContent({
+    const response = await getAiClient().models.generateContent({
       model: "gemini-2.5-flash-preview-tts",
       contents: [{ parts: [{ text: text }] }],
       config: {
