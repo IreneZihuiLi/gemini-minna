@@ -8,7 +8,7 @@ interface LessonListProps {
   onOpenCollection: () => void;
 }
 
-const LESSON_COUNT = 25; 
+const LESSON_COUNT = 27; 
 
 export const LessonList: React.FC<LessonListProps> = ({ onSelectLesson, onOpenCollection }) => {
   const [cachedLessons, setCachedLessons] = useState<Set<number>>(new Set());
@@ -35,7 +35,7 @@ export const LessonList: React.FC<LessonListProps> = ({ onSelectLesson, onOpenCo
           Minna no <span className="text-indigo-600">AI-Nihongo</span>
         </h1>
         <p className="text-slate-500 max-w-xl mx-auto text-lg mb-8">
-          Select a lesson from "Minna no Nihongo Elementary 1".
+          Select a lesson from "Minna no Nihongo Elementary 1 & 2".
         </p>
 
         {/* Collection Quick Access */}
