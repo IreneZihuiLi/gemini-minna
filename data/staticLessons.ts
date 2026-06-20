@@ -119,25 +119,25 @@ export const STATIC_LESSONS: Record<number, VocabularyItem[]> = {
 
   { "id": "L4-W11", "category": "Expressions", "kanji": "今晩", "kana": "こんばん", "romaji": "konban", "meaning": "今晚", "sentences": [{ "ja": "今晩勉強します。", "zh": "今晚学习。" }, { "ja": "今晩早く寝ます。", "zh": "今晚早点睡。" }] },
 
-  { "id": "L4-W12", "category": "Verbs", "kanji": "起きます", "kana": "おきます", "romaji": "okimasu", "meaning": "起床", "sentences": [{ "ja": "6時に起きます。", "zh": "6点起床。" }, { "ja": "毎朝7時に起きます。", "zh": "每天早上7点起床。" }] },
+  { "id": "L4-W12", "category": "Verbs", "grammarType": "Group II", "kanji": "起きます", "kana": "おきます", "romaji": "okimasu", "meaning": "起床", "conjugations": { "masu": "起きます", "dictionary": "起きる", "te": "起きて", "nai": "起きない", "ta": "起きた" }, "sentences": [{ "ja": "6時に起きます。", "zh": "6点起床。" }, { "ja": "毎朝7時に起きます。", "zh": "每天早上7点起床。" }] },
 
-  { "id": "L4-W13", "category": "Verbs", "kanji": "寝ます", "kana": "ねます", "romaji": "nemasu", "meaning": "睡觉", "sentences": [{ "ja": "11時に寝ます。", "zh": "11点睡觉。" }, { "ja": "早く寝ます。", "zh": "早点睡。" }] },
+  { "id": "L4-W13", "category": "Verbs", "grammarType": "Group II", "kanji": "寝ます", "kana": "ねます", "romaji": "nemasu", "meaning": "睡觉", "conjugations": { "masu": "寝ます", "dictionary": "寝る", "te": "寝て", "nai": "寝ない", "ta": "寝た" }, "sentences": [{ "ja": "11時に寝ます。", "zh": "11点睡觉。" }, { "ja": "早く寝ます。", "zh": "早点睡。" }] },
 
-  { "id": "L4-W14", "category": "Verbs", "kanji": "働きます", "kana": "はたらきます", "romaji": "hatarakimasu", "meaning": "工作", "sentences": [{ "ja": "会社で働きます。", "zh": "在公司工作。" }, { "ja": "毎日働きます。", "zh": "每天工作。" }] },
+  { "id": "L4-W14", "category": "Verbs", "grammarType": "Group I", "kanji": "働きます", "kana": "はたらきます", "romaji": "hatarakimasu", "meaning": "工作", "conjugations": { "masu": "働きます", "dictionary": "働く", "te": "働いて", "nai": "働かない", "ta": "働いた" }, "sentences": [{ "ja": "会社で働きます。", "zh": "在公司工作。" }, { "ja": "毎日働きます。", "zh": "每天工作。" }] },
 
-  { "id": "L4-W15", "category": "Verbs", "kanji": "休みます", "kana": "やすみます", "romaji": "yasumimasu", "meaning": "休息，请假", "sentences": [{ "ja": "日曜日に休みます。", "zh": "星期天休息。" }, { "ja": "今日は会社を休みます。", "zh": "今天请假。" }] },
+  { "id": "L4-W15", "category": "Verbs", "grammarType": "Group I", "kanji": "休みます", "kana": "やすみます", "romaji": "yasumimasu", "meaning": "休息，请假", "conjugations": { "masu": "休みます", "dictionary": "休む", "te": "休んで", "nai": "休まない", "ta": "休んだ" }, "sentences": [{ "ja": "日曜日に休みます。", "zh": "星期天休息。" }, { "ja": "今日は会社を休みます。", "zh": "今天请假。" }] },
 
-  { "id": "L4-W16", "category": "Verbs", "kanji": "勉強します", "kana": "べんきょうします", "romaji": "benkyoushimasu", "meaning": "学习", "sentences": [{ "ja": "日本語を勉強します。", "zh": "学习日语。" }, { "ja": "夜に勉強します。", "zh": "晚上学习。" }] },
+  { "id": "L4-W16", "category": "Verbs", "grammarType": "Irregular", "kanji": "勉強します", "kana": "べんきょうします", "romaji": "benkyoushimasu", "meaning": "学习", "conjugations": { "masu": "勉強します", "dictionary": "勉強する", "te": "勉強して", "nai": "勉強しない", "ta": "勉強した" }, "sentences": [{ "ja": "日本語を勉強します。", "zh": "学习日语。" }, { "ja": "夜に勉強します。", "zh": "晚上学习。" }] },
 
-  { "id": "L4-W17", "category": "Verbs", "kanji": "終わります", "kana": "おわります", "romaji": "owarimasu", "meaning": "结束", "sentences": [{ "ja": "仕事は5時に終わります。", "zh": "工作5点结束。" }, { "ja": "授業が終わります。", "zh": "课结束。" }] }
+  { "id": "L4-W17", "category": "Verbs", "grammarType": "Group I", "kanji": "終わります", "kana": "おわります", "romaji": "owarimasu", "meaning": "结束", "conjugations": { "masu": "終わります", "dictionary": "終わる", "te": "終わって", "nai": "終わらない", "ta": "終わった" }, "sentences": [{ "ja": "仕事は5時に終わります。", "zh": "工作5点结束。" }, { "ja": "授業が終わります。", "zh": "课结束。" }] }
 ],
  5: [
 
-  { "id": "L5-W1", "category": "Verbs", "grammarType": "Group I", "kanji": "行きます", "kana": "いきます", "romaji": "ikimasu", "meaning": "去", "conjugations": { "masu": "行きます", "dictionary": "行く", "te": "行って" }, "sentences": [{ "ja": "学校へ行きます。", "zh": "去学校。" }] },
+  { "id": "L5-W1", "category": "Verbs", "grammarType": "Group I", "kanji": "行きます", "kana": "いきます", "romaji": "ikimasu", "meaning": "去", "conjugations": { "masu": "行きます", "dictionary": "行く", "te": "行って", "nai": "行かない", "ta": "行った" }, "sentences": [{ "ja": "学校へ行きます。", "zh": "去学校。" }] },
 
-  { "id": "L5-W2", "category": "Verbs", "grammarType": "Irregular", "kanji": "来ます", "kana": "きます", "romaji": "kimasu", "meaning": "来", "conjugations": { "masu": "来ます", "dictionary": "来る", "te": "来て" }, "sentences": [{ "ja": "友達が来ます。", "zh": "朋友来。" }] },
+  { "id": "L5-W2", "category": "Verbs", "grammarType": "Irregular", "kanji": "来ます", "kana": "きます", "romaji": "kimasu", "meaning": "来", "conjugations": { "masu": "来ます", "dictionary": "来る", "te": "来て", "nai": "来ない", "ta": "来た" }, "sentences": [{ "ja": "友達が来ます。", "zh": "朋友来。" }] },
 
-  { "id": "L5-W3", "category": "Verbs", "grammarType": "Group I", "kanji": "帰ります", "kana": "かえります", "romaji": "kaerimasu", "meaning": "回去，回家", "conjugations": { "masu": "帰ります", "dictionary": "帰る", "te": "帰って" }, "sentences": [{ "ja": "家へ帰ります。", "zh": "回家。" }] },
+  { "id": "L5-W3", "category": "Verbs", "grammarType": "Group I", "kanji": "帰ります", "kana": "かえります", "romaji": "kaerimasu", "meaning": "回去，回家", "conjugations": { "masu": "帰ります", "dictionary": "帰る", "te": "帰って", "nai": "帰らない", "ta": "帰った" }, "sentences": [{ "ja": "家へ帰ります。", "zh": "回家。" }] },
 
   { "id": "L5-W4", "category": "Nouns", "kanji": "学校", "kana": "がっこう", "romaji": "gakkou", "meaning": "学校", "sentences": [{ "ja": "学校へ行きます。", "zh": "去学校。" }] },
 
@@ -193,25 +193,25 @@ export const STATIC_LESSONS: Record<number, VocabularyItem[]> = {
 ],
   6: [
 
-  { "id": "L6-W1", "category": "Verbs", "grammarType": "Group II", "kanji": "食べます", "kana": "たべます", "romaji": "tabemasu", "meaning": "吃", "conjugations": { "masu": "食べます", "dictionary": "食べる", "te": "食べて" }, "sentences": [{ "ja": "ご飯を食べます。", "zh": "吃饭。" }] },
+  { "id": "L6-W1", "category": "Verbs", "grammarType": "Group II", "kanji": "食べます", "kana": "たべます", "romaji": "tabemasu", "meaning": "吃", "conjugations": { "masu": "食べます", "dictionary": "食べる", "te": "食べて", "nai": "食べない", "ta": "食べた" }, "sentences": [{ "ja": "ご飯を食べます。", "zh": "吃饭。" }] },
 
-  { "id": "L6-W2", "category": "Verbs", "grammarType": "Group I", "kanji": "飲みます", "kana": "のみます", "romaji": "nomimasu", "meaning": "喝", "conjugations": { "masu": "飲みます", "dictionary": "飲む", "te": "飲んで" }, "sentences": [{ "ja": "水を飲みます。", "zh": "喝水。" }] },
+  { "id": "L6-W2", "category": "Verbs", "grammarType": "Group I", "kanji": "飲みます", "kana": "のみます", "romaji": "nomimasu", "meaning": "喝", "conjugations": { "masu": "飲みます", "dictionary": "飲む", "te": "飲んで", "nai": "飲まない", "ta": "飲んだ" }, "sentences": [{ "ja": "水を飲みます。", "zh": "喝水。" }] },
 
-  { "id": "L6-W3", "category": "Verbs", "grammarType": "Group I", "kanji": "吸います", "kana": "すいます", "romaji": "suimasu", "meaning": "吸（烟）", "conjugations": { "masu": "吸います", "dictionary": "吸う", "te": "吸って" }, "sentences": [{ "ja": "たばこを吸います。", "zh": "抽烟。" }] },
+  { "id": "L6-W3", "category": "Verbs", "grammarType": "Group I", "kanji": "吸います", "kana": "すいます", "romaji": "suimasu", "meaning": "吸（烟）", "conjugations": { "masu": "吸います", "dictionary": "吸う", "te": "吸って", "nai": "吸わない", "ta": "吸った" }, "sentences": [{ "ja": "たばこを吸います。", "zh": "抽烟。" }] },
 
-  { "id": "L6-W4", "category": "Verbs", "grammarType": "Group II", "kanji": "見ます", "kana": "みます", "romaji": "mimasu", "meaning": "看", "conjugations": { "masu": "見ます", "dictionary": "見る", "te": "見て" }, "sentences": [{ "ja": "テレビを見ます。", "zh": "看电视。" }] },
+  { "id": "L6-W4", "category": "Verbs", "grammarType": "Group II", "kanji": "見ます", "kana": "みます", "romaji": "mimasu", "meaning": "看", "conjugations": { "masu": "見ます", "dictionary": "見る", "te": "見て", "nai": "見ない", "ta": "見た" }, "sentences": [{ "ja": "テレビを見ます。", "zh": "看电视。" }] },
 
-  { "id": "L6-W5", "category": "Verbs", "grammarType": "Group I", "kanji": "聞きます", "kana": "ききます", "romaji": "kikimasu", "meaning": "听；问", "conjugations": { "masu": "聞きます", "dictionary": "聞く", "te": "聞いて" }, "sentences": [{ "ja": "音楽を聞きます。", "zh": "听音乐。" }] },
+  { "id": "L6-W5", "category": "Verbs", "grammarType": "Group I", "kanji": "聞きます", "kana": "ききます", "romaji": "kikimasu", "meaning": "听；问", "conjugations": { "masu": "聞きます", "dictionary": "聞く", "te": "聞いて", "nai": "聞かない", "ta": "聞いた" }, "sentences": [{ "ja": "音楽を聞きます。", "zh": "听音乐。" }] },
 
-  { "id": "L6-W6", "category": "Verbs", "grammarType": "Group I", "kanji": "読みます", "kana": "よみます", "romaji": "yomimasu", "meaning": "读", "conjugations": { "masu": "読みます", "dictionary": "読む", "te": "読んで" }, "sentences": [{ "ja": "本を読みます。", "zh": "读书。" }] },
+  { "id": "L6-W6", "category": "Verbs", "grammarType": "Group I", "kanji": "読みます", "kana": "よみます", "romaji": "yomimasu", "meaning": "读", "conjugations": { "masu": "読みます", "dictionary": "読む", "te": "読んで", "nai": "読まない", "ta": "読んだ" }, "sentences": [{ "ja": "本を読みます。", "zh": "读书。" }] },
 
-  { "id": "L6-W7", "category": "Verbs", "grammarType": "Group I", "kanji": "書きます", "kana": "かきます", "romaji": "kakimasu", "meaning": "写", "conjugations": { "masu": "書きます", "dictionary": "書く", "te": "書いて" }, "sentences": [{ "ja": "手紙を書きます。", "zh": "写信。" }] },
+  { "id": "L6-W7", "category": "Verbs", "grammarType": "Group I", "kanji": "書きます", "kana": "かきます", "romaji": "kakimasu", "meaning": "写", "conjugations": { "masu": "書きます", "dictionary": "書く", "te": "書いて", "nai": "書かない", "ta": "書いた" }, "sentences": [{ "ja": "手紙を書きます。", "zh": "写信。" }] },
 
-  { "id": "L6-W8", "category": "Verbs", "grammarType": "Group I", "kanji": "買います", "kana": "かいます", "romaji": "kaimasu", "meaning": "买", "conjugations": { "masu": "買います", "dictionary": "買う", "te": "買って" }, "sentences": [{ "ja": "本を買います。", "zh": "买书。" }] },
+  { "id": "L6-W8", "category": "Verbs", "grammarType": "Group I", "kanji": "買います", "kana": "かいます", "romaji": "kaimasu", "meaning": "买", "conjugations": { "masu": "買います", "dictionary": "買う", "te": "買って", "nai": "買わない", "ta": "買った" }, "sentences": [{ "ja": "本を買います。", "zh": "买书。" }] },
 
-  { "id": "L6-W9", "category": "Verbs", "grammarType": "Group I", "kanji": "撮ります", "kana": "とります", "romaji": "torimasu", "meaning": "拍（照）", "conjugations": { "masu": "撮ります", "dictionary": "撮る", "te": "撮って" }, "sentences": [{ "ja": "写真を撮ります。", "zh": "拍照片。" }] },
+  { "id": "L6-W9", "category": "Verbs", "grammarType": "Group I", "kanji": "撮ります", "kana": "とります", "romaji": "torimasu", "meaning": "拍（照）", "conjugations": { "masu": "撮ります", "dictionary": "撮る", "te": "撮って", "nai": "撮らない", "ta": "撮った" }, "sentences": [{ "ja": "写真を撮ります。", "zh": "拍照片。" }] },
 
-  { "id": "L6-W10", "category": "Verbs", "grammarType": "Irregular", "kanji": "します", "kana": "します", "romaji": "shimasu", "meaning": "做", "conjugations": { "masu": "します", "dictionary": "する", "te": "して" }, "sentences": [{ "ja": "勉強をします。", "zh": "学习。" }] },
+  { "id": "L6-W10", "category": "Verbs", "grammarType": "Irregular", "kanji": "します", "kana": "します", "romaji": "shimasu", "meaning": "做", "conjugations": { "masu": "します", "dictionary": "する", "te": "して", "nai": "しない", "ta": "した" }, "sentences": [{ "ja": "勉強をします。", "zh": "学习。" }] },
 
   { "id": "L6-W11", "category": "Nouns", "kanji": "ご飯", "kana": "ごはん", "romaji": "gohan", "meaning": "饭", "sentences": [{ "ja": "ご飯を食べます。", "zh": "吃饭。" }] },
 
@@ -256,15 +256,15 @@ export const STATIC_LESSONS: Record<number, VocabularyItem[]> = {
 
   { "id": "L7-W10", "category": "Nouns", "kanji": "プレゼント", "kana": "プレゼント", "romaji": "purezento", "meaning": "礼物", "sentences": [{ "ja": "プレゼントをもらいました。", "zh": "收到了礼物。" }] },
 
-  { "id": "L7-W11", "category": "Verbs", "grammarType": "Group I", "kanji": "送ります", "kana": "おくります", "romaji": "okurimasu", "meaning": "寄送", "conjugations": { "masu": "送ります", "dictionary": "送る", "te": "送って" }, "sentences": [{ "ja": "荷物を送ります。", "zh": "寄包裹。" }] },
+  { "id": "L7-W11", "category": "Verbs", "grammarType": "Group I", "kanji": "送ります", "kana": "おくります", "romaji": "okurimasu", "meaning": "寄送", "conjugations": { "masu": "送ります", "dictionary": "送る", "te": "送って", "nai": "送らない", "ta": "送った" }, "sentences": [{ "ja": "荷物を送ります。", "zh": "寄包裹。" }] },
 
-  { "id": "L7-W12", "category": "Verbs", "grammarType": "Group I", "kanji": "出します", "kana": "だします", "romaji": "dashimasu", "meaning": "寄出；拿出", "conjugations": { "masu": "出します", "dictionary": "出す", "te": "出して" }, "sentences": [{ "ja": "手紙を出します。", "zh": "寄信。" }] },
+  { "id": "L7-W12", "category": "Verbs", "grammarType": "Group I", "kanji": "出します", "kana": "だします", "romaji": "dashimasu", "meaning": "寄出；拿出", "conjugations": { "masu": "出します", "dictionary": "出す", "te": "出して", "nai": "出さない", "ta": "出した" }, "sentences": [{ "ja": "手紙を出します。", "zh": "寄信。" }] },
 
-  { "id": "L7-W13", "category": "Verbs", "grammarType": "Group II", "kanji": "もらいます", "kana": "もらいます", "romaji": "moraimasu", "meaning": "收到", "conjugations": { "masu": "もらいます", "dictionary": "もらう", "te": "もらって" }, "sentences": [{ "ja": "友達から本をもらいました。", "zh": "从朋友那里收到了书。" }] },
+  { "id": "L7-W13", "category": "Verbs", "grammarType": "Group I", "kanji": "もらいます", "kana": "もらいます", "romaji": "moraimasu", "meaning": "收到", "conjugations": { "masu": "もらいます", "dictionary": "もらう", "te": "もらって", "nai": "もらわない", "ta": "もらった" }, "sentences": [{ "ja": "友達から本をもらいました。", "zh": "从朋友那里收到了书。" }] },
 
-  { "id": "L7-W14", "category": "Verbs", "grammarType": "Group II", "kanji": "あげます", "kana": "あげます", "romaji": "agemasu", "meaning": "给（别人）", "conjugations": { "masu": "あげます", "dictionary": "あげる", "te": "あげて" }, "sentences": [{ "ja": "友達に本をあげます。", "zh": "给朋友书。" }] },
+  { "id": "L7-W14", "category": "Verbs", "grammarType": "Group II", "kanji": "あげます", "kana": "あげます", "romaji": "agemasu", "meaning": "给（别人）", "conjugations": { "masu": "あげます", "dictionary": "あげる", "te": "あげて", "nai": "あげない", "ta": "あげた" }, "sentences": [{ "ja": "友達に本をあげます。", "zh": "给朋友书。" }] },
 
-  { "id": "L7-W15", "category": "Verbs", "grammarType": "Group II", "kanji": "くれます", "kana": "くれます", "romaji": "kuremasu", "meaning": "给（我）", "conjugations": { "masu": "くれます", "dictionary": "くれる", "te": "くれて" }, "sentences": [{ "ja": "母が花をくれました。", "zh": "妈妈给了我花。" }] },
+  { "id": "L7-W15", "category": "Verbs", "grammarType": "Group II", "kanji": "くれます", "kana": "くれます", "romaji": "kuremasu", "meaning": "给（我）", "conjugations": { "masu": "くれます", "dictionary": "くれる", "te": "くれて", "nai": "くれない", "ta": "くれた" }, "sentences": [{ "ja": "母が花をくれました。", "zh": "妈妈给了我花。" }] },
 
   { "id": "L7-W16", "category": "Expressions", "kanji": "ください", "kana": "ください", "romaji": "kudasai", "meaning": "请给我", "sentences": [{ "ja": "切手をください。", "zh": "请给我邮票。" }] },
 
@@ -328,26 +328,26 @@ export const STATIC_LESSONS: Record<number, VocabularyItem[]> = {
 
   { "id": "L9-W10", "category": "Nouns", "kanji": "買い物", "kana": "かいもの", "romaji": "kaimono", "meaning": "购物", "sentences": [{ "ja": "買い物が好きです。", "zh": "喜欢购物。" }] },
 
-  { "id": "L9-W11", "category": "Verbs", "grammarType": "Group I", "kanji": "分かります", "kana": "わかります", "romaji": "wakarimasu", "meaning": "明白，懂", "conjugations": { "masu": "分かります", "dictionary": "分かる", "te": "分かって" }, "sentences": [{ "ja": "日本語が分かります。", "zh": "懂日语。" }] },
+  { "id": "L9-W11", "category": "Verbs", "grammarType": "Group I", "kanji": "分かります", "kana": "わかります", "romaji": "wakarimasu", "meaning": "明白，懂", "conjugations": { "masu": "分かります", "dictionary": "分かる", "te": "分かって", "nai": "分からない", "ta": "分かった" }, "sentences": [{ "ja": "日本語が分かります。", "zh": "懂日语。" }] },
 
-  { "id": "L9-W12", "category": "Verbs", "grammarType": "Group II", "kanji": "あります", "kana": "あります", "romaji": "arimasu", "meaning": "有（无生命）", "conjugations": { "masu": "あります", "dictionary": "ある", "te": "あって" }, "sentences": [{ "ja": "時間があります。", "zh": "有时间。" }] },
+  { "id": "L9-W12", "category": "Verbs", "grammarType": "Group I", "kanji": "あります", "kana": "あります", "romaji": "arimasu", "meaning": "有（无生命）", "conjugations": { "masu": "あります", "dictionary": "ある", "te": "あって", "nai": "あらない", "ta": "あった" }, "sentences": [{ "ja": "時間があります。", "zh": "有时间。" }] },
 
-  { "id": "L9-W13", "category": "Verbs", "grammarType": "Group II", "kanji": "好きです", "kana": "すきです", "romaji": "suki desu", "meaning": "喜欢", "conjugations": { "masu": "好きです", "dictionary": "好きだ", "te": "好きで" }, "sentences": [{ "ja": "映画が好きです。", "zh": "喜欢电影。" }] },
+  { "id": "L9-W13", "category": "Adjectives", "grammarType": "na-adj", "kanji": "好きです", "kana": "すきです", "romaji": "suki desu", "meaning": "喜欢", "sentences": [{ "ja": "映画が好きです。", "zh": "喜欢电影。" }] },
 
-  { "id": "L9-W14", "category": "Verbs", "grammarType": "Group II", "kanji": "嫌いです", "kana": "きらいです", "romaji": "kirai desu", "meaning": "讨厌", "conjugations": { "masu": "嫌いです", "dictionary": "嫌いだ", "te": "嫌いで" }, "sentences": [{ "ja": "野菜が嫌いです。", "zh": "讨厌蔬菜。" }] },
+  { "id": "L9-W14", "category": "Adjectives", "grammarType": "na-adj", "kanji": "嫌いです", "kana": "きらいです", "romaji": "kirai desu", "meaning": "讨厌", "sentences": [{ "ja": "野菜が嫌いです。", "zh": "讨厌蔬菜。" }] },
 
-  { "id": "L9-W15", "category": "Verbs", "grammarType": "Group II", "kanji": "上手です", "kana": "じょうずです", "romaji": "jouzu desu", "meaning": "擅长", "conjugations": { "masu": "上手です", "dictionary": "上手だ", "te": "上手で" }, "sentences": [{ "ja": "料理が上手です。", "zh": "擅长做菜。" }] },
+  { "id": "L9-W15", "category": "Adjectives", "grammarType": "na-adj", "kanji": "上手です", "kana": "じょうずです", "romaji": "jouzu desu", "meaning": "擅长", "sentences": [{ "ja": "料理が上手です。", "zh": "擅长做菜。" }] },
 
-  { "id": "L9-W16", "category": "Verbs", "grammarType": "Group II", "kanji": "下手です", "kana": "へたです", "romaji": "heta desu", "meaning": "不擅长", "conjugations": { "masu": "下手です", "dictionary": "下手だ", "te": "下手で" }, "sentences": [{ "ja": "歌が下手です。", "zh": "不擅长唱歌。" }] },
+  { "id": "L9-W16", "category": "Adjectives", "grammarType": "na-adj", "kanji": "下手です", "kana": "へたです", "romaji": "heta desu", "meaning": "不擅长", "sentences": [{ "ja": "歌が下手です。", "zh": "不擅长唱歌。" }] },
 
   { "id": "L9-W17", "category": "Expressions", "kanji": "どうして", "kana": "どうして", "romaji": "doushite", "meaning": "为什么", "sentences": [{ "ja": "どうして来ませんか。", "zh": "为什么不来？" }] }
 
 ],
   10: [
 
-  { "id": "L10-W1", "category": "Nouns", "kanji": "あります", "kana": "あります", "romaji": "arimasu", "meaning": "有（无生命）", "sentences": [{ "ja": "机の上に本があります。", "zh": "桌子上有书。" }] },
+  { "id": "L10-W1", "category": "Verbs", "grammarType": "Group I", "kanji": "あります", "kana": "あります", "romaji": "arimasu", "meaning": "有（无生命）", "conjugations": { "masu": "あります", "dictionary": "ある", "te": "あって", "nai": "あらない", "ta": "あった" }, "sentences": [{ "ja": "机の上に本があります。", "zh": "桌子上有书。" }] },
 
-  { "id": "L10-W2", "category": "Nouns", "kanji": "います", "kana": "います", "romaji": "imasu", "meaning": "有（人/动物）", "sentences": [{ "ja": "部屋に猫がいます。", "zh": "房间里有猫。" }] },
+  { "id": "L10-W2", "category": "Verbs", "grammarType": "Group II", "kanji": "います", "kana": "います", "romaji": "imasu", "meaning": "有（人/动物）", "conjugations": { "masu": "います", "dictionary": "いる", "te": "いて", "nai": "いない", "ta": "いた" }, "sentences": [{ "ja": "部屋に猫がいます。", "zh": "房间里有猫。" }] },
 
   { "id": "L10-W3", "category": "Nouns", "kanji": "上", "kana": "うえ", "romaji": "ue", "meaning": "上面", "sentences": [{ "ja": "机の上に本があります。", "zh": "桌子上有书。" }] },
 
@@ -384,9 +384,9 @@ export const STATIC_LESSONS: Record<number, VocabularyItem[]> = {
 ],
   11: [
 
-  { "id": "L11-W1", "category": "Nouns", "kanji": "います", "kana": "います", "romaji": "imasu", "meaning": "有（人/动物）", "sentences": [{ "ja": "兄がいます。", "zh": "有哥哥。" }] },
+  { "id": "L11-W1", "category": "Verbs", "grammarType": "Group II", "kanji": "います", "kana": "います", "romaji": "imasu", "meaning": "有（人/动物）", "conjugations": { "masu": "います", "dictionary": "いる", "te": "いて", "nai": "いない", "ta": "いた" }, "sentences": [{ "ja": "兄がいます。", "zh": "有哥哥。" }] },
 
-  { "id": "L11-W2", "category": "Nouns", "kanji": "あります", "kana": "あります", "romaji": "arimasu", "meaning": "有（无生命）", "sentences": [{ "ja": "車があります。", "zh": "有车。" }] },
+  { "id": "L11-W2", "category": "Verbs", "grammarType": "Group I", "kanji": "あります", "kana": "あります", "romaji": "arimasu", "meaning": "有（无生命）", "conjugations": { "masu": "あります", "dictionary": "ある", "te": "あって", "nai": "あらない", "ta": "あった" }, "sentences": [{ "ja": "車があります。", "zh": "有车。" }] },
 
   { "id": "L11-W3", "category": "Nouns", "kanji": "兄", "kana": "あに", "romaji": "ani", "meaning": "（我）哥哥", "sentences": [{ "ja": "兄がいます。", "zh": "有哥哥。" }] },
 
@@ -447,26 +447,26 @@ export const STATIC_LESSONS: Record<number, VocabularyItem[]> = {
 
   { "id": "L12-W13", "category": "Adjectives", "kanji": "軽い", "kana": "かるい", "romaji": "karui", "meaning": "轻的", "sentences": [{ "ja": "このかばんは軽いです。", "zh": "这个包很轻。" }] },
 
-  { "id": "L12-W14", "category": "Verbs", "grammarType": "Group I", "kanji": "歩きます", "kana": "あるきます", "romaji": "arukimasu", "meaning": "走路", "conjugations": { "masu": "歩きます", "dictionary": "歩く", "te": "歩いて" }, "sentences": [{ "ja": "駅まで歩きます。", "zh": "走到车站。" }] },
+  { "id": "L12-W14", "category": "Verbs", "grammarType": "Group I", "kanji": "歩きます", "kana": "あるきます", "romaji": "arukimasu", "meaning": "走路", "conjugations": { "masu": "歩きます", "dictionary": "歩く", "te": "歩いて", "nai": "歩かない", "ta": "歩いた" }, "sentences": [{ "ja": "駅まで歩きます。", "zh": "走到车站。" }] },
 
-  { "id": "L12-W15", "category": "Verbs", "grammarType": "Group I", "kanji": "飛びます", "kana": "とびます", "romaji": "tobimasu", "meaning": "飞", "conjugations": { "masu": "飛びます", "dictionary": "飛ぶ", "te": "飛んで" }, "sentences": [{ "ja": "鳥が飛びます。", "zh": "鸟飞。" }] },
+  { "id": "L12-W15", "category": "Verbs", "grammarType": "Group I", "kanji": "飛びます", "kana": "とびます", "romaji": "tobimasu", "meaning": "飞", "conjugations": { "masu": "飛びます", "dictionary": "飛ぶ", "te": "飛んで", "nai": "飛ばない", "ta": "飛んだ" }, "sentences": [{ "ja": "鳥が飛びます。", "zh": "鸟飞。" }] },
 
-  { "id": "L12-W16", "category": "Verbs", "grammarType": "Group I", "kanji": "泳ぎます", "kana": "およぎます", "romaji": "oyogimasu", "meaning": "游泳", "conjugations": { "masu": "泳ぎます", "dictionary": "泳ぐ", "te": "泳いで" }, "sentences": [{ "ja": "海で泳ぎます。", "zh": "在海里游泳。" }] }
+  { "id": "L12-W16", "category": "Verbs", "grammarType": "Group I", "kanji": "泳ぎます", "kana": "およぎます", "romaji": "oyogimasu", "meaning": "游泳", "conjugations": { "masu": "泳ぎます", "dictionary": "泳ぐ", "te": "泳いで", "nai": "泳がない", "ta": "泳いだ" }, "sentences": [{ "ja": "海で泳ぎます。", "zh": "在海里游泳。" }] }
 
 ],
   13: [
 
-  { "id": "L13-W1", "category": "Verbs", "grammarType": "Group I", "kanji": "遊びます", "kana": "あそびます", "romaji": "asobimasu", "meaning": "玩，玩耍", "conjugations": { "masu": "遊びます", "dictionary": "遊ぶ", "te": "遊んで" }, "sentences": [{ "ja": "友達と遊びます。", "zh": "和朋友玩。" }] },
+  { "id": "L13-W1", "category": "Verbs", "grammarType": "Group I", "kanji": "遊びます", "kana": "あそびます", "romaji": "asobimasu", "meaning": "玩，玩耍", "conjugations": { "masu": "遊びます", "dictionary": "遊ぶ", "te": "遊んで", "nai": "遊ばない", "ta": "遊んだ" }, "sentences": [{ "ja": "友達と遊びます。", "zh": "和朋友玩。" }] },
 
-  { "id": "L13-W2", "category": "Verbs", "grammarType": "Group I", "kanji": "泳ぎます", "kana": "およぎます", "romaji": "oyogimasu", "meaning": "游泳", "conjugations": { "masu": "泳ぎます", "dictionary": "泳ぐ", "te": "泳いで" }, "sentences": [{ "ja": "海で泳ぎます。", "zh": "在海里游泳。" }] },
+  { "id": "L13-W2", "category": "Verbs", "grammarType": "Group I", "kanji": "泳ぎます", "kana": "およぎます", "romaji": "oyogimasu", "meaning": "游泳", "conjugations": { "masu": "泳ぎます", "dictionary": "泳ぐ", "te": "泳いで", "nai": "泳がない", "ta": "泳いだ" }, "sentences": [{ "ja": "海で泳ぎます。", "zh": "在海里游泳。" }] },
 
-  { "id": "L13-W3", "category": "Verbs", "grammarType": "Group II", "kanji": "迎えます", "kana": "むかえます", "romaji": "mukaemasu", "meaning": "迎接", "conjugations": { "masu": "迎えます", "dictionary": "迎える", "te": "迎えて" }, "sentences": [{ "ja": "駅へ友達を迎えます。", "zh": "去车站接朋友。" }] },
+  { "id": "L13-W3", "category": "Verbs", "grammarType": "Group II", "kanji": "迎えます", "kana": "むかえます", "romaji": "mukaemasu", "meaning": "迎接", "conjugations": { "masu": "迎えます", "dictionary": "迎える", "te": "迎えて", "nai": "迎えない", "ta": "迎えた" }, "sentences": [{ "ja": "駅へ友達を迎えます。", "zh": "去车站接朋友。" }] },
 
-  { "id": "L13-W4", "category": "Verbs", "grammarType": "Group II", "kanji": "疲れます", "kana": "つかれます", "romaji": "tsukaremasu", "meaning": "累", "conjugations": { "masu": "疲れます", "dictionary": "疲れる", "te": "疲れて" }, "sentences": [{ "ja": "仕事で疲れました。", "zh": "工作累了。" }] },
+  { "id": "L13-W4", "category": "Verbs", "grammarType": "Group II", "kanji": "疲れます", "kana": "つかれます", "romaji": "tsukaremasu", "meaning": "累", "conjugations": { "masu": "疲れます", "dictionary": "疲れる", "te": "疲れて", "nai": "疲れない", "ta": "疲れた" }, "sentences": [{ "ja": "仕事で疲れました。", "zh": "工作累了。" }] },
 
-  { "id": "L13-W5", "category": "Verbs", "grammarType": "Group II", "kanji": "出かけます", "kana": "でかけます", "romaji": "dekakemasu", "meaning": "外出", "conjugations": { "masu": "出かけます", "dictionary": "出かける", "te": "出かけて" }, "sentences": [{ "ja": "日曜日に出かけます。", "zh": "星期天外出。" }] },
+  { "id": "L13-W5", "category": "Verbs", "grammarType": "Group II", "kanji": "出かけます", "kana": "でかけます", "romaji": "dekakemasu", "meaning": "外出", "conjugations": { "masu": "出かけます", "dictionary": "出かける", "te": "出かけて", "nai": "出かけない", "ta": "出かけた" }, "sentences": [{ "ja": "日曜日に出かけます。", "zh": "星期天外出。" }] },
 
-  { "id": "L13-W6", "category": "Verbs", "grammarType": "Irregular", "kanji": "買い物します", "kana": "かいものします", "romaji": "kaimono shimasu", "meaning": "购物", "conjugations": { "masu": "買い物します", "dictionary": "買い物する", "te": "買い物して" }, "sentences": [{ "ja": "デパートで買い物します。", "zh": "在百货公司购物。" }] },
+  { "id": "L13-W6", "category": "Verbs", "grammarType": "Irregular", "kanji": "買い物します", "kana": "かいものします", "romaji": "kaimono shimasu", "meaning": "购物", "conjugations": { "masu": "買い物します", "dictionary": "買い物する", "te": "買い物して", "nai": "買い物しない", "ta": "買い物した" }, "sentences": [{ "ja": "デパートで買い物します。", "zh": "在百货公司购物。" }] },
 
   { "id": "L13-W7", "category": "Nouns", "kanji": "公園", "kana": "こうえん", "romaji": "kouen", "meaning": "公园", "sentences": [{ "ja": "公園で遊びます。", "zh": "在公园玩。" }] },
 
@@ -492,27 +492,27 @@ export const STATIC_LESSONS: Record<number, VocabularyItem[]> = {
 
 ],
   14: [
-    { "id": "L14-W1", "category": "Verbs", "grammarType": "Group I", "kanji": "つけます", "kana": "つけます", "romaji": "tsukemasu", "meaning": "开（灯、空调等）", "conjugations": { "masu": "つけます", "dictionary": "つける", "te": "つけて" }, "sentences": [{ "ja": "電気をつけます。", "zh": "开灯。" }] },
-    { "id": "L14-W2", "category": "Verbs", "grammarType": "Group II", "kanji": "消します", "kana": "けします", "romaji": "keshimasu", "meaning": "关，切断（电源）", "conjugations": { "masu": "消します", "dictionary": "消す", "te": "消して" }, "sentences": [{ "ja": "テレビを消してください。", "zh": "请关掉电视。" }] },
-    { "id": "L14-W3", "category": "Verbs", "grammarType": "Group I", "kanji": "開けます", "kana": "あけます", "romaji": "akemasu", "meaning": "打开（窗、门）", "conjugations": { "masu": "開けます", "dictionary": "開ける", "te": "開けて" }, "sentences": [{ "ja": "窓を開けましょうか。", "zh": "要我打开窗户吗？" }] },
-    { "id": "L14-W4", "category": "Verbs", "grammarType": "Group I", "kanji": "閉めます", "kana": "しめます", "romaji": "shimemasu", "meaning": "关闭（窗、门）", "conjugations": { "masu": "閉めます", "dictionary": "閉める", "te": "閉めて" }, "sentences": [{ "ja": "ドアを閉めてください。", "zh": "请关门。" }] },
-    { "id": "L14-W5", "category": "Verbs", "grammarType": "Group I", "kanji": "急ぎます", "kana": "いそぎます", "romaji": "isogimasu", "meaning": "急忙，赶紧", "conjugations": { "masu": "急ぎます", "dictionary": "急ぐ", "te": "急いで" }, "sentences": [{ "ja": "急いでください。", "zh": "请快一点。" }] },
-    { "id": "L14-W6", "category": "Verbs", "grammarType": "Group I", "kanji": "待ちます", "kana": "まちます", "romaji": "machimasu", "meaning": "等待", "conjugations": { "masu": "待ちます", "dictionary": "待つ", "te": "待って" }, "sentences": [{ "ja": "ちょっと待ってください。", "zh": "请等一下。" }] },
-    { "id": "L14-W7", "category": "Verbs", "grammarType": "Group I", "kanji": "持ちます", "kana": "もちます", "romaji": "mochimasu", "meaning": "拿，持有", "conjugations": { "masu": "持ちます", "dictionary": "持つ", "te": "持って" }, "sentences": [{ "ja": "荷物を持ちましょうか。", "zh": "我来帮你拿行李吧？" }] },
-    { "id": "L14-W8", "category": "Verbs", "grammarType": "Group I", "kanji": "取ります", "kana": "とります", "romaji": "torimasu", "meaning": "拿，传递", "conjugations": { "masu": "取ります", "dictionary": "取る", "te": "取って" }, "sentences": [{ "ja": "塩を取ってください。", "zh": "请把盐拿给我。" }] },
-    { "id": "L14-W9", "category": "Verbs", "grammarType": "Group I", "kanji": "手伝います", "kana": "てつだいます", "romaji": "tetsudaimasu", "meaning": "帮忙，帮助", "conjugations": { "masu": "手伝います", "dictionary": "手伝う", "te": "手伝って" }, "sentences": [{ "ja": "仕事を伝ってください。", "zh": "请帮我工作。" }] },
-    { "id": "L14-W10", "category": "Verbs", "grammarType": "Group I", "kanji": "呼びます", "kana": "よびます", "romaji": "yobimasu", "meaning": "呼叫，叫（出租车等）", "conjugations": { "masu": "呼びます", "dictionary": "呼ぶ", "te": "呼んで" }, "sentences": [{ "ja": "タクシーを呼びます。", "zh": "叫出租车。" }] },
-    { "id": "L14-W11", "category": "Verbs", "grammarType": "Group I", "kanji": "話します", "kana": "はなします", "romaji": "hanashimasu", "meaning": "说话，讲", "conjugations": { "masu": "話します", "dictionary": "話す", "te": "話して" }, "sentences": [{ "ja": "ゆっくり話してください。", "zh": "请慢慢说。" }] },
-    { "id": "L14-W12", "category": "Verbs", "grammarType": "Group I", "kanji": "使います", "kana": "つかいます", "romaji": "tsukaimasu", "meaning": "使用", "conjugations": { "masu": "使います", "dictionary": "使う", "te": "使って" }, "sentences": [{ "ja": "ペンを使ってもいいですか。", "zh": "可以使用这支笔吗？" }] },
-    { "id": "L14-W13", "category": "Verbs", "grammarType": "Group I", "kanji": "止めます", "kana": "とめます", "romaji": "tomemasu", "meaning": "停下，停车", "conjugations": { "masu": "止めます", "dictionary": "止める", "te": "止めて" }, "sentences": [{ "ja": "ここに車を止めてください。", "zh": "请在这里停车。" }] },
-    { "id": "L14-W14", "category": "Verbs", "grammarType": "Group I", "kanji": "見せます", "kana": "みせます", "romaji": "misemasu", "meaning": "出示，给...看", "conjugations": { "masu": "見せます", "dictionary": "見せる", "te": "見せて" }, "sentences": [{ "ja": "パスポートを見せてください。", "zh": "请出示护照。" }] },
-    { "id": "L14-W15", "category": "Verbs", "grammarType": "Group I", "kanji": "教えます", "kana": "おしえます", "romaji": "oshiemasu", "meaning": "告诉，教（地址、语言等）", "conjugations": { "masu": "教えます", "dictionary": "教える", "te": "教えて" }, "sentences": [{ "ja": "住所を教えてください。", "zh": "请告诉我地址。" }] },
-    { "id": "L14-W16", "category": "Verbs", "grammarType": "Group I", "kanji": "座ります", "kana": "すわります", "romaji": "suwarimasu", "meaning": "坐下", "conjugations": { "masu": "座ります", "dictionary": "座る", "te": "座って" }, "sentences": [{ "ja": "ここに座ってください。", "zh": "请坐在这里。" }] },
-    { "id": "L14-W17", "category": "Verbs", "grammarType": "Group I", "kanji": "立ちます", "kana": "たちます", "romaji": "tachimasu", "meaning": "站立", "conjugations": { "masu": "立ちます", "dictionary": "立つ", "te": "立って" }, "sentences": [{ "ja": "立たないでください。", "zh": "请不要站起来。" }] },
-    { "id": "L14-W18", "category": "Verbs", "grammarType": "Group I", "kanji": "入ります", "kana": "はいります", "romaji": "hairimasu", "meaning": "进入", "conjugations": { "masu": "入ります", "dictionary": "入る", "te": "入って" }, "sentences": [{ "ja": "喫茶店に入ります。", "zh": "进咖啡店。" }] },
-    { "id": "L14-W19", "category": "Verbs", "grammarType": "Group I", "kanji": "出ます", "kana": "でます", "romaji": "demasu", "meaning": "出去，离开", "conjugations": { "masu": "出ます", "dictionary": "出る", "te": "出て" }, "sentences": [{ "ja": "喫茶店を出ます。", "zh": "离开咖啡店。" }] },
-    { "id": "L14-W20", "category": "Verbs", "grammarType": "Group I", "kanji": "降ります", "kana": "ふります", "romaji": "furimasu", "meaning": "降（雨、雪）", "conjugations": { "masu": "降ります", "dictionary": "降る", "te": "降って" }, "sentences": [{ "ja": "雨が降っています。", "zh": "正在下雨。" }] },
-    { "id": "L14-W21", "category": "Verbs", "grammarType": "Group III", "kanji": "コピーします", "kana": "コピーします", "romaji": "kopiishimasu", "meaning": "复印", "conjugations": { "masu": "コピーします", "dictionary": "コピーする", "te": "コピーして" }, "sentences": [{ "ja": "資料をコピーします。", "zh": "复印资料。" }] },
+    { "id": "L14-W1", "category": "Verbs", "grammarType": "Group II", "kanji": "つけます", "kana": "つけます", "romaji": "tsukemasu", "meaning": "开（灯、空调等）", "conjugations": { "masu": "つけます", "dictionary": "つける", "te": "つけて", "nai": "つけない", "ta": "つけた" }, "sentences": [{ "ja": "電気をつけます。", "zh": "开灯。" }] },
+    { "id": "L14-W2", "category": "Verbs", "grammarType": "Group I", "kanji": "消します", "kana": "けします", "romaji": "keshimasu", "meaning": "关，切断（电源）", "conjugations": { "masu": "消します", "dictionary": "消す", "te": "消して", "nai": "消さない", "ta": "消した" }, "sentences": [{ "ja": "テレビを消してください。", "zh": "请关掉电视。" }] },
+    { "id": "L14-W3", "category": "Verbs", "grammarType": "Group II", "kanji": "開けます", "kana": "あけます", "romaji": "akemasu", "meaning": "打开（窗、门）", "conjugations": { "masu": "開けます", "dictionary": "開ける", "te": "開けて", "nai": "開けない", "ta": "開けた" }, "sentences": [{ "ja": "窓を開けましょうか。", "zh": "要我打开窗户吗？" }] },
+    { "id": "L14-W4", "category": "Verbs", "grammarType": "Group II", "kanji": "閉めます", "kana": "しめます", "romaji": "shimemasu", "meaning": "关闭（窗、门）", "conjugations": { "masu": "閉めます", "dictionary": "閉める", "te": "閉めて", "nai": "閉めない", "ta": "閉めた" }, "sentences": [{ "ja": "ドアを閉めてください。", "zh": "请关门。" }] },
+    { "id": "L14-W5", "category": "Verbs", "grammarType": "Group I", "kanji": "急ぎます", "kana": "いそぎます", "romaji": "isogimasu", "meaning": "急忙，赶紧", "conjugations": { "masu": "急ぎます", "dictionary": "急ぐ", "te": "急いで", "nai": "急がない", "ta": "急いだ" }, "sentences": [{ "ja": "急いでください。", "zh": "请快一点。" }] },
+    { "id": "L14-W6", "category": "Verbs", "grammarType": "Group I", "kanji": "待ちます", "kana": "まちます", "romaji": "machimasu", "meaning": "等待", "conjugations": { "masu": "待ちます", "dictionary": "待つ", "te": "待って", "nai": "待たない", "ta": "待った" }, "sentences": [{ "ja": "ちょっと待ってください。", "zh": "请等一下。" }] },
+    { "id": "L14-W7", "category": "Verbs", "grammarType": "Group I", "kanji": "持ちます", "kana": "もちます", "romaji": "mochimasu", "meaning": "拿，持有", "conjugations": { "masu": "持ちます", "dictionary": "持つ", "te": "持って", "nai": "持たない", "ta": "持った" }, "sentences": [{ "ja": "荷物を持ちましょうか。", "zh": "我来帮你拿行李吧？" }] },
+    { "id": "L14-W8", "category": "Verbs", "grammarType": "Group I", "kanji": "取ります", "kana": "とります", "romaji": "torimasu", "meaning": "拿，传递", "conjugations": { "masu": "取ります", "dictionary": "取る", "te": "取って", "nai": "取らない", "ta": "取った" }, "sentences": [{ "ja": "塩を取ってください。", "zh": "请把盐拿给我。" }] },
+    { "id": "L14-W9", "category": "Verbs", "grammarType": "Group I", "kanji": "手伝います", "kana": "てつだいます", "romaji": "tetsudaimasu", "meaning": "帮忙，帮助", "conjugations": { "masu": "手伝います", "dictionary": "手伝う", "te": "手伝って", "nai": "手伝わない", "ta": "手伝った" }, "sentences": [{ "ja": "仕事を手伝ってください。", "zh": "请帮我工作。" }] },
+    { "id": "L14-W10", "category": "Verbs", "grammarType": "Group I", "kanji": "呼びます", "kana": "よびます", "romaji": "yobimasu", "meaning": "呼叫，叫（出租车等）", "conjugations": { "masu": "呼びます", "dictionary": "呼ぶ", "te": "呼んで", "nai": "呼ばない", "ta": "呼んだ" }, "sentences": [{ "ja": "タクシーを呼びます。", "zh": "叫出租车。" }] },
+    { "id": "L14-W11", "category": "Verbs", "grammarType": "Group I", "kanji": "話します", "kana": "はなします", "romaji": "hanashimasu", "meaning": "说话，讲", "conjugations": { "masu": "話します", "dictionary": "話す", "te": "話して", "nai": "話さない", "ta": "話した" }, "sentences": [{ "ja": "ゆっくり話してください。", "zh": "请慢慢说。" }] },
+    { "id": "L14-W12", "category": "Verbs", "grammarType": "Group I", "kanji": "使います", "kana": "つかいます", "romaji": "tsukaimasu", "meaning": "使用", "conjugations": { "masu": "使います", "dictionary": "使う", "te": "使って", "nai": "使わない", "ta": "使った" }, "sentences": [{ "ja": "ペンを使ってもいいですか。", "zh": "可以使用这支笔吗？" }] },
+    { "id": "L14-W13", "category": "Verbs", "grammarType": "Group II", "kanji": "止めます", "kana": "とめます", "romaji": "tomemasu", "meaning": "停下，停车", "conjugations": { "masu": "止めます", "dictionary": "止める", "te": "止めて", "nai": "止めない", "ta": "止めた" }, "sentences": [{ "ja": "ここに車を止めてください。", "zh": "请在这里停车。" }] },
+    { "id": "L14-W14", "category": "Verbs", "grammarType": "Group II", "kanji": "見せます", "kana": "みせます", "romaji": "misemasu", "meaning": "出示，给...看", "conjugations": { "masu": "見せます", "dictionary": "見せる", "te": "見せて", "nai": "見せない", "ta": "見せた" }, "sentences": [{ "ja": "パスポートを見せてください。", "zh": "请出示护照。" }] },
+    { "id": "L14-W15", "category": "Verbs", "grammarType": "Group II", "kanji": "教えます", "kana": "おしえます", "romaji": "oshiemasu", "meaning": "告诉，教（地址、语言等）", "conjugations": { "masu": "教えます", "dictionary": "教える", "te": "教えて", "nai": "教えない", "ta": "教えた" }, "sentences": [{ "ja": "住所を教えてください。", "zh": "请告诉我地址。" }] },
+    { "id": "L14-W16", "category": "Verbs", "grammarType": "Group I", "kanji": "座ります", "kana": "すわります", "romaji": "suwarimasu", "meaning": "坐下", "conjugations": { "masu": "座ります", "dictionary": "座る", "te": "座って", "nai": "座らない", "ta": "座った" }, "sentences": [{ "ja": "ここに座ってください。", "zh": "请坐在这里。" }] },
+    { "id": "L14-W17", "category": "Verbs", "grammarType": "Group I", "kanji": "立ちます", "kana": "たちます", "romaji": "tachimasu", "meaning": "站立", "conjugations": { "masu": "立ちます", "dictionary": "立つ", "te": "立って", "nai": "立たない", "ta": "立った" }, "sentences": [{ "ja": "立たないでください。", "zh": "请不要站起来。" }] },
+    { "id": "L14-W18", "category": "Verbs", "grammarType": "Group I", "kanji": "入ります", "kana": "はいります", "romaji": "hairimasu", "meaning": "进入", "conjugations": { "masu": "入ります", "dictionary": "入る", "te": "入って", "nai": "入らない", "ta": "入った" }, "sentences": [{ "ja": "喫茶店に入ります。", "zh": "进咖啡店。" }] },
+    { "id": "L14-W19", "category": "Verbs", "grammarType": "Group II", "kanji": "出ます", "kana": "でます", "romaji": "demasu", "meaning": "出去，离开", "conjugations": { "masu": "出ます", "dictionary": "出る", "te": "出て", "nai": "出ない", "ta": "出た" }, "sentences": [{ "ja": "喫茶店を出ます。", "zh": "离开咖啡店。" }] },
+    { "id": "L14-W20", "category": "Verbs", "grammarType": "Group I", "kanji": "降ります", "kana": "ふります", "romaji": "furimasu", "meaning": "降（雨、雪）", "conjugations": { "masu": "降ります", "dictionary": "降る", "te": "降って", "nai": "降らない", "ta": "降った" }, "sentences": [{ "ja": "雨が降っています。", "zh": "正在下雨。" }] },
+    { "id": "L14-W21", "category": "Verbs", "grammarType": "Irregular", "kanji": "コピーします", "kana": "コピーします", "romaji": "kopiishimasu", "meaning": "复印", "conjugations": { "masu": "コピーします", "dictionary": "コピーする", "te": "コピーして", "nai": "コピーしない", "ta": "コピーした" }, "sentences": [{ "ja": "資料をコピーします。", "zh": "复印资料。" }] },
     { "id": "L14-W22", "category": "Nouns", "kanji": "電気", "kana": "でんき", "romaji": "denki", "meaning": "电，电灯", "sentences": [{ "ja": "電気を消します。", "zh": "关灯。" }] },
     { "id": "L14-W23", "category": "Nouns", "kanji": "住所", "kana": "じゅうしょ", "romaji": "juusho", "meaning": "地址", "sentences": [{ "ja": "住所を書きます。", "zh": "写地址。" }] },
     { "id": "L14-W24", "category": "Nouns", "kanji": "地図", "kana": "ちず", "romaji": "chizu", "meaning": "地图", "sentences": [{ "ja": "地図を書いてください。", "zh": "请画地图。" }] },
@@ -520,12 +520,12 @@ export const STATIC_LESSONS: Record<number, VocabularyItem[]> = {
     { "id": "L14-W26", "category": "Expressions", "kanji": "ゆっくり", "kana": "ゆっくり", "romaji": "yukkuri", "meaning": "慢慢地", "sentences": [{ "ja": "ゆっくり休んでください。", "zh": "请好好休息。" }] }
   ],
   15: [
-    { "id": "L15-W1", "category": "Verbs", "grammarType": "Group I", "kanji": "置きます", "kana": "おきます", "romaji": "okimasu", "meaning": "放置，放在", "conjugations": { "masu": "おきます", "dictionary": "おく", "te": "おいて" }, "sentences": [{ "ja": "ここに荷物を置いてください。", "zh": "请把行李放在这儿。" }, { "ja": "辞書は机の上に置いてあります。", "zh": "字典放在桌子上。" }] },
-    { "id": "L15-W2", "category": "Verbs", "grammarType": "Group I", "kanji": "作ります", "kana": "つくります", "romaji": "tsukurimasu", "meaning": "做，制造", "conjugations": { "masu": "つくります", "dictionary": "つくる", "te": "つくって" }, "sentences": [{ "ja": "母は料理を作っています。", "zh": "母亲正在做饭。" }, { "ja": "この工場で車を作っています。", "zh": "这个工厂在制造汽车。" }] },
-    { "id": "L15-W3", "category": "Verbs", "grammarType": "Group I", "kanji": "売ります", "kana": "うります", "romaji": "urimasu", "meaning": "卖，销售", "conjugations": { "masu": "うります", "dictionary": "うる", "te": "うって" }, "sentences": [{ "ja": "スーパーで野菜を売っています。", "zh": "超市里在卖蔬菜。" }, { "ja": "古い本を売りました。", "zh": "把旧书卖了。" }] },
-    { "id": "L15-W4", "category": "Verbs", "grammarType": "Group I", "kanji": "知ります", "kana": "しります", "romaji": "shirimasu", "meaning": "知道，认识", "conjugations": { "masu": "しります", "dictionary": "しる", "te": "しって" }, "sentences": [{ "ja": "そのニュースを知っていますか。", "zh": "你知道那个新闻吗？" }, { "ja": "いいえ、知りません。", "zh": "不，不知道。" }] },
-    { "id": "L15-W5", "category": "Verbs", "grammarType": "Group I", "kanji": "住みます", "kana": "すみまず", "romaji": "sumimasu", "meaning": "居住", "conjugations": { "masu": "すみます", "dictionary": "すむ", "te": "すんで" }, "sentences": [{ "ja": "私は東京に住んでいます。", "zh": "我住在东京。" }, { "ja": "どこに住んでいますか。", "zh": "你住在哪里？" }] },
-    { "id": "L15-W6", "category": "Verbs", "grammarType": "Group III", "kanji": "研究します", "kana": "けんきゅうします", "romaji": "kenkyuushimasu", "meaning": "研究", "conjugations": { "masu": "けんきゅうします", "dictionary": "けんきゅうする", "te": "けんきゅうして" }, "sentences": [{ "ja": "大学で経済を研究しています。", "zh": "在大学研究经济。" }, { "ja": "日本の文化を研究したいです。", "zh": "我想研究日本文化。" }] },
+    { "id": "L15-W1", "category": "Verbs", "grammarType": "Group I", "kanji": "置きます", "kana": "おきます", "romaji": "okimasu", "meaning": "放置，放在", "conjugations": { "masu": "置きます", "dictionary": "おく", "te": "おいて", "nai": "おかない", "ta": "おいた" }, "sentences": [{ "ja": "ここに荷物を置いてください。", "zh": "请把行李放在这儿。" }, { "ja": "辞書は机の上に置いてあります。", "zh": "字典放在桌子上。" }] },
+    { "id": "L15-W2", "category": "Verbs", "grammarType": "Group I", "kanji": "作ります", "kana": "つくります", "romaji": "tsukurimasu", "meaning": "做，制造", "conjugations": { "masu": "作ります", "dictionary": "つくる", "te": "つくって", "nai": "つくらない", "ta": "つくった" }, "sentences": [{ "ja": "母は料理を作っています。", "zh": "母亲正在做饭。" }, { "ja": "この工場で車を作っています。", "zh": "这个工厂在制造汽车。" }] },
+    { "id": "L15-W3", "category": "Verbs", "grammarType": "Group I", "kanji": "売ります", "kana": "うります", "romaji": "urimasu", "meaning": "卖，销售", "conjugations": { "masu": "売ります", "dictionary": "うる", "te": "うって", "nai": "うらない", "ta": "うった" }, "sentences": [{ "ja": "スーパーで野菜を売っています。", "zh": "超市里在卖蔬菜。" }, { "ja": "古い本を売りました。", "zh": "把旧书卖了。" }] },
+    { "id": "L15-W4", "category": "Verbs", "grammarType": "Group I", "kanji": "知ります", "kana": "しります", "romaji": "shirimasu", "meaning": "知道，认识", "conjugations": { "masu": "知ります", "dictionary": "しる", "te": "しって", "nai": "しらない", "ta": "しった" }, "sentences": [{ "ja": "そのニュースを知っていますか。", "zh": "你知道那个新闻吗？" }, { "ja": "いいえ、知りません。", "zh": "不，不知道。" }] },
+    { "id": "L15-W5", "category": "Verbs", "grammarType": "Group I", "kanji": "住みます", "kana": "すみます", "romaji": "sumimasu", "meaning": "居住", "conjugations": { "masu": "住みます", "dictionary": "すむ", "te": "すんで", "nai": "すまない", "ta": "すんだ" }, "sentences": [{ "ja": "私は東京に住んでいます。", "zh": "我住在东京。" }, { "ja": "どこに住んでいますか。", "zh": "你住在哪里？" }] },
+    { "id": "L15-W6", "category": "Verbs", "grammarType": "Irregular", "kanji": "研究します", "kana": "けんきゅうします", "romaji": "kenkyuushimasu", "meaning": "研究", "conjugations": { "masu": "研究します", "dictionary": "けんきゅうする", "te": "けんきゅうして", "nai": "けんきゅうしない", "ta": "けんきゅうした" }, "sentences": [{ "ja": "大学で経済を研究しています。", "zh": "在大学研究经济。" }, { "ja": "日本の文化を研究したいです。", "zh": "我想研究日本文化。" }] },
     { "id": "L15-W7", "category": "Nouns", "kanji": "資料", "kana": "しりょう", "romaji": "shiryou", "meaning": "资料", "sentences": [{ "ja": "会議の資料を作ります。", "zh": "准备会议资料。" }, { "ja": "資料をコピーしてください。", "zh": "请复印资料。" }] },
     { "id": "L15-W8", "category": "Nouns", "kanji": "カタログ", "kana": "カタログ", "romaji": "katarogu", "meaning": "目录", "sentences": [{ "ja": "新しい車のカタログです。", "zh": "是新车的目录。" }, { "ja": "カタログを見て選びます。", "zh": "看目录挑选。" }] },
     { "id": "L15-W9", "category": "Nouns", "kanji": "時刻表", "kana": "じこくひょう", "romaji": "jikokuhyou", "meaning": "时刻表", "sentences": [{ "ja": "電車の時刻表を調べます。", "zh": "查电车时刻表。" }, { "ja": "時刻表はどこにありますか。", "zh": "时刻表在哪儿？" }] },
@@ -539,23 +539,23 @@ export const STATIC_LESSONS: Record<number, VocabularyItem[]> = {
     { "id": "L15-W17", "category": "Nouns", "kanji": "独身", "kana": "どくしん", "romaji": "dokushin", "meaning": "单身，未婚", "sentences": [{ "ja": "私はまだ独身です。", "zh": "我还单身。" }, { "ja": "ミラーさんは独身ですか。", "zh": "米勒先生是单身吗？" }] },
     { "id": "L15-W18", "category": "Nouns", "kanji": "高校", "kana": "こうこう", "romaji": "koukou", "meaning": "高中", "sentences": [{ "ja": "高校の時、サッカーをしていました。", "zh": "高中的时候踢足球。" }, { "ja": "あの人は高校の先生です。", "zh": "那个人是高中老师。" }] },
     { "id": "L15-W19", "category": "Expressions", "kanji": "特に", "kana": "とくに", "romaji": "toku ni", "meaning": "特别，尤其", "sentences": [{ "ja": "日本料理、特に寿司が好きです。", "zh": "喜欢日本料理，尤其是寿司。" }, { "ja": "昨日は特に忙しかったです。", "zh": "昨天特别忙。" }] },
-    { "id": "L15-W20", "category": "Expressions", "kanji": "思い出します", "kana": "おもいだします", "romaji": "omoidashimasu", "meaning": "想起，回忆起", "conjugations": { "masu": "おもいだします", "dictionary": "おもいだす", "te": "おもいだして" }, "sentences": [{ "ja": "名前を思い出しました。", "zh": "我想起名字来了。" }, { "ja": "子供の時を思い出します。", "zh": "回忆起小时候。" }] },
+    { "id": "L15-W20", "category": "Verbs", "grammarType": "Group I", "kanji": "思い出します", "kana": "おもいだします", "romaji": "omoidashimasu", "meaning": "想起，回忆起", "conjugations": { "masu": "思い出します", "dictionary": "おもいだす", "te": "おもいだして", "nai": "おもいださない", "ta": "おもいだした" }, "sentences": [{ "ja": "名前を思い出しました。", "zh": "我想起名字来了。" }, { "ja": "子供の時を思い出します。", "zh": "回忆起小时候。" }] },
     { "id": "L15-W21", "category": "Nouns", "kanji": "ご家族", "kana": "ごかぞく", "romaji": "gokazoku", "meaning": "（他人的）家属，家人", "sentences": [{ "ja": "ご家族はどちらですか。", "zh": "您家里人在哪里？" }, { "ja": "ご家族によろしくお伝えください。", "zh": "请向您的家人代好。" }] },
-    { "id": "L15-W22", "category": "Nouns", "kanji": "いらっしゃいます", "kana": "いらっしゃいます", "romaji": "irasshaimasu", "meaning": "（います的礼貌形）", "conjugations": { "masu": "いらっしゃいます", "dictionary": "いらっしゃる", "te": "いらっしゃって" }, "sentences": [{ "ja": "ご主人はどちらにいらっしゃいますか。", "zh": "您先生在哪里？" }, { "ja": "先生はいらっしゃいますか。", "zh": "老师在吗？" }] }
+    { "id": "L15-W22", "category": "Verbs", "grammarType": "Group I", "kanji": "いらっしゃいます", "kana": "いらっしゃいます", "romaji": "irasshaimasu", "meaning": "（います的礼貌形）", "conjugations": { "masu": "いらっしゃいます", "dictionary": "いらっしゃる", "te": "いらっしゃって", "nai": "いらっしゃらない", "ta": "いらっしゃった" }, "sentences": [{ "ja": "ご主人はどちらにいらっしゃいますか。", "zh": "您先生在哪里？" }, { "ja": "先生はいらっしゃいますか。", "zh": "老师在吗？" }] }
   ],
   16: [
-    { "id": "L16-W1", "category": "Verbs", "grammarType": "Group I", "kanji": "乗ります", "kana": "のります", "romaji": "norimasu", "meaning": "乘坐，搭乘", "conjugations": { "masu": "のります", "dictionary": "のる", "te": "のって" }, "sentences": [{ "ja": "電車に乗ります。", "zh": "乘坐电车。" }, { "ja": "バスに乗って、学校へ行きます。", "zh": "乘巴士去学校。" }] },
-    { "id": "L16-W2", "category": "Verbs", "grammarType": "Group II", "kanji": "降ります", "kana": "おります", "romaji": "orimasu", "meaning": "下（车）", "conjugations": { "masu": "おります", "dictionary": "おりる", "te": "おりて" }, "sentences": [{ "ja": "次の駅で降ります。", "zh": "在下一站下车。" }, { "ja": "電車を降りました。", "zh": "下了电车。" }] },
-    { "id": "L16-W3", "category": "Verbs", "grammarType": "Group II", "kanji": "乗り換えます", "kana": "のりかえます", "romaji": "norikaemasu", "meaning": "换乘", "conjugations": { "masu": "のりかえます", "dictionary": "のりかえる", "te": "のりかえて" }, "sentences": [{ "ja": "東京駅で新幹線に乗り換えます。", "zh": "在东京站换乘新干线。" }, { "ja": "地下鉄に乗り換えてください。", "zh": "请换乘地铁。" }] },
-    { "id": "L16-W4", "category": "Verbs", "grammarType": "Group II", "kanji": "浴びます", "kana": "あびます", "romaji": "abimasu", "meaning": "淋浴", "conjugations": { "masu": "あびます", "dictionary": "あびる", "te": "あびて" }, "sentences": [{ "ja": "シャワーを浴びます。", "zh": "淋浴。" }, { "ja": "毎朝シャワーを浴びますか。", "zh": "你每天早上都淋浴吗？" }] },
-    { "id": "L16-W5", "category": "Verbs", "grammarType": "Group II", "kanji": "入れます", "kana": "いれます", "romaji": "iremasu", "meaning": "放入，放进", "conjugations": { "masu": "いれます", "dictionary": "いれる", "te": "いれて" }, "sentences": [{ "ja": "砂糖を入れますか。", "zh": "要放糖吗？" }, { "ja": "かばんに本を入れました。", "zh": "把书放进了包里。" }] },
-    { "id": "L16-W6", "category": "Verbs", "grammarType": "Group I", "kanji": "出します", "kana": "だします", "romaji": "dashimasu", "meaning": "拿出，取出", "conjugations": { "masu": "だします", "dictionary": "だす", "te": "だして" }, "sentences": [{ "ja": "財布からお金を出します。", "zh": "从钱包里拿出钱。" }, { "ja": "レポートを出してください。", "zh": "请提交报告。" }] },
-    { "id": "L16-W7", "category": "Verbs", "grammarType": "Group I", "kanji": "下ろします", "kana": "おろします", "romaji": "oroshimasu", "meaning": "取（钱）", "conjugations": { "masu": "おろします", "dictionary": "おろす", "te": "おろして" }, "sentences": [{ "ja": "銀行でお金を下ろします。", "zh": "在银行取钱。" }, { "ja": "ATMでお金を下ろせます。", "zh": "可以在ATM取钱。" }] },
-    { "id": "L16-W8", "category": "Verbs", "grammarType": "Group I", "kanji": "入ります", "kana": "はいります", "romaji": "hairimasu", "meaning": "进入", "conjugations": { "masu": "はいります", "dictionary": "はいる", "te": "はいって" }, "sentences": [{ "ja": "大学に入ります。", "zh": "上大学。" }, { "ja": "喫茶店に入りましょう。", "zh": "我们进咖啡店吧。" }] },
-    { "id": "L16-W9", "category": "Verbs", "grammarType": "Group II", "kanji": "出ます", "kana": "でます", "romaji": "demasu", "meaning": "出，出去", "conjugations": { "masu": "でます", "dictionary": "でる", "te": "でて" }, "sentences": [{ "ja": "大学を出ます。", "zh": "大学毕业。" }, { "ja": "部屋から出てください。", "zh": "请从房间里出去。" }] },
-    { "id": "L16-W10", "category": "Verbs", "grammarType": "Group I", "kanji": "押します", "kana": "おします", "romaji": "oshimasu", "meaning": "按，推", "conjugations": { "masu": "おします", "dictionary": "おす", "te": "おして" }, "sentences": [{ "ja": "このボタンを押してください。", "zh": "请按这个按钮。" }, { "ja": "ドアを押します。", "zh": "推门。" }] },
-    { "id": "L16-W11", "category": "Verbs", "grammarType": "Group III", "kanji": "見学します", "kana": "けんがくします", "romaji": "kengakushimasu", "meaning": "参观", "conjugations": { "masu": "けんがくします", "dictionary": "けんがくする", "te": "けんがくして" }, "sentences": [{ "ja": "工場を見学します。", "zh": "参观工厂。" }, { "ja": "明日、博物館を見学する予定です。", "zh": "明天计划参观博物馆。" }] },
-    { "id": "L16-W12", "category": "Verbs", "grammarType": "Group III", "kanji": "電話します", "kana": "でんわします", "romaji": "denwashimasu", "meaning": "打电话", "conjugations": { "masu": "でんわします", "dictionary": "でんわする", "te": "でんわして" }, "sentences": [{ "ja": "友達に電話します。", "zh": "给朋友打电话。" }, { "ja": "後で電話してください。", "zh": "请稍后打电话。" }] },
+    { "id": "L16-W1", "category": "Verbs", "grammarType": "Group I", "kanji": "乗ります", "kana": "のります", "romaji": "norimasu", "meaning": "乘坐，搭乘", "conjugations": { "masu": "乗ります", "dictionary": "のる", "te": "のって", "nai": "のらない", "ta": "のった" }, "sentences": [{ "ja": "電車に乗ります。", "zh": "乘坐电车。" }, { "ja": "バスに乗って、学校へ行きます。", "zh": "乘巴士去学校。" }] },
+    { "id": "L16-W2", "category": "Verbs", "grammarType": "Group II", "kanji": "降ります", "kana": "おります", "romaji": "orimasu", "meaning": "下（车）", "conjugations": { "masu": "降ります", "dictionary": "おりる", "te": "おりて", "nai": "おりない", "ta": "おりた" }, "sentences": [{ "ja": "次の駅で降ります。", "zh": "在下一站下车。" }, { "ja": "電車を降りました。", "zh": "下了电车。" }] },
+    { "id": "L16-W3", "category": "Verbs", "grammarType": "Group II", "kanji": "乗り換えます", "kana": "のりかえます", "romaji": "norikaemasu", "meaning": "换乘", "conjugations": { "masu": "乗り換えます", "dictionary": "のりかえる", "te": "のりかえて", "nai": "のりかえない", "ta": "のりかえた" }, "sentences": [{ "ja": "東京駅で新幹線に乗り換えます。", "zh": "在东京站换乘新干线。" }, { "ja": "地下鉄に乗り換えてください。", "zh": "请换乘地铁。" }] },
+    { "id": "L16-W4", "category": "Verbs", "grammarType": "Group II", "kanji": "浴びます", "kana": "あびます", "romaji": "abimasu", "meaning": "淋浴", "conjugations": { "masu": "浴びます", "dictionary": "あびる", "te": "あびて", "nai": "あびない", "ta": "あびた" }, "sentences": [{ "ja": "シャワーを浴びます。", "zh": "淋浴。" }, { "ja": "毎朝シャワーを浴びますか。", "zh": "你每天早上都淋浴吗？" }] },
+    { "id": "L16-W5", "category": "Verbs", "grammarType": "Group II", "kanji": "入れます", "kana": "いれます", "romaji": "iremasu", "meaning": "放入，放进", "conjugations": { "masu": "入れます", "dictionary": "いれる", "te": "いれて", "nai": "いれない", "ta": "いれた" }, "sentences": [{ "ja": "砂糖を入れますか。", "zh": "要放糖吗？" }, { "ja": "かばんに本を入れました。", "zh": "把书放进了包里。" }] },
+    { "id": "L16-W6", "category": "Verbs", "grammarType": "Group I", "kanji": "出します", "kana": "だします", "romaji": "dashimasu", "meaning": "拿出，取出", "conjugations": { "masu": "出します", "dictionary": "だす", "te": "だして", "nai": "ださない", "ta": "だした" }, "sentences": [{ "ja": "財布からお金を出します。", "zh": "从钱包里拿出钱。" }, { "ja": "レポートを出してください。", "zh": "请提交报告。" }] },
+    { "id": "L16-W7", "category": "Verbs", "grammarType": "Group I", "kanji": "下ろします", "kana": "おろします", "romaji": "oroshimasu", "meaning": "取（钱）", "conjugations": { "masu": "下ろします", "dictionary": "おろす", "te": "おろして", "nai": "おろさない", "ta": "おろした" }, "sentences": [{ "ja": "銀行でお金を下ろします。", "zh": "在银行取钱。" }, { "ja": "ATMでお金を下ろせます。", "zh": "可以在ATM取钱。" }] },
+    { "id": "L16-W8", "category": "Verbs", "grammarType": "Group I", "kanji": "入ります", "kana": "はいります", "romaji": "hairimasu", "meaning": "进入", "conjugations": { "masu": "入ります", "dictionary": "はいる", "te": "はいって", "nai": "はいらない", "ta": "はいった" }, "sentences": [{ "ja": "大学に入ります。", "zh": "上大学。" }, { "ja": "喫茶店に入りましょう。", "zh": "我们进咖啡店吧。" }] },
+    { "id": "L16-W9", "category": "Verbs", "grammarType": "Group II", "kanji": "出ます", "kana": "でます", "romaji": "demasu", "meaning": "出，出去", "conjugations": { "masu": "出ます", "dictionary": "でる", "te": "でて", "nai": "でない", "ta": "でた" }, "sentences": [{ "ja": "大学を出ます。", "zh": "大学毕业。" }, { "ja": "部屋から出てください。", "zh": "请从房间里出去。" }] },
+    { "id": "L16-W10", "category": "Verbs", "grammarType": "Group I", "kanji": "押します", "kana": "おします", "romaji": "oshimasu", "meaning": "按，推", "conjugations": { "masu": "押します", "dictionary": "おす", "te": "おして", "nai": "おさない", "ta": "おした" }, "sentences": [{ "ja": "このボタンを押してください。", "zh": "请按这个按钮。" }, { "ja": "ドアを押します。", "zh": "推门。" }] },
+    { "id": "L16-W11", "category": "Verbs", "grammarType": "Irregular", "kanji": "見学します", "kana": "けんがくします", "romaji": "kengakushimasu", "meaning": "参观", "conjugations": { "masu": "見学します", "dictionary": "けんがくする", "te": "けんがくして", "nai": "けんがくしない", "ta": "けんがくした" }, "sentences": [{ "ja": "工場を見学します。", "zh": "参观工厂。" }, { "ja": "明日、博物館を見学する予定です。", "zh": "明天计划参观博物馆。" }] },
+    { "id": "L16-W12", "category": "Verbs", "grammarType": "Irregular", "kanji": "電話します", "kana": "でんわします", "romaji": "denwashimasu", "meaning": "打电话", "conjugations": { "masu": "電話します", "dictionary": "でんわする", "te": "でんわして", "nai": "でんわしない", "ta": "でんわした" }, "sentences": [{ "ja": "友達に電話します。", "zh": "给朋友打电话。" }, { "ja": "後で電話してください。", "zh": "请稍后打电话。" }] },
     { "id": "L16-W13", "category": "Adjectives", "grammarType": "i-adj", "kanji": "若い", "kana": "わかい", "romaji": "wakai", "meaning": "年轻", "sentences": [{ "ja": "あの人はまだ若いです。", "zh": "那个人还很年轻。" }, { "ja": "若い時にたくさん勉強しました。", "zh": "年轻的时候学了很多东西。" }] },
     { "id": "L16-W14", "category": "Adjectives", "grammarType": "i-adj", "kanji": "長い", "kana": "ながい", "romaji": "nagai", "meaning": "长", "sentences": [{ "ja": "髪が長いです。", "zh": "头发很长。" }, { "ja": "長い小説を読みました。", "zh": "读了很长的小说。" }] },
     { "id": "L16-W15", "category": "Adjectives", "grammarType": "i-adj", "kanji": "短い", "kana": "みじかい", "romaji": "mijikai", "meaning": "短", "sentences": [{ "ja": "スカートが短いです。", "zh": "裙子很短。" }, { "ja": "短い手紙を書きました。", "zh": "写了封短信息。" }] },
@@ -578,18 +578,18 @@ export const STATIC_LESSONS: Record<number, VocabularyItem[]> = {
     { "id": "L16-W32", "category": "Nouns", "kanji": "キャッシュカード", "kana": "キャッシュカード", "romaji": "kyasshuka-do", "meaning": "银行卡", "sentences": [{ "ja": "キャッシュカードをなくしました。", "zh": "我丢了银行卡。" }, { "ja": "キャッシュカードで支払います。", "zh": "我用银行卡支付。" }] }
   ],
   17: [
-    { "id": "L17-W1", "category": "Verbs", "grammarType": "Group II", "kanji": "覚えます", "kana": "おぼえます", "romaji": "oboemasu", "meaning": "记住", "conjugations": { "masu": "おぼえます", "dictionary": "おぼえる", "te": "おぼえて" }, "sentences": [{ "ja": "新しい言葉を覚えます。", "zh": "记住新单词。" }, { "ja": "電話番号を覚えてください。", "zh": "请记住电话号码。" }] },
-    { "id": "L17-W2", "category": "Verbs", "grammarType": "Group II", "kanji": "忘れます", "kana": "わすれます", "romaji": "wasuremasu", "meaning": "忘记", "conjugations": { "masu": "わすれます", "dictionary": "わすれる", "te": "わすれて" }, "sentences": [{ "ja": "宿題を忘れました。", "zh": "忘了作业。" }, { "ja": "傘を忘れないでください。", "zh": "请不要忘记带伞。" }] },
-    { "id": "L17-W3", "category": "Verbs", "grammarType": "Group I", "kanji": "なくします", "kana": "なくします", "romaji": "nakushimasu", "meaning": "丢失", "conjugations": { "masu": "なくします", "dictionary": "なくす", "te": "なくして" }, "sentences": [{ "ja": "鍵をなくしました。", "zh": "把钥匙弄丢了。" }, { "ja": "財布をなくさないように、気をつけます。", "zh": "注意不要把钱包弄丢。" }] },
-    { "id": "L17-W4", "category": "Verbs", "grammarType": "Group I", "kanji": "払います", "kana": "はらいます", "romaji": "haraimasu", "meaning": "支付", "conjugations": { "masu": "はらいます", "dictionary": "はらう", "te": "はらって" }, "sentences": [{ "ja": "カードでお金を払います。", "zh": "用卡付钱。" }, { "ja": "電気代を払わなければなりません。", "zh": "必须支付电费。" }] },
-    { "id": "L17-W5", "category": "Verbs", "grammarType": "Group I", "kanji": "返します", "kana": "かえします", "romaji": "kaeshimasu", "meaning": "归还", "conjugations": { "masu": "かえします", "dictionary": "かえす", "te": "かえして" }, "sentences": [{ "ja": "図書館に本を返します。", "zh": "把书还给图书馆。" }, { "ja": "借りたお金はすぐに返してください。", "zh": "请立即归还借的钱。" }] },
-    { "id": "L17-W6", "category": "Verbs", "grammarType": "Group II", "kanji": "出かけます", "kana": "でかけます", "romaji": "dekakemasu", "meaning": "出门，外出", "conjugations": { "masu": "でかけます", "dictionary": "でかける", "te": "でかけて" }, "sentences": [{ "ja": "日曜日に友達と出かけます。", "zh": "星期天和朋友出去。" }, { "ja": "これからちょっと出かけます。", "zh": "现在要出去一下。" }] },
-    { "id": "L17-W7", "category": "Verbs", "grammarType": "Group I", "kanji": "脱ぎます", "kana": "ぬぎます", "romaji": "nugimasu", "meaning": "脱（衣服、鞋）", "conjugations": { "masu": "ぬぎます", "dictionary": "ぬぐ", "te": "ぬいで" }, "sentences": [{ "ja": "家に入るとき、靴を脱ぎます。", "zh": "进屋时要脱鞋。" }, { "ja": "コートを脱いでください。", "zh": "请脱下外套。" }] },
-    { "id": "L17-W8", "category": "Verbs", "grammarType": "Group I", "kanji": "持って行きます", "kana": "もっていきます", "romaji": "motteikimasu", "meaning": "带去", "conjugations": { "masu": "もっていきます", "dictionary": "もっていく", "te": "もっていって" }, "sentences": [{ "ja": "パーティーにワインを持って行きます。", "zh": "带葡萄酒去派对。" }, { "ja": "ごみを外に持って行ってください。", "zh": "请把垃圾带到外面去。" }] },
-    { "id": "L17-W9", "category": "Verbs", "grammarType": "Group III", "kanji": "持って来ます", "kana": "もってきます", "romaji": "mottekimasu", "meaning": "带来", "conjugations": { "masu": "もってきます", "dictionary": "もってくる", "te": "もってきて" }, "sentences": [{ "ja": "明日の会議に資料を持って来てください。", "zh": "请带资料来参加明天的会议。" }, { "ja": "宿題を持って来ましたか。", "zh": "作业带来了吗？" }] },
-    { "id": "L17-W10", "category": "Verbs", "grammarType": "Group III", "kanji": "心配します", "kana": "しんぱいします", "romaji": "shinpaishimasu", "meaning": "担心", "conjugations": { "masu": "しんぱいします", "dictionary": "しんぱいする", "te": "しんぱいして" }, "sentences": [{ "ja": "家族のことを心配しています。", "zh": "在担心家人的事。" }, { "ja": "心配しないでください。大丈夫です。", "zh": "请不要担心。没事的。" }] },
-    { "id": "L17-W11", "category": "Verbs", "grammarType": "Group III", "kanji": "残業します", "kana": "ざんぎょうします", "romaji": "zangyoushimasu", "meaning": "加班", "conjugations": { "masu": "ざんぎょうします", "dictionary": "ざんぎょうする", "te": "ざんぎょうして" }, "sentences": [{ "ja": "毎晩遅くまで残業します。", "zh": "每晚加班到很晚。" }, { "ja": "今日は残業しなければなりません。", "zh": "今天必须加班。" }] },
-    { "id": "L17-W12", "category": "Verbs", "grammarType": "Group III", "kanji": "出張します", "kana": "しゅっちょうします", "romaji": "shucchoushimasu", "meaning": "出差", "conjugations": { "masu": "しゅっちょうします", "dictionary": "しゅっちょうする", "te": "しゅっちょうして" }, "sentences": [{ "ja": "来週大阪へ出張します。", "zh": "下周去大阪出差。" }, { "ja": "アメリカへ出張したことがあります。", "zh": "去美国出差过。" }] },
+    { "id": "L17-W1", "category": "Verbs", "grammarType": "Group II", "kanji": "覚えます", "kana": "おぼえます", "romaji": "oboemasu", "meaning": "记住", "conjugations": { "masu": "覚えます", "dictionary": "おぼえる", "te": "おぼえて", "nai": "おぼえない", "ta": "おぼえた" }, "sentences": [{ "ja": "新しい言葉を覚えます。", "zh": "记住新单词。" }, { "ja": "電話番号を覚えてください。", "zh": "请记住电话号码。" }] },
+    { "id": "L17-W2", "category": "Verbs", "grammarType": "Group II", "kanji": "忘れます", "kana": "わすれます", "romaji": "wasuremasu", "meaning": "忘记", "conjugations": { "masu": "忘れます", "dictionary": "わすれる", "te": "わすれて", "nai": "わすれない", "ta": "わすれた" }, "sentences": [{ "ja": "宿題を忘れました。", "zh": "忘了作业。" }, { "ja": "傘を忘れないでください。", "zh": "请不要忘记带伞。" }] },
+    { "id": "L17-W3", "category": "Verbs", "grammarType": "Group I", "kanji": "なくします", "kana": "なくします", "romaji": "nakushimasu", "meaning": "丢失", "conjugations": { "masu": "なくします", "dictionary": "なくす", "te": "なくして", "nai": "なくさない", "ta": "なくした" }, "sentences": [{ "ja": "鍵をなくしました。", "zh": "把钥匙弄丢了。" }, { "ja": "財布をなくさないように、気をつけます。", "zh": "注意不要把钱包弄丢。" }] },
+    { "id": "L17-W4", "category": "Verbs", "grammarType": "Group I", "kanji": "払います", "kana": "はらいます", "romaji": "haraimasu", "meaning": "支付", "conjugations": { "masu": "払います", "dictionary": "はらう", "te": "はらって", "nai": "はらわない", "ta": "はらった" }, "sentences": [{ "ja": "カードでお金を払います。", "zh": "用卡付钱。" }, { "ja": "電気代を払わなければなりません。", "zh": "必须支付电费。" }] },
+    { "id": "L17-W5", "category": "Verbs", "grammarType": "Group I", "kanji": "返します", "kana": "かえします", "romaji": "kaeshimasu", "meaning": "归还", "conjugations": { "masu": "返します", "dictionary": "かえす", "te": "かえして", "nai": "かえさない", "ta": "かえした" }, "sentences": [{ "ja": "図書館に本を返します。", "zh": "把书还给图书馆。" }, { "ja": "借りたお金はすぐに返してください。", "zh": "请立即归还借的钱。" }] },
+    { "id": "L17-W6", "category": "Verbs", "grammarType": "Group II", "kanji": "出かけます", "kana": "でかけます", "romaji": "dekakemasu", "meaning": "出门，外出", "conjugations": { "masu": "出かけます", "dictionary": "でかける", "te": "でかけて", "nai": "でかけない", "ta": "でかけた" }, "sentences": [{ "ja": "日曜日に友達と出かけます。", "zh": "星期天和朋友出去。" }, { "ja": "これからちょっと出かけます。", "zh": "现在要出去一下。" }] },
+    { "id": "L17-W7", "category": "Verbs", "grammarType": "Group I", "kanji": "脱ぎます", "kana": "ぬぎます", "romaji": "nugimasu", "meaning": "脱（衣服、鞋）", "conjugations": { "masu": "脱ぎます", "dictionary": "ぬぐ", "te": "ぬいで", "nai": "ぬがない", "ta": "ぬいだ" }, "sentences": [{ "ja": "家に入るとき、靴を脱ぎます。", "zh": "进屋时要脱鞋。" }, { "ja": "コートを脱いでください。", "zh": "请脱下外套。" }] },
+    { "id": "L17-W8", "category": "Verbs", "grammarType": "Group I", "kanji": "持って行きます", "kana": "もっていきます", "romaji": "motteikimasu", "meaning": "带去", "conjugations": { "masu": "持って行きます", "dictionary": "もっていく", "te": "もっていって", "nai": "もっていかない", "ta": "もっていった" }, "sentences": [{ "ja": "パーティーにワインを持って行きます。", "zh": "带葡萄酒去派对。" }, { "ja": "ごみを外に持って行ってください。", "zh": "请把垃圾带到外面去。" }] },
+    { "id": "L17-W9", "category": "Verbs", "grammarType": "Irregular", "kanji": "持って来ます", "kana": "もってきます", "romaji": "mottekimasu", "meaning": "带来", "conjugations": { "masu": "持って来ます", "dictionary": "もってくる", "te": "もってきて", "nai": "もってこない", "ta": "もってきた" }, "sentences": [{ "ja": "明日の会議に資料を持って来てください。", "zh": "请带资料来参加明天的会议。" }, { "ja": "宿題を持って来ましたか。", "zh": "作业带来了吗？" }] },
+    { "id": "L17-W10", "category": "Verbs", "grammarType": "Irregular", "kanji": "心配します", "kana": "しんぱいします", "romaji": "shinpaishimasu", "meaning": "担心", "conjugations": { "masu": "心配します", "dictionary": "しんぱいする", "te": "しんぱいして", "nai": "しんぱいしない", "ta": "しんぱいした" }, "sentences": [{ "ja": "家族のことを心配しています。", "zh": "在担心家人的事。" }, { "ja": "心配しないでください。大丈夫です。", "zh": "请不要担心。没事的。" }] },
+    { "id": "L17-W11", "category": "Verbs", "grammarType": "Irregular", "kanji": "残業します", "kana": "ざんぎょうします", "romaji": "zangyoushimasu", "meaning": "加班", "conjugations": { "masu": "残業します", "dictionary": "ざんぎょうする", "te": "ざんぎょうして", "nai": "ざんぎょうしない", "ta": "ざんぎょうした" }, "sentences": [{ "ja": "毎晩遅くまで残業します。", "zh": "每晚加班到很晚。" }, { "ja": "今日は残業しなければなりません。", "zh": "今天必须加班。" }] },
+    { "id": "L17-W12", "category": "Verbs", "grammarType": "Irregular", "kanji": "出張します", "kana": "しゅっちょうします", "romaji": "shucchoushimasu", "meaning": "出差", "conjugations": { "masu": "出張します", "dictionary": "しゅっちょうする", "te": "しゅっちょうして", "nai": "しゅっちょうしない", "ta": "しゅっちょうした" }, "sentences": [{ "ja": "来週大阪へ出張します。", "zh": "下周去大阪出差。" }, { "ja": "アメリカへ出張したことがあります。", "zh": "去美国出差过。" }] },
     { "id": "L17-W13", "category": "Adjectives", "grammarType": "na-adj", "kanji": "大切な", "kana": "たいせつな", "romaji": "taisetsuna", "meaning": "重要，珍贵", "sentences": [{ "ja": "これは大切な写真です。", "zh": "这是珍贵的照片。" }, { "ja": "家族はとても大切です。", "zh": "家人非常重要。" }] },
     { "id": "L17-W14", "category": "Adjectives", "grammarType": "na-adj", "kanji": "大丈夫な", "kana": "だいじょうぶな", "romaji": "daijoubuna", "meaning": "没关系，放心", "sentences": [{ "ja": "一人で大丈夫ですか。", "zh": "一个人没关系吗？" }, { "ja": "大丈夫です。問題ありません。", "zh": "没关系，没有问题。" }] },
     { "id": "L17-W15", "category": "Adjectives", "grammarType": "i-adj", "kanji": "危ない", "kana": "あぶない", "romaji": "abunai", "meaning": "危险", "sentences": [{ "ja": "この川は危ないですから、泳がないでください。", "zh": "这条河很危险，请不要游泳。" }, { "ja": "夜、一人で歩くのは危ないです。", "zh": "晚上一个人走路很危险。" }] },
@@ -607,16 +607,16 @@ export const STATIC_LESSONS: Record<number, VocabularyItem[]> = {
     { "id": "L17-W27", "category": "Expressions", "kanji": "お大事に", "kana": "おだいじに", "romaji": "odaijini", "meaning": "请多保重", "sentences": [{ "ja": "先生、ありがとうございました。お大事に。", "zh": "医生，谢谢您。请多保重。" }, { "ja": "A: かぜです。 B: そうですか。お大事に。", "zh": "A：我感冒了。 B：是吗？请多保重。" }] }
   ],
   18: [
-    { "id": "L18-W1", "category": "Verbs", "grammarType": "Group I", "kanji": "できます", "kana": "できます", "romaji": "dekimasu", "meaning": "会，能够，可以", "conjugations": { "masu": "できます", "dictionary": "できる", "te": "できて" }, "sentences": [{ "ja": "スキーができます。", "zh": "会滑雪。" }, { "ja": "ここでカードが使えますか。ええ、できますよ。", "zh": "这里可以用卡吗？嗯，可以的。" }] },
-    { "id": "L18-W2", "category": "Verbs", "grammarType": "Group I", "kanji": "洗います", "kana": "あらいます", "romaji": "araimasu", "meaning": "洗", "conjugations": { "masu": "洗います", "dictionary": "洗う", "te": "洗って" }, "sentences": [{ "ja": "手を洗います。", "zh": "洗手。" }] },
-    { "id": "L18-W3", "category": "Verbs", "grammarType": "Group I", "kanji": "弾きます", "kana": "ひきます", "romaji": "hikimasu", "meaning": "弹（钢琴、吉他等弦乐器）", "conjugations": { "masu": "弾きます", "dictionary": "弾く", "te": "弾いて" }, "sentences": [{ "ja": "ピアノを弾くことができます。", "zh": "会弹钢琴。" }] },
-    { "id": "L18-W4", "category": "Verbs", "grammarType": "Group I", "kanji": "歌います", "kana": "うたいます", "romaji": "utaimasu", "meaning": "唱歌", "conjugations": { "masu": "歌います", "dictionary": "歌う", "te": "歌って" }, "sentences": [{ "ja": "歌を歌います。", "zh": "唱歌。" }] },
-    { "id": "L18-W5", "category": "Verbs", "grammarType": "Group I", "kanji": "集めます", "kana": "あつめます", "romaji": "atsumemasu", "meaning": "收集，搜集", "conjugations": { "masu": "集めます", "dictionary": "集める", "te": "集めて" }, "sentences": [{ "ja": "切手を集めています。", "zh": "正在收集邮票。" }] },
-    { "id": "L18-W6", "category": "Verbs", "grammarType": "Group II", "kanji": "捨てます", "kana": "すてます", "romaji": "sutemasu", "meaning": "扔，舍弃", "conjugations": { "masu": "捨てます", "dictionary": "捨てる", "te": "捨てて" }, "sentences": [{ "ja": "ここにゴミを捨てないでください。", "zh": "请不要在这里扔垃圾。" }] },
-    { "id": "L18-W7", "category": "Verbs", "grammarType": "Group II", "kanji": "換えます", "kana": "かえます", "romaji": "kaemasu", "meaning": "换，交换", "conjugations": { "masu": "換えます", "dictionary": "換える", "te": "換えて" }, "sentences": [{ "ja": "お金を換えます。", "zh": "换钱。" }] },
-    { "id": "L18-W8", "category": "Verbs", "grammarType": "Group II", "kanji": "運転します", "kana": "うんてんします", "romaji": "untenshimasu", "meaning": "驾驶，开车", "conjugations": { "masu": "運転します", "dictionary": "運転する", "te": "運転して" }, "sentences": [{ "ja": "車を運転することができますか。", "zh": "你会开车吗？" }] },
-    { "id": "L18-W9", "category": "Verbs", "grammarType": "Group III", "kanji": "予約します", "kana": "よやくします", "romaji": "yoyakushimasu", "meaning": "预约，预订", "conjugations": { "masu": "予約します", "dictionary": "予約する", "te": "予約して" }, "sentences": [{ "ja": "ホテルを予約します。", "zh": "预订酒店。" }] },
-    { "id": "L18-W10", "category": "Verbs", "grammarType": "Group III", "kanji": "見学します", "kana": "けんがくします", "romaji": "kengakushimasu", "meaning": "参观学习", "conjugations": { "masu": "見学します", "dictionary": "見学する", "te": "见学して" }, "sentences": [{ "ja": "工場を見学します。", "zh": "参观工厂。" }] },
+    { "id": "L18-W1", "category": "Verbs", "grammarType": "Group II", "kanji": "できます", "kana": "できます", "romaji": "dekimasu", "meaning": "会，能够，可以", "conjugations": { "masu": "できます", "dictionary": "できる", "te": "できて", "nai": "できない", "ta": "できた" }, "sentences": [{ "ja": "スキーができます。", "zh": "会滑雪。" }, { "ja": "ここでカードが使えますか。ええ、できますよ。", "zh": "这里可以用卡吗？嗯，可以的。" }] },
+    { "id": "L18-W2", "category": "Verbs", "grammarType": "Group I", "kanji": "洗います", "kana": "あらいます", "romaji": "araimasu", "meaning": "洗", "conjugations": { "masu": "洗います", "dictionary": "洗う", "te": "洗って", "nai": "洗わない", "ta": "洗った" }, "sentences": [{ "ja": "手を洗います。", "zh": "洗手。" }] },
+    { "id": "L18-W3", "category": "Verbs", "grammarType": "Group I", "kanji": "弾きます", "kana": "ひきます", "romaji": "hikimasu", "meaning": "弹（钢琴、吉他等弦乐器）", "conjugations": { "masu": "弾きます", "dictionary": "弾く", "te": "弾いて", "nai": "弾かない", "ta": "弾いた" }, "sentences": [{ "ja": "ピアノを弾くことができます。", "zh": "会弹钢琴。" }] },
+    { "id": "L18-W4", "category": "Verbs", "grammarType": "Group I", "kanji": "歌います", "kana": "うたいます", "romaji": "utaimasu", "meaning": "唱歌", "conjugations": { "masu": "歌います", "dictionary": "歌う", "te": "歌って", "nai": "歌わない", "ta": "歌った" }, "sentences": [{ "ja": "歌を歌います。", "zh": "唱歌。" }] },
+    { "id": "L18-W5", "category": "Verbs", "grammarType": "Group II", "kanji": "集めます", "kana": "あつめます", "romaji": "atsumemasu", "meaning": "收集，搜集", "conjugations": { "masu": "集めます", "dictionary": "集める", "te": "集めて", "nai": "集めない", "ta": "集めた" }, "sentences": [{ "ja": "切手を集めています。", "zh": "正在收集邮票。" }] },
+    { "id": "L18-W6", "category": "Verbs", "grammarType": "Group II", "kanji": "捨てます", "kana": "すてます", "romaji": "sutemasu", "meaning": "扔，舍弃", "conjugations": { "masu": "捨てます", "dictionary": "捨てる", "te": "捨てて", "nai": "捨てない", "ta": "捨てた" }, "sentences": [{ "ja": "ここにゴミを捨てないでください。", "zh": "请不要在这里扔垃圾。" }] },
+    { "id": "L18-W7", "category": "Verbs", "grammarType": "Group II", "kanji": "換えます", "kana": "かえます", "romaji": "kaemasu", "meaning": "换，交换", "conjugations": { "masu": "換えます", "dictionary": "換える", "te": "換えて", "nai": "換えない", "ta": "換えた" }, "sentences": [{ "ja": "お金を換えます。", "zh": "换钱。" }] },
+    { "id": "L18-W8", "category": "Verbs", "grammarType": "Irregular", "kanji": "運転します", "kana": "うんてんします", "romaji": "untenshimasu", "meaning": "驾驶，开车", "conjugations": { "masu": "運転します", "dictionary": "運転する", "te": "運転して", "nai": "運転しない", "ta": "運転した" }, "sentences": [{ "ja": "車を運転することができますか。", "zh": "你会开车吗？" }] },
+    { "id": "L18-W9", "category": "Verbs", "grammarType": "Irregular", "kanji": "予約します", "kana": "よやくします", "romaji": "yoyakushimasu", "meaning": "预约，预订", "conjugations": { "masu": "予約します", "dictionary": "予約する", "te": "予約して", "nai": "予約しない", "ta": "予約した" }, "sentences": [{ "ja": "ホテルを予約します。", "zh": "预订酒店。" }] },
+    { "id": "L18-W10", "category": "Verbs", "grammarType": "Irregular", "kanji": "見学します", "kana": "けんがくします", "romaji": "kengakushimasu", "meaning": "参观学习", "conjugations": { "masu": "見学します", "dictionary": "見学する", "te": "見学して", "nai": "見学しない", "ta": "見学した" }, "sentences": [{ "ja": "工場を見学します。", "zh": "参观工厂。" }] },
     { "id": "L18-W11", "category": "Nouns", "kanji": "ピアノ", "kana": "ピアノ", "romaji": "piano", "meaning": "钢琴", "sentences": [{ "ja": "ピアノを弾きます。", "zh": "弹钢琴。" }] },
     { "id": "L18-W12", "category": "Nouns", "kanji": "メートル", "kana": "メートル", "romaji": "meetoru", "meaning": "米", "sentences": [{ "ja": "50メートル泳ぐことができます。", "zh": "能游50米。" }] },
     { "id": "L18-W13", "category": "Nouns", "kanji": "現金", "kana": "げんきん", "romaji": "genkin", "meaning": "现金", "sentences": [{ "ja": "現金で払います。", "zh": "用现金支付。" }] },
@@ -632,11 +632,11 @@ export const STATIC_LESSONS: Record<number, VocabularyItem[]> = {
     { "id": "L18-W23", "category": "Expressions", "kanji": "ぜひ", "kana": "ぜひ", "romaji": "zehi", "meaning": "务必，一定", "sentences": [{ "ja": "ぜひ遊びに来てください。", "zh": "请务必来玩。" }] }
   ],
   19: [
-    { "id": "L19-W1", "category": "Verbs", "grammarType": "Group I", "kanji": "登ります", "kana": "のぼります", "romaji": "noborimasu", "meaning": "登，爬", "conjugations": { "masu": "のぼります", "dictionary": "のぼる", "te": "のぼって" }, "sentences": [{ "ja": "山に登ります。", "zh": "爬山。" }, { "ja": "富士山に登ったことがあります。", "zh": "爬过富士山。" }] },
-    { "id": "L19-W2", "category": "Verbs", "grammarType": "Group I", "kanji": "泊まります", "kana": "とまります", "romaji": "tomarimasu", "meaning": "住（宿）", "conjugations": { "masu": "とまります", "dictionary": "とまる", "te": "とまって" }, "sentences": [{ "ja": "ホテルに泊まります。", "zh": "住酒店。" }, { "ja": "京都の旅館に泊まりたいです。", "zh": "想住京都的日式旅馆。" }] },
-    { "id": "L19-W3", "category": "Verbs", "grammarType": "Group III", "kanji": "掃除します", "kana": "そうじします", "romaji": "soujishimasu", "meaning": "打扫", "conjugations": { "masu": "そうじします", "dictionary": "そうじする", "te": "そうじして" }, "sentences": [{ "ja": "部屋を掃除します。", "zh": "打扫房间。" }, { "ja": "週末に家を掃除しなければなりません。", "zh": "周末必须打扫家里。" }] },
-    { "id": "L19-W4", "category": "Verbs", "grammarType": "Group III", "kanji": "洗濯します", "kana": "せんたくします", "romaji": "sentakushimasu", "meaning": "洗衣服", "conjugations": { "masu": "せんたくします", "dictionary": "せんたくする", "te": "せんたくして" }, "sentences": [{ "ja": "毎日洗濯します。", "zh": "每天洗衣服。" }, { "ja": "洗濯機で服を洗濯します。", "zh": "用洗衣机洗衣服。" }] },
-    { "id": "L19-W5", "category": "Verbs", "grammarType": "Group I", "kanji": "なります", "kana": "なります", "romaji": "narimasu", "meaning": "成为", "conjugations": { "masu": "なります", "dictionary": "なる", "te": "なって" }, "sentences": [{ "ja": "将来、医者になりたいです。", "zh": "将来想成为医生。" }, { "ja": "だんだん寒くなりました。", "zh": "天气渐渐变冷了。" }] },
+    { "id": "L19-W1", "category": "Verbs", "grammarType": "Group I", "kanji": "登ります", "kana": "のぼります", "romaji": "noborimasu", "meaning": "登，爬", "conjugations": { "masu": "登ります", "dictionary": "のぼる", "te": "のぼって", "nai": "のぼらない", "ta": "のぼった" }, "sentences": [{ "ja": "山に登ります。", "zh": "爬山。" }, { "ja": "富士山に登ったことがあります。", "zh": "爬过富士山。" }] },
+    { "id": "L19-W2", "category": "Verbs", "grammarType": "Group I", "kanji": "泊まります", "kana": "とまります", "romaji": "tomarimasu", "meaning": "住（宿）", "conjugations": { "masu": "泊まります", "dictionary": "とまる", "te": "とまって", "nai": "とまらない", "ta": "とまった" }, "sentences": [{ "ja": "ホテルに泊まります。", "zh": "住酒店。" }, { "ja": "京都の旅館に泊まりたいです。", "zh": "想住京都的日式旅馆。" }] },
+    { "id": "L19-W3", "category": "Verbs", "grammarType": "Irregular", "kanji": "掃除します", "kana": "そうじします", "romaji": "soujishimasu", "meaning": "打扫", "conjugations": { "masu": "掃除します", "dictionary": "そうじする", "te": "そうじして", "nai": "そうじしない", "ta": "そうじした" }, "sentences": [{ "ja": "部屋を掃除します。", "zh": "打扫房间。" }, { "ja": "週末に家を掃除しなければなりません。", "zh": "周末必须打扫家里。" }] },
+    { "id": "L19-W4", "category": "Verbs", "grammarType": "Irregular", "kanji": "洗濯します", "kana": "せんたくします", "romaji": "sentakushimasu", "meaning": "洗衣服", "conjugations": { "masu": "洗濯します", "dictionary": "せんたくする", "te": "せんたくして", "nai": "せんたくしない", "ta": "せんたくした" }, "sentences": [{ "ja": "毎日洗濯します。", "zh": "每天洗衣服。" }, { "ja": "洗濯機で服を洗濯します。", "zh": "用洗衣机洗衣服。" }] },
+    { "id": "L19-W5", "category": "Verbs", "grammarType": "Group I", "kanji": "なります", "kana": "なります", "romaji": "narimasu", "meaning": "成为", "conjugations": { "masu": "なります", "dictionary": "なる", "te": "なって", "nai": "ならない", "ta": "なった" }, "sentences": [{ "ja": "将来、医者になりたいです。", "zh": "将来想成为医生。" }, { "ja": "だんだん寒くなりました。", "zh": "天气渐渐变冷了。" }] },
     { "id": "L19-W6", "category": "Adjectives", "grammarType": "i-adj", "kanji": "眠い", "kana": "ねむい", "romaji": "nemui", "meaning": "困", "sentences": [{ "ja": "昨日の夜、あまり寝ませんでしたから、眠いです。", "zh": "因为昨晚没怎么睡，所以很困。" }, { "ja": "眠い時、コーヒーを飲みます。", "zh": "困的时候喝咖啡。" }] },
     { "id": "L19-W7", "category": "Adjectives", "grammarType": "i-adj", "kanji": "強い", "kana": "つよい", "romaji": "tsuyoi", "meaning": "强", "sentences": [{ "ja": "彼は体が強いです。", "zh": "他身体很强壮。" }, { "ja": "風が強いです。", "zh": "风很大。" }] },
     { "id": "L19-W8", "category": "Adjectives", "grammarType": "i-adj", "kanji": "弱い", "kana": "よわい", "romaji": "yowai", "meaning": "弱", "sentences": [{ "ja": "私はお酒に弱いです。", "zh": "我酒量不好。" }, { "ja": "このチームは弱いです。", "zh": "这个队很弱。" }] },
@@ -663,8 +663,8 @@ export const STATIC_LESSONS: Record<number, VocabularyItem[]> = {
     { "id": "L20-W1", "category": "Verbs", "grammarType": "Group I", "kanji": "要ります", "kana": "いります", "romaji": "irimasu", "meaning": "需要，必要", "conjugations": { "masu": "要ります", "dictionary": "要る", "te": "要って", "nai": "要らない", "ta": "要った" }, "sentences": [{ "ja": "ビザが要りますか。", "zh": "需要签证吗？" }] },
     { "id": "L20-W2", "category": "Verbs", "grammarType": "Group II", "kanji": "調べます", "kana": "しらべます", "romaji": "shirabemasu", "meaning": "调查，检查，查找", "conjugations": { "masu": "調べます", "dictionary": "調べる", "te": "調べて", "nai": "調べない", "ta": "調べた" }, "sentences": [{ "ja": "辞書で言葉を調べます。", "zh": "用辞典查单词。" }] },
     { "id": "L20-W3", "category": "Verbs", "grammarType": "Group I", "kanji": "直します", "kana": "なおします", "romaji": "naoshimasu", "meaning": "修理，修改，改正", "conjugations": { "masu": "直します", "dictionary": "直す", "te": "直して", "nai": "直さない", "ta": "直した" }, "sentences": [{ "ja": "間違いを直してください。", "zh": "请修改错误。" }] },
-    { "id": "L20-W4", "category": "Verbs", "grammarType": "Group III", "kanji": "修理します", "kana": "しゅうりします", "romaji": "shuurishimasu", "meaning": "修理", "conjugations": { "masu": "修理します", "dictionary": "修理する", "te": "修理して", "nai": "修理しない", "ta": "修理した" }, "sentences": [{ "ja": "時計を修理します。", "zh": "修理钟表。" }] },
-    { "id": "L20-W5", "category": "Verbs", "grammarType": "Group III", "kanji": "電話します", "kana": "でんわします", "romaji": "denwashimasu", "meaning": "打电话", "conjugations": { "masu": "電話します", "dictionary": "電話する", "te": "電話して", "nai": "電話しない", "ta": "電話した" }, "sentences": [{ "ja": "晩にご飯を食べてから、電話します。", "zh": "晚上吃过饭后打电话。" }] },
+    { "id": "L20-W4", "category": "Verbs", "grammarType": "Irregular", "kanji": "修理します", "kana": "しゅうりします", "romaji": "shuurishimasu", "meaning": "修理", "conjugations": { "masu": "修理します", "dictionary": "修理する", "te": "修理して", "nai": "修理しない", "ta": "修理した" }, "sentences": [{ "ja": "時計を修理します。", "zh": "修理钟表。" }] },
+    { "id": "L20-W5", "category": "Verbs", "grammarType": "Irregular", "kanji": "電話します", "kana": "でんわします", "romaji": "denwashimasu", "meaning": "打电话", "conjugations": { "masu": "電話します", "dictionary": "電話する", "te": "電話して", "nai": "電話しない", "ta": "電話した" }, "sentences": [{ "ja": "晩にご飯を食べてから、電話します。", "zh": "晚上吃过饭后打电话。" }] },
     { "id": "L20-W6", "category": "Nouns", "kanji": "僕", "kana": "ぼく", "romaji": "boku", "meaning": "我（男性常用自称，普通体）", "sentences": [{ "ja": "僕は明日暇だよ。", "zh": "我明天有空哦。" }] },
     { "id": "L20-W7", "category": "Nouns", "kanji": "君", "kana": "きみ", "romaji": "kimi", "meaning": "你（用于对下级或对等关系，普通体）", "sentences": [{ "ja": "君の靴はこれ？", "zh": "你的鞋是这双吗？" }] },
     { "id": "L20-W8", "category": "Nouns", "kanji": "～君", "kana": "～くん", "romaji": "～kun", "meaning": "～君（用于称呼男孩、男下级等）", "sentences": [{ "ja": "佐藤君はどこ？", "zh": "佐藤君在哪？" }] },
@@ -688,17 +688,17 @@ export const STATIC_LESSONS: Record<number, VocabularyItem[]> = {
   ],
   21: [
 
-  { "id": "L21-W1", "category": "Verbs", "grammarType": "Group I", "kanji": "思います", "kana": "おもいます", "romaji": "omoimasu", "meaning": "认为，想", "conjugations": { "masu": "思います", "dictionary": "思う", "te": "思って" }, "sentences": [{ "ja": "いいと思います。", "zh": "我觉得很好。" }] },
+  { "id": "L21-W1", "category": "Verbs", "grammarType": "Group I", "kanji": "思います", "kana": "おもいます", "romaji": "omoimasu", "meaning": "认为，想", "conjugations": { "masu": "思います", "dictionary": "思う", "te": "思って", "nai": "思わない", "ta": "思った" }, "sentences": [{ "ja": "いいと思います。", "zh": "我觉得很好。" }] },
 
-  { "id": "L21-W2", "category": "Verbs", "grammarType": "Group I", "kanji": "言います", "kana": "いいます", "romaji": "iimasu", "meaning": "说", "conjugations": { "masu": "言います", "dictionary": "言う", "te": "言って" }, "sentences": [{ "ja": "先生はそう言いました。", "zh": "老师那样说了。" }] },
+  { "id": "L21-W2", "category": "Verbs", "grammarType": "Group I", "kanji": "言います", "kana": "いいます", "romaji": "iimasu", "meaning": "说", "conjugations": { "masu": "言います", "dictionary": "言う", "te": "言って", "nai": "言わない", "ta": "言った" }, "sentences": [{ "ja": "先生はそう言いました。", "zh": "老师那样说了。" }] },
 
-  { "id": "L21-W3", "category": "Verbs", "grammarType": "Group I", "kanji": "足ります", "kana": "たります", "romaji": "tarimasu", "meaning": "足够", "conjugations": { "masu": "足ります", "dictionary": "足りる", "te": "足りて" }, "sentences": [{ "ja": "お金が足りません。", "zh": "钱不够。" }] },
+  { "id": "L21-W3", "category": "Verbs", "grammarType": "Group II", "kanji": "足ります", "kana": "たります", "romaji": "tarimasu", "meaning": "足够", "conjugations": { "masu": "足ります", "dictionary": "足りる", "te": "足りて", "nai": "足りない", "ta": "足りた" }, "sentences": [{ "ja": "お金が足りません。", "zh": "钱不够。" }] },
 
-  { "id": "L21-W4", "category": "Verbs", "grammarType": "Group I", "kanji": "勝ちます", "kana": "かちます", "romaji": "kachimasu", "meaning": "赢", "conjugations": { "masu": "勝ちます", "dictionary": "勝つ", "te": "勝って" }, "sentences": [{ "ja": "日本が勝ちました。", "zh": "日本赢了。" }] },
+  { "id": "L21-W4", "category": "Verbs", "grammarType": "Group I", "kanji": "勝ちます", "kana": "かちます", "romaji": "kachimasu", "meaning": "赢", "conjugations": { "masu": "勝ちます", "dictionary": "勝つ", "te": "勝って", "nai": "勝たない", "ta": "勝った" }, "sentences": [{ "ja": "日本が勝ちました。", "zh": "日本赢了。" }] },
 
-  { "id": "L21-W5", "category": "Verbs", "grammarType": "Group I", "kanji": "負けます", "kana": "まけます", "romaji": "makemasu", "meaning": "输", "conjugations": { "masu": "負けます", "dictionary": "負ける", "te": "負けて" }, "sentences": [{ "ja": "試合に負けました。", "zh": "比赛输了。" }] },
+  { "id": "L21-W5", "category": "Verbs", "grammarType": "Group II", "kanji": "負けます", "kana": "まけます", "romaji": "makemasu", "meaning": "输", "conjugations": { "masu": "負けます", "dictionary": "負ける", "te": "負けて", "nai": "負けない", "ta": "負けた" }, "sentences": [{ "ja": "試合に負けました。", "zh": "比赛输了。" }] },
 
-  { "id": "L21-W6", "category": "Verbs", "grammarType": "Group I", "kanji": "あります", "kana": "あります", "romaji": "arimasu", "meaning": "举行；发生", "conjugations": { "masu": "あります", "dictionary": "ある", "te": "あって" }, "sentences": [{ "ja": "会議があります。", "zh": "有会议。" }] },
+  { "id": "L21-W6", "category": "Verbs", "grammarType": "Group I", "kanji": "あります", "kana": "あります", "romaji": "arimasu", "meaning": "举行；发生", "conjugations": { "masu": "あります", "dictionary": "ある", "te": "あって", "nai": "あらない", "ta": "あった" }, "sentences": [{ "ja": "会議があります。", "zh": "有会议。" }] },
 
   { "id": "L21-W7", "category": "Nouns", "kanji": "意見", "kana": "いけん", "romaji": "iken", "meaning": "意见", "sentences": [{ "ja": "意見があります。", "zh": "有意见。" }] },
 
@@ -716,10 +716,41 @@ export const STATIC_LESSONS: Record<number, VocabularyItem[]> = {
 
   { "id": "L21-W14", "category": "Expressions", "kanji": "本当に", "kana": "ほんとうに", "romaji": "hontou ni", "meaning": "真的", "sentences": [{ "ja": "本当にそうですか。", "zh": "真的吗？" }] },
 
-  { "id": "L21-W15", "category": "Expressions", "kanji": "もちろん", "kana": "もちろん", "romaji": "mochiron", "meaning": "当然", "sentences": [{ "ja": "もちろんいいです。", "zh": "当然可以。" }] }
+  { "id": "L21-W15", "category": "Expressions", "kanji": "もちろん", "kana": "もちろん", "romaji": "mochiron", "meaning": "当然", "sentences": [{ "ja": "もちろんいいです。", "zh": "当然可以。" }] },
+
+  { "id": "L21-W16", "category": "Verbs", "grammarType": "Group I", "kanji": "役に立ちます", "kana": "やくにたちます", "romaji": "yaku ni tachimasu", "meaning": "有用，起作用", "conjugations": { "masu": "役に立ちます", "dictionary": "役に立つ", "te": "役に立って", "nai": "役に立たない", "ta": "役に立った" }, "sentences": [{ "ja": "この辞書は勉強に役に立ちます。", "zh": "这本词典对学习很有用。" }] },
+
+  { "id": "L21-W17", "category": "Adjectives", "grammarType": "na-adj", "kanji": "無駄な", "kana": "むだな", "romaji": "muda na", "meaning": "浪费的，无用的", "sentences": [{ "ja": "無駄な物を買わないほうがいいです。", "zh": "最好不要买没用的东西。" }] },
+
+  { "id": "L21-W18", "category": "Adjectives", "grammarType": "na-adj", "kanji": "不便な", "kana": "ふべんな", "romaji": "fuben na", "meaning": "不方便的", "sentences": [{ "ja": "この町は交通が不便です。", "zh": "这个城市交通不方便。" }] },
+
+  { "id": "L21-W19", "category": "Adjectives", "grammarType": "i-adj", "kanji": "すごい", "kana": "すごい", "romaji": "sugoi", "meaning": "厉害的，惊人的", "sentences": [{ "ja": "すごい人ですね。", "zh": "真是个厉害的人。" }] },
+
+  { "id": "L21-W20", "category": "Nouns", "kanji": "首相", "kana": "しゅしょう", "romaji": "shushou", "meaning": "首相，总理", "sentences": [{ "ja": "首相は来月中国へ行くと思います。", "zh": "我想首相下个月会去中国。" }] },
+
+  { "id": "L21-W21", "category": "Nouns", "kanji": "大統領", "kana": "だいとうりょう", "romaji": "daitouryou", "meaning": "总统", "sentences": [{ "ja": "大統領がテレビで話しました。", "zh": "总统在电视上讲话了。" }] },
+
+  { "id": "L21-W22", "category": "Nouns", "kanji": "政治", "kana": "せいじ", "romaji": "seiji", "meaning": "政治", "sentences": [{ "ja": "政治についてどう思いますか。", "zh": "你怎么看政治？" }] },
+
+  { "id": "L21-W23", "category": "Nouns", "kanji": "ニュース", "kana": "ニュース", "romaji": "nyuusu", "meaning": "新闻", "sentences": [{ "ja": "ニュースを見て、びっくりしました。", "zh": "看了新闻，很吃惊。" }] },
+
+  { "id": "L21-W24", "category": "Nouns", "kanji": "スピーチ", "kana": "スピーチ", "romaji": "supiichi", "meaning": "演讲", "sentences": [{ "ja": "結婚式でスピーチをしました。", "zh": "在婚礼上致辞了。" }] },
+
+  { "id": "L21-W25", "category": "Nouns", "kanji": "アルバイト", "kana": "アルバイト", "romaji": "arubaito", "meaning": "兼职，打工", "sentences": [{ "ja": "大学生のとき、アルバイトをしました。", "zh": "上大学时打过工。" }] },
+
+  { "id": "L21-W26", "category": "Nouns", "kanji": "交通", "kana": "こうつう", "romaji": "koutsuu", "meaning": "交通", "sentences": [{ "ja": "東京は交通が便利です。", "zh": "东京交通很方便。" }] },
+
+  { "id": "L21-W27", "category": "Nouns", "kanji": "ラッシュ", "kana": "ラッシュ", "romaji": "rasshu", "meaning": "交通高峰", "sentences": [{ "ja": "朝のラッシュは大変です。", "zh": "早高峰很辛苦。" }] },
+
+  { "id": "L21-W28", "category": "Expressions", "kanji": "最近", "kana": "さいきん", "romaji": "saikin", "meaning": "最近", "sentences": [{ "ja": "最近、忙しいです。", "zh": "最近很忙。" }] },
+
+  { "id": "L21-W29", "category": "Expressions", "kanji": "そんなに", "kana": "そんなに", "romaji": "sonna ni", "meaning": "那么（常接否定）", "sentences": [{ "ja": "この本はそんなに難しくないです。", "zh": "这本书没有那么难。" }] },
+
+  { "id": "L21-W30", "category": "Expressions", "kanji": "～について", "kana": "～について", "romaji": "~ ni tsuite", "meaning": "关于……", "sentences": [{ "ja": "日本の教育についてどう思いますか。", "zh": "你怎么看日本的教育？" }] },
+
+  { "id": "L21-W31", "category": "Expressions", "kanji": "しかたがありません", "kana": "しかたがありません", "romaji": "shikata ga arimasen", "meaning": "没有办法", "sentences": [{ "ja": "電車がありませんから、しかたがありません。", "zh": "因为没有电车，也没有办法。" }] }
 
 ],
-  // (Adding skeletal keys for others to ensure 'Ready' status while providing prompt updates for AI generation)
   22: [
     { id: 'L22-W1', category: 'Nouns', kanji: 'ケーキ', kana: 'ケーキ', romaji: 'keeki', meaning: '蛋糕', sentences: [{ ja: 'これはミラーさんが作ったケーキです。', zh: '这是米勒先生做的蛋糕。' }] },
     { id: 'L22-W2', category: 'Nouns', kanji: '万里の長城', kana: 'ばんりのちょうじょう', romaji: 'banri no choujou', meaning: '万里长城', sentences: [{ ja: 'これは万里の長城で撮った写真です。', zh: '这是在万里长城拍的照片。' }] },
@@ -779,7 +810,7 @@ export const STATIC_LESSONS: Record<number, VocabularyItem[]> = {
     { "id": "L23-W24", "category": "Nouns", "kanji": "サイズ", "kana": "サイズ", "romaji": "saizu", "meaning": "号码，尺寸", "sentences": [{ "ja": "サイズを変えます。", "zh": "换尺寸。" }] },
     { "id": "L23-W25", "category": "Verbs", "grammarType": "Group II", "kanji": "変えます", "kana": "かえます", "romaji": "kaemasu", "meaning": "改变", "conjugations": { "masu": "変えます", "dictionary": "変える", "te": "変えて", "nai": "変えない", "ta": "変えた" }, "sentences": [{ "ja": "服のサイズを変えます。", "zh": "换衣服的尺寸。" }] },
     { "id": "L23-W26", "category": "Nouns", "kanji": "故障", "kana": "こしょう", "romaji": "koshou", "meaning": "故障", "sentences": [{ "ja": "この機械は故障です。", "zh": "这台机器故障了。" }] },
-    { "id": "L23-W27", "category": "Verbs", "grammarType": "Group III", "kanji": "故障します", "kana": "こしょうします", "romaji": "koshou shimasu", "meaning": "出故障", "conjugations": { "masu": "故障します", "dictionary": "故障する", "te": "故障して", "nai": "故障しない", "ta": "故障した" }, "sentences": [{ "ja": "自動販売機が故障しました。", "zh": "自动售货机出故障了。" }] },
+    { "id": "L23-W27", "category": "Verbs", "grammarType": "Irregular", "kanji": "故障します", "kana": "こしょうします", "romaji": "koshou shimasu", "meaning": "出故障", "conjugations": { "masu": "故障します", "dictionary": "故障する", "te": "故障して", "nai": "故障しない", "ta": "故障した" }, "sentences": [{ "ja": "自動販売機が故障しました。", "zh": "自动售货机出故障了。" }] },
     { "id": "L23-W28", "category": "Nouns", "kanji": "信号", "kana": "しんごう", "romaji": "shingou", "meaning": "红绿灯", "sentences": [{ "ja": "信号を左へ曲がります。", "zh": "在红绿灯向左拐。" }] },
     { "id": "L23-W29", "category": "Verbs", "grammarType": "Group I", "kanji": "曲がります", "kana": "まがります", "romaji": "magarimasu", "meaning": "拐，转弯", "conjugations": { "masu": "曲がります", "dictionary": "曲がる", "te": "曲がって", "nai": "曲がらない", "ta": "曲がった" }, "sentences": [{ "ja": "右へ曲がります。", "zh": "往右拐。" }, { "ja": "角を曲がります。", "zh": "在拐角转弯。" }] },
     { "id": "L23-W30", "category": "Nouns", "kanji": "角", "kana": "かど", "romaji": "kado", "meaning": "拐角，路口", "sentences": [{ "ja": "角を右へ曲がってください。", "zh": "请在拐角向右拐。" }] },
