@@ -8,7 +8,7 @@ interface LessonListProps {
   onOpenCollection: () => void;
 }
 
-const LESSON_COUNT = 27; 
+const LESSON_COUNT = Math.max(...Object.keys(STATIC_LESSONS).map(Number));
 
 export const LessonList: React.FC<LessonListProps> = ({ onSelectLesson, onOpenCollection }) => {
   const [cachedLessons, setCachedLessons] = useState<Set<number>>(new Set());
