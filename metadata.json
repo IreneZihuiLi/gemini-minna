@@ -1,5 +1,5 @@
 {
-  "name": "Minna no AI-Nihongo",
-  "description": "A dynamic Japanese vocabulary study companion based on Minna no Nihongo, powered by Gemini AI for generating vocabulary lists, illustrative images, and pronunciation audio.",
+  "name": "Minna no Nihongo",
+  "description": "A local Japanese study companion based on Minna no Nihongo, with vocabulary, grammar cards, example sentences, texts, verb forms, romaji, and mechanical pronunciation.",
   "requestFramePermissions": []
 }

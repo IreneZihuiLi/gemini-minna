@@ -1,0 +1,196 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/collection/collection"
+  ],
+  "subpackages": [
+    {
+      "root": "pkg_l01",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    },
+    {
+      "root": "pkg_l02",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    },
+    {
+      "root": "pkg_l03",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    },
+    {
+      "root": "pkg_l04",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    },
+    {
+      "root": "pkg_l05",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    },
+    {
+      "root": "pkg_l06",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    },
+    {
+      "root": "pkg_l07",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    },
+    {
+      "root": "pkg_l08",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    },
+    {
+      "root": "pkg_l09",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    },
+    {
+      "root": "pkg_l10",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    },
+    {
+      "root": "pkg_l11",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    },
+    {
+      "root": "pkg_l12",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    },
+    {
+      "root": "pkg_l13",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    },
+    {
+      "root": "pkg_l14",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    },
+    {
+      "root": "pkg_l15",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    },
+    {
+      "root": "pkg_l16",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    },
+    {
+      "root": "pkg_l17",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    },
+    {
+      "root": "pkg_l18",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    },
+    {
+      "root": "pkg_l19",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    },
+    {
+      "root": "pkg_l20",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    },
+    {
+      "root": "pkg_l21",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    },
+    {
+      "root": "pkg_l22",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    },
+    {
+      "root": "pkg_l23",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    },
+    {
+      "root": "pkg_l24",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    },
+    {
+      "root": "pkg_l25",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    },
+    {
+      "root": "pkg_l26",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    },
+    {
+      "root": "pkg_l27",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    },
+    {
+      "root": "pkg_l28",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    },
+    {
+      "root": "pkg_l29",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    },
+    {
+      "root": "pkg_l30",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTitleText": "みんなの日本語",
+    "navigationBarBackgroundColor": "#f8fafc",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f8fafc"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

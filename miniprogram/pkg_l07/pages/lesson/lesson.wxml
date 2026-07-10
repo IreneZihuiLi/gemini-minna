@@ -1,0 +1,139 @@
+<view class="safe-page lesson">
+  <view class="header">
+    <view>
+      <text class="eyebrow">LESSON {{lessonId}}</text>
+      <view class="title">第 {{lessonId}} 课</view>
+    </view>
+    <button wx:if="{{activeMode}}" class="back-btn plain-btn" bindtap="backToModes">返回</button>
+  </view>
+
+  <view wx:if="{{!activeMode}}" class="mode-grid">
+    <block wx:for="{{modeCards}}" wx:key="id">
+      <button class="mode-card plain-btn card {{item.color}}" data-mode="{{item.id}}" bindtap="chooseMode" disabled="{{item.disabled}}">
+        <view class="mode-count">{{item.count}} {{item.suffix}}</view>
+        <view class="mode-title">{{item.title}}</view>
+        <view class="mode-desc">
+          <text wx:if="{{item.id === 'grammar'}}">知识卡片、结构公式和例句。</text>
+          <text wx:elif="{{item.id === 'vocabulary'}}">罗马音、动词分类和变形。</text>
+          <text wx:elif="{{item.id === 'examples'}}">本课文型与例文。</text>
+          <text wx:else>会话课文，中日对照。</text>
+        </view>
+      </button>
+    </block>
+  </view>
+
+  <view wx:if="{{activeMode === 'grammar'}}" class="section">
+    <block wx:for="{{grammar}}" wx:key="id">
+      <view class="grammar-card card">
+        <view class="grammar-index">POINT {{index + 1}}</view>
+        <view class="grammar-title">{{item.title}}</view>
+        <view class="pattern">{{item.pattern}}</view>
+        <view class="meaning">{{item.meaning}}</view>
+        <view class="usage">{{item.usage}}</view>
+        <view wx:if="{{item.tip}}" class="tip">{{item.tip}}</view>
+        <view class="examples">
+          <block wx:for="{{item.examples}}" wx:key="ja" wx:for-item="example">
+            <view class="example-line">
+              <button class="audio-btn" data-text="{{example.ja}}" data-key="{{example.ja}}" bindtap="play">♪</button>
+              <view class="sentence">
+                <view class="ja">{{example.ja}}</view>
+                <view class="zh">{{example.zh}}</view>
+              </view>
+            </view>
+          </block>
+        </view>
+      </view>
+    </block>
+  </view>
+
+  <view wx:if="{{activeMode === 'vocabulary'}}" class="section">
+    <block wx:for="{{wordGroups}}" wx:key="name" wx:for-item="group">
+      <view class="category-title">{{group.name}} · {{group.items.length}}</view>
+      <block wx:for="{{group.items}}" wx:key="id" wx:for-item="word">
+        <view class="word-card card">
+          <view class="word-head">
+            <view class="word-main">
+              <view class="badges">
+                <text wx:if="{{word.grammarLabel}}" class="pill grammar-badge">{{word.grammarLabel}}</text>
+              </view>
+              <view class="word-title-line">
+                <view class="word-kanji">{{word.kanji}} <text>{{word.kana}}</text></view>
+                <button class="audio-btn" data-text="{{word.kanji}}" data-key="{{word.id}}" bindtap="play">♪</button>
+              </view>
+              <view class="romaji">{{word.romaji}}</view>
+              <view class="word-meaning">{{word.meaning}}</view>
+            </view>
+          </view>
+
+          <view wx:if="{{word.forms.length}}" class="forms">
+            <block wx:for="{{word.forms}}" wx:key="label" wx:for-item="form">
+              <view class="form-row">
+                <view>
+                  <view class="form-label">{{form.label}}</view>
+                  <view class="form-hint">{{form.hint}}</view>
+                </view>
+                <view class="form-value {{form.accent ? 'accent' : ''}}">{{form.value}}</view>
+              </view>
+            </block>
+          </view>
+
+          <view class="word-examples">
+            <block wx:for="{{word.sentences}}" wx:key="ja" wx:for-item="sentence">
+              <view class="word-example">
+                <view class="sentence-head">
+                  <button class="audio-btn small" data-text="{{sentence.ja}}" data-key="{{word.id}}-{{sentence.index}}" bindtap="play">♪</button>
+                  <view class="ja">{{sentence.ja}}</view>
+                  <button class="bookmark plain-btn {{sentence.collected ? 'on' : ''}}" data-word-id="{{word.id}}" data-index="{{sentence.index}}" bindtap="toggleSentence">{{sentence.collected ? '★' : '☆'}}</button>
+                </view>
+                <view class="sentence">
+                  <view class="zh">{{sentence.zh}}</view>
+                </view>
+              </view>
+            </block>
+          </view>
+        </view>
+      </block>
+    </block>
+  </view>
+
+  <view wx:if="{{activeMode === 'examples'}}" class="section">
+    <block wx:for="{{examples}}" wx:key="id">
+      <view class="content-card card">
+        <view class="content-top">
+          <text class="pill example-kind">{{item.kind === 'pattern' ? '文型' : '例文'}}</text>
+          <text class="content-title">{{item.title}}</text>
+        </view>
+        <view class="example-line">
+          <button class="audio-btn" data-text="{{item.ja}}" data-key="{{item.id}}" bindtap="play">♪</button>
+          <view class="sentence">
+            <view class="ja big">{{item.ja}}</view>
+            <view class="zh">{{item.zh}}</view>
+          </view>
+        </view>
+      </view>
+    </block>
+  </view>
+
+  <view wx:if="{{activeMode === 'text'}}" class="section">
+    <block wx:for="{{texts}}" wx:key="id">
+      <view class="text-card card">
+        <view class="text-head">
+          <view wx:if="{{item.subtitle}}" class="text-subtitle">{{item.subtitle}}</view>
+          <view class="text-title">{{item.title}}</view>
+        </view>
+        <block wx:for="{{item.lines}}" wx:key="ja" wx:for-item="line" wx:for-index="lineIndex">
+          <view class="dialogue-line">
+            <view class="speaker">{{line.speaker}}</view>
+            <view class="example-line">
+              <button class="audio-btn small" data-text="{{line.ja}}" data-key="{{item.id}}-{{lineIndex}}" bindtap="play">♪</button>
+              <view class="sentence">
+                <view class="ja">{{line.ja}}</view>
+                <view class="zh">{{line.zh}}</view>
+              </view>
+            </view>
+          </view>
+        </block>
+      </view>
+    </block>
+  </view>
+</view>

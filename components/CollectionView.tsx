@@ -2,7 +2,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { CollectedSentence } from '../types';
 import { getCollectedSentences, toggleCollectSentence } from '../services/storage';
-import { generateSpeech } from '../services/geminiService';
 
 interface CollectionViewProps {
   onBack: () => void;
@@ -11,8 +10,6 @@ interface CollectionViewProps {
 export const CollectionView: React.FC<CollectionViewProps> = ({ onBack }) => {
   const [collection, setCollection] = useState<CollectedSentence[]>([]);
   const [activeAudioId, setActiveAudioId] = useState<string | null>(null);
-  const [loadingAudioId, setLoadingAudioId] = useState<string | null>(null);
-  const audioCache = useRef<Map<string, string>>(new Map());
   const synth = useRef(window.speechSynthesis);
 
   useEffect(() => {
@@ -32,30 +29,6 @@ export const CollectionView: React.FC<CollectionViewProps> = ({ onBack }) => {
     setActiveAudioId(id);
     utterance.onend = () => setActiveAudioId(null);
     synth.current.speak(utterance);
-  };
-
-  const playAi = async (text: string, id: string) => {
-    synth.current.cancel();
-    if (audioCache.current.has(text)) {
-      const audio = new Audio(audioCache.current.get(text)!);
-      setActiveAudioId(id);
-      audio.onended = () => setActiveAudioId(null);
-      audio.play();
-      return;
-    }
-    setLoadingAudioId(id);
-    try {
-      const url = await generateSpeech(text);
-      audioCache.current.set(text, url);
-      const audio = new Audio(url);
-      setActiveAudioId(id);
-      audio.onended = () => setActiveAudioId(null);
-      audio.play();
-    } catch (e) {
-      console.error(e);
-    } finally {
-      setLoadingAudioId(null);
-    }
   };
 
   return (
@@ -95,18 +68,9 @@ export const CollectionView: React.FC<CollectionViewProps> = ({ onBack }) => {
                   <button 
                     onClick={() => playNative(item.ja, `n-${item.id}`)}
                     className={`p-2 rounded-full ${activeAudioId === `n-${item.id}` ? 'bg-slate-200 text-slate-700' : 'bg-slate-50 text-slate-400 hover:bg-slate-100 hover:text-slate-600'}`}
+                    aria-label="播放读音"
                   >
                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
-                  </button>
-                  <button 
-                    onClick={() => playAi(item.ja, `a-${item.id}`)}
-                    className={`p-2 rounded-full ${activeAudioId === `a-${item.id}` ? 'bg-indigo-100 text-indigo-600' : 'bg-indigo-50 text-indigo-400 hover:bg-indigo-100 hover:text-indigo-600'}`}
-                  >
-                    {loadingAudioId === `a-${item.id}` ? (
-                      <div className="w-[18px] h-[18px] border-2 border-indigo-600 border-t-transparent rounded-full animate-spin"></div>
-                    ) : (
-                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/></svg>
-                    )}
                   </button>
                   <button 
                     onClick={() => handleRemove(item)}

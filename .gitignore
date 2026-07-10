@@ -11,6 +11,7 @@ node_modules
 dist
 dist-ssr
 *.local
+miniprogram/project.private.config.json
 
 # Editor directories and files
 .vscode/*

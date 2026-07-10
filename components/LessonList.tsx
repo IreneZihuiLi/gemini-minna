@@ -32,7 +32,7 @@ export const LessonList: React.FC<LessonListProps> = ({ onSelectLesson, onOpenCo
     <div className="max-w-5xl mx-auto p-6">
       <header className="mb-10 text-center">
         <h1 className="text-4xl font-extrabold text-slate-800 mb-4 tracking-tight">
-          Minna no <span className="text-indigo-600">AI-Nihongo</span>
+          Minna no <span className="text-indigo-600">Nihongo</span>
         </h1>
         <p className="text-slate-500 max-w-xl mx-auto text-lg mb-8">
           Select a lesson from "Minna no Nihongo Elementary 1 & 2".
@@ -76,7 +76,7 @@ export const LessonList: React.FC<LessonListProps> = ({ onSelectLesson, onOpenCo
                 {id}
               </span>
               <div className={`absolute bottom-3 ${isReady ? 'text-green-600' : 'text-indigo-500'} opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all text-xs font-semibold`}>
-                {isReady ? 'Open' : 'Generate'}
+                {isReady ? 'Open' : 'Coming Soon'}
               </div>
             </button>
           );

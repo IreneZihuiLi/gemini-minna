@@ -1,7 +1,6 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import { VocabularyItem, CollectedSentence } from '../types';
-import { generateSpeech } from '../services/geminiService';
 import { toggleCollectSentence, isSentenceCollected } from '../services/storage';
 
 interface VocabCardProps {
@@ -28,31 +27,6 @@ const VolumeIcon = ({ active }: { active?: boolean }) => (
   </svg>
 );
 
-const SparklesIcon = ({ active, error }: { active?: boolean; error?: boolean }) => (
-  <svg 
-    xmlns="http://www.w3.org/2000/svg" 
-    width="18" 
-    height="18" 
-    viewBox="0 0 24 24" 
-    fill="none" 
-    stroke="currentColor" 
-    strokeWidth="2" 
-    strokeLinecap="round" 
-    strokeLinejoin="round"
-    className={error ? "text-red-500" : active ? "text-indigo-600 animate-pulse" : "text-indigo-500"}
-  >
-    {error ? (
-      <>
-        <circle cx="12" cy="12" r="10" />
-        <line x1="12" y1="8" x2="12" y2="12" />
-        <line x1="12" y1="16" x2="12.01" y2="16" />
-      </>
-    ) : (
-      <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/>
-    )}
-  </svg>
-);
-
 const BookmarkIcon = ({ active }: { active: boolean }) => (
   <svg 
     xmlns="http://www.w3.org/2000/svg" 
@@ -67,13 +41,6 @@ const BookmarkIcon = ({ active }: { active: boolean }) => (
     className={active ? "text-yellow-500" : "text-slate-300 hover:text-yellow-400"}
   >
     <path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"/>
-  </svg>
-);
-
-const SpinnerIcon = () => (
-  <svg className="animate-spin h-4 w-4 text-indigo-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
   </svg>
 );
 
@@ -125,9 +92,6 @@ const getVerbForms = (item: VocabularyItem) => {
 
 export const VocabCard: React.FC<VocabCardProps> = ({ item, onDelete }) => {
   const [activeAudioId, setActiveAudioId] = useState<string | null>(null);
-  const [loadingAudioId, setLoadingAudioId] = useState<string | null>(null);
-  const [errorAudioId, setErrorAudioId] = useState<string | null>(null);
-  const audioCache = useRef<Map<string, string>>(new Map());
   const synth = useRef(window.speechSynthesis);
   const grammarType = getInferredGrammarType(item);
   const verbForms = getVerbForms(item);
@@ -157,7 +121,6 @@ export const VocabCard: React.FC<VocabCardProps> = ({ item, onDelete }) => {
   const playNativeAudio = (text: string, id: string) => {
     if (!synth.current) return;
     synth.current.cancel();
-    setErrorAudioId(null);
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = 'ja-JP';
     utterance.rate = 0.85; 
@@ -169,34 +132,6 @@ export const VocabCard: React.FC<VocabCardProps> = ({ item, onDelete }) => {
     utterance.onend = () => setActiveAudioId(null);
     utterance.onerror = () => setActiveAudioId(null);
     synth.current.speak(utterance);
-  };
-
-  const playAiAudio = async (text: string, id: string) => {
-    synth.current.cancel();
-    setErrorAudioId(null);
-    if (audioCache.current.has(text)) {
-      playBlobAudio(audioCache.current.get(text)!, id);
-      return;
-    }
-    setLoadingAudioId(id);
-    try {
-      const audioUrl = await generateSpeech(text);
-      audioCache.current.set(text, audioUrl);
-      playBlobAudio(audioUrl, id);
-    } catch (e) {
-      setErrorAudioId(id);
-      setTimeout(() => setErrorAudioId(null), 3000);
-    } finally {
-      setLoadingAudioId(null);
-    }
-  };
-
-  const playBlobAudio = (url: string, id: string) => {
-    const audio = new Audio(url);
-    setActiveAudioId(id);
-    audio.onended = () => setActiveAudioId(null);
-    audio.onerror = () => setActiveAudioId(null);
-    audio.play();
   };
 
   return (
@@ -220,15 +155,9 @@ export const VocabCard: React.FC<VocabCardProps> = ({ item, onDelete }) => {
           <button 
             onClick={() => playNativeAudio(item.kanji, 'main-native')}
             className={`p-2 rounded-full transition-colors flex-shrink-0 border ${activeAudioId === 'main-native' ? 'bg-slate-200 border-slate-300' : 'bg-white border-slate-200 hover:bg-slate-50'}`}
+            aria-label="播放读音"
           >
             <VolumeIcon active={activeAudioId === 'main-native'} />
-          </button>
-           <button 
-            onClick={() => playAiAudio(item.kanji, 'main-ai')}
-            disabled={loadingAudioId === 'main-ai'}
-            className={`p-2 rounded-full transition-colors flex-shrink-0 border ${errorAudioId === 'main-ai' ? 'bg-red-50 border-red-200' : activeAudioId === 'main-ai' ? 'bg-indigo-100 border-indigo-200' : 'bg-white border-slate-200 hover:bg-indigo-50 hover:border-indigo-200'}`}
-          >
-            {loadingAudioId === 'main-ai' ? <SpinnerIcon /> : <SparklesIcon active={activeAudioId === 'main-ai'} error={errorAudioId === 'main-ai'} />}
           </button>
         </div>
       </div>
@@ -270,7 +199,6 @@ export const VocabCard: React.FC<VocabCardProps> = ({ item, onDelete }) => {
         <div className="space-y-4">
           {item.sentences.map((sent, idx) => {
             const nativeId = `sent-${idx}-native`;
-            const aiId = `sent-${idx}-ai`;
             return (
               <div key={idx} className="group relative">
                 <div className="flex items-start gap-3">
@@ -278,15 +206,9 @@ export const VocabCard: React.FC<VocabCardProps> = ({ item, onDelete }) => {
                       <button 
                         onClick={() => playNativeAudio(sent.ja, nativeId)}
                         className={`p-1.5 rounded-full transition-colors flex-shrink-0 ${activeAudioId === nativeId ? 'bg-slate-200 text-slate-700' : 'text-slate-400 hover:text-slate-600 hover:bg-slate-100'}`}
+                        aria-label="播放例句读音"
                       >
                         <VolumeIcon active={activeAudioId === nativeId} />
-                      </button>
-                       <button 
-                        onClick={() => playAiAudio(sent.ja, aiId)}
-                        disabled={loadingAudioId === aiId}
-                        className={`p-1.5 rounded-full transition-colors flex-shrink-0 ${errorAudioId === aiId ? 'bg-red-50 text-red-500' : activeAudioId === aiId ? 'bg-indigo-100' : 'hover:bg-indigo-50'}`}
-                      >
-                        {loadingAudioId === aiId ? <SpinnerIcon /> : <SparklesIcon active={activeAudioId === aiId} error={errorAudioId === aiId} />}
                       </button>
                    </div>
                   <div className="flex-1 pr-6">

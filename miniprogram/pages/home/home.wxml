@@ -1,0 +1,27 @@
+<view class="safe-page home">
+  <view class="hero">
+    <view>
+      <text class="eyebrow">LOCAL STUDY APP</text>
+      <view class="title">みんなの日本語</view>
+    </view>
+    <button class="collection-btn plain-btn" bindtap="openCollection">收藏</button>
+  </view>
+
+  <view class="lesson-grid">
+    <block wx:for="{{lessons}}" wx:key="id">
+      <button class="lesson-card plain-btn card" data-id="{{item.id}}" bindtap="openLesson" disabled="{{!item.ready}}">
+        <view class="lesson-top">
+          <text class="lesson-no">Lesson {{item.id}}</text>
+          <text class="status {{item.ready ? 'ready' : ''}}">{{item.ready ? 'READY' : 'SOON'}}</text>
+        </view>
+        <view class="lesson-title">第 {{item.id}} 课</view>
+        <view class="stats">
+          <text>{{item.wordCount}} 词</text>
+          <text>{{item.grammarCount}} 语法</text>
+          <text>{{item.exampleCount}} 例句</text>
+          <text>{{item.textCount}} 课文</text>
+        </view>
+      </button>
+    </block>
+  </view>
+</view>

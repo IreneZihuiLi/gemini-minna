@@ -1,0 +1,30 @@
+<view class="safe-page collection-page">
+  <view class="header">
+    <view>
+      <text class="eyebrow">SENTENCE BANK</text>
+      <view class="title">收藏例句</view>
+    </view>
+    <view class="count">{{collection.length}} items</view>
+  </view>
+
+  <view wx:if="{{collection.length === 0}}" class="empty card">
+    <view class="empty-title">还没有收藏</view>
+    <view class="empty-text">在词汇卡片里点星标，例句就会出现在这里。</view>
+  </view>
+
+  <view wx:else class="list">
+    <block wx:for="{{collection}}" wx:key="id">
+      <view class="sentence-card card">
+        <view class="card-top">
+          <view class="source">From: {{item.sourceKanji}} · {{item.sourceMeaning}}</view>
+          <button class="remove plain-btn" data-index="{{index}}" bindtap="remove">×</button>
+        </view>
+        <view class="sentence-head">
+          <button class="audio-btn" data-index="{{index}}" bindtap="play">♪</button>
+          <view class="ja">{{item.ja}}</view>
+        </view>
+        <view class="zh">{{item.zh}}</view>
+      </view>
+    </block>
+  </view>
+</view>
