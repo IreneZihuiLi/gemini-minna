@@ -243,6 +243,66 @@
       "pages": [
         "pages/lesson/lesson"
       ]
+    },
+    {
+      "root": "pkg_l41",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    },
+    {
+      "root": "pkg_l42",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    },
+    {
+      "root": "pkg_l43",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    },
+    {
+      "root": "pkg_l44",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    },
+    {
+      "root": "pkg_l45",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    },
+    {
+      "root": "pkg_l46",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    },
+    {
+      "root": "pkg_l47",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    },
+    {
+      "root": "pkg_l48",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    },
+    {
+      "root": "pkg_l49",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
+    },
+    {
+      "root": "pkg_l50",
+      "pages": [
+        "pages/lesson/lesson"
+      ]
     }
   ],
   "window": {
