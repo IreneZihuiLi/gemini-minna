@@ -66,7 +66,7 @@ const baseJs = fs.readFileSync(path.join(lessonPageDir, "lesson.js"), "utf8")
 
 const subPackages = [];
 
-for (let lessonId = 1; lessonId <= 30; lessonId++) {
+for (let lessonId = 1; lessonId <= 40; lessonId++) {
   const lessonCode = String(lessonId).padStart(2, "0");
   const packageRoot = `pkg_l${lessonCode}`;
   const packageDir = path.join(miniRoot, packageRoot);
