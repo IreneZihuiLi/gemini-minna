@@ -18,6 +18,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'N1 は N2 じゃありません：否定',
       pattern: '名詞1 + は + 名詞2 + じゃありません',
       meaning: '表示“名词1不是名词2”。「ではありません」更正式。',
+      usage: '「じゃ」是「では」的口语形式。会话中多用「じゃありません」，书面或正式场合用「ではありません」。',
       examples: [
         { ja: 'サントスさんは学生じゃありません。', zh: '桑托斯先生不是学生。' },
         { ja: 'わたしは先生ではありません。', zh: '我不是老师。' }
@@ -28,6 +29,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '～ですか：疑问句',
       pattern: '句子 + か',
       meaning: '句末加「か」构成礼貌疑问句。回答常用「はい」或「いいえ」。',
+      usage: '疑问句句末用升调；即使是疑问句，句末也用「。」而不用「？」。',
       examples: [
         { ja: 'ミラーさんは会社員ですか。', zh: '米勒先生是公司职员吗？' },
         { ja: 'はい、会社員です。', zh: '是的，是公司职员。' }
@@ -38,6 +40,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'N も：也……',
       pattern: '名詞 + も + ～',
       meaning: '表示前面已经提到的情况也适用于另一个人或事物。',
+      usage: '「も」放在与前句相同的成分之后，代替「は」。',
       examples: [
         { ja: 'ミラーさんは会社員です。グプタさんも会社員です。', zh: '米勒是公司职员，古普塔也是公司职员。' }
       ]
@@ -47,6 +50,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'N1 の N2：所属',
       pattern: '名詞1 + の + 名詞2',
       meaning: '名词1修饰名词2，表示所属、单位、国籍等关系。',
+      usage: '「の」连接的两个名词中，前一个说明后一个的所属、单位或性质，如「IMCの社員」「さくら大学の先生」。',
       examples: [
         { ja: 'ミラーさんはIMCの社員です。', zh: '米勒先生是IMC公司的职员。' },
         { ja: 'ワットさんはさくら大学の先生です。', zh: '瓦特先生是樱花大学的老师。' }
@@ -59,6 +63,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'これ / それ / あれ',
       pattern: 'これ・それ・あれ + は ～です',
       meaning: '指代物品。「これ」靠近说话人，「それ」靠近听话人，「あれ」离双方都远。',
+      usage: '说话人和听话人面对面时，靠近说话人的用「これ」，靠近听话人的用「それ」，两人都远的用「あれ」。',
       examples: [
         { ja: 'これは辞書です。', zh: '这是字典。' },
         { ja: 'それはノートですか。', zh: '那是笔记本吗？' },
@@ -70,6 +75,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'この / その / あの + N',
       pattern: 'この・その・あの + 名詞',
       meaning: '修饰名词时使用，距离关系与「これ・それ・あれ」相同。',
+      usage: '「この／その／あの」不能单独使用，后面必须接名词。',
       examples: [
         { ja: 'この本はわたしのです。', zh: '这本书是我的。' },
         { ja: 'その辞書はミラーさんのです。', zh: '那本字典是米勒先生的。' }
@@ -80,6 +86,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'そうです / そうじゃありません',
       pattern: 'はい、そうです / いいえ、そうじゃありません',
       meaning: '回答名词判断句，表示“是那样”或“不是那样”。',
+      usage: '「そうです」只用于回答名词句的疑问句；否定时也常用「いいえ、違います」。',
       examples: [
         { ja: 'これはボールペンですか。……はい、そうです。', zh: '这是圆珠笔吗？……是的。' },
         { ja: 'それはノートですか。……いいえ、手帳です。', zh: '那是笔记本吗？……不，是记事本。' }
@@ -90,6 +97,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'N1 の N2：内容与所有',
       pattern: '名詞1 + の + 名詞2',
       meaning: '可以表示内容、用途、产地或所有关系。',
+      usage: '「コンピューターの本」表示内容，「わたしのかばん」表示所有。',
       examples: [
         { ja: 'これはコンピューターの本です。', zh: '这是关于电脑的书。' },
         { ja: 'あれは佐藤さんのかばんです。', zh: '那是佐藤的包。' }
@@ -100,6 +108,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '「の」代替名词',
       pattern: '名詞 + のです',
       meaning: '后面的名词已明确时，可以用「の」代替，避免重复。',
+      usage: '「の」只能代替物，不能代替人：○わたしのです ×ミラーさんのです（指人时）。',
       examples: [
         { ja: 'この傘はだれのですか。……わたしのです。', zh: '这把伞是谁的？……是我的。' }
       ]
@@ -111,6 +120,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'ここ / そこ / あそこ / どこ',
       pattern: '場所指示詞 + は ～です',
       meaning: '表示地点：这里、那里、那边、哪里。礼貌说法是「こちら・そちら・あちら・どちら」。',
+      usage: '「ここ／そこ／あそこ」的远近关系与「これ／それ／あれ」相同；「どこ」是疑问词。',
       examples: [
         { ja: 'ここは食堂です。', zh: '这里是食堂。' },
         { ja: 'トイレはどこですか。……あそこです。', zh: '洗手间在哪里？……在那边。' }
@@ -121,6 +131,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'N は 場所です',
       pattern: '名詞 + は + 場所 + です',
       meaning: '说明人、物或设施所在的地点。',
+      usage: '场所名词后直接接「です」说明地点，如「トイレはあそこです」「電話は2階です」。',
       examples: [
         { ja: 'エレベーターはあそこです。', zh: '电梯在那边。' },
         { ja: '山田さんは会議室です。', zh: '山田先生在会议室。' }
@@ -131,6 +142,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'どちら：方向、地点和国家',
       pattern: '～はどちらですか',
       meaning: '「どちら」既可礼貌询问方向或地点，也可询问国家、公司等所属。',
+      usage: '询问国名、公司名、学校名时不用「どこ」而用「どちら」更礼貌：「会社はどちらですか」。',
       examples: [
         { ja: '事務所はどちらですか。……あちらです。', zh: '办公室在哪里？……在那边。' },
         { ja: 'お国はどちらですか。……アメリカです。', zh: '您来自哪个国家？……美国。' }
@@ -141,6 +153,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'どこの N：产地或所属',
       pattern: 'どこの + 名詞',
       meaning: '询问物品的产地、品牌，或人所属的公司、学校。',
+      usage: '「どこの」后接物品名询问产地或公司，回答用「国名／公司名＋の＋物品」。',
       examples: [
         { ja: 'それはどこの靴ですか。……イタリアの靴です。', zh: '那是哪里的鞋？……是意大利的鞋。' }
       ]
@@ -150,6 +163,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'いくら：询问价格',
       pattern: 'この/その/あの N は いくらですか',
       meaning: '用「いくら」询问价格。',
+      usage: '价格数字后接「円」；也可指着物品直接问「これはいくらですか」。',
       examples: [
         { ja: 'この時計はいくらですか。……18,600円です。', zh: '这块表多少钱？……18,600日元。' }
       ]
@@ -161,6 +175,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '～時 ～分：时间',
       pattern: '今 + 何時何分 + ですか',
       meaning: '用「～時」「～分」表达时刻，用「何時」「何分」提问。',
+      usage: '「4時」读「よじ」，「9時」读「くじ」，「7時」读「しちじ」；「～分」根据前面的数字读「ふん」或「ぷん」。',
       examples: [
         { ja: '今4時5分です。', zh: '现在4点5分。' },
         { ja: 'ニューヨークは今何時ですか。……午前0時10分です。', zh: '纽约现在几点？……凌晨0点10分。' }
@@ -171,6 +186,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '动词礼貌形与时态',
       pattern: 'Vます / Vません / Vました / Vませんでした',
       meaning: '分别表示非过去肯定、非过去否定、过去肯定、过去否定。',
+      usage: '「ます形」用于对听话人表示礼貌的场合；过去时用「ました」，否定用「ません」。',
       examples: [
         { ja: '毎日勉強します。', zh: '每天学习。' },
         { ja: 'きのう勉強しませんでした。', zh: '昨天没有学习。' }
@@ -181,6 +197,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '时间 に V',
       pattern: '時間 + に + 動詞',
       meaning: '助词「に」表示动作发生的具体时间。相对时间词如「きょう」「あした」通常不加「に」。',
+      usage: '「に」接在带数字的时间词（時、曜日、日、月、年）之后；「毎朝」「あした」等不加「に」。',
       examples: [
         { ja: 'わたしは毎朝6時に起きます。', zh: '我每天早上6点起床。' },
         { ja: '毎晩11時に寝ます。', zh: '每天晚上11点睡觉。' }
@@ -191,6 +208,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'N1 から N2 まで',
       pattern: '起点 + から + 终点 + まで',
       meaning: '表示时间或地点的起点和终点，可以分别单独使用。',
+      usage: '「9時から5時まで」表示时间范围，「大阪から東京まで」表示地点范围。',
       examples: [
         { ja: '銀行は9時から3時までです。', zh: '银行从9点营业到3点。' },
         { ja: '9時から5時まで働きます。', zh: '从9点工作到5点。' }
@@ -201,6 +219,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'N1 と N2 / ～ね',
       pattern: '名詞1 + と + 名詞2 / 句子 + ね',
       meaning: '「と」并列名词；句末「ね」用于确认或寻求共鸣。',
+      usage: '「と」只能连接名词；「ね」用于向对方确认或表示同感，如「大変ですね」。',
       examples: [
         { ja: '銀行の休みは土曜日と日曜日です。', zh: '银行星期六和星期日休息。' },
         { ja: '871の6813ですね。', zh: '是871-6813，对吧。' }
@@ -213,6 +232,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '場所へ 行きます',
       pattern: '場所 + へ + 行きます / 来ます / 帰ります',
       meaning: '助词「へ」表示移动的方向或目的地，读作「え」。',
+      usage: '「へ」在这里读作「え」；表示方向时也可以用「に」代替「へ」。',
       examples: [
         { ja: 'わたしは京都へ行きます。', zh: '我去京都。' },
         { ja: 'いつ日本へ来ましたか。', zh: '什么时候来日本的？' }
@@ -223,6 +243,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '交通工具 で',
       pattern: '乗り物 + で + 行きます',
       meaning: '助词「で」表示移动所使用的交通工具。步行使用「歩いて」，不加「で」。',
+      usage: '「電車で」「バスで」「タクシーで」；步行时说「歩いて行きます」。',
       examples: [
         { ja: 'タクシーでうちへ帰ります。', zh: '坐出租车回家。' },
         { ja: '新幹線で東京へ行きます。', zh: '坐新干线去东京。' }
@@ -233,6 +254,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '人 と：和谁一起',
       pattern: '人 + と + 移動動詞',
       meaning: '助词「と」表示共同进行动作的人。独自一人用「一人で」。',
+      usage: '「家族と」「友達と」；独自一人时说「一人で」，用「で」而不是「と」。',
       examples: [
         { ja: 'わたしは家族と日本へ来ました。', zh: '我和家人一起来了日本。' },
         { ja: '山田さんと東京へ行きます。', zh: '和山田先生一起去东京。' }
@@ -243,6 +265,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '时间 に：移动日期',
       pattern: '日時 + に + 行きます / 来ます / 帰ります',
       meaning: '具体日期、时刻后用「に」表示移动发生的时间；可用「いつ」提问。',
+      usage: '用「いつ」提问时后面不加「に」：「いつ日本へ来ましたか」。',
       examples: [
         { ja: '3月25日に日本へ来ました。', zh: '3月25日来到了日本。' },
         { ja: '誕生日は6月13日です。', zh: '生日是6月13日。' }
@@ -253,6 +276,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'どこへも + 否定',
       pattern: 'どこへも + 行きません',
       meaning: '疑问词「どこ」加「も」并与否定呼应，表示“哪里也不去”。',
+      usage: '「どこ［へ］も行きません」中的「へ」可以省略；「何も」「だれも」用法相同。',
       examples: [
         { ja: '日曜日どこへ行きましたか。……どこへも行きませんでした。', zh: '星期天去了哪里？……哪里也没去。' }
       ]
@@ -264,6 +288,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'N を V：动作的对象',
       pattern: '名詞 + を + 動詞',
       meaning: '助词「を」表示动作直接作用的对象，读作「お」。',
+      usage: '「ジュースを飲みます」「テレビを見ます」；「を」只用于标记他动词的宾语。',
       examples: [
         { ja: 'わたしは本を読みます。', zh: '我读书。' },
         { ja: '毎朝パンと卵を食べます。', zh: '每天早上吃面包和鸡蛋。' }
@@ -274,6 +299,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '場所 で V：动作场所',
       pattern: '場所 + で + 動詞',
       meaning: '助词「で」表示动作发生的场所。',
+      usage: '「で」表示动作发生的场所，与表示存在场所的「に」不同：「教室で勉強します」。',
       examples: [
         { ja: '駅で新聞を買います。', zh: '在车站买报纸。' },
         { ja: 'メキシコでそのかばんを買いました。', zh: '在墨西哥买了那个包。' }
@@ -284,6 +310,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '何を / 何も',
       pattern: '何を + Vますか / 何も + Vません',
       meaning: '「何を」询问动作对象；「何も」和否定呼应，表示“什么也不……”。',
+      usage: '疑问句「何を食べますか」；回答「何も食べません」时「を」被「も」替换。',
       examples: [
         { ja: 'けさ何を食べましたか。……何も食べませんでした。', zh: '今天早上吃了什么？……什么也没吃。' }
       ]
@@ -293,6 +320,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'Vませんか：邀请',
       pattern: '動詞ます形 + ませんか',
       meaning: '礼貌地邀请对方一起做某事，中文相当于“要不要……？”',
+      usage: '「いっしょに～ませんか」邀请对方，接受时说「ええ、いいですね」，拒绝时说「すみません、ちょっと……」。',
       examples: [
         { ja: 'いっしょに神戸へ行きませんか。', zh: '要不要一起去神户？' },
         { ja: 'あしたテニスをしませんか。', zh: '明天要不要打网球？' }
@@ -303,6 +331,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'Vましょう：一起……吧',
       pattern: '動詞ます形 + ましょう',
       meaning: '提议或响应邀请，表示“一起……吧”。',
+      usage: '「～ましょう」用于提议，也用于积极回应对方的邀请，如「ええ、飲みましょう」。',
       examples: [
         { ja: 'ちょっと休みましょう。', zh: '稍微休息一下吧。' },
         { ja: 'あした10時に駅で会いましょう。', zh: '明天10点在车站见吧。' }
@@ -315,6 +344,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '道具・手段 で V',
       pattern: '工具 / 手段 / 语言 + で + 動詞',
       meaning: '助词「で」表示完成动作使用的工具、手段或语言。',
+      usage: '「はしで食べます」「日本語で話します」「電話で連絡します」。',
       examples: [
         { ja: 'わたしはパソコンで映画を見ます。', zh: '我用电脑看电影。' },
         { ja: '日本語でレポートを書きます。', zh: '用日语写报告。' }
@@ -325,6 +355,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '「～」は ～語で何ですか',
       pattern: '词语 + は + 语言 + で + 何ですか',
       meaning: '询问某个词用另一种语言怎么说。',
+      usage: '「ありがとうは英語で何ですか。……Thank youです。」',
       examples: [
         { ja: '「Goodbye」は日本語で何ですか。……「さようなら」です。', zh: '“Goodbye”用日语怎么说？……是“さようなら”。' }
       ]
@@ -334,6 +365,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '人 に Nを あげます',
       pattern: '给予者 は 接受者 に 物 を あげます',
       meaning: '表示说话人或某人把物品给别人。接受者不能是说话人自己。',
+      usage: '接受者用「に」表示；「あげます」的接受者不能是「わたし」，给我时要用「くれます」（第24课）。',
       examples: [
         { ja: 'わたしは木村さんに花をあげます。', zh: '我送花给木村。' },
         { ja: '先生と友達に年賀状を書きます。', zh: '给老师和朋友写贺年卡。' }
@@ -344,6 +376,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '人 に / から Nを もらいます',
       pattern: '接受者 は 给予者 に / から 物 を もらいます',
       meaning: '表示从某人或组织那里得到物品。「から」常用于组织机构。',
+      usage: '「会社から」「銀行から」；接受者是自己时常省略「わたしは」。',
       examples: [
         { ja: 'わたしはカリナさんにチョコレートをもらいました。', zh: '我从卡莉娜那里收到了巧克力。' },
         { ja: '会社の人にスプーンをもらいました。', zh: '从公司的人那里收到了勺子。' }
@@ -354,6 +387,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'もう Vました / まだです',
       pattern: 'もう + 動詞过去形 / いいえ、まだです',
       meaning: '询问或说明某动作是否已经完成；尚未完成时用「まだです」。',
+      usage: '「もう」相当于“已经”；否定回答用「いいえ、まだです」，不能说「いいえ、まだ食べませんでした」。',
       examples: [
         { ja: 'もう新幹線の切符を買いましたか。……はい、もう買いました。', zh: '已经买新干线车票了吗？……是的，已经买了。' },
         { ja: 'もう昼ごはんを食べましたか。……いいえ、まだです。', zh: '已经吃午饭了吗？……不，还没有。' }
@@ -366,6 +400,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'い形容詞 / な形容詞',
       pattern: 'N は い形容詞です / N は な形容詞です',
       meaning: '形容词分为い形容词和な形容词，用来描述事物性质或状态。',
+      usage: 'い形容词以「い」结尾（大きい、高い）；な形容词修饰名词时加「な」（きれいな、静かな）。',
       examples: [
         { ja: '富士山は高いです。', zh: '富士山很高。' },
         { ja: '桜はきれいです。', zh: '樱花很漂亮。' }
@@ -376,6 +411,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '形容词否定',
       pattern: 'い形：～くないです / な形：～じゃありません',
       meaning: 'い形容词去「い」加「くないです」；な形容词后接「じゃありません」。',
+      usage: '「いい」的否定形式是「よくないです」；「きれい」「嫌い」虽以「い」结尾，但属于な形容词。',
       examples: [
         { ja: '上海はあまり寒くないです。', zh: '上海不太冷。' },
         { ja: 'さくら大学は有名じゃありません。', zh: '樱花大学不出名。' }
@@ -386,6 +422,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '形容詞 + 名詞',
       pattern: 'い形容詞 + 名詞 / な形容詞 + な + 名詞',
       meaning: '形容词放在名词前修饰名词。な形容词需要加「な」。',
+      usage: '「大きい町」「にぎやかな町」；い形容词直接修饰名词，な形容词后要加「な」。',
       examples: [
         { ja: '富士山は高い山です。', zh: '富士山是一座高山。' },
         { ja: '桜はきれいな花です。', zh: '樱花是漂亮的花。' }
@@ -396,6 +433,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'とても / あまり',
       pattern: 'とても + 肯定 / あまり + 否定',
       meaning: '「とても」表示“非常”；「あまり」与否定呼应，表示“不太……”。',
+      usage: '「とても大きいです」「あまり大きくないです」；「あまり」不能与肯定形式一起使用。',
       examples: [
         { ja: 'ペキンは今とても寒いです。', zh: '北京现在非常冷。' },
         { ja: '上海はあまり寒くないです。', zh: '上海不太冷。' }
@@ -406,6 +444,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'どうですか / どんな N',
       pattern: 'N はどうですか / どんな + 名詞 + ですか',
       meaning: '「どう」询问总体印象；「どんな」询问某类人或事物的性质。',
+      usage: '「日本の生活はどうですか」询问感想；「どんな町ですか」询问性质，回答用形容词加名词。',
       examples: [
         { ja: '大学の寮はどうですか。……古いですが、便利です。', zh: '大学宿舍怎么样？……虽然旧，但很方便。' },
         { ja: 'どんなうちですか。……きれいなうちです。', zh: '是什么样的房子？……是漂亮的房子。' }
@@ -418,6 +457,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'N が 好き / 嫌いです',
       pattern: '人 は 名詞 が 好きです / 嫌いです',
       meaning: '表示喜欢或不喜欢的对象，助词使用「が」。',
+      usage: '「好き」「嫌い」是な形容词，对象用「が」而不是「を」：「どんなスポーツが好きですか」。',
       examples: [
         { ja: 'わたしはイタリア料理が好きです。', zh: '我喜欢意大利菜。' },
         { ja: 'お酒が好きですか。……いいえ、好きじゃありません。', zh: '喜欢酒吗？……不，不喜欢。' }
@@ -428,6 +468,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'N が 上手 / 下手です',
       pattern: '人 は 名詞 が 上手です / 下手です',
       meaning: '表示擅长或不擅长某项技能。描述自己时「上手」通常较少使用。',
+      usage: '「上手」「下手」也是な形容词，对象用「が」；说自己擅长时常说「まあまあです」。',
       examples: [
         { ja: 'カリナさんは絵が上手です。', zh: '卡莉娜很会画画。' },
         { ja: '歌が下手です。', zh: '不擅长唱歌。' }
@@ -438,6 +479,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'N が わかります / あります',
       pattern: '名詞 + が + わかります / あります',
       meaning: '表示理解某事物，或拥有某物、时间、约定等。',
+      usage: '「わかります」「あります」（拥有）的对象用「が」：「日本語がわかります」「車があります」。',
       examples: [
         { ja: 'わたしは日本語が少しわかります。', zh: '我懂一点日语。' },
         { ja: '細かいお金がありますか。', zh: '有零钱吗？' }
@@ -448,6 +490,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '程度副词',
       pattern: 'よく / だいたい / 少し / あまり / 全然',
       meaning: '修饰理解、能力等程度。「あまり」「全然」通常和否定形式一起使用。',
+      usage: '「よくわかります／だいたいわかります／少しわかります／あまりわかりません／全然わかりません」。',
       examples: [
         { ja: '英語がよくわかります。', zh: '很懂英语。' },
         { ja: 'インドネシア語が全然わかりません。', zh: '完全不懂印度尼西亚语。' }
@@ -458,6 +501,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '～から：原因理由',
       pattern: '理由 + から、结果',
       meaning: '「から」接在表示理由的句子后，相当于“因为……”。',
+      usage: '「から」接在理由句之后，理由句用礼貌形；也可先说结果再补充理由：「……。時間がありませんから。」',
       examples: [
         { ja: 'きょうは子どもの誕生日ですから、早く帰ります。', zh: '因为今天是孩子的生日，所以早点回家。' },
         { ja: 'どうして新聞を読みませんか。……時間がありませんから。', zh: '为什么不看报纸？……因为没有时间。' }
@@ -470,6 +514,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'あります / います：存在',
       pattern: '物・植物 があります / 人・動物 がいます',
       meaning: '「あります」用于无生命物体和植物；「います」用于人和动物。',
+      usage: '「あります」用于桌子、树、花等；「います」用于人、狗、猫等有生命且会活动的事物。',
       examples: [
         { ja: 'あそこにコンビニがあります。', zh: '那边有便利店。' },
         { ja: 'ロビーに佐藤さんがいます。', zh: '大厅里有佐藤女士。' }
@@ -480,6 +525,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '場所 に N が あります / います',
       pattern: '場所 + に + 名詞 + が + あります / います',
       meaning: '说明某个地点存在什么人或物。「に」表示存在地点。',
+      usage: '提问时用「～に何がありますか」「～にだれがいますか」，回答时把该事物放在「が」前。',
       examples: [
         { ja: '庭に猫がいます。', zh: '院子里有猫。' },
         { ja: '箱の中に古い手紙や写真があります。', zh: '箱子里有旧信和照片。' }
@@ -490,6 +536,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'N は 場所 に あります / います',
       pattern: '名詞 + は + 場所 + に + あります / います',
       meaning: '以人或物为主题，说明它所在的位置。',
+      usage: '已知的人或物作主题用「は」提示，回答“在哪里”：「ミラーさんは事務所にいます」。',
       examples: [
         { ja: '東京ディズニーランドは千葉県にあります。', zh: '东京迪士尼乐园在千叶县。' },
         { ja: 'ミラーさんは会議室にいます。', zh: '米勒先生在会议室。' }
@@ -500,6 +547,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '位置词',
       pattern: 'N の 上 / 下 / 前 / 後ろ / 中 / 外 / 隣 / 近く / 間',
       meaning: '位置词前用「の」连接参照物。',
+      usage: '「机の上」「駅の近く」「銀行と郵便局の間」；位置词后可接「に」「で」等助词。',
       examples: [
         { ja: '郵便局は駅の近くです。', zh: '邮局在车站附近。' },
         { ja: '銀行の前にあります。', zh: '在银行前面。' }
@@ -510,6 +558,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'N1 や N2：不完全列举',
       pattern: '名詞1 + や + 名詞2 + など',
       meaning: '列举几个代表性事物，暗示还有其他同类事物。「など」可省略。',
+      usage: '与「と」不同，「や」表示不完全列举；句末可加「など」表示“等等”。',
       examples: [
         { ja: '箱の中に古い手紙や写真などがあります。', zh: '箱子里有旧信、照片等。' }
       ]
@@ -532,6 +581,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '时间段 + V',
       pattern: '期間 + 動詞',
       meaning: '表示动作持续多长时间时，时间段后通常不加「に」。',
+      usage: '「1時間勉強します」「3か月日本語を勉強しました」；提问用「どのくらい」。',
       examples: [
         { ja: '毎晩7時間寝ます。', zh: '每天晚上睡七个小时。' },
         { ja: '大阪から東京まで新幹線で2時間半かかります。', zh: '从大阪到东京坐新干线要两个半小时。' }
@@ -542,6 +592,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '期间内的频率',
       pattern: '期間 + に + 回数 + 動詞',
       meaning: '表示在某段时间内做几次某事。',
+      usage: '「1週間に2回」「1か月に1回」；提问用「1週間に何回」。',
       examples: [
         { ja: '1週間に2回テニスをします。', zh: '一周打两次网球。' },
         { ja: '1か月に1回映画を見ます。', zh: '一个月看一次电影。' }
@@ -554,6 +605,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '名词、形容词的过去式',
       pattern: 'N/なA でした・じゃありませんでした / いA かったです・くなかったです',
       meaning: '说明过去的性质、状态和感想。',
+      usage: '「きのうは暑かったです」「静かじゃありませんでした」「休みでした」。',
       examples: [
         { ja: 'きのうは雨でした。', zh: '昨天是雨天。' },
         { ja: '祭りはとても楽しかったです。', zh: '庆典非常开心。' }
@@ -564,6 +616,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'N1 は N2 より……',
       pattern: '名詞1 + は + 名詞2 + より + 形容詞です',
       meaning: '比较两者，表示名词1比名词2更具有某种性质。',
+      usage: '「より」前面的是比较的基准：「東京は大阪より大きいです」。',
       examples: [
         { ja: '北海道は大阪より涼しいです。', zh: '北海道比大阪凉爽。' }
       ]
@@ -573,6 +626,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '两者比较与最高级',
       pattern: 'N1とN2とどちらが～ / Nの中で何がいちばん～',
       meaning: '询问两者中哪一个更……，或某个范围内哪一个最……。',
+      usage: '回答两者比较用「～のほうが～です」；回答范围内的最高级用「～がいちばん～です」。',
       examples: [
         { ja: 'サッカーと野球とどちらがおもしろいですか。', zh: '足球和棒球哪个更有趣？' },
         { ja: '日本料理の中で何がいちばん好きですか。', zh: '日本料理中最喜欢什么？' }
@@ -585,6 +639,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'N が 欲しいです',
       pattern: '名詞 + が + 欲しいです',
       meaning: '表达说话人想要某物。疑问句可询问听话人的愿望。',
+      usage: '「欲しい」是い形容词，否定是「欲しくないです」；不用于第三人称的愿望。',
       examples: [
         { ja: '新しいパソコンが欲しいです。', zh: '想要一台新电脑。' }
       ]
@@ -594,6 +649,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'Vます词干 + たいです',
       pattern: '動詞ます形去掉ます + たいです',
       meaning: '表示想做某事。「たい」按い形容词变化。',
+      usage: '「たい」的对象可用「が」或「を」：「水が飲みたいです」；不宜用于询问上级的愿望。',
       examples: [
         { ja: '沖縄へ行きたいです。', zh: '想去冲绳。' },
         { ja: 'きょうは何も食べたくないです。', zh: '今天什么也不想吃。' }
@@ -604,6 +660,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '去某处做某事',
       pattern: '場所へ + Vます词干 / N + に行きます',
       meaning: '「に」标记移动的目的。',
+      usage: '「京都へ紅葉を見に行きます」「デパートへ買い物に行きます」；动作名词直接接「に」。',
       examples: [
         { ja: '神戸へインド料理を食べに行きます。', zh: '去神户吃印度菜。' },
         { ja: 'デパートへ買い物に行きました。', zh: '去百货商店购物了。' }
@@ -627,6 +684,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'Vてください',
       pattern: '動詞て形 + ください',
       meaning: '礼貌地请求或指示对方做某事。',
+      usage: '「ちょっと待ってください」；对上级请求时用「～ていただけませんか」（第26课）更礼貌。',
       examples: [
         { ja: 'ここに住所を書いてください。', zh: '请在这里写地址。' }
       ]
@@ -636,6 +694,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'Vています：正在进行',
       pattern: '動詞て形 + います',
       meaning: '表示动作正在进行，或某种现象持续发生。',
+      usage: '「今雨が降っています」「ミラーさんは今電話をかけています」。',
       examples: [
         { ja: 'ミラーさんは今電話をかけています。', zh: '米勒先生现在正在打电话。' },
         { ja: '雨が降っています。', zh: '正在下雨。' }
@@ -648,6 +707,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'Vてもいいです',
       pattern: '動詞て形 + もいいです',
       meaning: '表示允许；疑问形式用于征求许可。',
+      usage: '「ここで写真を撮ってもいいですか」；回答允许用「ええ、いいですよ」。',
       examples: [
         { ja: 'ここで写真を撮ってもいいですか。', zh: '可以在这里拍照吗？' }
       ]
@@ -657,6 +717,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'Vてはいけません',
       pattern: '動詞て形 + はいけません',
       meaning: '表示禁止做某事。',
+      usage: '「ここで写真を撮ってはいけません」；对上级或客人多用「すみません、ちょっと……」委婉拒绝。',
       examples: [
         { ja: 'ここでたばこを吸ってはいけません。', zh: '这里禁止吸烟。' }
       ]
@@ -666,6 +727,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'Vています：状态、职业与习惯',
       pattern: '動詞て形 + います',
       meaning: '除了正在进行，还可表示动作结果的持续状态、职业或长期习惯。',
+      usage: '「ミラーさんは結婚しています」「IMCで働いています」「東京に住んでいます」；「知っています」的否定是「知りません」。',
       examples: [
         { ja: 'わたしは東京に住んでいます。', zh: '我住在东京。' },
         { ja: '妹は大学で勉強しています。', zh: '妹妹在大学学习。' },
@@ -679,6 +741,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'Vて、Vて：动作顺序',
       pattern: '動詞て形 +、動詞て形 +、～',
       meaning: '按发生顺序连接两个或多个动作，最后一个动词决定整句时态。',
+      usage: '「朝ジョギングをして、シャワーを浴びて、会社へ行きます」；名词、な形容词用「で」，い形容词用「～くて」连接。',
       examples: [
         { ja: '朝ジョギングをして、シャワーを浴びて、会社へ行きます。', zh: '早上跑步、洗澡，然后去公司。' },
         { ja: 'きのう神戸へ行って、映画を見て、お茶を飲みました。', zh: '昨天去了神户，看了电影，还喝了茶。' }
@@ -689,6 +752,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'Vてから：做完以后',
       pattern: '動詞て形 + から、～',
       meaning: '明确表示完成前一个动作之后，再做后一个动作。',
+      usage: '「仕事が終わってから、飲みに行きます」；一个句子里「てから」只用一次。',
       examples: [
         { ja: '国へ帰ってから、父の会社で働きます。', zh: '回国以后，在父亲的公司工作。' }
       ]
@@ -698,6 +762,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'N1 は N2 が 形容词',
       pattern: '名詞1 + は + 名詞2 + が + 形容詞です',
       meaning: '以名词1为主题，描述其某个部分或特征。',
+      usage: '「ミラーさんは背が高いです」「大阪は食べ物がおいしいです」。',
       examples: [
         { ja: '大阪は食べ物がおいしいです。', zh: '大阪的食物很好吃。' },
         { ja: 'マリアさんは髪が長いです。', zh: '玛丽亚的头发很长。' }
@@ -708,6 +773,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'どうやって：询问方法',
       pattern: 'どうやって + 動詞ますか',
       meaning: '询问做某事的方法、手段或步骤。',
+      usage: '「どうやって大学へ行きますか。……16番のバスに乗って、大学前で降ります。」',
       examples: [
         { ja: '大学までどうやって行きますか。', zh: '怎么去大学？' }
       ]
@@ -719,6 +785,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'Vないでください',
       pattern: '動詞ない形 + でください',
       meaning: '礼貌地请求对方不要做某事。',
+      usage: '「ここで写真を撮らないでください」；语气比「～てはいけません」柔和。',
       examples: [
         { ja: 'ここで写真を撮らないでください。', zh: '请不要在这里拍照。' },
         { ja: '大切な書類ですから、なくさないでください。', zh: '因为是重要文件，请不要弄丢。' }
@@ -729,6 +796,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'Vなければなりません',
       pattern: '動詞ない形去掉い + ければなりません',
       meaning: '表示必须做某事。',
+      usage: '「薬を飲まなければなりません」；口语中也说「～なければいけません」「～ないと」。',
       examples: [
         { ja: '毎日薬を飲まなければなりません。', zh: '每天必须吃药。' },
         { ja: 'あしたまでに宿題を出さなければなりません。', zh: '必须在明天之前交作业。' }
@@ -739,6 +807,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'Vなくてもいいです',
       pattern: '動詞ない形去掉い + くてもいいです',
       meaning: '表示没有必要做某事，即“不做也可以”。',
+      usage: '「あしたは来なくてもいいです」；与「～なければなりません」相对。',
       examples: [
         { ja: 'あしたは来なくてもいいです。', zh: '明天不来也可以。' }
       ]
@@ -748,6 +817,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '时间 + までに',
       pattern: '期限 + までに + 動詞',
       meaning: '表示动作必须在某个截止时间之前完成。',
+      usage: '「までに」表示期限，「まで」表示持续到某时：「5時までに帰ります」「5時まで働きます」。',
       examples: [
         { ja: '金曜日までに本を返してください。', zh: '请在星期五之前还书。' }
       ]
@@ -759,6 +829,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'V辞书形 + ことができます',
       pattern: '動詞辞書形 + ことができます',
       meaning: '表示具备某种能力，或客观条件允许做某事。',
+      usage: '「漢字を読むことができます」；名词直接接「ができます」：「日本語ができます」。',
       examples: [
         { ja: 'ミラーさんは漢字を読むことができます。', zh: '米勒先生会读汉字。' },
         { ja: 'この図書館で本を借りることができます。', zh: '可以在这家图书馆借书。' }
@@ -769,6 +840,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '趣味は Vることです',
       pattern: '趣味は + 動詞辞書形 + ことです',
       meaning: '把动作名词化，用来说明兴趣爱好。',
+      usage: '「わたしの趣味は本を読むことです」；是名词时说「趣味は音楽です」。',
       examples: [
         { ja: 'わたしの趣味は写真を撮ることです。', zh: '我的爱好是拍照。' }
       ]
@@ -778,6 +850,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'Vる / Nの 前に',
       pattern: '動詞辞書形 + 前に / 名詞 + の前に',
       meaning: '表示在某个动作或时间点之前做另一件事。',
+      usage: '「寝る前に本を読みます」「食事の前に手を洗います」「3年前に日本へ来ました」。',
       examples: [
         { ja: '寝る前に、日記を書きます。', zh: '睡觉前写日记。' },
         { ja: '食事の前に、手を洗います。', zh: '吃饭前洗手。' }
@@ -788,6 +861,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'なかなか + 否定',
       pattern: 'なかなか + 否定形',
       meaning: '表示某事不容易实现，或怎么也不能完成。',
+      usage: '「日本語がなかなか上手になりません」；「なかなか」多与否定形式呼应。',
       examples: [
         { ja: '日本ではなかなか馬を見ることができません。', zh: '在日本很难见到马。' }
       ]
@@ -799,6 +873,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'Vたことがあります',
       pattern: '動詞た形 + ことがあります',
       meaning: '表示过去曾有过某种经历。',
+      usage: '「馬に乗ったことがあります」；与单纯叙述过去的「～ました」不同，强调“有过这样的经历”。',
       examples: [
         { ja: '北海道へ行ったことがあります。', zh: '去过北海道。' },
         { ja: '馬に乗ったことがありません。', zh: '没有骑过马。' }
@@ -809,6 +884,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'Vたり、Vたりします',
       pattern: '動詞た形 + り、動詞た形 + りします',
       meaning: '从多个动作中列举代表性的活动，不强调先后顺序。',
+      usage: '「日曜日はテニスをしたり、映画を見たりします」；句末的「します」决定时态。',
       examples: [
         { ja: '日曜日は掃除したり、洗濯したりします。', zh: '星期天会打扫、洗衣服等。' }
       ]
@@ -818,6 +894,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '形容词、名词 + なります',
       pattern: 'いAく / なAに / Nに + なります',
       meaning: '表示性质、状态或身份发生变化。',
+      usage: '「寒くなります」「元気になります」「先生になります」；「なります」表示自然变化，与「～にします」不同。',
       examples: [
         { ja: '寒くなりました。', zh: '变冷了。' },
         { ja: '日本語が上手になりました。', zh: '日语变得熟练了。' },
@@ -842,6 +919,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '名词、形容词普通形',
       pattern: 'N/なA だ・じゃない・だった・じゃなかった',
       meaning: '名词和な形容词的普通体用「だ」判断；い形容词本身就是普通形。',
+      usage: '「学生だ／学生じゃない／学生だった／学生じゃなかった」；い形容词「大きい／大きくない／大きかった／大きくなかった」。',
       examples: [
         { ja: '今日は暇だ。', zh: '今天有空。' },
         { ja: 'きのうは雨じゃなかった。', zh: '昨天不是雨天。' },
@@ -853,6 +931,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '普通体疑问与省略',
       pattern: '普通形 + ？',
       meaning: '随意会话中常省略句末「か」，用升调提问；助词也常在语意清楚时省略。',
+      usage: '「コーヒー、飲む？」「うん、飲む。」；名词、な形容词的疑问句省略「だ」。',
       examples: [
         { ja: 'コーヒー、飲む？……うん、飲む。', zh: '喝咖啡吗？……嗯，喝。' },
         { ja: 'どこへ行くの？……ちょっと郵便局へ。', zh: '去哪里？……去一下邮局。' }
@@ -863,6 +942,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'けど：转折与铺垫',
       pattern: '普通形 + けど、～',
       meaning: '表示转折“可是”，也可用于委婉地引出话题。',
+      usage: '「行きたいけど、時間がない」；「けど」是「が」的口语说法。',
       examples: [
         { ja: '日本の食べ物はおいしいけど、高い。', zh: '日本食物很好吃，不过很贵。' },
         { ja: 'チケットが2枚あるけど、いっしょに行かない？', zh: '我有两张票，要不要一起去？' }
@@ -887,6 +967,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '～についてどう思いますか',
       pattern: '名詞 + についてどう思いますか',
       meaning: '询问对方对某个主题的看法。',
+      usage: '「日本についてどう思いますか」；回答时用「～と思います」。',
       examples: [
         { ja: '日本の教育についてどう思いますか。', zh: '你怎么看日本的教育？' },
         { ja: 'とてもいいと思います。', zh: '我认为非常好。' }
@@ -919,6 +1000,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '场所で N があります',
       pattern: '場所 + で + 行事/事件 + があります',
       meaning: '表示某地举行活动，或发生某件事情。',
+      usage: '「東京で日本とブラジルのサッカーの試合があります」；活动名词后用「があります」。',
       examples: [
         { ja: '神戸で大きい地震がありました。', zh: '神户发生了大地震。' },
         { ja: '来週京都でお祭りがあります。', zh: '下周京都有庆典。' }
@@ -1147,6 +1229,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '从属句主语用 が',
       pattern: '从属句主语 + が + ～たら / ～ても',
       meaning: '在「～たら」「～ても」等从属句里，小句主语通常用「が」。',
+      usage: '「友達が来たら、いっしょに出かけます」；主句主语与从属句主语不同时，从属句主语用「が」。',
       examples: [
         { ja: '友達が来る前に、部屋を掃除します。', zh: '朋友来之前，打扫房间。' },
         { ja: '友達が約束の時間に来なかったら、どうしますか。', zh: '如果朋友没有在约好的时间来，怎么办？' }
@@ -1207,6 +1290,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '好き/上手 等的主题化',
       pattern: '名詞 は 好きです / 上手です / あります',
       meaning: '把「が」标记的对象提前作主题时，可以用「は」表示主题或对比。',
+      usage: '「野菜は好きですが、肉は嫌いです」；用「は」对比两者时，「が」「を」被「は」替换。',
       examples: [
         { ja: 'カラオケは好きじゃないんです。', zh: '卡拉OK我不喜欢。' },
         { ja: 'サッカーはしますが、野球はしません。', zh: '足球踢，但棒球不打。' }
@@ -1244,6 +1328,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'できます：产生、完成、建成',
       pattern: '名詞 が できます',
       meaning: '除了“能做”，「できます」还可表示某物完成、建成或产生。',
+      usage: '「新しい駅ができました」「友達ができました」「食事ができました」。',
       examples: [
         { ja: '駅の前に大きいスーパーができました。', zh: '车站前建成了一家大超市。' },
         { ja: '時計の修理はいつできますか。', zh: '手表什么时候能修好？' }
@@ -1266,6 +1351,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '名詞は：对比',
       pattern: 'A は ～が、B は ～ません',
       meaning: '「は」除了提示主题，也可以表示对比。',
+      usage: '「ビールは飲みますが、お酒は飲みません」；对比时「を」「が」换成「は」，「に」「で」等后面加「は」。',
       examples: [
         { ja: 'ワインは飲みますが、ビールは飲みません。', zh: '葡萄酒喝，但啤酒不喝。' },
         { ja: 'きのうは山が見えましたが、きょうは見えません。', zh: '昨天看得见山，今天看不见。' }
@@ -1311,6 +1397,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'それに：补充理由',
       pattern: '理由1。 それに、理由2。',
       meaning: '补充追加信息，相当于“而且、再说”。',
+      usage: '「このレストランは安いです。それに、おいしいです。」；追加理由时使用。',
       examples: [
         { ja: 'このすし屋は値段も安いし、魚も新しいし、よく食べに来ます。', zh: '这家寿司店价格便宜，鱼也新鲜，所以常来吃。' },
         { ja: '先生もいないし、英語で話すチャンスもないし……。', zh: '没有老师，也没有用英语说话的机会……' }
@@ -1321,6 +1408,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'どうして～んですか',
       pattern: 'どうして + 普通形 + んですか',
       meaning: '询问对方选择、判断或情况背后的理由。',
+      usage: '「どうして日本語を勉強しているんですか。……日本の会社で働きたいんです。」；回答也用「～んです」。',
       examples: [
         { ja: 'どうして富士大学を選んだんですか。', zh: '为什么选择富士大学？' },
         { ja: '富士大学は有名だし、いい先生も多いし、寮もありますから。', zh: '因为富士大学有名，优秀老师也多，而且有宿舍。' }
@@ -1356,6 +1444,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '～てしまいました：完成',
       pattern: '動詞て形 + しまいました',
       meaning: '表示动作已经完全结束。',
+      usage: '「レポートはもう書いてしまいました」；「もう」常与「～てしまいました」一起使用。',
       examples: [
         { ja: 'シュミットさんが持って来たワインはみんなで飲んでしまいました。', zh: '施密特先生带来的葡萄酒大家都喝完了。' },
         { ja: 'このメールを書いてしまいますから、お先にどうぞ。', zh: '我把这封邮件写完，你先走吧。' }
@@ -1366,6 +1455,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '～てしまいました：遗憾',
       pattern: '動詞て形 + しまいました',
       meaning: '表示不小心做了某事，带有后悔、遗憾或困扰的语气。',
+      usage: '「財布をなくしてしまいました」「電車に傘を忘れてしまいました」。',
       examples: [
         { ja: '電車に傘を忘れてしまいました。', zh: '把伞忘在电车上了。' },
         { ja: '道を間違えてしまいました。', zh: '走错路了。' },
@@ -1377,6 +1467,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '状态描写的重点',
       pattern: '名詞 が + 自動詞て形 + います',
       meaning: '句子的重点在眼前状态，而不是谁做了这个动作。',
+      usage: '「窓が閉まっています」「電気が消えています」；用自动词描述眼前的状态，主语用「が」。',
       examples: [
         { ja: '電気がついています。', zh: '灯亮着。' },
         { ja: 'ボタンが外れています。', zh: '纽扣掉了。' }
@@ -1400,6 +1491,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '～ておきます：事先准备',
       pattern: '動詞て形 + おきます',
       meaning: '为了之后的目的，预先做某事。',
+      usage: '「旅行の前に切符を買っておきます」；表示为将来做准备。',
       examples: [
         { ja: '旅行の前に、インターネットでいろいろ調べておきます。', zh: '旅行前，先在网上查好各种信息。' },
         { ja: '来月の出張ですが、ホテルを予約しておきましょうか。', zh: '下个月的出差，要先订好酒店吗？' }
@@ -1410,6 +1502,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '～ておきます：恢复原状',
       pattern: '動詞て形 + おいてください',
       meaning: '让对方把用过的东西放回原来的状态或位置。',
+      usage: '「はさみを使ったら、元の所に戻しておいてください」。',
       examples: [
         { ja: 'はさみを使ったら、元の所に戻しておいてください。', zh: '用完剪刀后，请放回原处。' },
         { ja: '資料を片づけてもいいですか。いいえ、そのままにしておいてください。', zh: '可以把资料收拾掉吗？不，请保持原样。' }
@@ -1420,6 +1513,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '～ておきます：放任状态',
       pattern: 'そのままにしておきます',
       meaning: '有意保持某个状态不变。',
+      usage: '「窓を開けておいてください」「そのままにしておいてください」。',
       examples: [
         { ja: 'まだ使っていますから、そのままにしておいてください。', zh: '还在用，请保持原样。' },
         { ja: '窓は開けておいてください。', zh: '请把窗户开着。' }
@@ -1430,6 +1524,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '～てあります vs ～ています',
       pattern: '貼ってあります / 貼ってあります；開いています',
       meaning: '「てあります」强调有人有意做过；「ています」只描述当前状态。',
+      usage: '「壁にポスターが貼ってあります」（有人贴的结果）；「ドアが開いています」（单纯状态）。',
       examples: [
         { ja: '壁に花や動物の絵がかいてあるんです。', zh: '墙上画着花和动物的图画。' },
         { ja: '窓が開いています。', zh: '窗户开着。' }
@@ -1477,6 +1572,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '動詞字典形／名詞の＋予定です',
       pattern: '動詞字典形／名詞の ＋ 予定です',
       meaning: '表示预定的计划或安排。',
+      usage: '「来週出張する予定です」「来月旅行の予定です」；比「～つもりです」更客观。',
       examples: [
         { ja: '来週の金曜日に帰る予定です。', zh: '预定下周五回来。' },
         { ja: '旅行は1週間ぐらいの予定です。', zh: '旅行预定一周左右。' }
@@ -1487,6 +1583,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'まだ＋動詞て形＋いません',
       pattern: 'まだ ＋ 動詞て形 ＋ いません',
       meaning: '表示说话时事态还没有发生或行为还没有结束（还没…）。',
+      usage: '「レポートはもう書きましたか。……いいえ、まだ書いていません。」；不能说「まだ書きませんでした」。',
       examples: [
         { ja: 'レポートはもうできましたか。……いいえ、まだ書いていません。', zh: '报告写好了吗？……没有，还没写。' },
         { ja: '銀行はまだ開いていません。', zh: '银行还没开门。' }
@@ -1497,6 +1594,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '動詞ます形の名詞化',
       pattern: '帰ります → 帰り',
       meaning: '有时「ます形」可以作为名词使用。',
+      usage: '「帰りに買い物をします」「休みは月曜日です」；「帰り」「休み」「遊び」等。',
       tip: '如：遊びます→遊び、答えます→答え、申し込みます→申し込み、楽しみます→楽しみ。',
       examples: [
         { ja: '帰りの新幹線はどこから乗りますか。', zh: '回去的新干线从哪里乘车？' }
@@ -1542,6 +1640,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '動詞ます形＋ましょう（积极建议）',
       pattern: '動詞ます形 ＋ ましょう',
       meaning: '说话人向听话人传达自己意志时的表达方式，语气比「ましょうか」更为积极主动。',
+      usage: '「ちょっと休みましょう」；表示自己的意志或提议。',
       examples: [
         { ja: 'エンジンの音がおかしいんですが。……そうですね。ちょっと調べましょう。', zh: '发动机的声音有点怪。……是啊，我们来检查一下吧。' }
       ]
@@ -1551,6 +1650,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '数量詞＋で',
       pattern: '数量詞 ＋ で',
       meaning: '表示期限和限度（在…之内）。',
+      usage: '「3日でできます」「30分で行けます」；表示所需时间或限度。',
       examples: [
         { ja: '駅まで30分で行けますか。', zh: '30分钟能到车站吗？' },
         { ja: '3万円でパソコンが買えますか。', zh: '3万日元能买台电脑吗？' }
@@ -1599,6 +1699,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '〜と書いてあります／〜と読みます',
       pattern: '「〜」 ＋ と書いてあります／と読みます',
       meaning: '引用文字或读音时使用，这里的「と」与「〜といいます」中的「と」功能相同。',
+      usage: '「あそこに『止まれ』と書いてあります」「これは『しょうこうぐち』と読みます」。',
       examples: [
         { ja: 'あの漢字は何と読むんですか。', zh: '那个汉字念什么？' },
         { ja: 'あそこに「止まれ」と書いてあります。', zh: '那里写着“停”。' }
@@ -1609,6 +1710,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: 'XはYという意味です',
       pattern: '名詞 は 〜 という意味です',
       meaning: '给X下定义时使用。询问某词意思时使用疑问词「どういう」。',
+      usage: '「『立入禁止』はどういう意味ですか。……入ってはいけないという意味です。」',
       examples: [
         { ja: '「立入禁止」は入るなという意味です。', zh: '“禁止入内”就是别进去的意思。' },
         { ja: 'このマークはどういう意味ですか。……洗濯機で洗えるという意味です。', zh: '这个标志是什么意思？……是可以用洗衣机洗的意思。' }
@@ -1630,6 +1732,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '“句子”普通形＋と伝えていただけませんか',
       pattern: '“句子”普通形 ＋ と伝えていただけませんか',
       meaning: '礼貌地委托对方转告某事。',
+      usage: '「田中さんにあしたパーティーに行くと伝えていただけませんか」；转告内容用普通形加「と」。',
       examples: [
         { ja: '渡辺さんにあしたのパーティーは6時からだと伝えていただけませんか。', zh: '请转告渡边小姐明天的晚会从6点开始好吗？' }
       ]
@@ -1700,6 +1803,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '疑問詞＋動詞仮定形＋いいですか',
       pattern: '疑問詞 ＋ 動詞仮定形 ＋ いいですか',
       meaning: '表示说话人向听话人寻求建议和指示（怎么…好呢）。和第26课的「〜たらいいですか」用法相同。',
+      usage: '「どこで切符を買えばいいですか」「何時に来ればいいですか」。',
       examples: [
         { ja: '本を借りたいんですが、どうすればいいですか。', zh: '我想借书，怎么做好呢？' }
       ]
@@ -1709,6 +1813,7 @@ export const STATIC_GRAMMAR: Record<number, GrammarPoint[]> = {
       title: '名詞なら、〜',
       pattern: '名詞 ＋ なら、〜',
       meaning: '在听了对方所说的事情后，就这一事情提供一些信息时使用（要说…的话）。',
+      usage: '「温泉なら、草津がいいです」；先接受对方提到的话题，再给出建议。',
       examples: [
         { ja: '温泉に行きたいんですが、どこがいいですよ。……温泉なら、白馬がいいですよ。', zh: '我想去温泉，哪儿好？……温泉的话，白马不错。' },
         { ja: '北海道旅行なら、6月がいいです。', zh: '要说北海道旅行，6月最好。' }
