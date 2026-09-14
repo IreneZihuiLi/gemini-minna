@@ -10937,6 +10937,16080 @@ const STATIC_LESSONS = {
         }
       ]
     }
+  ],
+  "28": [
+    {
+      "id": "L28-W1",
+      "category": "Grammar",
+      "kanji": "～ながら",
+      "kana": "～ながら",
+      "romaji": "~nagara",
+      "meaning": "一边……一边……",
+      "sentences": [
+        {
+          "ja": "音楽を聞きながら食事します。",
+          "zh": "一边听音乐一边吃饭。"
+        }
+      ]
+    },
+    {
+      "id": "L28-W2",
+      "category": "Grammar",
+      "kanji": "～ています",
+      "kana": "～ています",
+      "romaji": "~te imasu",
+      "meaning": "表示习惯性、持续性的动作",
+      "sentences": [
+        {
+          "ja": "毎朝ジョギングをしています。",
+          "zh": "每天早上跑步。"
+        }
+      ]
+    },
+    {
+      "id": "L28-W3",
+      "category": "Grammar",
+      "kanji": "～し、～し",
+      "kana": "～し、～し",
+      "romaji": "~shi, ~shi",
+      "meaning": "列举理由或特征",
+      "sentences": [
+        {
+          "ja": "地下鉄は速いし、安いし、地下鉄で行きましょう。",
+          "zh": "地铁又快又便宜，我们坐地铁去吧。"
+        }
+      ]
+    },
+    {
+      "id": "L28-W4",
+      "category": "Nouns",
+      "kanji": "ガム",
+      "kana": "ガム",
+      "romaji": "gamu",
+      "meaning": "口香糖",
+      "sentences": [
+        {
+          "ja": "ガムをかみながら運転します。",
+          "zh": "一边嚼口香糖一边开车。"
+        }
+      ]
+    },
+    {
+      "id": "L28-W5",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "噛みます",
+      "kana": "かみます",
+      "romaji": "kamimasu",
+      "meaning": "嚼；咬",
+      "conjugations": {
+        "dictionary": "噛む",
+        "masu": "噛みます",
+        "te": "噛んで",
+        "nai": "噛まない",
+        "ta": "噛んだ"
+      },
+      "sentences": [
+        {
+          "ja": "ガムを噛みます。",
+          "zh": "嚼口香糖。"
+        }
+      ]
+    },
+    {
+      "id": "L28-W6",
+      "category": "Adverbs",
+      "kanji": "しばらく",
+      "kana": "しばらく",
+      "romaji": "shibaraku",
+      "meaning": "一会儿；暂时",
+      "sentences": [
+        {
+          "ja": "車を止めて、しばらく寝ます。",
+          "zh": "把车停下，睡一会儿。"
+        }
+      ]
+    },
+    {
+      "id": "L28-W7",
+      "category": "Adjectives",
+      "grammarType": "i-adj",
+      "kanji": "偉い",
+      "kana": "えらい",
+      "romaji": "erai",
+      "meaning": "了不起；伟大",
+      "sentences": [
+        {
+          "ja": "彼は働きながら大学で勉強しています。偉いですね。",
+          "zh": "他一边工作一边在大学学习，真了不起。"
+        }
+      ]
+    },
+    {
+      "id": "L28-W8",
+      "category": "Adverbs",
+      "kanji": "大抵",
+      "kana": "たいてい",
+      "romaji": "taitei",
+      "meaning": "大多；通常",
+      "sentences": [
+        {
+          "ja": "休みの日はたいてい絵をかいています。",
+          "zh": "休息日通常画画。"
+        }
+      ]
+    },
+    {
+      "id": "L28-W9",
+      "category": "Adjectives",
+      "grammarType": "na-adj",
+      "kanji": "熱心",
+      "kana": "ねっしん",
+      "romaji": "nesshin",
+      "meaning": "热心；热情",
+      "sentences": [
+        {
+          "ja": "ワット先生は熱心だし、おもしろいし、いい先生です。",
+          "zh": "瓦特老师又热心又有趣，是位好老师。"
+        }
+      ]
+    },
+    {
+      "id": "L28-W10",
+      "category": "Nouns",
+      "kanji": "経験",
+      "kana": "けいけん",
+      "romaji": "keiken",
+      "meaning": "经验",
+      "sentences": [
+        {
+          "ja": "ワット先生は経験もあります。",
+          "zh": "瓦特老师也有经验。"
+        }
+      ]
+    },
+    {
+      "id": "L28-W11",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "選びます",
+      "kana": "えらびます",
+      "romaji": "erabimasu",
+      "meaning": "选择",
+      "conjugations": {
+        "dictionary": "選ぶ",
+        "masu": "選びます",
+        "te": "選んで",
+        "nai": "選ばない",
+        "ta": "選んだ"
+      },
+      "sentences": [
+        {
+          "ja": "どうして富士大学を選んだんですか。",
+          "zh": "为什么选择富士大学？"
+        }
+      ]
+    },
+    {
+      "id": "L28-W12",
+      "category": "Nouns",
+      "kanji": "会話",
+      "kana": "かいわ",
+      "romaji": "kaiwa",
+      "meaning": "会话",
+      "sentences": [
+        {
+          "ja": "会話の先生になっていただけませんか。",
+          "zh": "能请您做我的会话老师吗？"
+        }
+      ]
+    },
+    {
+      "id": "L28-W13",
+      "category": "Nouns",
+      "kanji": "息子",
+      "kana": "むすこ",
+      "romaji": "musuko",
+      "meaning": "儿子（自己的）",
+      "sentences": [
+        {
+          "ja": "息子は大学に通っています。",
+          "zh": "我儿子在上大学。"
+        }
+      ]
+    },
+    {
+      "id": "L28-W14",
+      "category": "Nouns",
+      "kanji": "娘",
+      "kana": "むすめ",
+      "romaji": "musume",
+      "meaning": "女儿（自己的）",
+      "sentences": [
+        {
+          "ja": "娘は英語を勉強しています。",
+          "zh": "我女儿在学英语。"
+        }
+      ]
+    },
+    {
+      "id": "L28-W15",
+      "category": "Nouns",
+      "kanji": "力",
+      "kana": "ちから",
+      "romaji": "chikara",
+      "meaning": "力量；力气",
+      "sentences": [
+        {
+          "ja": "力が強いです。",
+          "zh": "力气很大。"
+        }
+      ]
+    },
+    {
+      "id": "L28-W16",
+      "category": "Nouns",
+      "kanji": "味",
+      "kana": "あじ",
+      "romaji": "aji",
+      "meaning": "味道",
+      "sentences": [
+        {
+          "ja": "味もいいし、値段も安いです。",
+          "zh": "味道也好，价格也便宜。"
+        }
+      ]
+    },
+    {
+      "id": "L28-W17",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "踊ります",
+      "kana": "おどります",
+      "romaji": "odorimasu",
+      "meaning": "跳舞",
+      "conjugations": {
+        "dictionary": "踊る",
+        "masu": "踊ります",
+        "te": "踊って",
+        "nai": "踊らない",
+        "ta": "踊った"
+      },
+      "sentences": [
+        {
+          "ja": "盆踊りを踊ります。",
+          "zh": "跳盂兰盆舞。"
+        }
+      ]
+    },
+    {
+      "id": "L28-W18",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "メモします",
+      "kana": "メモします",
+      "romaji": "memo shimasu",
+      "meaning": "记笔记",
+      "conjugations": {
+        "dictionary": "メモする",
+        "masu": "メモします",
+        "te": "メモして",
+        "nai": "メモしない",
+        "ta": "メモした"
+      },
+      "sentences": [
+        {
+          "ja": "大切なことをメモします。",
+          "zh": "把重要的事情记下来。"
+        }
+      ]
+    },
+    {
+      "id": "L28-W19",
+      "category": "Nouns",
+      "kanji": "番組",
+      "kana": "ばんぐみ",
+      "romaji": "bangumi",
+      "meaning": "节目",
+      "sentences": [
+        {
+          "ja": "好きなテレビ番組があります。",
+          "zh": "有喜欢的电视节目。"
+        }
+      ]
+    },
+    {
+      "id": "L28-W20",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "通います",
+      "kana": "かよいます",
+      "romaji": "kayoimasu",
+      "meaning": "上学；定期往返",
+      "conjugations": {
+        "dictionary": "通う",
+        "masu": "通います",
+        "te": "通って",
+        "nai": "通わない",
+        "ta": "通った"
+      },
+      "sentences": [
+        {
+          "ja": "大学に通っています。",
+          "zh": "在上大学。"
+        }
+      ]
+    },
+    {
+      "id": "L28-W21",
+      "category": "Nouns",
+      "kanji": "台所",
+      "kana": "だいどころ",
+      "romaji": "daidokoro",
+      "meaning": "厨房",
+      "sentences": [
+        {
+          "ja": "台所で料理を作ります。",
+          "zh": "在厨房做饭。"
+        }
+      ]
+    },
+    {
+      "id": "L28-W22",
+      "category": "Nouns",
+      "kanji": "形",
+      "kana": "かたち",
+      "romaji": "katachi",
+      "meaning": "形状；样子",
+      "sentences": [
+        {
+          "ja": "この時計は形がいいです。",
+          "zh": "这块表形状好看。"
+        }
+      ]
+    },
+    {
+      "id": "L28-W23",
+      "category": "Nouns",
+      "kanji": "景色",
+      "kana": "けしき",
+      "romaji": "keshiki",
+      "meaning": "景色",
+      "sentences": [
+        {
+          "ja": "景色がきれいです。",
+          "zh": "景色很美。"
+        }
+      ]
+    },
+    {
+      "id": "L28-W24",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "売れます",
+      "kana": "うれます",
+      "romaji": "uremasu",
+      "meaning": "畅销；卖得好",
+      "conjugations": {
+        "dictionary": "売れる",
+        "masu": "売れます",
+        "te": "売れて",
+        "nai": "売れない",
+        "ta": "売れた"
+      },
+      "sentences": [
+        {
+          "ja": "このパンはよく売れます。",
+          "zh": "这个面包很畅销。"
+        }
+      ]
+    },
+    {
+      "id": "L28-W25",
+      "category": "Nouns",
+      "kanji": "人気",
+      "kana": "にんき",
+      "romaji": "ninki",
+      "meaning": "人气；受欢迎",
+      "sentences": [
+        {
+          "ja": "あの歌手は人気があります。",
+          "zh": "那位歌手很有人气。"
+        }
+      ]
+    },
+    {
+      "id": "L28-W26",
+      "category": "Nouns",
+      "kanji": "給料",
+      "kana": "きゅうりょう",
+      "romaji": "kyuuryou",
+      "meaning": "工资",
+      "sentences": [
+        {
+          "ja": "給料が高いし、休みも多いです。",
+          "zh": "工资高，假期也多。"
+        }
+      ]
+    },
+    {
+      "id": "L28-W27",
+      "category": "Nouns",
+      "kanji": "将来",
+      "kana": "しょうらい",
+      "romaji": "shourai",
+      "meaning": "将来",
+      "sentences": [
+        {
+          "ja": "将来、日本語の先生になりたいです。",
+          "zh": "将来想成为日语老师。"
+        }
+      ]
+    },
+    {
+      "id": "L28-W28",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "参加します",
+      "kana": "さんかします",
+      "romaji": "sanka shimasu",
+      "meaning": "参加",
+      "conjugations": {
+        "dictionary": "参加する",
+        "masu": "参加します",
+        "te": "参加して",
+        "nai": "参加しない",
+        "ta": "参加した"
+      },
+      "sentences": [
+        {
+          "ja": "イベントに参加します。",
+          "zh": "参加活动。"
+        }
+      ]
+    },
+    {
+      "id": "L28-W29",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "誘います",
+      "kana": "さそいます",
+      "romaji": "sasoimasu",
+      "meaning": "邀请",
+      "conjugations": {
+        "dictionary": "誘う",
+        "masu": "誘います",
+        "te": "誘って",
+        "nai": "誘わない",
+        "ta": "誘った"
+      },
+      "sentences": [
+        {
+          "ja": "友達をイベントに誘います。",
+          "zh": "邀请朋友参加活动。"
+        }
+      ]
+    },
+    {
+      "id": "L28-W30",
+      "category": "Nouns",
+      "kanji": "体育館",
+      "kana": "たいいくかん",
+      "romaji": "taiikukan",
+      "meaning": "体育馆",
+      "sentences": [
+        {
+          "ja": "体育館でイベントがあります。",
+          "zh": "体育馆有活动。"
+        }
+      ]
+    }
+  ],
+  "29": [
+    {
+      "id": "L29-W1",
+      "category": "Grammar",
+      "kanji": "～ています",
+      "kana": "～ています",
+      "romaji": "~te imasu",
+      "meaning": "表示动作结果留下的状态",
+      "sentences": [
+        {
+          "ja": "窓が閉まっています。",
+          "zh": "窗户关着。"
+        }
+      ]
+    },
+    {
+      "id": "L29-W2",
+      "category": "Grammar",
+      "kanji": "～てしまいました",
+      "kana": "～てしまいました",
+      "romaji": "~te shimaimashita",
+      "meaning": "表示完成、遗憾或失误",
+      "sentences": [
+        {
+          "ja": "電車に傘を忘れてしまいました。",
+          "zh": "把伞忘在电车上了。"
+        }
+      ]
+    },
+    {
+      "id": "L29-W3",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "閉まります",
+      "kana": "しまります",
+      "romaji": "shimarimasu",
+      "meaning": "关着；关闭（自动词）",
+      "conjugations": {
+        "dictionary": "閉まる",
+        "masu": "閉まります",
+        "te": "閉まって",
+        "nai": "閉まらない",
+        "ta": "閉まった"
+      },
+      "sentences": [
+        {
+          "ja": "窓が閉まっています。",
+          "zh": "窗户关着。"
+        }
+      ]
+    },
+    {
+      "id": "L29-W4",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "掛かります",
+      "kana": "かかります",
+      "romaji": "kakarimasu",
+      "meaning": "上锁；挂着",
+      "conjugations": {
+        "dictionary": "掛かる",
+        "masu": "掛かります",
+        "te": "掛かって",
+        "nai": "掛からない",
+        "ta": "掛かった"
+      },
+      "sentences": [
+        {
+          "ja": "会議室の鍵が掛かっています。",
+          "zh": "会议室的钥匙锁着。"
+        }
+      ]
+    },
+    {
+      "id": "L29-W5",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "間違えます",
+      "kana": "まちがえます",
+      "romaji": "machigaemasu",
+      "meaning": "弄错",
+      "conjugations": {
+        "dictionary": "間違える",
+        "masu": "間違えます",
+        "te": "間違えて",
+        "nai": "間違えない",
+        "ta": "間違えた"
+      },
+      "sentences": [
+        {
+          "ja": "道を間違えてしまいました。",
+          "zh": "走错路了。"
+        }
+      ]
+    },
+    {
+      "id": "L29-W6",
+      "category": "Nouns",
+      "kanji": "忘れ物",
+      "kana": "わすれもの",
+      "romaji": "wasuremono",
+      "meaning": "遗失物品；忘带的东西",
+      "sentences": [
+        {
+          "ja": "忘れ物をしてしまいました。",
+          "zh": "遗忘东西了。"
+        }
+      ]
+    },
+    {
+      "id": "L29-W7",
+      "category": "Nouns",
+      "kanji": "今の電車",
+      "kana": "いまのでんしゃ",
+      "romaji": "ima no densha",
+      "meaning": "刚才那趟电车",
+      "sentences": [
+        {
+          "ja": "今の電車に忘れ物をしてしまいました。",
+          "zh": "把东西忘在刚才那趟电车上了。"
+        }
+      ]
+    },
+    {
+      "id": "L29-W8",
+      "category": "Nouns",
+      "kanji": "外側",
+      "kana": "そとがわ",
+      "romaji": "sotogawa",
+      "meaning": "外侧",
+      "sentences": [
+        {
+          "ja": "外側に大きいポケットが付いています。",
+          "zh": "外侧有一个大口袋。"
+        }
+      ]
+    },
+    {
+      "id": "L29-W9",
+      "category": "Nouns",
+      "kanji": "ポケット",
+      "kana": "ポケット",
+      "romaji": "poketto",
+      "meaning": "口袋",
+      "sentences": [
+        {
+          "ja": "大きいポケットが付いています。",
+          "zh": "带着一个大口袋。"
+        }
+      ]
+    },
+    {
+      "id": "L29-W10",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "付きます",
+      "kana": "つきます",
+      "romaji": "tsukimasu",
+      "meaning": "带有；附着",
+      "conjugations": {
+        "dictionary": "付く",
+        "masu": "付きます",
+        "te": "付いて",
+        "nai": "付かない",
+        "ta": "付いた"
+      },
+      "sentences": [
+        {
+          "ja": "ポケットが付いています。",
+          "zh": "带着口袋。"
+        }
+      ]
+    },
+    {
+      "id": "L29-W11",
+      "category": "Nouns",
+      "kanji": "網棚",
+      "kana": "あみだな",
+      "romaji": "amidana",
+      "meaning": "行李架",
+      "sentences": [
+        {
+          "ja": "網棚の上に置きました。",
+          "zh": "放在行李架上了。"
+        }
+      ]
+    },
+    {
+      "id": "L29-W12",
+      "category": "Adverbs",
+      "kanji": "確か",
+      "kana": "たしか",
+      "romaji": "tashika",
+      "meaning": "大概；我记得",
+      "sentences": [
+        {
+          "ja": "確か、本と傘が入っています。",
+          "zh": "我记得里面有书和伞。"
+        }
+      ]
+    },
+    {
+      "id": "L29-W13",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "開きます",
+      "kana": "あきます",
+      "romaji": "akimasu",
+      "meaning": "开着；打开（自动词）",
+      "conjugations": {
+        "dictionary": "開く",
+        "masu": "開きます",
+        "te": "開いて",
+        "nai": "開かない",
+        "ta": "開いた"
+      },
+      "sentences": [
+        {
+          "ja": "ドアが開いています。",
+          "zh": "门开着。"
+        }
+      ]
+    },
+    {
+      "id": "L29-W14",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "止まります",
+      "kana": "とまります",
+      "romaji": "tomarimasu",
+      "meaning": "停下；停着",
+      "conjugations": {
+        "dictionary": "止まる",
+        "masu": "止まります",
+        "te": "止まって",
+        "nai": "止まらない",
+        "ta": "止まった"
+      },
+      "sentences": [
+        {
+          "ja": "車が止まっています。",
+          "zh": "车停着。"
+        }
+      ]
+    },
+    {
+      "id": "L29-W15",
+      "category": "Nouns",
+      "kanji": "ガラス",
+      "kana": "ガラス",
+      "romaji": "garasu",
+      "meaning": "玻璃",
+      "sentences": [
+        {
+          "ja": "ガラスが割れています。",
+          "zh": "玻璃碎了。"
+        }
+      ]
+    },
+    {
+      "id": "L29-W16",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "割れます",
+      "kana": "われます",
+      "romaji": "waremasu",
+      "meaning": "碎；裂开",
+      "conjugations": {
+        "dictionary": "割れる",
+        "masu": "割れます",
+        "te": "割れて",
+        "nai": "割れない",
+        "ta": "割れた"
+      },
+      "sentences": [
+        {
+          "ja": "コップが割れてしまいました。",
+          "zh": "杯子碎了。"
+        }
+      ]
+    },
+    {
+      "id": "L29-W17",
+      "category": "Nouns",
+      "kanji": "袋",
+      "kana": "ふくろ",
+      "romaji": "fukuro",
+      "meaning": "袋子",
+      "sentences": [
+        {
+          "ja": "袋に入れてください。",
+          "zh": "请放进袋子里。"
+        }
+      ]
+    },
+    {
+      "id": "L29-W18",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "破れます",
+      "kana": "やぶれます",
+      "romaji": "yaburemasu",
+      "meaning": "破；撕破",
+      "conjugations": {
+        "dictionary": "破れる",
+        "masu": "破れます",
+        "te": "破れて",
+        "nai": "破れない",
+        "ta": "破れた"
+      },
+      "sentences": [
+        {
+          "ja": "袋が破れてしまいました。",
+          "zh": "袋子破了。"
+        }
+      ]
+    },
+    {
+      "id": "L29-W19",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "落とします",
+      "kana": "おとします",
+      "romaji": "otoshimasu",
+      "meaning": "弄掉；丢下",
+      "conjugations": {
+        "dictionary": "落とす",
+        "masu": "落とします",
+        "te": "落として",
+        "nai": "落とさない",
+        "ta": "落とした"
+      },
+      "sentences": [
+        {
+          "ja": "財布を落としてしまいました。",
+          "zh": "把钱包弄丢了。"
+        }
+      ]
+    },
+    {
+      "id": "L29-W20",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "壊れます",
+      "kana": "こわれます",
+      "romaji": "kowaremasu",
+      "meaning": "坏；坏掉",
+      "conjugations": {
+        "dictionary": "壊れる",
+        "masu": "壊れます",
+        "te": "壊れて",
+        "nai": "壊れない",
+        "ta": "壊れた"
+      },
+      "sentences": [
+        {
+          "ja": "いすが壊れています。",
+          "zh": "椅子坏了。"
+        }
+      ]
+    },
+    {
+      "id": "L29-W21",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "付きます",
+      "kana": "つきます",
+      "romaji": "tsukimasu",
+      "meaning": "灯亮；打开（电器）",
+      "conjugations": {
+        "dictionary": "付く",
+        "masu": "付きます",
+        "te": "付いて",
+        "nai": "付かない",
+        "ta": "付いた"
+      },
+      "sentences": [
+        {
+          "ja": "電気がついています。",
+          "zh": "灯亮着。"
+        }
+      ]
+    },
+    {
+      "id": "L29-W22",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "汚れます",
+      "kana": "よごれます",
+      "romaji": "yogoremasu",
+      "meaning": "脏",
+      "conjugations": {
+        "dictionary": "汚れる",
+        "masu": "汚れます",
+        "te": "汚れて",
+        "nai": "汚れない",
+        "ta": "汚れた"
+      },
+      "sentences": [
+        {
+          "ja": "服が汚れてしまいました。",
+          "zh": "衣服弄脏了。"
+        }
+      ]
+    },
+    {
+      "id": "L29-W23",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "拭きます",
+      "kana": "ふきます",
+      "romaji": "fukimasu",
+      "meaning": "擦",
+      "conjugations": {
+        "dictionary": "拭く",
+        "masu": "拭きます",
+        "te": "拭いて",
+        "nai": "拭かない",
+        "ta": "拭いた"
+      },
+      "sentences": [
+        {
+          "ja": "机を拭きます。",
+          "zh": "擦桌子。"
+        }
+      ]
+    },
+    {
+      "id": "L29-W24",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "片付けます",
+      "kana": "かたづけます",
+      "romaji": "katazukemasu",
+      "meaning": "收拾；整理",
+      "conjugations": {
+        "dictionary": "片付ける",
+        "masu": "片付けます",
+        "te": "片付けて",
+        "nai": "片付けない",
+        "ta": "片付けた"
+      },
+      "sentences": [
+        {
+          "ja": "部屋を片付けます。",
+          "zh": "收拾房间。"
+        }
+      ]
+    },
+    {
+      "id": "L29-W25",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "外れます",
+      "kana": "はずれます",
+      "romaji": "hazuremasu",
+      "meaning": "脱落；掉了",
+      "conjugations": {
+        "dictionary": "外れる",
+        "masu": "外れます",
+        "te": "外れて",
+        "nai": "外れない",
+        "ta": "外れた"
+      },
+      "sentences": [
+        {
+          "ja": "ボタンが外れました。",
+          "zh": "纽扣掉了。"
+        }
+      ]
+    },
+    {
+      "id": "L29-W26",
+      "category": "Nouns",
+      "kanji": "書類",
+      "kana": "しょるい",
+      "romaji": "shorui",
+      "meaning": "文件；资料",
+      "sentences": [
+        {
+          "ja": "書類を片付けます。",
+          "zh": "整理文件。"
+        }
+      ]
+    },
+    {
+      "id": "L29-W27",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "消えます",
+      "kana": "きえます",
+      "romaji": "kiemasu",
+      "meaning": "熄灭；消失",
+      "conjugations": {
+        "dictionary": "消える",
+        "masu": "消えます",
+        "te": "消えて",
+        "nai": "消えない",
+        "ta": "消えた"
+      },
+      "sentences": [
+        {
+          "ja": "電気が消えています。",
+          "zh": "灯灭着。"
+        }
+      ]
+    },
+    {
+      "id": "L29-W28",
+      "category": "Nouns",
+      "kanji": "地震",
+      "kana": "じしん",
+      "romaji": "jishin",
+      "meaning": "地震",
+      "sentences": [
+        {
+          "ja": "地震で壁が壊れました。",
+          "zh": "因为地震墙坏了。"
+        }
+      ]
+    },
+    {
+      "id": "L29-W29",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "倒れます",
+      "kana": "たおれます",
+      "romaji": "taoremasu",
+      "meaning": "倒下；倒塌",
+      "conjugations": {
+        "dictionary": "倒れる",
+        "masu": "倒れます",
+        "te": "倒れて",
+        "nai": "倒れない",
+        "ta": "倒れた"
+      },
+      "sentences": [
+        {
+          "ja": "木が倒れています。",
+          "zh": "树倒着。"
+        }
+      ]
+    },
+    {
+      "id": "L29-W30",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "燃えます",
+      "kana": "もえます",
+      "romaji": "moemasu",
+      "meaning": "燃烧",
+      "conjugations": {
+        "dictionary": "燃える",
+        "masu": "燃えます",
+        "te": "燃えて",
+        "nai": "燃えない",
+        "ta": "燃えた"
+      },
+      "sentences": [
+        {
+          "ja": "紙が燃えてしまいました。",
+          "zh": "纸烧掉了。"
+        }
+      ]
+    }
+  ],
+  "30": [
+    {
+      "id": "L30-W1",
+      "category": "Grammar",
+      "kanji": "～てあります",
+      "kana": "～てあります",
+      "romaji": "~te arimasu",
+      "meaning": "人为动作完成后留下的状态",
+      "sentences": [
+        {
+          "ja": "交番に町の地図が貼ってあります。",
+          "zh": "派出所贴着城市地图。"
+        }
+      ]
+    },
+    {
+      "id": "L30-W2",
+      "category": "Grammar",
+      "kanji": "～ておきます",
+      "kana": "～ておきます",
+      "romaji": "~te okimasu",
+      "meaning": "事先做好；保持原状",
+      "sentences": [
+        {
+          "ja": "旅行の前に、インターネットでいろいろ調べておきます。",
+          "zh": "旅行前，先在网上查好各种信息。"
+        }
+      ]
+    },
+    {
+      "id": "L30-W3",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "貼ります",
+      "kana": "はります",
+      "romaji": "harimasu",
+      "meaning": "贴",
+      "conjugations": {
+        "dictionary": "貼る",
+        "masu": "貼ります",
+        "te": "貼って",
+        "nai": "貼らない",
+        "ta": "貼った"
+      },
+      "sentences": [
+        {
+          "ja": "壁に地図を貼ります。",
+          "zh": "把地图贴在墙上。"
+        }
+      ]
+    },
+    {
+      "id": "L30-W4",
+      "category": "Nouns",
+      "kanji": "引き出し",
+      "kana": "ひきだし",
+      "romaji": "hikidashi",
+      "meaning": "抽屉",
+      "sentences": [
+        {
+          "ja": "セロテープは引き出しにしまってあります。",
+          "zh": "透明胶带放在抽屉里。"
+        }
+      ]
+    },
+    {
+      "id": "L30-W5",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "しまいます",
+      "kana": "しまいます",
+      "romaji": "shimaimasu",
+      "meaning": "收拾；放好",
+      "conjugations": {
+        "dictionary": "しまう",
+        "masu": "しまいます",
+        "te": "しまって",
+        "nai": "しまわない",
+        "ta": "しまった"
+      },
+      "sentences": [
+        {
+          "ja": "資料を引き出しにしまいます。",
+          "zh": "把资料收进抽屉。"
+        }
+      ]
+    },
+    {
+      "id": "L30-W6",
+      "category": "Nouns",
+      "kanji": "元",
+      "kana": "もと",
+      "romaji": "moto",
+      "meaning": "原来；过去",
+      "sentences": [
+        {
+          "ja": "元の所に戻してください。",
+          "zh": "请放回原处。"
+        }
+      ]
+    },
+    {
+      "id": "L30-W7",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "戻します",
+      "kana": "もどします",
+      "romaji": "modoshimasu",
+      "meaning": "归还；放回",
+      "conjugations": {
+        "dictionary": "戻す",
+        "masu": "戻します",
+        "te": "戻して",
+        "nai": "戻さない",
+        "ta": "戻した"
+      },
+      "sentences": [
+        {
+          "ja": "はさみを元の所に戻しておいてください。",
+          "zh": "请把剪刀放回原处。"
+        }
+      ]
+    },
+    {
+      "id": "L30-W8",
+      "category": "Expressions",
+      "kanji": "そのまま",
+      "kana": "そのまま",
+      "romaji": "sono mama",
+      "meaning": "保持原样",
+      "sentences": [
+        {
+          "ja": "そのままにしておいてください。",
+          "zh": "请保持原样。"
+        }
+      ]
+    },
+    {
+      "id": "L30-W9",
+      "category": "Adverbs",
+      "kanji": "まだ",
+      "kana": "まだ",
+      "romaji": "mada",
+      "meaning": "还；仍然",
+      "sentences": [
+        {
+          "ja": "まだ使っています。",
+          "zh": "还在使用。"
+        }
+      ]
+    },
+    {
+      "id": "L30-W10",
+      "category": "Nouns",
+      "kanji": "非常袋",
+      "kana": "ひじょうぶくろ",
+      "romaji": "hijou bukuro",
+      "meaning": "应急包",
+      "sentences": [
+        {
+          "ja": "非常袋を準備しておかないと。",
+          "zh": "必须准备好应急包。"
+        }
+      ]
+    },
+    {
+      "id": "L30-W11",
+      "category": "Nouns",
+      "kanji": "リュック",
+      "kana": "リュック",
+      "romaji": "ryukku",
+      "meaning": "背包",
+      "sentences": [
+        {
+          "ja": "大きいリュックが置いてありますね。",
+          "zh": "放着一个大背包呢。"
+        }
+      ]
+    },
+    {
+      "id": "L30-W12",
+      "category": "Nouns",
+      "kanji": "非常時",
+      "kana": "ひじょうじ",
+      "romaji": "hijouji",
+      "meaning": "紧急时刻",
+      "sentences": [
+        {
+          "ja": "非常時に使う物を入れておく袋です。",
+          "zh": "是放紧急时使用物品的袋子。"
+        }
+      ]
+    },
+    {
+      "id": "L30-W13",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "生活します",
+      "kana": "せいかつします",
+      "romaji": "seikatsu shimasu",
+      "meaning": "生活",
+      "conjugations": {
+        "dictionary": "生活する",
+        "masu": "生活します",
+        "te": "生活して",
+        "nai": "生活しない",
+        "ta": "生活した"
+      },
+      "sentences": [
+        {
+          "ja": "3日ぐらい生活できる物が入れてあるんです。",
+          "zh": "里面放着能生活大约三天的东西。"
+        }
+      ]
+    },
+    {
+      "id": "L30-W14",
+      "category": "Nouns",
+      "kanji": "懐中電灯",
+      "kana": "かいちゅうでんとう",
+      "romaji": "kaichuu dentou",
+      "meaning": "手电筒",
+      "sentences": [
+        {
+          "ja": "懐中電灯とか、ラジオとかがあります。",
+          "zh": "有手电筒、收音机之类的东西。"
+        }
+      ]
+    },
+    {
+      "id": "L30-W15",
+      "category": "Nouns",
+      "kanji": "予定",
+      "kana": "よてい",
+      "romaji": "yotei",
+      "meaning": "预定；计划",
+      "sentences": [
+        {
+          "ja": "予定をカレンダーに書いておきます。",
+          "zh": "把计划先写在日历上。"
+        }
+      ]
+    },
+    {
+      "id": "L30-W16",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "掛けます",
+      "kana": "かけます",
+      "romaji": "kakemasu",
+      "meaning": "挂",
+      "conjugations": {
+        "dictionary": "掛ける",
+        "masu": "掛けます",
+        "te": "掛けて",
+        "nai": "掛けない",
+        "ta": "掛けた"
+      },
+      "sentences": [
+        {
+          "ja": "壁に絵を掛けます。",
+          "zh": "把画挂在墙上。"
+        }
+      ]
+    },
+    {
+      "id": "L30-W17",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "並べます",
+      "kana": "ならべます",
+      "romaji": "narabemasu",
+      "meaning": "排列；摆放",
+      "conjugations": {
+        "dictionary": "並べる",
+        "masu": "並べます",
+        "te": "並べて",
+        "nai": "並べない",
+        "ta": "並べた"
+      },
+      "sentences": [
+        {
+          "ja": "机の上に資料を並べてあります。",
+          "zh": "桌上摆着资料。"
+        }
+      ]
+    },
+    {
+      "id": "L30-W18",
+      "category": "Nouns",
+      "kanji": "ごみ箱",
+      "kana": "ごみばこ",
+      "romaji": "gomibako",
+      "meaning": "垃圾箱",
+      "sentences": [
+        {
+          "ja": "ごみ箱は隅に置いてあります。",
+          "zh": "垃圾箱放在角落里。"
+        }
+      ]
+    },
+    {
+      "id": "L30-W19",
+      "category": "Nouns",
+      "kanji": "隅",
+      "kana": "すみ",
+      "romaji": "sumi",
+      "meaning": "角落",
+      "sentences": [
+        {
+          "ja": "部屋の隅に置いてあります。",
+          "zh": "放在房间角落。"
+        }
+      ]
+    },
+    {
+      "id": "L30-W20",
+      "category": "Nouns",
+      "kanji": "予定表",
+      "kana": "よていひょう",
+      "romaji": "yoteihyou",
+      "meaning": "计划表",
+      "sentences": [
+        {
+          "ja": "予定表を作っておきます。",
+          "zh": "事先做好计划表。"
+        }
+      ]
+    },
+    {
+      "id": "L30-W21",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "決めます",
+      "kana": "きめます",
+      "romaji": "kimemasu",
+      "meaning": "决定",
+      "conjugations": {
+        "dictionary": "決める",
+        "masu": "決めます",
+        "te": "決めて",
+        "nai": "決めない",
+        "ta": "決めた"
+      },
+      "sentences": [
+        {
+          "ja": "名前を決めます。",
+          "zh": "决定名字。"
+        }
+      ]
+    },
+    {
+      "id": "L30-W22",
+      "category": "Nouns",
+      "kanji": "人形",
+      "kana": "にんぎょう",
+      "romaji": "ningyou",
+      "meaning": "玩偶；娃娃",
+      "sentences": [
+        {
+          "ja": "人形が飾ってあります。",
+          "zh": "摆着玩偶。"
+        }
+      ]
+    },
+    {
+      "id": "L30-W23",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "飾ります",
+      "kana": "かざります",
+      "romaji": "kazarimasu",
+      "meaning": "装饰",
+      "conjugations": {
+        "dictionary": "飾る",
+        "masu": "飾ります",
+        "te": "飾って",
+        "nai": "飾らない",
+        "ta": "飾った"
+      },
+      "sentences": [
+        {
+          "ja": "花を部屋に飾ります。",
+          "zh": "把花装饰在房间里。"
+        }
+      ]
+    },
+    {
+      "id": "L30-W24",
+      "category": "Nouns",
+      "kanji": "鏡",
+      "kana": "かがみ",
+      "romaji": "kagami",
+      "meaning": "镜子",
+      "sentences": [
+        {
+          "ja": "鏡が掛けてあります。",
+          "zh": "挂着镜子。"
+        }
+      ]
+    },
+    {
+      "id": "L30-W25",
+      "category": "Nouns",
+      "kanji": "花瓶",
+      "kana": "かびん",
+      "romaji": "kabin",
+      "meaning": "花瓶",
+      "sentences": [
+        {
+          "ja": "花瓶に花が入れてあります。",
+          "zh": "花瓶里插着花。"
+        }
+      ]
+    },
+    {
+      "id": "L30-W26",
+      "category": "Nouns",
+      "kanji": "真ん中",
+      "kana": "まんなか",
+      "romaji": "mannaka",
+      "meaning": "正中间",
+      "sentences": [
+        {
+          "ja": "テーブルの真ん中に置いてあります。",
+          "zh": "放在桌子正中间。"
+        }
+      ]
+    },
+    {
+      "id": "L30-W27",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "植えます",
+      "kana": "うえます",
+      "romaji": "uemasu",
+      "meaning": "种植",
+      "conjugations": {
+        "dictionary": "植える",
+        "masu": "植えます",
+        "te": "植えて",
+        "nai": "植えない",
+        "ta": "植えた"
+      },
+      "sentences": [
+        {
+          "ja": "庭に木を植えます。",
+          "zh": "在院子里种树。"
+        }
+      ]
+    },
+    {
+      "id": "L30-W28",
+      "category": "Nouns",
+      "kanji": "交番",
+      "kana": "こうばん",
+      "romaji": "kouban",
+      "meaning": "派出所",
+      "sentences": [
+        {
+          "ja": "交番に町の地図が貼ってあります。",
+          "zh": "派出所贴着城市地图。"
+        }
+      ]
+    },
+    {
+      "id": "L30-W29",
+      "category": "Nouns",
+      "kanji": "地図",
+      "kana": "ちず",
+      "romaji": "chizu",
+      "meaning": "地图",
+      "sentences": [
+        {
+          "ja": "町の地図が貼ってあります。",
+          "zh": "贴着城市地图。"
+        }
+      ]
+    },
+    {
+      "id": "L30-W30",
+      "category": "Nouns",
+      "kanji": "インターネット",
+      "kana": "インターネット",
+      "romaji": "intaanetto",
+      "meaning": "互联网",
+      "sentences": [
+        {
+          "ja": "インターネットでいろいろ調べておきます。",
+          "zh": "先在网上查好各种信息。"
+        }
+      ]
+    }
+  ],
+  "31": [
+    {
+      "id": "L31-W1",
+      "category": "Nouns",
+      "kanji": "温泉",
+      "kana": "おんせん",
+      "romaji": "onsen",
+      "meaning": "温泉",
+      "sentences": [
+        {
+          "ja": "お正月は家族と温泉に行こうと思っています。",
+          "zh": "正月打算和家人去泡温泉。"
+        }
+      ]
+    },
+    {
+      "id": "L31-W2",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "続けます",
+      "kana": "つづけます",
+      "romaji": "tsuzukemasu",
+      "meaning": "继续",
+      "conjugations": {
+        "dictionary": "続ける",
+        "masu": "つづけます",
+        "te": "続けて",
+        "nai": "続けない",
+        "ta": "続けた"
+      },
+      "sentences": [
+        {
+          "ja": "国へ帰っても、日本語の勉強を続けます。",
+          "zh": "即使回国也继续学习日语。"
+        }
+      ]
+    },
+    {
+      "id": "L31-W3",
+      "category": "Nouns",
+      "kanji": "大学院",
+      "kana": "だいがくいん",
+      "romaji": "daigakuin",
+      "meaning": "研究生院",
+      "sentences": [
+        {
+          "ja": "大学院の試験を受けます。",
+          "zh": "参加研究生院的考试。"
+        }
+      ]
+    },
+    {
+      "id": "L31-W4",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "受けます",
+      "kana": "うけます",
+      "romaji": "ukemasu",
+      "meaning": "参加（考试等）",
+      "conjugations": {
+        "dictionary": "受ける",
+        "masu": "うけます",
+        "te": "受けて",
+        "nai": "受けない",
+        "ta": "受けた"
+      },
+      "sentences": [
+        {
+          "ja": "試験を受けます。",
+          "zh": "参加考试。"
+        }
+      ]
+    },
+    {
+      "id": "L31-W5",
+      "category": "Nouns",
+      "kanji": "本社",
+      "kana": "ほんしゃ",
+      "romaji": "honsha",
+      "meaning": "总公司，本公司",
+      "sentences": [
+        {
+          "ja": "実は大阪の本社に転勤なんです。",
+          "zh": "其实是要调到大阪的总公司。"
+        }
+      ]
+    },
+    {
+      "id": "L31-W6",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "残ります",
+      "kana": "のこります",
+      "romaji": "nokorimasu",
+      "meaning": "留下，剩下",
+      "conjugations": {
+        "dictionary": "残る",
+        "masu": "のこります",
+        "te": "残って",
+        "nai": "残らない",
+        "ta": "残った"
+      },
+      "sentences": [
+        {
+          "ja": "妻と子どもは東京に残るんです。",
+          "zh": "妻子和孩子留在东京。"
+        }
+      ]
+    },
+    {
+      "id": "L31-W7",
+      "category": "Nouns",
+      "kanji": "入学試験",
+      "kana": "にゅうがくしけん",
+      "romaji": "nyuugakushiken",
+      "meaning": "入学考试",
+      "sentences": [
+        {
+          "ja": "息子は来年大学の入学試験があります。",
+          "zh": "儿子明年有大学的入学考试。"
+        }
+      ]
+    },
+    {
+      "id": "L31-W8",
+      "category": "Expressions",
+      "kanji": "月に",
+      "kana": "つきに",
+      "romaji": "tsuki ni",
+      "meaning": "每个月，每月",
+      "sentences": [
+        {
+          "ja": "月に2、3回週末に帰るつもりです。",
+          "zh": "打算每个月周末回来两三次。"
+        }
+      ]
+    },
+    {
+      "id": "L31-W9",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "休憩します",
+      "kana": "きゅうけいします",
+      "romaji": "kyuukei shimasu",
+      "meaning": "休息",
+      "conjugations": {
+        "dictionary": "休憩する",
+        "masu": "きゅうけいします",
+        "te": "休憩して",
+        "nai": "休憩しない",
+        "ta": "休憩した"
+      },
+      "sentences": [
+        {
+          "ja": "ちょっと休憩しましょう。",
+          "zh": "稍微休息一下吧。"
+        }
+      ]
+    },
+    {
+      "id": "L31-W10",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "見つけます",
+      "kana": "みつけます",
+      "romaji": "mitsukemasu",
+      "meaning": "找到，找出",
+      "conjugations": {
+        "dictionary": "見つける",
+        "masu": "みつけます",
+        "te": "見つけて",
+        "nai": "見つけない",
+        "ta": "見つけた"
+      },
+      "sentences": [
+        {
+          "ja": "外国でいい仕事を見つけようと思っています。",
+          "zh": "想在国外找到一份好工作。"
+        }
+      ]
+    },
+    {
+      "id": "L31-W11",
+      "category": "Adverbs",
+      "kanji": "ずっと",
+      "kana": "ずっと",
+      "romaji": "zutto",
+      "meaning": "一直",
+      "sentences": [
+        {
+          "ja": "わたしはずっと日本に住むつもりです。",
+          "zh": "我打算一直住在日本。"
+        }
+      ]
+    },
+    {
+      "id": "L31-W12",
+      "category": "Nouns",
+      "kanji": "～の方",
+      "kana": "～のほう",
+      "romaji": "~no hou",
+      "meaning": "～面，～方",
+      "sentences": [
+        {
+          "ja": "駅の方へ歩きます。",
+          "zh": "往车站那边走。"
+        }
+      ]
+    },
+    {
+      "id": "L31-W13",
+      "category": "Nouns",
+      "kanji": "支店",
+      "kana": "してん",
+      "romaji": "shiten",
+      "meaning": "分公司，分店",
+      "sentences": [
+        {
+          "ja": "部長は支店へ行く予定です。",
+          "zh": "部长预定去分店。"
+        }
+      ]
+    },
+    {
+      "id": "L31-W14",
+      "category": "Nouns",
+      "kanji": "動物園",
+      "kana": "どうぶつえん",
+      "romaji": "doubutsuen",
+      "meaning": "动物园",
+      "sentences": [
+        {
+          "ja": "あしたは休みですから、動物園へ行きましょう。",
+          "zh": "明天休息，去动物园吧。"
+        }
+      ]
+    },
+    {
+      "id": "L31-W15",
+      "category": "Nouns",
+      "kanji": "教会",
+      "kana": "きょうかい",
+      "romaji": "kyoukai",
+      "meaning": "教会",
+      "sentences": [
+        {
+          "ja": "今度の日曜日は家族と教会へ行きます。",
+          "zh": "这个星期天和家人去教会。"
+        }
+      ]
+    },
+    {
+      "id": "L31-W16",
+      "category": "Nouns",
+      "kanji": "連休",
+      "kana": "れんきゅう",
+      "romaji": "renkyuu",
+      "meaning": "连续假期，长假",
+      "sentences": [
+        {
+          "ja": "連休はうちでゆっくり休みます。",
+          "zh": "长假在家好好休息。"
+        }
+      ]
+    },
+    {
+      "id": "L31-W17",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "申し込みます",
+      "kana": "もうしこみます",
+      "romaji": "moushikomimasu",
+      "meaning": "申请，报名",
+      "conjugations": {
+        "dictionary": "申し込む",
+        "masu": "もうしこみます",
+        "te": "申し込んで",
+        "nai": "申し込まない",
+        "ta": "申し込んだ"
+      },
+      "sentences": [
+        {
+          "ja": "北海道旅行はもう申し込みましたか。",
+          "zh": "北海道旅行已经报名了吗？"
+        }
+      ]
+    },
+    {
+      "id": "L31-W18",
+      "category": "Nouns",
+      "kanji": "作文",
+      "kana": "さくぶん",
+      "romaji": "sakubun",
+      "meaning": "作文，写作",
+      "sentences": [
+        {
+          "ja": "作文は今晩書こうと思っています。",
+          "zh": "作文打算今晚写。"
+        }
+      ]
+    },
+    {
+      "id": "L31-W19",
+      "category": "Nouns",
+      "kanji": "展覧会",
+      "kana": "てんらんかい",
+      "romaji": "tenrankai",
+      "meaning": "展览会",
+      "sentences": [
+        {
+          "ja": "ピカソの展覧会を見に行きます。",
+          "zh": "去看毕加索的展览会。"
+        }
+      ]
+    },
+    {
+      "id": "L31-W20",
+      "category": "Nouns",
+      "kanji": "お子さん",
+      "kana": "おこさん",
+      "romaji": "okosan",
+      "meaning": "（别人的）孩子",
+      "sentences": [
+        {
+          "ja": "お子さんの名前はもう決めましたか。",
+          "zh": "孩子的名字已经决定了吗？"
+        }
+      ]
+    },
+    {
+      "id": "L31-W21",
+      "category": "Nouns",
+      "kanji": "～式",
+      "kana": "～しき",
+      "romaji": "~shiki",
+      "meaning": "典礼，仪式",
+      "sentences": [
+        {
+          "ja": "卒業式は3月です。",
+          "zh": "毕业典礼在3月。"
+        }
+      ]
+    },
+    {
+      "id": "L31-W22",
+      "category": "Nouns",
+      "kanji": "結婚式",
+      "kana": "けっこんしき",
+      "romaji": "kekkonshiki",
+      "meaning": "婚礼",
+      "sentences": [
+        {
+          "ja": "結婚式は神社でするつもりです。",
+          "zh": "婚礼打算在神社举行。"
+        }
+      ]
+    },
+    {
+      "id": "L31-W23",
+      "category": "Nouns",
+      "kanji": "お葬式",
+      "kana": "おそうしき",
+      "romaji": "osoushiki",
+      "meaning": "葬礼",
+      "sentences": [
+        {
+          "ja": "黒いスーツを着てお葬式に行きます。",
+          "zh": "穿黑色西装去参加葬礼。"
+        }
+      ]
+    },
+    {
+      "id": "L31-W24",
+      "category": "Nouns",
+      "kanji": "バリ",
+      "kana": "バリ",
+      "romaji": "Bari",
+      "meaning": "巴厘岛",
+      "sentences": [
+        {
+          "ja": "夏休みにバリへ行こうと思っています。",
+          "zh": "暑假打算去巴厘岛。"
+        }
+      ]
+    },
+    {
+      "id": "L31-W25",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "取ります",
+      "kana": "とります",
+      "romaji": "torimasu",
+      "meaning": "取得",
+      "conjugations": {
+        "dictionary": "取る",
+        "masu": "とります",
+        "te": "取って",
+        "nai": "取らない",
+        "ta": "取った"
+      },
+      "sentences": [
+        {
+          "ja": "夏休みを取ろうと思っています。",
+          "zh": "打算休暑假。"
+        }
+      ]
+    },
+    {
+      "id": "L31-W26",
+      "category": "Nouns",
+      "kanji": "～号",
+      "kana": "～ごう",
+      "romaji": "~gou",
+      "meaning": "～号",
+      "sentences": [
+        {
+          "ja": "のぞみ42号に乗ります。",
+          "zh": "乘坐希望42号。"
+        }
+      ]
+    },
+    {
+      "id": "L31-W27",
+      "category": "Nouns",
+      "kanji": "のぞみ",
+      "kana": "のぞみ",
+      "romaji": "nozomi",
+      "meaning": "希望号（新干线名称）",
+      "sentences": [
+        {
+          "ja": "のぞみは速いです。",
+          "zh": "希望号很快。"
+        }
+      ]
+    },
+    {
+      "id": "L31-W28",
+      "category": "Nouns",
+      "kanji": "帰り",
+      "kana": "かえり",
+      "romaji": "kaeri",
+      "meaning": "回来，返程",
+      "sentences": [
+        {
+          "ja": "帰りの新幹線はどこから乗りますか。",
+          "zh": "返程的新干线从哪里乘车？"
+        }
+      ]
+    },
+    {
+      "id": "L31-W29",
+      "category": "Nouns",
+      "kanji": "発表",
+      "kana": "はっぴょう",
+      "romaji": "happyou",
+      "meaning": "发表，公布",
+      "sentences": [
+        {
+          "ja": "発表の準備はできましたか。",
+          "zh": "发表的准备做好了吗？"
+        }
+      ]
+    },
+    {
+      "id": "L31-W30",
+      "category": "Nouns",
+      "kanji": "村",
+      "kana": "むら",
+      "romaji": "mura",
+      "meaning": "村庄",
+      "sentences": [
+        {
+          "ja": "わたしは九州の小さい村で生まれました。",
+          "zh": "我出生在九州的一个小村庄。"
+        }
+      ]
+    },
+    {
+      "id": "L31-W31",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "卒業します",
+      "kana": "そつぎょうします",
+      "romaji": "sotsugyou shimasu",
+      "meaning": "毕业",
+      "conjugations": {
+        "dictionary": "卒業する",
+        "masu": "そつぎょうします",
+        "te": "卒業して",
+        "nai": "卒業しない",
+        "ta": "卒業した"
+      },
+      "sentences": [
+        {
+          "ja": "高校を卒業して、東京へ来ました。",
+          "zh": "高中毕业后来到了东京。"
+        }
+      ]
+    },
+    {
+      "id": "L31-W32",
+      "category": "Nouns",
+      "kanji": "映画館",
+      "kana": "えいがかん",
+      "romaji": "eigakan",
+      "meaning": "电影院",
+      "sentences": [
+        {
+          "ja": "田舎には映画館もありません。",
+          "zh": "乡下连电影院都没有。"
+        }
+      ]
+    },
+    {
+      "id": "L31-W33",
+      "category": "Adjectives",
+      "grammarType": "na-adj",
+      "kanji": "嫌",
+      "kana": "いや",
+      "romaji": "iya",
+      "meaning": "讨厌，不喜欢",
+      "sentences": [
+        {
+          "ja": "田舎の生活は嫌だと思いました。",
+          "zh": "觉得乡下的生活很讨厌。"
+        }
+      ]
+    },
+    {
+      "id": "L31-W34",
+      "category": "Nouns",
+      "kanji": "空",
+      "kana": "そら",
+      "romaji": "sora",
+      "meaning": "天空",
+      "sentences": [
+        {
+          "ja": "田舎の青い空を思い出します。",
+          "zh": "想起家乡的蓝天。"
+        }
+      ]
+    },
+    {
+      "id": "L31-W35",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "閉じます",
+      "kana": "とじます",
+      "romaji": "tojimasu",
+      "meaning": "闭上，关上",
+      "conjugations": {
+        "dictionary": "閉じる",
+        "masu": "とじます",
+        "te": "閉じて",
+        "nai": "閉じない",
+        "ta": "閉じた"
+      },
+      "sentences": [
+        {
+          "ja": "目を閉じます。",
+          "zh": "闭上眼睛。"
+        }
+      ]
+    },
+    {
+      "id": "L31-W36",
+      "category": "Nouns",
+      "kanji": "都会",
+      "kana": "とかい",
+      "romaji": "tokai",
+      "meaning": "都会，城市",
+      "sentences": [
+        {
+          "ja": "都会の子どもたちを山へ連れて行きます。",
+          "zh": "带都市的孩子们去山里。"
+        }
+      ]
+    },
+    {
+      "id": "L31-W37",
+      "category": "Nouns",
+      "kanji": "子どもたち",
+      "kana": "こどもたち",
+      "romaji": "kodomotachi",
+      "meaning": "孩子们",
+      "sentences": [
+        {
+          "ja": "子どもたちが自由に遊べる学校を作ります。",
+          "zh": "建一所孩子们能自由玩耍的学校。"
+        }
+      ]
+    },
+    {
+      "id": "L31-W38",
+      "category": "Adverbs",
+      "kanji": "自由に",
+      "kana": "じゆうに",
+      "romaji": "jiyuu ni",
+      "meaning": "自由地，随意地",
+      "sentences": [
+        {
+          "ja": "子どもたちが自由に遊びます。",
+          "zh": "孩子们自由地玩耍。"
+        }
+      ]
+    }
+  ],
+  "32": [
+    {
+      "id": "L32-W1",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "運動します",
+      "kana": "うんどうします",
+      "romaji": "undou shimasu",
+      "meaning": "运动",
+      "conjugations": {
+        "dictionary": "運動する",
+        "masu": "うんどうします",
+        "te": "運動して",
+        "nai": "運動しない",
+        "ta": "運動した"
+      },
+      "sentences": [
+        {
+          "ja": "毎日運動したほうがいいです。",
+          "zh": "最好每天运动。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W2",
+      "category": "Adjectives",
+      "grammarType": "na-adj",
+      "kanji": "十分",
+      "kana": "じゅうぶん",
+      "romaji": "juubun",
+      "meaning": "充分，足够",
+      "sentences": [
+        {
+          "ja": "40万円で足りますか。……十分だと思います。",
+          "zh": "40万日元够吗？……我觉得足够了。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W3",
+      "category": "Nouns",
+      "kanji": "インフルエンザ",
+      "kana": "インフルエンザ",
+      "romaji": "infuruenza",
+      "meaning": "流感",
+      "sentences": [
+        {
+          "ja": "ハンスはインフルエンザです。",
+          "zh": "汉斯得了流感。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W4",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "続きます",
+      "kana": "つづきます",
+      "romaji": "tsuzukimasu",
+      "meaning": "持续",
+      "conjugations": {
+        "dictionary": "続く",
+        "masu": "つづきます",
+        "te": "続いて",
+        "nai": "続かない",
+        "ta": "続いた"
+      },
+      "sentences": [
+        {
+          "ja": "2、3日高い熱が続くかもしれません。",
+          "zh": "可能会连续两三天发高烧。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W5",
+      "category": "Nouns",
+      "kanji": "エンジン",
+      "kana": "エンジン",
+      "romaji": "enjin",
+      "meaning": "发动机，马达",
+      "sentences": [
+        {
+          "ja": "エンジンの音がおかしいですね。",
+          "zh": "发动机的声音有点奇怪。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W6",
+      "category": "Adjectives",
+      "grammarType": "i-adj",
+      "kanji": "おかしい",
+      "kana": "おかしい",
+      "romaji": "okashii",
+      "meaning": "奇怪，可疑",
+      "sentences": [
+        {
+          "ja": "エンジンの音がおかしいんですが。",
+          "zh": "发动机的声音有点奇怪。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W7",
+      "category": "Nouns",
+      "kanji": "元気",
+      "kana": "げんき",
+      "romaji": "genki",
+      "meaning": "精神，健康",
+      "sentences": [
+        {
+          "ja": "シュミットさんは元気がありませんね。",
+          "zh": "施密特先生没什么精神呢。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W8",
+      "category": "Nouns",
+      "kanji": "胃",
+      "kana": "い",
+      "romaji": "i",
+      "meaning": "胃",
+      "sentences": [
+        {
+          "ja": "時々頭や胃が痛くなります。",
+          "zh": "有时头和胃会疼。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W9",
+      "category": "Nouns",
+      "kanji": "ストレス",
+      "kana": "ストレス",
+      "romaji": "sutoresu",
+      "meaning": "（精神上的）压力，紧张",
+      "sentences": [
+        {
+          "ja": "ストレスかもしれませんね。",
+          "zh": "也许是压力吧。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W10",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "無理をします",
+      "kana": "むりをします",
+      "romaji": "muri o shimasu",
+      "meaning": "勉强，硬撑",
+      "conjugations": {
+        "dictionary": "無理をする",
+        "masu": "むりをします",
+        "te": "無理をして",
+        "nai": "無理をしない",
+        "ta": "無理をした"
+      },
+      "sentences": [
+        {
+          "ja": "無理をしないほうがいいですよ。",
+          "zh": "最好别硬撑。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W11",
+      "category": "Nouns",
+      "kanji": "今夜",
+      "kana": "こんや",
+      "romaji": "kon'ya",
+      "meaning": "今天晚上，今夜",
+      "sentences": [
+        {
+          "ja": "今夜は早く寝たほうがいいです。",
+          "zh": "今晚最好早点睡。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W12",
+      "category": "Nouns",
+      "kanji": "星",
+      "kana": "ほし",
+      "romaji": "hoshi",
+      "meaning": "星星",
+      "sentences": [
+        {
+          "ja": "あしたは晴れて、星がよく見えるでしょう。",
+          "zh": "明天会放晴，能清楚地看见星星吧。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W13",
+      "category": "Adverbs",
+      "kanji": "遅く",
+      "kana": "おそく",
+      "romaji": "osoku",
+      "meaning": "晚（指时间晚）",
+      "sentences": [
+        {
+          "ja": "遅くまで残業しました。",
+          "zh": "加班到很晚。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W14",
+      "category": "Nouns",
+      "kanji": "せき",
+      "kana": "せき",
+      "romaji": "seki",
+      "meaning": "咳嗽",
+      "sentences": [
+        {
+          "ja": "せきが出るし、熱もあります。",
+          "zh": "又咳嗽又发烧。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W15",
+      "category": "Nouns",
+      "kanji": "やけど",
+      "kana": "やけど",
+      "romaji": "yakedo",
+      "meaning": "烫伤，烧伤",
+      "sentences": [
+        {
+          "ja": "やけどをしました。",
+          "zh": "烫伤了。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W16",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "冷やします",
+      "kana": "ひやします",
+      "romaji": "hiyashimasu",
+      "meaning": "使～凉下来，冷敷",
+      "conjugations": {
+        "dictionary": "冷やす",
+        "masu": "ひやします",
+        "te": "冷やして",
+        "nai": "冷やさない",
+        "ta": "冷やした"
+      },
+      "sentences": [
+        {
+          "ja": "やけどはすぐ冷やしたほうがいいです。",
+          "zh": "烫伤最好马上冷敷。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W17",
+      "category": "Nouns",
+      "kanji": "けが",
+      "kana": "けが",
+      "romaji": "kega",
+      "meaning": "伤，受伤",
+      "sentences": [
+        {
+          "ja": "けがをしないように気をつけてください。",
+          "zh": "请小心别受伤。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W18",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "引きます",
+      "kana": "ひきます",
+      "romaji": "hikimasu",
+      "meaning": "患，得（感冒）",
+      "conjugations": {
+        "dictionary": "引く",
+        "masu": "ひきます",
+        "te": "引いて",
+        "nai": "引かない",
+        "ta": "引いた"
+      },
+      "sentences": [
+        {
+          "ja": "風邪を引きました。",
+          "zh": "得了感冒。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W19",
+      "category": "Nouns",
+      "kanji": "夕方",
+      "kana": "ゆうがた",
+      "romaji": "yuugata",
+      "meaning": "黄昏，傍晚",
+      "sentences": [
+        {
+          "ja": "夕方から雨が降るでしょう。",
+          "zh": "傍晚开始会下雨吧。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W20",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "止みます",
+      "kana": "やみます",
+      "romaji": "yamimasu",
+      "meaning": "停止",
+      "conjugations": {
+        "dictionary": "止む",
+        "masu": "やみます",
+        "te": "止んで",
+        "nai": "止まない",
+        "ta": "止んだ"
+      },
+      "sentences": [
+        {
+          "ja": "あしたは雨が止むでしょう。",
+          "zh": "明天雨会停吧。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W21",
+      "category": "Nouns",
+      "kanji": "太陽",
+      "kana": "たいよう",
+      "romaji": "taiyou",
+      "meaning": "太阳",
+      "sentences": [
+        {
+          "ja": "太陽が出て、暖かくなりました。",
+          "zh": "太阳出来了，变暖和了。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W22",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "晴れます",
+      "kana": "はれます",
+      "romaji": "haremasu",
+      "meaning": "晴",
+      "conjugations": {
+        "dictionary": "晴れる",
+        "masu": "はれます",
+        "te": "晴れて",
+        "nai": "晴れない",
+        "ta": "晴れた"
+      },
+      "sentences": [
+        {
+          "ja": "あしたは晴れるでしょう。",
+          "zh": "明天会放晴吧。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W23",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "曇ります",
+      "kana": "くもります",
+      "romaji": "kumorimasu",
+      "meaning": "阴，多云",
+      "conjugations": {
+        "dictionary": "曇る",
+        "masu": "くもります",
+        "te": "曇って",
+        "nai": "曇らない",
+        "ta": "曇った"
+      },
+      "sentences": [
+        {
+          "ja": "午後から曇るでしょう。",
+          "zh": "下午开始会转阴吧。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W24",
+      "category": "Nouns",
+      "kanji": "風",
+      "kana": "かぜ",
+      "romaji": "kaze",
+      "meaning": "风",
+      "sentences": [
+        {
+          "ja": "強い風が吹いています。",
+          "zh": "刮着大风。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W25",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "空きます",
+      "kana": "すきます",
+      "romaji": "sukimasu",
+      "meaning": "空，通畅",
+      "conjugations": {
+        "dictionary": "空く",
+        "masu": "すきます",
+        "te": "空いて",
+        "nai": "空かない",
+        "ta": "空いた"
+      },
+      "sentences": [
+        {
+          "ja": "道が空いています。",
+          "zh": "道路通畅。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W26",
+      "category": "Nouns",
+      "kanji": "西",
+      "kana": "にし",
+      "romaji": "nishi",
+      "meaning": "西",
+      "sentences": [
+        {
+          "ja": "西の空が赤いです。",
+          "zh": "西边的天空是红的。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W27",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "出ます",
+      "kana": "でます",
+      "romaji": "demasu",
+      "meaning": "参加，出场",
+      "conjugations": {
+        "dictionary": "出る",
+        "masu": "でます",
+        "te": "出て",
+        "nai": "出ない",
+        "ta": "出た"
+      },
+      "sentences": [
+        {
+          "ja": "試合に出ます。",
+          "zh": "参加比赛。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W28",
+      "category": "Nouns",
+      "kanji": "南",
+      "kana": "みなみ",
+      "romaji": "minami",
+      "meaning": "南",
+      "sentences": [
+        {
+          "ja": "南の風が吹いています。",
+          "zh": "刮着南风。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W29",
+      "category": "Nouns",
+      "kanji": "北",
+      "kana": "きた",
+      "romaji": "kita",
+      "meaning": "北",
+      "sentences": [
+        {
+          "ja": "北の空に星が見えます。",
+          "zh": "北边的天空能看见星星。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W30",
+      "category": "Adjectives",
+      "grammarType": "i-adj",
+      "kanji": "うるさい",
+      "kana": "うるさい",
+      "romaji": "urusai",
+      "meaning": "吵闹，烦人",
+      "sentences": [
+        {
+          "ja": "外がうるさいです。",
+          "zh": "外面很吵。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W31",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "込みます",
+      "kana": "こみます",
+      "romaji": "komimasu",
+      "meaning": "拥挤",
+      "conjugations": {
+        "dictionary": "込む",
+        "masu": "こみます",
+        "te": "込んで",
+        "nai": "込まない",
+        "ta": "込んだ"
+      },
+      "sentences": [
+        {
+          "ja": "道が込んでいます。",
+          "zh": "道路拥挤。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W32",
+      "category": "Nouns",
+      "kanji": "水道",
+      "kana": "すいどう",
+      "romaji": "suidou",
+      "meaning": "自来水，自来水管",
+      "sentences": [
+        {
+          "ja": "水道の水を飲みます。",
+          "zh": "喝自来水。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W33",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "合格します",
+      "kana": "ごうかくします",
+      "romaji": "goukaku shimasu",
+      "meaning": "合格，及格",
+      "conjugations": {
+        "dictionary": "合格する",
+        "masu": "ごうかくします",
+        "te": "合格して",
+        "nai": "合格しない",
+        "ta": "合格した"
+      },
+      "sentences": [
+        {
+          "ja": "タワポンさんは合格するでしょう。",
+          "zh": "塔瓦蓬会合格吧。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W34",
+      "category": "Nouns",
+      "kanji": "チーム",
+      "kana": "チーム",
+      "romaji": "chiimu",
+      "meaning": "队，团队",
+      "sentences": [
+        {
+          "ja": "わたしたちのチームは強いです。",
+          "zh": "我们队很强。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W35",
+      "category": "Adverbs",
+      "kanji": "あんなに",
+      "kana": "あんなに",
+      "romaji": "anna ni",
+      "meaning": "那么",
+      "sentences": [
+        {
+          "ja": "あんなに勉強したのに、失敗しました。",
+          "zh": "那么用功了，还是失败了。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W36",
+      "category": "Adverbs",
+      "kanji": "そんなに",
+      "kana": "そんなに",
+      "romaji": "sonna ni",
+      "meaning": "那么",
+      "sentences": [
+        {
+          "ja": "そんなに心配しなくてもいいですよ。",
+          "zh": "不必那么担心。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W37",
+      "category": "Nouns",
+      "kanji": "国際～",
+      "kana": "こくさい～",
+      "romaji": "kokusai~",
+      "meaning": "国际～",
+      "sentences": [
+        {
+          "ja": "国際会議に出ます。",
+          "zh": "参加国际会议。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W38",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "成功します",
+      "kana": "せいこうします",
+      "romaji": "seikou shimasu",
+      "meaning": "成功",
+      "conjugations": {
+        "dictionary": "成功する",
+        "masu": "せいこうします",
+        "te": "成功して",
+        "nai": "成功しない",
+        "ta": "成功した"
+      },
+      "sentences": [
+        {
+          "ja": "実験は成功するでしょう。",
+          "zh": "实验会成功吧。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W39",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "失敗します",
+      "kana": "しっぱいします",
+      "romaji": "shippai shimasu",
+      "meaning": "失败",
+      "conjugations": {
+        "dictionary": "失敗する",
+        "masu": "しっぱいします",
+        "te": "失敗して",
+        "nai": "失敗しない",
+        "ta": "失敗した"
+      },
+      "sentences": [
+        {
+          "ja": "試験に失敗しました。",
+          "zh": "考试失败了。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W40",
+      "category": "Nouns",
+      "kanji": "前",
+      "kana": "まえ",
+      "romaji": "mae",
+      "meaning": "以前，之前",
+      "sentences": [
+        {
+          "ja": "ずいぶん前から知っています。",
+          "zh": "很早以前就知道了。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W41",
+      "category": "Adverbs",
+      "kanji": "こんなに",
+      "kana": "こんなに",
+      "romaji": "konna ni",
+      "meaning": "这么",
+      "sentences": [
+        {
+          "ja": "こんなに人が多いですね。",
+          "zh": "人这么多啊。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W42",
+      "category": "Nouns",
+      "kanji": "星占い",
+      "kana": "ほしうらない",
+      "romaji": "hoshiuranai",
+      "meaning": "占星术，星相",
+      "sentences": [
+        {
+          "ja": "今日の星占いはよかったです。",
+          "zh": "今天的星座运势不错。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W43",
+      "category": "Nouns",
+      "kanji": "おうし座",
+      "kana": "おうしざ",
+      "romaji": "oushiza",
+      "meaning": "金牛座",
+      "sentences": [
+        {
+          "ja": "わたしはおうし座です。",
+          "zh": "我是金牛座。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W44",
+      "category": "Nouns",
+      "kanji": "働きすぎ",
+      "kana": "はたらきすぎ",
+      "romaji": "hatarakisugi",
+      "meaning": "工作过度",
+      "sentences": [
+        {
+          "ja": "働きすぎで体を壊しました。",
+          "zh": "因为工作过度弄坏了身体。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W45",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "困ります",
+      "kana": "こまります",
+      "romaji": "komarimasu",
+      "meaning": "为难，困惑",
+      "conjugations": {
+        "dictionary": "困る",
+        "masu": "こまります",
+        "te": "困って",
+        "nai": "困らない",
+        "ta": "困った"
+      },
+      "sentences": [
+        {
+          "ja": "雨が降ると、困ります。",
+          "zh": "下雨的话会很麻烦。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W46",
+      "category": "Nouns",
+      "kanji": "宝くじ",
+      "kana": "たからくじ",
+      "romaji": "takarakuji",
+      "meaning": "彩票",
+      "sentences": [
+        {
+          "ja": "宝くじが当たりました。",
+          "zh": "中彩票了。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W47",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "当たります",
+      "kana": "あたります",
+      "romaji": "atarimasu",
+      "meaning": "中（彩票）",
+      "conjugations": {
+        "dictionary": "当たる",
+        "masu": "あたります",
+        "te": "当たって",
+        "nai": "当たらない",
+        "ta": "当たった"
+      },
+      "sentences": [
+        {
+          "ja": "宝くじが当たるかもしれません。",
+          "zh": "也许会中彩票。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W48",
+      "category": "Nouns",
+      "kanji": "健康",
+      "kana": "けんこう",
+      "romaji": "kenkou",
+      "meaning": "健康",
+      "sentences": [
+        {
+          "ja": "健康に気をつけてください。",
+          "zh": "请注意健康。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W49",
+      "category": "Nouns",
+      "kanji": "東",
+      "kana": "ひがし",
+      "romaji": "higashi",
+      "meaning": "东",
+      "sentences": [
+        {
+          "ja": "東の空が明るくなりました。",
+          "zh": "东边的天空变亮了。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W50",
+      "category": "Nouns",
+      "kanji": "恋愛",
+      "kana": "れんあい",
+      "romaji": "ren'ai",
+      "meaning": "恋爱",
+      "sentences": [
+        {
+          "ja": "恋愛は難しいですね。",
+          "zh": "恋爱真难啊。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W51",
+      "category": "Nouns",
+      "kanji": "恋人",
+      "kana": "こいびと",
+      "romaji": "koibito",
+      "meaning": "恋人",
+      "sentences": [
+        {
+          "ja": "その人が将来の恋人になるかもしれません。",
+          "zh": "那个人也许会成为将来的恋人。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W52",
+      "category": "Nouns",
+      "kanji": "ラッキーアイテム",
+      "kana": "ラッキーアイテム",
+      "romaji": "rakkii aitemu",
+      "meaning": "吉祥物",
+      "sentences": [
+        {
+          "ja": "今日のラッキーアイテムは石です。",
+          "zh": "今天的幸运物是石头。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W53",
+      "category": "Nouns",
+      "kanji": "石",
+      "kana": "いし",
+      "romaji": "ishi",
+      "meaning": "石头",
+      "sentences": [
+        {
+          "ja": "道に石があります。",
+          "zh": "路上有石头。"
+        }
+      ]
+    },
+    {
+      "id": "L32-W54",
+      "category": "Nouns",
+      "kanji": "占い",
+      "kana": "うらない",
+      "romaji": "uranai",
+      "meaning": "占卜",
+      "sentences": [
+        {
+          "ja": "占いを信じますか。",
+          "zh": "你相信占卜吗？"
+        }
+      ]
+    }
+  ],
+  "33": [
+    {
+      "id": "L33-W1",
+      "category": "Nouns",
+      "kanji": "立入禁止",
+      "kana": "たちいりきんし",
+      "romaji": "tachiiri kinshi",
+      "meaning": "禁止入内",
+      "sentences": [
+        {
+          "ja": "立入禁止は入るなという意味です。",
+          "zh": "“立入禁止”是别进去的意思。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W2",
+      "category": "Adjectives",
+      "grammarType": "na-adj",
+      "kanji": "だめ",
+      "kana": "だめ",
+      "romaji": "dame",
+      "meaning": "不行",
+      "sentences": [
+        {
+          "ja": "この池で遊んではだめです。",
+          "zh": "不可以在这个池子里玩。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W3",
+      "category": "Adverbs",
+      "kanji": "もう",
+      "kana": "もう",
+      "romaji": "mou",
+      "meaning": "已经，再（与否定形一起使用）",
+      "sentences": [
+        {
+          "ja": "もう時間がない。",
+          "zh": "已经没有时间了。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W4",
+      "category": "Adverbs",
+      "kanji": "あと～",
+      "kana": "あと～",
+      "romaji": "ato~",
+      "meaning": "还有～",
+      "sentences": [
+        {
+          "ja": "あと500メートルだ。",
+          "zh": "还有500米。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W5",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "諦めます",
+      "kana": "あきらめます",
+      "romaji": "akiramemasu",
+      "meaning": "放弃，死心",
+      "conjugations": {
+        "dictionary": "諦める",
+        "masu": "あきらめます",
+        "te": "諦めて",
+        "nai": "諦めない",
+        "ta": "諦めた"
+      },
+      "sentences": [
+        {
+          "ja": "まだ1分ある。あきらめるな。",
+          "zh": "还有一分钟，别放弃。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W6",
+      "category": "Nouns",
+      "kanji": "マーク",
+      "kana": "マーク",
+      "romaji": "maaku",
+      "meaning": "标记，标志",
+      "sentences": [
+        {
+          "ja": "このマークはどういう意味ですか。",
+          "zh": "这个标志是什么意思？"
+        }
+      ]
+    },
+    {
+      "id": "L33-W7",
+      "category": "Nouns",
+      "kanji": "どういう～",
+      "kana": "どういう～",
+      "romaji": "douiu~",
+      "meaning": "怎样的～，什么样的～",
+      "sentences": [
+        {
+          "ja": "どういう意味ですか。",
+          "zh": "是什么意思？"
+        }
+      ]
+    },
+    {
+      "id": "L33-W8",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "伝えます",
+      "kana": "つたえます",
+      "romaji": "tsutaemasu",
+      "meaning": "传达，转告",
+      "conjugations": {
+        "dictionary": "伝える",
+        "masu": "つたえます",
+        "te": "伝えて",
+        "nai": "伝えない",
+        "ta": "伝えた"
+      },
+      "sentences": [
+        {
+          "ja": "渡辺さんにパーティーは6時からだと伝えてください。",
+          "zh": "请转告渡边小姐晚会从6点开始。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W9",
+      "category": "Nouns",
+      "kanji": "駐車違反",
+      "kana": "ちゅうしゃいはん",
+      "romaji": "chuusha ihan",
+      "meaning": "违章停车",
+      "sentences": [
+        {
+          "ja": "「ちゅうしゃいはん」です。",
+          "zh": "是“违章停车”。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W10",
+      "category": "Nouns",
+      "kanji": "罰金",
+      "kana": "ばっきん",
+      "romaji": "bakkin",
+      "meaning": "罚款",
+      "sentences": [
+        {
+          "ja": "罰金を払わなければなりません。",
+          "zh": "必须交罚款。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W11",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "逃げます",
+      "kana": "にげます",
+      "romaji": "nigemasu",
+      "meaning": "逃走",
+      "conjugations": {
+        "dictionary": "逃げる",
+        "masu": "にげます",
+        "te": "逃げて",
+        "nai": "逃げない",
+        "ta": "逃げた"
+      },
+      "sentences": [
+        {
+          "ja": "地震のときは逃げろ。",
+          "zh": "地震的时候快逃。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W12",
+      "category": "Nouns",
+      "kanji": "規則",
+      "kana": "きそく",
+      "romaji": "kisoku",
+      "meaning": "规则",
+      "sentences": [
+        {
+          "ja": "交通規則を守ります。",
+          "zh": "遵守交通规则。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W13",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "守ります",
+      "kana": "まもります",
+      "romaji": "mamorimasu",
+      "meaning": "遵守",
+      "conjugations": {
+        "dictionary": "守る",
+        "masu": "まもります",
+        "te": "守って",
+        "nai": "守らない",
+        "ta": "守った"
+      },
+      "sentences": [
+        {
+          "ja": "規則を守れ。",
+          "zh": "遵守规则。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W14",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "騒ぎます",
+      "kana": "さわぎます",
+      "romaji": "sawagimasu",
+      "meaning": "吵闹，吵嚷",
+      "conjugations": {
+        "dictionary": "騒ぐ",
+        "masu": "さわぎます",
+        "te": "騒いで",
+        "nai": "騒がない",
+        "ta": "騒いだ"
+      },
+      "sentences": [
+        {
+          "ja": "ここで騒ぐな。",
+          "zh": "别在这里吵。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W15",
+      "category": "Nouns",
+      "kanji": "入口",
+      "kana": "いりぐち",
+      "romaji": "iriguchi",
+      "meaning": "入口",
+      "sentences": [
+        {
+          "ja": "入口はあそこです。",
+          "zh": "入口在那边。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W16",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "リサイクルします",
+      "kana": "リサイクルします",
+      "romaji": "risaikuru shimasu",
+      "meaning": "再利用，资源回收",
+      "conjugations": {
+        "dictionary": "リサイクルする",
+        "masu": "リサイクルします",
+        "te": "リサイクルして",
+        "nai": "リサイクルしない",
+        "ta": "リサイクルした"
+      },
+      "sentences": [
+        {
+          "ja": "古い雑誌をリサイクルします。",
+          "zh": "回收旧杂志。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W17",
+      "category": "Nouns",
+      "kanji": "～ほど",
+      "kana": "～ほど",
+      "romaji": "~hodo",
+      "meaning": "大约～，～左右",
+      "sentences": [
+        {
+          "ja": "30分ほどで戻ります。",
+          "zh": "30分钟左右回来。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W18",
+      "category": "Nouns",
+      "kanji": "締め切り",
+      "kana": "しめきり",
+      "romaji": "shimekiri",
+      "meaning": "截止，截止日期",
+      "sentences": [
+        {
+          "ja": "レポートの締め切りはあしたです。",
+          "zh": "报告的截止日期是明天。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W19",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "戻ります",
+      "kana": "もどります",
+      "romaji": "modorimasu",
+      "meaning": "回来",
+      "conjugations": {
+        "dictionary": "戻る",
+        "masu": "もどります",
+        "te": "戻って",
+        "nai": "戻らない",
+        "ta": "戻った"
+      },
+      "sentences": [
+        {
+          "ja": "30分ぐらいで戻ると言っていました。",
+          "zh": "说30分钟左右回来。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W20",
+      "category": "Nouns",
+      "kanji": "ボール",
+      "kana": "ボール",
+      "romaji": "booru",
+      "meaning": "球",
+      "sentences": [
+        {
+          "ja": "ボールを投げます。",
+          "zh": "扔球。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W21",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "投げます",
+      "kana": "なげます",
+      "romaji": "nagemasu",
+      "meaning": "扔，投",
+      "conjugations": {
+        "dictionary": "投げる",
+        "masu": "なげます",
+        "te": "投げて",
+        "nai": "投げない",
+        "ta": "投げた"
+      },
+      "sentences": [
+        {
+          "ja": "ここでボールを投げるな。",
+          "zh": "别在这里扔球。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W22",
+      "category": "Nouns",
+      "kanji": "出口",
+      "kana": "でぐち",
+      "romaji": "deguchi",
+      "meaning": "出口",
+      "sentences": [
+        {
+          "ja": "出口はどこですか。",
+          "zh": "出口在哪里？"
+        }
+      ]
+    },
+    {
+      "id": "L33-W23",
+      "category": "Nouns",
+      "kanji": "予約席",
+      "kana": "よやくせき",
+      "romaji": "yoyakuseki",
+      "meaning": "预订的座位",
+      "sentences": [
+        {
+          "ja": "ここは予約席です。",
+          "zh": "这里是预订座位。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W24",
+      "category": "Nouns",
+      "kanji": "非常口",
+      "kana": "ひじょうぐち",
+      "romaji": "hijouguchi",
+      "meaning": "紧急出口",
+      "sentences": [
+        {
+          "ja": "非常口はあちらです。",
+          "zh": "紧急出口在那边。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W25",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "注意します",
+      "kana": "ちゅういします",
+      "romaji": "chuui shimasu",
+      "meaning": "注意，小心",
+      "conjugations": {
+        "dictionary": "注意する",
+        "masu": "ちゅういします",
+        "te": "注意して",
+        "nai": "注意しない",
+        "ta": "注意した"
+      },
+      "sentences": [
+        {
+          "ja": "車に注意します。",
+          "zh": "小心汽车。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W26",
+      "category": "Nouns",
+      "kanji": "徐行",
+      "kana": "じょこう",
+      "romaji": "jokou",
+      "meaning": "慢行",
+      "sentences": [
+        {
+          "ja": "ここは徐行してください。",
+          "zh": "这里请慢行。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W27",
+      "category": "Nouns",
+      "kanji": "使用禁止",
+      "kana": "しようきんし",
+      "romaji": "shiyou kinshi",
+      "meaning": "禁止使用",
+      "sentences": [
+        {
+          "ja": "このトイレは使用禁止です。",
+          "zh": "这个厕所禁止使用。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W28",
+      "category": "Nouns",
+      "kanji": "無料",
+      "kana": "むりょう",
+      "romaji": "muryou",
+      "meaning": "免费",
+      "sentences": [
+        {
+          "ja": "入場は無料です。",
+          "zh": "入场免费。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W29",
+      "category": "Nouns",
+      "kanji": "～中",
+      "kana": "～ちゅう",
+      "romaji": "~chuu",
+      "meaning": "正在～",
+      "sentences": [
+        {
+          "ja": "会議は使用中です。",
+          "zh": "会议室正在使用中。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W30",
+      "category": "Nouns",
+      "kanji": "危険",
+      "kana": "きけん",
+      "romaji": "kiken",
+      "meaning": "危险",
+      "sentences": [
+        {
+          "ja": "危険ですから、入るな。",
+          "zh": "危险，别进去。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W31",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "出席します",
+      "kana": "しゅっせきします",
+      "romaji": "shusseki shimasu",
+      "meaning": "出席",
+      "conjugations": {
+        "dictionary": "出席する",
+        "masu": "しゅっせきします",
+        "te": "出席して",
+        "nai": "出席しない",
+        "ta": "出席した"
+      },
+      "sentences": [
+        {
+          "ja": "会議に出席します。",
+          "zh": "出席会议。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W32",
+      "category": "Nouns",
+      "kanji": "警察",
+      "kana": "けいさつ",
+      "romaji": "keisatsu",
+      "meaning": "警察，警察局",
+      "sentences": [
+        {
+          "ja": "すぐ警察に連絡してください。",
+          "zh": "请马上联系警察。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W33",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "始まります",
+      "kana": "はじまります",
+      "romaji": "hajimarimasu",
+      "meaning": "开始",
+      "conjugations": {
+        "dictionary": "始まる",
+        "masu": "はじまります",
+        "te": "始まって",
+        "nai": "始まらない",
+        "ta": "始まった"
+      },
+      "sentences": [
+        {
+          "ja": "式が始まります。",
+          "zh": "典礼开始。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W34",
+      "category": "Nouns",
+      "kanji": "割引",
+      "kana": "わりびき",
+      "romaji": "waribiki",
+      "meaning": "折扣",
+      "sentences": [
+        {
+          "ja": "学生割引があります。",
+          "zh": "有学生折扣。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W35",
+      "category": "Nouns",
+      "kanji": "飲み放題",
+      "kana": "のみほうだい",
+      "romaji": "nomihoudai",
+      "meaning": "饮料自助",
+      "sentences": [
+        {
+          "ja": "この店は飲み放題です。",
+          "zh": "这家店饮料无限畅饮。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W36",
+      "category": "Adverbs",
+      "kanji": "いくら～ても",
+      "kana": "いくら～ても",
+      "romaji": "ikura~temo",
+      "meaning": "无论～也",
+      "sentences": [
+        {
+          "ja": "いくら呼んでも、返事がありません。",
+          "zh": "怎么叫也没有回应。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W37",
+      "category": "Adjectives",
+      "grammarType": "na-adj",
+      "kanji": "同じ",
+      "kana": "おなじ",
+      "romaji": "onaji",
+      "meaning": "一样，同样",
+      "sentences": [
+        {
+          "ja": "わたしも同じ意見です。",
+          "zh": "我也是同样的意见。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W38",
+      "category": "Nouns",
+      "kanji": "募集",
+      "kana": "ぼしゅう",
+      "romaji": "boshuu",
+      "meaning": "招聘",
+      "sentences": [
+        {
+          "ja": "アルバイトを募集しています。",
+          "zh": "正在招聘兼职。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W39",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "あります",
+      "kana": "あります",
+      "romaji": "arimasu",
+      "meaning": "有（电话等）",
+      "conjugations": {
+        "dictionary": "ある",
+        "masu": "あります",
+        "te": "あって",
+        "nai": "ない",
+        "ta": "あった"
+      },
+      "sentences": [
+        {
+          "ja": "電話があります。",
+          "zh": "有电话。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W40",
+      "category": "Nouns",
+      "kanji": "席",
+      "kana": "せき",
+      "romaji": "seki",
+      "meaning": "座位",
+      "sentences": [
+        {
+          "ja": "席を外します。",
+          "zh": "离开座位。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W41",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "外します",
+      "kana": "はずします",
+      "romaji": "hazushimasu",
+      "meaning": "离开",
+      "conjugations": {
+        "dictionary": "外す",
+        "masu": "はずします",
+        "te": "外して",
+        "nai": "外さない",
+        "ta": "外した"
+      },
+      "sentences": [
+        {
+          "ja": "席を外しています。",
+          "zh": "正离开座位。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W42",
+      "category": "Nouns",
+      "kanji": "地震",
+      "kana": "じしん",
+      "romaji": "jishin",
+      "meaning": "地震",
+      "sentences": [
+        {
+          "ja": "地震が起きました。",
+          "zh": "发生了地震。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W43",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "起きます",
+      "kana": "おきます",
+      "romaji": "okimasu",
+      "meaning": "发生",
+      "conjugations": {
+        "dictionary": "起きる",
+        "masu": "おきます",
+        "te": "起きて",
+        "nai": "起きない",
+        "ta": "起きた"
+      },
+      "sentences": [
+        {
+          "ja": "大きい地震が起きました。",
+          "zh": "发生了大地震。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W44",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "助け合います",
+      "kana": "たすけあいます",
+      "romaji": "tasukeaimasu",
+      "meaning": "互助",
+      "conjugations": {
+        "dictionary": "助け合う",
+        "masu": "たすけあいます",
+        "te": "助け合って",
+        "nai": "助け合わない",
+        "ta": "助け合った"
+      },
+      "sentences": [
+        {
+          "ja": "みんなで助け合います。",
+          "zh": "大家互相帮助。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W45",
+      "category": "Adverbs",
+      "kanji": "もともと",
+      "kana": "もともと",
+      "romaji": "motomoto",
+      "meaning": "原本，原来",
+      "sentences": [
+        {
+          "ja": "もともと日本語が好きでした。",
+          "zh": "原本就喜欢日语。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W46",
+      "category": "Adjectives",
+      "grammarType": "i-adj",
+      "kanji": "悲しい",
+      "kana": "かなしい",
+      "romaji": "kanashii",
+      "meaning": "悲伤",
+      "sentences": [
+        {
+          "ja": "悲しいニュースを聞きました。",
+          "zh": "听到了悲伤的消息。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W47",
+      "category": "Adverbs",
+      "kanji": "もっと",
+      "kana": "もっと",
+      "romaji": "motto",
+      "meaning": "更加",
+      "sentences": [
+        {
+          "ja": "もっと頑張れ。",
+          "zh": "再加把劲。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W48",
+      "category": "Nouns",
+      "kanji": "挨拶",
+      "kana": "あいさつ",
+      "romaji": "aisatsu",
+      "meaning": "寒暄，问候，致辞",
+      "sentences": [
+        {
+          "ja": "社長が挨拶をします。",
+          "zh": "社长致辞。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W49",
+      "category": "Nouns",
+      "kanji": "相手",
+      "kana": "あいて",
+      "romaji": "aite",
+      "meaning": "对方",
+      "sentences": [
+        {
+          "ja": "相手の気持ちを考えます。",
+          "zh": "考虑对方的心情。"
+        }
+      ]
+    },
+    {
+      "id": "L33-W50",
+      "category": "Nouns",
+      "kanji": "気持ち",
+      "kana": "きもち",
+      "romaji": "kimochi",
+      "meaning": "心情，情绪",
+      "sentences": [
+        {
+          "ja": "相手の気持ちがわかります。",
+          "zh": "明白对方的心情。"
+        }
+      ]
+    }
+  ],
+  "34": [
+    {
+      "id": "L34-W1",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "磨きます",
+      "kana": "みがきます",
+      "romaji": "migakimasu",
+      "meaning": "刷，擦",
+      "conjugations": {
+        "dictionary": "磨く",
+        "masu": "みがきます",
+        "te": "磨いて",
+        "nai": "磨かない",
+        "ta": "磨いた"
+      },
+      "sentences": [
+        {
+          "ja": "ごはんを食べたあとで、歯を磨きます。",
+          "zh": "吃完饭后刷牙。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W2",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "組み立てます",
+      "kana": "くみたてます",
+      "romaji": "kumitatemasu",
+      "meaning": "组装",
+      "conjugations": {
+        "dictionary": "組み立てる",
+        "masu": "くみたてます",
+        "te": "組み立てて",
+        "nai": "組み立てない",
+        "ta": "組み立てた"
+      },
+      "sentences": [
+        {
+          "ja": "説明書のとおりに、組み立ててください。",
+          "zh": "请按照说明书组装。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W3",
+      "category": "Nouns",
+      "kanji": "説明書",
+      "kana": "せつめいしょ",
+      "romaji": "setsumeisho",
+      "meaning": "说明书",
+      "sentences": [
+        {
+          "ja": "説明書のとおりに組み立てました。",
+          "zh": "按照说明书组装好了。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W4",
+      "category": "Nouns",
+      "kanji": "スポーツクラブ",
+      "kana": "スポーツクラブ",
+      "romaji": "supootsu kurabu",
+      "meaning": "体育俱乐部",
+      "sentences": [
+        {
+          "ja": "きょうはスポーツクラブへ行く日です。",
+          "zh": "今天是去健身俱乐部的日子。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W5",
+      "category": "Nouns",
+      "kanji": "黒",
+      "kana": "くろ",
+      "romaji": "kuro",
+      "meaning": "黑色",
+      "sentences": [
+        {
+          "ja": "黒か紺のスーツを着ます。",
+          "zh": "穿黑色或深蓝色的西装。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W6",
+      "category": "Nouns",
+      "kanji": "白",
+      "kana": "しろ",
+      "romaji": "shiro",
+      "meaning": "白色",
+      "sentences": [
+        {
+          "ja": "白いネクタイをして行きます。",
+          "zh": "系白色领带去。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W7",
+      "category": "Nouns",
+      "kanji": "赤",
+      "kana": "あか",
+      "romaji": "aka",
+      "meaning": "红色",
+      "sentences": [
+        {
+          "ja": "赤いバラを買いました。",
+          "zh": "买了红玫瑰。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W8",
+      "category": "Nouns",
+      "kanji": "青",
+      "kana": "あお",
+      "romaji": "ao",
+      "meaning": "蓝色",
+      "sentences": [
+        {
+          "ja": "青い空がきれいです。",
+          "zh": "蓝天很美。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W9",
+      "category": "Nouns",
+      "kanji": "～か～",
+      "kana": "～か～",
+      "romaji": "~ka~",
+      "meaning": "～或～",
+      "sentences": [
+        {
+          "ja": "黒か紺のスーツを着て行きます。",
+          "zh": "穿黑色或深蓝色的西装去。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W10",
+      "category": "Nouns",
+      "kanji": "紺",
+      "kana": "こん",
+      "romaji": "kon",
+      "meaning": "深蓝色",
+      "sentences": [
+        {
+          "ja": "紺のスーツが好きです。",
+          "zh": "喜欢深蓝色的西装。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W11",
+      "category": "Nouns",
+      "kanji": "黄色",
+      "kana": "きいろ",
+      "romaji": "kiiro",
+      "meaning": "黄色",
+      "sentences": [
+        {
+          "ja": "黄色い花が咲いています。",
+          "zh": "开着黄色的花。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W12",
+      "category": "Nouns",
+      "kanji": "茶色",
+      "kana": "ちゃいろ",
+      "romaji": "chairo",
+      "meaning": "棕色",
+      "sentences": [
+        {
+          "ja": "茶色のかばんを持っています。",
+          "zh": "拿着棕色的包。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W13",
+      "category": "Nouns",
+      "kanji": "ソース",
+      "kana": "ソース",
+      "romaji": "soosu",
+      "meaning": "沙司，辣椒酱",
+      "sentences": [
+        {
+          "ja": "これはソースをつけるんですか。",
+          "zh": "这个要蘸沙司吗？"
+        }
+      ]
+    },
+    {
+      "id": "L34-W14",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "つけます",
+      "kana": "つけます",
+      "romaji": "tsukemasu",
+      "meaning": "蘸",
+      "conjugations": {
+        "dictionary": "つける",
+        "masu": "つけます",
+        "te": "つけて",
+        "nai": "つけない",
+        "ta": "つけた"
+      },
+      "sentences": [
+        {
+          "ja": "しょうゆをつけます。",
+          "zh": "蘸酱油。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W15",
+      "category": "Nouns",
+      "kanji": "茶道",
+      "kana": "さどう",
+      "romaji": "sadou",
+      "meaning": "茶道",
+      "sentences": [
+        {
+          "ja": "一度茶道が見たいんですが。",
+          "zh": "想看一次茶道。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W16",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "お茶を立てます",
+      "kana": "おちゃをたてます",
+      "romaji": "ocha o tatemasu",
+      "meaning": "（茶道的）泡茶，沏茶",
+      "conjugations": {
+        "dictionary": "お茶を立てる",
+        "masu": "おちゃをたてます",
+        "te": "お茶を立てて",
+        "nai": "お茶を立てない",
+        "ta": "お茶を立てた"
+      },
+      "sentences": [
+        {
+          "ja": "渡辺さん、お茶を立ててください。",
+          "zh": "渡边先生，请沏茶。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W17",
+      "category": "Adverbs",
+      "kanji": "先に",
+      "kana": "さきに",
+      "romaji": "saki ni",
+      "meaning": "先，首先",
+      "sentences": [
+        {
+          "ja": "先にお菓子を食べるんですか。",
+          "zh": "先吃点心吗？"
+        }
+      ]
+    },
+    {
+      "id": "L34-W18",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "載せます",
+      "kana": "のせます",
+      "romaji": "nosemasu",
+      "meaning": "载，放",
+      "conjugations": {
+        "dictionary": "載せる",
+        "masu": "のせます",
+        "te": "載せて",
+        "nai": "載せない",
+        "ta": "載せた"
+      },
+      "sentences": [
+        {
+          "ja": "おちゃわんを左手に載せます。",
+          "zh": "把茶碗放在左手上。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W19",
+      "category": "Expressions",
+      "kanji": "いかがですか",
+      "kana": "いかがですか",
+      "romaji": "ikaga desu ka",
+      "meaning": "怎么样？",
+      "sentences": [
+        {
+          "ja": "いかがですか。……おいしいです。",
+          "zh": "怎么样？……很好吃。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W20",
+      "category": "Adjectives",
+      "grammarType": "i-adj",
+      "kanji": "苦い",
+      "kana": "にがい",
+      "romaji": "nigai",
+      "meaning": "苦",
+      "sentences": [
+        {
+          "ja": "少し苦いですが、おいしいです。",
+          "zh": "有点苦，但很好吃。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W21",
+      "category": "Adverbs",
+      "kanji": "さっき",
+      "kana": "さっき",
+      "romaji": "sakki",
+      "meaning": "刚才",
+      "sentences": [
+        {
+          "ja": "さっき電話がありました。",
+          "zh": "刚才有电话。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W22",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "折ります",
+      "kana": "おります",
+      "romaji": "orimasu",
+      "meaning": "折弯，折断",
+      "conjugations": {
+        "dictionary": "折る",
+        "masu": "おります",
+        "te": "折って",
+        "nai": "折らない",
+        "ta": "折った"
+      },
+      "sentences": [
+        {
+          "ja": "木の枝を折ります。",
+          "zh": "折断树枝。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W23",
+      "category": "Nouns",
+      "kanji": "図",
+      "kana": "ず",
+      "romaji": "zu",
+      "meaning": "图",
+      "sentences": [
+        {
+          "ja": "図のとおりに書きます。",
+          "zh": "照着图写。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W24",
+      "category": "Nouns",
+      "kanji": "線",
+      "kana": "せん",
+      "romaji": "sen",
+      "meaning": "线",
+      "sentences": [
+        {
+          "ja": "線のとおりに紙を切ってください。",
+          "zh": "请沿着这条线把纸剪开。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W25",
+      "category": "Nouns",
+      "kanji": "矢印",
+      "kana": "やじるし",
+      "romaji": "yajirushi",
+      "meaning": "箭头，箭头符号",
+      "sentences": [
+        {
+          "ja": "矢印のとおりに進みます。",
+          "zh": "按照箭头前进。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W26",
+      "category": "Nouns",
+      "kanji": "お城",
+      "kana": "おしろ",
+      "romaji": "oshiro",
+      "meaning": "城，城堡",
+      "sentences": [
+        {
+          "ja": "お城を見に行きます。",
+          "zh": "去看城堡。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W27",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "質問します",
+      "kana": "しつもんします",
+      "romaji": "shitsumon shimasu",
+      "meaning": "提问",
+      "conjugations": {
+        "dictionary": "質問する",
+        "masu": "しつもんします",
+        "te": "質問して",
+        "nai": "質問しない",
+        "ta": "質問した"
+      },
+      "sentences": [
+        {
+          "ja": "先生に質問します。",
+          "zh": "向老师提问。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W28",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "見つかります",
+      "kana": "みつかります",
+      "romaji": "mitsukarimasu",
+      "meaning": "找到",
+      "conjugations": {
+        "dictionary": "見つかる",
+        "masu": "みつかります",
+        "te": "見つかって",
+        "nai": "見つからない",
+        "ta": "見つかった"
+      },
+      "sentences": [
+        {
+          "ja": "かぎが見つかりました。",
+          "zh": "钥匙找到了。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W29",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "気がつきます",
+      "kana": "きがつきます",
+      "romaji": "ki ga tsukimasu",
+      "meaning": "发现，发觉",
+      "conjugations": {
+        "dictionary": "気がつく",
+        "masu": "きがつきます",
+        "te": "気がついて",
+        "nai": "気がつかない",
+        "ta": "気がついた"
+      },
+      "sentences": [
+        {
+          "ja": "忘れ物に気がつきました。",
+          "zh": "发现忘了东西。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W30",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "さします",
+      "kana": "さします",
+      "romaji": "sashimasu",
+      "meaning": "打（伞）",
+      "conjugations": {
+        "dictionary": "さす",
+        "masu": "さします",
+        "te": "さして",
+        "nai": "ささない",
+        "ta": "さした"
+      },
+      "sentences": [
+        {
+          "ja": "傘をさします。",
+          "zh": "打伞。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W31",
+      "category": "Nouns",
+      "kanji": "夕べ",
+      "kana": "ゆうべ",
+      "romaji": "yuube",
+      "meaning": "昨晚",
+      "sentences": [
+        {
+          "ja": "ゆうべお酒を飲みすぎました。",
+          "zh": "昨晚酒喝多了。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W32",
+      "category": "Nouns",
+      "kanji": "お客さん",
+      "kana": "おきゃくさん",
+      "romaji": "okyakusan",
+      "meaning": "顾客，客人",
+      "sentences": [
+        {
+          "ja": "お客さんが来ました。",
+          "zh": "客人来了。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W33",
+      "category": "Nouns",
+      "kanji": "親子丼",
+      "kana": "おやこどんぶり",
+      "romaji": "oyako donburi",
+      "meaning": "鸡肉鸡蛋盖浇饭",
+      "sentences": [
+        {
+          "ja": "親子丼の作り方を教えてください。",
+          "zh": "请教我亲子盖饭的做法。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W34",
+      "category": "Nouns",
+      "kanji": "材料",
+      "kana": "ざいりょう",
+      "romaji": "zairyou",
+      "meaning": "材料",
+      "sentences": [
+        {
+          "ja": "材料をよく混ぜます。",
+          "zh": "把材料充分搅拌。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W35",
+      "category": "Nouns",
+      "kanji": "～分",
+      "kana": "～ぶん",
+      "romaji": "~bun",
+      "meaning": "～份（表示量）",
+      "sentences": [
+        {
+          "ja": "4人分の材料を準備します。",
+          "zh": "准备4人份的材料。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W36",
+      "category": "Nouns",
+      "kanji": "～グラム",
+      "kana": "～グラム",
+      "romaji": "~guramu",
+      "meaning": "～克",
+      "sentences": [
+        {
+          "ja": "肉を200グラム買います。",
+          "zh": "买200克肉。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W37",
+      "category": "Nouns",
+      "kanji": "～個",
+      "kana": "～こ",
+      "romaji": "~ko",
+      "meaning": "～个",
+      "sentences": [
+        {
+          "ja": "卵を2個入れます。",
+          "zh": "放两个鸡蛋。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W38",
+      "category": "Nouns",
+      "kanji": "玉ねぎ",
+      "kana": "たまねぎ",
+      "romaji": "tamanegi",
+      "meaning": "洋葱",
+      "sentences": [
+        {
+          "ja": "玉ねぎを切ります。",
+          "zh": "切洋葱。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W39",
+      "category": "Nouns",
+      "kanji": "4分の1",
+      "kana": "よんぶんのいち",
+      "romaji": "yonbun no ichi",
+      "meaning": "四分之一",
+      "sentences": [
+        {
+          "ja": "玉ねぎを4分の1に切ります。",
+          "zh": "把洋葱切成四分之一。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W40",
+      "category": "Nouns",
+      "kanji": "調味料",
+      "kana": "ちょうみりょう",
+      "romaji": "choumiryou",
+      "meaning": "调料",
+      "sentences": [
+        {
+          "ja": "調味料を入れます。",
+          "zh": "放调料。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W41",
+      "category": "Nouns",
+      "kanji": "しょうゆ",
+      "kana": "しょうゆ",
+      "romaji": "shouyu",
+      "meaning": "酱油",
+      "sentences": [
+        {
+          "ja": "しょうゆをつけて食べます。",
+          "zh": "蘸酱油吃。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W42",
+      "category": "Adjectives",
+      "grammarType": "na-adj",
+      "kanji": "適当",
+      "kana": "てきとう",
+      "romaji": "tekitou",
+      "meaning": "适当",
+      "sentences": [
+        {
+          "ja": "適当な大きさに切ります。",
+          "zh": "切成适当的大小。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W43",
+      "category": "Nouns",
+      "kanji": "大きさ",
+      "kana": "おおきさ",
+      "romaji": "ookisa",
+      "meaning": "大小",
+      "sentences": [
+        {
+          "ja": "適当な大きさに切ってください。",
+          "zh": "请切成适当的大小。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W44",
+      "category": "Nouns",
+      "kanji": "鍋",
+      "kana": "なべ",
+      "romaji": "nabe",
+      "meaning": "锅",
+      "sentences": [
+        {
+          "ja": "鍋に水を入れます。",
+          "zh": "往锅里加水。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W45",
+      "category": "Nouns",
+      "kanji": "火",
+      "kana": "ひ",
+      "romaji": "hi",
+      "meaning": "火",
+      "sentences": [
+        {
+          "ja": "鍋を火にかけます。",
+          "zh": "把锅放在火上。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W46",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "火にかけます",
+      "kana": "ひにかけます",
+      "romaji": "hi ni kakemasu",
+      "meaning": "放在火上",
+      "conjugations": {
+        "dictionary": "火にかける",
+        "masu": "ひにかけます",
+        "te": "火にかけて",
+        "nai": "火にかけない",
+        "ta": "火にかけた"
+      },
+      "sentences": [
+        {
+          "ja": "鍋を火にかけます。",
+          "zh": "把锅放在火上。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W47",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "煮ます",
+      "kana": "にます",
+      "romaji": "nimasu",
+      "meaning": "煮，炖",
+      "conjugations": {
+        "dictionary": "煮る",
+        "masu": "にます",
+        "te": "煮て",
+        "nai": "煮ない",
+        "ta": "煮た"
+      },
+      "sentences": [
+        {
+          "ja": "材料を煮ます。",
+          "zh": "炖材料。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W48",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "煮えます",
+      "kana": "にえます",
+      "romaji": "niemasu",
+      "meaning": "煮熟",
+      "conjugations": {
+        "dictionary": "煮える",
+        "masu": "にえます",
+        "te": "煮えて",
+        "nai": "煮えない",
+        "ta": "煮えた"
+      },
+      "sentences": [
+        {
+          "ja": "材料が煮えました。",
+          "zh": "材料煮熟了。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W49",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "経ちます",
+      "kana": "たちます",
+      "romaji": "tachimasu",
+      "meaning": "流逝，过去",
+      "conjugations": {
+        "dictionary": "経つ",
+        "masu": "たちます",
+        "te": "経って",
+        "nai": "経たない",
+        "ta": "経った"
+      },
+      "sentences": [
+        {
+          "ja": "5分経ったあとで、火を止めます。",
+          "zh": "过5分钟后关火。"
+        }
+      ]
+    },
+    {
+      "id": "L34-W50",
+      "category": "Nouns",
+      "kanji": "丼",
+      "kana": "どんぶり",
+      "romaji": "donburi",
+      "meaning": "大碗",
+      "sentences": [
+        {
+          "ja": "丼にごはんを入れます。",
+          "zh": "往大碗里盛饭。"
+        }
+      ]
+    }
+  ],
+  "35": [
+    {
+      "id": "L35-W1",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "咲きます",
+      "kana": "さきます",
+      "romaji": "sakimasu",
+      "meaning": "开（花）",
+      "conjugations": {
+        "dictionary": "咲く",
+        "masu": "さきます",
+        "te": "咲いて",
+        "nai": "咲かない",
+        "ta": "咲いた"
+      },
+      "sentences": [
+        {
+          "ja": "春になれば、桜が咲きます。",
+          "zh": "到了春天樱花就会开。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W2",
+      "category": "Nouns",
+      "kanji": "向こう",
+      "kana": "むこう",
+      "romaji": "mukou",
+      "meaning": "对面，那边",
+      "sentences": [
+        {
+          "ja": "天気がよければ、向こうに島が見えます。",
+          "zh": "天气好的话能看见对面的岛。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W3",
+      "category": "Nouns",
+      "kanji": "島",
+      "kana": "しま",
+      "romaji": "shima",
+      "meaning": "岛",
+      "sentences": [
+        {
+          "ja": "向こうに島が見えます。",
+          "zh": "对面能看见岛。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W4",
+      "category": "Nouns",
+      "kanji": "箱根",
+      "kana": "はこね",
+      "romaji": "Hakone",
+      "meaning": "箱根（位于神奈川县的疗养地、旅游景点）",
+      "sentences": [
+        {
+          "ja": "2、3日なら、箱根がいいと思います。",
+          "zh": "两三天的话，我觉得箱根不错。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W5",
+      "category": "Nouns",
+      "kanji": "日光",
+      "kana": "にっこう",
+      "romaji": "Nikkou",
+      "meaning": "日光（位于栃木县的旅游景点）",
+      "sentences": [
+        {
+          "ja": "箱根か日光がいいと思います。",
+          "zh": "我觉得箱根或日光不错。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W6",
+      "category": "Nouns",
+      "kanji": "それなら",
+      "kana": "それなら",
+      "romaji": "sorenara",
+      "meaning": "如果那样的话",
+      "sentences": [
+        {
+          "ja": "それなら、草津がいいと思いますよ。",
+          "zh": "那样的话，我觉得草津不错。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W7",
+      "category": "Nouns",
+      "kanji": "草津",
+      "kana": "くさつ",
+      "romaji": "Kusatsu",
+      "meaning": "草津（位于群马县的疗养地）",
+      "sentences": [
+        {
+          "ja": "草津には温泉があります。",
+          "zh": "草津有温泉。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W8",
+      "category": "Nouns",
+      "kanji": "志賀高原",
+      "kana": "しがこうげん",
+      "romaji": "Shiga Kougen",
+      "meaning": "志贺高原（长野县的高原）",
+      "sentences": [
+        {
+          "ja": "草津か志賀高原がいいと思いますよ。",
+          "zh": "我觉得草津或志贺高原不错。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W9",
+      "category": "Nouns",
+      "kanji": "夜行バス",
+      "kana": "やこうバス",
+      "romaji": "yakou basu",
+      "meaning": "夜行巴士",
+      "sentences": [
+        {
+          "ja": "夜行バスなら、朝着きますから、便利ですよ。",
+          "zh": "坐夜行巴士早上就到，很方便。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W10",
+      "category": "Expressions",
+      "kanji": "さあ",
+      "kana": "さあ",
+      "romaji": "saa",
+      "meaning": "哎（表示不太清楚）",
+      "sentences": [
+        {
+          "ja": "さあ……、旅行社へ行けば、詳しいことがわかりますよ。",
+          "zh": "这个嘛……去旅行社的话就能知道详情。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W11",
+      "category": "Nouns",
+      "kanji": "旅行社",
+      "kana": "りょこうしゃ",
+      "romaji": "ryokousha",
+      "meaning": "旅行社",
+      "sentences": [
+        {
+          "ja": "旅行社で予約できます。",
+          "zh": "可以在旅行社预约。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W12",
+      "category": "Adverbs",
+      "kanji": "もっと",
+      "kana": "もっと",
+      "romaji": "motto",
+      "meaning": "更，更加",
+      "sentences": [
+        {
+          "ja": "旅行社へ行けばもっと詳しいことがわかります。",
+          "zh": "去旅行社的话能知道更详细的情况。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W13",
+      "category": "Adjectives",
+      "grammarType": "i-adj",
+      "kanji": "詳しい",
+      "kana": "くわしい",
+      "romaji": "kuwashii",
+      "meaning": "详细",
+      "sentences": [
+        {
+          "ja": "詳しいことは旅行社でわかります。",
+          "zh": "详细情况在旅行社能知道。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W14",
+      "category": "Nouns",
+      "kanji": "スキー場",
+      "kana": "スキーじょう",
+      "romaji": "sukiijou",
+      "meaning": "滑雪场",
+      "sentences": [
+        {
+          "ja": "道具はスキー場で借りられます。",
+          "zh": "工具可以在滑雪场租借。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W15",
+      "category": "Nouns",
+      "kanji": "山登り",
+      "kana": "やまのぼり",
+      "romaji": "yamanobori",
+      "meaning": "登山",
+      "sentences": [
+        {
+          "ja": "夏は山登りをします。",
+          "zh": "夏天去登山。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W16",
+      "category": "Nouns",
+      "kanji": "昔",
+      "kana": "むかし",
+      "romaji": "mukashi",
+      "meaning": "过去，从前",
+      "sentences": [
+        {
+          "ja": "昔ここは村でした。",
+          "zh": "从前这里是个村庄。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W17",
+      "category": "Nouns",
+      "kanji": "葉",
+      "kana": "は",
+      "romaji": "ha",
+      "meaning": "叶子",
+      "sentences": [
+        {
+          "ja": "秋になれば、葉の色が変わります。",
+          "zh": "到了秋天叶子的颜色就会变。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W18",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "変わります",
+      "kana": "かわります",
+      "romaji": "kawarimasu",
+      "meaning": "变",
+      "conjugations": {
+        "dictionary": "変わる",
+        "masu": "かわります",
+        "te": "変わって",
+        "nai": "変わらない",
+        "ta": "変わった"
+      },
+      "sentences": [
+        {
+          "ja": "葉の色が変わります。",
+          "zh": "叶子的颜色会变。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W19",
+      "category": "Nouns",
+      "kanji": "機会",
+      "kana": "きかい",
+      "romaji": "kikai",
+      "meaning": "机会",
+      "sentences": [
+        {
+          "ja": "いい機会ですから、日本語を勉強します。",
+          "zh": "趁着好机会学习日语。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W20",
+      "category": "Nouns",
+      "kanji": "カーテン",
+      "kana": "カーテン",
+      "romaji": "kaaten",
+      "meaning": "窗帘",
+      "sentences": [
+        {
+          "ja": "カーテンを閉めます。",
+          "zh": "拉上窗帘。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W21",
+      "category": "Nouns",
+      "kanji": "ひも",
+      "kana": "ひも",
+      "romaji": "himo",
+      "meaning": "绳子",
+      "sentences": [
+        {
+          "ja": "ひもを引けば、カーテンが開きます。",
+          "zh": "拉绳子窗帘就会打开。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W22",
+      "category": "Nouns",
+      "kanji": "レバー",
+      "kana": "レバー",
+      "romaji": "rebaa",
+      "meaning": "杆，操纵杆",
+      "sentences": [
+        {
+          "ja": "レバーを押せば、水が出ます。",
+          "zh": "按操纵杆水就会出来。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W23",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "治ります",
+      "kana": "なおります",
+      "romaji": "naorimasu",
+      "meaning": "病好，痊愈",
+      "conjugations": {
+        "dictionary": "治る",
+        "masu": "なおります",
+        "te": "治って",
+        "nai": "治らない",
+        "ta": "治った"
+      },
+      "sentences": [
+        {
+          "ja": "薬を飲めば、病気が治ります。",
+          "zh": "吃药的话病就会好。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W24",
+      "category": "Nouns",
+      "kanji": "海外",
+      "kana": "かいがい",
+      "romaji": "kaigai",
+      "meaning": "海外",
+      "sentences": [
+        {
+          "ja": "海外へ旅行したいです。",
+          "zh": "想去海外旅行。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W25",
+      "category": "Adjectives",
+      "grammarType": "i-adj",
+      "kanji": "正しい",
+      "kana": "ただしい",
+      "romaji": "tadashii",
+      "meaning": "正确",
+      "sentences": [
+        {
+          "ja": "正しい答えを書きます。",
+          "zh": "写正确的答案。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W26",
+      "category": "Nouns",
+      "kanji": "丸",
+      "kana": "まる",
+      "romaji": "maru",
+      "meaning": "圆圈",
+      "sentences": [
+        {
+          "ja": "正しい答えに丸をつけます。",
+          "zh": "在正确的答案上画圈。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W27",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "付けます",
+      "kana": "つけます",
+      "romaji": "tsukemasu",
+      "meaning": "画（记号）",
+      "conjugations": {
+        "dictionary": "付ける",
+        "masu": "つけます",
+        "te": "付けて",
+        "nai": "付けない",
+        "ta": "付けた"
+      },
+      "sentences": [
+        {
+          "ja": "丸を付けます。",
+          "zh": "画圈。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W28",
+      "category": "Nouns",
+      "kanji": "許可",
+      "kana": "きょか",
+      "romaji": "kyoka",
+      "meaning": "许可，批准",
+      "sentences": [
+        {
+          "ja": "先生の許可をもらいます。",
+          "zh": "得到老师的许可。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W29",
+      "category": "Nouns",
+      "kanji": "屋上",
+      "kana": "おくじょう",
+      "romaji": "okujou",
+      "meaning": "屋顶上",
+      "sentences": [
+        {
+          "ja": "屋上から町が見えます。",
+          "zh": "从屋顶能看见城市。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W30",
+      "category": "Nouns",
+      "kanji": "港",
+      "kana": "みなと",
+      "romaji": "minato",
+      "meaning": "港口",
+      "sentences": [
+        {
+          "ja": "港に船があります。",
+          "zh": "港口有船。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W31",
+      "category": "Nouns",
+      "kanji": "近所",
+      "kana": "きんじょ",
+      "romaji": "kinjo",
+      "meaning": "邻居，附近",
+      "sentences": [
+        {
+          "ja": "近所にスーパーができました。",
+          "zh": "附近开了一家超市。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W32",
+      "category": "Nouns",
+      "kanji": "炊飯器",
+      "kana": "すいはんき",
+      "romaji": "suihanki",
+      "meaning": "电饭锅",
+      "sentences": [
+        {
+          "ja": "炊飯器でごはんを炊きます。",
+          "zh": "用电饭锅煮饭。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W33",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "入力します",
+      "kana": "にゅうりょくします",
+      "romaji": "nyuuryoku shimasu",
+      "meaning": "输入",
+      "conjugations": {
+        "dictionary": "入力する",
+        "masu": "にゅうりょくします",
+        "te": "入力して",
+        "nai": "入力しない",
+        "ta": "入力した"
+      },
+      "sentences": [
+        {
+          "ja": "名前を入力します。",
+          "zh": "输入名字。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W34",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "クリックします",
+      "kana": "クリックします",
+      "romaji": "kurikku shimasu",
+      "meaning": "点击",
+      "conjugations": {
+        "dictionary": "クリックする",
+        "masu": "クリックします",
+        "te": "クリックして",
+        "nai": "クリックしない",
+        "ta": "クリックした"
+      },
+      "sentences": [
+        {
+          "ja": "ここをクリックします。",
+          "zh": "点击这里。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W35",
+      "category": "Nouns",
+      "kanji": "キー",
+      "kana": "キー",
+      "romaji": "kii",
+      "meaning": "按键",
+      "sentences": [
+        {
+          "ja": "キーを押します。",
+          "zh": "按键。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W36",
+      "category": "Nouns",
+      "kanji": "振り仮名",
+      "kana": "ふりがな",
+      "romaji": "furigana",
+      "meaning": "表示汉字读法的注音假名",
+      "sentences": [
+        {
+          "ja": "漢字に振り仮名をつけます。",
+          "zh": "给汉字标注假名。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W37",
+      "category": "Nouns",
+      "kanji": "歴史",
+      "kana": "れきし",
+      "romaji": "rekishi",
+      "meaning": "历史",
+      "sentences": [
+        {
+          "ja": "日本の歴史に興味があります。",
+          "zh": "对日本的历史感兴趣。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W38",
+      "category": "Nouns",
+      "kanji": "設備",
+      "kana": "せつび",
+      "romaji": "setsubi",
+      "meaning": "设备",
+      "sentences": [
+        {
+          "ja": "この学校は設備がいいです。",
+          "zh": "这所学校设备很好。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W39",
+      "category": "Nouns",
+      "kanji": "朱",
+      "kana": "しゅ",
+      "romaji": "shu",
+      "meaning": "朱红色，红色",
+      "sentences": [
+        {
+          "ja": "朱で丸をつけます。",
+          "zh": "用红色画圈。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W40",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "交わります",
+      "kana": "まじわります",
+      "romaji": "majiwarimasu",
+      "meaning": "交际",
+      "conjugations": {
+        "dictionary": "交わる",
+        "masu": "まじわります",
+        "te": "交わって",
+        "nai": "交わらない",
+        "ta": "交わった"
+      },
+      "sentences": [
+        {
+          "ja": "いろいろな人と交わります。",
+          "zh": "和各种各样的人交往。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W41",
+      "category": "Nouns",
+      "kanji": "ことわざ",
+      "kana": "ことわざ",
+      "romaji": "kotowaza",
+      "meaning": "谚语",
+      "sentences": [
+        {
+          "ja": "日本のことわざを覚えます。",
+          "zh": "记住日本的谚语。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W42",
+      "category": "Nouns",
+      "kanji": "関係",
+      "kana": "かんけい",
+      "romaji": "kankei",
+      "meaning": "关系",
+      "sentences": [
+        {
+          "ja": "いい関係を作ります。",
+          "zh": "建立良好的关系。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W43",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "仲良くします",
+      "kana": "なかよくします",
+      "romaji": "nakayoku shimasu",
+      "meaning": "搞好关系，友好交往",
+      "conjugations": {
+        "dictionary": "仲良くする",
+        "masu": "なかよくします",
+        "te": "仲良くして",
+        "nai": "仲良くしない",
+        "ta": "仲良くした"
+      },
+      "sentences": [
+        {
+          "ja": "みんなと仲良くします。",
+          "zh": "和大家友好相处。"
+        }
+      ]
+    },
+    {
+      "id": "L35-W44",
+      "category": "Adjectives",
+      "grammarType": "na-adj",
+      "kanji": "必要",
+      "kana": "ひつよう",
+      "romaji": "hitsuyou",
+      "meaning": "必要，需要",
+      "sentences": [
+        {
+          "ja": "パスポートが必要です。",
+          "zh": "需要护照。"
+        }
+      ]
+    }
+  ],
+  "36": [
+    {
+      "id": "L36-W1",
+      "category": "Adverbs",
+      "kanji": "やっと",
+      "kana": "やっと",
+      "romaji": "yatto",
+      "meaning": "终于，总算",
+      "sentences": [
+        {
+          "ja": "やっと自転車に乗れるようになりました。",
+          "zh": "终于会骑自行车了。"
+        }
+      ]
+    },
+    {
+      "id": "L36-W2",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "慣れます",
+      "kana": "なれます",
+      "romaji": "naremasu",
+      "meaning": "习惯",
+      "conjugations": {
+        "dictionary": "慣れる",
+        "masu": "なれます",
+        "te": "慣れて",
+        "nai": "慣れない",
+        "ta": "慣れた"
+      },
+      "sentences": [
+        {
+          "ja": "もう日本の食べ物に慣れましたか。",
+          "zh": "已经习惯日本的食物了吗？"
+        },
+        {
+          "ja": "仕事に慣れます。",
+          "zh": "习惯工作。"
+        }
+      ]
+    },
+    {
+      "id": "L36-W3",
+      "category": "Nouns",
+      "kanji": "初め",
+      "kana": "はじめ",
+      "romaji": "hajime",
+      "meaning": "开始，起初",
+      "sentences": [
+        {
+          "ja": "初めは食べられませんでしたが、今は何でも食べられるようになりました。",
+          "zh": "起初吃不了，现在什么都能吃了。"
+        }
+      ]
+    },
+    {
+      "id": "L36-W4",
+      "category": "Nouns",
+      "kanji": "ショパン",
+      "kana": "ショパン",
+      "romaji": "Shopan",
+      "meaning": "肖邦（1810-1849，波兰的音乐家）",
+      "sentences": [
+        {
+          "ja": "ショパンの曲が弾けるようになりましたか。",
+          "zh": "会弹肖邦的曲子了吗？"
+        }
+      ]
+    },
+    {
+      "id": "L36-W5",
+      "category": "Nouns",
+      "kanji": "曲",
+      "kana": "きょく",
+      "romaji": "kyoku",
+      "meaning": "曲子",
+      "sentences": [
+        {
+          "ja": "早くこの曲が弾けるようになりたいです。",
+          "zh": "想早点能弹这首曲子。"
+        }
+      ]
+    },
+    {
+      "id": "L36-W6",
+      "category": "Adverbs",
+      "kanji": "できるだけ",
+      "kana": "できるだけ",
+      "romaji": "dekiru dake",
+      "meaning": "尽可能，尽量",
+      "sentences": [
+        {
+          "ja": "できるだけ甘い物を食べないようにしています。",
+          "zh": "我尽量不吃甜食。"
+        }
+      ]
+    },
+    {
+      "id": "L36-W7",
+      "category": "Adverbs",
+      "kanji": "絶対に",
+      "kana": "ぜったいに",
+      "romaji": "zettai ni",
+      "meaning": "绝对地",
+      "sentences": [
+        {
+          "ja": "絶対に遅れないようにしてください。",
+          "zh": "请绝对不要迟到。"
+        },
+        {
+          "ja": "絶対に間違いない。",
+          "zh": "绝对没有错。"
+        }
+      ]
+    },
+    {
+      "id": "L36-W8",
+      "category": "Nouns",
+      "kanji": "お客様",
+      "kana": "おきゃくさま",
+      "romaji": "okyakusama",
+      "meaning": "顾客（「お客さん」的尊敬语）",
+      "sentences": [
+        {
+          "ja": "きょうのお客様はことし80歳の小川よねさんです。",
+          "zh": "今天的嘉宾是今年80岁的小川米女士。"
+        }
+      ]
+    },
+    {
+      "id": "L36-W9",
+      "category": "Adjectives",
+      "grammarType": "na-adj",
+      "kanji": "特別",
+      "kana": "とくべつ",
+      "romaji": "tokubetsu",
+      "meaning": "特别",
+      "sentences": [
+        {
+          "ja": "何か特別なことをしていらっしゃいますか。",
+          "zh": "您在做什么特别的事情吗？"
+        }
+      ]
+    },
+    {
+      "id": "L36-W10",
+      "category": "Expressions",
+      "kanji": "していらっしゃいます",
+      "kana": "していらっしゃいます",
+      "romaji": "shite irasshaimasu",
+      "meaning": "正在做～（「しています」的尊敬语）",
+      "sentences": [
+        {
+          "ja": "毎日運動をしていらっしゃいますか。",
+          "zh": "您每天都在运动吗？"
+        }
+      ]
+    },
+    {
+      "id": "L36-W11",
+      "category": "Nouns",
+      "kanji": "水泳",
+      "kana": "すいえい",
+      "romaji": "suiei",
+      "meaning": "游泳",
+      "sentences": [
+        {
+          "ja": "ダンスとか、水泳とか、毎日運動しています。",
+          "zh": "跳舞啦、游泳啦，每天都在运动。"
+        }
+      ]
+    },
+    {
+      "id": "L36-W12",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "違います",
+      "kana": "ちがいます",
+      "romaji": "chigaimasu",
+      "meaning": "不同，不一样，不对",
+      "conjugations": {
+        "dictionary": "違う",
+        "masu": "ちがいます",
+        "te": "違って",
+        "nai": "違わない",
+        "ta": "違った"
+      },
+      "sentences": [
+        {
+          "ja": "毎日違う料理を作るようにしています。",
+          "zh": "我坚持每天做不同的菜。"
+        }
+      ]
+    },
+    {
+      "id": "L36-W13",
+      "category": "Expressions",
+      "kanji": "使っていらっしゃるんですね",
+      "kana": "つかっていらっしゃるんですね",
+      "romaji": "tsukatte irassharu n desu ne",
+      "meaning": "用着～啊（「使っているんですね」的尊敬语）",
+      "sentences": [
+        {
+          "ja": "頭と体をよく使っていらっしゃるんですね。",
+          "zh": "您经常动脑又动身体啊。"
+        }
+      ]
+    },
+    {
+      "id": "L36-W14",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "チャレンジします",
+      "kana": "チャレンジします",
+      "romaji": "charenji shimasu",
+      "meaning": "挑战",
+      "conjugations": {
+        "dictionary": "チャレンジする",
+        "masu": "チャレンジします",
+        "te": "チャレンジして",
+        "nai": "チャレンジしない",
+        "ta": "チャレンジした"
+      },
+      "sentences": [
+        {
+          "ja": "新しいことにチャレンジしたいです。",
+          "zh": "想挑战新的事物。"
+        }
+      ]
+    },
+    {
+      "id": "L36-W15",
+      "category": "Nouns",
+      "kanji": "気持ち",
+      "kana": "きもち",
+      "romaji": "kimochi",
+      "meaning": "心情，情绪",
+      "sentences": [
+        {
+          "ja": "何でもチャレンジする気持ちが大切なんですね。",
+          "zh": "什么都敢于挑战的心态很重要啊。"
+        }
+      ]
+    },
+    {
+      "id": "L36-W16",
+      "category": "Nouns",
+      "kanji": "ラッシュ",
+      "kana": "ラッシュ",
+      "romaji": "rasshu",
+      "meaning": "上下班高峰期",
+      "sentences": [
+        {
+          "ja": "ラッシュの電車はいつも込んでいます。",
+          "zh": "高峰期的电车总是很挤。"
+        }
+      ]
+    },
+    {
+      "id": "L36-W17",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "遭います",
+      "kana": "あいます",
+      "romaji": "aimasu",
+      "meaning": "遇到",
+      "conjugations": {
+        "dictionary": "遭う",
+        "masu": "あいます",
+        "te": "遭って",
+        "nai": "遭わない",
+        "ta": "遭った"
+      },
+      "sentences": [
+        {
+          "ja": "事故に遭わないように、気をつけてください。",
+          "zh": "请小心，不要遇上事故。"
+        },
+        {
+          "ja": "事故に遭います。",
+          "zh": "遇到事故。"
+        }
+      ]
+    },
+    {
+      "id": "L36-W18",
+      "category": "Adverbs",
+      "kanji": "かなり",
+      "kana": "かなり",
+      "romaji": "kanari",
+      "meaning": "相当",
+      "sentences": [
+        {
+          "ja": "この問題はかなり難しいです。",
+          "zh": "这个问题相当难。"
+        }
+      ]
+    },
+    {
+      "id": "L36-W19",
+      "category": "Adverbs",
+      "kanji": "必ず",
+      "kana": "かならず",
+      "romaji": "kanarazu",
+      "meaning": "一定",
+      "sentences": [
+        {
+          "ja": "寝る前に必ず歯を磨くようにしています。",
+          "zh": "我坚持睡前一定刷牙。"
+        }
+      ]
+    },
+    {
+      "id": "L36-W20",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "貯金します",
+      "kana": "ちょきんします",
+      "romaji": "chokin shimasu",
+      "meaning": "存钱",
+      "conjugations": {
+        "dictionary": "貯金する",
+        "masu": "ちょきんします",
+        "te": "貯金して",
+        "nai": "貯金しない",
+        "ta": "貯金した"
+      },
+      "sentences": [
+        {
+          "ja": "毎月少しずつ貯金するようにしています。",
+          "zh": "我坚持每月存一点钱。"
+        }
+      ]
+    },
+    {
+      "id": "L36-W21",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "腐ります",
+      "kana": "くさります",
+      "romaji": "kusarimasu",
+      "meaning": "腐烂",
+      "conjugations": {
+        "dictionary": "腐る",
+        "masu": "くさります",
+        "te": "腐って",
+        "nai": "腐らない",
+        "ta": "腐った"
+      },
+      "sentences": [
+        {
+          "ja": "食べ物が腐らないように、冷蔵庫に入れておきます。",
+          "zh": "为了不让食物变质，先放进冰箱。"
+        },
+        {
+          "ja": "食べ物が腐ります。",
+          "zh": "食物腐烂。"
+        }
+      ]
+    },
+    {
+      "id": "L36-W22",
+      "category": "Adverbs",
+      "kanji": "ほとんど",
+      "kana": "ほとんど",
+      "romaji": "hotondo",
+      "meaning": "几乎（肯定句）；几乎完全（否定句）",
+      "sentences": [
+        {
+          "ja": "日本語の新聞はほとんど読めません。",
+          "zh": "日语报纸几乎看不懂。"
+        }
+      ]
+    },
+    {
+      "id": "L36-W23",
+      "category": "Adverbs",
+      "kanji": "このごろ",
+      "kana": "このごろ",
+      "romaji": "konogoro",
+      "meaning": "最近",
+      "sentences": [
+        {
+          "ja": "このごろ少し日本語がわかるようになりました。",
+          "zh": "最近变得能懂一点日语了。"
+        }
+      ]
+    },
+    {
+      "id": "L36-W24",
+      "category": "Nouns",
+      "kanji": "宇宙",
+      "kana": "うちゅう",
+      "romaji": "uchuu",
+      "meaning": "宇宙",
+      "sentences": [
+        {
+          "ja": "いつか宇宙へ行ってみたいです。",
+          "zh": "总有一天想去宇宙看看。"
+        }
+      ]
+    },
+    {
+      "id": "L36-W25",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "過ぎます",
+      "kana": "すぎます",
+      "romaji": "sugimasu",
+      "meaning": "过（时间）",
+      "conjugations": {
+        "dictionary": "過ぎる",
+        "masu": "すぎます",
+        "te": "過ぎて",
+        "nai": "過ぎない",
+        "ta": "過ぎた"
+      },
+      "sentences": [
+        {
+          "ja": "もう7時を過ぎました。",
+          "zh": "已经过了7点了。"
+        }
+      ]
+    },
+    {
+      "id": "L36-W26",
+      "category": "Adverbs",
+      "kanji": "上手に",
+      "kana": "じょうずに",
+      "romaji": "jouzu ni",
+      "meaning": "好，熟练",
+      "sentences": [
+        {
+          "ja": "早く上手にお茶がたてられるようになりたいです。",
+          "zh": "想早点熟练地沏好茶。"
+        }
+      ]
+    },
+    {
+      "id": "L36-W27",
+      "category": "Nouns",
+      "kanji": "剣道",
+      "kana": "けんどう",
+      "romaji": "kendou",
+      "meaning": "剑道（日本式击剑）",
+      "sentences": [
+        {
+          "ja": "毎週剣道を習っています。",
+          "zh": "每周学剑道。"
+        }
+      ]
+    },
+    {
+      "id": "L36-W28",
+      "category": "Nouns",
+      "kanji": "柔道",
+      "kana": "じゅうどう",
+      "romaji": "juudou",
+      "meaning": "柔道",
+      "sentences": [
+        {
+          "ja": "柔道は日本のスポーツです。",
+          "zh": "柔道是日本的运动。"
+        }
+      ]
+    },
+    {
+      "id": "L36-W29",
+      "category": "Nouns",
+      "kanji": "毎週",
+      "kana": "まいしゅう",
+      "romaji": "maishuu",
+      "meaning": "每周",
+      "sentences": [
+        {
+          "ja": "毎週土曜日に水泳をしています。",
+          "zh": "每周六去游泳。"
+        }
+      ]
+    },
+    {
+      "id": "L36-W30",
+      "category": "Nouns",
+      "kanji": "毎月",
+      "kana": "まいつき",
+      "romaji": "maitsuki",
+      "meaning": "每月",
+      "sentences": [
+        {
+          "ja": "毎月3万円貯金しています。",
+          "zh": "每月存3万日元。"
+        }
+      ]
+    },
+    {
+      "id": "L36-W31",
+      "category": "Nouns",
+      "kanji": "毎年",
+      "kana": "まいとし／まいねん",
+      "romaji": "maitoshi / mainen",
+      "meaning": "每年",
+      "sentences": [
+        {
+          "ja": "毎年家族と旅行しています。",
+          "zh": "每年和家人去旅行。"
+        }
+      ]
+    },
+    {
+      "id": "L36-W32",
+      "category": "Nouns",
+      "kanji": "乗り物",
+      "kana": "のりもの",
+      "romaji": "norimono",
+      "meaning": "交通工具",
+      "sentences": [
+        {
+          "ja": "昔の乗り物は今より遅かったです。",
+          "zh": "从前的交通工具比现在慢。"
+        }
+      ]
+    },
+    {
+      "id": "L36-W33",
+      "category": "Nouns",
+      "kanji": "～世紀",
+      "kana": "～せいき",
+      "romaji": "~seiki",
+      "meaning": "～世纪",
+      "sentences": [
+        {
+          "ja": "19世紀に汽車ができました。",
+          "zh": "19世纪有了火车。"
+        }
+      ]
+    },
+    {
+      "id": "L36-W34",
+      "category": "Nouns",
+      "kanji": "遠く",
+      "kana": "とおく",
+      "romaji": "tooku",
+      "meaning": "远处",
+      "sentences": [
+        {
+          "ja": "遠くまで速く行けるようになりました。",
+          "zh": "变得能很快到达远处了。"
+        }
+      ]
+    },
+    {
+      "id": "L36-W35",
+      "category": "Adjectives",
+      "grammarType": "i-adj",
+      "kanji": "珍しい",
+      "kana": "めずらしい",
+      "romaji": "mezurashii",
+      "meaning": "珍奇，罕见",
+      "sentences": [
+        {
+          "ja": "珍しい乗り物に乗りました。",
+          "zh": "乘坐了罕见的交通工具。"
+        }
+      ]
+    },
+    {
+      "id": "L36-W36",
+      "category": "Nouns",
+      "kanji": "汽車",
+      "kana": "きしゃ",
+      "romaji": "kisha",
+      "meaning": "火车",
+      "sentences": [
+        {
+          "ja": "昔は汽車で旅行しました。",
+          "zh": "从前坐火车旅行。"
+        }
+      ]
+    },
+    {
+      "id": "L36-W37",
+      "category": "Nouns",
+      "kanji": "汽船",
+      "kana": "きせん",
+      "romaji": "kisen",
+      "meaning": "汽船",
+      "sentences": [
+        {
+          "ja": "汽船で大勢の人が運ばれました。",
+          "zh": "汽船运送了很多人。"
+        }
+      ]
+    },
+    {
+      "id": "L36-W38",
+      "category": "Expressions",
+      "kanji": "大勢の～",
+      "kana": "おおぜいの～",
+      "romaji": "oozei no~",
+      "meaning": "很多的～（人）",
+      "sentences": [
+        {
+          "ja": "大勢の人が集まりました。",
+          "zh": "聚集了很多人。"
+        }
+      ]
+    },
+    {
+      "id": "L36-W39",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "運びます",
+      "kana": "はこびます",
+      "romaji": "hakobimasu",
+      "meaning": "运送",
+      "conjugations": {
+        "dictionary": "運ぶ",
+        "masu": "はこびます",
+        "te": "運んで",
+        "nai": "運ばない",
+        "ta": "運んだ"
+      },
+      "sentences": [
+        {
+          "ja": "この荷物を部屋まで運んでください。",
+          "zh": "请把这个行李搬到房间。"
+        }
+      ]
+    },
+    {
+      "id": "L36-W40",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "利用します",
+      "kana": "りようします",
+      "romaji": "riyou shimasu",
+      "meaning": "利用",
+      "conjugations": {
+        "dictionary": "利用する",
+        "masu": "りようします",
+        "te": "利用して",
+        "nai": "利用しない",
+        "ta": "利用した"
+      },
+      "sentences": [
+        {
+          "ja": "図書館を自由に利用することができます。",
+          "zh": "可以自由地利用图书馆。"
+        }
+      ]
+    },
+    {
+      "id": "L36-W41",
+      "category": "Adverbs",
+      "kanji": "自由に",
+      "kana": "じゆうに",
+      "romaji": "jiyuu ni",
+      "meaning": "自由地，随意地",
+      "sentences": [
+        {
+          "ja": "自由に使ってください。",
+          "zh": "请随意使用。"
+        }
+      ]
+    }
+  ],
+  "37": [
+    {
+      "id": "L37-W1",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "叱ります",
+      "kana": "しかります",
+      "romaji": "shikarimasu",
+      "meaning": "批评",
+      "conjugations": {
+        "dictionary": "叱る",
+        "masu": "しかります",
+        "te": "叱って",
+        "nai": "叱らない",
+        "ta": "叱った"
+      },
+      "sentences": [
+        {
+          "ja": "子どものとき、よく母に叱られました。",
+          "zh": "小时候经常被妈妈批评。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W2",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "踏みます",
+      "kana": "ふみます",
+      "romaji": "fumimasu",
+      "meaning": "踩",
+      "conjugations": {
+        "dictionary": "踏む",
+        "masu": "ふみます",
+        "te": "踏んで",
+        "nai": "踏まない",
+        "ta": "踏んだ"
+      },
+      "sentences": [
+        {
+          "ja": "ラッシュの電車で足を踏まれました。",
+          "zh": "在高峰期的电车上被人踩了脚。"
+        },
+        {
+          "ja": "足を踏みます。",
+          "zh": "踩到脚。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W3",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "注意します",
+      "kana": "ちゅういします",
+      "romaji": "chuui shimasu",
+      "meaning": "提醒，警告",
+      "conjugations": {
+        "dictionary": "注意する",
+        "masu": "ちゅういします",
+        "te": "注意して",
+        "nai": "注意しない",
+        "ta": "注意した"
+      },
+      "sentences": [
+        {
+          "ja": "レポートの書き方について注意されました。",
+          "zh": "关于报告的写法被提醒了。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W4",
+      "category": "Expressions",
+      "kanji": "誰か",
+      "kana": "だれか",
+      "romaji": "dareka",
+      "meaning": "有谁～，某人",
+      "sentences": [
+        {
+          "ja": "だれかに傘をまちがえられたんです。",
+          "zh": "被人拿错了伞。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W5",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "発見します",
+      "kana": "はっけんします",
+      "romaji": "hakken shimasu",
+      "meaning": "发现",
+      "conjugations": {
+        "dictionary": "発見する",
+        "masu": "はっけんします",
+        "te": "発見して",
+        "nai": "発見しない",
+        "ta": "発見した"
+      },
+      "sentences": [
+        {
+          "ja": "また新しい星が発見されました。",
+          "zh": "又发现了新的星星。"
+        },
+        {
+          "ja": "星を発見します。",
+          "zh": "发现星星。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W6",
+      "category": "Nouns",
+      "kanji": "麦",
+      "kana": "むぎ",
+      "romaji": "mugi",
+      "meaning": "麦子",
+      "sentences": [
+        {
+          "ja": "ビールは麦から造られます。",
+          "zh": "啤酒是用麦子酿造的。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W7",
+      "category": "Nouns",
+      "kanji": "米",
+      "kana": "こめ",
+      "romaji": "kome",
+      "meaning": "大米",
+      "sentences": [
+        {
+          "ja": "日本では米がたくさん作られています。",
+          "zh": "日本种植很多大米。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W8",
+      "category": "Nouns",
+      "kanji": "原料",
+      "kana": "げんりょう",
+      "romaji": "genryou",
+      "meaning": "原料",
+      "sentences": [
+        {
+          "ja": "これが原料の麦です。",
+          "zh": "这就是原料麦子。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W9",
+      "category": "Nouns",
+      "kanji": "何語",
+      "kana": "なにご",
+      "romaji": "nanigo",
+      "meaning": "哪种语言",
+      "sentences": [
+        {
+          "ja": "ブラジルでは何語が使われていますか。",
+          "zh": "巴西使用什么语言？"
+        }
+      ]
+    },
+    {
+      "id": "L37-W10",
+      "category": "Nouns",
+      "kanji": "ポルトガル",
+      "kana": "ポルトガル",
+      "romaji": "Porutogaru",
+      "meaning": "葡萄牙",
+      "sentences": [
+        {
+          "ja": "ブラジルではポルトガル語が使われています。",
+          "zh": "巴西使用葡萄牙语。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W11",
+      "category": "Nouns",
+      "kanji": "皆様",
+      "kana": "みなさま",
+      "romaji": "minasama",
+      "meaning": "各位（「皆さん」的尊敬语）",
+      "sentences": [
+        {
+          "ja": "皆様、あちらが有名な金閣寺です。",
+          "zh": "各位，那边就是有名的金阁寺。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W12",
+      "category": "Nouns",
+      "kanji": "～世紀",
+      "kana": "～せいき",
+      "romaji": "~seiki",
+      "meaning": "～世纪",
+      "sentences": [
+        {
+          "ja": "金閣寺は14世紀に建てられました。",
+          "zh": "金阁寺建于14世纪。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W13",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "焼けます",
+      "kana": "やけます",
+      "romaji": "yakemasu",
+      "meaning": "起火，燃烧",
+      "conjugations": {
+        "dictionary": "焼ける",
+        "masu": "やけます",
+        "te": "焼けて",
+        "nai": "焼けない",
+        "ta": "焼けた"
+      },
+      "sentences": [
+        {
+          "ja": "1950年に一度焼けてしまいました。",
+          "zh": "1950年曾一度被烧毁。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W14",
+      "category": "Expressions",
+      "kanji": "その後",
+      "kana": "そのご",
+      "romaji": "sonogo",
+      "meaning": "那之后，后来",
+      "sentences": [
+        {
+          "ja": "その後新しい建物が建てられました。",
+          "zh": "之后建造了新的建筑。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W15",
+      "category": "Nouns",
+      "kanji": "世界遺産",
+      "kana": "せかいいさん",
+      "romaji": "sekai isan",
+      "meaning": "世界遗产",
+      "sentences": [
+        {
+          "ja": "金閣寺は1994年に世界遺産になりました。",
+          "zh": "金阁寺于1994年成为世界遗产。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W16",
+      "category": "Expressions",
+      "kanji": "～の一つ",
+      "kana": "～のひとつ",
+      "romaji": "~no hitotsu",
+      "meaning": "～之一",
+      "sentences": [
+        {
+          "ja": "京都で人気があるお寺の一つです。",
+          "zh": "是京都最受欢迎的寺庙之一。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W17",
+      "category": "Nouns",
+      "kanji": "金色",
+      "kana": "きんいろ",
+      "romaji": "kin'iro",
+      "meaning": "金色",
+      "sentences": [
+        {
+          "ja": "壁が金色ですが、本物の金ですか。",
+          "zh": "墙壁是金色的，是真金吗？"
+        }
+      ]
+    },
+    {
+      "id": "L37-W18",
+      "category": "Nouns",
+      "kanji": "本物",
+      "kana": "ほんもの",
+      "romaji": "honmono",
+      "meaning": "真货，真的",
+      "sentences": [
+        {
+          "ja": "これは本物の金です。",
+          "zh": "这是真金。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W19",
+      "category": "Nouns",
+      "kanji": "金",
+      "kana": "きん",
+      "romaji": "kin",
+      "meaning": "金子",
+      "sentences": [
+        {
+          "ja": "金が20キロぐらい使われました。",
+          "zh": "使用了大约20公斤金子。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W20",
+      "category": "Counters",
+      "kanji": "～キロ",
+      "kana": "～キロ",
+      "romaji": "~kiro",
+      "meaning": "～公斤，～公里（「キログラム」「キロメートル」的略称）",
+      "sentences": [
+        {
+          "ja": "駅まで3キロぐらいあります。",
+          "zh": "到车站大约有3公里。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W21",
+      "category": "Adjectives",
+      "grammarType": "i-adj",
+      "kanji": "美しい",
+      "kana": "うつくしい",
+      "romaji": "utsukushii",
+      "meaning": "美丽，好看",
+      "sentences": [
+        {
+          "ja": "金閣寺は紅葉と雪の季節が特に美しいと言われています。",
+          "zh": "据说金阁寺在红叶和雪的季节特别美。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W22",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "褒めます",
+      "kana": "ほめます",
+      "romaji": "homemasu",
+      "meaning": "表扬",
+      "conjugations": {
+        "dictionary": "褒める",
+        "masu": "ほめます",
+        "te": "褒めて",
+        "nai": "褒めない",
+        "ta": "褒めた"
+      },
+      "sentences": [
+        {
+          "ja": "わたしは先生に褒められました。",
+          "zh": "我受到了老师的表扬。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W23",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "頼みます",
+      "kana": "たのみます",
+      "romaji": "tanomimasu",
+      "meaning": "请求，委托",
+      "conjugations": {
+        "dictionary": "頼む",
+        "masu": "たのみます",
+        "te": "頼んで",
+        "nai": "頼まない",
+        "ta": "頼んだ"
+      },
+      "sentences": [
+        {
+          "ja": "わたしは母に買い物を頼まれました。",
+          "zh": "妈妈托我买东西。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W24",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "行います",
+      "kana": "おこないます",
+      "romaji": "okonaimasu",
+      "meaning": "举行，举办",
+      "conjugations": {
+        "dictionary": "行う",
+        "masu": "おこないます",
+        "te": "行って",
+        "nai": "行わない",
+        "ta": "行った"
+      },
+      "sentences": [
+        {
+          "ja": "国際会議を行います。",
+          "zh": "举办国际会议。"
+        },
+        {
+          "ja": "来週試験が行われます。",
+          "zh": "下周举行考试。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W25",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "壊します",
+      "kana": "こわします",
+      "romaji": "kowashimasu",
+      "meaning": "弄坏",
+      "conjugations": {
+        "dictionary": "壊す",
+        "masu": "こわします",
+        "te": "壊して",
+        "nai": "壊さない",
+        "ta": "壊した"
+      },
+      "sentences": [
+        {
+          "ja": "わたしは弟にパソコンを壊されました。",
+          "zh": "我的电脑被弟弟弄坏了。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W26",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "輸出します",
+      "kana": "ゆしゅつします",
+      "romaji": "yushutsu shimasu",
+      "meaning": "出口",
+      "conjugations": {
+        "dictionary": "輸出する",
+        "masu": "ゆしゅつします",
+        "te": "輸出して",
+        "nai": "輸出しない",
+        "ta": "輸出した"
+      },
+      "sentences": [
+        {
+          "ja": "日本は車をたくさん輸出しています。",
+          "zh": "日本出口很多汽车。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W27",
+      "category": "Expressions",
+      "kanji": "～中",
+      "kana": "～じゅう",
+      "romaji": "~juu",
+      "meaning": "全～，整个～",
+      "sentences": [
+        {
+          "ja": "この本は世界中で読まれています。",
+          "zh": "这本书在全世界都有人读。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W28",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "招待します",
+      "kana": "しょうたいします",
+      "romaji": "shoutai shimasu",
+      "meaning": "招待，邀请",
+      "conjugations": {
+        "dictionary": "招待する",
+        "masu": "しょうたいします",
+        "te": "招待して",
+        "nai": "招待しない",
+        "ta": "招待した"
+      },
+      "sentences": [
+        {
+          "ja": "友達の結婚式に招待されました。",
+          "zh": "被邀请参加朋友的婚礼。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W29",
+      "category": "Nouns",
+      "kanji": "警官",
+      "kana": "けいかん",
+      "romaji": "keikan",
+      "meaning": "警官",
+      "sentences": [
+        {
+          "ja": "警官に道を聞きました。",
+          "zh": "向警官问了路。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W30",
+      "category": "Nouns",
+      "kanji": "泥棒",
+      "kana": "どろぼう",
+      "romaji": "dorobou",
+      "meaning": "小偷",
+      "sentences": [
+        {
+          "ja": "泥棒に財布を盗られました。",
+          "zh": "被小偷偷了钱包。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W31",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "汚します",
+      "kana": "よごします",
+      "romaji": "yogoshimasu",
+      "meaning": "弄脏",
+      "conjugations": {
+        "dictionary": "汚す",
+        "masu": "よごします",
+        "te": "汚して",
+        "nai": "汚さない",
+        "ta": "汚した"
+      },
+      "sentences": [
+        {
+          "ja": "海を汚します。",
+          "zh": "污染大海。"
+        },
+        {
+          "ja": "子どもに服を汚されました。",
+          "zh": "衣服被孩子弄脏了。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W32",
+      "category": "Nouns",
+      "kanji": "東大寺",
+      "kana": "とうだいじ",
+      "romaji": "Toudaiji",
+      "meaning": "东大寺",
+      "sentences": [
+        {
+          "ja": "東大寺は奈良にあります。",
+          "zh": "东大寺在奈良。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W33",
+      "category": "Nouns",
+      "kanji": "大仏",
+      "kana": "だいぶつ",
+      "romaji": "daibutsu",
+      "meaning": "大佛",
+      "sentences": [
+        {
+          "ja": "東大寺の大仏は8世紀に造られました。",
+          "zh": "东大寺的大佛建造于8世纪。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W34",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "発明します",
+      "kana": "はつめいします",
+      "romaji": "hatsumei shimasu",
+      "meaning": "发明",
+      "conjugations": {
+        "dictionary": "発明する",
+        "masu": "はつめいします",
+        "te": "発明して",
+        "nai": "発明しない",
+        "ta": "発明した"
+      },
+      "sentences": [
+        {
+          "ja": "電話は19世紀に発明されました。",
+          "zh": "电话是在19世纪发明的。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W35",
+      "category": "Nouns",
+      "kanji": "インスタントラーメン",
+      "kana": "インスタントラーメン",
+      "romaji": "insutanto raamen",
+      "meaning": "方便面",
+      "sentences": [
+        {
+          "ja": "インスタントラーメンは日本で発明されました。",
+          "zh": "方便面是在日本发明的。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W36",
+      "category": "Nouns",
+      "kanji": "オリンピック",
+      "kana": "オリンピック",
+      "romaji": "Orinpikku",
+      "meaning": "奥运会",
+      "sentences": [
+        {
+          "ja": "東京でオリンピックが開かれました。",
+          "zh": "在东京举办了奥运会。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W37",
+      "category": "Nouns",
+      "kanji": "ワールドカップ",
+      "kana": "ワールドカップ",
+      "romaji": "Waarudo Kappu",
+      "meaning": "世界杯",
+      "sentences": [
+        {
+          "ja": "ワールドカップは4年に一度開かれます。",
+          "zh": "世界杯每四年举办一次。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W38",
+      "category": "Nouns",
+      "kanji": "江戸時代",
+      "kana": "えどじだい",
+      "romaji": "Edo jidai",
+      "meaning": "江户时代（1603-1868）",
+      "sentences": [
+        {
+          "ja": "東照宮は江戸時代に建てられました。",
+          "zh": "东照宫建于江户时代。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W39",
+      "category": "Nouns",
+      "kanji": "ロシア",
+      "kana": "ロシア",
+      "romaji": "Roshia",
+      "meaning": "俄罗斯",
+      "sentences": [
+        {
+          "ja": "この小説はロシア語から翻訳されました。",
+          "zh": "这部小说是从俄语翻译过来的。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W40",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "翻訳します",
+      "kana": "ほんやくします",
+      "romaji": "hon'yaku shimasu",
+      "meaning": "笔译，翻译",
+      "conjugations": {
+        "dictionary": "翻訳する",
+        "masu": "ほんやくします",
+        "te": "翻訳して",
+        "nai": "翻訳しない",
+        "ta": "翻訳した"
+      },
+      "sentences": [
+        {
+          "ja": "この本はいろいろな国のことばに翻訳されています。",
+          "zh": "这本书被翻译成了各国语言。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W41",
+      "category": "Nouns",
+      "kanji": "サウジアラビア",
+      "kana": "サウジアラビア",
+      "romaji": "Saujiarabia",
+      "meaning": "沙特阿拉伯",
+      "sentences": [
+        {
+          "ja": "サウジアラビアから石油を輸入しています。",
+          "zh": "从沙特阿拉伯进口石油。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W42",
+      "category": "Nouns",
+      "kanji": "石油",
+      "kana": "せきゆ",
+      "romaji": "sekiyu",
+      "meaning": "石油",
+      "sentences": [
+        {
+          "ja": "石油はサウジアラビアから輸入されています。",
+          "zh": "石油是从沙特阿拉伯进口的。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W43",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "輸入します",
+      "kana": "ゆにゅうします",
+      "romaji": "yunyuu shimasu",
+      "meaning": "进口",
+      "conjugations": {
+        "dictionary": "輸入する",
+        "masu": "ゆにゅうします",
+        "te": "輸入して",
+        "nai": "輸入しない",
+        "ta": "輸入した"
+      },
+      "sentences": [
+        {
+          "ja": "日本は石油を輸入しています。",
+          "zh": "日本进口石油。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W44",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "誘います",
+      "kana": "さそいます",
+      "romaji": "sasoimasu",
+      "meaning": "劝诱，邀请",
+      "conjugations": {
+        "dictionary": "誘う",
+        "masu": "さそいます",
+        "te": "誘って",
+        "nai": "誘わない",
+        "ta": "誘った"
+      },
+      "sentences": [
+        {
+          "ja": "友達にデートに誘われました。",
+          "zh": "被朋友邀去约会了。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W45",
+      "category": "Expressions",
+      "kanji": "よかったですね",
+      "kana": "よかったですね",
+      "romaji": "yokatta desu ne",
+      "meaning": "太好了",
+      "sentences": [
+        {
+          "ja": "試験に合格したんです。……よかったですね。",
+          "zh": "考试及格了。……太好了。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W46",
+      "category": "Nouns",
+      "kanji": "デート",
+      "kana": "デート",
+      "romaji": "deeto",
+      "meaning": "约会",
+      "sentences": [
+        {
+          "ja": "日曜日にデートをします。",
+          "zh": "周日去约会。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W47",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "盗ります",
+      "kana": "とります",
+      "romaji": "torimasu",
+      "meaning": "偷，抢",
+      "conjugations": {
+        "dictionary": "盗る",
+        "masu": "とります",
+        "te": "盗って",
+        "nai": "盗らない",
+        "ta": "盗った"
+      },
+      "sentences": [
+        {
+          "ja": "泥棒にお金を盗られました。",
+          "zh": "被小偷偷了钱。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W48",
+      "category": "Nouns",
+      "kanji": "東照宮",
+      "kana": "とうしょうぐう",
+      "romaji": "Toushouguu",
+      "meaning": "东照宫（位于栃木县日光市的祭奠德川家康的神社）",
+      "sentences": [
+        {
+          "ja": "東照宮は日光にあります。",
+          "zh": "东照宫在日光。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W49",
+      "category": "Nouns",
+      "kanji": "眠り猫",
+      "kana": "ねむりねこ",
+      "romaji": "nemurineko",
+      "meaning": "睡猫（雕刻的名称）",
+      "sentences": [
+        {
+          "ja": "眠り猫は東照宮にある有名な彫刻です。",
+          "zh": "睡猫是东照宫里有名的雕刻。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W50",
+      "category": "Adjectives",
+      "grammarType": "na-adj",
+      "kanji": "豪華",
+      "kana": "ごうか",
+      "romaji": "gouka",
+      "meaning": "豪华",
+      "sentences": [
+        {
+          "ja": "東照宮は豪華な建物です。",
+          "zh": "东照宫是豪华的建筑。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W51",
+      "category": "Nouns",
+      "kanji": "彫刻",
+      "kana": "ちょうこく",
+      "romaji": "choukoku",
+      "meaning": "雕刻",
+      "sentences": [
+        {
+          "ja": "この彫刻は江戸時代に彫られました。",
+          "zh": "这个雕刻是江户时代雕刻的。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W52",
+      "category": "Nouns",
+      "kanji": "言い伝え",
+      "kana": "いいつたえ",
+      "romaji": "iitsutae",
+      "meaning": "传说",
+      "sentences": [
+        {
+          "ja": "眠り猫にはおもしろい言い伝えがあります。",
+          "zh": "关于睡猫有个有趣的传说。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W53",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "眠ります",
+      "kana": "ねむります",
+      "romaji": "nemurimasu",
+      "meaning": "睡，睡眠",
+      "conjugations": {
+        "dictionary": "眠る",
+        "masu": "ねむります",
+        "te": "眠って",
+        "nai": "眠らない",
+        "ta": "眠った"
+      },
+      "sentences": [
+        {
+          "ja": "猫が眠っています。",
+          "zh": "猫在睡觉。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W54",
+      "category": "Nouns",
+      "kanji": "左甚五郎",
+      "kana": "ひだりじんごろう",
+      "romaji": "Hidari Jingorou",
+      "meaning": "左甚五郎（1594-1651，江户时代的著名雕刻家）",
+      "sentences": [
+        {
+          "ja": "眠り猫は左甚五郎が彫りました。",
+          "zh": "睡猫是左甚五郎雕刻的。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W55",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "彫ります",
+      "kana": "ほります",
+      "romaji": "horimasu",
+      "meaning": "雕刻",
+      "conjugations": {
+        "dictionary": "彫る",
+        "masu": "ほります",
+        "te": "彫って",
+        "nai": "彫らない",
+        "ta": "彫った"
+      },
+      "sentences": [
+        {
+          "ja": "この猫は木で彫られました。",
+          "zh": "这只猫是用木头雕刻的。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W56",
+      "category": "Nouns",
+      "kanji": "仲間",
+      "kana": "なかま",
+      "romaji": "nakama",
+      "meaning": "朋友，伙伴",
+      "sentences": [
+        {
+          "ja": "仲間と一緒に一生懸命働きました。",
+          "zh": "和伙伴一起努力工作了。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W57",
+      "category": "Expressions",
+      "kanji": "しかし",
+      "kana": "しかし",
+      "romaji": "shikashi",
+      "meaning": "但是",
+      "sentences": [
+        {
+          "ja": "東照宮は豪華です。しかし、中には入れません。",
+          "zh": "东照宫很豪华。但是不能进到里面。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W58",
+      "category": "Expressions",
+      "kanji": "その後",
+      "kana": "そのあと",
+      "romaji": "sono ato",
+      "meaning": "那之后，后来",
+      "sentences": [
+        {
+          "ja": "その後、ねずみは一匹もいなくなりました。",
+          "zh": "之后，一只老鼠也没有了。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W59",
+      "category": "Adverbs",
+      "kanji": "一生懸命",
+      "kana": "いっしょうけんめい",
+      "romaji": "isshoukenmei",
+      "meaning": "努力，拼命",
+      "sentences": [
+        {
+          "ja": "一生懸命日本語を勉強しています。",
+          "zh": "在拼命学习日语。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W60",
+      "category": "Nouns",
+      "kanji": "鼠",
+      "kana": "ねずみ",
+      "romaji": "nezumi",
+      "meaning": "老鼠",
+      "sentences": [
+        {
+          "ja": "東照宮にはねずみが一匹もいません。",
+          "zh": "东照宫里一只老鼠也没有。"
+        }
+      ]
+    },
+    {
+      "id": "L37-W61",
+      "category": "Expressions",
+      "kanji": "一匹もいません",
+      "kana": "いっぴきもいません",
+      "romaji": "ippiki mo imasen",
+      "meaning": "一只也没有",
+      "sentences": [
+        {
+          "ja": "ねずみは一匹もいません。",
+          "zh": "一只老鼠也没有。"
+        }
+      ]
+    }
+  ],
+  "38": [
+    {
+      "id": "L38-W1",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "参加します",
+      "kana": "さんかします",
+      "romaji": "sanka shimasu",
+      "meaning": "参加",
+      "conjugations": {
+        "dictionary": "参加する",
+        "masu": "さんかします",
+        "te": "参加して",
+        "nai": "参加しない",
+        "ta": "参加した"
+      },
+      "sentences": [
+        {
+          "ja": "旅行に参加します。",
+          "zh": "参加旅行。"
+        },
+        {
+          "ja": "会議に参加するのを忘れました。",
+          "zh": "忘了参加会议。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W2",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "育てます",
+      "kana": "そだてます",
+      "romaji": "sodatemasu",
+      "meaning": "培育，养",
+      "conjugations": {
+        "dictionary": "育てる",
+        "masu": "そだてます",
+        "te": "育てて",
+        "nai": "育てない",
+        "ta": "育てた"
+      },
+      "sentences": [
+        {
+          "ja": "夫は花を育てるのが上手なんです。",
+          "zh": "我丈夫很擅长养花。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W3",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "運びます",
+      "kana": "はこびます",
+      "romaji": "hakobimasu",
+      "meaning": "搬，搬运",
+      "conjugations": {
+        "dictionary": "運ぶ",
+        "masu": "はこびます",
+        "te": "運んで",
+        "nai": "運ばない",
+        "ta": "運んだ"
+      },
+      "sentences": [
+        {
+          "ja": "重い荷物を運ぶのは大変です。",
+          "zh": "搬运重行李很辛苦。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W4",
+      "category": "Expressions",
+      "kanji": "［あ、］いけない",
+      "kana": "［あ、］いけない",
+      "romaji": "[a,] ikenai",
+      "meaning": "［啊，］糟了（在做错了什么或失败时使用）",
+      "sentences": [
+        {
+          "ja": "あ、いけない。車の窓を閉めるのを忘れました。",
+          "zh": "啊，糟了。忘了关车窗。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W5",
+      "category": "Nouns",
+      "kanji": "赤ちゃん",
+      "kana": "あかちゃん",
+      "romaji": "akachan",
+      "meaning": "婴儿",
+      "sentences": [
+        {
+          "ja": "宮崎さんに赤ちゃんが生まれたのを知っていますか。",
+          "zh": "你知道宫崎生孩子了吗？"
+        }
+      ]
+    },
+    {
+      "id": "L38-W6",
+      "category": "Nouns",
+      "kanji": "小学校",
+      "kana": "しょうがっこう",
+      "romaji": "shougakkou",
+      "meaning": "小学",
+      "sentences": [
+        {
+          "ja": "彼女に初めて会ったのは小学校の教室です。",
+          "zh": "第一次见到她是在小学的教室。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W7",
+      "category": "Nouns",
+      "kanji": "中学校",
+      "kana": "ちゅうがっこう",
+      "romaji": "chuugakkou",
+      "meaning": "初中",
+      "sentences": [
+        {
+          "ja": "弟は中学校の2年生です。",
+          "zh": "弟弟是初中二年级学生。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W8",
+      "category": "Nouns",
+      "kanji": "回覧",
+      "kana": "かいらん",
+      "romaji": "kairan",
+      "meaning": "传阅（文件等）",
+      "sentences": [
+        {
+          "ja": "ワット先生、回覧です。",
+          "zh": "瓦特老师，这是传阅文件。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W9",
+      "category": "Nouns",
+      "kanji": "研究室",
+      "kana": "けんきゅうしつ",
+      "romaji": "kenkyuushitsu",
+      "meaning": "研究室",
+      "sentences": [
+        {
+          "ja": "先生の研究室はいつもきれいですね。",
+          "zh": "老师的研究室总是很整洁啊。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W10",
+      "category": "Adverbs",
+      "kanji": "きちんと",
+      "kana": "きちんと",
+      "romaji": "kichinto",
+      "meaning": "整齐，干净",
+      "sentences": [
+        {
+          "ja": "本もきちんと並べてあります。",
+          "zh": "书也整整齐齐地摆着。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W11",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "整理します",
+      "kana": "せいりします",
+      "romaji": "seiri shimasu",
+      "meaning": "整理，收拾",
+      "conjugations": {
+        "dictionary": "整理する",
+        "masu": "せいりします",
+        "te": "整理して",
+        "nai": "整理しない",
+        "ta": "整理した"
+      },
+      "sentences": [
+        {
+          "ja": "整理するのが上手なんですね。",
+          "zh": "您很擅长整理啊。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W12",
+      "category": "Expressions",
+      "kanji": "～という",
+      "kana": "～という",
+      "romaji": "~to iu",
+      "meaning": "叫～，名为～",
+      "sentences": [
+        {
+          "ja": "『上手な整理の方法』という本を書いたことがあります。",
+          "zh": "曾写过一本叫《高明的整理方法》的书。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W13",
+      "category": "Counters",
+      "kanji": "～冊",
+      "kana": "～さつ",
+      "romaji": "~satsu",
+      "meaning": "～本，～册",
+      "sentences": [
+        {
+          "ja": "よかったら、1冊持って来ましょうか。",
+          "zh": "如果不介意的话，我带一本来吧？"
+        }
+      ]
+    },
+    {
+      "id": "L38-W14",
+      "category": "Nouns",
+      "kanji": "方法",
+      "kana": "ほうほう",
+      "romaji": "houhou",
+      "meaning": "方法",
+      "sentences": [
+        {
+          "ja": "いい勉強の方法を教えてください。",
+          "zh": "请告诉我好的学习方法。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W15",
+      "category": "Nouns",
+      "kanji": "判子",
+      "kana": "はんこ",
+      "romaji": "hanko",
+      "meaning": "章，印章",
+      "sentences": [
+        {
+          "ja": "回覧に判子を押すのを忘れないでください。",
+          "zh": "请别忘了在传阅文件上盖章。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W16",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "押します",
+      "kana": "おします",
+      "romaji": "oshimasu",
+      "meaning": "盖（章）",
+      "conjugations": {
+        "dictionary": "押す",
+        "masu": "おします",
+        "te": "押して",
+        "nai": "押さない",
+        "ta": "押した"
+      },
+      "sentences": [
+        {
+          "ja": "判子を押します。",
+          "zh": "盖章。"
+        },
+        {
+          "ja": "ここに判子を押してください。",
+          "zh": "请在这里盖章。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W17",
+      "category": "Expressions",
+      "kanji": "気持ちがいい",
+      "kana": "きもちがいい",
+      "romaji": "kimochi ga ii",
+      "meaning": "舒服",
+      "sentences": [
+        {
+          "ja": "朝の散歩は気持ちがいいです。",
+          "zh": "早晨散步很舒服。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W18",
+      "category": "Expressions",
+      "kanji": "気持ちが悪い",
+      "kana": "きもちがわるい",
+      "romaji": "kimochi ga warui",
+      "meaning": "不舒服",
+      "sentences": [
+        {
+          "ja": "船に乗って、気持ちが悪くなりました。",
+          "zh": "坐船之后感到不舒服。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W19",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "退院します",
+      "kana": "たいいんします",
+      "romaji": "taiin shimasu",
+      "meaning": "出院",
+      "conjugations": {
+        "dictionary": "退院する",
+        "masu": "たいいんします",
+        "te": "退院して",
+        "nai": "退院しない",
+        "ta": "退院した"
+      },
+      "sentences": [
+        {
+          "ja": "母は来週退院します。",
+          "zh": "妈妈下周出院。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W20",
+      "category": "Expressions",
+      "kanji": "大きな～",
+      "kana": "おおきな～",
+      "romaji": "ookina~",
+      "meaning": "大的",
+      "sentences": [
+        {
+          "ja": "駅前に大きなスーパーができました。",
+          "zh": "车站前开了一家大超市。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W21",
+      "category": "Expressions",
+      "kanji": "小さな～",
+      "kana": "ちいさな～",
+      "romaji": "chiisana~",
+      "meaning": "小的",
+      "sentences": [
+        {
+          "ja": "父が生まれたのは北海道の小さな村です。",
+          "zh": "父亲出生在北海道的一个小村庄。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W22",
+      "category": "Nouns",
+      "kanji": "駅前",
+      "kana": "えきまえ",
+      "romaji": "ekimae",
+      "meaning": "车站前",
+      "sentences": [
+        {
+          "ja": "駅前に大きなスーパーがあります。",
+          "zh": "车站前有一家大超市。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W23",
+      "category": "Nouns",
+      "kanji": "村",
+      "kana": "むら",
+      "romaji": "mura",
+      "meaning": "村，村庄",
+      "sentences": [
+        {
+          "ja": "父が生まれたのは小さな村です。",
+          "zh": "父亲出生在一个小村庄。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W24",
+      "category": "Expressions",
+      "kanji": "～製",
+      "kana": "～せい",
+      "romaji": "~sei",
+      "meaning": "～制造",
+      "sentences": [
+        {
+          "ja": "この時計は日本製です。",
+          "zh": "这块手表是日本制造的。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W25",
+      "category": "Nouns",
+      "kanji": "健康",
+      "kana": "けんこう",
+      "romaji": "kenkou",
+      "meaning": "健康",
+      "sentences": [
+        {
+          "ja": "健康のために、毎朝走っています。",
+          "zh": "为了健康，每天早上跑步。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W26",
+      "category": "Nouns",
+      "kanji": "習慣",
+      "kana": "しゅうかん",
+      "romaji": "shuukan",
+      "meaning": "习惯",
+      "sentences": [
+        {
+          "ja": "日本の習慣を知るのはおもしろいです。",
+          "zh": "了解日本的习惯很有意思。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W27",
+      "category": "Nouns",
+      "kanji": "海岸",
+      "kana": "かいがん",
+      "romaji": "kaigan",
+      "meaning": "海岸",
+      "sentences": [
+        {
+          "ja": "海岸を散歩するのは気持ちがいいです。",
+          "zh": "在海岸散步很舒服。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W28",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "つきます",
+      "kana": "つきます",
+      "romaji": "tsukimasu",
+      "meaning": "说（谎）",
+      "conjugations": {
+        "dictionary": "つく",
+        "masu": "つきます",
+        "te": "ついて",
+        "nai": "つかない",
+        "ta": "ついた"
+      },
+      "sentences": [
+        {
+          "ja": "うそをつきます。",
+          "zh": "说谎。"
+        },
+        {
+          "ja": "うそをつくのはよくないです。",
+          "zh": "说谎不好。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W29",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "入院します",
+      "kana": "にゅういんします",
+      "romaji": "nyuuin shimasu",
+      "meaning": "住院",
+      "conjugations": {
+        "dictionary": "入院する",
+        "masu": "にゅういんします",
+        "te": "入院して",
+        "nai": "入院しない",
+        "ta": "入院した"
+      },
+      "sentences": [
+        {
+          "ja": "父が入院したのを知っていますか。",
+          "zh": "你知道我父亲住院了吗？"
+        }
+      ]
+    },
+    {
+      "id": "L38-W30",
+      "category": "Nouns",
+      "kanji": "仮名",
+      "kana": "かな",
+      "romaji": "kana",
+      "meaning": "假名（日文字母）",
+      "sentences": [
+        {
+          "ja": "仮名を覚えるのは簡単です。",
+          "zh": "记假名很简单。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W31",
+      "category": "Nouns",
+      "kanji": "指輪",
+      "kana": "ゆびわ",
+      "romaji": "yubiwa",
+      "meaning": "戒指",
+      "sentences": [
+        {
+          "ja": "指輪を買うのを忘れました。",
+          "zh": "忘了买戒指。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W32",
+      "category": "Nouns",
+      "kanji": "出雲大社",
+      "kana": "いずもたいしゃ",
+      "romaji": "Izumo Taisha",
+      "meaning": "出云大社（位于岛根县出云市的神社）",
+      "sentences": [
+        {
+          "ja": "出雲大社は島根県にあります。",
+          "zh": "出云大社在岛根县。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W33",
+      "category": "Nouns",
+      "kanji": "チェンマイ",
+      "kana": "チェンマイ",
+      "romaji": "Chenmai",
+      "meaning": "清迈（泰国）",
+      "sentences": [
+        {
+          "ja": "生まれたのはチェンマイです。",
+          "zh": "我出生在清迈。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W34",
+      "category": "Nouns",
+      "kanji": "一昨年",
+      "kana": "おととし",
+      "romaji": "ototoshi",
+      "meaning": "前年",
+      "sentences": [
+        {
+          "ja": "わたしが日本へ来たのはおととしの3月です。",
+          "zh": "我来日本是前年3月。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W35",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "掛けます",
+      "kana": "かけます",
+      "romaji": "kakemasu",
+      "meaning": "上锁",
+      "conjugations": {
+        "dictionary": "掛ける",
+        "masu": "かけます",
+        "te": "掛けて",
+        "nai": "掛けない",
+        "ta": "掛けた"
+      },
+      "sentences": [
+        {
+          "ja": "鍵を掛けます。",
+          "zh": "上锁。"
+        },
+        {
+          "ja": "ドアに鍵を掛けるのを忘れました。",
+          "zh": "忘了锁门。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W36",
+      "category": "Expressions",
+      "kanji": "お先に［失礼します］",
+      "kana": "おさきに［しつれいします］",
+      "romaji": "osaki ni [shitsurei shimasu]",
+      "meaning": "我先告辞了",
+      "sentences": [
+        {
+          "ja": "お先に失礼します。",
+          "zh": "我先告辞了。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W37",
+      "category": "Nouns",
+      "kanji": "電源",
+      "kana": "でんげん",
+      "romaji": "dengen",
+      "meaning": "电源",
+      "sentences": [
+        {
+          "ja": "帰るとき、電源を切るのを忘れないでください。",
+          "zh": "回去的时候请别忘了关电源。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W38",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "切ります",
+      "kana": "きります",
+      "romaji": "kirimasu",
+      "meaning": "切断",
+      "conjugations": {
+        "dictionary": "切る",
+        "masu": "きります",
+        "te": "切って",
+        "nai": "切らない",
+        "ta": "切った"
+      },
+      "sentences": [
+        {
+          "ja": "電源を切ります。",
+          "zh": "切断电源。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W39",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "入れます",
+      "kana": "いれます",
+      "romaji": "iremasu",
+      "meaning": "打开（电源）",
+      "conjugations": {
+        "dictionary": "入れる",
+        "masu": "いれます",
+        "te": "入れて",
+        "nai": "入れない",
+        "ta": "入れた"
+      },
+      "sentences": [
+        {
+          "ja": "電源を入れます。",
+          "zh": "打开电源。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W40",
+      "category": "Nouns",
+      "kanji": "原爆ドーム",
+      "kana": "げんばくドーム",
+      "romaji": "Genbaku Doomu",
+      "meaning": "广岛原子弹爆炸纪念馆（为纪念广岛被投掷原子弹而设置的纪念馆）",
+      "sentences": [
+        {
+          "ja": "原爆ドームは広島にあります。",
+          "zh": "原子弹爆炸纪念馆在广岛。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W41",
+      "category": "Nouns",
+      "kanji": "工場",
+      "kana": "こうじょう",
+      "romaji": "koujou",
+      "meaning": "工厂",
+      "sentences": [
+        {
+          "ja": "この工場は車を作っています。",
+          "zh": "这家工厂生产汽车。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W42",
+      "category": "Nouns",
+      "kanji": "双子",
+      "kana": "ふたご",
+      "romaji": "futago",
+      "meaning": "双胞胎",
+      "sentences": [
+        {
+          "ja": "双子の姉妹は顔がよく似ています。",
+          "zh": "双胞胎姐妹长得很像。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W43",
+      "category": "Nouns",
+      "kanji": "姉妹",
+      "kana": "しまい",
+      "romaji": "shimai",
+      "meaning": "姐妹",
+      "sentences": [
+        {
+          "ja": "わたしたちは姉妹です。",
+          "zh": "我们是姐妹。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W44",
+      "category": "Nouns",
+      "kanji": "5年生",
+      "kana": "ごねんせい",
+      "romaji": "gonensei",
+      "meaning": "五年级学生",
+      "sentences": [
+        {
+          "ja": "妹は小学校の5年生です。",
+          "zh": "妹妹是小学五年级学生。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W45",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "似ます",
+      "kana": "にます",
+      "romaji": "nimasu",
+      "meaning": "相似，相像",
+      "conjugations": {
+        "dictionary": "似る",
+        "masu": "にます",
+        "te": "似て",
+        "nai": "似ない",
+        "ta": "似た"
+      },
+      "sentences": [
+        {
+          "ja": "二人は性格が似ています。",
+          "zh": "两人性格相似。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W46",
+      "category": "Nouns",
+      "kanji": "性格",
+      "kana": "せいかく",
+      "romaji": "seikaku",
+      "meaning": "性格",
+      "sentences": [
+        {
+          "ja": "姉は性格が優しいです。",
+          "zh": "姐姐性格温柔。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W47",
+      "category": "Adjectives",
+      "grammarType": "i-adj",
+      "kanji": "大人しい",
+      "kana": "おとなしい",
+      "romaji": "otonashii",
+      "meaning": "老实，温顺",
+      "sentences": [
+        {
+          "ja": "妹はおとなしいです。",
+          "zh": "妹妹很文静。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W48",
+      "category": "Adjectives",
+      "grammarType": "i-adj",
+      "kanji": "優しい",
+      "kana": "やさしい",
+      "romaji": "yasashii",
+      "meaning": "温柔，亲切",
+      "sentences": [
+        {
+          "ja": "母はとても優しい人です。",
+          "zh": "妈妈是非常温柔的人。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W49",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "世話をします",
+      "kana": "せわをします",
+      "romaji": "sewa o shimasu",
+      "meaning": "照顾，照料",
+      "conjugations": {
+        "dictionary": "世話をする",
+        "masu": "せわをします",
+        "te": "世話をして",
+        "nai": "世話をしない",
+        "ta": "世話をした"
+      },
+      "sentences": [
+        {
+          "ja": "子どもの世話をするのは大変です。",
+          "zh": "照顾孩子很辛苦。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W50",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "時間がたちます",
+      "kana": "じかんがたちます",
+      "romaji": "jikan ga tachimasu",
+      "meaning": "时间流逝",
+      "conjugations": {
+        "dictionary": "時間がたつ",
+        "masu": "じかんがたちます",
+        "te": "時間がたって",
+        "nai": "時間がたたない",
+        "ta": "時間がたった"
+      },
+      "sentences": [
+        {
+          "ja": "時間がたつのは速いですね。",
+          "zh": "时间过得真快啊。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W51",
+      "category": "Adjectives",
+      "grammarType": "na-adj",
+      "kanji": "大好き",
+      "kana": "だいすき",
+      "romaji": "daisuki",
+      "meaning": "非常喜欢",
+      "sentences": [
+        {
+          "ja": "わたしは絵をかくのが大好きです。",
+          "zh": "我非常喜欢画画。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W52",
+      "category": "Counters",
+      "kanji": "～点",
+      "kana": "～てん",
+      "romaji": "~ten",
+      "meaning": "～分（指考试的分数）",
+      "sentences": [
+        {
+          "ja": "試験で100点を取りました。",
+          "zh": "考试得了100分。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W53",
+      "category": "Expressions",
+      "kanji": "気が強い",
+      "kana": "きがつよい",
+      "romaji": "ki ga tsuyoi",
+      "meaning": "好强，刚强",
+      "sentences": [
+        {
+          "ja": "姉は気が強いです。",
+          "zh": "姐姐很要强。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W54",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "喧嘩します",
+      "kana": "けんかします",
+      "romaji": "kenka shimasu",
+      "meaning": "吵架，打架",
+      "conjugations": {
+        "dictionary": "喧嘩する",
+        "masu": "けんかします",
+        "te": "喧嘩して",
+        "nai": "喧嘩しない",
+        "ta": "喧嘩した"
+      },
+      "sentences": [
+        {
+          "ja": "子どものとき、よく弟と喧嘩しました。",
+          "zh": "小时候经常和弟弟吵架。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W55",
+      "category": "Adjectives",
+      "grammarType": "na-adj",
+      "kanji": "不思議",
+      "kana": "ふしぎ",
+      "romaji": "fushigi",
+      "meaning": "不可思议",
+      "sentences": [
+        {
+          "ja": "双子は不思議ですね。",
+          "zh": "双胞胎真不可思议啊。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W56",
+      "category": "Nouns",
+      "kanji": "年齢",
+      "kana": "ねんれい",
+      "romaji": "nenrei",
+      "meaning": "年龄",
+      "sentences": [
+        {
+          "ja": "年齢を聞くのは失礼です。",
+          "zh": "问年龄是不礼貌的。"
+        }
+      ]
+    },
+    {
+      "id": "L38-W57",
+      "category": "Nouns",
+      "kanji": "仕方",
+      "kana": "しかた",
+      "romaji": "shikata",
+      "meaning": "方法，办法",
+      "sentences": [
+        {
+          "ja": "漢字の勉強の仕方を教えてください。",
+          "zh": "请告诉我汉字的学习方法。"
+        }
+      ]
+    }
+  ],
+  "39": [
+    {
+      "id": "L39-W1",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "びっくりします",
+      "kana": "びっくりします",
+      "romaji": "bikkuri shimasu",
+      "meaning": "吃惊",
+      "conjugations": {
+        "dictionary": "びっくりする",
+        "masu": "びっくりします",
+        "te": "びっくりして",
+        "nai": "びっくりしない",
+        "ta": "びっくりした"
+      },
+      "sentences": [
+        {
+          "ja": "ニュースを聞いて、びっくりしました。",
+          "zh": "听到新闻，吃了一惊。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W2",
+      "category": "Nouns",
+      "kanji": "地震",
+      "kana": "じしん",
+      "romaji": "jishin",
+      "meaning": "地震",
+      "sentences": [
+        {
+          "ja": "地震でビルが倒れました。",
+          "zh": "因为地震，大厦倒塌了。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W3",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "倒れます",
+      "kana": "たおれます",
+      "romaji": "taoremasu",
+      "meaning": "倒，倒下来，倒塌",
+      "conjugations": {
+        "dictionary": "倒れる",
+        "masu": "たおれます",
+        "te": "倒れて",
+        "nai": "倒れない",
+        "ta": "倒れた"
+      },
+      "sentences": [
+        {
+          "ja": "ビルが倒れます。",
+          "zh": "大厦倒塌。"
+        },
+        {
+          "ja": "台風で木が倒れました。",
+          "zh": "因为台风，树倒了。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W4",
+      "category": "Nouns",
+      "kanji": "［お］見合い",
+      "kana": "［お］みあい",
+      "romaji": "[o]miai",
+      "meaning": "相亲",
+      "sentences": [
+        {
+          "ja": "お見合いはどうでしたか。",
+          "zh": "相亲怎么样？"
+        }
+      ]
+    },
+    {
+      "id": "L39-W5",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "がっかりします",
+      "kana": "がっかりします",
+      "romaji": "gakkari shimasu",
+      "meaning": "失望",
+      "conjugations": {
+        "dictionary": "がっかりする",
+        "masu": "がっかりします",
+        "te": "がっかりして",
+        "nai": "がっかりしない",
+        "ta": "がっかりした"
+      },
+      "sentences": [
+        {
+          "ja": "会って、がっかりしました。",
+          "zh": "见了面之后很失望。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W6",
+      "category": "Nouns",
+      "kanji": "ハイキング",
+      "kana": "ハイキング",
+      "romaji": "haikingu",
+      "meaning": "远足，徒步旅行",
+      "sentences": [
+        {
+          "ja": "今度の土曜日にみんなでハイキングに行きます。",
+          "zh": "这周六大家一起去远足。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W7",
+      "category": "Adjectives",
+      "grammarType": "na-adj",
+      "kanji": "複雑",
+      "kana": "ふくざつ",
+      "romaji": "fukuzatsu",
+      "meaning": "复杂",
+      "sentences": [
+        {
+          "ja": "話が複雑で、よくわかりませんでした。",
+          "zh": "故事情节很复杂，没太看懂。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W8",
+      "category": "Nouns",
+      "kanji": "事故",
+      "kana": "じこ",
+      "romaji": "jiko",
+      "meaning": "事故",
+      "sentences": [
+        {
+          "ja": "事故でバスが遅れたんです。",
+          "zh": "因为事故，公交车晚点了。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W9",
+      "category": "Expressions",
+      "kanji": "お疲れ様でした",
+      "kana": "おつかれさまでした",
+      "romaji": "otsukaresama deshita",
+      "meaning": "辛苦了（慰劳同事或部下时用的话）",
+      "sentences": [
+        {
+          "ja": "お先に失礼します。……お疲れ様でした。",
+          "zh": "我先走了。……辛苦了。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W10",
+      "category": "Adjectives",
+      "grammarType": "na-adj",
+      "kanji": "邪魔",
+      "kana": "じゃま",
+      "romaji": "jama",
+      "meaning": "碍事",
+      "sentences": [
+        {
+          "ja": "ベッドが邪魔なので、友達にあげました。",
+          "zh": "床碍事，所以送给朋友了。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W11",
+      "category": "Nouns",
+      "kanji": "途中",
+      "kana": "とちゅう",
+      "romaji": "tochuu",
+      "meaning": "中途，途中（途中で：途中，路上）",
+      "sentences": [
+        {
+          "ja": "来る途中で事故がありました。",
+          "zh": "来的路上出了事故。"
+        },
+        {
+          "ja": "マラソンの途中で気分が悪くなりました。",
+          "zh": "在马拉松比赛的中途，身体不舒服起来。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W12",
+      "category": "Nouns",
+      "kanji": "トラック",
+      "kana": "トラック",
+      "romaji": "torakku",
+      "meaning": "卡车",
+      "sentences": [
+        {
+          "ja": "交差点でトラックと車がぶつかりました。",
+          "zh": "在十字路口卡车和汽车相撞了。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W13",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "ぶつかります",
+      "kana": "ぶつかります",
+      "romaji": "butsukarimasu",
+      "meaning": "撞，碰",
+      "conjugations": {
+        "dictionary": "ぶつかる",
+        "masu": "ぶつかります",
+        "te": "ぶつかって",
+        "nai": "ぶつからない",
+        "ta": "ぶつかった"
+      },
+      "sentences": [
+        {
+          "ja": "車が壁にぶつかりました。",
+          "zh": "汽车撞到了墙上。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W14",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "安心します",
+      "kana": "あんしんします",
+      "romaji": "anshin shimasu",
+      "meaning": "安心，放心",
+      "conjugations": {
+        "dictionary": "安心する",
+        "masu": "あんしんします",
+        "te": "安心して",
+        "nai": "安心しない",
+        "ta": "安心した"
+      },
+      "sentences": [
+        {
+          "ja": "家族の声を聞いて、安心しました。",
+          "zh": "听到家人的声音，放心了。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W15",
+      "category": "Adverbs",
+      "kanji": "大勢",
+      "kana": "おおぜい",
+      "romaji": "oozei",
+      "meaning": "很多（人）",
+      "sentences": [
+        {
+          "ja": "会場に人が大勢集まりました。",
+          "zh": "会场聚集了很多人。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W16",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "死にます",
+      "kana": "しにます",
+      "romaji": "shinimasu",
+      "meaning": "死",
+      "conjugations": {
+        "dictionary": "死ぬ",
+        "masu": "しにます",
+        "te": "死んで",
+        "nai": "死なない",
+        "ta": "死んだ"
+      },
+      "sentences": [
+        {
+          "ja": "地震で大勢の人が死にました。",
+          "zh": "因为地震，很多人死了。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W17",
+      "category": "Nouns",
+      "kanji": "津波",
+      "kana": "つなみ",
+      "romaji": "tsunami",
+      "meaning": "海啸",
+      "sentences": [
+        {
+          "ja": "地震のあとで津波が来ました。",
+          "zh": "地震之后来了海啸。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W18",
+      "category": "Adjectives",
+      "grammarType": "i-adj",
+      "kanji": "嬉しい",
+      "kana": "うれしい",
+      "romaji": "ureshii",
+      "meaning": "高兴",
+      "sentences": [
+        {
+          "ja": "試験に合格して、うれしいです。",
+          "zh": "考试及格了，很高兴。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W19",
+      "category": "Adjectives",
+      "grammarType": "i-adj",
+      "kanji": "悲しい",
+      "kana": "かなしい",
+      "romaji": "kanashii",
+      "meaning": "悲伤",
+      "sentences": [
+        {
+          "ja": "犬が死んで、悲しいです。",
+          "zh": "狗死了，很伤心。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W20",
+      "category": "Adjectives",
+      "grammarType": "i-adj",
+      "kanji": "恥ずかしい",
+      "kana": "はずかしい",
+      "romaji": "hazukashii",
+      "meaning": "害羞，不好意思",
+      "sentences": [
+        {
+          "ja": "名前を間違えて、恥ずかしかったです。",
+          "zh": "弄错了名字，很不好意思。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W21",
+      "category": "Adjectives",
+      "grammarType": "i-adj",
+      "kanji": "硬い",
+      "kana": "かたい",
+      "romaji": "katai",
+      "meaning": "硬，坚硬",
+      "sentences": [
+        {
+          "ja": "このパンは硬くて、食べられません。",
+          "zh": "这个面包太硬，吃不了。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W22",
+      "category": "Adjectives",
+      "grammarType": "i-adj",
+      "kanji": "軟らかい",
+      "kana": "やわらかい",
+      "romaji": "yawarakai",
+      "meaning": "软，柔软",
+      "sentences": [
+        {
+          "ja": "この肉は軟らかくて、おいしいです。",
+          "zh": "这块肉很嫩，很好吃。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W23",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "答えます",
+      "kana": "こたえます",
+      "romaji": "kotaemasu",
+      "meaning": "答，回答",
+      "conjugations": {
+        "dictionary": "答える",
+        "masu": "こたえます",
+        "te": "答えて",
+        "nai": "答えない",
+        "ta": "答えた"
+      },
+      "sentences": [
+        {
+          "ja": "質問に答えます。",
+          "zh": "回答问题。"
+        },
+        {
+          "ja": "質問が複雑で、答えられませんでした。",
+          "zh": "问题很复杂，没能回答。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W24",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "通ります",
+      "kana": "とおります",
+      "romaji": "toorimasu",
+      "meaning": "通过，过",
+      "conjugations": {
+        "dictionary": "通る",
+        "masu": "とおります",
+        "te": "通って",
+        "nai": "通らない",
+        "ta": "通った"
+      },
+      "sentences": [
+        {
+          "ja": "道を通ります。",
+          "zh": "过路。"
+        },
+        {
+          "ja": "この道は狭くて、車が通れません。",
+          "zh": "这条路很窄，车过不去。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W25",
+      "category": "Nouns",
+      "kanji": "火事",
+      "kana": "かじ",
+      "romaji": "kaji",
+      "meaning": "火灾",
+      "sentences": [
+        {
+          "ja": "火事で家が焼けました。",
+          "zh": "因为火灾，房子烧毁了。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W26",
+      "category": "Expressions",
+      "kanji": "～屋",
+      "kana": "～や",
+      "romaji": "~ya",
+      "meaning": "开～店的",
+      "sentences": [
+        {
+          "ja": "隣の人は花屋です。",
+          "zh": "邻居是开花店的。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W27",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "太ります",
+      "kana": "ふとります",
+      "romaji": "futorimasu",
+      "meaning": "胖，发胖",
+      "conjugations": {
+        "dictionary": "太る",
+        "masu": "ふとります",
+        "te": "太って",
+        "nai": "太らない",
+        "ta": "太った"
+      },
+      "sentences": [
+        {
+          "ja": "食べ過ぎて、太りました。",
+          "zh": "吃太多，胖了。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W28",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "やせます",
+      "kana": "やせます",
+      "romaji": "yasemasu",
+      "meaning": "瘦，变瘦",
+      "conjugations": {
+        "dictionary": "やせる",
+        "masu": "やせます",
+        "te": "やせて",
+        "nai": "やせない",
+        "ta": "やせた"
+      },
+      "sentences": [
+        {
+          "ja": "病気でやせました。",
+          "zh": "因为生病瘦了。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W29",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "喧嘩します",
+      "kana": "けんかします",
+      "romaji": "kenka shimasu",
+      "meaning": "吵架，打架",
+      "conjugations": {
+        "dictionary": "喧嘩する",
+        "masu": "けんかします",
+        "te": "喧嘩して",
+        "nai": "喧嘩しない",
+        "ta": "喧嘩した"
+      },
+      "sentences": [
+        {
+          "ja": "友達と喧嘩して、悲しいです。",
+          "zh": "和朋友吵架了，很难过。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W30",
+      "category": "Expressions",
+      "kanji": "～代",
+      "kana": "～だい",
+      "romaji": "~dai",
+      "meaning": "～费（電気代：电费）",
+      "sentences": [
+        {
+          "ja": "今月の電気代は高かったです。",
+          "zh": "这个月的电费很贵。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W31",
+      "category": "Adjectives",
+      "grammarType": "i-adj",
+      "kanji": "汚い",
+      "kana": "きたない",
+      "romaji": "kitanai",
+      "meaning": "脏，肮脏",
+      "sentences": [
+        {
+          "ja": "部屋が汚くて、恥ずかしいです。",
+          "zh": "房间很脏，很不好意思。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W32",
+      "category": "Nouns",
+      "kanji": "操作",
+      "kana": "そうさ",
+      "romaji": "sousa",
+      "meaning": "操作（～します：操作）",
+      "sentences": [
+        {
+          "ja": "このパソコンは操作が複雑で、よくわかりません。",
+          "zh": "这台电脑操作复杂，不太懂。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W33",
+      "category": "Nouns",
+      "kanji": "台風",
+      "kana": "たいふう",
+      "romaji": "taifuu",
+      "meaning": "台风",
+      "sentences": [
+        {
+          "ja": "台風で電車が止まりました。",
+          "zh": "因为台风，电车停运了。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W34",
+      "category": "Nouns",
+      "kanji": "雷",
+      "kana": "かみなり",
+      "romaji": "kaminari",
+      "meaning": "雷",
+      "sentences": [
+        {
+          "ja": "雷の音を聞いて、びっくりしました。",
+          "zh": "听到雷声，吓了一跳。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W35",
+      "category": "Nouns",
+      "kanji": "会場",
+      "kana": "かいじょう",
+      "romaji": "kaijou",
+      "meaning": "会场",
+      "sentences": [
+        {
+          "ja": "会場に大勢の人が集まりました。",
+          "zh": "会场聚集了很多人。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W36",
+      "category": "Nouns",
+      "kanji": "首相",
+      "kana": "しゅしょう",
+      "romaji": "shushou",
+      "meaning": "首相",
+      "sentences": [
+        {
+          "ja": "首相が会場に来ました。",
+          "zh": "首相来到了会场。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W37",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "離婚します",
+      "kana": "りこんします",
+      "romaji": "rikon shimasu",
+      "meaning": "离婚",
+      "conjugations": {
+        "dictionary": "離婚する",
+        "masu": "りこんします",
+        "te": "離婚して",
+        "nai": "離婚しない",
+        "ta": "離婚した"
+      },
+      "sentences": [
+        {
+          "ja": "二人は去年離婚しました。",
+          "zh": "两人去年离婚了。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W38",
+      "category": "Nouns",
+      "kanji": "フロント",
+      "kana": "フロント",
+      "romaji": "furonto",
+      "meaning": "（酒店等的）前台",
+      "sentences": [
+        {
+          "ja": "タオルはフロントでもらえます。",
+          "zh": "毛巾可以在前台领取。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W39",
+      "category": "Expressions",
+      "kanji": "～号室",
+      "kana": "～ごうしつ",
+      "romaji": "~goushitsu",
+      "meaning": "～号房间",
+      "sentences": [
+        {
+          "ja": "305号室に泊まっています。",
+          "zh": "住在305号房间。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W40",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "伺います",
+      "kana": "うかがいます",
+      "romaji": "ukagaimasu",
+      "meaning": "去拜访（「行きます」的谦逊语）",
+      "conjugations": {
+        "dictionary": "伺う",
+        "masu": "うかがいます",
+        "te": "伺って",
+        "nai": "伺わない",
+        "ta": "伺った"
+      },
+      "sentences": [
+        {
+          "ja": "あした3時に伺います。",
+          "zh": "明天3点去拜访。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W41",
+      "category": "Nouns",
+      "kanji": "タオル",
+      "kana": "タオル",
+      "romaji": "taoru",
+      "meaning": "毛巾",
+      "sentences": [
+        {
+          "ja": "タオルと石鹸を持って行きます。",
+          "zh": "带毛巾和肥皂去。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W42",
+      "category": "Nouns",
+      "kanji": "石鹸",
+      "kana": "せっけん",
+      "romaji": "sekken",
+      "meaning": "肥皂",
+      "sentences": [
+        {
+          "ja": "石鹸で手を洗います。",
+          "zh": "用肥皂洗手。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W43",
+      "category": "Nouns",
+      "kanji": "大人",
+      "kana": "おとな",
+      "romaji": "otona",
+      "meaning": "大人，成年人",
+      "sentences": [
+        {
+          "ja": "大人になって、着物を着ました。",
+          "zh": "成年后穿了和服。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W44",
+      "category": "Expressions",
+      "kanji": "しかし",
+      "kana": "しかし",
+      "romaji": "shikashi",
+      "meaning": "但是",
+      "sentences": [
+        {
+          "ja": "洋服は便利です。しかし、着物も美しいです。",
+          "zh": "西式服装很方便。但是和服也很美。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W45",
+      "category": "Expressions",
+      "kanji": "また",
+      "kana": "また",
+      "romaji": "mata",
+      "meaning": "还，更，而且",
+      "sentences": [
+        {
+          "ja": "洋服は便利で、また、安いです。",
+          "zh": "西式服装方便，而且便宜。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W46",
+      "category": "Nouns",
+      "kanji": "洋服",
+      "kana": "ようふく",
+      "romaji": "youfuku",
+      "meaning": "西式服装",
+      "sentences": [
+        {
+          "ja": "今では毎日洋服を着ています。",
+          "zh": "现在每天穿西式服装。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W47",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "西洋化します",
+      "kana": "せいようかします",
+      "romaji": "seiyouka shimasu",
+      "meaning": "西化",
+      "conjugations": {
+        "dictionary": "西洋化する",
+        "masu": "せいようかします",
+        "te": "西洋化して",
+        "nai": "西洋化しない",
+        "ta": "西洋化した"
+      },
+      "sentences": [
+        {
+          "ja": "日本の生活は西洋化しました。",
+          "zh": "日本的生活西化了。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W48",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "合います",
+      "kana": "あいます",
+      "romaji": "aimasu",
+      "meaning": "适合，合适",
+      "conjugations": {
+        "dictionary": "合う",
+        "masu": "あいます",
+        "te": "合って",
+        "nai": "合わない",
+        "ta": "合った"
+      },
+      "sentences": [
+        {
+          "ja": "この靴はサイズが合いません。",
+          "zh": "这双鞋尺码不合适。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W49",
+      "category": "Expressions",
+      "kanji": "今では",
+      "kana": "いまでは",
+      "romaji": "ima dewa",
+      "meaning": "现在",
+      "sentences": [
+        {
+          "ja": "今では着物を着る人は少ないです。",
+          "zh": "现在穿和服的人很少。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W50",
+      "category": "Nouns",
+      "kanji": "成人式",
+      "kana": "せいじんしき",
+      "romaji": "seijinshiki",
+      "meaning": "成人仪式",
+      "sentences": [
+        {
+          "ja": "成人式には着物を着る人が多いです。",
+          "zh": "成人仪式上穿和服的人很多。"
+        }
+      ]
+    },
+    {
+      "id": "L39-W51",
+      "category": "Adjectives",
+      "grammarType": "na-adj",
+      "kanji": "伝統的",
+      "kana": "でんとうてき",
+      "romaji": "dentouteki",
+      "meaning": "传统的",
+      "sentences": [
+        {
+          "ja": "着物は日本の伝統的な服です。",
+          "zh": "和服是日本的传统服装。"
+        }
+      ]
+    }
+  ],
+  "40": [
+    {
+      "id": "L40-W1",
+      "category": "Nouns",
+      "kanji": "JL",
+      "kana": "ジェーエル",
+      "romaji": "JL",
+      "meaning": "日本航空公司",
+      "sentences": [
+        {
+          "ja": "JL107便は何時に到着するか、調べてください。",
+          "zh": "请查一下JL107航班几点到达。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W2",
+      "category": "Counters",
+      "kanji": "～便",
+      "kana": "～びん",
+      "romaji": "~bin",
+      "meaning": "～航班",
+      "sentences": [
+        {
+          "ja": "JL107便は何時に到着しますか。",
+          "zh": "JL107航班几点到达？"
+        }
+      ]
+    },
+    {
+      "id": "L40-W3",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "到着します",
+      "kana": "とうちゃくします",
+      "romaji": "touchaku shimasu",
+      "meaning": "到达",
+      "conjugations": {
+        "dictionary": "到着する",
+        "masu": "とうちゃくします",
+        "te": "到着して",
+        "nai": "到着しない",
+        "ta": "到着した"
+      },
+      "sentences": [
+        {
+          "ja": "飛行機は何時に到着するか、わかりません。",
+          "zh": "飞机几点到达，不知道。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W4",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "出発します",
+      "kana": "しゅっぱつします",
+      "romaji": "shuppatsu shimasu",
+      "meaning": "出发",
+      "conjugations": {
+        "dictionary": "出発する",
+        "masu": "しゅっぱつします",
+        "te": "出発して",
+        "nai": "出発しない",
+        "ta": "出発した"
+      },
+      "sentences": [
+        {
+          "ja": "バスは9時に出発します。",
+          "zh": "公交车9点出发。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W5",
+      "category": "Nouns",
+      "kanji": "二次会",
+      "kana": "にじかい",
+      "romaji": "nijikai",
+      "meaning": "在正式宴会结束后再次聚会喝酒",
+      "sentences": [
+        {
+          "ja": "二次会はどこへ行きましたか。",
+          "zh": "续摊去了哪里？"
+        }
+      ]
+    },
+    {
+      "id": "L40-W6",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "酔います",
+      "kana": "よいます",
+      "romaji": "yoimasu",
+      "meaning": "醉",
+      "conjugations": {
+        "dictionary": "酔う",
+        "masu": "よいます",
+        "te": "酔って",
+        "nai": "酔わない",
+        "ta": "酔った"
+      },
+      "sentences": [
+        {
+          "ja": "酔っていたので、全然覚えていません。",
+          "zh": "因为喝醉了，完全不记得了。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W7",
+      "category": "Nouns",
+      "kanji": "高さ",
+      "kana": "たかさ",
+      "romaji": "takasa",
+      "meaning": "高度",
+      "sentences": [
+        {
+          "ja": "山の高さはどうやって測るか、知っていますか。",
+          "zh": "你知道山的高度是怎么测量的吗？"
+        }
+      ]
+    },
+    {
+      "id": "L40-W8",
+      "category": "Nouns",
+      "kanji": "長さ",
+      "kana": "ながさ",
+      "romaji": "nagasa",
+      "meaning": "长度",
+      "sentences": [
+        {
+          "ja": "新しい橋の長さは3,911メートルです。",
+          "zh": "新建的桥全长3911米。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W9",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "測ります／量ります",
+      "kana": "はかります",
+      "romaji": "hakarimasu",
+      "meaning": "测量，量，称",
+      "conjugations": {
+        "dictionary": "測る／量る",
+        "masu": "はかります",
+        "te": "測って／量って",
+        "nai": "測らない／量らない",
+        "ta": "測った／量った"
+      },
+      "sentences": [
+        {
+          "ja": "荷物の重さを量ります。",
+          "zh": "称行李的重量。"
+        },
+        {
+          "ja": "部屋の長さを測ります。",
+          "zh": "测量房间的长度。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W10",
+      "category": "Nouns",
+      "kanji": "忘年会",
+      "kana": "ぼうねんかい",
+      "romaji": "bounenkai",
+      "meaning": "辞旧迎新会，年终聚会",
+      "sentences": [
+        {
+          "ja": "忘年会に出席できるかどうか、メールで返事をください。",
+          "zh": "能否出席年终聚会，请用邮件回复。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W11",
+      "category": "Nouns",
+      "kanji": "新年会",
+      "kana": "しんねんかい",
+      "romaji": "shinnenkai",
+      "meaning": "新年联欢会",
+      "sentences": [
+        {
+          "ja": "新年会は1月10日に行われます。",
+          "zh": "新年联欢会1月10日举行。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W12",
+      "category": "Nouns",
+      "kanji": "間違い",
+      "kana": "まちがい",
+      "romaji": "machigai",
+      "meaning": "错，错误",
+      "sentences": [
+        {
+          "ja": "まちがいがないかどうか、調べてください。",
+          "zh": "请查一下有没有错误。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W13",
+      "category": "Nouns",
+      "kanji": "長崎",
+      "kana": "ながさき",
+      "romaji": "Nagasaki",
+      "meaning": "长崎（长崎县县政府所在地）",
+      "sentences": [
+        {
+          "ja": "長崎へ行ったことがありますか。",
+          "zh": "去过长崎吗？"
+        }
+      ]
+    },
+    {
+      "id": "L40-W14",
+      "category": "Expressions",
+      "kanji": "どうでしょうか",
+      "kana": "どうでしょうか",
+      "romaji": "dou deshou ka",
+      "meaning": "怎么样？（「どうですか」的礼貌用语）",
+      "sentences": [
+        {
+          "ja": "ハンスは学校でどうでしょうか。",
+          "zh": "汉斯在学校怎么样啊？"
+        }
+      ]
+    },
+    {
+      "id": "L40-W15",
+      "category": "Nouns",
+      "kanji": "テスト",
+      "kana": "テスト",
+      "romaji": "tesuto",
+      "meaning": "测验，考试",
+      "sentences": [
+        {
+          "ja": "毎日漢字のテストをしています。",
+          "zh": "每天做汉字测验。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W16",
+      "category": "Nouns",
+      "kanji": "成績",
+      "kana": "せいせき",
+      "romaji": "seiseki",
+      "meaning": "成绩",
+      "sentences": [
+        {
+          "ja": "ハンス君はいい成績ですよ。",
+          "zh": "汉斯成绩很好哦。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W17",
+      "category": "Expressions",
+      "kanji": "ところで",
+      "kana": "ところで",
+      "romaji": "tokorode",
+      "meaning": "可是，对了（转换话题时使用）",
+      "sentences": [
+        {
+          "ja": "ところで、もうすぐ運動会ですね。",
+          "zh": "对了，马上就是运动会了呢。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W18",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "いらっしゃいます",
+      "kana": "いらっしゃいます",
+      "romaji": "irasshaimasu",
+      "meaning": "来（「来ます」的尊敬用语）",
+      "conjugations": {
+        "dictionary": "いらっしゃる",
+        "masu": "いらっしゃいます",
+        "te": "いらっしゃって",
+        "nai": "いらっしゃらない",
+        "ta": "いらっしゃった"
+      },
+      "sentences": [
+        {
+          "ja": "お父さんもいらっしゃいますか。",
+          "zh": "您父亲也来吗？"
+        }
+      ]
+    },
+    {
+      "id": "L40-W19",
+      "category": "Nouns",
+      "kanji": "様子",
+      "kana": "ようす",
+      "romaji": "yousu",
+      "meaning": "样子，情况，情形",
+      "sentences": [
+        {
+          "ja": "ハンス君が学校でどんな様子か、見てください。",
+          "zh": "请看看汉斯在学校是什么样子。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W20",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "出ます",
+      "kana": "でます",
+      "romaji": "demasu",
+      "meaning": "出（問題が出ます：出考题）",
+      "conjugations": {
+        "dictionary": "出る",
+        "masu": "でます",
+        "te": "出て",
+        "nai": "出ない",
+        "ta": "出た"
+      },
+      "sentences": [
+        {
+          "ja": "問題が出ます。",
+          "zh": "出考题。"
+        },
+        {
+          "ja": "試験にどんな問題が出るか、わかりません。",
+          "zh": "考试会出什么题，不知道。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W21",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "確かめます",
+      "kana": "たしかめます",
+      "romaji": "tashikamemasu",
+      "meaning": "确认",
+      "conjugations": {
+        "dictionary": "確かめる",
+        "masu": "たしかめます",
+        "te": "確かめて",
+        "nai": "確かめない",
+        "ta": "確かめた"
+      },
+      "sentences": [
+        {
+          "ja": "電話番号が正しいかどうか、確かめてください。",
+          "zh": "请确认一下电话号码是否正确。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W22",
+      "category": "Nouns",
+      "kanji": "傷",
+      "kana": "きず",
+      "romaji": "kizu",
+      "meaning": "伤，损伤",
+      "sentences": [
+        {
+          "ja": "傷がないかどうか、確かめてください。",
+          "zh": "请确认一下有没有损伤。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W23",
+      "category": "Nouns",
+      "kanji": "表",
+      "kana": "おもて",
+      "romaji": "omote",
+      "meaning": "表面，正面",
+      "sentences": [
+        {
+          "ja": "表に名前を書いてください。",
+          "zh": "请在正面写上名字。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W24",
+      "category": "Nouns",
+      "kanji": "裏",
+      "kana": "うら",
+      "romaji": "ura",
+      "meaning": "反面，里面",
+      "sentences": [
+        {
+          "ja": "裏に住所を書きます。",
+          "zh": "在背面写地址。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W25",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "相談します",
+      "kana": "そうだんします",
+      "romaji": "soudan shimasu",
+      "meaning": "商量，商议",
+      "conjugations": {
+        "dictionary": "相談する",
+        "masu": "そうだんします",
+        "te": "相談して",
+        "nai": "相談しない",
+        "ta": "相談した"
+      },
+      "sentences": [
+        {
+          "ja": "先生に相談してみます。",
+          "zh": "找老师商量看看。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W26",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "数えます",
+      "kana": "かぞえます",
+      "romaji": "kazoemasu",
+      "meaning": "数",
+      "conjugations": {
+        "dictionary": "数える",
+        "masu": "かぞえます",
+        "te": "数えて",
+        "nai": "数えない",
+        "ta": "数えた"
+      },
+      "sentences": [
+        {
+          "ja": "何個あるか、数えてください。",
+          "zh": "请数一下有几个。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W27",
+      "category": "Counters",
+      "kanji": "～本",
+      "kana": "～ほん",
+      "romaji": "~hon",
+      "meaning": "～根，～条（数细长物品时的量词）",
+      "sentences": [
+        {
+          "ja": "ビールを3本ください。",
+          "zh": "请给我3瓶啤酒。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W28",
+      "category": "Counters",
+      "kanji": "～個",
+      "kana": "～こ",
+      "romaji": "~ko",
+      "meaning": "～个（数小物品时的量词）",
+      "sentences": [
+        {
+          "ja": "りんごを5個買いました。",
+          "zh": "买了5个苹果。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W29",
+      "category": "Counters",
+      "kanji": "～杯",
+      "kana": "～はい",
+      "romaji": "~hai",
+      "meaning": "～杯（数装在玻璃杯中的饮料时的量词）",
+      "sentences": [
+        {
+          "ja": "コーヒーを2杯飲みました。",
+          "zh": "喝了2杯咖啡。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W30",
+      "category": "Counters",
+      "kanji": "～センチ",
+      "kana": "～センチ",
+      "romaji": "~senchi",
+      "meaning": "～厘米",
+      "sentences": [
+        {
+          "ja": "長さは30センチです。",
+          "zh": "长度是30厘米。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W31",
+      "category": "Counters",
+      "kanji": "～ミリ",
+      "kana": "～ミリ",
+      "romaji": "~miri",
+      "meaning": "～毫米",
+      "sentences": [
+        {
+          "ja": "きょうは雨が50ミリ降りました。",
+          "zh": "今天下了50毫米的雨。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W32",
+      "category": "Counters",
+      "kanji": "～グラム",
+      "kana": "～グラム",
+      "romaji": "~guramu",
+      "meaning": "～克",
+      "sentences": [
+        {
+          "ja": "砂糖を100グラム入れます。",
+          "zh": "放入100克砂糖。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W33",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "うまくいきます",
+      "kana": "うまくいきます",
+      "romaji": "umaku ikimasu",
+      "meaning": "进展顺利",
+      "conjugations": {
+        "dictionary": "うまくいく",
+        "masu": "うまくいきます",
+        "te": "うまくいって",
+        "nai": "うまくいかない",
+        "ta": "うまくいった"
+      },
+      "sentences": [
+        {
+          "ja": "仕事がうまくいくかどうか、心配です。",
+          "zh": "担心工作是否顺利。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W34",
+      "category": "Adjectives",
+      "grammarType": "na-adj",
+      "kanji": "必要",
+      "kana": "ひつよう",
+      "romaji": "hitsuyou",
+      "meaning": "必要，需要",
+      "sentences": [
+        {
+          "ja": "何が必要か、教えてください。",
+          "zh": "请告诉我需要什么。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W35",
+      "category": "Nouns",
+      "kanji": "天気予報",
+      "kana": "てんきよほう",
+      "romaji": "tenki yohou",
+      "meaning": "天气预报",
+      "sentences": [
+        {
+          "ja": "天気予報であした雨が降るかどうか、確かめます。",
+          "zh": "看天气预报确认明天是否下雨。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W36",
+      "category": "Nouns",
+      "kanji": "重さ",
+      "kana": "おもさ",
+      "romaji": "omosa",
+      "meaning": "重量",
+      "sentences": [
+        {
+          "ja": "荷物の重さを量ってください。",
+          "zh": "请称一下行李的重量。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W37",
+      "category": "Nouns",
+      "kanji": "大きさ",
+      "kana": "おおきさ",
+      "romaji": "ookisa",
+      "meaning": "大小",
+      "sentences": [
+        {
+          "ja": "この箱の大きさを測ります。",
+          "zh": "测量这个箱子的大小。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W38",
+      "category": "Nouns",
+      "kanji": "～以下",
+      "kana": "～いか",
+      "romaji": "~ika",
+      "meaning": "～以下，低于～",
+      "sentences": [
+        {
+          "ja": "荷物は20キロ以下にしてください。",
+          "zh": "行李请控制在20公斤以下。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W39",
+      "category": "Nouns",
+      "kanji": "～以上",
+      "kana": "～いじょう",
+      "romaji": "~ijou",
+      "meaning": "～以上，超过～",
+      "sentences": [
+        {
+          "ja": "18歳以上の人が参加できます。",
+          "zh": "18岁以上的人可以参加。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W40",
+      "category": "Nouns",
+      "kanji": "ズボン",
+      "kana": "ズボン",
+      "romaji": "zubon",
+      "meaning": "裤子",
+      "sentences": [
+        {
+          "ja": "このズボンをはいてみてもいいですか。",
+          "zh": "我可以试穿一下这条裤子吗？"
+        }
+      ]
+    },
+    {
+      "id": "L40-W41",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "合います",
+      "kana": "あいます",
+      "romaji": "aimasu",
+      "meaning": "合适（サイズが合います：尺码合适）",
+      "conjugations": {
+        "dictionary": "合う",
+        "masu": "あいます",
+        "te": "合って",
+        "nai": "合わない",
+        "ta": "合った"
+      },
+      "sentences": [
+        {
+          "ja": "サイズが合います。",
+          "zh": "尺码合适。"
+        },
+        {
+          "ja": "サイズが合うかどうか、はいてみます。",
+          "zh": "试穿一下看尺码合不合适。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W42",
+      "category": "Nouns",
+      "kanji": "発表会",
+      "kana": "はっぴょうかい",
+      "romaji": "happyoukai",
+      "meaning": "发表会",
+      "sentences": [
+        {
+          "ja": "来週発表会があります。",
+          "zh": "下周有发表会。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W43",
+      "category": "Nouns",
+      "kanji": "［お］年寄り",
+      "kana": "［お］としより",
+      "romaji": "[o]toshiyori",
+      "meaning": "老人",
+      "sentences": [
+        {
+          "ja": "お年寄りが大勢参加しました。",
+          "zh": "很多老人参加了。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W44",
+      "category": "Nouns",
+      "kanji": "コンテスト",
+      "kana": "コンテスト",
+      "romaji": "kontesuto",
+      "meaning": "比赛，竞赛",
+      "sentences": [
+        {
+          "ja": "スピーチコンテストに出てみたいです。",
+          "zh": "想参加演讲比赛试试。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W45",
+      "category": "Nouns",
+      "kanji": "マラソン",
+      "kana": "マラソン",
+      "romaji": "marason",
+      "meaning": "马拉松",
+      "sentences": [
+        {
+          "ja": "マラソン大会に出るかどうか、まだ決めていません。",
+          "zh": "是否参加马拉松大会还没决定。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W46",
+      "category": "Nouns",
+      "kanji": "大会",
+      "kana": "たいかい",
+      "romaji": "taikai",
+      "meaning": "大会",
+      "sentences": [
+        {
+          "ja": "大会は仙台で行われます。",
+          "zh": "大会在仙台举行。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W47",
+      "category": "Nouns",
+      "kanji": "仙台",
+      "kana": "せんだい",
+      "romaji": "Sendai",
+      "meaning": "仙台（宫城县县政府所在地）",
+      "sentences": [
+        {
+          "ja": "仙台の七夕祭りは有名です。",
+          "zh": "仙台的七夕节很有名。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W48",
+      "category": "Nouns",
+      "kanji": "七夕祭り",
+      "kana": "たなばたまつり",
+      "romaji": "Tanabata matsuri",
+      "meaning": "七夕",
+      "sentences": [
+        {
+          "ja": "七夕祭りがいつか、調べてください。",
+          "zh": "请查一下七夕节是什么时候。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W49",
+      "category": "Nouns",
+      "kanji": "東照宮",
+      "kana": "とうしょうぐう",
+      "romaji": "Toushouguu",
+      "meaning": "东照宫（位于栃木县日光市的祭奠德川家康的神社）",
+      "sentences": [
+        {
+          "ja": "東照宮は日光にあります。",
+          "zh": "东照宫在日光。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W50",
+      "category": "Nouns",
+      "kanji": "事件",
+      "kana": "じけん",
+      "romaji": "jiken",
+      "meaning": "事件，案件",
+      "sentences": [
+        {
+          "ja": "東京で大きな事件がありました。",
+          "zh": "东京发生了大案件。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W51",
+      "category": "Nouns",
+      "kanji": "オートバイ",
+      "kana": "オートバイ",
+      "romaji": "ootobai",
+      "meaning": "摩托车",
+      "sentences": [
+        {
+          "ja": "オートバイに乗ってみたいです。",
+          "zh": "想试着骑摩托车。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W52",
+      "category": "Nouns",
+      "kanji": "爆弾",
+      "kana": "ばくだん",
+      "romaji": "bakudan",
+      "meaning": "炸弹",
+      "sentences": [
+        {
+          "ja": "トラックに爆弾が積んでありました。",
+          "zh": "卡车上装载着炸弹。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W53",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "積みます",
+      "kana": "つみます",
+      "romaji": "tsumimasu",
+      "meaning": "堆积，装载",
+      "conjugations": {
+        "dictionary": "積む",
+        "masu": "つみます",
+        "te": "積んで",
+        "nai": "積まない",
+        "ta": "積んだ"
+      },
+      "sentences": [
+        {
+          "ja": "車に荷物を積みます。",
+          "zh": "把行李装上车。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W54",
+      "category": "Nouns",
+      "kanji": "運転手",
+      "kana": "うんてんしゅ",
+      "romaji": "untenshu",
+      "meaning": "司机",
+      "sentences": [
+        {
+          "ja": "運転手は急に車を止めました。",
+          "zh": "司机突然停了车。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W55",
+      "category": "Expressions",
+      "kanji": "離れた",
+      "kana": "はなれた",
+      "romaji": "hanareta",
+      "meaning": "离开一段距离的～",
+      "sentences": [
+        {
+          "ja": "町から離れた所に住んでいます。",
+          "zh": "住在离城镇有一段距离的地方。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W56",
+      "category": "Adverbs",
+      "kanji": "急に",
+      "kana": "きゅうに",
+      "romaji": "kyuu ni",
+      "meaning": "突然",
+      "sentences": [
+        {
+          "ja": "急に雨が降りました。",
+          "zh": "突然下雨了。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W57",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "動かします",
+      "kana": "うごかします",
+      "romaji": "ugokashimasu",
+      "meaning": "开动，发动",
+      "conjugations": {
+        "dictionary": "動かす",
+        "masu": "うごかします",
+        "te": "動かして",
+        "nai": "動かさない",
+        "ta": "動かした"
+      },
+      "sentences": [
+        {
+          "ja": "車を動かしてください。",
+          "zh": "请把车开走。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W58",
+      "category": "Adjectives",
+      "grammarType": "na-adj",
+      "kanji": "一生懸命",
+      "kana": "いっしょうけんめい",
+      "romaji": "isshoukenmei",
+      "meaning": "努力，拼命",
+      "sentences": [
+        {
+          "ja": "一生懸命に練習しました。",
+          "zh": "拼命练习了。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W59",
+      "category": "Nouns",
+      "kanji": "犯人",
+      "kana": "はんにん",
+      "romaji": "hannin",
+      "meaning": "犯人",
+      "sentences": [
+        {
+          "ja": "犯人がだれか、まだわかりません。",
+          "zh": "犯人是谁还不知道。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W60",
+      "category": "Nouns",
+      "kanji": "男",
+      "kana": "おとこ",
+      "romaji": "otoko",
+      "meaning": "男人，男子",
+      "sentences": [
+        {
+          "ja": "男の人が立っています。",
+          "zh": "有个男人站着。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W61",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "手に入れます",
+      "kana": "てにいれます",
+      "romaji": "te ni iremasu",
+      "meaning": "到手，得到",
+      "conjugations": {
+        "dictionary": "手に入れる",
+        "masu": "てにいれます",
+        "te": "手に入れて",
+        "nai": "手に入れない",
+        "ta": "手に入れた"
+      },
+      "sentences": [
+        {
+          "ja": "犯人はお金を手に入れました。",
+          "zh": "犯人得到了钱。"
+        }
+      ]
+    },
+    {
+      "id": "L40-W62",
+      "category": "Expressions",
+      "kanji": "今でも",
+      "kana": "いまでも",
+      "romaji": "ima demo",
+      "meaning": "现在仍然",
+      "sentences": [
+        {
+          "ja": "今でも犯人はわかっていません。",
+          "zh": "现在仍然不知道犯人是谁。"
+        }
+      ]
+    }
+  ],
+  "41": [
+    {
+      "id": "L41-W1",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "いただきます",
+      "kana": "いただきます",
+      "romaji": "itadakimasu",
+      "meaning": "得到，收到（「もらいます」的谦逊语）",
+      "conjugations": {
+        "dictionary": "いただく",
+        "masu": "いただきます",
+        "te": "いただいて",
+        "nai": "いただかない",
+        "ta": "いただいた"
+      },
+      "sentences": [
+        {
+          "ja": "わたしはワット先生に本をいただきました。",
+          "zh": "我从瓦特老师那里得到了一本书。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W2",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "くださいます",
+      "kana": "くださいます",
+      "romaji": "kudasaimasu",
+      "meaning": "给我（「くれます」的尊敬语）",
+      "conjugations": {
+        "dictionary": "くださる",
+        "masu": "くださいます",
+        "te": "くださって",
+        "nai": "くださらない",
+        "ta": "くださった"
+      },
+      "sentences": [
+        {
+          "ja": "部長の奥さんがお茶を教えてくださいました。",
+          "zh": "部长夫人教了我茶道。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W3",
+      "category": "Nouns",
+      "kanji": "紙飛行機",
+      "kana": "かみひこうき",
+      "romaji": "kamihikouki",
+      "meaning": "纸飞机",
+      "sentences": [
+        {
+          "ja": "わたしは息子に紙飛行機を作ってやりました。",
+          "zh": "我给儿子做了纸飞机。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W4",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "やります",
+      "kana": "やります",
+      "romaji": "yarimasu",
+      "meaning": "给（用于给比自己年纪小、职位低的人或动植物等某物时）",
+      "conjugations": {
+        "dictionary": "やる",
+        "masu": "やります",
+        "te": "やって",
+        "nai": "やらない",
+        "ta": "やった"
+      },
+      "sentences": [
+        {
+          "ja": "わたしは犬にえさをやりました。",
+          "zh": "我给狗喂食了。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W5",
+      "category": "Nouns",
+      "kanji": "お祝い",
+      "kana": "おいわい",
+      "romaji": "oiwai",
+      "meaning": "祝贺，贺礼（～をします：祝贺，送贺礼）",
+      "sentences": [
+        {
+          "ja": "結婚のお祝いに田中さんがお皿をくださいました。",
+          "zh": "田中作为结婚贺礼送给我盘子。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W6",
+      "category": "Nouns",
+      "kanji": "猿",
+      "kana": "さる",
+      "romaji": "saru",
+      "meaning": "猴子",
+      "sentences": [
+        {
+          "ja": "猿にお菓子をやってもいいですか。",
+          "zh": "可以给猴子点心吗？"
+        }
+      ]
+    },
+    {
+      "id": "L41-W7",
+      "category": "Nouns",
+      "kanji": "餌",
+      "kana": "えさ",
+      "romaji": "esa",
+      "meaning": "饵料，饲料",
+      "sentences": [
+        {
+          "ja": "あそこにえさをやってはいけないと書いてあります。",
+          "zh": "那边写着不能喂食。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W8",
+      "category": "Nouns",
+      "kanji": "この間",
+      "kana": "このあいだ",
+      "romaji": "kono aida",
+      "meaning": "前些天，前几天",
+      "sentences": [
+        {
+          "ja": "この間部長に連れて行っていただきました。",
+          "zh": "前几天部长带我去了。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W9",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "親切にします",
+      "kana": "しんせつにします",
+      "romaji": "shinsetsu ni shimasu",
+      "meaning": "和气，热情",
+      "conjugations": {
+        "dictionary": "親切にする",
+        "masu": "しんせつにします",
+        "te": "親切にして",
+        "nai": "親切にしない",
+        "ta": "親切にした"
+      },
+      "sentences": [
+        {
+          "ja": "家族の皆さんがとても親切にしてくださいました。",
+          "zh": "家里的各位对我都非常热情。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W10",
+      "category": "Nouns",
+      "kanji": "一言",
+      "kana": "ひとこと",
+      "romaji": "hitokoto",
+      "meaning": "（说上）一句",
+      "sentences": [
+        {
+          "ja": "皆さんにひとことずつお願いします。",
+          "zh": "请各位每人说一句。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W11",
+      "category": "Particles",
+      "kanji": "～ずつ",
+      "kana": "～ずつ",
+      "romaji": "~zutsu",
+      "meaning": "每～（表示固定的同数量的分配）",
+      "sentences": [
+        {
+          "ja": "一人に一つずつあげます。",
+          "zh": "每人给一个。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W12",
+      "category": "Nouns",
+      "kanji": "二人",
+      "kana": "ふたり",
+      "romaji": "futari",
+      "meaning": "两人（可指情侣、夫妻）",
+      "sentences": [
+        {
+          "ja": "きっとお二人のお宅もすてきだと思います。",
+          "zh": "我想两位的家一定也很棒。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W13",
+      "category": "Nouns",
+      "kanji": "お宅",
+      "kana": "おたく",
+      "romaji": "otaku",
+      "meaning": "府上（「うち」和「いえ」的尊敬语）",
+      "sentences": [
+        {
+          "ja": "部長のお宅へ伺いました。",
+          "zh": "拜访了部长府上。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W14",
+      "category": "Expressions",
+      "kanji": "どうぞお幸せに",
+      "kana": "どうぞおしあわせに",
+      "romaji": "douzo oshiawase ni",
+      "meaning": "祝你们幸福",
+      "sentences": [
+        {
+          "ja": "ご結婚おめでとうございます。どうぞお幸せに。",
+          "zh": "祝贺你们结婚。祝你们幸福。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W15",
+      "category": "Nouns",
+      "kanji": "孫",
+      "kana": "まご",
+      "romaji": "mago",
+      "meaning": "（自己的）孙子，外孙",
+      "sentences": [
+        {
+          "ja": "孫におもちゃを買ってやりました。",
+          "zh": "给孙子买了玩具。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W16",
+      "category": "Nouns",
+      "kanji": "幼稚園",
+      "kana": "ようちえん",
+      "romaji": "youchien",
+      "meaning": "幼儿园",
+      "sentences": [
+        {
+          "ja": "娘は幼稚園に行っています。",
+          "zh": "女儿在上幼儿园。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W17",
+      "category": "Nouns",
+      "kanji": "靴下",
+      "kana": "くつした",
+      "romaji": "kutsushita",
+      "meaning": "袜子",
+      "sentences": [
+        {
+          "ja": "祖母に靴下をいただきました。",
+          "zh": "从祖母那里得到了袜子。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W18",
+      "category": "Nouns",
+      "kanji": "絵葉書",
+      "kana": "えはがき",
+      "romaji": "ehagaki",
+      "meaning": "明信片",
+      "sentences": [
+        {
+          "ja": "友達に絵葉書を送ってあげました。",
+          "zh": "给朋友寄了明信片。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W19",
+      "category": "Nouns",
+      "kanji": "叔母",
+      "kana": "おば",
+      "romaji": "oba",
+      "meaning": "（自己的）姑姑，姨，伯母，婶婶，舅妈",
+      "sentences": [
+        {
+          "ja": "おばに手袋をいただきました。",
+          "zh": "从姑姑那里得到了手套。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W20",
+      "category": "Nouns",
+      "kanji": "おばさん",
+      "kana": "おばさん",
+      "romaji": "obasan",
+      "meaning": "（别人的）姑姑，姨，伯母，婶婶，舅妈",
+      "sentences": [
+        {
+          "ja": "隣のおばさんはとても親切です。",
+          "zh": "邻居的阿姨非常热情。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W21",
+      "category": "Nouns",
+      "kanji": "叔父",
+      "kana": "おじ",
+      "romaji": "oji",
+      "meaning": "（自己的）叔叔，伯父，舅舅",
+      "sentences": [
+        {
+          "ja": "おじが車で駅まで送ってくれました。",
+          "zh": "舅舅开车把我送到了车站。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W22",
+      "category": "Nouns",
+      "kanji": "おじさん",
+      "kana": "おじさん",
+      "romaji": "ojisan",
+      "meaning": "（别人的）叔叔，伯父，舅舅",
+      "sentences": [
+        {
+          "ja": "田中さんのおじさんは医者です。",
+          "zh": "田中的叔叔是医生。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W23",
+      "category": "Nouns",
+      "kanji": "手袋",
+      "kana": "てぶくろ",
+      "romaji": "tebukuro",
+      "meaning": "手套",
+      "sentences": [
+        {
+          "ja": "母に手袋をもらいました。",
+          "zh": "从妈妈那里得到了手套。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W24",
+      "category": "Nouns",
+      "kanji": "ハンカチ",
+      "kana": "ハンカチ",
+      "romaji": "hankachi",
+      "meaning": "手绢（「ハンカチーフ」的略称）",
+      "sentences": [
+        {
+          "ja": "誕生日にハンカチをいただきました。",
+          "zh": "生日时得到了手绢。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W25",
+      "category": "Nouns",
+      "kanji": "祖母",
+      "kana": "そぼ",
+      "romaji": "sobo",
+      "meaning": "（自己的）祖母，外祖母",
+      "sentences": [
+        {
+          "ja": "祖母がお年玉をくれました。",
+          "zh": "祖母给了我压岁钱。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W26",
+      "category": "Nouns",
+      "kanji": "祖父",
+      "kana": "そふ",
+      "romaji": "sofu",
+      "meaning": "（自己的）祖父，外祖父",
+      "sentences": [
+        {
+          "ja": "祖父に昔話を話してもらいました。",
+          "zh": "请祖父讲了传说故事。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W27",
+      "category": "Nouns",
+      "kanji": "お年玉",
+      "kana": "おとしだま",
+      "romaji": "otoshidama",
+      "meaning": "压岁钱",
+      "sentences": [
+        {
+          "ja": "子どもにお年玉をやりました。",
+          "zh": "给了孩子压岁钱。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W28",
+      "category": "Nouns",
+      "kanji": "文法",
+      "kana": "ぶんぽう",
+      "romaji": "bunpou",
+      "meaning": "语法",
+      "sentences": [
+        {
+          "ja": "先生に文法を教えていただきました。",
+          "zh": "请老师教了语法。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W29",
+      "category": "Nouns",
+      "kanji": "発音",
+      "kana": "はつおん",
+      "romaji": "hatsuon",
+      "meaning": "发音",
+      "sentences": [
+        {
+          "ja": "先生に発音を直していただきました。",
+          "zh": "请老师纠正了发音。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W30",
+      "category": "Nouns",
+      "kanji": "玩具",
+      "kana": "おもちゃ",
+      "romaji": "omocha",
+      "meaning": "玩具",
+      "sentences": [
+        {
+          "ja": "子どもにおもちゃを買ってやりました。",
+          "zh": "给孩子买了玩具。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W31",
+      "category": "Nouns",
+      "kanji": "絵本",
+      "kana": "えほん",
+      "romaji": "ehon",
+      "meaning": "图画书，小人书",
+      "sentences": [
+        {
+          "ja": "子どもに絵本を読んでやりました。",
+          "zh": "给孩子读了图画书。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W32",
+      "category": "Nouns",
+      "kanji": "着方",
+      "kana": "きかた",
+      "romaji": "kikata",
+      "meaning": "（衣服的）穿法",
+      "sentences": [
+        {
+          "ja": "着物の着方を教えてくださいませんか。",
+          "zh": "能教我一下和服的穿法吗？"
+        }
+      ]
+    },
+    {
+      "id": "L41-W33",
+      "category": "Nouns",
+      "kanji": "お孫さん",
+      "kana": "おまごさん",
+      "romaji": "omagosan",
+      "meaning": "（别人的）孙子，外孙",
+      "sentences": [
+        {
+          "ja": "お孫さんは何歳ですか。",
+          "zh": "您的孙子几岁了？"
+        }
+      ]
+    },
+    {
+      "id": "L41-W34",
+      "category": "Nouns",
+      "kanji": "興味",
+      "kana": "きょうみ",
+      "romaji": "kyoumi",
+      "meaning": "爱好，兴趣（［コンピューターに］～があります：对［电脑］感兴趣）",
+      "sentences": [
+        {
+          "ja": "コンピューターに興味があります。",
+          "zh": "对电脑感兴趣。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W35",
+      "category": "Nouns",
+      "kanji": "暖房",
+      "kana": "だんぼう",
+      "romaji": "danbou",
+      "meaning": "暖气",
+      "sentences": [
+        {
+          "ja": "寒いので、暖房をつけてくださいませんか。",
+          "zh": "因为冷，能开一下暖气吗？"
+        }
+      ]
+    },
+    {
+      "id": "L41-W36",
+      "category": "Nouns",
+      "kanji": "冷房",
+      "kana": "れいぼう",
+      "romaji": "reibou",
+      "meaning": "冷气",
+      "sentences": [
+        {
+          "ja": "冷房の温度を下げてください。",
+          "zh": "请把冷气的温度调低。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W37",
+      "category": "Nouns",
+      "kanji": "温度",
+      "kana": "おんど",
+      "romaji": "ondo",
+      "meaning": "温度",
+      "sentences": [
+        {
+          "ja": "暖房の温度を上げてもいいですか。",
+          "zh": "可以把暖气温度调高吗？"
+        }
+      ]
+    },
+    {
+      "id": "L41-W38",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "上げます",
+      "kana": "あげます",
+      "romaji": "agemasu",
+      "meaning": "调高，提高，改善",
+      "conjugations": {
+        "dictionary": "上げる",
+        "masu": "あげます",
+        "te": "上げて",
+        "nai": "上げない",
+        "ta": "上げた"
+      },
+      "sentences": [
+        {
+          "ja": "温度を上げます。",
+          "zh": "调高温度。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W39",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "下げます",
+      "kana": "さげます",
+      "romaji": "sagemasu",
+      "meaning": "调低，降低，放低",
+      "conjugations": {
+        "dictionary": "下げる",
+        "masu": "さげます",
+        "te": "下げて",
+        "nai": "下げない",
+        "ta": "下げた"
+      },
+      "sentences": [
+        {
+          "ja": "温度を下げてくださいませんか。",
+          "zh": "能把温度调低一点吗？"
+        }
+      ]
+    },
+    {
+      "id": "L41-W40",
+      "category": "Nouns",
+      "kanji": "情報",
+      "kana": "じょうほう",
+      "romaji": "jouhou",
+      "meaning": "信息",
+      "sentences": [
+        {
+          "ja": "先生にいろいろな情報を教えていただきました。",
+          "zh": "老师告诉了我很多信息。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W41",
+      "category": "Adjectives",
+      "grammarType": "i-adj",
+      "kanji": "可愛い",
+      "kana": "かわいい",
+      "romaji": "kawaii",
+      "meaning": "可爱",
+      "sentences": [
+        {
+          "ja": "かわいい靴下をいただきました。",
+          "zh": "得到了可爱的袜子。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W42",
+      "category": "Nouns",
+      "kanji": "管理人",
+      "kana": "かんりにん",
+      "romaji": "kanrinin",
+      "meaning": "（公寓等的）管理员",
+      "sentences": [
+        {
+          "ja": "管理人さんにドライバーを貸していただきました。",
+          "zh": "向管理员借了改锥。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W43",
+      "category": "Expressions",
+      "kanji": "～さん",
+      "kana": "～さん",
+      "romaji": "~san",
+      "meaning": "为了表示礼貌，接续在职业名、职务名称之后的接尾词",
+      "sentences": [
+        {
+          "ja": "管理人さんに聞いてみます。",
+          "zh": "问问管理员。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W44",
+      "category": "Nouns",
+      "kanji": "ドライバー",
+      "kana": "ドライバー",
+      "romaji": "doraibaa",
+      "meaning": "改锥，螺丝刀",
+      "sentences": [
+        {
+          "ja": "ドライバーを貸してくださいませんか。",
+          "zh": "能借我一下改锥吗？"
+        }
+      ]
+    },
+    {
+      "id": "L41-W45",
+      "category": "Nouns",
+      "kanji": "［お］見舞い",
+      "kana": "［お］みまい",
+      "romaji": "[o]mimai",
+      "meaning": "探视（病人），慰问品",
+      "sentences": [
+        {
+          "ja": "お見舞いに花を持って行きました。",
+          "zh": "带了花去探病。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W46",
+      "category": "Adjectives",
+      "grammarType": "i-adj",
+      "kanji": "珍しい",
+      "kana": "めずらしい",
+      "romaji": "mezurashii",
+      "meaning": "珍奇，罕见",
+      "sentences": [
+        {
+          "ja": "珍しいお土産をいただきました。",
+          "zh": "得到了罕见的礼物。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W47",
+      "category": "Nouns",
+      "kanji": "浦島太郎",
+      "kana": "うらしまたろう",
+      "romaji": "Urashima Tarou",
+      "meaning": "浦岛太郎（传说故事中主人公的名字）",
+      "sentences": [
+        {
+          "ja": "浦島太郎は日本の昔話です。",
+          "zh": "浦岛太郎是日本的传说故事。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W48",
+      "category": "Nouns",
+      "kanji": "昔話",
+      "kana": "むかしばなし",
+      "romaji": "mukashibanashi",
+      "meaning": "传说，故事",
+      "sentences": [
+        {
+          "ja": "祖母に昔話をしてもらいました。",
+          "zh": "请祖母讲了传说故事。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W49",
+      "category": "Expressions",
+      "kanji": "ある～",
+      "kana": "ある～",
+      "romaji": "aru~",
+      "meaning": "某～，某个～",
+      "sentences": [
+        {
+          "ja": "ある日、浦島太郎は海へ行きました。",
+          "zh": "某一天，浦岛太郎去了海边。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W50",
+      "category": "Nouns",
+      "kanji": "男",
+      "kana": "おとこ",
+      "romaji": "otoko",
+      "meaning": "男人，男子",
+      "sentences": [
+        {
+          "ja": "浦島太郎という男がいました。",
+          "zh": "有一个叫浦岛太郎的男人。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W51",
+      "category": "Nouns",
+      "kanji": "子どもたち",
+      "kana": "こどもたち",
+      "romaji": "kodomotachi",
+      "meaning": "孩子们",
+      "sentences": [
+        {
+          "ja": "子どもたちが亀をいじめていました。",
+          "zh": "孩子们在欺负乌龟。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W52",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "虐めます",
+      "kana": "いじめます",
+      "romaji": "ijimemasu",
+      "meaning": "欺负",
+      "conjugations": {
+        "dictionary": "虐める",
+        "masu": "いじめます",
+        "te": "虐めて",
+        "nai": "虐めない",
+        "ta": "虐めた"
+      },
+      "sentences": [
+        {
+          "ja": "動物を虐めてはいけません。",
+          "zh": "不可以欺负动物。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W53",
+      "category": "Nouns",
+      "kanji": "亀",
+      "kana": "かめ",
+      "romaji": "kame",
+      "meaning": "乌龟",
+      "sentences": [
+        {
+          "ja": "浦島太郎は亀を助けました。",
+          "zh": "浦岛太郎救了乌龟。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W54",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "助けます",
+      "kana": "たすけます",
+      "romaji": "tasukemasu",
+      "meaning": "帮助，救助",
+      "conjugations": {
+        "dictionary": "助ける",
+        "masu": "たすけます",
+        "te": "助けて",
+        "nai": "助けない",
+        "ta": "助けた"
+      },
+      "sentences": [
+        {
+          "ja": "亀を助けてやりました。",
+          "zh": "救了乌龟。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W55",
+      "category": "Adjectives",
+      "grammarType": "i-adj",
+      "kanji": "優しい",
+      "kana": "やさしい",
+      "romaji": "yasashii",
+      "meaning": "温柔，亲切",
+      "sentences": [
+        {
+          "ja": "浦島太郎は優しい男でした。",
+          "zh": "浦岛太郎是个善良的男人。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W56",
+      "category": "Nouns",
+      "kanji": "お姫様",
+      "kana": "おひめさま",
+      "romaji": "ohimesama",
+      "meaning": "公主",
+      "sentences": [
+        {
+          "ja": "海の中でお姫様に会いました。",
+          "zh": "在海里见到了公主。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W57",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "暮らします",
+      "kana": "くらします",
+      "romaji": "kurashimasu",
+      "meaning": "生活，度日",
+      "conjugations": {
+        "dictionary": "暮らす",
+        "masu": "くらします",
+        "te": "暮らして",
+        "nai": "暮らさない",
+        "ta": "暮らした"
+      },
+      "sentences": [
+        {
+          "ja": "浦島太郎は海の中で楽しく暮らしました。",
+          "zh": "浦岛太郎在海里快乐地生活。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W58",
+      "category": "Nouns",
+      "kanji": "陸",
+      "kana": "りく",
+      "romaji": "riku",
+      "meaning": "陆地",
+      "sentences": [
+        {
+          "ja": "浦島太郎は陸へ帰りました。",
+          "zh": "浦岛太郎回到了陆地。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W59",
+      "category": "Expressions",
+      "kanji": "すると",
+      "kana": "すると",
+      "romaji": "suruto",
+      "meaning": "于是",
+      "sentences": [
+        {
+          "ja": "箱を開けました。すると、白い煙が出ました。",
+          "zh": "打开了箱子。于是，冒出了白烟。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W60",
+      "category": "Nouns",
+      "kanji": "煙",
+      "kana": "けむり",
+      "romaji": "kemuri",
+      "meaning": "烟",
+      "sentences": [
+        {
+          "ja": "箱から白い煙が出ました。",
+          "zh": "箱子里冒出了白烟。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W61",
+      "category": "Adjectives",
+      "grammarType": "na-adj",
+      "kanji": "真っ白",
+      "kana": "まっしろ",
+      "romaji": "masshiro",
+      "meaning": "雪白，纯白",
+      "sentences": [
+        {
+          "ja": "浦島太郎の髪は真っ白になりました。",
+          "zh": "浦岛太郎的头发变得雪白。"
+        }
+      ]
+    },
+    {
+      "id": "L41-W62",
+      "category": "Nouns",
+      "kanji": "中身",
+      "kana": "なかみ",
+      "romaji": "nakami",
+      "meaning": "装在其中的东西，内容",
+      "sentences": [
+        {
+          "ja": "箱の中身は何ですか。",
+          "zh": "箱子里装的是什么？"
+        }
+      ]
+    }
+  ],
+  "42": [
+    {
+      "id": "L42-W1",
+      "category": "Nouns",
+      "kanji": "エリーゼのために",
+      "kana": "エリーゼのために",
+      "romaji": "Eriize no tame ni",
+      "meaning": "《致爱丽丝》",
+      "sentences": [
+        {
+          "ja": "「エリーゼのために」はベートーベンの曲です。",
+          "zh": "《致爱丽丝》是贝多芬的曲子。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W2",
+      "category": "Nouns",
+      "kanji": "ベートーベン",
+      "kana": "ベートーベン",
+      "romaji": "Beetooben",
+      "meaning": "贝多芬（1770-1827，德国作曲家）",
+      "sentences": [
+        {
+          "ja": "ベートーベンはある女の人のために、この曲を作りました。",
+          "zh": "贝多芬为某位女性创作了这首曲子。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W3",
+      "category": "Expressions",
+      "kanji": "ある～",
+      "kana": "ある～",
+      "romaji": "aru~",
+      "meaning": "某～，某个～",
+      "sentences": [
+        {
+          "ja": "ある女の人のために作った曲です。",
+          "zh": "是为某位女性创作的曲子。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W4",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "出ます",
+      "kana": "でます",
+      "romaji": "demasu",
+      "meaning": "发（钱）（ボーナスが出ます：发奖金）",
+      "conjugations": {
+        "dictionary": "出る",
+        "masu": "でます",
+        "te": "出て",
+        "nai": "出ない",
+        "ta": "出た"
+      },
+      "sentences": [
+        {
+          "ja": "ボーナスが出ます。",
+          "zh": "发奖金。"
+        },
+        {
+          "ja": "ボーナスはいつ出るんですか。",
+          "zh": "奖金什么时候发？"
+        }
+      ]
+    },
+    {
+      "id": "L42-W5",
+      "category": "Nouns",
+      "kanji": "楽しみ",
+      "kana": "たのしみ",
+      "romaji": "tanoshimi",
+      "meaning": "消遣，盼望，兴趣",
+      "sentences": [
+        {
+          "ja": "来週旅行に行きます。楽しみです。",
+          "zh": "下周去旅行，很期待。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W6",
+      "category": "Nouns",
+      "kanji": "半分",
+      "kana": "はんぶん",
+      "romaji": "hanbun",
+      "meaning": "一半",
+      "sentences": [
+        {
+          "ja": "わたしはボーナスの半分は貯金するつもりです。",
+          "zh": "我打算把奖金的一半存起来。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W7",
+      "category": "Nouns",
+      "kanji": "ローン",
+      "kana": "ローン",
+      "romaji": "roon",
+      "meaning": "贷款",
+      "sentences": [
+        {
+          "ja": "家のローンを払っています。",
+          "zh": "在还房贷。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W8",
+      "category": "Nouns",
+      "kanji": "弁護士",
+      "kana": "べんごし",
+      "romaji": "bengoshi",
+      "meaning": "律师",
+      "sentences": [
+        {
+          "ja": "弁護士になるために、法律を勉強しています。",
+          "zh": "为了当律师，正在学习法律。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W9",
+      "category": "Nouns",
+      "kanji": "法律",
+      "kana": "ほうりつ",
+      "romaji": "houritsu",
+      "meaning": "法律",
+      "sentences": [
+        {
+          "ja": "大学で法律を勉強しています。",
+          "zh": "在大学学习法律。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W10",
+      "category": "Nouns",
+      "kanji": "教育",
+      "kana": "きょういく",
+      "romaji": "kyouiku",
+      "meaning": "教育",
+      "sentences": [
+        {
+          "ja": "子どもの教育のために、貯金しています。",
+          "zh": "为了孩子的教育在存钱。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W11",
+      "category": "Nouns",
+      "kanji": "子どもたち",
+      "kana": "こどもたち",
+      "romaji": "kodomotachi",
+      "meaning": "孩子们",
+      "sentences": [
+        {
+          "ja": "子どもたちのために、公園を作ります。",
+          "zh": "为了孩子们建造公园。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W12",
+      "category": "Adjectives",
+      "grammarType": "na-adj",
+      "kanji": "一生懸命",
+      "kana": "いっしょうけんめい",
+      "romaji": "isshoukenmei",
+      "meaning": "努力，拼命",
+      "sentences": [
+        {
+          "ja": "一生懸命に働いています。",
+          "zh": "拼命地工作。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W13",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "並びます",
+      "kana": "ならびます",
+      "romaji": "narabimasu",
+      "meaning": "排列，排队",
+      "conjugations": {
+        "dictionary": "並ぶ",
+        "masu": "ならびます",
+        "te": "並んで",
+        "nai": "並ばない",
+        "ta": "並んだ"
+      },
+      "sentences": [
+        {
+          "ja": "切符を買うために、1時間並びました。",
+          "zh": "为了买票排了1个小时的队。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W14",
+      "category": "Adverbs",
+      "kanji": "なぜ",
+      "kana": "なぜ",
+      "romaji": "naze",
+      "meaning": "为什么，怎么",
+      "sentences": [
+        {
+          "ja": "なぜ一人で山に登るんですか。",
+          "zh": "为什么一个人去爬山？"
+        }
+      ]
+    },
+    {
+      "id": "L42-W15",
+      "category": "Nouns",
+      "kanji": "自然",
+      "kana": "しぜん",
+      "romaji": "shizen",
+      "meaning": "自然",
+      "sentences": [
+        {
+          "ja": "自然の中で暮らしたいです。",
+          "zh": "想在大自然中生活。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W16",
+      "category": "Nouns",
+      "kanji": "平和",
+      "kana": "へいわ",
+      "romaji": "heiwa",
+      "meaning": "和平",
+      "sentences": [
+        {
+          "ja": "世界の平和のために、働いています。",
+          "zh": "为了世界和平而工作。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W17",
+      "category": "Nouns",
+      "kanji": "戦争",
+      "kana": "せんそう",
+      "romaji": "sensou",
+      "meaning": "战争",
+      "sentences": [
+        {
+          "ja": "戦争のない世界を作りたいです。",
+          "zh": "想创造一个没有战争的世界。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W18",
+      "category": "Nouns",
+      "kanji": "国連",
+      "kana": "こくれん",
+      "romaji": "kokuren",
+      "meaning": "联合国",
+      "sentences": [
+        {
+          "ja": "国連は世界の平和のために、作られました。",
+          "zh": "联合国是为了世界和平而创建的。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W19",
+      "category": "Nouns",
+      "kanji": "音楽家",
+      "kana": "おんがくか",
+      "romaji": "ongakuka",
+      "meaning": "音乐家",
+      "sentences": [
+        {
+          "ja": "ベートーベンは有名な音楽家です。",
+          "zh": "贝多芬是有名的音乐家。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W20",
+      "category": "Nouns",
+      "kanji": "材料",
+      "kana": "ざいりょう",
+      "romaji": "zairyou",
+      "meaning": "材料",
+      "sentences": [
+        {
+          "ja": "この料理の材料は何ですか。",
+          "zh": "这道菜的材料是什么？"
+        }
+      ]
+    },
+    {
+      "id": "L42-W21",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "混ぜます",
+      "kana": "まぜます",
+      "romaji": "mazemasu",
+      "meaning": "搅拌，混合",
+      "conjugations": {
+        "dictionary": "混ぜる",
+        "masu": "まぜます",
+        "te": "混ぜて",
+        "nai": "混ぜない",
+        "ta": "混ぜた"
+      },
+      "sentences": [
+        {
+          "ja": "ミキサーは材料を混ぜるのに使います。",
+          "zh": "搅拌器用来搅拌材料。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W22",
+      "category": "Nouns",
+      "kanji": "ミキサー",
+      "kana": "ミキサー",
+      "romaji": "mikisaa",
+      "meaning": "搅拌器",
+      "sentences": [
+        {
+          "ja": "ミキサーで野菜と果物を混ぜます。",
+          "zh": "用搅拌器搅拌蔬菜和水果。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W23",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "包みます",
+      "kana": "つつみます",
+      "romaji": "tsutsumimasu",
+      "meaning": "包，包上",
+      "conjugations": {
+        "dictionary": "包む",
+        "masu": "つつみます",
+        "te": "包んで",
+        "nai": "包まない",
+        "ta": "包んだ"
+      },
+      "sentences": [
+        {
+          "ja": "風呂敷はお土産を包むのに便利です。",
+          "zh": "包袱皮用来包礼物很方便。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W24",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "計算します",
+      "kana": "けいさんします",
+      "romaji": "keisan shimasu",
+      "meaning": "计算",
+      "conjugations": {
+        "dictionary": "計算する",
+        "masu": "けいさんします",
+        "te": "計算して",
+        "nai": "計算しない",
+        "ta": "計算した"
+      },
+      "sentences": [
+        {
+          "ja": "そろばんは計算するのに使います。",
+          "zh": "算盘用来计算。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W25",
+      "category": "Nouns",
+      "kanji": "のし袋",
+      "kana": "のしぶくろ",
+      "romaji": "noshibukuro",
+      "meaning": "赠款袋（装赠款的专用信封）",
+      "sentences": [
+        {
+          "ja": "お祝いのお金はのし袋に入れます。",
+          "zh": "贺礼的钱放进赠款袋里。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W26",
+      "category": "Nouns",
+      "kanji": "体温計",
+      "kana": "たいおんけい",
+      "romaji": "taionkei",
+      "meaning": "体温计",
+      "sentences": [
+        {
+          "ja": "体温計は熱を測るのに使います。",
+          "zh": "体温计用来量体温。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W27",
+      "category": "Nouns",
+      "kanji": "風呂敷",
+      "kana": "ふろしき",
+      "romaji": "furoshiki",
+      "meaning": "包袱皮",
+      "sentences": [
+        {
+          "ja": "風呂敷は物を包むのに使います。",
+          "zh": "包袱皮用来包东西。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W28",
+      "category": "Nouns",
+      "kanji": "算盤",
+      "kana": "そろばん",
+      "romaji": "soroban",
+      "meaning": "算盘",
+      "sentences": [
+        {
+          "ja": "昔はそろばんで計算しました。",
+          "zh": "从前用算盘计算。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W29",
+      "category": "Nouns",
+      "kanji": "子どもニュース",
+      "kana": "こどもニュース",
+      "romaji": "kodomo nyuusu",
+      "meaning": "儿童新闻（虚拟的新闻）",
+      "sentences": [
+        {
+          "ja": "子どもニュースは子どものために作られた番組です。",
+          "zh": "儿童新闻是为孩子们制作的节目。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W30",
+      "category": "Adjectives",
+      "grammarType": "na-adj",
+      "kanji": "丈夫",
+      "kana": "じょうぶ",
+      "romaji": "joubu",
+      "meaning": "结实",
+      "sentences": [
+        {
+          "ja": "このかばんは丈夫で、旅行に便利です。",
+          "zh": "这个包很结实，旅行用很方便。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W31",
+      "category": "Adverbs",
+      "kanji": "どのくらい",
+      "kana": "どのくらい",
+      "romaji": "dono kurai",
+      "meaning": "多少",
+      "sentences": [
+        {
+          "ja": "この橋を造るのにどのくらいかかりましたか。",
+          "zh": "造这座桥花了多长时间？"
+        }
+      ]
+    },
+    {
+      "id": "L42-W32",
+      "category": "Nouns",
+      "kanji": "目的",
+      "kana": "もくてき",
+      "romaji": "mokuteki",
+      "meaning": "目的",
+      "sentences": [
+        {
+          "ja": "日本へ来た目的は何ですか。",
+          "zh": "来日本的目的是什么？"
+        }
+      ]
+    },
+    {
+      "id": "L42-W33",
+      "category": "Nouns",
+      "kanji": "政治",
+      "kana": "せいじ",
+      "romaji": "seiji",
+      "meaning": "政治",
+      "sentences": [
+        {
+          "ja": "大学で政治を勉強しています。",
+          "zh": "在大学学习政治。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W34",
+      "category": "Nouns",
+      "kanji": "文化",
+      "kana": "ぶんか",
+      "romaji": "bunka",
+      "meaning": "文化",
+      "sentences": [
+        {
+          "ja": "日本の文化を知るために、日本へ来ました。",
+          "zh": "为了了解日本文化来到日本。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W35",
+      "category": "Nouns",
+      "kanji": "社会",
+      "kana": "しゃかい",
+      "romaji": "shakai",
+      "meaning": "社会",
+      "sentences": [
+        {
+          "ja": "社会のために、働きたいです。",
+          "zh": "想为社会工作。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W36",
+      "category": "Nouns",
+      "kanji": "論文",
+      "kana": "ろんぶん",
+      "romaji": "ronbun",
+      "meaning": "论文",
+      "sentences": [
+        {
+          "ja": "論文を書くのに1年かかりました。",
+          "zh": "写论文花了1年。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W37",
+      "category": "Nouns",
+      "kanji": "缶詰",
+      "kana": "かんづめ",
+      "romaji": "kanzume",
+      "meaning": "罐头",
+      "sentences": [
+        {
+          "ja": "缶詰を開けるのに缶切りを使います。",
+          "zh": "开罐头用罐头起子。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W38",
+      "category": "Nouns",
+      "kanji": "缶切り",
+      "kana": "かんきり",
+      "romaji": "kankiri",
+      "meaning": "罐头起子",
+      "sentences": [
+        {
+          "ja": "缶切りは缶詰を開けるのに使います。",
+          "zh": "罐头起子用来开罐头。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W39",
+      "category": "Nouns",
+      "kanji": "蓋",
+      "kana": "ふた",
+      "romaji": "futa",
+      "meaning": "盖子",
+      "sentences": [
+        {
+          "ja": "蓋を開けてください。",
+          "zh": "请打开盖子。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W40",
+      "category": "Nouns",
+      "kanji": "栓抜き",
+      "kana": "せんぬき",
+      "romaji": "sennuki",
+      "meaning": "瓶起子",
+      "sentences": [
+        {
+          "ja": "栓抜きはビールを開けるのに使います。",
+          "zh": "瓶起子用来开啤酒。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W41",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "沸かします",
+      "kana": "わかします",
+      "romaji": "wakashimasu",
+      "meaning": "烧开",
+      "conjugations": {
+        "dictionary": "沸かす",
+        "masu": "わかします",
+        "te": "沸かして",
+        "nai": "沸かさない",
+        "ta": "沸かした"
+      },
+      "sentences": [
+        {
+          "ja": "お湯を沸かします。",
+          "zh": "烧开水。"
+        },
+        {
+          "ja": "やかんはお湯を沸かすのに使います。",
+          "zh": "水壶用来烧水。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W42",
+      "category": "Nouns",
+      "kanji": "薬缶",
+      "kana": "やかん",
+      "romaji": "yakan",
+      "meaning": "水壶",
+      "sentences": [
+        {
+          "ja": "やかんでお湯を沸かします。",
+          "zh": "用水壶烧水。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W43",
+      "category": "Nouns",
+      "kanji": "アパート",
+      "kana": "アパート",
+      "romaji": "apaato",
+      "meaning": "公共住宅，公寓（「アパートメントハウス」的略称）",
+      "sentences": [
+        {
+          "ja": "駅の近くのアパートに住んでいます。",
+          "zh": "住在车站附近的公寓。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W44",
+      "category": "Nouns",
+      "kanji": "カップめん",
+      "kana": "カップめん",
+      "romaji": "kappumen",
+      "meaning": "杯面（放在可以扔掉的杯装容器中的方便面）",
+      "sentences": [
+        {
+          "ja": "カップめんはお湯を注ぐだけで食べられます。",
+          "zh": "杯面只要倒入热水就能吃。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W45",
+      "category": "Nouns",
+      "kanji": "チキンラーメン",
+      "kana": "チキンラーメン",
+      "romaji": "chikin raamen",
+      "meaning": "鸡肉拉面（方便面的品牌）",
+      "sentences": [
+        {
+          "ja": "チキンラーメンは1958年に発明されました。",
+          "zh": "鸡肉拉面是1958年发明的。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W46",
+      "category": "Nouns",
+      "kanji": "世界初",
+      "kana": "せかいはつ",
+      "romaji": "sekaihatsu",
+      "meaning": "世界最初",
+      "sentences": [
+        {
+          "ja": "チキンラーメンは世界初のインスタントラーメンです。",
+          "zh": "鸡肉拉面是世界上最早的方便面。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W47",
+      "category": "Nouns",
+      "kanji": "安藤百福",
+      "kana": "あんどうももふく",
+      "romaji": "Andou Momofuku",
+      "meaning": "安藤百福（1910-2007，日本实业家、发明家）",
+      "sentences": [
+        {
+          "ja": "安藤百福さんはインスタントラーメンを発明しました。",
+          "zh": "安藤百福发明了方便面。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W48",
+      "category": "Particles",
+      "kanji": "～によって",
+      "kana": "～によって",
+      "romaji": "~ni yotte",
+      "meaning": "由～，被～",
+      "sentences": [
+        {
+          "ja": "チキンラーメンは安藤百福さんによって発明されました。",
+          "zh": "鸡肉拉面是由安藤百福发明的。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W49",
+      "category": "Nouns",
+      "kanji": "丼",
+      "kana": "どんぶり",
+      "romaji": "donburi",
+      "meaning": "大碗",
+      "sentences": [
+        {
+          "ja": "丼にめんを入れます。",
+          "zh": "把面条放进大碗里。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W50",
+      "category": "Nouns",
+      "kanji": "麺",
+      "kana": "めん",
+      "romaji": "men",
+      "meaning": "面条",
+      "sentences": [
+        {
+          "ja": "めんにお湯を注ぎます。",
+          "zh": "往面条里倒热水。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W51",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "広めます",
+      "kana": "ひろめます",
+      "romaji": "hiromemasu",
+      "meaning": "扩大，推广",
+      "conjugations": {
+        "dictionary": "広める",
+        "masu": "ひろめます",
+        "te": "広めて",
+        "nai": "広めない",
+        "ta": "広めた"
+      },
+      "sentences": [
+        {
+          "ja": "世界にインスタントラーメンを広めました。",
+          "zh": "把方便面推广到了全世界。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W52",
+      "category": "Nouns",
+      "kanji": "市場調査",
+      "kana": "しじょうちょうさ",
+      "romaji": "shijou chousa",
+      "meaning": "市场调查",
+      "sentences": [
+        {
+          "ja": "市場調査のために、アメリカへ行きました。",
+          "zh": "为了做市场调查，去了美国。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W53",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "割ります",
+      "kana": "わります",
+      "romaji": "warimasu",
+      "meaning": "分，割，切",
+      "conjugations": {
+        "dictionary": "割る",
+        "masu": "わります",
+        "te": "割って",
+        "nai": "割らない",
+        "ta": "割った"
+      },
+      "sentences": [
+        {
+          "ja": "卵を割って、混ぜます。",
+          "zh": "打鸡蛋搅拌。"
+        }
+      ]
+    },
+    {
+      "id": "L42-W54",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "注ぎます",
+      "kana": "そそぎます",
+      "romaji": "sosogimasu",
+      "meaning": "注入，灌入，倒入",
+      "conjugations": {
+        "dictionary": "注ぐ",
+        "masu": "そそぎます",
+        "te": "注いで",
+        "nai": "注がない",
+        "ta": "注いだ"
+      },
+      "sentences": [
+        {
+          "ja": "カップにお湯を注ぎます。",
+          "zh": "往杯子里倒热水。"
+        }
+      ]
+    }
+  ],
+  "43": [
+    {
+      "id": "L43-W1",
+      "category": "Adverbs",
+      "kanji": "今にも",
+      "kana": "いまにも",
+      "romaji": "ima ni mo",
+      "meaning": "马上，现在就要（用于描写变化即将发生之前的状况）",
+      "sentences": [
+        {
+          "ja": "今にも雨が降りそうです。",
+          "zh": "好像马上就要下雨了。"
+        }
+      ]
+    },
+    {
+      "id": "L43-W2",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "取れます",
+      "kana": "とれます",
+      "romaji": "toremasu",
+      "meaning": "脱落",
+      "conjugations": {
+        "dictionary": "取れる",
+        "masu": "とれます",
+        "te": "取れて",
+        "nai": "取れない",
+        "ta": "取れた"
+      },
+      "sentences": [
+        {
+          "ja": "ボタンが取れます。",
+          "zh": "纽扣脱落。"
+        },
+        {
+          "ja": "上着のボタンが取れそうですよ。",
+          "zh": "上衣的扣子好像要掉了哦。"
+        }
+      ]
+    },
+    {
+      "id": "L43-W3",
+      "category": "Expressions",
+      "kanji": "わあ",
+      "kana": "わあ",
+      "romaji": "waa",
+      "meaning": "哇",
+      "sentences": [
+        {
+          "ja": "わあ、おいしそうですね。",
+          "zh": "哇，看起来很好吃。"
+        }
+      ]
+    },
+    {
+      "id": "L43-W4",
+      "category": "Adjectives",
+      "grammarType": "na-adj",
+      "kanji": "楽",
+      "kana": "らく",
+      "romaji": "raku",
+      "meaning": "轻松",
+      "sentences": [
+        {
+          "ja": "この仕事は楽そうです。",
+          "zh": "这份工作看起来很轻松。"
+        }
+      ]
+    },
+    {
+      "id": "L43-W5",
+      "category": "Nouns",
+      "kanji": "火",
+      "kana": "ひ",
+      "romaji": "hi",
+      "meaning": "火",
+      "sentences": [
+        {
+          "ja": "火が消えそうです。",
+          "zh": "火好像要灭了。"
+        }
+      ]
+    },
+    {
+      "id": "L43-W6",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "落ちます",
+      "kana": "おちます",
+      "romaji": "ochimasu",
+      "meaning": "掉下来",
+      "conjugations": {
+        "dictionary": "落ちる",
+        "masu": "おちます",
+        "te": "落ちて",
+        "nai": "落ちない",
+        "ta": "落ちた"
+      },
+      "sentences": [
+        {
+          "ja": "荷物が落ちます。",
+          "zh": "行李掉下来。"
+        },
+        {
+          "ja": "棚から荷物が落ちそうです。",
+          "zh": "行李好像要从架子上掉下来。"
+        }
+      ]
+    },
+    {
+      "id": "L43-W7",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "減ります",
+      "kana": "へります",
+      "romaji": "herimasu",
+      "meaning": "减少",
+      "conjugations": {
+        "dictionary": "減る",
+        "masu": "へります",
+        "te": "減って",
+        "nai": "減らない",
+        "ta": "減った"
+      },
+      "sentences": [
+        {
+          "ja": "輸出が減ります。",
+          "zh": "出口减少。"
+        },
+        {
+          "ja": "子どもの数が減っています。",
+          "zh": "孩子的数量在减少。"
+        }
+      ]
+    },
+    {
+      "id": "L43-W8",
+      "category": "Adjectives",
+      "grammarType": "i-adj",
+      "kanji": "まずい",
+      "kana": "まずい",
+      "romaji": "mazui",
+      "meaning": "不好吃",
+      "sentences": [
+        {
+          "ja": "この料理はまずそうです。",
+          "zh": "这道菜看起来不好吃。"
+        }
+      ]
+    },
+    {
+      "id": "L43-W9",
+      "category": "Adjectives",
+      "grammarType": "i-adj",
+      "kanji": "うまい",
+      "kana": "うまい",
+      "romaji": "umai",
+      "meaning": "好吃",
+      "sentences": [
+        {
+          "ja": "このケーキはうまそうですね。",
+          "zh": "这个蛋糕看起来很好吃啊。"
+        }
+      ]
+    },
+    {
+      "id": "L43-W10",
+      "category": "Adjectives",
+      "grammarType": "i-adj",
+      "kanji": "優しい",
+      "kana": "やさしい",
+      "romaji": "yasashii",
+      "meaning": "温柔，亲切",
+      "sentences": [
+        {
+          "ja": "あの人は優しそうです。",
+          "zh": "那个人看起来很温柔。"
+        }
+      ]
+    },
+    {
+      "id": "L43-W11",
+      "category": "Nouns",
+      "kanji": "紐",
+      "kana": "ひも",
+      "romaji": "himo",
+      "meaning": "带子，绳",
+      "sentences": [
+        {
+          "ja": "紐が切れそうです。",
+          "zh": "绳子好像要断了。"
+        }
+      ]
+    },
+    {
+      "id": "L43-W12",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "切れます",
+      "kana": "きれます",
+      "romaji": "kiremasu",
+      "meaning": "断了",
+      "conjugations": {
+        "dictionary": "切れる",
+        "masu": "きれます",
+        "te": "切れて",
+        "nai": "切れない",
+        "ta": "切れた"
+      },
+      "sentences": [
+        {
+          "ja": "紐が切れます。",
+          "zh": "绳子断了。"
+        },
+        {
+          "ja": "この紐は今にも切れそうです。",
+          "zh": "这根绳子马上就要断了。"
+        }
+      ]
+    },
+    {
+      "id": "L43-W13",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "上がります",
+      "kana": "あがります",
+      "romaji": "agarimasu",
+      "meaning": "上涨",
+      "conjugations": {
+        "dictionary": "上がる",
+        "masu": "あがります",
+        "te": "上がって",
+        "nai": "上がらない",
+        "ta": "上がった"
+      },
+      "sentences": [
+        {
+          "ja": "値段が上がります。",
+          "zh": "价格上涨。"
+        },
+        {
+          "ja": "来月からガソリンの値段が上がりそうです。",
+          "zh": "下个月起汽油价格好像要上涨。"
+        }
+      ]
+    },
+    {
+      "id": "L43-W14",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "下がります",
+      "kana": "さがります",
+      "romaji": "sagarimasu",
+      "meaning": "下降",
+      "conjugations": {
+        "dictionary": "下がる",
+        "masu": "さがります",
+        "te": "下がって",
+        "nai": "下がらない",
+        "ta": "下がった"
+      },
+      "sentences": [
+        {
+          "ja": "値段が下がります。",
+          "zh": "价格下降。"
+        },
+        {
+          "ja": "熱が下がりました。",
+          "zh": "退烧了。"
+        }
+      ]
+    },
+    {
+      "id": "L43-W15",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "増えます",
+      "kana": "ふえます",
+      "romaji": "fuemasu",
+      "meaning": "增加",
+      "conjugations": {
+        "dictionary": "増える",
+        "masu": "ふえます",
+        "te": "増えて",
+        "nai": "増えない",
+        "ta": "増えた"
+      },
+      "sentences": [
+        {
+          "ja": "輸出が増えます。",
+          "zh": "出口增加。"
+        },
+        {
+          "ja": "外国人の観光客が増えています。",
+          "zh": "外国游客在增加。"
+        }
+      ]
+    },
+    {
+      "id": "L43-W16",
+      "category": "Nouns",
+      "kanji": "ガソリン",
+      "kana": "ガソリン",
+      "romaji": "gasorin",
+      "meaning": "汽油",
+      "sentences": [
+        {
+          "ja": "ガソリンがなくなりそうです。",
+          "zh": "汽油好像要用光了。"
+        }
+      ]
+    },
+    {
+      "id": "L43-W17",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "無くなります",
+      "kana": "なくなります",
+      "romaji": "nakunarimasu",
+      "meaning": "用光了，丢了",
+      "conjugations": {
+        "dictionary": "無くなる",
+        "masu": "なくなります",
+        "te": "無くなって",
+        "nai": "無くならない",
+        "ta": "無くなった"
+      },
+      "sentences": [
+        {
+          "ja": "ガソリンがなくなります。",
+          "zh": "汽油用光了。"
+        },
+        {
+          "ja": "財布がなくなりました。",
+          "zh": "钱包丢了。"
+        }
+      ]
+    },
+    {
+      "id": "L43-W18",
+      "category": "Adjectives",
+      "grammarType": "i-adj",
+      "kanji": "つまらない",
+      "kana": "つまらない",
+      "romaji": "tsumaranai",
+      "meaning": "没意思，微不足道，无聊",
+      "sentences": [
+        {
+          "ja": "この映画はつまらなそうです。",
+          "zh": "这部电影看起来很无聊。"
+        }
+      ]
+    },
+    {
+      "id": "L43-W19",
+      "category": "Adjectives",
+      "grammarType": "na-adj",
+      "kanji": "変",
+      "kana": "へん",
+      "romaji": "hen",
+      "meaning": "奇怪，不寻常（変な匂い：奇怪的味道）",
+      "sentences": [
+        {
+          "ja": "変な音が聞こえます。",
+          "zh": "听到了奇怪的声音。"
+        }
+      ]
+    },
+    {
+      "id": "L43-W20",
+      "category": "Nouns",
+      "kanji": "パンフレット",
+      "kana": "パンフレット",
+      "romaji": "panfuretto",
+      "meaning": "小册子",
+      "sentences": [
+        {
+          "ja": "パンフレットをもらって来ます。",
+          "zh": "去拿小册子回来。"
+        }
+      ]
+    },
+    {
+      "id": "L43-W21",
+      "category": "Nouns",
+      "kanji": "薔薇",
+      "kana": "ばら",
+      "romaji": "bara",
+      "meaning": "蔷薇，玫瑰",
+      "sentences": [
+        {
+          "ja": "ばらの花を買って来ます。",
+          "zh": "去买玫瑰花回来。"
+        }
+      ]
+    },
+    {
+      "id": "L43-W22",
+      "category": "Nouns",
+      "kanji": "ドライブ",
+      "kana": "ドライブ",
+      "romaji": "doraibu",
+      "meaning": "兜风",
+      "sentences": [
+        {
+          "ja": "日曜日にドライブに行きませんか。",
+          "zh": "周日去兜风怎么样？"
+        }
+      ]
+    },
+    {
+      "id": "L43-W23",
+      "category": "Nouns",
+      "kanji": "理由",
+      "kana": "りゆう",
+      "romaji": "riyuu",
+      "meaning": "理由",
+      "sentences": [
+        {
+          "ja": "遅れた理由を教えてください。",
+          "zh": "请告诉我迟到的理由。"
+        }
+      ]
+    },
+    {
+      "id": "L43-W24",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "謝ります",
+      "kana": "あやまります",
+      "romaji": "ayamarimasu",
+      "meaning": "道歉",
+      "conjugations": {
+        "dictionary": "謝る",
+        "masu": "あやまります",
+        "te": "謝って",
+        "nai": "謝らない",
+        "ta": "謝った"
+      },
+      "sentences": [
+        {
+          "ja": "遅れたので、みんなに謝りました。",
+          "zh": "因为迟到了，向大家道了歉。"
+        }
+      ]
+    },
+    {
+      "id": "L43-W25",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "知り合います",
+      "kana": "しりあいます",
+      "romaji": "shiriaimasu",
+      "meaning": "认识",
+      "conjugations": {
+        "dictionary": "知り合う",
+        "masu": "しりあいます",
+        "te": "知り合って",
+        "nai": "知り合わない",
+        "ta": "知り合った"
+      },
+      "sentences": [
+        {
+          "ja": "二人はパーティーで知り合いました。",
+          "zh": "两人是在派对上认识的。"
+        }
+      ]
+    },
+    {
+      "id": "L43-W26",
+      "category": "Adjectives",
+      "grammarType": "na-adj",
+      "kanji": "幸せ",
+      "kana": "しあわせ",
+      "romaji": "shiawase",
+      "meaning": "幸福",
+      "sentences": [
+        {
+          "ja": "彼女は幸せそうです。",
+          "zh": "她看起来很幸福。"
+        }
+      ]
+    }
+  ],
+  "44": [
+    {
+      "id": "L44-W1",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "泣きます",
+      "kana": "なきます",
+      "romaji": "nakimasu",
+      "meaning": "哭",
+      "conjugations": {
+        "dictionary": "泣く",
+        "masu": "なきます",
+        "te": "泣いて",
+        "nai": "泣かない",
+        "ta": "泣いた"
+      },
+      "sentences": [
+        {
+          "ja": "泣いているんですか。",
+          "zh": "你在哭吗？"
+        }
+      ]
+    },
+    {
+      "id": "L44-W2",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "笑います",
+      "kana": "わらいます",
+      "romaji": "waraimasu",
+      "meaning": "笑",
+      "conjugations": {
+        "dictionary": "笑う",
+        "masu": "わらいます",
+        "te": "笑って",
+        "nai": "笑わない",
+        "ta": "笑った"
+      },
+      "sentences": [
+        {
+          "ja": "笑いすぎて、涙が出ました。",
+          "zh": "笑得太厉害，流眼泪了。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W3",
+      "category": "Nouns",
+      "kanji": "涙",
+      "kana": "なみだ",
+      "romaji": "namida",
+      "meaning": "眼泪",
+      "sentences": [
+        {
+          "ja": "笑いすぎて、涙が出たんです。",
+          "zh": "笑得太厉害，流眼泪了。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W4",
+      "category": "Nouns",
+      "kanji": "空気",
+      "kana": "くうき",
+      "romaji": "kuuki",
+      "meaning": "空气",
+      "sentences": [
+        {
+          "ja": "田舎は空気がきれいです。",
+          "zh": "乡下空气很好。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W5",
+      "category": "Adjectives",
+      "grammarType": "na-adj",
+      "kanji": "安全",
+      "kana": "あんぜん",
+      "romaji": "anzen",
+      "meaning": "安全",
+      "sentences": [
+        {
+          "ja": "このコップは子どもが使うのに安全です。",
+          "zh": "这个杯子给孩子用很安全。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W6",
+      "category": "Adjectives",
+      "grammarType": "na-adj",
+      "kanji": "危険",
+      "kana": "きけん",
+      "romaji": "kiken",
+      "meaning": "危险",
+      "sentences": [
+        {
+          "ja": "この道は狭くて、危険です。",
+          "zh": "这条路很窄，很危险。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W7",
+      "category": "Expressions",
+      "kanji": "～みたいにしてください",
+      "kana": "～みたいにしてください",
+      "romaji": "~mitai ni shite kudasai",
+      "meaning": "请做成像～的样子",
+      "sentences": [
+        {
+          "ja": "この写真みたいにしてください。",
+          "zh": "请做成像这张照片的样子。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W8",
+      "category": "Expressions",
+      "kanji": "どうなさいますか",
+      "kana": "どうなさいますか",
+      "romaji": "dou nasaimasu ka",
+      "meaning": "您要怎么做？",
+      "sentences": [
+        {
+          "ja": "きょうはどうなさいますか。",
+          "zh": "今天您要怎么做？"
+        }
+      ]
+    },
+    {
+      "id": "L44-W9",
+      "category": "Nouns",
+      "kanji": "カット",
+      "kana": "カット",
+      "romaji": "katto",
+      "meaning": "剪发",
+      "sentences": [
+        {
+          "ja": "カット、お願いします。",
+          "zh": "请帮我剪发。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W10",
+      "category": "Nouns",
+      "kanji": "シャンプー",
+      "kana": "シャンプー",
+      "romaji": "shanpuu",
+      "meaning": "洗发（～をします：洗发）",
+      "sentences": [
+        {
+          "ja": "シャンプーをしますから、こちらへどうぞ。",
+          "zh": "要洗发了，请到这边来。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W11",
+      "category": "Expressions",
+      "kanji": "どういうふうになさいますか",
+      "kana": "どういうふうになさいますか",
+      "romaji": "dou iu fuu ni nasaimasu ka",
+      "meaning": "给您怎么做（剪）呢？",
+      "sentences": [
+        {
+          "ja": "カットはどういうふうになさいますか。",
+          "zh": "剪发要怎么剪呢？"
+        }
+      ]
+    },
+    {
+      "id": "L44-W12",
+      "category": "Nouns",
+      "kanji": "ショート",
+      "kana": "ショート",
+      "romaji": "shooto",
+      "meaning": "短发",
+      "sentences": [
+        {
+          "ja": "ショートにしたいんですけど……。",
+          "zh": "我想剪成短发……。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W13",
+      "category": "Expressions",
+      "kanji": "これでよろしいでしょうか",
+      "kana": "これでよろしいでしょうか",
+      "romaji": "kore de yoroshii deshou ka",
+      "meaning": "这样可以吗？（礼貌的说法）",
+      "sentences": [
+        {
+          "ja": "前の長さはこれでよろしいでしょうか。",
+          "zh": "前面的长度这样可以吗？"
+        }
+      ]
+    },
+    {
+      "id": "L44-W14",
+      "category": "Expressions",
+      "kanji": "［どうも］お疲れさまでした",
+      "kana": "［どうも］おつかれさまでした",
+      "romaji": "[doumo] otsukaresama deshita",
+      "meaning": "您辛苦了（在美容院，店员最后对顾客说的客气话）",
+      "sentences": [
+        {
+          "ja": "どうもお疲れさまでした。",
+          "zh": "您辛苦了。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W15",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "起きます",
+      "kana": "おきます",
+      "romaji": "okimasu",
+      "meaning": "发生",
+      "conjugations": {
+        "dictionary": "起きる",
+        "masu": "おきます",
+        "te": "起きて",
+        "nai": "起きない",
+        "ta": "起きた"
+      },
+      "sentences": [
+        {
+          "ja": "事故が起きます。",
+          "zh": "发生事故。"
+        },
+        {
+          "ja": "この道は事故が起きやすいです。",
+          "zh": "这条路容易发生事故。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W16",
+      "category": "Adjectives",
+      "grammarType": "i-adj",
+      "kanji": "厚い",
+      "kana": "あつい",
+      "romaji": "atsui",
+      "meaning": "厚",
+      "sentences": [
+        {
+          "ja": "この本は厚すぎて、読みにくいです。",
+          "zh": "这本书太厚，不好读。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W17",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "乾きます",
+      "kana": "かわきます",
+      "romaji": "kawakimasu",
+      "meaning": "干了",
+      "conjugations": {
+        "dictionary": "乾く",
+        "masu": "かわきます",
+        "te": "乾いて",
+        "nai": "乾かない",
+        "ta": "乾いた"
+      },
+      "sentences": [
+        {
+          "ja": "シャツが乾きます。",
+          "zh": "衬衫干了。"
+        },
+        {
+          "ja": "雨の日は洗濯物が乾きにくいです。",
+          "zh": "下雨天洗的衣物不容易干。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W18",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "ぬれます",
+      "kana": "ぬれます",
+      "romaji": "nuremasu",
+      "meaning": "湿了",
+      "conjugations": {
+        "dictionary": "ぬれる",
+        "masu": "ぬれます",
+        "te": "ぬれて",
+        "nai": "ぬれない",
+        "ta": "ぬれた"
+      },
+      "sentences": [
+        {
+          "ja": "シャツがぬれます。",
+          "zh": "衬衫湿了。"
+        },
+        {
+          "ja": "雨でシャツがぬれました。",
+          "zh": "衬衫被雨淋湿了。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W19",
+      "category": "Nouns",
+      "kanji": "量",
+      "kana": "りょう",
+      "romaji": "ryou",
+      "meaning": "量",
+      "sentences": [
+        {
+          "ja": "塩の量を半分にしました。",
+          "zh": "把盐量减到一半。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W20",
+      "category": "Counters",
+      "kanji": "～倍",
+      "kana": "～ばい",
+      "romaji": "~bai",
+      "meaning": "～倍",
+      "sentences": [
+        {
+          "ja": "値段が2倍になりました。",
+          "zh": "价格变成了2倍。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W21",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "眠ります",
+      "kana": "ねむります",
+      "romaji": "nemurimasu",
+      "meaning": "睡",
+      "conjugations": {
+        "dictionary": "眠る",
+        "masu": "ねむります",
+        "te": "眠って",
+        "nai": "眠らない",
+        "ta": "眠った"
+      },
+      "sentences": [
+        {
+          "ja": "コーヒーを飲みすぎて、眠れません。",
+          "zh": "咖啡喝太多，睡不着。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W22",
+      "category": "Adjectives",
+      "grammarType": "i-adj",
+      "kanji": "濃い",
+      "kana": "こい",
+      "romaji": "koi",
+      "meaning": "（味道）浓，（颜色）深",
+      "sentences": [
+        {
+          "ja": "このコーヒーは濃すぎます。",
+          "zh": "这杯咖啡太浓了。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W23",
+      "category": "Nouns",
+      "kanji": "DVD",
+      "kana": "ディーブイディー",
+      "romaji": "diibuidii",
+      "meaning": "DVD光盘",
+      "sentences": [
+        {
+          "ja": "DVDを見すぎて、目が疲れました。",
+          "zh": "DVD看太多，眼睛累了。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W24",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "滑ります",
+      "kana": "すべります",
+      "romaji": "suberimasu",
+      "meaning": "滑",
+      "conjugations": {
+        "dictionary": "滑る",
+        "masu": "すべります",
+        "te": "滑って",
+        "nai": "滑らない",
+        "ta": "滑った"
+      },
+      "sentences": [
+        {
+          "ja": "雨の日は道が滑りやすいです。",
+          "zh": "下雨天路容易滑。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W25",
+      "category": "Nouns",
+      "kanji": "洗濯物",
+      "kana": "せんたくもの",
+      "romaji": "sentakumono",
+      "meaning": "洗的衣物等",
+      "sentences": [
+        {
+          "ja": "洗濯物が乾きにくいです。",
+          "zh": "洗的衣物不容易干。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W26",
+      "category": "Adjectives",
+      "grammarType": "i-adj",
+      "kanji": "薄い",
+      "kana": "うすい",
+      "romaji": "usui",
+      "meaning": "（味道）淡，（颜色）浅，薄",
+      "sentences": [
+        {
+          "ja": "この味は薄すぎます。",
+          "zh": "这个味道太淡了。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W27",
+      "category": "Nouns",
+      "kanji": "ホテル広島",
+      "kana": "ホテルひろしま",
+      "romaji": "Hoteru Hiroshima",
+      "meaning": "广岛宾馆（虚构的饭店）",
+      "sentences": [
+        {
+          "ja": "ホテル広島に泊まります。",
+          "zh": "住在广岛宾馆。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W28",
+      "category": "Nouns",
+      "kanji": "シングル",
+      "kana": "シングル",
+      "romaji": "shinguru",
+      "meaning": "单人间",
+      "sentences": [
+        {
+          "ja": "部屋はシングルにします。",
+          "zh": "房间要单人间。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W29",
+      "category": "Nouns",
+      "kanji": "ツイン",
+      "kana": "ツイン",
+      "romaji": "tsuin",
+      "meaning": "双人间",
+      "sentences": [
+        {
+          "ja": "ツインの部屋をお願いします。",
+          "zh": "请给我双人间。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W30",
+      "category": "Nouns",
+      "kanji": "和食",
+      "kana": "わしょく",
+      "romaji": "washoku",
+      "meaning": "日餐",
+      "sentences": [
+        {
+          "ja": "朝ごはんは和食にします。",
+          "zh": "早饭要日餐。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W31",
+      "category": "Nouns",
+      "kanji": "洋食",
+      "kana": "ようしょく",
+      "romaji": "youshoku",
+      "meaning": "西餐",
+      "sentences": [
+        {
+          "ja": "洋食と和食とどちらにしますか。",
+          "zh": "西餐和日餐要哪个？"
+        }
+      ]
+    },
+    {
+      "id": "L44-W32",
+      "category": "Nouns",
+      "kanji": "おかず",
+      "kana": "おかず",
+      "romaji": "okazu",
+      "meaning": "小菜",
+      "sentences": [
+        {
+          "ja": "おかずの量を多くしてください。",
+          "zh": "请把小菜的量加多。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W33",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "調節します",
+      "kana": "ちょうせつします",
+      "romaji": "chousetsu shimasu",
+      "meaning": "调节",
+      "conjugations": {
+        "dictionary": "調節する",
+        "masu": "ちょうせつします",
+        "te": "調節して",
+        "nai": "調節しない",
+        "ta": "調節した"
+      },
+      "sentences": [
+        {
+          "ja": "温度を調節します。",
+          "zh": "调节温度。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W34",
+      "category": "Adjectives",
+      "grammarType": "i-adj",
+      "kanji": "太い",
+      "kana": "ふとい",
+      "romaji": "futoi",
+      "meaning": "粗",
+      "sentences": [
+        {
+          "ja": "この字は太すぎて、読みにくいです。",
+          "zh": "这个字太粗，不好读。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W35",
+      "category": "Adjectives",
+      "grammarType": "i-adj",
+      "kanji": "細い",
+      "kana": "ほそい",
+      "romaji": "hosoi",
+      "meaning": "细",
+      "sentences": [
+        {
+          "ja": "この道は細くて、車が通りにくいです。",
+          "zh": "这条路很窄，车不好过。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W36",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "嫌がります",
+      "kana": "いやがります",
+      "romaji": "iyagarimasu",
+      "meaning": "讨厌，不受欢迎",
+      "conjugations": {
+        "dictionary": "嫌がる",
+        "masu": "いやがります",
+        "te": "嫌がって",
+        "nai": "嫌がらない",
+        "ta": "嫌がった"
+      },
+      "sentences": [
+        {
+          "ja": "掃除を嫌がります。",
+          "zh": "讨厌扫地。"
+        },
+        {
+          "ja": "子どもは薬を嫌がります。",
+          "zh": "孩子讨厌吃药。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W37",
+      "category": "Expressions",
+      "kanji": "また",
+      "kana": "また",
+      "romaji": "mata",
+      "meaning": "还，更，而且",
+      "sentences": [
+        {
+          "ja": "このかばんは軽くて、また、丈夫です。",
+          "zh": "这个包很轻，而且结实。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W38",
+      "category": "Adverbs",
+      "kanji": "うまく",
+      "kana": "うまく",
+      "romaji": "umaku",
+      "meaning": "～得好",
+      "sentences": [
+        {
+          "ja": "日本語でうまく説明できませんでした。",
+          "zh": "没能用日语好好说明。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W39",
+      "category": "Nouns",
+      "kanji": "順序",
+      "kana": "じゅんじょ",
+      "romaji": "junjo",
+      "meaning": "顺序",
+      "sentences": [
+        {
+          "ja": "順序を間違えました。",
+          "zh": "弄错了顺序。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W40",
+      "category": "Adjectives",
+      "grammarType": "na-adj",
+      "kanji": "安心",
+      "kana": "あんしん",
+      "romaji": "anshin",
+      "meaning": "安心，放心",
+      "sentences": [
+        {
+          "ja": "このコップは割れにくいので、安心です。",
+          "zh": "这个杯子不易碎，很放心。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W41",
+      "category": "Nouns",
+      "kanji": "表現",
+      "kana": "ひょうげん",
+      "romaji": "hyougen",
+      "meaning": "表达，表现",
+      "sentences": [
+        {
+          "ja": "日本語には難しい表現がたくさんあります。",
+          "zh": "日语里有很多难的表达。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W42",
+      "category": "Adverbs",
+      "kanji": "例えば",
+      "kana": "たとえば",
+      "romaji": "tatoeba",
+      "meaning": "例如",
+      "sentences": [
+        {
+          "ja": "例えば、「4」は「し」と読みます。",
+          "zh": "例如，「4」读作「し」。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W43",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "別れます",
+      "kana": "わかれます",
+      "romaji": "wakaremasu",
+      "meaning": "分别，分离",
+      "conjugations": {
+        "dictionary": "別れる",
+        "masu": "わかれます",
+        "te": "別れて",
+        "nai": "別れない",
+        "ta": "別れた"
+      },
+      "sentences": [
+        {
+          "ja": "駅で友達と別れました。",
+          "zh": "在车站和朋友分别了。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W44",
+      "category": "Nouns",
+      "kanji": "これら",
+      "kana": "これら",
+      "romaji": "korera",
+      "meaning": "这些",
+      "sentences": [
+        {
+          "ja": "これらのことばは縁起が悪いです。",
+          "zh": "这些词不吉利。"
+        }
+      ]
+    },
+    {
+      "id": "L44-W45",
+      "category": "Expressions",
+      "kanji": "縁起が悪い",
+      "kana": "えんぎがわるい",
+      "romaji": "engi ga warui",
+      "meaning": "不吉利",
+      "sentences": [
+        {
+          "ja": "「4」は「死」と同じ読み方なので、縁起が悪いです。",
+          "zh": "「4」和「死」读法相同，所以不吉利。"
+        }
+      ]
+    }
+  ],
+  "45": [
+    {
+      "id": "L45-W1",
+      "category": "Nouns",
+      "kanji": "場合",
+      "kana": "ばあい",
+      "romaji": "baai",
+      "meaning": "～情况，～场合",
+      "sentences": [
+        {
+          "ja": "カードをなくした場合は、すぐカード会社に連絡してください。",
+          "zh": "卡片丢失的情况下，请马上联系信用卡公司。"
+        }
+      ]
+    },
+    {
+      "id": "L45-W2",
+      "category": "Adverbs",
+      "kanji": "無理に",
+      "kana": "むりに",
+      "romaji": "muri ni",
+      "meaning": "勉强地",
+      "sentences": [
+        {
+          "ja": "無理に帰らないで、会社に泊まってください。",
+          "zh": "请不要勉强回家，住在公司。"
+        }
+      ]
+    },
+    {
+      "id": "L45-W3",
+      "category": "Nouns",
+      "kanji": "保証書",
+      "kana": "ほしょうしょ",
+      "romaji": "hoshousho",
+      "meaning": "保证书",
+      "sentences": [
+        {
+          "ja": "これがこのコンピューターの保証書です。",
+          "zh": "这是这台电脑的保证书。"
+        }
+      ]
+    },
+    {
+      "id": "L45-W4",
+      "category": "Nouns",
+      "kanji": "領収書",
+      "kana": "りょうしゅうしょ",
+      "romaji": "ryoushuusho",
+      "meaning": "收据",
+      "sentences": [
+        {
+          "ja": "領収書が必要な場合は、言ってください。",
+          "zh": "需要收据时，请说一声。"
+        }
+      ]
+    },
+    {
+      "id": "L45-W5",
+      "category": "Nouns",
+      "kanji": "梅",
+      "kana": "うめ",
+      "romaji": "ume",
+      "meaning": "梅花",
+      "sentences": [
+        {
+          "ja": "あれは桜じゃありません。梅ですよ。",
+          "zh": "那不是樱花。是梅花哦。"
+        }
+      ]
+    },
+    {
+      "id": "L45-W6",
+      "category": "Nouns",
+      "kanji": "コース",
+      "kana": "コース",
+      "romaji": "koosu",
+      "meaning": "路线",
+      "sentences": [
+        {
+          "ja": "コースをまちがえた場合は、元の所に戻ってください。",
+          "zh": "跑错路线的情况下，请回到原来的地方。"
+        }
+      ]
+    },
+    {
+      "id": "L45-W7",
+      "category": "Nouns",
+      "kanji": "係員",
+      "kana": "かかりいん",
+      "romaji": "kakariin",
+      "meaning": "工作人员",
+      "sentences": [
+        {
+          "ja": "気分が悪くなったら、係員に言ってください。",
+          "zh": "如果感到不舒服，请告诉工作人员。"
+        }
+      ]
+    },
+    {
+      "id": "L45-W8",
+      "category": "Nouns",
+      "kanji": "スタート",
+      "kana": "スタート",
+      "romaji": "sutaato",
+      "meaning": "出发，开始",
+      "sentences": [
+        {
+          "ja": "では、スタートの時間です。",
+          "zh": "那么，到出发时间了。"
+        }
+      ]
+    },
+    {
+      "id": "L45-W9",
+      "category": "Counters",
+      "kanji": "～位",
+      "kana": "～い",
+      "romaji": "~i",
+      "meaning": "第～位",
+      "sentences": [
+        {
+          "ja": "マラソンで2位でした。",
+          "zh": "马拉松得了第2名。"
+        }
+      ]
+    },
+    {
+      "id": "L45-W10",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "優勝します",
+      "kana": "ゆうしょうします",
+      "romaji": "yuushou shimasu",
+      "meaning": "获得冠军",
+      "conjugations": {
+        "dictionary": "優勝する",
+        "masu": "ゆうしょうします",
+        "te": "優勝して",
+        "nai": "優勝しない",
+        "ta": "優勝した"
+      },
+      "sentences": [
+        {
+          "ja": "一生懸命練習したのに、優勝できませんでした。",
+          "zh": "明明拼命练习了，却没能夺冠。"
+        }
+      ]
+    },
+    {
+      "id": "L45-W11",
+      "category": "Nouns",
+      "kanji": "点",
+      "kana": "てん",
+      "romaji": "ten",
+      "meaning": "分数",
+      "sentences": [
+        {
+          "ja": "試験は90点でした。",
+          "zh": "考试得了90分。"
+        }
+      ]
+    },
+    {
+      "id": "L45-W12",
+      "category": "Nouns",
+      "kanji": "119番",
+      "kana": "ひゃくじゅうきゅうばん",
+      "romaji": "hyakujuukyuu ban",
+      "meaning": "119（消防局的电话号码，紧急呼救用）",
+      "sentences": [
+        {
+          "ja": "火事の場合は、119番に電話してください。",
+          "zh": "发生火灾时，请拨打119。"
+        }
+      ]
+    },
+    {
+      "id": "L45-W13",
+      "category": "Nouns",
+      "kanji": "110番",
+      "kana": "ひゃくとおばん",
+      "romaji": "hyakutoo ban",
+      "meaning": "110（警察局的电话号码，紧急呼救用）",
+      "sentences": [
+        {
+          "ja": "事故の場合は、110番に知らせてください。",
+          "zh": "发生事故时，请通知110。"
+        }
+      ]
+    },
+    {
+      "id": "L45-W14",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "知らせます",
+      "kana": "しらせます",
+      "romaji": "shirasemasu",
+      "meaning": "通知",
+      "conjugations": {
+        "dictionary": "知らせる",
+        "masu": "しらせます",
+        "te": "知らせて",
+        "nai": "知らせない",
+        "ta": "知らせた"
+      },
+      "sentences": [
+        {
+          "ja": "遅れる場合は、電話で知らせてください。",
+          "zh": "晚到的情况下，请打电话通知。"
+        }
+      ]
+    },
+    {
+      "id": "L45-W15",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "キャンセルします",
+      "kana": "キャンセルします",
+      "romaji": "kyanseru shimasu",
+      "meaning": "取消",
+      "conjugations": {
+        "dictionary": "キャンセルする",
+        "masu": "キャンセルします",
+        "te": "キャンセルして",
+        "nai": "キャンセルしない",
+        "ta": "キャンセルした"
+      },
+      "sentences": [
+        {
+          "ja": "予約をキャンセルする場合は、前の日までに連絡してください。",
+          "zh": "取消预约的情况下，请在前一天之前联系。"
+        }
+      ]
+    },
+    {
+      "id": "L45-W16",
+      "category": "Nouns",
+      "kanji": "中止",
+      "kana": "ちゅうし",
+      "romaji": "chuushi",
+      "meaning": "中止",
+      "sentences": [
+        {
+          "ja": "雨の場合は、キャンプは中止です。",
+          "zh": "下雨的情况下，野营中止。"
+        }
+      ]
+    },
+    {
+      "id": "L45-W17",
+      "category": "Nouns",
+      "kanji": "キャンプ",
+      "kana": "キャンプ",
+      "romaji": "kyanpu",
+      "meaning": "野营",
+      "sentences": [
+        {
+          "ja": "夏休みにキャンプに行きます。",
+          "zh": "暑假去野营。"
+        }
+      ]
+    },
+    {
+      "id": "L45-W18",
+      "category": "Expressions",
+      "kanji": "以上です",
+      "kana": "いじょうです",
+      "romaji": "ijou desu",
+      "meaning": "到此结束，我的话讲完了",
+      "sentences": [
+        {
+          "ja": "説明は以上です。",
+          "zh": "说明到此结束。"
+        }
+      ]
+    },
+    {
+      "id": "L45-W19",
+      "category": "Adverbs",
+      "kanji": "急に",
+      "kana": "きゅうに",
+      "romaji": "kyuu ni",
+      "meaning": "突然",
+      "sentences": [
+        {
+          "ja": "急に用事ができた場合は、連絡してください。",
+          "zh": "突然有事的情况下，请联系。"
+        }
+      ]
+    },
+    {
+      "id": "L45-W20",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "信じます",
+      "kana": "しんじます",
+      "romaji": "shinjimasu",
+      "meaning": "相信",
+      "conjugations": {
+        "dictionary": "信じる",
+        "masu": "しんじます",
+        "te": "信じて",
+        "nai": "信じない",
+        "ta": "信じた"
+      },
+      "sentences": [
+        {
+          "ja": "彼の話を信じていたのに、うそでした。",
+          "zh": "明明相信了他的话，却是谎话。"
+        }
+      ]
+    },
+    {
+      "id": "L45-W21",
+      "category": "Expressions",
+      "kanji": "楽しみにしています",
+      "kana": "たのしみにしています",
+      "romaji": "tanoshimi ni shite imasu",
+      "meaning": "期待着，盼望着",
+      "sentences": [
+        {
+          "ja": "お会いできるのを楽しみにしています。",
+          "zh": "期待着与您见面。"
+        }
+      ]
+    },
+    {
+      "id": "L45-W22",
+      "category": "Nouns",
+      "kanji": "悩み",
+      "kana": "なやみ",
+      "romaji": "nayami",
+      "meaning": "烦恼",
+      "sentences": [
+        {
+          "ja": "何か悩みがありますか。",
+          "zh": "有什么烦恼吗？"
+        }
+      ]
+    },
+    {
+      "id": "L45-W23",
+      "category": "Nouns",
+      "kanji": "目覚まし［時計］",
+      "kana": "めざまし［どけい］",
+      "romaji": "mezamashi [dokei]",
+      "meaning": "闹钟",
+      "sentences": [
+        {
+          "ja": "目覚まし時計をセットしたのに、鳴りませんでした。",
+          "zh": "明明上了闹钟，却没有响。"
+        }
+      ]
+    },
+    {
+      "id": "L45-W24",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "目が覚めます",
+      "kana": "めがさめます",
+      "romaji": "me ga samemasu",
+      "meaning": "醒来",
+      "conjugations": {
+        "dictionary": "目が覚める",
+        "masu": "めがさめます",
+        "te": "目が覚めて",
+        "nai": "目が覚めない",
+        "ta": "目が覚めた"
+      },
+      "sentences": [
+        {
+          "ja": "目覚まし時計が鳴ったのに、目が覚めませんでした。",
+          "zh": "明明闹钟响了，却没有醒。"
+        }
+      ]
+    },
+    {
+      "id": "L45-W25",
+      "category": "Nouns",
+      "kanji": "大学生",
+      "kana": "だいがくせい",
+      "romaji": "daigakusei",
+      "meaning": "大学生",
+      "sentences": [
+        {
+          "ja": "息子は大学生です。",
+          "zh": "儿子是大学生。"
+        }
+      ]
+    },
+    {
+      "id": "L45-W26",
+      "category": "Nouns",
+      "kanji": "回答",
+      "kana": "かいとう",
+      "romaji": "kaitou",
+      "meaning": "回答（～します：回答）",
+      "sentences": [
+        {
+          "ja": "質問に回答します。",
+          "zh": "回答问题。"
+        }
+      ]
+    },
+    {
+      "id": "L45-W27",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "鳴ります",
+      "kana": "なります",
+      "romaji": "narimasu",
+      "meaning": "响",
+      "conjugations": {
+        "dictionary": "鳴る",
+        "masu": "なります",
+        "te": "鳴って",
+        "nai": "鳴らない",
+        "ta": "鳴った"
+      },
+      "sentences": [
+        {
+          "ja": "ベルが鳴ります。",
+          "zh": "铃响了。"
+        },
+        {
+          "ja": "目覚まし時計が鳴っても、起きられません。",
+          "zh": "即使闹钟响了，也起不来。"
+        }
+      ]
+    },
+    {
+      "id": "L45-W28",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "セットします",
+      "kana": "セットします",
+      "romaji": "setto shimasu",
+      "meaning": "上（闹钟），设定",
+      "conjugations": {
+        "dictionary": "セットする",
+        "masu": "セットします",
+        "te": "セットして",
+        "nai": "セットしない",
+        "ta": "セットした"
+      },
+      "sentences": [
+        {
+          "ja": "目覚まし時計を6時にセットします。",
+          "zh": "把闹钟设在6点。"
+        }
+      ]
+    },
+    {
+      "id": "L45-W29",
+      "category": "Expressions",
+      "kanji": "それでも",
+      "kana": "それでも",
+      "romaji": "soredemo",
+      "meaning": "尽管如此",
+      "sentences": [
+        {
+          "ja": "目覚まし時計を三つセットしました。それでも、起きられません。",
+          "zh": "设了三个闹钟。尽管如此，还是起不来。"
+        }
+      ]
+    }
+  ],
+  "46": [
+    {
+      "id": "L46-W1",
+      "category": "Expressions",
+      "kanji": "今いいですか",
+      "kana": "いまいいですか",
+      "romaji": "ima ii desu ka",
+      "meaning": "现在可以吗？",
+      "sentences": [
+        {
+          "ja": "もしもし、田中ですが、今いいですか。",
+          "zh": "喂，我是田中，现在方便吗？"
+        }
+      ]
+    },
+    {
+      "id": "L46-W2",
+      "category": "Nouns",
+      "kanji": "こちら",
+      "kana": "こちら",
+      "romaji": "kochira",
+      "meaning": "这边（说话人方）",
+      "sentences": [
+        {
+          "ja": "あとでこちらから電話します。",
+          "zh": "等会儿我打给你。"
+        }
+      ]
+    },
+    {
+      "id": "L46-W3",
+      "category": "Nouns",
+      "kanji": "原因",
+      "kana": "げんいん",
+      "romaji": "gen'in",
+      "meaning": "原因",
+      "sentences": [
+        {
+          "ja": "故障の原因はわかりましたか。",
+          "zh": "故障的原因弄清楚了吗？"
+        }
+      ]
+    },
+    {
+      "id": "L46-W4",
+      "category": "Adverbs",
+      "kanji": "たった今",
+      "kana": "たったいま",
+      "romaji": "tatta ima",
+      "meaning": "刚才，刚刚（和过去时一起使用，表示完了）",
+      "sentences": [
+        {
+          "ja": "たった今帰ったところです。",
+          "zh": "刚刚回去了。"
+        }
+      ]
+    },
+    {
+      "id": "L46-W5",
+      "category": "Expressions",
+      "kanji": "～の所",
+      "kana": "～のところ",
+      "romaji": "~no tokoro",
+      "meaning": "～那儿",
+      "sentences": [
+        {
+          "ja": "まだエレベーターの所にいるかもしれません。",
+          "zh": "可能还在电梯那儿。"
+        }
+      ]
+    },
+    {
+      "id": "L46-W6",
+      "category": "Nouns",
+      "kanji": "ガスサービスセンター",
+      "kana": "ガスサービスセンター",
+      "romaji": "gasu saabisu sentaa",
+      "meaning": "煤气服务中心",
+      "sentences": [
+        {
+          "ja": "はい、ガスサービスセンターでございます。",
+          "zh": "您好，这里是煤气服务中心。"
+        }
+      ]
+    },
+    {
+      "id": "L46-W7",
+      "category": "Nouns",
+      "kanji": "ガスレンジ",
+      "kana": "ガスレンジ",
+      "romaji": "gasu renji",
+      "meaning": "煤气灶",
+      "sentences": [
+        {
+          "ja": "ガスレンジの調子がおかしいんですが……。",
+          "zh": "煤气灶有点不对劲……。"
+        }
+      ]
+    },
+    {
+      "id": "L46-W8",
+      "category": "Nouns",
+      "kanji": "具合",
+      "kana": "ぐあい",
+      "romaji": "guai",
+      "meaning": "情况，状态",
+      "sentences": [
+        {
+          "ja": "どんな具合ですか。",
+          "zh": "是什么情况？"
+        }
+      ]
+    },
+    {
+      "id": "L46-W9",
+      "category": "Expressions",
+      "kanji": "申し訳ありません",
+      "kana": "もうしわけありません",
+      "romaji": "moushiwake arimasen",
+      "meaning": "对不起",
+      "sentences": [
+        {
+          "ja": "申し訳ありません。少々お待ちください。",
+          "zh": "对不起。请稍等。"
+        }
+      ]
+    },
+    {
+      "id": "L46-W10",
+      "category": "Expressions",
+      "kanji": "どちら様でしょうか",
+      "kana": "どちらさまでしょうか",
+      "romaji": "dochira sama deshou ka",
+      "meaning": "您是哪位？",
+      "sentences": [
+        {
+          "ja": "申し訳ありません。どちら様でしょうか。",
+          "zh": "对不起。您是哪位？"
+        }
+      ]
+    },
+    {
+      "id": "L46-W11",
+      "category": "Expressions",
+      "kanji": "お待たせしました",
+      "kana": "おまたせしました",
+      "romaji": "omatase shimashita",
+      "meaning": "让您久等了",
+      "sentences": [
+        {
+          "ja": "お待たせしました。今そちらに向かっているところです。",
+          "zh": "让您久等了。现在正在往您那儿去。"
+        }
+      ]
+    },
+    {
+      "id": "L46-W12",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "向かいます",
+      "kana": "むかいます",
+      "romaji": "mukaimasu",
+      "meaning": "朝着～去",
+      "conjugations": {
+        "dictionary": "向かう",
+        "masu": "むかいます",
+        "te": "向かって",
+        "nai": "向かわない",
+        "ta": "向かった"
+      },
+      "sentences": [
+        {
+          "ja": "今そちらに向かっているところです。",
+          "zh": "现在正在往您那儿去。"
+        }
+      ]
+    },
+    {
+      "id": "L46-W13",
+      "category": "Adverbs",
+      "kanji": "ちょうど",
+      "kana": "ちょうど",
+      "romaji": "choudo",
+      "meaning": "正好，刚好",
+      "sentences": [
+        {
+          "ja": "ちょうど今から会議が始まるところです。",
+          "zh": "会议正好现在要开始。"
+        }
+      ]
+    },
+    {
+      "id": "L46-W14",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "出ます",
+      "kana": "でます",
+      "romaji": "demasu",
+      "meaning": "出发（バスが出ます：公共汽车出发）",
+      "conjugations": {
+        "dictionary": "出る",
+        "masu": "でます",
+        "te": "出て",
+        "nai": "出ない",
+        "ta": "出た"
+      },
+      "sentences": [
+        {
+          "ja": "バスが出ます。",
+          "zh": "公共汽车出发。"
+        },
+        {
+          "ja": "たった今バスが出たところです。",
+          "zh": "公共汽车刚走。"
+        }
+      ]
+    },
+    {
+      "id": "L46-W15",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "帰ってきます",
+      "kana": "かえってきます",
+      "romaji": "kaette kimasu",
+      "meaning": "回来",
+      "conjugations": {
+        "dictionary": "帰ってくる",
+        "masu": "かえってきます",
+        "te": "帰ってきて",
+        "nai": "帰ってこない",
+        "ta": "帰ってきた"
+      },
+      "sentences": [
+        {
+          "ja": "父はたった今帰ってきたところです。",
+          "zh": "父亲刚刚回来。"
+        }
+      ]
+    },
+    {
+      "id": "L46-W16",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "届きます",
+      "kana": "とどきます",
+      "romaji": "todokimasu",
+      "meaning": "送达",
+      "conjugations": {
+        "dictionary": "届く",
+        "masu": "とどきます",
+        "te": "届いて",
+        "nai": "届かない",
+        "ta": "届いた"
+      },
+      "sentences": [
+        {
+          "ja": "荷物が届きます。",
+          "zh": "行李送达。"
+        },
+        {
+          "ja": "荷物はあした届くはずです。",
+          "zh": "行李应该明天送到。"
+        }
+      ]
+    },
+    {
+      "id": "L46-W17",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "焼きます",
+      "kana": "やきます",
+      "romaji": "yakimasu",
+      "meaning": "烧，烤",
+      "conjugations": {
+        "dictionary": "焼く",
+        "masu": "やきます",
+        "te": "焼いて",
+        "nai": "焼かない",
+        "ta": "焼いた"
+      },
+      "sentences": [
+        {
+          "ja": "今パンを焼いているところです。",
+          "zh": "现在正在烤面包。"
+        }
+      ]
+    },
+    {
+      "id": "L46-W18",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "焼けます",
+      "kana": "やけます",
+      "romaji": "yakemasu",
+      "meaning": "烤好了",
+      "conjugations": {
+        "dictionary": "焼ける",
+        "masu": "やけます",
+        "te": "焼けて",
+        "nai": "焼けない",
+        "ta": "焼けた"
+      },
+      "sentences": [
+        {
+          "ja": "パンが焼けます。",
+          "zh": "面包烤好了。"
+        },
+        {
+          "ja": "肉が焼けます。",
+          "zh": "肉烤熟了。"
+        }
+      ]
+    },
+    {
+      "id": "L46-W19",
+      "category": "Nouns",
+      "kanji": "半年",
+      "kana": "はんとし",
+      "romaji": "hantoshi",
+      "meaning": "半年",
+      "sentences": [
+        {
+          "ja": "日本へ来て、半年たったばかりです。",
+          "zh": "来日本刚过了半年。"
+        }
+      ]
+    },
+    {
+      "id": "L46-W20",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "入学します",
+      "kana": "にゅうがくします",
+      "romaji": "nyuugaku shimasu",
+      "meaning": "入学",
+      "conjugations": {
+        "dictionary": "入学する",
+        "masu": "にゅうがくします",
+        "te": "入学して",
+        "nai": "入学しない",
+        "ta": "入学した"
+      },
+      "sentences": [
+        {
+          "ja": "大学に入学します。",
+          "zh": "大学入学。"
+        },
+        {
+          "ja": "娘は今年大学に入学したばかりです。",
+          "zh": "女儿今年刚上大学。"
+        }
+      ]
+    },
+    {
+      "id": "L46-W21",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "卒業します",
+      "kana": "そつぎょうします",
+      "romaji": "sotsugyou shimasu",
+      "meaning": "毕业",
+      "conjugations": {
+        "dictionary": "卒業する",
+        "masu": "そつぎょうします",
+        "te": "卒業して",
+        "nai": "卒業しない",
+        "ta": "卒業した"
+      },
+      "sentences": [
+        {
+          "ja": "大学を卒業します。",
+          "zh": "大学毕业。"
+        },
+        {
+          "ja": "彼は3月に大学を卒業したばかりです。",
+          "zh": "他3月刚从大学毕业。"
+        }
+      ]
+    },
+    {
+      "id": "L46-W22",
+      "category": "Nouns",
+      "kanji": "宅配便",
+      "kana": "たくはいびん",
+      "romaji": "takuhaibin",
+      "meaning": "快递",
+      "sentences": [
+        {
+          "ja": "宅配便で荷物を送ります。",
+          "zh": "用快递寄行李。"
+        }
+      ]
+    },
+    {
+      "id": "L46-W23",
+      "category": "Nouns",
+      "kanji": "留守",
+      "kana": "るす",
+      "romaji": "rusu",
+      "meaning": "不在",
+      "sentences": [
+        {
+          "ja": "荷物が届いたとき、留守でした。",
+          "zh": "行李送到时不在家。"
+        }
+      ]
+    },
+    {
+      "id": "L46-W24",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "渡します",
+      "kana": "わたします",
+      "romaji": "watashimasu",
+      "meaning": "交给，递交",
+      "conjugations": {
+        "dictionary": "渡す",
+        "masu": "わたします",
+        "te": "渡して",
+        "nai": "渡さない",
+        "ta": "渡した"
+      },
+      "sentences": [
+        {
+          "ja": "李さんに地図を渡します。",
+          "zh": "交给小李地图。"
+        }
+      ]
+    },
+    {
+      "id": "L46-W25",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "ついています",
+      "kana": "ついています",
+      "romaji": "tsuite imasu",
+      "meaning": "运气好",
+      "conjugations": {
+        "dictionary": "ついている",
+        "masu": "ついています",
+        "te": "ついていて",
+        "nai": "ついていない",
+        "ta": "ついていた"
+      },
+      "sentences": [
+        {
+          "ja": "きょうはついています。",
+          "zh": "今天运气很好。"
+        }
+      ]
+    },
+    {
+      "id": "L46-W26",
+      "category": "Nouns",
+      "kanji": "床",
+      "kana": "ゆか",
+      "romaji": "yuka",
+      "meaning": "地板",
+      "sentences": [
+        {
+          "ja": "床がぬれていて、転びました。",
+          "zh": "地板湿了，摔倒了。"
+        }
+      ]
+    },
+    {
+      "id": "L46-W27",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "転びます",
+      "kana": "ころびます",
+      "romaji": "korobimasu",
+      "meaning": "摔倒",
+      "conjugations": {
+        "dictionary": "転ぶ",
+        "masu": "ころびます",
+        "te": "転んで",
+        "nai": "転ばない",
+        "ta": "転んだ"
+      },
+      "sentences": [
+        {
+          "ja": "床で転んで、けがをしました。",
+          "zh": "在地板上摔倒受伤了。"
+        }
+      ]
+    },
+    {
+      "id": "L46-W28",
+      "category": "Nouns",
+      "kanji": "ベル",
+      "kana": "ベル",
+      "romaji": "beru",
+      "meaning": "铃",
+      "sentences": [
+        {
+          "ja": "ベルが鳴ったところです。",
+          "zh": "铃刚响。"
+        }
+      ]
+    },
+    {
+      "id": "L46-W29",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "慌てます",
+      "kana": "あわてます",
+      "romaji": "awatemasu",
+      "meaning": "急忙，匆匆忙忙",
+      "conjugations": {
+        "dictionary": "慌てる",
+        "masu": "あわてます",
+        "te": "慌てて",
+        "nai": "慌てない",
+        "ta": "慌てた"
+      },
+      "sentences": [
+        {
+          "ja": "慌てて家を出ました。",
+          "zh": "匆匆忙忙出了家门。"
+        }
+      ]
+    },
+    {
+      "id": "L46-W30",
+      "category": "Nouns",
+      "kanji": "順番",
+      "kana": "じゅんばん",
+      "romaji": "junban",
+      "meaning": "（按）顺序",
+      "sentences": [
+        {
+          "ja": "順番に話してください。",
+          "zh": "请按顺序说。"
+        }
+      ]
+    },
+    {
+      "id": "L46-W31",
+      "category": "Nouns",
+      "kanji": "出来事",
+      "kana": "できごと",
+      "romaji": "dekigoto",
+      "meaning": "发生的事情",
+      "sentences": [
+        {
+          "ja": "きょうの出来事を日記に書きます。",
+          "zh": "把今天发生的事情写进日记。"
+        }
+      ]
+    }
+  ],
+  "47": [
+    {
+      "id": "L47-W1",
+      "category": "Particles",
+      "kanji": "～によると",
+      "kana": "～によると",
+      "romaji": "~ni yoru to",
+      "meaning": "根据～（表示信息的出处）（新聞によると：据报纸）",
+      "sentences": [
+        {
+          "ja": "天気予報によると、あしたは寒くなるそうです。",
+          "zh": "据天气预报说，明天会变冷。"
+        }
+      ]
+    },
+    {
+      "id": "L47-W2",
+      "category": "Expressions",
+      "kanji": "～そうだ",
+      "kana": "～そうだ",
+      "romaji": "~sou da",
+      "meaning": "听说～（表示传闻）",
+      "sentences": [
+        {
+          "ja": "ミラーさんはあした京都へ行くそうです。",
+          "zh": "听说米勒明天去京都。"
+        }
+      ]
+    },
+    {
+      "id": "L47-W3",
+      "category": "Expressions",
+      "kanji": "～ようだ",
+      "kana": "～ようだ",
+      "romaji": "~you da",
+      "meaning": "好像～（表示推测）",
+      "sentences": [
+        {
+          "ja": "隣の部屋にだれかいるようです。",
+          "zh": "隔壁房间好像有人。"
+        }
+      ]
+    },
+    {
+      "id": "L47-W4",
+      "category": "Adjectives",
+      "grammarType": "i-adj",
+      "kanji": "厳しい",
+      "kana": "きびしい",
+      "romaji": "kibishii",
+      "meaning": "严厉，严格",
+      "sentences": [
+        {
+          "ja": "ワット先生は厳しい先生だそうですね。",
+          "zh": "听说瓦特老师是很严格的老师啊。"
+        }
+      ]
+    },
+    {
+      "id": "L47-W5",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "します",
+      "kana": "します",
+      "romaji": "shimasu",
+      "meaning": "有（声音、味道等）（音／声がします：有声音；味がします：有味道；匂いがします：有气味）",
+      "conjugations": {
+        "dictionary": "する",
+        "masu": "します",
+        "te": "して",
+        "nai": "しない",
+        "ta": "した"
+      },
+      "sentences": [
+        {
+          "ja": "にぎやかな声がしますね。",
+          "zh": "有热闹的说话声呢。"
+        },
+        {
+          "ja": "変な匂いがします。",
+          "zh": "有奇怪的气味。"
+        }
+      ]
+    },
+    {
+      "id": "L47-W6",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "集まります",
+      "kana": "あつまります",
+      "romaji": "atsumarimasu",
+      "meaning": "聚集",
+      "conjugations": {
+        "dictionary": "集まる",
+        "masu": "あつまります",
+        "te": "集まって",
+        "nai": "集まらない",
+        "ta": "集まった"
+      },
+      "sentences": [
+        {
+          "ja": "人が集まります。",
+          "zh": "聚集了好多人。"
+        },
+        {
+          "ja": "人が大勢集まっていますね。",
+          "zh": "聚集了好多人啊。"
+        }
+      ]
+    },
+    {
+      "id": "L47-W7",
+      "category": "Nouns",
+      "kanji": "パトカー",
+      "kana": "パトカー",
+      "romaji": "patokaa",
+      "meaning": "警车（「パトロールカー」的略称）",
+      "sentences": [
+        {
+          "ja": "パトカーと救急車が来ています。",
+          "zh": "警车和救护车都来了。"
+        }
+      ]
+    },
+    {
+      "id": "L47-W8",
+      "category": "Nouns",
+      "kanji": "救急車",
+      "kana": "きゅうきゅうしゃ",
+      "romaji": "kyuukyuusha",
+      "meaning": "急救车",
+      "sentences": [
+        {
+          "ja": "事故のようです。救急車が来ています。",
+          "zh": "好像是事故。救护车来了。"
+        }
+      ]
+    },
+    {
+      "id": "L47-W9",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "婚約します",
+      "kana": "こんやくします",
+      "romaji": "kon'yaku shimasu",
+      "meaning": "订婚",
+      "conjugations": {
+        "dictionary": "婚約する",
+        "masu": "こんやくします",
+        "te": "婚約して",
+        "nai": "婚約しない",
+        "ta": "婚約した"
+      },
+      "sentences": [
+        {
+          "ja": "渡辺さんはこの間婚約したそうです。",
+          "zh": "听说渡边前几天订婚了。"
+        }
+      ]
+    },
+    {
+      "id": "L47-W10",
+      "category": "Adverbs",
+      "kanji": "どうも",
+      "kana": "どうも",
+      "romaji": "doumo",
+      "meaning": "有点儿，总觉得（在讲述自己的推测时使用）（どうも～ようだ：总觉得好像～）",
+      "sentences": [
+        {
+          "ja": "どうも恋人ができたようですね。",
+          "zh": "总觉得好像有恋人了呢。"
+        }
+      ]
+    },
+    {
+      "id": "L47-W11",
+      "category": "Nouns",
+      "kanji": "恋人",
+      "kana": "こいびと",
+      "romaji": "koibito",
+      "meaning": "恋人",
+      "sentences": [
+        {
+          "ja": "僕は仕事が恋人です。",
+          "zh": "我的恋人是工作。"
+        }
+      ]
+    },
+    {
+      "id": "L47-W12",
+      "category": "Nouns",
+      "kanji": "相手",
+      "kana": "あいて",
+      "romaji": "aite",
+      "meaning": "对方",
+      "sentences": [
+        {
+          "ja": "相手はだれですか。",
+          "zh": "对方是谁？"
+        }
+      ]
+    },
+    {
+      "id": "L47-W13",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "知り合います",
+      "kana": "しりあいます",
+      "romaji": "shiriaimasu",
+      "meaning": "认识",
+      "conjugations": {
+        "dictionary": "知り合う",
+        "masu": "しりあいます",
+        "te": "知り合って",
+        "nai": "知り合わない",
+        "ta": "知り合った"
+      },
+      "sentences": [
+        {
+          "ja": "ワットさんの結婚式で知り合ったそうです。",
+          "zh": "听说是在瓦特先生的婚礼上认识的。"
+        }
+      ]
+    },
+    {
+      "id": "L47-W14",
+      "category": "Adjectives",
+      "grammarType": "i-adj",
+      "kanji": "ひどい",
+      "kana": "ひどい",
+      "romaji": "hidoi",
+      "meaning": "严重，厉害（ひどい事故：严重的事故）",
+      "sentences": [
+        {
+          "ja": "ひどい事故があったそうです。",
+          "zh": "听说发生了严重的事故。"
+        }
+      ]
+    },
+    {
+      "id": "L47-W15",
+      "category": "Nouns",
+      "kanji": "人口",
+      "kana": "じんこう",
+      "romaji": "jinkou",
+      "meaning": "人口",
+      "sentences": [
+        {
+          "ja": "日本の人口は減っているそうです。",
+          "zh": "听说日本的人口在减少。"
+        }
+      ]
+    },
+    {
+      "id": "L47-W16",
+      "category": "Nouns",
+      "kanji": "科学",
+      "kana": "かがく",
+      "romaji": "kagaku",
+      "meaning": "科学",
+      "sentences": [
+        {
+          "ja": "科学の実験をします。",
+          "zh": "做科学实验。"
+        }
+      ]
+    },
+    {
+      "id": "L47-W17",
+      "category": "Nouns",
+      "kanji": "医学",
+      "kana": "いがく",
+      "romaji": "igaku",
+      "meaning": "医学",
+      "sentences": [
+        {
+          "ja": "医学の研究をしています。",
+          "zh": "在做医学研究。"
+        }
+      ]
+    },
+    {
+      "id": "L47-W18",
+      "category": "Nouns",
+      "kanji": "実験",
+      "kana": "じっけん",
+      "romaji": "jikken",
+      "meaning": "实验",
+      "sentences": [
+        {
+          "ja": "実験のデータを集めます。",
+          "zh": "收集实验数据。"
+        }
+      ]
+    },
+    {
+      "id": "L47-W19",
+      "category": "Nouns",
+      "kanji": "データ",
+      "kana": "データ",
+      "romaji": "deeta",
+      "meaning": "数据",
+      "sentences": [
+        {
+          "ja": "データによると、人口が減っているそうです。",
+          "zh": "根据数据，人口在减少。"
+        }
+      ]
+    },
+    {
+      "id": "L47-W20",
+      "category": "Nouns",
+      "kanji": "大統領",
+      "kana": "だいとうりょう",
+      "romaji": "daitouryou",
+      "meaning": "总统",
+      "sentences": [
+        {
+          "ja": "大統領が日本に来るそうです。",
+          "zh": "听说总统要来日本。"
+        }
+      ]
+    },
+    {
+      "id": "L47-W21",
+      "category": "Adjectives",
+      "grammarType": "i-adj",
+      "kanji": "怖い",
+      "kana": "こわい",
+      "romaji": "kowai",
+      "meaning": "害怕，可怕",
+      "sentences": [
+        {
+          "ja": "ワット先生は怖い先生だそうです。",
+          "zh": "听说瓦特老师是很可怕的老师。"
+        }
+      ]
+    },
+    {
+      "id": "L47-W22",
+      "category": "Nouns",
+      "kanji": "賛成",
+      "kana": "さんせい",
+      "romaji": "sansei",
+      "meaning": "赞成",
+      "sentences": [
+        {
+          "ja": "この意見に賛成です。",
+          "zh": "赞成这个意见。"
+        }
+      ]
+    },
+    {
+      "id": "L47-W23",
+      "category": "Nouns",
+      "kanji": "反対",
+      "kana": "はんたい",
+      "romaji": "hantai",
+      "meaning": "反对",
+      "sentences": [
+        {
+          "ja": "家族はわたしの留学に反対しているようです。",
+          "zh": "家人好像反对我留学。"
+        }
+      ]
+    },
+    {
+      "id": "L47-W24",
+      "category": "Nouns",
+      "kanji": "文学",
+      "kana": "ぶんがく",
+      "romaji": "bungaku",
+      "meaning": "文学（日本文学：日本文学）",
+      "sentences": [
+        {
+          "ja": "日本文学を勉強しています。",
+          "zh": "在学习日本文学。"
+        }
+      ]
+    },
+    {
+      "id": "L47-W25",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "別れます",
+      "kana": "わかれます",
+      "romaji": "wakaremasu",
+      "meaning": "分手，分别",
+      "conjugations": {
+        "dictionary": "別れる",
+        "masu": "わかれます",
+        "te": "別れて",
+        "nai": "別れない",
+        "ta": "別れた"
+      },
+      "sentences": [
+        {
+          "ja": "人が別れます。",
+          "zh": "与人分手。"
+        },
+        {
+          "ja": "二人は別れたようです。",
+          "zh": "两人好像分手了。"
+        }
+      ]
+    },
+    {
+      "id": "L47-W26",
+      "category": "Nouns",
+      "kanji": "匂い",
+      "kana": "におい",
+      "romaji": "nioi",
+      "meaning": "气味",
+      "sentences": [
+        {
+          "ja": "変な匂いがします。",
+          "zh": "有奇怪的气味。"
+        }
+      ]
+    },
+    {
+      "id": "L47-W27",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "燃えます",
+      "kana": "もえます",
+      "romaji": "moemasu",
+      "meaning": "燃烧",
+      "conjugations": {
+        "dictionary": "燃える",
+        "masu": "もえます",
+        "te": "燃えて",
+        "nai": "燃えない",
+        "ta": "燃えた"
+      },
+      "sentences": [
+        {
+          "ja": "ごみが燃えます。",
+          "zh": "垃圾燃烧。"
+        },
+        {
+          "ja": "何か燃えているようです。",
+          "zh": "好像有什么在燃烧。"
+        }
+      ]
+    },
+    {
+      "id": "L47-W28",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "吹きます",
+      "kana": "ふきます",
+      "romaji": "fukimasu",
+      "meaning": "刮（风）",
+      "conjugations": {
+        "dictionary": "吹く",
+        "masu": "ふきます",
+        "te": "吹いて",
+        "nai": "吹かない",
+        "ta": "吹いた"
+      },
+      "sentences": [
+        {
+          "ja": "風が吹きます。",
+          "zh": "刮风。"
+        },
+        {
+          "ja": "あしたは強い風が吹くそうです。",
+          "zh": "听说明天会刮大风。"
+        }
+      ]
+    },
+    {
+      "id": "L47-W29",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "亡くなります",
+      "kana": "なくなります",
+      "romaji": "nakunarimasu",
+      "meaning": "去世（「死にます」的婉转说法）",
+      "conjugations": {
+        "dictionary": "亡くなる",
+        "masu": "なくなります",
+        "te": "亡くなって",
+        "nai": "亡くならない",
+        "ta": "亡くなった"
+      },
+      "sentences": [
+        {
+          "ja": "田中さんのお父さんが亡くなったそうです。",
+          "zh": "听说田中的父亲去世了。"
+        }
+      ]
+    },
+    {
+      "id": "L47-W30",
+      "category": "Nouns",
+      "kanji": "化粧",
+      "kana": "けしょう",
+      "romaji": "keshou",
+      "meaning": "化妆（～をします：化妆）",
+      "sentences": [
+        {
+          "ja": "姉は毎朝化粧をします。",
+          "zh": "姐姐每天早上化妆。"
+        }
+      ]
+    },
+    {
+      "id": "L47-W31",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "世話をします",
+      "kana": "せわをします",
+      "romaji": "sewa o shimasu",
+      "meaning": "照顾，照料",
+      "conjugations": {
+        "dictionary": "世話をする",
+        "masu": "せわをします",
+        "te": "世話をして",
+        "nai": "世話をしない",
+        "ta": "世話をした"
+      },
+      "sentences": [
+        {
+          "ja": "女性は子どもの世話をすることが多いです。",
+          "zh": "女性照顾孩子的情况比较多。"
+        }
+      ]
+    },
+    {
+      "id": "L47-W32",
+      "category": "Nouns",
+      "kanji": "女性",
+      "kana": "じょせい",
+      "romaji": "josei",
+      "meaning": "女性",
+      "sentences": [
+        {
+          "ja": "女性のほうが長生きだそうです。",
+          "zh": "听说女性更长寿。"
+        }
+      ]
+    },
+    {
+      "id": "L47-W33",
+      "category": "Nouns",
+      "kanji": "男性",
+      "kana": "だんせい",
+      "romaji": "dansei",
+      "meaning": "男性",
+      "sentences": [
+        {
+          "ja": "男性は女性より長生きしないそうです。",
+          "zh": "听说男性不如女性长寿。"
+        }
+      ]
+    },
+    {
+      "id": "L47-W34",
+      "category": "Nouns",
+      "kanji": "長生き",
+      "kana": "ながいき",
+      "romaji": "nagaiki",
+      "meaning": "长寿",
+      "sentences": [
+        {
+          "ja": "日本人は長生きだそうです。",
+          "zh": "听说日本人很长寿。"
+        }
+      ]
+    },
+    {
+      "id": "L47-W35",
+      "category": "Nouns",
+      "kanji": "理由",
+      "kana": "りゆう",
+      "romaji": "riyuu",
+      "meaning": "理由",
+      "sentences": [
+        {
+          "ja": "女性が長生きする理由は何ですか。",
+          "zh": "女性长寿的理由是什么？"
+        }
+      ]
+    },
+    {
+      "id": "L47-W36",
+      "category": "Nouns",
+      "kanji": "関係",
+      "kana": "かんけい",
+      "romaji": "kankei",
+      "meaning": "关系",
+      "sentences": [
+        {
+          "ja": "食べ物と長生きは関係があるようです。",
+          "zh": "饮食和长寿好像有关系。"
+        }
+      ]
+    }
+  ],
+  "48": [
+    {
+      "id": "L48-W1",
+      "category": "Nouns",
+      "kanji": "生徒",
+      "kana": "せいと",
+      "romaji": "seito",
+      "meaning": "学生（中小学生）",
+      "sentences": [
+        {
+          "ja": "先生は生徒に自由に意見を言わせました。",
+          "zh": "老师让学生自由地发表意见。"
+        }
+      ]
+    },
+    {
+      "id": "L48-W2",
+      "category": "Adverbs",
+      "kanji": "自由に",
+      "kana": "じゆうに",
+      "romaji": "jiyuu ni",
+      "meaning": "自由地，随意地",
+      "sentences": [
+        {
+          "ja": "わたしは娘を自由に遊ばせました。",
+          "zh": "我让女儿自由自在地玩耍。"
+        }
+      ]
+    },
+    {
+      "id": "L48-W3",
+      "category": "Expressions",
+      "kanji": "お忙しいですか",
+      "kana": "おいそがしいですか",
+      "romaji": "oisogashii desu ka",
+      "meaning": "您忙吗？（在和上司、长辈打招呼时使用）",
+      "sentences": [
+        {
+          "ja": "課長、今お忙しいですか。",
+          "zh": "科长，您现在忙吗？"
+        }
+      ]
+    },
+    {
+      "id": "L48-W4",
+      "category": "Expressions",
+      "kanji": "～間",
+      "kana": "～かん",
+      "romaji": "~kan",
+      "meaning": "～期间",
+      "sentences": [
+        {
+          "ja": "10日間ですか。",
+          "zh": "要10天吗？"
+        }
+      ]
+    },
+    {
+      "id": "L48-W5",
+      "category": "Nouns",
+      "kanji": "営業",
+      "kana": "えいぎょう",
+      "romaji": "eigyou",
+      "meaning": "营业",
+      "sentences": [
+        {
+          "ja": "来月は20日に営業会議があります。",
+          "zh": "下个月20号有营业会议。"
+        }
+      ]
+    },
+    {
+      "id": "L48-W6",
+      "category": "Expressions",
+      "kanji": "それまでに",
+      "kana": "それまでに",
+      "romaji": "sore made ni",
+      "meaning": "到那时为止，在那之前",
+      "sentences": [
+        {
+          "ja": "それまでに帰れますね。",
+          "zh": "在那之前能回来吧。"
+        }
+      ]
+    },
+    {
+      "id": "L48-W7",
+      "category": "Expressions",
+      "kanji": "かまいません",
+      "kana": "かまいません",
+      "romaji": "kamaimasen",
+      "meaning": "没关系",
+      "sentences": [
+        {
+          "ja": "じゃ、かまいませんよ。",
+          "zh": "那没关系。"
+        }
+      ]
+    },
+    {
+      "id": "L48-W8",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "楽しみます",
+      "kana": "たのしみます",
+      "romaji": "tanoshimimasu",
+      "meaning": "享受，享乐",
+      "conjugations": {
+        "dictionary": "楽しむ",
+        "masu": "たのしみます",
+        "te": "楽しんで",
+        "nai": "楽しまない",
+        "ta": "楽しんだ"
+      },
+      "sentences": [
+        {
+          "ja": "楽しんで来てください。",
+          "zh": "请好好享受再回来。"
+        }
+      ]
+    },
+    {
+      "id": "L48-W9",
+      "category": "Nouns",
+      "kanji": "塾",
+      "kana": "じゅく",
+      "romaji": "juku",
+      "meaning": "私塾，补习班",
+      "sentences": [
+        {
+          "ja": "子どもを塾に行かせています。",
+          "zh": "让孩子上补习班。"
+        }
+      ]
+    },
+    {
+      "id": "L48-W10",
+      "category": "Nouns",
+      "kanji": "ファイル",
+      "kana": "ファイル",
+      "romaji": "fairu",
+      "meaning": "文件夹",
+      "sentences": [
+        {
+          "ja": "このファイルを課長に届けさせます。",
+          "zh": "让人把这个文件夹送给科长。"
+        }
+      ]
+    },
+    {
+      "id": "L48-W11",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "届けます",
+      "kana": "とどけます",
+      "romaji": "todokemasu",
+      "meaning": "投递，递送",
+      "conjugations": {
+        "dictionary": "届ける",
+        "masu": "とどけます",
+        "te": "届けて",
+        "nai": "届けない",
+        "ta": "届けた"
+      },
+      "sentences": [
+        {
+          "ja": "息子に荷物を届けさせます。",
+          "zh": "让儿子送行李去。"
+        }
+      ]
+    },
+    {
+      "id": "L48-W12",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "世話をします",
+      "kana": "せわをします",
+      "romaji": "sewa o shimasu",
+      "meaning": "照顾，照料",
+      "conjugations": {
+        "dictionary": "世話をする",
+        "masu": "せわをします",
+        "te": "世話をして",
+        "nai": "世話をしない",
+        "ta": "世話をした"
+      },
+      "sentences": [
+        {
+          "ja": "子どもに犬の世話をさせます。",
+          "zh": "让孩子照顾狗。"
+        }
+      ]
+    },
+    {
+      "id": "L48-W13",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "降ろします／下ろします",
+      "kana": "おろします",
+      "romaji": "oroshimasu",
+      "meaning": "卸下来",
+      "conjugations": {
+        "dictionary": "降ろす／下ろす",
+        "masu": "おろします",
+        "te": "降ろして／下ろして",
+        "nai": "降ろさない／下ろさない",
+        "ta": "降ろした／下ろした"
+      },
+      "sentences": [
+        {
+          "ja": "車から荷物を降ろします。",
+          "zh": "从车上卸下行李。"
+        }
+      ]
+    },
+    {
+      "id": "L48-W14",
+      "category": "Expressions",
+      "kanji": "いいことですね",
+      "kana": "いいことですね",
+      "romaji": "ii koto desu ne",
+      "meaning": "是件好事儿啊",
+      "sentences": [
+        {
+          "ja": "子どもに本を読ませるのはいいことですね。",
+          "zh": "让孩子读书是件好事啊。"
+        }
+      ]
+    },
+    {
+      "id": "L48-W15",
+      "category": "Adjectives",
+      "grammarType": "na-adj",
+      "kanji": "嫌",
+      "kana": "いや",
+      "romaji": "iya",
+      "meaning": "讨厌，不喜欢",
+      "sentences": [
+        {
+          "ja": "子どもが嫌だと言っても、塾に行かせます。",
+          "zh": "即使孩子说讨厌，也让他去补习班。"
+        }
+      ]
+    },
+    {
+      "id": "L48-W16",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "録音します",
+      "kana": "ろくおんします",
+      "romaji": "rokuon shimasu",
+      "meaning": "录音",
+      "conjugations": {
+        "dictionary": "録音する",
+        "masu": "ろくおんします",
+        "te": "録音して",
+        "nai": "録音しない",
+        "ta": "録音した"
+      },
+      "sentences": [
+        {
+          "ja": "先生の話を録音させていただけませんか。",
+          "zh": "可以让我录一下老师的讲话吗？"
+        }
+      ]
+    },
+    {
+      "id": "L48-W17",
+      "category": "Nouns",
+      "kanji": "親",
+      "kana": "おや",
+      "romaji": "oya",
+      "meaning": "父母",
+      "sentences": [
+        {
+          "ja": "親は子どもに習字を習わせます。",
+          "zh": "父母让孩子学书法。"
+        }
+      ]
+    },
+    {
+      "id": "L48-W18",
+      "category": "Nouns",
+      "kanji": "小学生",
+      "kana": "しょうがくせい",
+      "romaji": "shougakusei",
+      "meaning": "小学生",
+      "sentences": [
+        {
+          "ja": "小学生の60パーセントが塾に行っているそうです。",
+          "zh": "听说60%的小学生上补习班。"
+        }
+      ]
+    },
+    {
+      "id": "L48-W19",
+      "category": "Counters",
+      "kanji": "～パーセント",
+      "kana": "～パーセント",
+      "romaji": "~paasento",
+      "meaning": "百分之～",
+      "sentences": [
+        {
+          "ja": "生徒の80パーセントが賛成しました。",
+          "zh": "80%的学生赞成了。"
+        }
+      ]
+    },
+    {
+      "id": "L48-W20",
+      "category": "Expressions",
+      "kanji": "その次",
+      "kana": "そのつぎ",
+      "romaji": "sono tsugi",
+      "meaning": "其次",
+      "sentences": [
+        {
+          "ja": "一番多いのは英語で、その次は水泳です。",
+          "zh": "最多的是英语，其次是游泳。"
+        }
+      ]
+    },
+    {
+      "id": "L48-W21",
+      "category": "Nouns",
+      "kanji": "習字",
+      "kana": "しゅうじ",
+      "romaji": "shuuji",
+      "meaning": "习字，书法",
+      "sentences": [
+        {
+          "ja": "娘に習字を習わせています。",
+          "zh": "让女儿学书法。"
+        }
+      ]
+    },
+    {
+      "id": "L48-W22",
+      "category": "Expressions",
+      "kanji": "普通の",
+      "kana": "ふつうの",
+      "romaji": "futsuu no",
+      "meaning": "普通的",
+      "sentences": [
+        {
+          "ja": "普通の小学生は何を習っていますか。",
+          "zh": "普通的小学生在学什么？"
+        }
+      ]
+    }
+  ],
+  "49": [
+    {
+      "id": "L49-W1",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "なさいます",
+      "kana": "なさいます",
+      "romaji": "nasaimasu",
+      "meaning": "做（「します」的尊敬语）（お待ちください：请等一下）",
+      "conjugations": {
+        "dictionary": "なさる",
+        "masu": "なさいます",
+        "te": "なさって",
+        "nai": "なさらない",
+        "ta": "なさった"
+      },
+      "sentences": [
+        {
+          "ja": "お仕事は何をなさっていますか。",
+          "zh": "您做什么工作？"
+        },
+        {
+          "ja": "しばらくお待ちください。",
+          "zh": "请稍等。"
+        }
+      ]
+    },
+    {
+      "id": "L49-W2",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "ご覧になります",
+      "kana": "ごらんになります",
+      "romaji": "goran ni narimasu",
+      "meaning": "看（「見ます」的尊敬语）",
+      "conjugations": {
+        "dictionary": "ご覧になる",
+        "masu": "ごらんになります",
+        "te": "ご覧になって",
+        "nai": "ご覧にならない",
+        "ta": "ご覧になった"
+      },
+      "sentences": [
+        {
+          "ja": "よく映画をご覧になりますか。",
+          "zh": "您经常看电影吗？"
+        }
+      ]
+    },
+    {
+      "id": "L49-W3",
+      "category": "Adverbs",
+      "kanji": "たまに",
+      "kana": "たまに",
+      "romaji": "tama ni",
+      "meaning": "偶尔",
+      "sentences": [
+        {
+          "ja": "たまに妻と映画を見に行きます。",
+          "zh": "偶尔和妻子去看电影。"
+        }
+      ]
+    },
+    {
+      "id": "L49-W4",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "おっしゃいます",
+      "kana": "おっしゃいます",
+      "romaji": "osshaimasu",
+      "meaning": "说，叫（「言います」的尊敬语）",
+      "conjugations": {
+        "dictionary": "おっしゃる",
+        "masu": "おっしゃいます",
+        "te": "おっしゃって",
+        "nai": "おっしゃらない",
+        "ta": "おっしゃった"
+      },
+      "sentences": [
+        {
+          "ja": "お名前は何とおっしゃいますか。",
+          "zh": "您叫什么名字？"
+        }
+      ]
+    },
+    {
+      "id": "L49-W5",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "勤めます",
+      "kana": "つとめます",
+      "romaji": "tsutomemasu",
+      "meaning": "工作",
+      "conjugations": {
+        "dictionary": "勤める",
+        "masu": "つとめます",
+        "te": "勤めて",
+        "nai": "勤めない",
+        "ta": "勤めた"
+      },
+      "sentences": [
+        {
+          "ja": "会社に勤めます。",
+          "zh": "在公司工作。"
+        },
+        {
+          "ja": "アップル銀行に勤めています。",
+          "zh": "在苹果银行工作。"
+        }
+      ]
+    },
+    {
+      "id": "L49-W6",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "いらっしゃいます",
+      "kana": "いらっしゃいます",
+      "romaji": "irasshaimasu",
+      "meaning": "在，去，来（「います」「行きます」「来ます」的尊敬语）",
+      "conjugations": {
+        "dictionary": "いらっしゃる",
+        "masu": "いらっしゃいます",
+        "te": "いらっしゃって",
+        "nai": "いらっしゃらない",
+        "ta": "いらっしゃった"
+      },
+      "sentences": [
+        {
+          "ja": "ワット先生は研究室にいらっしゃいます。",
+          "zh": "瓦特老师在研究室。"
+        }
+      ]
+    },
+    {
+      "id": "L49-W7",
+      "category": "Nouns",
+      "kanji": "ひまわり小学校",
+      "kana": "ひまわりしょうがっこう",
+      "romaji": "Himawari Shougakkou",
+      "meaning": "向日葵小学（虚构的小学）",
+      "sentences": [
+        {
+          "ja": "はい、ひまわり小学校です。",
+          "zh": "您好，这里是向日葵小学。"
+        }
+      ]
+    },
+    {
+      "id": "L49-W8",
+      "category": "Expressions",
+      "kanji": "～年～組",
+      "kana": "～ねん～くみ",
+      "romaji": "~nen ~kumi",
+      "meaning": "～年级～班",
+      "sentences": [
+        {
+          "ja": "5年2組のハンス・シュミットの母です。",
+          "zh": "我是5年2班汉斯·施密特的母亲。"
+        }
+      ]
+    },
+    {
+      "id": "L49-W9",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "出します",
+      "kana": "だします",
+      "romaji": "dashimasu",
+      "meaning": "发（烧）",
+      "conjugations": {
+        "dictionary": "出す",
+        "masu": "だします",
+        "te": "出して",
+        "nai": "出さない",
+        "ta": "出した"
+      },
+      "sentences": [
+        {
+          "ja": "熱を出します。",
+          "zh": "发烧。"
+        },
+        {
+          "ja": "ハンスがゆうべ熱を出しました。",
+          "zh": "汉斯昨晚发烧了。"
+        }
+      ]
+    },
+    {
+      "id": "L49-W10",
+      "category": "Expressions",
+      "kanji": "よろしくお伝えください",
+      "kana": "よろしくおつたえください",
+      "romaji": "yoroshiku otsutae kudasai",
+      "meaning": "请代我问好",
+      "sentences": [
+        {
+          "ja": "先生によろしくお伝えください。",
+          "zh": "请代我向老师问好。"
+        }
+      ]
+    },
+    {
+      "id": "L49-W11",
+      "category": "Expressions",
+      "kanji": "失礼いたします",
+      "kana": "しつれいいたします",
+      "romaji": "shitsurei itashimasu",
+      "meaning": "告辞了（「失礼します」的谦逊语）",
+      "sentences": [
+        {
+          "ja": "ありがとうございます。失礼いたします。",
+          "zh": "谢谢您。告辞了。"
+        }
+      ]
+    },
+    {
+      "id": "L49-W12",
+      "category": "Expressions",
+      "kanji": "ご存じです",
+      "kana": "ごぞんじです",
+      "romaji": "gozonji desu",
+      "meaning": "知道（「知っています」的尊敬语）",
+      "sentences": [
+        {
+          "ja": "小川さんの息子さんが大学に合格したのをご存じですか。",
+          "zh": "您知道小川的儿子考上大学了吗？"
+        }
+      ]
+    },
+    {
+      "id": "L49-W13",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "召し上がります",
+      "kana": "めしあがります",
+      "romaji": "meshiagarimasu",
+      "meaning": "吃，喝（「食べます」「飲みます」的尊敬语）",
+      "conjugations": {
+        "dictionary": "召し上がる",
+        "masu": "めしあがります",
+        "te": "召し上がって",
+        "nai": "召し上がらない",
+        "ta": "召し上がった"
+      },
+      "sentences": [
+        {
+          "ja": "どうぞ召し上がってください。",
+          "zh": "请用餐吧。"
+        }
+      ]
+    },
+    {
+      "id": "L49-W14",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "掛けます",
+      "kana": "かけます",
+      "romaji": "kakemasu",
+      "meaning": "坐",
+      "conjugations": {
+        "dictionary": "掛ける",
+        "masu": "かけます",
+        "te": "掛けて",
+        "nai": "掛けない",
+        "ta": "掛けた"
+      },
+      "sentences": [
+        {
+          "ja": "椅子に掛けます。",
+          "zh": "坐在椅子上。"
+        },
+        {
+          "ja": "どうぞお掛けください。",
+          "zh": "请坐。"
+        }
+      ]
+    },
+    {
+      "id": "L49-W15",
+      "category": "Nouns",
+      "kanji": "奥様",
+      "kana": "おくさま",
+      "romaji": "okusama",
+      "meaning": "（别人的）夫人（「奥さん」的尊敬语）",
+      "sentences": [
+        {
+          "ja": "部長の奥様もごいっしょにゴルフに行かれます。",
+          "zh": "部长夫人也一起去打高尔夫球。"
+        }
+      ]
+    },
+    {
+      "id": "L49-W16",
+      "category": "Expressions",
+      "kanji": "～様",
+      "kana": "～さま",
+      "romaji": "~sama",
+      "meaning": "～先生，～女士（「～さん」的尊敬语）",
+      "sentences": [
+        {
+          "ja": "田中様はいらっしゃいますか。",
+          "zh": "田中先生在吗？"
+        }
+      ]
+    },
+    {
+      "id": "L49-W17",
+      "category": "Nouns",
+      "kanji": "バス停",
+      "kana": "バスてい",
+      "romaji": "basutei",
+      "meaning": "公共汽车站",
+      "sentences": [
+        {
+          "ja": "バス停はどちらですか。",
+          "zh": "公交车站在哪儿？"
+        }
+      ]
+    },
+    {
+      "id": "L49-W18",
+      "category": "Nouns",
+      "kanji": "旅館",
+      "kana": "りょかん",
+      "romaji": "ryokan",
+      "meaning": "旅馆",
+      "sentences": [
+        {
+          "ja": "京都の旅館にお泊まりになりますか。",
+          "zh": "您住在京都的旅馆吗？"
+        }
+      ]
+    },
+    {
+      "id": "L49-W19",
+      "category": "Nouns",
+      "kanji": "挨拶",
+      "kana": "あいさつ",
+      "romaji": "aisatsu",
+      "meaning": "寒暄，问候，贺词（～をします：寒暄，问候，致辞）",
+      "sentences": [
+        {
+          "ja": "社長が挨拶をなさいます。",
+          "zh": "总经理致辞。"
+        }
+      ]
+    },
+    {
+      "id": "L49-W20",
+      "category": "Expressions",
+      "kanji": "～といいます",
+      "kana": "～といいます",
+      "romaji": "~to iimasu",
+      "meaning": "叫～",
+      "sentences": [
+        {
+          "ja": "ワットといいます。",
+          "zh": "我叫瓦特。"
+        }
+      ]
+    },
+    {
+      "id": "L49-W21",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "過ごします",
+      "kana": "すごします",
+      "romaji": "sugoshimasu",
+      "meaning": "过，度过",
+      "conjugations": {
+        "dictionary": "過ごす",
+        "masu": "すごします",
+        "te": "過ごして",
+        "nai": "過ごさない",
+        "ta": "過ごした"
+      },
+      "sentences": [
+        {
+          "ja": "休みはどう過ごされましたか。",
+          "zh": "假期您是怎么度过的？"
+        }
+      ]
+    },
+    {
+      "id": "L49-W22",
+      "category": "Expressions",
+      "kanji": "どなたでも",
+      "kana": "どなたでも",
+      "romaji": "donata demo",
+      "meaning": "任何一位都（「だれでも」的尊敬语）",
+      "sentences": [
+        {
+          "ja": "どなたでもご利用になれます。",
+          "zh": "任何人都可以使用。"
+        }
+      ]
+    },
+    {
+      "id": "L49-W23",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "利用します",
+      "kana": "りようします",
+      "romaji": "riyou shimasu",
+      "meaning": "利用",
+      "conjugations": {
+        "dictionary": "利用する",
+        "masu": "りようします",
+        "te": "利用して",
+        "nai": "利用しない",
+        "ta": "利用した"
+      },
+      "sentences": [
+        {
+          "ja": "この図書館はどなたでも利用できます。",
+          "zh": "这个图书馆任何人都可以利用。"
+        }
+      ]
+    },
+    {
+      "id": "L49-W24",
+      "category": "Nouns",
+      "kanji": "山中伸弥",
+      "kana": "やまなかしんや",
+      "romaji": "Yamanaka Shin'ya",
+      "meaning": "山中伸弥（1962-，日本医学家）",
+      "sentences": [
+        {
+          "ja": "山中伸弥先生はノーベル賞を受賞されました。",
+          "zh": "山中伸弥老师获得了诺贝尔奖。"
+        }
+      ]
+    },
+    {
+      "id": "L49-W25",
+      "category": "Nouns",
+      "kanji": "経歴",
+      "kana": "けいれき",
+      "romaji": "keireki",
+      "meaning": "经历",
+      "sentences": [
+        {
+          "ja": "先生の経歴をご存じですか。",
+          "zh": "您知道老师的经历吗？"
+        }
+      ]
+    },
+    {
+      "id": "L49-W26",
+      "category": "Nouns",
+      "kanji": "医学部",
+      "kana": "いがくぶ",
+      "romaji": "igakubu",
+      "meaning": "医学系",
+      "sentences": [
+        {
+          "ja": "山中先生は神戸大学の医学部を卒業されました。",
+          "zh": "山中老师毕业于神户大学医学系。"
+        }
+      ]
+    },
+    {
+      "id": "L49-W27",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "目指します",
+      "kana": "めざします",
+      "romaji": "mezashimasu",
+      "meaning": "以～为目标",
+      "conjugations": {
+        "dictionary": "目指す",
+        "masu": "めざします",
+        "te": "目指して",
+        "nai": "目指さない",
+        "ta": "目指した"
+      },
+      "sentences": [
+        {
+          "ja": "医者を目指して、勉強しました。",
+          "zh": "以当医生为目标学习了。"
+        }
+      ]
+    },
+    {
+      "id": "L49-W28",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "進みます",
+      "kana": "すすみます",
+      "romaji": "susumimasu",
+      "meaning": "升（学）",
+      "conjugations": {
+        "dictionary": "進む",
+        "masu": "すすみます",
+        "te": "進んで",
+        "nai": "進まない",
+        "ta": "進んだ"
+      },
+      "sentences": [
+        {
+          "ja": "大学院に進まれました。",
+          "zh": "升入了研究生院。"
+        }
+      ]
+    },
+    {
+      "id": "L49-W29",
+      "category": "Nouns",
+      "kanji": "iPS細胞",
+      "kana": "アイピーエスさいぼう",
+      "romaji": "iPS saibou",
+      "meaning": "iPS细胞（诱导多功能干细胞）",
+      "sentences": [
+        {
+          "ja": "山中先生はiPS細胞を開発されました。",
+          "zh": "山中老师研制出了iPS细胞。"
+        }
+      ]
+    },
+    {
+      "id": "L49-W30",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "開発します",
+      "kana": "かいはつします",
+      "romaji": "kaihatsu shimasu",
+      "meaning": "开发研制",
+      "conjugations": {
+        "dictionary": "開発する",
+        "masu": "かいはつします",
+        "te": "開発して",
+        "nai": "開発しない",
+        "ta": "開発した"
+      },
+      "sentences": [
+        {
+          "ja": "新しい薬を開発します。",
+          "zh": "开发新药。"
+        }
+      ]
+    },
+    {
+      "id": "L49-W31",
+      "category": "Nouns",
+      "kanji": "マウス",
+      "kana": "マウス",
+      "romaji": "mausu",
+      "meaning": "老鼠（实验用）",
+      "sentences": [
+        {
+          "ja": "マウスで実験をしました。",
+          "zh": "用老鼠做了实验。"
+        }
+      ]
+    },
+    {
+      "id": "L49-W32",
+      "category": "Nouns",
+      "kanji": "ヒト",
+      "kana": "ヒト",
+      "romaji": "hito",
+      "meaning": "人（生物学上的）",
+      "sentences": [
+        {
+          "ja": "マウスの次にヒトのiPS細胞を作られました。",
+          "zh": "继老鼠之后制作出了人的iPS细胞。"
+        }
+      ]
+    },
+    {
+      "id": "L49-W33",
+      "category": "Nouns",
+      "kanji": "ノーベル賞",
+      "kana": "ノーベルしょう",
+      "romaji": "Nooberu shou",
+      "meaning": "诺贝尔奖",
+      "sentences": [
+        {
+          "ja": "2012年にノーベル賞を受賞されました。",
+          "zh": "2012年获得了诺贝尔奖。"
+        }
+      ]
+    },
+    {
+      "id": "L49-W34",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "受賞します",
+      "kana": "じゅしょうします",
+      "romaji": "jushou shimasu",
+      "meaning": "获奖",
+      "conjugations": {
+        "dictionary": "受賞する",
+        "masu": "じゅしょうします",
+        "te": "受賞して",
+        "nai": "受賞しない",
+        "ta": "受賞した"
+      },
+      "sentences": [
+        {
+          "ja": "ノーベル賞を受賞されました。",
+          "zh": "获得了诺贝尔奖。"
+        }
+      ]
+    },
+    {
+      "id": "L49-W35",
+      "category": "Nouns",
+      "kanji": "講演会",
+      "kana": "こうえんかい",
+      "romaji": "kouenkai",
+      "meaning": "演讲会",
+      "sentences": [
+        {
+          "ja": "山中先生の講演会にいらっしゃいますか。",
+          "zh": "您去山中老师的演讲会吗？"
+        }
+      ]
+    }
+  ],
+  "50": [
+    {
+      "id": "L50-W1",
+      "category": "Nouns",
+      "kanji": "スケジュール",
+      "kana": "スケジュール",
+      "romaji": "sukejuuru",
+      "meaning": "日程",
+      "sentences": [
+        {
+          "ja": "今月のスケジュールをお送りします。",
+          "zh": "我把这个月的日程寄给您。"
+        }
+      ]
+    },
+    {
+      "id": "L50-W2",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "伺います",
+      "kana": "うかがいます",
+      "romaji": "ukagaimasu",
+      "meaning": "寻找，听，访问（「聞きます」「行きます」的谦逊语）",
+      "conjugations": {
+        "dictionary": "伺う",
+        "masu": "うかがいます",
+        "te": "伺って",
+        "nai": "伺わない",
+        "ta": "伺った"
+      },
+      "sentences": [
+        {
+          "ja": "あした3時に伺います。",
+          "zh": "明天3点去拜访您。"
+        },
+        {
+          "ja": "ちょっと伺いますが、駅はどちらでしょうか。",
+          "zh": "请问一下，车站在哪儿？"
+        }
+      ]
+    },
+    {
+      "id": "L50-W3",
+      "category": "Nouns",
+      "kanji": "私",
+      "kana": "わたくし",
+      "romaji": "watakushi",
+      "meaning": "我（「わたし」的谦逊语）",
+      "sentences": [
+        {
+          "ja": "私はアメリカから参りました。",
+          "zh": "我从美国来。"
+        }
+      ]
+    },
+    {
+      "id": "L50-W4",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "参ります",
+      "kana": "まいります",
+      "romaji": "mairimasu",
+      "meaning": "去，来（「行きます」「来ます」的谦逊语）",
+      "conjugations": {
+        "dictionary": "参る",
+        "masu": "まいります",
+        "te": "参って",
+        "nai": "参らない",
+        "ta": "参った"
+      },
+      "sentences": [
+        {
+          "ja": "はい、私が参ります。",
+          "zh": "是的，我去。"
+        }
+      ]
+    },
+    {
+      "id": "L50-W5",
+      "category": "Nouns",
+      "kanji": "ガイド",
+      "kana": "ガイド",
+      "romaji": "gaido",
+      "meaning": "向导，导游",
+      "sentences": [
+        {
+          "ja": "ガイドさん、次はどこへ行くんですか。",
+          "zh": "导游，接下来去哪里？"
+        }
+      ]
+    },
+    {
+      "id": "L50-W6",
+      "category": "Nouns",
+      "kanji": "江戸東京博物館",
+      "kana": "えどとうきょうはくぶつかん",
+      "romaji": "Edo Toukyou Hakubutsukan",
+      "meaning": "江户东京博物馆",
+      "sentences": [
+        {
+          "ja": "江戸東京博物館へご案内します。",
+          "zh": "带您去江户东京博物馆。"
+        }
+      ]
+    },
+    {
+      "id": "L50-W7",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "おります",
+      "kana": "おります",
+      "romaji": "orimasu",
+      "meaning": "在（「います」的谦逊语）",
+      "conjugations": {
+        "dictionary": "おる",
+        "masu": "おります",
+        "te": "おって",
+        "nai": "おらない",
+        "ta": "おった"
+      },
+      "sentences": [
+        {
+          "ja": "家族はニューヨークにおります。",
+          "zh": "家人在纽约。"
+        }
+      ]
+    },
+    {
+      "id": "L50-W8",
+      "category": "Expressions",
+      "kanji": "心から",
+      "kana": "こころから",
+      "romaji": "kokoro kara",
+      "meaning": "衷心",
+      "sentences": [
+        {
+          "ja": "皆様に心から感謝いたします。",
+          "zh": "衷心感谢各位。"
+        }
+      ]
+    },
+    {
+      "id": "L50-W9",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "感謝します",
+      "kana": "かんしゃします",
+      "romaji": "kansha shimasu",
+      "meaning": "感谢",
+      "conjugations": {
+        "dictionary": "感謝する",
+        "masu": "かんしゃします",
+        "te": "感謝して",
+        "nai": "感謝しない",
+        "ta": "感謝した"
+      },
+      "sentences": [
+        {
+          "ja": "応援してくださった皆様に感謝いたします。",
+          "zh": "感谢为我加油的各位。"
+        }
+      ]
+    },
+    {
+      "id": "L50-W10",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "緊張します",
+      "kana": "きんちょうします",
+      "romaji": "kinchou shimasu",
+      "meaning": "紧张",
+      "conjugations": {
+        "dictionary": "緊張する",
+        "masu": "きんちょうします",
+        "te": "緊張して",
+        "nai": "緊張しない",
+        "ta": "緊張した"
+      },
+      "sentences": [
+        {
+          "ja": "スピーチのとき、とても緊張いたしました。",
+          "zh": "演讲的时候非常紧张。"
+        }
+      ]
+    },
+    {
+      "id": "L50-W11",
+      "category": "Nouns",
+      "kanji": "賞金",
+      "kana": "しょうきん",
+      "romaji": "shoukin",
+      "meaning": "奖金",
+      "sentences": [
+        {
+          "ja": "賞金は何にお使いになりますか。",
+          "zh": "奖金打算用来做什么？"
+        }
+      ]
+    },
+    {
+      "id": "L50-W12",
+      "category": "Nouns",
+      "kanji": "きりん",
+      "kana": "きりん",
+      "romaji": "kirin",
+      "meaning": "长颈鹿",
+      "sentences": [
+        {
+          "ja": "アフリカできりんを見たいです。",
+          "zh": "想在非洲看长颈鹿。"
+        }
+      ]
+    },
+    {
+      "id": "L50-W13",
+      "category": "Nouns",
+      "kanji": "頃",
+      "kana": "ころ",
+      "romaji": "koro",
+      "meaning": "时候",
+      "sentences": [
+        {
+          "ja": "子どもの頃の夢がかないました。",
+          "zh": "小时候的梦想实现了。"
+        }
+      ]
+    },
+    {
+      "id": "L50-W14",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "叶います",
+      "kana": "かないます",
+      "romaji": "kanaimasu",
+      "meaning": "实现",
+      "conjugations": {
+        "dictionary": "叶う",
+        "masu": "かないます",
+        "te": "叶って",
+        "nai": "叶わない",
+        "ta": "叶った"
+      },
+      "sentences": [
+        {
+          "ja": "夢が叶います。",
+          "zh": "实现梦想。"
+        },
+        {
+          "ja": "子どものころの夢がかなうんですね。",
+          "zh": "小时候的梦想要实现了啊。"
+        }
+      ]
+    },
+    {
+      "id": "L50-W15",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "応援します",
+      "kana": "おうえんします",
+      "romaji": "ouen shimasu",
+      "meaning": "声援，支持",
+      "conjugations": {
+        "dictionary": "応援する",
+        "masu": "おうえんします",
+        "te": "応援して",
+        "nai": "応援しない",
+        "ta": "応援した"
+      },
+      "sentences": [
+        {
+          "ja": "応援してくださって、ありがとうございました。",
+          "zh": "谢谢您为我加油。"
+        }
+      ]
+    },
+    {
+      "id": "L50-W16",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "いただきます",
+      "kana": "いただきます",
+      "romaji": "itadakimasu",
+      "meaning": "吃，喝，得到（「食べます」「飲みます」「もらいます」的谦逊语）",
+      "conjugations": {
+        "dictionary": "いただく",
+        "masu": "いただきます",
+        "te": "いただいて",
+        "nai": "いただかない",
+        "ta": "いただいた"
+      },
+      "sentences": [
+        {
+          "ja": "コーヒーをいただきます。",
+          "zh": "我喝咖啡。"
+        },
+        {
+          "ja": "先生に本をいただきました。",
+          "zh": "从老师那里得到了书。"
+        }
+      ]
+    },
+    {
+      "id": "L50-W17",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "申します",
+      "kana": "もうします",
+      "romaji": "moushimasu",
+      "meaning": "说，叫（「言います」的谦逊语）",
+      "conjugations": {
+        "dictionary": "申す",
+        "masu": "もうします",
+        "te": "申して",
+        "nai": "申さない",
+        "ta": "申した"
+      },
+      "sentences": [
+        {
+          "ja": "初めまして。ミラーと申します。",
+          "zh": "初次见面。我叫米勒。"
+        }
+      ]
+    },
+    {
+      "id": "L50-W18",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "いたします",
+      "kana": "いたします",
+      "romaji": "itashimasu",
+      "meaning": "做（「します」的谦逊语）",
+      "conjugations": {
+        "dictionary": "いたす",
+        "masu": "いたします",
+        "te": "いたして",
+        "nai": "いたさない",
+        "ta": "いたした"
+      },
+      "sentences": [
+        {
+          "ja": "心から感謝いたします。",
+          "zh": "衷心感谢。"
+        }
+      ]
+    },
+    {
+      "id": "L50-W19",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "存じます",
+      "kana": "ぞんじます",
+      "romaji": "zonjimasu",
+      "meaning": "知道（「知ります」的谦逊语）",
+      "conjugations": {
+        "dictionary": "存じる",
+        "masu": "ぞんじます",
+        "te": "存じて",
+        "nai": "存じない",
+        "ta": "存じた"
+      },
+      "sentences": [
+        {
+          "ja": "はい、存じております。",
+          "zh": "是的，我知道。"
+        }
+      ]
+    },
+    {
+      "id": "L50-W20",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "拝見します",
+      "kana": "はいけんします",
+      "romaji": "haiken shimasu",
+      "meaning": "看（「見ます」的谦逊语）",
+      "conjugations": {
+        "dictionary": "拝見する",
+        "masu": "はいけんします",
+        "te": "拝見して",
+        "nai": "拝見しない",
+        "ta": "拝見した"
+      },
+      "sentences": [
+        {
+          "ja": "ちょっと切符を拝見します。",
+          "zh": "请让我看一下票。"
+        }
+      ]
+    },
+    {
+      "id": "L50-W21",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "お目にかかります",
+      "kana": "おめにかかります",
+      "romaji": "ome ni kakarimasu",
+      "meaning": "见面（「会います」的谦逊语）",
+      "conjugations": {
+        "dictionary": "お目にかかる",
+        "masu": "おめにかかります",
+        "te": "お目にかかって",
+        "nai": "お目にかからない",
+        "ta": "お目にかかった"
+      },
+      "sentences": [
+        {
+          "ja": "社長の奥様にお目にかかりました。",
+          "zh": "我见到总经理夫人了。"
+        }
+      ]
+    },
+    {
+      "id": "L50-W22",
+      "category": "Adverbs",
+      "kanji": "初めに",
+      "kana": "はじめに",
+      "romaji": "hajime ni",
+      "meaning": "首先",
+      "sentences": [
+        {
+          "ja": "初めに、きょうの予定をご説明します。",
+          "zh": "首先，我来说明一下今天的安排。"
+        }
+      ]
+    },
+    {
+      "id": "L50-W23",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "いれます",
+      "kana": "いれます",
+      "romaji": "iremasu",
+      "meaning": "沏，泡（コーヒーをいれます：泡咖啡）",
+      "conjugations": {
+        "dictionary": "いれる",
+        "masu": "いれます",
+        "te": "いれて",
+        "nai": "いれない",
+        "ta": "いれた"
+      },
+      "sentences": [
+        {
+          "ja": "コーヒーをいれます。",
+          "zh": "泡咖啡。"
+        },
+        {
+          "ja": "コーヒーをおいれしましょうか。",
+          "zh": "我来给您泡咖啡吧？"
+        }
+      ]
+    },
+    {
+      "id": "L50-W24",
+      "category": "Verbs",
+      "grammarType": "Irregular",
+      "kanji": "用意します",
+      "kana": "よういします",
+      "romaji": "youi shimasu",
+      "meaning": "准备",
+      "conjugations": {
+        "dictionary": "用意する",
+        "masu": "よういします",
+        "te": "用意して",
+        "nai": "用意しない",
+        "ta": "用意した"
+      },
+      "sentences": [
+        {
+          "ja": "資料をご用意します。",
+          "zh": "我来准备资料。"
+        }
+      ]
+    },
+    {
+      "id": "L50-W25",
+      "category": "Nouns",
+      "kanji": "メールアドレス",
+      "kana": "メールアドレス",
+      "romaji": "meeru adoresu",
+      "meaning": "电子邮箱地址",
+      "sentences": [
+        {
+          "ja": "メールアドレスをお知らせします。",
+          "zh": "我把电子邮箱地址告诉您。"
+        }
+      ]
+    },
+    {
+      "id": "L50-W26",
+      "category": "Nouns",
+      "kanji": "さ来月",
+      "kana": "さらいげつ",
+      "romaji": "saraigetsu",
+      "meaning": "下下个月",
+      "sentences": [
+        {
+          "ja": "さ来月日本へ参ります。",
+          "zh": "下下个月来日本。"
+        }
+      ]
+    },
+    {
+      "id": "L50-W27",
+      "category": "Nouns",
+      "kanji": "さ来週",
+      "kana": "さらいしゅう",
+      "romaji": "saraishuu",
+      "meaning": "下下个星期",
+      "sentences": [
+        {
+          "ja": "さ来週伺います。",
+          "zh": "下下周去拜访。"
+        }
+      ]
+    },
+    {
+      "id": "L50-W28",
+      "category": "Nouns",
+      "kanji": "さ来年",
+      "kana": "さらいねん",
+      "romaji": "sarainen",
+      "meaning": "后年",
+      "sentences": [
+        {
+          "ja": "さ来年大学を卒業します。",
+          "zh": "后年大学毕业。"
+        }
+      ]
+    },
+    {
+      "id": "L50-W29",
+      "category": "Nouns",
+      "kanji": "お礼",
+      "kana": "おれい",
+      "romaji": "orei",
+      "meaning": "致谢，感谢（表达谢意的寒暄语）",
+      "sentences": [
+        {
+          "ja": "お礼の手紙を書きます。",
+          "zh": "写感谢信。"
+        }
+      ]
+    },
+    {
+      "id": "L50-W30",
+      "category": "Expressions",
+      "kanji": "お元気でいらっしゃいますか",
+      "kana": "おげんきでいらっしゃいますか",
+      "romaji": "ogenki de irasshaimasu ka",
+      "meaning": "（您）身体好吗？（「お元気ですか」的尊敬语）",
+      "sentences": [
+        {
+          "ja": "先生、お元気でいらっしゃいますか。",
+          "zh": "老师，您身体好吗？"
+        }
+      ]
+    },
+    {
+      "id": "L50-W31",
+      "category": "Verbs",
+      "grammarType": "Group II",
+      "kanji": "迷惑をかけます",
+      "kana": "めいわくをかけます",
+      "romaji": "meiwaku o kakemasu",
+      "meaning": "添麻烦",
+      "conjugations": {
+        "dictionary": "迷惑をかける",
+        "masu": "めいわくをかけます",
+        "te": "迷惑をかけて",
+        "nai": "迷惑をかけない",
+        "ta": "迷惑をかけた"
+      },
+      "sentences": [
+        {
+          "ja": "先生にはいろいろ迷惑をかけました。",
+          "zh": "给老师添了很多麻烦。"
+        }
+      ]
+    },
+    {
+      "id": "L50-W32",
+      "category": "Nouns",
+      "kanji": "ミュンヘン",
+      "kana": "ミュンヘン",
+      "romaji": "Myunhen",
+      "meaning": "慕尼黑（德国）",
+      "sentences": [
+        {
+          "ja": "今ミュンヘンの会社で働いております。",
+          "zh": "现在在慕尼黑的公司工作。"
+        }
+      ]
+    },
+    {
+      "id": "L50-W33",
+      "category": "Verbs",
+      "grammarType": "Group I",
+      "kanji": "生かします",
+      "kana": "いかします",
+      "romaji": "ikashimasu",
+      "meaning": "发挥，有效地利用",
+      "conjugations": {
+        "dictionary": "生かす",
+        "masu": "いかします",
+        "te": "生かして",
+        "nai": "生かさない",
+        "ta": "生かした"
+      },
+      "sentences": [
+        {
+          "ja": "日本で勉強したことを生かして、働きたいです。",
+          "zh": "想发挥在日本学到的东西工作。"
+        }
+      ]
+    }
   ]
 };
 
@@ -12912,6 +28986,2158 @@ const STATIC_GRAMMAR = {
         {
           "ja": "きのうは山が見えましたが、きょうは見えません。",
           "zh": "昨天看得见山，今天看不见。"
+        }
+      ]
+    }
+  ],
+  "28": [
+    {
+      "id": "L28-G1",
+      "title": "～ながら：同时进行",
+      "pattern": "動詞ます形去ます + ながら、～",
+      "meaning": "表示同一个人同时做两个动作，“一边……一边……”。",
+      "usage": "主要动作放在后句；前句是伴随动作。",
+      "examples": [
+        {
+          "ja": "音楽を聞きながら食事します。",
+          "zh": "一边听音乐一边吃饭。"
+        },
+        {
+          "ja": "ガムをかみながら運転します。",
+          "zh": "一边嚼口香糖一边开车。"
+        }
+      ]
+    },
+    {
+      "id": "L28-G2",
+      "title": "～ています：习惯",
+      "pattern": "動詞て形 + います",
+      "meaning": "表示习惯性、长期持续的动作。",
+      "usage": "常和「毎朝」「休みの日」「いつも」等时间表达一起用。",
+      "examples": [
+        {
+          "ja": "毎朝ジョギングをしています。",
+          "zh": "每天早上跑步。"
+        },
+        {
+          "ja": "彼は働きながら大学で勉強しています。",
+          "zh": "他一边工作一边在大学学习。"
+        }
+      ]
+    },
+    {
+      "id": "L28-G3",
+      "title": "普通形し、～：列举理由",
+      "pattern": "普通形 + し、普通形 + し、～",
+      "meaning": "列举两个以上理由、特点或情况，并引出判断。",
+      "usage": "名词和な形容词用「だし」；也可以只说一个理由，暗示还有其他理由。",
+      "examples": [
+        {
+          "ja": "地下鉄は速いし、安いし、地下鉄で行きましょう。",
+          "zh": "地铁又快又便宜，我们坐地铁去吧。"
+        },
+        {
+          "ja": "ワット先生は熱心だし、おもしろいし、それに経験もあります。",
+          "zh": "瓦特老师又热心又有趣，而且也有经验。"
+        }
+      ]
+    },
+    {
+      "id": "L28-G4",
+      "title": "それに：补充理由",
+      "pattern": "理由1。 それに、理由2。",
+      "meaning": "补充追加信息，相当于“而且、再说”。",
+      "examples": [
+        {
+          "ja": "このすし屋は値段も安いし、魚も新しいし、よく食べに来ます。",
+          "zh": "这家寿司店价格便宜，鱼也新鲜，所以常来吃。"
+        },
+        {
+          "ja": "先生もいないし、英語で話すチャンスもないし……。",
+          "zh": "没有老师，也没有用英语说话的机会……"
+        }
+      ]
+    },
+    {
+      "id": "L28-G5",
+      "title": "どうして～んですか",
+      "pattern": "どうして + 普通形 + んですか",
+      "meaning": "询问对方选择、判断或情况背后的理由。",
+      "examples": [
+        {
+          "ja": "どうして富士大学を選んだんですか。",
+          "zh": "为什么选择富士大学？"
+        },
+        {
+          "ja": "富士大学は有名だし、いい先生も多いし、寮もありますから。",
+          "zh": "因为富士大学有名，优秀老师也多，而且有宿舍。"
+        }
+      ]
+    }
+  ],
+  "29": [
+    {
+      "id": "L29-G1",
+      "title": "～ています：结果状态",
+      "pattern": "自動詞て形 + います",
+      "meaning": "表示某个动作发生后，结果状态持续存在。",
+      "usage": "常用于门开着/关着、东西坏了、灯亮着等状态描述。",
+      "examples": [
+        {
+          "ja": "窓が閉まっています。",
+          "zh": "窗户关着。"
+        },
+        {
+          "ja": "ドアが開いています。",
+          "zh": "门开着。"
+        },
+        {
+          "ja": "ガラスが割れています。",
+          "zh": "玻璃碎着。"
+        }
+      ]
+    },
+    {
+      "id": "L29-G2",
+      "title": "自动词和他动词",
+      "pattern": "自動詞：窓が閉まります / 他動詞：窓を閉めます",
+      "meaning": "自动词描述事物自身的变化或状态；他动词描述某人对事物做动作。",
+      "usage": "结果状态常用自动词 + ています。",
+      "examples": [
+        {
+          "ja": "ドアが閉まっています。",
+          "zh": "门关着。"
+        },
+        {
+          "ja": "ドアを閉めました。",
+          "zh": "把门关了。"
+        }
+      ]
+    },
+    {
+      "id": "L29-G3",
+      "title": "～てしまいました：完成",
+      "pattern": "動詞て形 + しまいました",
+      "meaning": "表示动作已经完全结束。",
+      "examples": [
+        {
+          "ja": "シュミットさんが持って来たワインはみんなで飲んでしまいました。",
+          "zh": "施密特先生带来的葡萄酒大家都喝完了。"
+        },
+        {
+          "ja": "このメールを書いてしまいますから、お先にどうぞ。",
+          "zh": "我把这封邮件写完，你先走吧。"
+        }
+      ]
+    },
+    {
+      "id": "L29-G4",
+      "title": "～てしまいました：遗憾",
+      "pattern": "動詞て形 + しまいました",
+      "meaning": "表示不小心做了某事，带有后悔、遗憾或困扰的语气。",
+      "examples": [
+        {
+          "ja": "電車に傘を忘れてしまいました。",
+          "zh": "把伞忘在电车上了。"
+        },
+        {
+          "ja": "道を間違えてしまいました。",
+          "zh": "走错路了。"
+        },
+        {
+          "ja": "タクシーに荷物を忘れてしまったんです。",
+          "zh": "把行李忘在出租车上了。"
+        }
+      ]
+    },
+    {
+      "id": "L29-G5",
+      "title": "状态描写的重点",
+      "pattern": "名詞 が + 自動詞て形 + います",
+      "meaning": "句子的重点在眼前状态，而不是谁做了这个动作。",
+      "examples": [
+        {
+          "ja": "電気がついています。",
+          "zh": "灯亮着。"
+        },
+        {
+          "ja": "ボタンが外れています。",
+          "zh": "纽扣掉了。"
+        }
+      ]
+    }
+  ],
+  "30": [
+    {
+      "id": "L30-G1",
+      "title": "～てあります：人为结果",
+      "pattern": "名詞 が + 他動詞て形 + あります",
+      "meaning": "表示某人有目的地做了某动作，动作结果保留在那里。",
+      "usage": "对象通常用「が」提示，强调“已经被准备/放置好了”的状态。",
+      "examples": [
+        {
+          "ja": "交番に町の地図が貼ってあります。",
+          "zh": "派出所贴着城市地图。"
+        },
+        {
+          "ja": "セロテープはあの引き出しにしまってありますよ。",
+          "zh": "透明胶带放在那个抽屉里。"
+        }
+      ]
+    },
+    {
+      "id": "L30-G2",
+      "title": "～ておきます：事先准备",
+      "pattern": "動詞て形 + おきます",
+      "meaning": "为了之后的目的，预先做某事。",
+      "examples": [
+        {
+          "ja": "旅行の前に、インターネットでいろいろ調べておきます。",
+          "zh": "旅行前，先在网上查好各种信息。"
+        },
+        {
+          "ja": "来月の出張ですが、ホテルを予約しておきましょうか。",
+          "zh": "下个月的出差，要先订好酒店吗？"
+        }
+      ]
+    },
+    {
+      "id": "L30-G3",
+      "title": "～ておきます：恢复原状",
+      "pattern": "動詞て形 + おいてください",
+      "meaning": "让对方把用过的东西放回原来的状态或位置。",
+      "examples": [
+        {
+          "ja": "はさみを使ったら、元の所に戻しておいてください。",
+          "zh": "用完剪刀后，请放回原处。"
+        },
+        {
+          "ja": "資料を片づけてもいいですか。いいえ、そのままにしておいてください。",
+          "zh": "可以把资料收拾掉吗？不，请保持原样。"
+        }
+      ]
+    },
+    {
+      "id": "L30-G4",
+      "title": "～ておきます：放任状态",
+      "pattern": "そのままにしておきます",
+      "meaning": "有意保持某个状态不变。",
+      "examples": [
+        {
+          "ja": "まだ使っていますから、そのままにしておいてください。",
+          "zh": "还在用，请保持原样。"
+        },
+        {
+          "ja": "窓は開けておいてください。",
+          "zh": "请把窗户开着。"
+        }
+      ]
+    },
+    {
+      "id": "L30-G5",
+      "title": "～てあります vs ～ています",
+      "pattern": "貼ってあります / 貼ってあります；開いています",
+      "meaning": "「てあります」强调有人有意做过；「ています」只描述当前状态。",
+      "examples": [
+        {
+          "ja": "壁に花や動物の絵がかいてあるんです。",
+          "zh": "墙上画着花和动物的图画。"
+        },
+        {
+          "ja": "窓が開いています。",
+          "zh": "窗户开着。"
+        }
+      ]
+    }
+  ],
+  "31": [
+    {
+      "id": "L31-G1",
+      "title": "意向形（動詞の意志形）",
+      "pattern": "I类：〜います→〜おう／II类：〜ます→〜よう／III类：します→しよう、きます→こよう",
+      "meaning": "意向形是「〜ましょう」的普通形，用在简体句子里，表示邀约或自己的打算。",
+      "usage": "I类将「ます形」最后的「い」段假名变为「お」段假名，再加「う」；II类去「ます」加「よう」；III类为不规则变化。",
+      "examples": [
+        {
+          "ja": "いっしょに行こう。",
+          "zh": "一起去吧。"
+        },
+        {
+          "ja": "疲れたね。ちょっと休まない？……うん、そうしよう。",
+          "zh": "累了吧。稍微休息一下？……嗯，就这么办。"
+        },
+        {
+          "ja": "傘を持って行こうか。",
+          "zh": "带伞去吧。"
+        }
+      ]
+    },
+    {
+      "id": "L31-G2",
+      "title": "動詞意向形＋と思っています",
+      "pattern": "動詞意向形 ＋ と思っています",
+      "meaning": "表示说话人向对方表明自己的意志或打算，且这一意志已经保持了一段时间。",
+      "usage": "「意向形＋と思います」也可表示说话时的意志；「意向形＋と思っています」还可表示第三者的意志。",
+      "examples": [
+        {
+          "ja": "将来自分の会社を作ろうと思っています。",
+          "zh": "将来我想开自己的公司。"
+        },
+        {
+          "ja": "お正月は家族と温泉に行こうと思っています。",
+          "zh": "正月打算和家人去泡温泉。"
+        },
+        {
+          "ja": "彼は学校を作ろうと思っています。",
+          "zh": "他想建一所学校。"
+        }
+      ]
+    },
+    {
+      "id": "L31-G3",
+      "title": "動詞字典形／ない形ない＋つもりです",
+      "pattern": "動詞字典形／ない形ない ＋ つもりです",
+      "meaning": "表示说话人的意志或打算。否定时用「動詞ない形ない＋つもりです」。",
+      "usage": "表示较确定的意志和坚定的决心时多用「動詞字典形＋つもりです」。",
+      "examples": [
+        {
+          "ja": "国へ帰っても、日本語の勉強を続けるつもりです。",
+          "zh": "即使回国也打算继续学习日语。"
+        },
+        {
+          "ja": "あしたからたばこを吸わないつもりです。",
+          "zh": "打算从明天起不抽烟了。"
+        }
+      ]
+    },
+    {
+      "id": "L31-G4",
+      "title": "動詞字典形／名詞の＋予定です",
+      "pattern": "動詞字典形／名詞の ＋ 予定です",
+      "meaning": "表示预定的计划或安排。",
+      "examples": [
+        {
+          "ja": "来週の金曜日に帰る予定です。",
+          "zh": "预定下周五回来。"
+        },
+        {
+          "ja": "旅行は1週間ぐらいの予定です。",
+          "zh": "旅行预定一周左右。"
+        }
+      ]
+    },
+    {
+      "id": "L31-G5",
+      "title": "まだ＋動詞て形＋いません",
+      "pattern": "まだ ＋ 動詞て形 ＋ いません",
+      "meaning": "表示说话时事态还没有发生或行为还没有结束（还没…）。",
+      "examples": [
+        {
+          "ja": "レポートはもうできましたか。……いいえ、まだ書いていません。",
+          "zh": "报告写好了吗？……没有，还没写。"
+        },
+        {
+          "ja": "銀行はまだ開いていません。",
+          "zh": "银行还没开门。"
+        }
+      ]
+    },
+    {
+      "id": "L31-G6",
+      "title": "動詞ます形の名詞化",
+      "pattern": "帰ります → 帰り",
+      "meaning": "有时「ます形」可以作为名词使用。",
+      "tip": "如：遊びます→遊び、答えます→答え、申し込みます→申し込み、楽しみます→楽しみ。",
+      "examples": [
+        {
+          "ja": "帰りの新幹線はどこから乗りますか。",
+          "zh": "回去的新干线从哪里乘车？"
+        }
+      ]
+    }
+  ],
+  "32": [
+    {
+      "id": "L32-G1",
+      "title": "動詞た形／ない形ない＋ほうがいいです",
+      "pattern": "動詞た形／ない形ない ＋ ほうがいいです",
+      "meaning": "向听话人提出建议和忠告。含有将两种行为加以比较后做出选择的意思。",
+      "usage": "只是单纯建议对方进行某一行为时应使用「〜たらいい」（第26课）。",
+      "examples": [
+        {
+          "ja": "毎日運動したほうがいいです。",
+          "zh": "最好每天运动。"
+        },
+        {
+          "ja": "熱があるんです。……じゃ、おふろに入らないほうがいいですよ。",
+          "zh": "发烧了。……那最好别洗澡。"
+        }
+      ]
+    },
+    {
+      "id": "L32-G2",
+      "title": "普通形＋でしょう",
+      "pattern": "動詞／い形容詞／な形容詞／名詞 の普通形 ＋ でしょう",
+      "meaning": "在说话人对未来的事情或不太确定的事情进行推断时使用（大概…吧）。",
+      "usage": "な形容词和名词的普通形要去掉词尾的「だ」再接「でしょう」。",
+      "examples": [
+        {
+          "ja": "あしたは雨が降るでしょう。",
+          "zh": "明天会下雨吧。"
+        },
+        {
+          "ja": "タワポンさんは合格するでしょうか。……きっと合格するでしょう。",
+          "zh": "塔瓦蓬会通过考试吧？……一定会通过的。"
+        }
+      ]
+    },
+    {
+      "id": "L32-G3",
+      "title": "普通形＋かもしれません",
+      "pattern": "動詞／い形容詞／な形容詞／名詞 の普通形 ＋ かもしれません",
+      "meaning": "表示“…的可能性还是多少有一点儿的”（也许…、可能…）。",
+      "usage": "比「でしょう」表示的可能性更低。",
+      "examples": [
+        {
+          "ja": "約束の時間に間に合わないかもしれません。",
+          "zh": "或许赶不上约定的时间了。"
+        },
+        {
+          "ja": "故障かもしれません。",
+          "zh": "也许是出故障了。"
+        }
+      ]
+    },
+    {
+      "id": "L32-G4",
+      "title": "動詞ます形＋ましょう（积极建议）",
+      "pattern": "動詞ます形 ＋ ましょう",
+      "meaning": "说话人向听话人传达自己意志时的表达方式，语气比「ましょうか」更为积极主动。",
+      "examples": [
+        {
+          "ja": "エンジンの音がおかしいんですが。……そうですね。ちょっと調べましょう。",
+          "zh": "发动机的声音有点怪。……是啊，我们来检查一下吧。"
+        }
+      ]
+    },
+    {
+      "id": "L32-G5",
+      "title": "数量詞＋で",
+      "pattern": "数量詞 ＋ で",
+      "meaning": "表示期限和限度（在…之内）。",
+      "examples": [
+        {
+          "ja": "駅まで30分で行けますか。",
+          "zh": "30分钟能到车站吗？"
+        },
+        {
+          "ja": "3万円でパソコンが買えますか。",
+          "zh": "3万日元能买台电脑吗？"
+        }
+      ]
+    },
+    {
+      "id": "L32-G6",
+      "title": "何か＋（形容词）＋こと",
+      "pattern": "何か／どこか／だれか／いつか ＋ 名詞",
+      "meaning": "「なにか」等疑问词与名词连用时，疑问词放在名词前面。",
+      "usage": "如「なにか しんぱいな こと」「どこか いい ところ」「だれか いい ひと」等。",
+      "examples": [
+        {
+          "ja": "何か心配なことがあるんですか。",
+          "zh": "有什么担心的事情吗？"
+        },
+        {
+          "ja": "スキーに行きたいんですが、どこかいい所、ありますか。",
+          "zh": "我想去滑雪，有什么好地方吗？"
+        }
+      ]
+    }
+  ],
+  "33": [
+    {
+      "id": "L33-G1",
+      "title": "命令形・禁止形（变形方法）",
+      "pattern": "命令形：I类〜え段＋る形去掉／II类〜ろ／III类しろ・こい　　禁止形：字典形＋な",
+      "meaning": "命令形用于强行要求对方做某一动作；禁止形用于命令对方不要做某一动作。",
+      "usage": "I类：把「ます形」最后的「い」段变为「え」段（かきます→かけ）；II类：「ます形」后接「ろ」（たべます→たべろ），例外くれます→くれ；III类：します→しろ、きます→こい。禁止形为字典形加「な」。",
+      "tip": "「ある」「できる」「わかる」等状态动词没有命令形。",
+      "examples": [
+        {
+          "ja": "急げ。",
+          "zh": "快点！"
+        },
+        {
+          "ja": "触るな。",
+          "zh": "别碰！"
+        }
+      ]
+    },
+    {
+      "id": "L33-G2",
+      "title": "命令形・禁止形の用法",
+      "pattern": "命令形／禁止形",
+      "meaning": "由于语气非常强烈，多为男性使用，用于句尾的情况不多。",
+      "usage": "常用于：地位或年龄高的男性对下、男性朋友之间、紧急情况下发出指示、集体训练发号令、体育比赛加油，以及交通标志和标语等。",
+      "examples": [
+        {
+          "ja": "早く寝ろ。",
+          "zh": "早点睡！"
+        },
+        {
+          "ja": "遅れるな。",
+          "zh": "别迟到！"
+        },
+        {
+          "ja": "頑張れ。",
+          "zh": "加油！"
+        },
+        {
+          "ja": "負けるな。",
+          "zh": "不能输！"
+        }
+      ]
+    },
+    {
+      "id": "L33-G3",
+      "title": "〜と書いてあります／〜と読みます",
+      "pattern": "「〜」 ＋ と書いてあります／と読みます",
+      "meaning": "引用文字或读音时使用，这里的「と」与「〜といいます」中的「と」功能相同。",
+      "examples": [
+        {
+          "ja": "あの漢字は何と読むんですか。",
+          "zh": "那个汉字念什么？"
+        },
+        {
+          "ja": "あそこに「止まれ」と書いてあります。",
+          "zh": "那里写着“停”。"
+        }
+      ]
+    },
+    {
+      "id": "L33-G4",
+      "title": "XはYという意味です",
+      "pattern": "名詞 は 〜 という意味です",
+      "meaning": "给X下定义时使用。询问某词意思时使用疑问词「どういう」。",
+      "examples": [
+        {
+          "ja": "「立入禁止」は入るなという意味です。",
+          "zh": "“禁止入内”就是别进去的意思。"
+        },
+        {
+          "ja": "このマークはどういう意味ですか。……洗濯機で洗えるという意味です。",
+          "zh": "这个标志是什么意思？……是可以用洗衣机洗的意思。"
+        }
+      ]
+    },
+    {
+      "id": "L33-G5",
+      "title": "“句子”普通形＋と言っていました",
+      "pattern": "“句子”普通形 ＋ と言っていました",
+      "meaning": "转达第三者的话时使用。",
+      "usage": "引用第三者的话用「〜といいました」；转达第三者的话用「〜といっていました」。",
+      "examples": [
+        {
+          "ja": "ミラーさんは来週大阪へ出張すると言っていました。",
+          "zh": "米勒先生说下周去大阪出差。"
+        },
+        {
+          "ja": "田中さんはあした休むと言っていました。",
+          "zh": "田中说他明天休息。"
+        }
+      ]
+    },
+    {
+      "id": "L33-G6",
+      "title": "“句子”普通形＋と伝えていただけませんか",
+      "pattern": "“句子”普通形 ＋ と伝えていただけませんか",
+      "meaning": "礼貌地委托对方转告某事。",
+      "examples": [
+        {
+          "ja": "渡辺さんにあしたのパーティーは6時からだと伝えていただけませんか。",
+          "zh": "请转告渡边小姐明天的晚会从6点开始好吗？"
+        }
+      ]
+    }
+  ],
+  "34": [
+    {
+      "id": "L34-G1",
+      "title": "動詞た形／名詞の＋とおりに、動詞",
+      "pattern": "動詞た形／名詞の ＋ とおりに、動詞",
+      "meaning": "表示以前项动词或名词所提示的同样的状态和方法来进行后项动作（按照…）。",
+      "usage": "因为「とおり」是名词，也可以直接接续「この」「その」「あの」等指示词。",
+      "examples": [
+        {
+          "ja": "先生が言ったとおりに、書きます。",
+          "zh": "照老师说的写。"
+        },
+        {
+          "ja": "説明書のとおりに、組み立てました。",
+          "zh": "按照说明书组装好了。"
+        },
+        {
+          "ja": "このとおりに、書いてください。",
+          "zh": "请照这样写。"
+        }
+      ]
+    },
+    {
+      "id": "L34-G2",
+      "title": "動詞た形／名詞の＋あとで、動詞",
+      "pattern": "動詞た形／名詞の ＋ あとで、動詞",
+      "meaning": "表示在前项动作或名词之后发生后项事情（…之后）。",
+      "usage": "与「動詞て形から」相比，本句型更强调时间的前后关系，且前项没有作为后项前提或准备动作的意思。",
+      "examples": [
+        {
+          "ja": "ごはんを食べたあとで、歯を磨きます。",
+          "zh": "吃完饭后刷牙。"
+        },
+        {
+          "ja": "仕事のあとで、飲みに行きませんか。",
+          "zh": "工作之后不去喝一杯吗？"
+        }
+      ]
+    },
+    {
+      "id": "L34-G3",
+      "title": "動詞て形／ない形ないで、動詞",
+      "pattern": "動詞て形／ない形ないで ＋ 動詞",
+      "meaning": "表示后项动作的附带状态（做…／不做…而…）。前后动作的主体是同一个。",
+      "usage": "「ない形ないで、動詞」还可表示从两个不能同时进行的动作中选择一个来做。",
+      "examples": [
+        {
+          "ja": "コーヒーは砂糖を入れないで飲みます。",
+          "zh": "咖啡不加糖喝。"
+        },
+        {
+          "ja": "しょうゆをつけて食べます。",
+          "zh": "蘸酱油吃。"
+        },
+        {
+          "ja": "日曜日はどこも行かないで、うちでゆっくり休みます。",
+          "zh": "星期天哪儿也不去，在家好好休息。"
+        }
+      ]
+    }
+  ],
+  "35": [
+    {
+      "id": "L35-G1",
+      "title": "仮定形（〜ば）的转换方法",
+      "pattern": "I类〜え段＋ば／II类〜れば／III类すれば・くれば　　い形→ければ　　な形・名詞→なら",
+      "meaning": "假定形表示假设的条件（如果…）。",
+      "usage": "I类：把「ます形」最后的「い」段变为「え」段后接「ば」；II类：「ます形」后接「れば」；III类：すれば、くれば。动词否定用「ない形」去「い」加「ければ」。い形容词把「い」变为「ければ」；な形容词去「な」接「なら」；名词后接「なら」。",
+      "examples": [
+        {
+          "ja": "春になれば、桜が咲きます。",
+          "zh": "到了春天樱花就会开。"
+        }
+      ]
+    },
+    {
+      "id": "L35-G2",
+      "title": "仮定形、〜",
+      "pattern": "〜ば、〜",
+      "meaning": "表示前半句是后半句（主句）成立的必要条件，或根据对方的话和某种状况做出的判断。",
+      "usage": "原则上，后半句里不会出现表示意志、希望、命令、请求等的表达方式；但前后主语不同或前项为状态时，后半句可以出现这类表达。",
+      "examples": [
+        {
+          "ja": "ボタンを押せば、窓が開きます。",
+          "zh": "按一下按钮，窗户就会打开。"
+        },
+        {
+          "ja": "天気がよければ、向こうに島が見えます。",
+          "zh": "天气好的话，可以看见对面的小岛。"
+        },
+        {
+          "ja": "ボールペンがなければ、鉛筆で書いてください。",
+          "zh": "没有圆珠笔的话，用铅笔写吧。"
+        }
+      ]
+    },
+    {
+      "id": "L35-G3",
+      "title": "疑問詞＋動詞仮定形＋いいですか",
+      "pattern": "疑問詞 ＋ 動詞仮定形 ＋ いいですか",
+      "meaning": "表示说话人向听话人寻求建议和指示（怎么…好呢）。和第26课的「〜たらいいですか」用法相同。",
+      "examples": [
+        {
+          "ja": "本を借りたいんですが、どうすればいいですか。",
+          "zh": "我想借书，怎么做好呢？"
+        }
+      ]
+    },
+    {
+      "id": "L35-G4",
+      "title": "名詞なら、〜",
+      "pattern": "名詞 ＋ なら、〜",
+      "meaning": "在听了对方所说的事情后，就这一事情提供一些信息时使用（要说…的话）。",
+      "examples": [
+        {
+          "ja": "温泉に行きたいんですが、どこがいいですよ。……温泉なら、白馬がいいですよ。",
+          "zh": "我想去温泉，哪儿好？……温泉的话，白马不错。"
+        },
+        {
+          "ja": "北海道旅行なら、6月がいいです。",
+          "zh": "要说北海道旅行，6月最好。"
+        }
+      ]
+    },
+    {
+      "id": "L35-G5",
+      "title": "〜はありませんか（否定疑问句）",
+      "pattern": "〜は ありませんか",
+      "meaning": "一种比较照顾对方情绪的询问方式，可使对方易于做出否定回答，语气较礼貌。",
+      "usage": "「いいところはありませんか」和「いいところはありますか」意思相同。回答时用「はい、あります」或「いいえ、ありません」。",
+      "examples": [
+        {
+          "ja": "2、3日旅行をしようと思っているんですが、どこかいい所はありませんか。",
+          "zh": "我想去旅行两三天，有什么好的地方吗？"
+        }
+      ]
+    }
+  ],
+  "36": [
+    {
+      "id": "L36-G1",
+      "title": "動詞字典形／ない形ない ように、動詞",
+      "pattern": "動詞1字典形／動詞1ない形ない ＋ ように、動詞2",
+      "meaning": "表示动词2的目的是成为「～ように」所表示的状态。",
+      "usage": "在「ように」之前，要使用非意志动词（如可能动词、「わかります」「みえます」「きこえます」「なります」等）的字典形，或动词的否定形。",
+      "examples": [
+        {
+          "ja": "速く泳げるように、毎日練習しています。",
+          "zh": "为了能游得快，每天都在练习。"
+        },
+        {
+          "ja": "忘れないように、メモしてください。",
+          "zh": "请记笔记，免得忘记。"
+        }
+      ]
+    },
+    {
+      "id": "L36-G2",
+      "title": "動詞字典形ようになります",
+      "pattern": "動詞字典形 ＋ ようになります",
+      "meaning": "「なります」表示状态的变化。使用可能动词、「わかります」「みえます」等动词时，表示从不可能的状态转变到可能的状态。",
+      "usage": "对「～ようになりましたか」用「いいえ」否定回答时，说「いいえ、まだ～ません」。",
+      "tip": "使用可能动词、「わかります」「みえます」以外的动词时，表示“新添了以前没有的习惯”。例：日本人は100年ぐらいまえから牛肉や豚肉を食べるようになりました。（日本人大约是从100年前开始吃牛肉和猪肉的。）",
+      "examples": [
+        {
+          "ja": "毎日練習すれば、泳げるようになります。",
+          "zh": "如果每天都练习的话，就能学会游泳。"
+        },
+        {
+          "ja": "やっと自転車に乗れるようになりました。",
+          "zh": "终于会骑自行车了。"
+        },
+        {
+          "ja": "ショパンの曲が弾けるようになりましたか。……いいえ、まだ弾けません。",
+          "zh": "会弹肖邦的曲子了吗？……不，还不会弹。"
+        }
+      ]
+    },
+    {
+      "id": "L36-G3",
+      "title": "動詞字典形／ない形ない ようにします",
+      "pattern": "動詞字典形／動詞ない形ない ＋ ようにします",
+      "meaning": "「～ようにしています」表示注意一直坚持不断地去进行某一行动。「～ようにしてください」是请求对方注意让某一行动得以进行的表达方式。",
+      "usage": "「～て／～ないでください」是直接请求，「～ようにしてください」是间接请求，更为礼貌。",
+      "tip": "「～ようにしてください」不能用于当场所做的请求。○すみませんが、塩を取ってください。 ×すみませんが、塩を取るようにしてください。",
+      "examples": [
+        {
+          "ja": "毎日運動して、何でも食べるようにしています。",
+          "zh": "我每天都注意坚持运动，什么都吃。"
+        },
+        {
+          "ja": "歯に悪いですから、甘い物を食べないようにしています。",
+          "zh": "因为对牙不好，我很注意不吃甜食。"
+        },
+        {
+          "ja": "もっと野菜を食べるようにしてください。",
+          "zh": "要再多吃些蔬菜。"
+        },
+        {
+          "ja": "絶対にパスポートをなくさないようにしてください。",
+          "zh": "注意一定不要把护照弄丢了。"
+        }
+      ]
+    },
+    {
+      "id": "L36-G4",
+      "title": "早い→早く／上手な→上手に",
+      "pattern": "い形容詞（～い→～く）／な形容詞（～な→～に）＋ 形容詞・動詞",
+      "meaning": "形容词修饰其他的形容词和动词时，「い形容词」用「～く」的形式，「な形容词」用「～に」的形式。",
+      "usage": "「速く泳げる」「上手に話せる」等，副词化后的形容词放在被修饰的动词或形容词之前。",
+      "examples": [
+        {
+          "ja": "早く上手にお茶がたてられるようになりたいです。",
+          "zh": "我很想能快点儿学会把茶沏好。"
+        }
+      ]
+    }
+  ],
+  "37": [
+    {
+      "id": "L37-G1",
+      "title": "被動動詞（被动动词）",
+      "pattern": "I类：かきます→かかれます／II类：ほめます→ほめられます／III类：きます→こられます、します→されます",
+      "meaning": "被动动词的构成方式。被动动词作为II类动词活用。",
+      "usage": "例如：かかれます → かかれる（字典形）、かかれ（ない）（ない形）、かかれて（て形）。",
+      "examples": [
+        {
+          "ja": "かきます → かかれます（かかれる）",
+          "zh": "写 → 被写（I类动词）"
+        },
+        {
+          "ja": "ほめます → ほめられます（ほめられる）",
+          "zh": "表扬 → 被表扬（II类动词）"
+        },
+        {
+          "ja": "きます → こられます／します → されます",
+          "zh": "来 → 被来／做 → 被做（III类动词）"
+        }
+      ]
+    },
+    {
+      "id": "L37-G2",
+      "title": "名詞1（人1）は 名詞2（人2）に 被動動詞",
+      "pattern": "名詞1（人1）は ＋ 名詞2（人2）に ＋ 被動動詞",
+      "meaning": "从行为受动者（人1）的立场来表现人2对人1所做的行为。人1作为主题被提示，施动者（人2）用助词「に」表示。",
+      "usage": "有时施动者会是人以外的可以动的东西（动物、汽车等）。",
+      "examples": [
+        {
+          "ja": "先生がわたしを褒めました。→ わたしは先生に褒められました。",
+          "zh": "老师表扬了我。→ 我受到了老师的表扬。"
+        },
+        {
+          "ja": "母がわたしに買い物を頼みました。→ わたしは母に買い物を頼まれました。",
+          "zh": "妈妈托我买东西。→ 我被妈妈托付去买东西。"
+        },
+        {
+          "ja": "わたしは犬にかまれました。",
+          "zh": "我被狗咬了。"
+        }
+      ]
+    },
+    {
+      "id": "L37-G3",
+      "title": "名詞1（人1）は 名詞2（人2）に 名詞3を 被動動詞",
+      "pattern": "名詞1（人1）は ＋ 名詞2（人2）に ＋ 名詞3を ＋ 被動動詞",
+      "meaning": "表示人2对人1的所有物（名词3）所做的某种行为，在大多数场合都会让人1（所有者）感到困扰和麻烦。",
+      "usage": "作为主题被提示的不是所有物，而是对这一行为感到困扰的人（所有者）。不能说「わたしのパソコンは弟に壊されました」。",
+      "tip": "这个句型在大多数场合都表示受动者对那一行为感到困扰。如果想感谢别人为自己做了什么，要用「～てもらいます」：○わたしは友達に自転車を修理してもらいました。 ×わたしは友達に自転車を修理されました。",
+      "examples": [
+        {
+          "ja": "弟がわたしのパソコンを壊しました。→ わたしは弟にパソコンを壊されました。",
+          "zh": "弟弟把我的电脑弄坏了。→ 我被弟弟弄坏了电脑。"
+        },
+        {
+          "ja": "わたしは犬に手をかまれました。",
+          "zh": "我被狗咬了手。"
+        },
+        {
+          "ja": "わたしは友達に自転車を修理してもらいました。",
+          "zh": "请朋友帮我修好了自行车。"
+        }
+      ]
+    },
+    {
+      "id": "L37-G4",
+      "title": "名詞（物／事）が／は 被動動詞",
+      "pattern": "名詞（物／事）が／は ＋ 被動動詞",
+      "meaning": "在叙述某一事情时，有时并不特别注重行为者本身，而是把物或事作为主语或主题，用被动动词来表达。",
+      "usage": "施动者不明确或不重要时使用。常用于叙述历史事实、发明发现、被广泛阅读等客观事实。",
+      "examples": [
+        {
+          "ja": "大阪で展覧会が開かれました。",
+          "zh": "展览会在大阪开幕。"
+        },
+        {
+          "ja": "電話は19世紀に発明されました。",
+          "zh": "电话是在19世纪发明的。"
+        },
+        {
+          "ja": "この本は世界中で読まれています。",
+          "zh": "这本书在全世界受到欢迎。"
+        }
+      ]
+    },
+    {
+      "id": "L37-G5",
+      "title": "名詞から／名詞で つくります",
+      "pattern": "名詞から／名詞で ＋ 造ります（作ります）",
+      "meaning": "在制造东西时，原料用「から」表示，材料用「で」表示。",
+      "usage": "「から」表示原料（成品中看不出原来的形态），「で」表示材料（成品中能看出原来的形态）。",
+      "examples": [
+        {
+          "ja": "ビールは麦から造られます。",
+          "zh": "啤酒是用小麦酿造的。"
+        },
+        {
+          "ja": "昔日本の家は木で造られました。",
+          "zh": "过去，日本的房子是用木材建造的。"
+        }
+      ]
+    },
+    {
+      "id": "L37-G6",
+      "title": "名詞1の 名詞2",
+      "pattern": "名詞1 ＋ の ＋ 名詞2",
+      "meaning": "「原料の麦」表示“原料是小麦”这样一种同位关系。",
+      "usage": "其他的例子还有「ペットの犬」（第39课）、「息子のハンス」（第43课）等。",
+      "examples": [
+        {
+          "ja": "ビールは麦から造られます。これが原料の麦です。",
+          "zh": "啤酒是用小麦酿造的。这就是原料小麦。"
+        }
+      ]
+    },
+    {
+      "id": "L37-G7",
+      "title": "この／その／あの 名詞（位置）",
+      "pattern": "この／その／あの ＋ 上／下／中／隣／近く 等",
+      "meaning": "「上」「下」「中」「隣」「近く」等表示位置的名词之前接续「この」「その」「あの」，表示与指示词所指事物的位置关系。",
+      "usage": "「あの中」是「あの建物の中」（那栋建筑里）的意思。",
+      "examples": [
+        {
+          "ja": "あの中に入れますか。",
+          "zh": "可以进到那里面去吗？"
+        }
+      ]
+    }
+  ],
+  "38": [
+    {
+      "id": "L38-G1",
+      "title": "名詞化的「の」",
+      "pattern": "動詞／形容詞／名詞の普通形 ＋ の",
+      "meaning": "「の」有使各种各样的表达方式转化为名词的功能。「の」之前接续的动词、形容词、名词使用普通形，不用礼貌形。",
+      "usage": "名词化的表达方式可以成为句子中的各种成分（主题、对象、宾语等）。",
+      "examples": [
+        {
+          "ja": "テニスをするのはおもしろいです。",
+          "zh": "打网球很有意思。"
+        },
+        {
+          "ja": "わたしは花を育てるのが好きです。",
+          "zh": "我喜欢养花。"
+        }
+      ]
+    },
+    {
+      "id": "L38-G2",
+      "title": "動詞字典形のは 形容詞です",
+      "pattern": "動詞字典形 ＋ のは ＋ 形容詞です",
+      "meaning": "把「动词字典形の」作为主题，用「は」来提示的句型。",
+      "usage": "这一句型常用的形容词有「難しい」「易しい」「おもしろい」「楽しい」「大変［な］」等。与不使用「の」的句子相比，使用「の」的句子内容更为具体。",
+      "examples": [
+        {
+          "ja": "テニスはおもしろいです。",
+          "zh": "网球很有意思。"
+        },
+        {
+          "ja": "テニスをするのはおもしろいです。",
+          "zh": "打网球很有意思。"
+        },
+        {
+          "ja": "テニスを見るのはおもしろいです。",
+          "zh": "看网球很有意思。"
+        }
+      ]
+    },
+    {
+      "id": "L38-G3",
+      "title": "動詞字典形のが 形容詞です",
+      "pattern": "動詞字典形 ＋ のが ＋ 形容詞です",
+      "meaning": "「动词字典形の」是形容词的对象。",
+      "usage": "该句型中经常使用表示嗜好、技能、能力的形容词，例如「好き［な］」「嫌い［な］」「上手［な］」「下手［な］」「速い」「遅い」等。",
+      "examples": [
+        {
+          "ja": "わたしは花が好きです。",
+          "zh": "我喜欢花。"
+        },
+        {
+          "ja": "わたしは花を育てるのが好きです。",
+          "zh": "我喜欢养花。"
+        },
+        {
+          "ja": "東京の人は歩くのが速いです。",
+          "zh": "东京人走路很快。"
+        }
+      ]
+    },
+    {
+      "id": "L38-G4",
+      "title": "動詞字典形のを 忘れました",
+      "pattern": "動詞字典形 ＋ のを ＋ 忘れました",
+      "meaning": "“忘了……”。这是动词字典形名词化的例子，可更为具体地说明被忘记了的内容。",
+      "usage": "「忘れました」前面的「～のを」表示所忘记的具体内容，「の」将动词句名词化。",
+      "examples": [
+        {
+          "ja": "かぎを忘れました。",
+          "zh": "把钥匙忘了。"
+        },
+        {
+          "ja": "牛乳を買うのを忘れました。",
+          "zh": "忘了买牛奶了。"
+        },
+        {
+          "ja": "車の窓を閉めるのを忘れました。",
+          "zh": "忘了关车窗了。"
+        }
+      ]
+    },
+    {
+      "id": "L38-G5",
+      "title": "動詞普通形のを 知っていますか",
+      "pattern": "動詞普通形 ＋ のを ＋ 知っていますか",
+      "meaning": "“你知道……吗？”这是动词普通形名词化的例子，在就具体的内容询问对方是否知道时使用。",
+      "usage": "「知りません」和「知りませんでした」的区别：听话人在被问之前不知道某事，但由于被问而得知此事时，回答「知りませんでした」；在被问之前不知道，并且也没有因为被问而得知时，回答「知りません」。",
+      "examples": [
+        {
+          "ja": "鈴木さんが来月結婚するのを知っていますか。",
+          "zh": "你知道铃木下个月要结婚吗？"
+        },
+        {
+          "ja": "木村さんに赤ちゃんが生まれたのを知っていますか。……いいえ、知りませんでした。",
+          "zh": "你知道木村小姐生孩子了吗？……不，不知道。"
+        },
+        {
+          "ja": "ミラーさんの住所を知っていますか。……いいえ、知りません。",
+          "zh": "你知道米勒的地址吗？……不，不知道。"
+        }
+      ]
+    },
+    {
+      "id": "L38-G6",
+      "title": "～のは 名詞2です",
+      "pattern": "動詞／い形容詞普通形、な形容詞／名詞1普通形（～だ→～な）＋ のは ＋ 名詞2です",
+      "meaning": "这一句型用于强调名词2。",
+      "usage": "本句型也经常用来纠正对方所说的事情。「～のは」之前的句子的主体不用「は」而要用「が」来表示。",
+      "examples": [
+        {
+          "ja": "初めて会ったのはいつですか。……3年まえです。",
+          "zh": "第一次见面是在什么时候？……3年前。"
+        },
+        {
+          "ja": "バンコクで生まれたんですか。……いいえ、生まれたのはチェンマイです。",
+          "zh": "你是在曼谷出生的吗？……不是，我生在清迈。"
+        },
+        {
+          "ja": "父が生まれたのは北海道の小さな村です。",
+          "zh": "父亲出生在北海道的一个小村庄。"
+        }
+      ]
+    }
+  ],
+  "39": [
+    {
+      "id": "L39-G1",
+      "title": "～て（で）、～（原因・理由）",
+      "pattern": "動詞て形／動詞ない形なくて／い形容詞（～い→～くて）／な形容詞［な］→で ＋ 、～",
+      "meaning": "前半句表示原因、理由，后半句表示由于前面的原因、理由而带来的结果。后半句要使用与意志无关的表达方式，可表示某种状态。",
+      "usage": "后半句主要使用：(1) 表示感情的动词、形容词，如「びっくりします」「安心します」「困ります」「寂しい」「うれしい」「残念［な］」等；(2) 表示可能或某种状态的动词。",
+      "tip": "后半句使用含有意志的表达方式（意志、命令、劝诱、依赖）时，前半句要用「～から」。○危ないですから、機械に触らないでください。 ×危なくて、機械に触らないでください。",
+      "examples": [
+        {
+          "ja": "ニュースを聞いて、びっくりしました。",
+          "zh": "听到新闻后吃了一惊。"
+        },
+        {
+          "ja": "家族に会えなくて、寂しいです。",
+          "zh": "见不到家里人，很寂寞。"
+        },
+        {
+          "ja": "土曜日は都合が悪くて、行けません。",
+          "zh": "星期六我有事，去不了。"
+        },
+        {
+          "ja": "話が複雑で、よくわかりませんでした。",
+          "zh": "故事情节很复杂，没太明白。"
+        },
+        {
+          "ja": "事故があって、バスが遅れてしまいました。",
+          "zh": "路上有事故，公共汽车晚点了。"
+        },
+        {
+          "ja": "授業に遅れて、先生にしかられました。",
+          "zh": "因为上课迟到，被老师批评了。"
+        }
+      ]
+    },
+    {
+      "id": "L39-G2",
+      "title": "名詞で（原因）",
+      "pattern": "名詞 ＋ で、～",
+      "meaning": "用「で」表示原因。较多使用像「事故」「地震」「火事」等表示自然现象、事件等的名词。",
+      "usage": "此处的「で」表示引起后半句结果的原因，后半句多为非意志性的表达（自然发生的结果）。",
+      "examples": [
+        {
+          "ja": "地震でビルが倒れました。",
+          "zh": "因为地震，大厦倒塌了。"
+        },
+        {
+          "ja": "病気で会社を休みました。",
+          "zh": "因病请假，没去公司。"
+        }
+      ]
+    },
+    {
+      "id": "L39-G3",
+      "title": "～ので、～",
+      "pattern": "動詞／い形容詞普通形、な形容詞／名詞普通形（～だ→～な）＋ ので、～",
+      "meaning": "和「～から」一样，「～ので」也表示原因、理由。",
+      "usage": "因为「ので」原本就有表示因果关系（即陈述因某原因而引起某结果）的功能，所以适合在比较缓和地陈述某种请求的理由或进行辩解时使用。",
+      "examples": [
+        {
+          "ja": "日本語がわからないので、英語で話していただけませんか。",
+          "zh": "我不懂日语，所以请您用英语说好吗？"
+        },
+        {
+          "ja": "用事があるので、お先に失礼します。",
+          "zh": "因为有事，我先告辞了。"
+        }
+      ]
+    },
+    {
+      "id": "L39-G4",
+      "title": "途中で",
+      "pattern": "動詞字典形／名詞の ＋ 途中で",
+      "meaning": "「途中で」是指在两地之间移动时，其中的某一地点。与动词字典形或「名词の」一起使用。",
+      "usage": "「来る途中で」「マラソンの途中で」等，表示在移动或某一行为进行的过程中发生了某事。",
+      "examples": [
+        {
+          "ja": "実は来る途中で事故があって、バスが遅れてしまったんです。",
+          "zh": "其实是因为在来的路上有事故，所以公共汽车晚点了。"
+        },
+        {
+          "ja": "マラソンの途中で気分が悪くなりました。",
+          "zh": "在马拉松比赛的中途，身体不舒服起来。"
+        }
+      ]
+    }
+  ],
+  "40": [
+    {
+      "id": "L40-G1",
+      "title": "疑問詞 ＋ 普通形 か、～",
+      "pattern": "動詞／い形容詞普通形、な形容詞／名詞普通形（～だ）＋ か、～",
+      "meaning": "要把含有疑问词的疑问句与其他句子组合成一个句子时使用本句型。",
+      "usage": "疑问词是名词时，使用「疑问词＋か」这样的形式（如「いつか」）。",
+      "examples": [
+        {
+          "ja": "JL107便は何時に到着するか、調べてください。",
+          "zh": "请给我查一下JL107航班几点到。"
+        },
+        {
+          "ja": "結婚のお祝いは何がいいか、話しています。",
+          "zh": "我们在讨论结婚礼物送什么好。"
+        },
+        {
+          "ja": "わたしたちが初めて会ったのはいつか、覚えていますか。",
+          "zh": "你还记得我们第一次见面是什么时候吗？"
+        }
+      ]
+    },
+    {
+      "id": "L40-G2",
+      "title": "～かどうか、～",
+      "pattern": "動詞／い形容詞普通形、な形容詞／名詞普通形（～だ）＋ かどうか、～",
+      "meaning": "要把不带疑问词的疑问句与其他句子组合成一个句子时使用本句型。要注意需要在「普通形か」之后接「どうか」。",
+      "usage": "「～かどうか」的前面不能有疑问词；肯定与否定两种可能同时被包含在内。",
+      "tip": "「まちがいがないかどうか」不用「まちがいがあるかどうか」，是因为说话人想让对方确认「まちがいがない」。",
+      "examples": [
+        {
+          "ja": "忘年会に出席するかどうか、20日までに返事をください。",
+          "zh": "能否出席辞旧迎新会，请在20号之前予以回答。"
+        },
+        {
+          "ja": "その話はほんとうかどうか、わかりません。",
+          "zh": "不知道那个传闻是不是真的。"
+        },
+        {
+          "ja": "まちがいがないかどうか、調べてください。",
+          "zh": "请查一下有没有错误。"
+        }
+      ]
+    },
+    {
+      "id": "L40-G3",
+      "title": "動詞て形 みます",
+      "pattern": "動詞て形 ＋ みます",
+      "meaning": "表示试着去做某件事情。",
+      "usage": "用「～てみたい」这个句型的话，可以比用「～たい」更为低调地表示自己希望做某事。",
+      "examples": [
+        {
+          "ja": "もう一度考えてみます。",
+          "zh": "我再考虑一下。"
+        },
+        {
+          "ja": "このズボンをはいてみてもいいですか。",
+          "zh": "我能试一下这条裤子吗？"
+        },
+        {
+          "ja": "北海道へ行ってみたいです。",
+          "zh": "我想去北海道看看。"
+        }
+      ]
+    },
+    {
+      "id": "L40-G4",
+      "title": "い形容詞（～い）→～さ",
+      "pattern": "い形容詞（～い→～さ）",
+      "meaning": "「い形容词」把词尾「い」变为「さ」时可作为名词使用。例如：高い→高さ、長い→長さ、速い→速さ。",
+      "usage": "「～さ」表示程度、尺寸等的名词，常与「測ります」「量ります」「どのくらい」等一起使用。",
+      "examples": [
+        {
+          "ja": "山の高さはどうやって測るか、知っていますか。",
+          "zh": "你知道山的高度是怎样测量的吗？"
+        },
+        {
+          "ja": "新しい橋の長さは3,911メートルです。",
+          "zh": "新建的桥全长3,911米。"
+        }
+      ]
+    },
+    {
+      "id": "L40-G5",
+      "title": "～でしょうか",
+      "pattern": "～ ＋ でしょうか",
+      "meaning": "「～でしょう」（第32课）用于问句中时，是一种不要求对方进行某一确切回答的提问方式，在语气上会让人感觉比较委婉。",
+      "usage": "在不便直接询问或想缓和语气时使用，比「～ですか」更为委婉、礼貌。",
+      "examples": [
+        {
+          "ja": "ハンスは学校でどうでしょうか。",
+          "zh": "汉斯在学校怎么样啊？"
+        }
+      ]
+    }
+  ],
+  "41": [
+    {
+      "id": "L41-G1",
+      "title": "名詞1（人）に 名詞2を いただきます",
+      "pattern": "名詞1（人）に ＋ 名詞2を ＋ いただきます",
+      "meaning": "说话人从上司或长辈（名词1）那里接受物品（名词2）时，不用「もらいます」，而用「いただきます」。",
+      "usage": "接受者是说话人的家属时也可使用「いただきます」。",
+      "examples": [
+        {
+          "ja": "わたしは社長にお土産をいただきました。",
+          "zh": "我得到了总经理赠送的礼品。"
+        },
+        {
+          "ja": "娘は部長にお土産をいただきました。",
+          "zh": "（我）女儿得到了部长赠送的礼物。"
+        }
+      ]
+    },
+    {
+      "id": "L41-G2",
+      "title": "［わたしに］名詞を くださいます",
+      "pattern": "名詞（人）が ＋ ［わたしに］＋ 名詞を ＋ くださいます",
+      "meaning": "上司或长辈给予说话人物品时，不用「くれます」，而用「くださいます」。",
+      "usage": "接受者是说话人的家属时也可使用「くださいます」。",
+      "examples": [
+        {
+          "ja": "社長がわたしにお土産をくださいました。",
+          "zh": "总经理送了礼物给我。"
+        },
+        {
+          "ja": "部長が娘にお土産をくださいました。",
+          "zh": "部长送了礼物给（我）女儿。"
+        }
+      ]
+    },
+    {
+      "id": "L41-G3",
+      "title": "名詞1に 名詞2を やります",
+      "pattern": "名詞1（人・動植物）に ＋ 名詞2を ＋ やります",
+      "meaning": "说话人给部下、晚辈以及动植物（名词1）物品（名词2）时，本来应该使用「やります」。",
+      "usage": "因为人们想使用更为礼貌的用语，所以最近比起「やります」，使用「あげます」的人多了起来。",
+      "examples": [
+        {
+          "ja": "わたしは息子にお菓子をやりました（あげました）。",
+          "zh": "我给了儿子点心。"
+        },
+        {
+          "ja": "わたしは犬にえさをやりました。",
+          "zh": "我给狗喂食了。"
+        }
+      ]
+    },
+    {
+      "id": "L41-G4",
+      "title": "動詞て形 いただきます",
+      "pattern": "動詞て形 ＋ いただきます",
+      "meaning": "表示从上司或长辈那里接受某一行为（「～てもらいます」的谦逊说法）。",
+      "usage": "施动者用「に」表示，是上司或长辈时才用「いただきます」；对朋友或同辈用「～てもらいます」。",
+      "examples": [
+        {
+          "ja": "わたしは課長に手紙のまちがいを直していただきました。",
+          "zh": "我请科长给我改了信上的错误。"
+        }
+      ]
+    },
+    {
+      "id": "L41-G5",
+      "title": "動詞て形 くださいます",
+      "pattern": "動詞て形 ＋ くださいます",
+      "meaning": "表示上司或长辈为说话人做某一行为（「～てくれます」的尊敬说法）。",
+      "usage": "施动者用「が」表示；「わたしに」「わたしを」「わたしの」等表示接受者的部分常常省略。",
+      "examples": [
+        {
+          "ja": "部長の奥さんが［わたしに］お茶を教えてくださいました。",
+          "zh": "部长的夫人教我茶道了。"
+        },
+        {
+          "ja": "部長が［わたしを］駅まで送ってくださいました。",
+          "zh": "部长把我送到了车站。"
+        },
+        {
+          "ja": "部長が［わたしの］レポートを直してくださいました。",
+          "zh": "部长给我改了报告。"
+        }
+      ]
+    },
+    {
+      "id": "L41-G6",
+      "title": "動詞て形 やります",
+      "pattern": "動詞て形 ＋ やります",
+      "meaning": "表示说话人为部下、晚辈以及动植物做某一行为（也可用「～てあげます」）。",
+      "usage": "用于对晚辈、部下或动植物做某事。最近对孩子等也常用更礼貌的「～てあげます」。",
+      "examples": [
+        {
+          "ja": "わたしは息子に紙飛行機を作ってやりました（あげました）。",
+          "zh": "我给孩子做了架纸飞机。"
+        },
+        {
+          "ja": "わたしは犬を散歩に連れて行ってやりました。",
+          "zh": "我带狗去散步了。"
+        },
+        {
+          "ja": "わたしは娘の宿題を見てやりました（あげました）。",
+          "zh": "我给女儿看了作业。"
+        }
+      ]
+    },
+    {
+      "id": "L41-G7",
+      "title": "動詞て形 くださいませんか",
+      "pattern": "動詞て形 ＋ くださいませんか",
+      "meaning": "这是比「～てください」更为礼貌的请求表达方式。",
+      "usage": "不过，比在第26课学过的「～ていただけませんか」礼貌程度低一些。",
+      "examples": [
+        {
+          "ja": "コピー機の使い方を教えてくださいませんか。",
+          "zh": "能教我一下复印机的用法吗？"
+        },
+        {
+          "ja": "コピー機の使い方を教えていただけませんか。",
+          "zh": "能请您教我一下复印机的用法吗？（第26课）"
+        }
+      ]
+    },
+    {
+      "id": "L41-G8",
+      "title": "名詞に 動詞",
+      "pattern": "名詞 ＋ に ＋ 動詞",
+      "meaning": "助词「に」表示“作为……的证明”“作为……的纪念”的意思。",
+      "usage": "「結婚祝いに」「お土産に」等，「に」前的名词表示该行为的名目或用途。",
+      "examples": [
+        {
+          "ja": "田中さんが結婚祝いにこのお皿をくださいました。",
+          "zh": "田中送给了我这个盘子作为结婚礼品。"
+        },
+        {
+          "ja": "北海道旅行のお土産に人形を買いました。",
+          "zh": "我买了偶人作为去北海道旅行的纪念品。"
+        }
+      ]
+    }
+  ],
+  "42": [
+    {
+      "id": "L42-G1",
+      "title": "動詞字典形／名詞の ために、～",
+      "pattern": "動詞字典形／名詞の ＋ ために、～",
+      "meaning": "“为了～”。「ために」表示目的。「名词のために」也可以表示“为了某种利益”的意思。",
+      "usage": "「～ように」（第36课）是与「ために」类似的表达方式。但是「ために」之前使用意志动词的字典形，而「ように」之前要使用非意志动词的字典形或动词的否定形。",
+      "tip": "「自分の店を持つために、貯金しています」表示自己有意识地以“有自己的店”为目的而存钱；「自分の店が持てるように、貯金しています」是以能接近“有一家自己的店”这一水平为目标而存钱。「なります」有意志动词和非意志动词的用法：弁護士になるために、法律を勉強しています／日本語が上手になるように、毎日勉強しています。",
+      "examples": [
+        {
+          "ja": "自分の店を持つために、貯金しています。",
+          "zh": "为了将来有一家自己的店铺，正在存钱。"
+        },
+        {
+          "ja": "引っ越しのために、車を借ります。",
+          "zh": "为搬家借辆车。"
+        },
+        {
+          "ja": "健康のために、毎朝走っています。",
+          "zh": "为了健康，每天早上跑步。"
+        },
+        {
+          "ja": "家族のために、うちを建てます。",
+          "zh": "为了家里人盖房子。"
+        },
+        {
+          "ja": "弁護士になるために、法律を勉強しています。",
+          "zh": "我为了当个律师，正在学习法律。"
+        }
+      ]
+    },
+    {
+      "id": "L42-G2",
+      "title": "動詞字典形の／名詞 に ～",
+      "pattern": "動詞字典形の／名詞 ＋ に ＋ 使います／いいです／便利です／役に立ちます／［時間］がかかります",
+      "meaning": "这一句型和「使います」「いいです」「便利です」「役に立ちます」「［時間］がかかります」等一起使用，表示用途和目的。",
+      "usage": "「動詞字典形のに」表示用途，「名詞に」中的名词多为表示行为、活动的名词（旅行、出張、引っ越し等）。",
+      "examples": [
+        {
+          "ja": "このはさみは花を切るのに使います。",
+          "zh": "这把剪刀是用来剪花的。"
+        },
+        {
+          "ja": "このかばんは大きくて、旅行に便利です。",
+          "zh": "这个包很大，旅行用很方便。"
+        },
+        {
+          "ja": "電話番号を調べるのに時間がかかりました。",
+          "zh": "为了查电话号码，花了不少时间。"
+        }
+      ]
+    },
+    {
+      "id": "L42-G3",
+      "title": "数量詞は／も",
+      "pattern": "数量詞 ＋ は／も",
+      "meaning": "助词「は」接在数量词之后，表示说话人所估算的最小限度。助词「も」接在数量词之后，表示说话人觉得那个数量很大。",
+      "usage": "「半分は」表示至少一半，「半分も」表示说话人觉得一半已经很多。",
+      "examples": [
+        {
+          "ja": "わたしは［ボーナスの］半分は貯金するつもりです。……えっ、半分も貯金するんですか。",
+          "zh": "我打算把［奖金的］一半儿存起来。……啊，一半儿都存起来？"
+        }
+      ]
+    },
+    {
+      "id": "L42-G4",
+      "title": "～によって",
+      "pattern": "名詞（人）＋ によって ＋ 被動動詞",
+      "meaning": "表示创造和发现的动词（例如「書きます」「発明します」「発見します」等）用作被动时，行为者不是用「に」，而是用「によって」来表示。",
+      "usage": "常用于「発明されました」「発見されました」「書かれました」「建てられました」等叙述创造、发现类事实的被动句中。",
+      "examples": [
+        {
+          "ja": "チキンラーメンは1958年に安藤百福さんによって発明されました。",
+          "zh": "鸡肉拉面是1958年由安藤百福发明的。"
+        }
+      ]
+    }
+  ],
+  "43": [
+    {
+      "id": "L43-G1",
+      "title": "動詞ます形 そうです",
+      "pattern": "動詞ます形 ＋ そうです",
+      "meaning": "“看起来好像……”。表示有将要发生某动作或变化的征兆。",
+      "usage": "可以和表示动作或变化发生时期的副词「今にも」「もうすぐ」「これから」等一起使用。",
+      "examples": [
+        {
+          "ja": "今にも雨が降りそうです。",
+          "zh": "好像马上就要下雨了。"
+        },
+        {
+          "ja": "もうすぐ桜が咲きそうです。",
+          "zh": "樱花好像马上就要开了。"
+        },
+        {
+          "ja": "これから寒くなりそうです。",
+          "zh": "天气好像要冷起来了。"
+        }
+      ]
+    },
+    {
+      "id": "L43-G2",
+      "title": "い形容詞（～い）／な形容詞［な］ そうです",
+      "pattern": "い形容詞（～い→～）／な形容詞［な］＋ そうです",
+      "meaning": "表示没有实际加以确认，而只是从外观上就其性质进行推测。",
+      "usage": "「いい」变为「よさそうです」。",
+      "tip": "表示他人的感情时，不能直接使用表示感情的形容词（「うれしい」「悲しい」「寂しい」等），而要在后面接续「そうです」，使用这种从外观上进行推测的说法。",
+      "examples": [
+        {
+          "ja": "この料理は辛そうです。",
+          "zh": "这道菜看上去挺辣的。"
+        },
+        {
+          "ja": "彼女は頭がよさそうです。",
+          "zh": "她好像很聪明。"
+        },
+        {
+          "ja": "この机は丈夫そうです。",
+          "zh": "这张桌子看着很结实。"
+        },
+        {
+          "ja": "うれしそうですね。……ええ、実はきのう結婚を申し込まれたんです。",
+          "zh": "（你）看起来很高兴啊。……是啊，其实昨天有人向我求婚了。"
+        }
+      ]
+    },
+    {
+      "id": "L43-G3",
+      "title": "動詞て形 来ます",
+      "pattern": "動詞て形 ＋ 来ます",
+      "meaning": "表示“去某个场所，做了某件事之后再返回来”的意思。",
+      "usage": "进行「動詞て形」所示动作的场所要用「で」表示。把某场所作为「を」所示物品的出处（即起点）来看时，要用「から」。与「から」一起使用的动词，除了「取って来ます」以外，还有「持って来ます」「運んで来ます」等。",
+      "examples": [
+        {
+          "ja": "ちょっとたばこを買って来ます。",
+          "zh": "我去买包烟回来。"
+        },
+        {
+          "ja": "スーパーで牛乳を買って来ます。",
+          "zh": "去超市买牛奶回来。"
+        },
+        {
+          "ja": "台所からコップを取って来ます。",
+          "zh": "去厨房拿个杯子来。"
+        }
+      ]
+    },
+    {
+      "id": "L43-G4",
+      "title": "名詞（場所）へ 行って来ます／出かけて来ます",
+      "pattern": "名詞（場所）へ ＋ 行って来ます／ちょっと ＋ 出かけて来ます",
+      "meaning": "「行って来ます」表示去某处之后再回来的意思，在不需要特意说明要在去的地方做些什么事时使用。「出かけて来ます」在不需要特意说明所去的地方以及去的目的时使用。",
+      "usage": "「行って来ます」多用于短时间外出后返回的场合；出门时的寒暄「行ってきます」也由此而来。",
+      "examples": [
+        {
+          "ja": "郵便局へ行って来ます。",
+          "zh": "我去趟邮局就回来。"
+        },
+        {
+          "ja": "ちょっと出かけて来ます。",
+          "zh": "我出去一下就回来。"
+        }
+      ]
+    },
+    {
+      "id": "L43-G5",
+      "title": "動詞て形 くれませんか",
+      "pattern": "動詞て形 ＋ くれませんか",
+      "meaning": "是比「～てください」更为礼貌的请求表达方式，但没有「～ていただけませんか」（第26课）和「～てくださいませんか」（第41课）礼貌程度高。",
+      "usage": "适合对自己的同辈以及晚辈、下级使用。",
+      "examples": [
+        {
+          "ja": "コンビニへ行って来ます。……じゃ、お弁当を買って来てくれませんか。",
+          "zh": "我去趟便利店就回来。……那能帮我买个盒饭回来吗？"
+        }
+      ]
+    }
+  ],
+  "44": [
+    {
+      "id": "L44-G1",
+      "title": "～すぎます",
+      "pattern": "動詞ます形／い形容詞（～い）／な形容詞［な］＋ すぎます",
+      "meaning": "表示某种行为或状态的程度超过了限度。一般这种行为或状态并不让人感觉良好。",
+      "usage": "「～すぎます」为II类动词活用。例如：飲みすぎる、飲みすぎ（ない）、飲みすぎた。",
+      "examples": [
+        {
+          "ja": "ゆうべお酒を飲みすぎました。",
+          "zh": "昨晚喝多了。"
+        },
+        {
+          "ja": "このセーターは大きすぎます。",
+          "zh": "这件毛衣太大了。"
+        },
+        {
+          "ja": "最近の車は操作が簡単すぎて、運転がおもしろくないです。",
+          "zh": "最近的汽车操作起来太简单，开起来没什么意思。"
+        },
+        {
+          "ja": "いくら好きでも、飲みすぎると、体に悪いですよ。",
+          "zh": "不管多爱喝酒，喝得太多的话，对身体也没有好处。"
+        }
+      ]
+    },
+    {
+      "id": "L44-G2",
+      "title": "動詞ます形 やすいです／にくいです",
+      "pattern": "動詞ます形 ＋ やすいです／にくいです",
+      "meaning": "「动词ます形」为表示意志的动词时，后接「～やすい」表示那个动作很容易，后接「～にくい」表示那个动作很难。「动词ます形」为非意志动词时，后接「～やすい」表示那个动作容易发生，后接「～にくい」表示那个动作很难发生。",
+      "usage": "「～やすい」「～にくい」的活用和「い形容词」一样。",
+      "examples": [
+        {
+          "ja": "このパソコンは使いやすいです。",
+          "zh": "这台电脑很好用。"
+        },
+        {
+          "ja": "東京は住みにくいです。",
+          "zh": "东京不易居住。"
+        },
+        {
+          "ja": "白いシャツは汚れやすいです。",
+          "zh": "白衬衫很容易脏。"
+        },
+        {
+          "ja": "雨の日は洗濯物が乾きにくいです。",
+          "zh": "下雨天洗东西不容易干。"
+        },
+        {
+          "ja": "この薬は砂糖を入れると、飲みやすくなりますよ。",
+          "zh": "这种药放点儿糖就容易入口了。"
+        },
+        {
+          "ja": "このコップは割れにくくて、安全ですよ。",
+          "zh": "这个杯子不易碎，很安全。"
+        }
+      ]
+    },
+    {
+      "id": "L44-G3",
+      "title": "名詞1を ～く／～に／名詞2に します",
+      "pattern": "名詞1を ＋ い形容詞（～い→～く）／な形容詞（［な］→～に）／名詞2に ＋ します",
+      "meaning": "初级1第19课学过的「～く／～になります」表示主体自身发生变化，而「～く／～にします」则表示某人使某对象（名词1）发生变化。",
+      "usage": "动作主体使对象发生变化，与表示对象自身变化的「～く／～になります」相对应。",
+      "examples": [
+        {
+          "ja": "音を大きくします。",
+          "zh": "把声音调大。"
+        },
+        {
+          "ja": "部屋をきれいにします。",
+          "zh": "把房间打扫干净。"
+        },
+        {
+          "ja": "塩の量を半分にしました。",
+          "zh": "把盐量减到一半。"
+        }
+      ]
+    },
+    {
+      "id": "L44-G4",
+      "title": "名詞に します",
+      "pattern": "名詞 ＋ に ＋ します",
+      "meaning": "表示选择和决定。",
+      "usage": "常用于点菜、选房间、决定日程等需要从若干选项中选择的场合。",
+      "examples": [
+        {
+          "ja": "部屋はシングルにしますか、ツインにしますか。",
+          "zh": "房间是要单人间还是双人间？"
+        },
+        {
+          "ja": "会議はあしたにします。",
+          "zh": "会议明天开。"
+        }
+      ]
+    }
+  ],
+  "45": [
+    {
+      "id": "L45-G1",
+      "title": "～場合は、～",
+      "pattern": "動詞字典形／動詞ない形ない／動詞た形／い形容詞（～い）／な形容詞な／名詞の ＋ 場合は、～",
+      "meaning": "「～場合」是假设发生某种状况的表达方式。后续句子表示其对策或该状况发生后会带来的结果。",
+      "usage": "由于「場合」是名词，所以接续的方法和名词相同。",
+      "examples": [
+        {
+          "ja": "会議に間に合わない場合は、連絡してください。",
+          "zh": "如果赶不上开会的话，请联系一下。"
+        },
+        {
+          "ja": "時間に遅れた場合は、会場に入れません。",
+          "zh": "如果晚了的话，就进不去会场了。"
+        },
+        {
+          "ja": "パソコンの調子が悪い場合は、どうしたらいいですか。",
+          "zh": "电脑不好用时，该怎么办？"
+        },
+        {
+          "ja": "領収書が必要な場合は、言ってください。",
+          "zh": "需要收据时，请说一声。"
+        },
+        {
+          "ja": "火事や地震の場合は、エレベーターを使わないでください。",
+          "zh": "发生火灾和地震时，请不要使用电梯。"
+        }
+      ]
+    },
+    {
+      "id": "L45-G2",
+      "title": "～のに、～",
+      "pattern": "動詞／い形容詞普通形、な形容詞／名詞普通形（～だ→～な）＋ のに、～",
+      "meaning": "「のに」表示后半句所述的事情与前半句中原本预想的不同。常用来表达意外和不满的心情。",
+      "usage": "「～のに」和「～が」的区别：把「のに」换成「が」时，不能表示意外或不满的心情。例：約束をしましたが、彼女は来ませんでした。（约好了，但是她没来。）",
+      "tip": "「～のに」和「～ても」的区别：「のに」表示的是说话人对已经发生过的事情所抱有的心情，不能像「ても」那样表示一种假设。○あした雨が降っても、サッカーをします。 ×あした雨が降るのに、サッカーをします。",
+      "examples": [
+        {
+          "ja": "約束をしたのに、彼女は来ませんでした。",
+          "zh": "事先约好了，可她却没来。"
+        },
+        {
+          "ja": "きょうは日曜日なのに、働かなければなりません。",
+          "zh": "虽然今天是星期天，可还得工作。"
+        }
+      ]
+    }
+  ],
+  "46": [
+    {
+      "id": "L46-G1",
+      "title": "動詞字典形 ところです",
+      "pattern": "動詞字典形 ＋ ところです",
+      "meaning": "「ところ」用于叙述某个动作或发生的事情当下所处的状态。「動詞字典形ところです」表示动作即将开始。",
+      "usage": "多与「これから」「［ちょうど］今から」等副词一起使用。",
+      "examples": [
+        {
+          "ja": "昼ごはんはもう食べましたか。……いいえ、これから食べるところです。",
+          "zh": "吃过午饭了吗？……没有，正要吃呢。"
+        },
+        {
+          "ja": "会議はもう始まりましたか。……いいえ、今から始まるところです。",
+          "zh": "会议已经开始了吗？……没有，正要开始。"
+        }
+      ]
+    },
+    {
+      "id": "L46-G2",
+      "title": "動詞て形 いるところです",
+      "pattern": "動詞て形 ＋ いるところです",
+      "meaning": "表示动作正在进行中。",
+      "usage": "多与「今」一起使用。",
+      "examples": [
+        {
+          "ja": "故障の原因がわかりましたか。……いいえ、今調べているところです。",
+          "zh": "故障的原因弄清楚了吗？……没有，现在正在查呢。"
+        }
+      ]
+    },
+    {
+      "id": "L46-G3",
+      "title": "動詞た形 ところです",
+      "pattern": "動詞た形 ＋ ところです",
+      "meaning": "表示动作刚刚结束。",
+      "usage": "与「たった今」等副词一起使用。「～ところです」作为名词句接续各种句型（如「～ところなんです」）。",
+      "examples": [
+        {
+          "ja": "渡辺さんはいますか。……あ、たった今帰ったところです。",
+          "zh": "渡边小姐在吗？……啊，她刚回去。"
+        },
+        {
+          "ja": "たった今バスが出たところです。",
+          "zh": "公共汽车刚走。"
+        },
+        {
+          "ja": "もしもし田中ですが、今いいでしょうか。……すみません。今から出かけるところなんです。",
+          "zh": "喂喂，我是田中，现在方便吗？……对不起，我正要出门。"
+        }
+      ]
+    },
+    {
+      "id": "L46-G4",
+      "title": "動詞た形 ばかりです",
+      "pattern": "動詞た形 ＋ ばかりです",
+      "meaning": "表示说话人觉得某一动作或某一事情发生之后还没过多久的心情。",
+      "usage": "不管实际经过多长时间，只要说话人觉得时间短就可以使用这一句型。这一点与「動詞た形ところです」不同。「～ばかりです」作为名词句接续各种句型。",
+      "examples": [
+        {
+          "ja": "さっき昼ごはんを食べたばかりです。",
+          "zh": "我刚吃过午饭。"
+        },
+        {
+          "ja": "木村さんは先月この会社に入ったばかりです。",
+          "zh": "木村上个月刚进这家公司。"
+        },
+        {
+          "ja": "このビデオは先週買ったばかりなのに、調子がおかしいです。",
+          "zh": "这台摄像机上个星期刚买的，就有点儿毛病了。"
+        }
+      ]
+    },
+    {
+      "id": "L46-G5",
+      "title": "～はずです",
+      "pattern": "動詞字典形／動詞ない形ない／い形容詞（～い）／な形容詞な／名詞の ＋ はずです",
+      "meaning": "表示说话人很有把握地说出自己凭借某种依据来做出的某种判断。",
+      "usage": "“昨天的电话”是判断的依据，据此说话人判断出“米勒会来”，用「～はずです」来表达对这一判断的确信。",
+      "examples": [
+        {
+          "ja": "ミラーさんはきょう来るでしょうか。……来るはずですよ。きのう電話がありましたから。",
+          "zh": "米勒今天会来吗？……应该会来的。因为他昨天打来过电话。"
+        }
+      ]
+    }
+  ],
+  "47": [
+    {
+      "id": "L47-G1",
+      "title": "普通形 そうです（传闻）",
+      "pattern": "動詞／い形容詞／な形容詞／名詞の普通形 ＋ そうです",
+      "meaning": "“听说……”。表示说话人把从别人那里得到的信息，不掺杂任何自己的意见告诉听话人。如果要显示信息的出处，可在句首使用「～によると」。",
+      "usage": "要注意这个句型与第43课学过的「～そうです」在意思和接续方法上都不一样：「雨が降りそうです」（好像要下雨了）／「雨が降るそうです」（听说要下雨）；「この料理はおいしそうです」（看上去很好吃）／「この料理はおいしいそうです」（听说很好吃）。",
+      "tip": "「～そうです」（传闻）和「～と言っていました」（第33课）的区别：「ミラーさんはあした京都へ行くと言っていました」的信息出处是米勒本人，而「ミラーさんはあした京都へ行くそうです」的信息出处可能是米勒以外的人。",
+      "examples": [
+        {
+          "ja": "天気予報によると、あしたは寒くなるそうです。",
+          "zh": "据天气预报说，明天要降温。"
+        },
+        {
+          "ja": "クララさんは子どものとき、フランスに住んでいたそうです。",
+          "zh": "听说克拉拉小姐小时候住在法国。"
+        },
+        {
+          "ja": "バリはとてもきれいだそうです。",
+          "zh": "听说巴厘岛很漂亮。"
+        },
+        {
+          "ja": "ミラーさんはあした京都へ行くそうです。",
+          "zh": "听说米勒明天去京都。"
+        }
+      ]
+    },
+    {
+      "id": "L47-G2",
+      "title": "～ようです",
+      "pattern": "動詞／い形容詞普通形、な形容詞普通形（～だ→～な）、名詞普通形（～だ→～の）＋ ようです",
+      "meaning": "“好像……”。「～ようです」表示说话人根据现场状况做出的判断。",
+      "usage": "有时会与表示“并不能断定，但……”的副词「どうも」一起使用。",
+      "tip": "「～そうです」（第43课）和「～ようです」的区别：「ミラーさんは忙しそうです」只是单纯地讲述从米勒的外表上观察到的样子，而「ミラーさんは忙しいようです」表示的是说话人根据某种状况（比如“怎么也联系不上”“没来参加预定的宴会”等）所做出的判断。",
+      "examples": [
+        {
+          "ja": "人が大勢集まっていますね。……事故のようですね。パトカーと救急車が来ていますよ。",
+          "zh": "聚集了好多人啊。……好像发生事故了。警车和急救车都来了。"
+        },
+        {
+          "ja": "せきも出るし、頭も痛い。どうもかぜをひいたようだ。",
+          "zh": "又咳嗽又头疼，好像是感冒了。"
+        },
+        {
+          "ja": "ミラーさんは忙しいようです。",
+          "zh": "米勒好像很忙。"
+        }
+      ]
+    },
+    {
+      "id": "L47-G3",
+      "title": "声／音／匂い／味が します",
+      "pattern": "声／音／匂い／味 ＋ が ＋ します",
+      "meaning": "表示通过感觉器官捕捉到的声音、气味、味道等。",
+      "usage": "主语用「が」表示；「声」指人或动物的声音，「音」指物体发出的声音。",
+      "examples": [
+        {
+          "ja": "にぎやかな声がしますね。",
+          "zh": "声音很热闹。"
+        }
+      ]
+    }
+  ],
+  "48": [
+    {
+      "id": "L48-G1",
+      "title": "使役動詞（使役动词）",
+      "pattern": "I类：いきます→いかせます（いかせる）／II类：たべます→たべさせます（たべさせる）／III类：きます→こさせます（こさせる）、します→させます（させる）",
+      "meaning": "使役动词的构成方式。使役动词作为II类动词活用。",
+      "usage": "例如：かかせます → かかせる（字典形）、かかせ（ない）（ない形）、かかせて（て形）。",
+      "examples": [
+        {
+          "ja": "いきます → いかせます（いかせる）",
+          "zh": "去 → 让……去（I类动词）"
+        },
+        {
+          "ja": "たべます → たべさせます（たべさせる）",
+          "zh": "吃 → 让……吃（II类动词）"
+        },
+        {
+          "ja": "きます → こさせます／します → させます",
+          "zh": "来 → 让……来／做 → 让……做（III类动词）"
+        }
+      ]
+    },
+    {
+      "id": "L48-G2",
+      "title": "名詞（人）を 使役動詞（自動詞）",
+      "pattern": "名詞（人）を ＋ 使役動詞（自動詞）",
+      "meaning": "“让……做……”。使役动词中，原来的动词是自动词时，动作的主体原则上用「を」来表示。",
+      "usage": "使用自动词且使用「名词（场所）を」的句子，动作的主体要用「に」来表示。",
+      "examples": [
+        {
+          "ja": "部長はミラーさんをアメリカへ出張させます。",
+          "zh": "部长派米勒去美国出差。"
+        },
+        {
+          "ja": "わたしは娘を自由に遊ばせました。",
+          "zh": "我让女儿自由自在地玩耍。"
+        },
+        {
+          "ja": "わたしは子どもに道の右側を歩かせます。",
+          "zh": "我让孩子在道路的右侧走。"
+        }
+      ]
+    },
+    {
+      "id": "L48-G3",
+      "title": "名詞1（人）に 名詞2を 使役動詞（他動詞）",
+      "pattern": "名詞1（人）に ＋ 名詞2を ＋ 使役動詞（他動詞）",
+      "meaning": "“让……做……”。原来的动词是他动词时，动作的主体用「に」来表示。",
+      "usage": "原来的动词是他动词时，因为宾语已经用「を」表示，所以动作的主体只能用「に」表示。",
+      "examples": [
+        {
+          "ja": "朝は忙しいですから、娘に朝ごはんの準備を手伝わせます。",
+          "zh": "早上很忙，所以我让女儿帮着准备早餐。"
+        },
+        {
+          "ja": "先生は生徒に自由に意見を言わせました。",
+          "zh": "老师让学生自由地发表意见。"
+        }
+      ]
+    },
+    {
+      "id": "L48-G4",
+      "title": "使役动词的使用方法",
+      "pattern": "使役動詞：強制／容認",
+      "meaning": "使役动词表示强制和容忍。常表示地位高、年龄大的人强制地位低、年龄小的人去做某件事情，或容忍他们的某种行为。例如父母对孩子、哥哥对弟弟、上司对部下等。",
+      "usage": "从自己所处的位置来讲，一般对比自己地位高、年龄大的人不能强制，也不存在容忍，因此不使用带有使役动词的表达方式。如想让别人（如部长）去做某事时，要使用「動詞て形いただきます」「動詞て形もらいます」等表示受到对方恩惠的表达方式。这种表达方式也可以用来表示受到与自己地位相等或比自己地位低的人的恩惠。",
+      "examples": [
+        {
+          "ja": "わたしは部長に説明していただきました。",
+          "zh": "我请部长进行了说明。"
+        },
+        {
+          "ja": "わたしは友達に説明してもらいました。",
+          "zh": "我让朋友进行了说明。"
+        }
+      ]
+    },
+    {
+      "id": "L48-G5",
+      "title": "使役動詞て形 いただけませんか",
+      "pattern": "使役動詞て形 ＋ いただけませんか",
+      "meaning": "“可以让（允许）我……吗？”当请求对方允许自己进行某种行为时要用「使役動詞て形いただけませんか」。",
+      "usage": "第26课的「動詞て形いただけませんか」是请求对方做某事；「いい先生を紹介していただけませんか」中要「紹介します」的是听话人，而「早く帰らせていただけませんか」中要「帰ります」的是说话人。",
+      "examples": [
+        {
+          "ja": "いい先生を紹介していただけませんか。",
+          "zh": "能帮我介绍一位好老师吗？（第26课）"
+        },
+        {
+          "ja": "友達の結婚式があるので、早く帰らせていただけませんか。",
+          "zh": "因为有朋友的婚礼，能允许我早走一会儿吗？"
+        }
+      ]
+    }
+  ],
+  "49": [
+    {
+      "id": "L49-G1",
+      "title": "敬語（敬语）",
+      "pattern": "尊敬語（第49課）／謙譲語（第50課）",
+      "meaning": "所谓敬语，是对听话人或话题中的人表示敬意的表达方式。是否使用敬语，要根据对象、话题中的人以及场合来决定。",
+      "usage": "敬语用于以下情况：(1) 和上司、长辈、不认识或不太亲密的人说话时；(2) 在提及上司、长辈时；(3) 在正式场合讲话时。第49课学习的是「尊敬語」，第50课学习的是「謙譲語」。",
+      "examples": [
+        {
+          "ja": "部長はアメリカへ出張なさいます。",
+          "zh": "部长去美国出差。"
+        }
+      ]
+    },
+    {
+      "id": "L49-G2",
+      "title": "尊敬動詞（与被动动词同形）",
+      "pattern": "I类：かきます→かかれます／II类：たべます→たべられます／III类：きます→こられます、します→されます",
+      "meaning": "在对动作及状态的主体表示敬意时使用尊敬语。尊敬动词与被动动词形态相同，作为II类动词活用。",
+      "usage": "例如：かかれます → かかれる、かかれ（ない）、かかれて。",
+      "examples": [
+        {
+          "ja": "中村さんは7時に来られます。",
+          "zh": "中村先生7点来。"
+        },
+        {
+          "ja": "お酒をやめられたんですか。",
+          "zh": "您戒酒了吗？"
+        }
+      ]
+    },
+    {
+      "id": "L49-G3",
+      "title": "お動詞ます形になります",
+      "pattern": "お ＋ 動詞ます形 ＋ になります",
+      "meaning": "一般来说这一形态较尊敬动词更为礼貌。",
+      "usage": "如「見ます」「寝ます」等的「ます形」单音节动词和III类动词不能使用这一形式。另外，有着特殊尊敬语的动词也要使用它自己的特殊尊敬语。",
+      "examples": [
+        {
+          "ja": "社長はもうお帰りになりました。",
+          "zh": "总经理已经回去了。"
+        }
+      ]
+    },
+    {
+      "id": "L49-G4",
+      "title": "特殊尊敬語",
+      "pattern": "いらっしゃいます／なさいます／おっしゃいます／召し上がります／ご覧になります／ご存じです 等",
+      "meaning": "有几个动词有自己的特殊尊敬语，表示与「お～になります」相同程度的敬意。",
+      "usage": "「いらっしゃいます」可代替「います」「行きます」「来ます」，「召し上がります」代替「食べます」「飲みます」。",
+      "tip": "「いらっしゃいます（いらっしゃる）」「なさいます（なさる）」「くださいます（くださる）」「おっしゃいます（おっしゃる）」虽然都是I类动词，但要注意其活用形：いらっしゃいます（×いらっしゃります）、いらっしゃる、いらっしゃらない、いらっしゃった、いらっしゃらなかった。",
+      "examples": [
+        {
+          "ja": "ワット先生は研究室にいらっしゃいます。",
+          "zh": "瓦特老师在研究室。"
+        },
+        {
+          "ja": "どうぞ召し上がってください。",
+          "zh": "请用餐吧。"
+        }
+      ]
+    },
+    {
+      "id": "L49-G5",
+      "title": "お／ご～ください",
+      "pattern": "お ＋ 動詞ます形 ＋ ください／ご ＋ 名詞（III类动词）＋ ください",
+      "meaning": "这一句型是「動詞て形ください」（初级1第14课）的尊敬形式。I类动词和II类动词为「お動詞ます形ください」，III类动词「名词します」为「ご名词ください」。",
+      "usage": "如「見ます」「寝ます」等的「ます形」单音节动词不使用这一形式。有特殊尊敬语的动词，要使用「特殊尊敬語て形ください」的形式。",
+      "examples": [
+        {
+          "ja": "どうぞお入りください。",
+          "zh": "请进。"
+        },
+        {
+          "ja": "忘れ物にご注意ください。",
+          "zh": "请注意别忘了东西。"
+        },
+        {
+          "ja": "またいらっしゃってください。",
+          "zh": "欢迎再来。"
+        }
+      ]
+    },
+    {
+      "id": "L49-G6",
+      "title": "お／ご ＋ 名詞・形容詞・副詞",
+      "pattern": "お ＋ 日语固有词汇／ご ＋ 汉语词汇",
+      "meaning": "名词、形容词及副词可以在词首加「お」或「ご」，以此形式对那一名词的所有者或处于那一状态的人表示敬意。",
+      "usage": "一般来说，日语固有词汇加「お」（お国、お名前、お仕事、お約束、お電話、お元気、お上手、お暇、お忙しい、お若い），从汉语引进的词汇加「ご」（ご家族、ご意見、ご旅行、ご熱心、ご親切、ご自由に）。不仅是动词，句中的其他词语也经常会使用敬语。",
+      "examples": [
+        {
+          "ja": "部長の奥様もごいっしょにゴルフに行かれます。",
+          "zh": "部长夫人也一起去打高尔夫球。"
+        }
+      ]
+    },
+    {
+      "id": "L49-G7",
+      "title": "敬語と文体（敬语与文体）",
+      "pattern": "敬語 ＋ 普通体",
+      "meaning": "只对话题中的人物表示敬意，而不需要对听话人表示敬意时，要把敬语用在简体的句子里。",
+      "usage": "简体句中同样可以使用尊敬语动词，如「いらっしゃる」「なさる」「おっしゃる」等的字典形。",
+      "examples": [
+        {
+          "ja": "部長は何時にいらっしゃる？",
+          "zh": "部长什么时候来？"
+        }
+      ]
+    },
+    {
+      "id": "L49-G8",
+      "title": "～まして",
+      "pattern": "動詞ます形 ＋ まして",
+      "meaning": "想把话讲得更为礼貌时，可以把「動詞て形」变为「動詞ます形まして」。",
+      "usage": "多用于正式场合或对上司、长辈讲话时，使表达更加郑重。",
+      "examples": [
+        {
+          "ja": "ハンスがゆうべ熱を出しまして、けさもまだ下がらないんです。",
+          "zh": "汉斯从昨天晚上开始发烧，到今天早上也还没退烧。"
+        }
+      ]
+    },
+    {
+      "id": "L49-G9",
+      "title": "～ますので",
+      "pattern": "礼貌形 ＋ ので",
+      "meaning": "想把「普通形ので」变得更为礼貌时，可以用「礼貌形ので」。",
+      "usage": "同样，「～ますから」比「普通形から」更为礼貌。",
+      "examples": [
+        {
+          "ja": "きょうは学校を休ませますので、先生によろしくお伝えください。",
+          "zh": "今天就不让他去学校了，请转告一下老师。"
+        }
+      ]
+    }
+  ],
+  "50": [
+    {
+      "id": "L50-G1",
+      "title": "謙譲語I：お動詞ます形 します",
+      "pattern": "お ＋ 動詞（I・II类）ます形 ＋ します",
+      "meaning": "所谓谦逊语I，就是说话人和说话人一方的人为了向听话人及听话人一方的人表示敬意并低调地陈述自己的行为、动作时使用的表达方式。",
+      "usage": "「お持ちしましょうか」是对拿着行李的人表示敬意，「お知らせします」是对“报告”这一动作的对象表示敬意。如「見ます」「います」等的「ます形」单音节动词不能使用这一形式。",
+      "examples": [
+        {
+          "ja": "重そうですね。お持ちしましょうか。",
+          "zh": "看着挺重的，我来帮您拿吧。"
+        },
+        {
+          "ja": "私が社長にスケジュールをお知らせします。",
+          "zh": "我向总经理报告日程。"
+        },
+        {
+          "ja": "兄が車でお送りします。",
+          "zh": "哥哥会用车送您。"
+        }
+      ]
+    },
+    {
+      "id": "L50-G2",
+      "title": "謙譲語I：ご動詞（III类）します",
+      "pattern": "ご ＋ 名詞（III类动词）＋ します",
+      "meaning": "III类动词的谦逊语I形式。",
+      "usage": "除了「案内します」「説明します」之外，还有「紹介します」「招待します」「相談します」「連絡します」等。不过，「電話します」「約束します」等词是例外，不用「ご」而要用「お」。",
+      "examples": [
+        {
+          "ja": "江戸東京博物館へご案内します。",
+          "zh": "我带您去江户东京博物馆。"
+        },
+        {
+          "ja": "きょうの予定をご説明します。",
+          "zh": "我来说一下今天的安排。"
+        }
+      ]
+    },
+    {
+      "id": "L50-G3",
+      "title": "特殊謙譲語",
+      "pattern": "伺います／お目にかかります／拝見します／いただきます／申します 等",
+      "meaning": "有几个动词有自己的特殊谦逊语。",
+      "usage": "「参ります」「申します」「いたします」「おります」等也属于特殊谦逊语（见谦逊语II）。",
+      "examples": [
+        {
+          "ja": "社長の奥様にお目にかかりました。",
+          "zh": "我见到总经理夫人了。"
+        },
+        {
+          "ja": "あしたはだれが手伝いに来てくれますか。……私が伺います。",
+          "zh": "明天谁来帮我一下？……我来。"
+        }
+      ]
+    },
+    {
+      "id": "L50-G4",
+      "title": "謙譲語II（谦逊语II）",
+      "pattern": "申します／参ります／いたします／［～て］おります 等",
+      "meaning": "这是说话人把自己和自己一方的动作、行为礼貌地告诉对方的表达方式。",
+      "usage": "用「申します」替代「言います」、用「参りました」替代「来ました」的说法是说话人更有礼貌地把自己的行为告诉对方的表达方式。像这样的谦逊语还有「いたします」「［～て］おります」等。",
+      "examples": [
+        {
+          "ja": "私はミラーと申します。",
+          "zh": "我叫米勒。"
+        },
+        {
+          "ja": "アメリカから参りました。",
+          "zh": "我是从美国来的。"
+        },
+        {
+          "ja": "ニューヨークにおります。",
+          "zh": "在纽约。"
         }
       ]
     }
@@ -15837,6 +34063,2944 @@ const STATIC_LESSON_CONTENT = {
             "speaker": "ミラー",
             "ja": "すばらしい夢ですね。",
             "zh": "真是很棒的梦想啊。"
+          }
+        ]
+      }
+    ]
+  },
+  "28": {
+    "examples": [
+      {
+        "id": "L28-P1",
+        "kind": "pattern",
+        "title": "文型 1",
+        "ja": "音楽を聞きながら食事します。",
+        "zh": "一边听音乐一边吃饭。"
+      },
+      {
+        "id": "L28-P2",
+        "kind": "pattern",
+        "title": "文型 2",
+        "ja": "毎朝ジョギングをしています。",
+        "zh": "每天早上跑步。"
+      },
+      {
+        "id": "L28-P3",
+        "kind": "pattern",
+        "title": "文型 3",
+        "ja": "地下鉄は速いし、安いし、地下鉄で行きましょう。",
+        "zh": "地铁又快又便宜，我们坐地铁去吧。"
+      },
+      {
+        "id": "L28-E1",
+        "kind": "example",
+        "title": "例文 1",
+        "ja": "眠いとき、ガムをかみながら運転します。……そうですか。わたしは車を止めて、しばらく寝ます。",
+        "zh": "困的时候，一边嚼口香糖一边开车。……是吗？我会把车停下来睡一会儿。"
+      },
+      {
+        "id": "L28-E2",
+        "kind": "example",
+        "title": "例文 2",
+        "ja": "音楽を聞きながら勉強しますか。……いいえ。勉強するときは、音楽を聞きません。",
+        "zh": "一边听音乐一边学习吗？……不。学习的时候不听音乐。"
+      },
+      {
+        "id": "L28-E3",
+        "kind": "example",
+        "title": "例文 3",
+        "ja": "彼は働きながら大学で勉強しています。……そうですか。偉いですね。",
+        "zh": "他一边工作一边在大学学习。……是吗？真了不起。"
+      },
+      {
+        "id": "L28-E4",
+        "kind": "example",
+        "title": "例文 4",
+        "ja": "休みの日はいつも何をしていますか。……そうですね。たいてい絵をかいています。",
+        "zh": "休息日通常做什么？……这个嘛，通常画画。"
+      },
+      {
+        "id": "L28-E5",
+        "kind": "example",
+        "title": "例文 5",
+        "ja": "ワット先生は熱心だし、おもしろいし、それに経験もあります。……いい先生ですね。",
+        "zh": "瓦特老师又热心又有趣，而且也有经验。……是位好老师呢。"
+      },
+      {
+        "id": "L28-E6",
+        "kind": "example",
+        "title": "例文 6",
+        "ja": "よくこのすし屋へ来るんですか。……ええ。ここは値段も安いし、魚も新しいし、よく食べに来ます。",
+        "zh": "经常来这家寿司店吗？……是的。这里价格便宜，鱼也新鲜，所以常来吃。"
+      },
+      {
+        "id": "L28-E7",
+        "kind": "example",
+        "title": "例文 7",
+        "ja": "どうして富士大学を選んだんですか。……富士大学は有名だし、いい先生も多いし、寮もありますから。",
+        "zh": "为什么选择富士大学？……因为富士大学有名，优秀老师也多，而且有宿舍。"
+      }
+    ],
+    "texts": [
+      {
+        "id": "L28-T1",
+        "title": "出張も多いし、試験もあるし……",
+        "subtitle": "会話",
+        "lines": [
+          {
+            "speaker": "小川幸子",
+            "ja": "ミラーさん、ちょっとお願いがあるんですが。",
+            "zh": "米勒先生，我有件事想拜托您。"
+          },
+          {
+            "speaker": "ミラー",
+            "ja": "何ですか。",
+            "zh": "什么事？"
+          },
+          {
+            "speaker": "小川幸子",
+            "ja": "実は8月にオーストラリアへホームステイに行くんです。",
+            "zh": "其实我8月要去澳大利亚寄宿家庭。"
+          },
+          {
+            "speaker": "ミラー",
+            "ja": "ホームステイですか。いいですね。",
+            "zh": "寄宿家庭吗？真好啊。"
+          },
+          {
+            "speaker": "小川幸子",
+            "ja": "ええ。それで今友達と英語を勉強しているんですが……。",
+            "zh": "是的。所以现在正和朋友一起学英语……"
+          },
+          {
+            "speaker": "ミラー",
+            "ja": "ええ。",
+            "zh": "嗯。"
+          },
+          {
+            "speaker": "小川幸子",
+            "ja": "なかなか上手にならないんです。先生もいないし、英語で話すチャンスもないし……。",
+            "zh": "可是怎么也学不好。没有老师，也没有用英语说话的机会……"
+          },
+          {
+            "speaker": "小川幸子",
+            "ja": "ミラーさん、会話の先生になっていただけませんか。",
+            "zh": "米勒先生，能请您做我们的会话老师吗？"
+          },
+          {
+            "speaker": "ミラー",
+            "ja": "え？先生に？うーん、ちょっと仕事が……。",
+            "zh": "诶？做老师？嗯，工作有点……"
+          },
+          {
+            "speaker": "小川幸子",
+            "ja": "お暇なとき、お茶でも飲みながら……。",
+            "zh": "您有空的时候，一边喝茶一边……"
+          },
+          {
+            "speaker": "ミラー",
+            "ja": "うーん、出張も多いし、もうすぐ日本語の試験もあるし……。",
+            "zh": "嗯，我出差也多，而且马上还有日语考试……"
+          },
+          {
+            "speaker": "小川幸子",
+            "ja": "そうですか。",
+            "zh": "这样啊。"
+          },
+          {
+            "speaker": "ミラー",
+            "ja": "すみません。",
+            "zh": "不好意思。"
+          }
+        ]
+      }
+    ]
+  },
+  "29": {
+    "examples": [
+      {
+        "id": "L29-P1",
+        "kind": "pattern",
+        "title": "文型 1",
+        "ja": "窓が閉まっています。",
+        "zh": "窗户关着。"
+      },
+      {
+        "id": "L29-P2",
+        "kind": "pattern",
+        "title": "文型 2",
+        "ja": "電車に傘を忘れてしまいました。",
+        "zh": "把伞忘在电车上了。"
+      },
+      {
+        "id": "L29-E1",
+        "kind": "example",
+        "title": "例文 1",
+        "ja": "会議室のかぎが掛かっていますね。……じゃ、渡辺さんに言って、開けてもらいましょう。",
+        "zh": "会议室的钥匙锁着呢。……那请渡边先生帮我们打开吧。"
+      },
+      {
+        "id": "L29-E2",
+        "kind": "example",
+        "title": "例文 2",
+        "ja": "このパソコン、使ってもいいですか。……それは故障していますから、あちらのを使ってください。",
+        "zh": "这台电脑可以用吗？……那台坏了，请用那边的。"
+      },
+      {
+        "id": "L29-E3",
+        "kind": "example",
+        "title": "例文 3",
+        "ja": "シュミットさんが持って来たワインはどこですか。……みんなで飲んでしまいました。",
+        "zh": "施密特先生带来的葡萄酒在哪里？……大家都喝完了。"
+      },
+      {
+        "id": "L29-E4",
+        "kind": "example",
+        "title": "例文 4",
+        "ja": "いっしょに帰りませんか。……すみません。このメールを書いてしまいますから、お先にどうぞ。",
+        "zh": "一起回去吗？……不好意思。我把这封邮件写完，你先走吧。"
+      },
+      {
+        "id": "L29-E5",
+        "kind": "example",
+        "title": "例文 5",
+        "ja": "約束の時間に間に合いましたか。……いいえ、遅れてしまいました。道を間違えたんです。",
+        "zh": "赶上约定时间了吗？……没有，迟到了。我走错路了。"
+      },
+      {
+        "id": "L29-E6",
+        "kind": "example",
+        "title": "例文 6",
+        "ja": "どうしたんですか。……タクシーに荷物を忘れてしまったんです。",
+        "zh": "怎么了？……我把行李忘在出租车上了。"
+      }
+    ],
+    "texts": [
+      {
+        "id": "L29-T1",
+        "title": "忘れ物をしてしまったんです",
+        "subtitle": "会話",
+        "lines": [
+          {
+            "speaker": "イー",
+            "ja": "すみません。今の電車に忘れ物をしてしまったんですが……。",
+            "zh": "不好意思。我把东西忘在刚才那趟电车上了……"
+          },
+          {
+            "speaker": "駅員",
+            "ja": "何を忘れたんですか。",
+            "zh": "忘了什么？"
+          },
+          {
+            "speaker": "イー",
+            "ja": "青いかばんです。このくらいの……。外側に大きいポケットが付いています。",
+            "zh": "蓝色包。大概这么大……外侧有一个大口袋。"
+          },
+          {
+            "speaker": "駅員",
+            "ja": "どの辺に置きましたか。",
+            "zh": "放在什么地方？"
+          },
+          {
+            "speaker": "イー",
+            "ja": "よく覚えていません。でも、網棚の上に置きました。",
+            "zh": "记不太清了。不过放在行李架上了。"
+          },
+          {
+            "speaker": "駅員",
+            "ja": "中に何が入っていますか。",
+            "zh": "里面有什么？"
+          },
+          {
+            "speaker": "イー",
+            "ja": "えーと、確か、本と傘が入っています。",
+            "zh": "嗯，我记得有书和伞。"
+          },
+          {
+            "speaker": "駅員",
+            "ja": "じゃ、調べますから、ちょっと待っていてください。",
+            "zh": "那么我查一下，请稍等。"
+          },
+          {
+            "speaker": "駅員",
+            "ja": "ありましたよ。",
+            "zh": "找到了。"
+          },
+          {
+            "speaker": "イー",
+            "ja": "ああ、よかった。",
+            "zh": "啊，太好了。"
+          },
+          {
+            "speaker": "駅員",
+            "ja": "今新宿駅にありますが、どうしますか。",
+            "zh": "现在在新宿站，您怎么办？"
+          },
+          {
+            "speaker": "イー",
+            "ja": "すぐ取りに行きます。",
+            "zh": "我马上去取。"
+          },
+          {
+            "speaker": "駅員",
+            "ja": "じゃ、新宿駅の事務所に行ってください。",
+            "zh": "那么请去新宿站的事务所。"
+          },
+          {
+            "speaker": "イー",
+            "ja": "はい。どうもありがとうございました。",
+            "zh": "好的。非常感谢。"
+          }
+        ]
+      }
+    ]
+  },
+  "30": {
+    "examples": [
+      {
+        "id": "L30-P1",
+        "kind": "pattern",
+        "title": "文型 1",
+        "ja": "交番に町の地図が貼ってあります。",
+        "zh": "派出所贴着城市地图。"
+      },
+      {
+        "id": "L30-P2",
+        "kind": "pattern",
+        "title": "文型 2",
+        "ja": "旅行の前に、インターネットでいろいろ調べておきます。",
+        "zh": "旅行前，先在网上查好各种信息。"
+      },
+      {
+        "id": "L30-E1",
+        "kind": "example",
+        "title": "例文 1",
+        "ja": "駅の新しいトイレ、おもしろいですね。……え？そうですか。壁に花や動物の絵がかいてあるんです。",
+        "zh": "车站的新厕所很有意思呢。……诶？是吗？墙上画着花和动物的图画。"
+      },
+      {
+        "id": "L30-E2",
+        "kind": "example",
+        "title": "例文 2",
+        "ja": "セロテープはどこですか。……あの引き出しにしまってありますよ。",
+        "zh": "透明胶带在哪里？……收在那个抽屉里。"
+      },
+      {
+        "id": "L30-E3",
+        "kind": "example",
+        "title": "例文 3",
+        "ja": "来月の出張ですが、ホテルを予約しておきましょうか。……ええ、お願いします。",
+        "zh": "下个月的出差，要先订好酒店吗？……好的，拜托了。"
+      },
+      {
+        "id": "L30-E4",
+        "kind": "example",
+        "title": "例文 4",
+        "ja": "はさみを使ったら、元の所に戻しておいてください。……はい、わかりました。",
+        "zh": "用完剪刀后，请放回原处。……好的，明白了。"
+      },
+      {
+        "id": "L30-E5",
+        "kind": "example",
+        "title": "例文 5",
+        "ja": "資料を片づけてもいいですか。……いいえ、そのままにしておいてください。まだ使っていますから。",
+        "zh": "可以把资料收拾掉吗？……不，请保持原样。因为还在用。"
+      }
+    ],
+    "texts": [
+      {
+        "id": "L30-T1",
+        "title": "非常袋を準備しておかないと",
+        "subtitle": "会話",
+        "lines": [
+          {
+            "speaker": "ミラー",
+            "ja": "こんにちは。",
+            "zh": "你好。"
+          },
+          {
+            "speaker": "鈴木",
+            "ja": "いらっしゃい。さあ、どうぞ。",
+            "zh": "欢迎。来，请进。"
+          },
+          {
+            "speaker": "ミラー",
+            "ja": "大きいリュックが置いてありますね。山へ行くんですか。",
+            "zh": "放着一个大背包呢。要去爬山吗？"
+          },
+          {
+            "speaker": "鈴木",
+            "ja": "いいえ。非常袋ですよ。",
+            "zh": "不是。是应急包。"
+          },
+          {
+            "speaker": "ミラー",
+            "ja": "非常袋？何ですか。",
+            "zh": "应急包？是什么？"
+          },
+          {
+            "speaker": "鈴木",
+            "ja": "非常時に使う物を入れておく袋です。電気やガスが止まっても、3日ぐらい生活できる物が入れてあるんです。",
+            "zh": "是放紧急时使用物品的袋子。即使停电停气，里面也放着能生活大约三天的东西。"
+          },
+          {
+            "speaker": "ミラー",
+            "ja": "水や食べ物ですか。",
+            "zh": "是水和食物吗？"
+          },
+          {
+            "speaker": "鈴木",
+            "ja": "ええ、ほかにもいろいろありますよ。懐中電灯とか、ラジオとか……。",
+            "zh": "是的，还有很多其他东西。比如手电筒、收音机……"
+          },
+          {
+            "speaker": "ミラー",
+            "ja": "わたしも準備しておかないと。",
+            "zh": "我也得先准备好。"
+          },
+          {
+            "speaker": "鈴木",
+            "ja": "非常袋はスーパーでも売っていますよ。",
+            "zh": "应急包在超市也有卖。"
+          },
+          {
+            "speaker": "ミラー",
+            "ja": "そうですか。じゃ、買っておきます。",
+            "zh": "是吗？那我先买好。"
+          }
+        ]
+      }
+    ]
+  },
+  "31": {
+    "examples": [
+      {
+        "id": "L31-P1",
+        "kind": "pattern",
+        "title": "文型 1",
+        "ja": "いっしょに行こう。",
+        "zh": "一起去吧。"
+      },
+      {
+        "id": "L31-P2",
+        "kind": "pattern",
+        "title": "文型 2",
+        "ja": "将来自分の会社を作ろうと思っています。",
+        "zh": "将来我想开自己的公司。"
+      },
+      {
+        "id": "L31-P3",
+        "kind": "pattern",
+        "title": "文型 3",
+        "ja": "来月車を買うつもりです。",
+        "zh": "下个月打算买车。"
+      },
+      {
+        "id": "L31-E1",
+        "kind": "example",
+        "title": "例文 1",
+        "ja": "疲れたね。ちょっと休まない？……うん、そうしよう。",
+        "zh": "累了吧。稍微休息一下？……嗯，就这么办。"
+      },
+      {
+        "id": "L31-E2",
+        "kind": "example",
+        "title": "例文 2",
+        "ja": "お正月は何をしますか。……家族と温泉に行こうと思っています。",
+        "zh": "正月做什么？……打算和家人去泡温泉。"
+      },
+      {
+        "id": "L31-E3",
+        "kind": "example",
+        "title": "例文 3",
+        "ja": "レポートはもうできましたか。……いいえ、まだ書いていません。金曜日までにまとめようと思っています。",
+        "zh": "报告写好了吗？……没有，还没写。打算周五之前整理好。"
+      },
+      {
+        "id": "L31-E4",
+        "kind": "example",
+        "title": "例文 4",
+        "ja": "国へ帰っても、日本語の勉強を続けますか。……はい、続けるつもりです。",
+        "zh": "即使回国也继续学习日语吗？……是的，打算继续。"
+      },
+      {
+        "id": "L31-E5",
+        "kind": "example",
+        "title": "例文 5",
+        "ja": "夏休みは国へ帰らないんですか。……ええ。大学院の試験を受けますから、ことしは帰らないつもりです。",
+        "zh": "暑假不回国吗？……嗯。因为要参加研究生院的考试，今年打算不回去了。"
+      },
+      {
+        "id": "L31-E6",
+        "kind": "example",
+        "title": "例文 6",
+        "ja": "あしたからニューヨークへ出張します。……そうですか。いつ帰りますか。……来週の金曜日に帰る予定です。",
+        "zh": "明天起去纽约出差。……这样啊，什么时候回来？……预定下周五回来。"
+      }
+    ],
+    "texts": [
+      {
+        "id": "L31-T1",
+        "title": "料理を習おうと思っています",
+        "subtitle": "会話",
+        "lines": [
+          {
+            "speaker": "小川",
+            "ja": "来月から独身です。",
+            "zh": "下个月起我就单身了。"
+          },
+          {
+            "speaker": "ミラー",
+            "ja": "えっ？",
+            "zh": "诶？"
+          },
+          {
+            "speaker": "小川",
+            "ja": "実は大阪の本社に転勤なんです。",
+            "zh": "其实是要调到大阪的总公司。"
+          },
+          {
+            "speaker": "ミラー",
+            "ja": "本社ですか。それはおめでとうございます。でも、どうして独身になるんですか。",
+            "zh": "总公司啊。那恭喜您。可是，为什么会变成单身呢？"
+          },
+          {
+            "speaker": "小川",
+            "ja": "妻と子どもは東京に残るんです。",
+            "zh": "妻子和孩子留在东京。"
+          },
+          {
+            "speaker": "ミラー",
+            "ja": "えっ、いっしょに行かないんですか。",
+            "zh": "诶，不一起去吗？"
+          },
+          {
+            "speaker": "小川",
+            "ja": "ええ。息子は来年大学の入学試験があるから、東京に残ると言うし、妻も今の会社をやめたくないと言うんです。",
+            "zh": "嗯。儿子明年有大学入学考试，说要留在东京，妻子也说不想辞掉现在的工作。"
+          },
+          {
+            "speaker": "ミラー",
+            "ja": "それで、別々に住むんですね。",
+            "zh": "所以就分开住了。"
+          },
+          {
+            "speaker": "小川",
+            "ja": "ええ。でも、月に2、3回週末に帰るつもりです。",
+            "zh": "是的。不过打算每个月周末回来两三次。"
+          },
+          {
+            "speaker": "ミラー",
+            "ja": "大変ですね。",
+            "zh": "真辛苦啊。"
+          },
+          {
+            "speaker": "小川",
+            "ja": "でも、いいチャンスですから、料理を習おうと思っています。",
+            "zh": "不过是个好机会，我打算学做菜。"
+          },
+          {
+            "speaker": "ミラー",
+            "ja": "それはいいですね。",
+            "zh": "那不错呢。"
+          }
+        ]
+      }
+    ]
+  },
+  "32": {
+    "examples": [
+      {
+        "id": "L32-P1",
+        "kind": "pattern",
+        "title": "文型 1",
+        "ja": "毎日運動したほうがいいです。",
+        "zh": "最好每天运动。"
+      },
+      {
+        "id": "L32-P2",
+        "kind": "pattern",
+        "title": "文型 2",
+        "ja": "あしたは雪が降るでしょう。",
+        "zh": "明天会下雪吧。"
+      },
+      {
+        "id": "L32-P3",
+        "kind": "pattern",
+        "title": "文型 3",
+        "ja": "約束の時間に間に合わないかもしれません。",
+        "zh": "或许赶不上约定的时间了。"
+      },
+      {
+        "id": "L32-E1",
+        "kind": "example",
+        "title": "例文 1",
+        "ja": "学生のアルバイトについてどう思いますか。……いいと思いますよ。若いときは、いろいろな経験をしたほうがいいですから。",
+        "zh": "你怎么看学生打工？……我觉得挺好的。因为年轻时多积累各种经验比较好。"
+      },
+      {
+        "id": "L32-E2",
+        "kind": "example",
+        "title": "例文 2",
+        "ja": "1か月ぐらいヨーロッパへ遊びに行きたいんですが、40万円で足りますか。……十分だと思います。でも、現金で持って行かないほうがいいですよ。",
+        "zh": "我想去欧洲玩一个月左右，40万日元够吗？……我觉得足够。不过最好别带现金去。"
+      },
+      {
+        "id": "L32-E3",
+        "kind": "example",
+        "title": "例文 3",
+        "ja": "先生、日本の経済はどうなるでしょうか。……そうですね。まだしばらくよくならないでしょう。",
+        "zh": "老师，日本的经济会怎么样呢？……嗯，暂时还不会好转吧。"
+      },
+      {
+        "id": "L32-E4",
+        "kind": "example",
+        "title": "例文 4",
+        "ja": "先生、ハンスはインフルエンザですか。……はい、インフルエンザです。2、3日高い熱が続くかもしれませんが、心配しなくてもいいですよ。",
+        "zh": "医生，汉斯是流感吗？……是的，是流感。可能会连续两三天发高烧，不过不用担心。"
+      },
+      {
+        "id": "L32-E5",
+        "kind": "example",
+        "title": "例文 5",
+        "ja": "エンジンの音がおかしいですね。……そうですね。故障かもしれません。ちょっと調べましょう。",
+        "zh": "发动机的声音有点怪。……是啊，也许是出故障了。我们来检查一下吧。"
+      }
+    ],
+    "texts": [
+      {
+        "id": "L32-T1",
+        "title": "無理をしないほうがいいですよ",
+        "subtitle": "会話",
+        "lines": [
+          {
+            "speaker": "小川",
+            "ja": "シュミットさん、元気がありませんね。どうしたんですか。",
+            "zh": "施密特先生，您没什么精神啊。怎么了？"
+          },
+          {
+            "speaker": "シュミット",
+            "ja": "最近体の調子がよくないんです。時々頭や胃が痛くなるんですよ。",
+            "zh": "最近身体不太舒服。有时头和胃会疼。"
+          },
+          {
+            "speaker": "小川",
+            "ja": "それはいけませんね。仕事が忙しいんですか。",
+            "zh": "那可不好。工作忙吗？"
+          },
+          {
+            "speaker": "シュミット",
+            "ja": "ええ。残業が多いんです。",
+            "zh": "是的，加班很多。"
+          },
+          {
+            "speaker": "小川",
+            "ja": "ストレスかもしれませんね。一度病院で診てもらったほうがいいですよ。",
+            "zh": "也许是压力吧。最好去医院看一次。"
+          },
+          {
+            "speaker": "シュミット",
+            "ja": "ええ、そうですね。",
+            "zh": "嗯，是啊。"
+          },
+          {
+            "speaker": "小川",
+            "ja": "無理をしないほうがいいですよ。",
+            "zh": "别硬撑比较好。"
+          },
+          {
+            "speaker": "シュミット",
+            "ja": "ええ、今の仕事が終わったら、休みを取ろうと思っています。",
+            "zh": "嗯，等现在的工作结束了，我打算休假。"
+          },
+          {
+            "speaker": "小川",
+            "ja": "それはいいですね。",
+            "zh": "那不错。"
+          }
+        ]
+      }
+    ]
+  },
+  "33": {
+    "examples": [
+      {
+        "id": "L33-P1",
+        "kind": "pattern",
+        "title": "文型 1",
+        "ja": "急げ。",
+        "zh": "快点！"
+      },
+      {
+        "id": "L33-P2",
+        "kind": "pattern",
+        "title": "文型 2",
+        "ja": "触るな。",
+        "zh": "别碰！"
+      },
+      {
+        "id": "L33-P3",
+        "kind": "pattern",
+        "title": "文型 3",
+        "ja": "立入禁止は入るなという意味です。",
+        "zh": "“立入禁止”是别进去的意思。"
+      },
+      {
+        "id": "L33-P4",
+        "kind": "pattern",
+        "title": "文型 4",
+        "ja": "ミラーさんは来週大阪へ出張すると言っていました。",
+        "zh": "米勒先生说下周去大阪出差。"
+      },
+      {
+        "id": "L33-E1",
+        "kind": "example",
+        "title": "例文 1",
+        "ja": "だめだ。もう走れない。……頑張れ。あと500メートルだ。",
+        "zh": "不行了，跑不动了。……加油！还有500米。"
+      },
+      {
+        "id": "L33-E2",
+        "kind": "example",
+        "title": "例文 2",
+        "ja": "もう時間がない。……まだ1分ある。あきらめるな。",
+        "zh": "已经没时间了。……还有一分钟，别放弃。"
+      },
+      {
+        "id": "L33-E3",
+        "kind": "example",
+        "title": "例文 3",
+        "ja": "この池で遊んではいけません。あそこに「入るな」と書いてありますよ。……あ、ほんとうだ。",
+        "zh": "不可以在这个池子里玩。那里写着“别进去”。……啊，真的。"
+      },
+      {
+        "id": "L33-E4",
+        "kind": "example",
+        "title": "例文 4",
+        "ja": "あの漢字は何と読むんですか。……「きんえん」です。たばこを吸ってはいけないという意味です。",
+        "zh": "那个汉字念什么？……念“禁烟”。是不许抽烟的意思。"
+      },
+      {
+        "id": "L33-E5",
+        "kind": "example",
+        "title": "例文 5",
+        "ja": "このマークはどういう意味ですか。……洗濯機で洗えるという意味です。",
+        "zh": "这个标志是什么意思？……是可以用洗衣机洗的意思。"
+      },
+      {
+        "id": "L33-E6",
+        "kind": "example",
+        "title": "例文 6",
+        "ja": "グプタさんはいますか。……今出かけています。30分ぐらいで戻ると言っていました。",
+        "zh": "古普塔先生在吗？……现在出去了。他说30分钟左右回来。"
+      },
+      {
+        "id": "L33-E7",
+        "kind": "example",
+        "title": "例文 7",
+        "ja": "すみませんが、渡辺さんにあしたのパーティーは6時からだと伝えていただけませんか。……わかりました。6時からですね。",
+        "zh": "不好意思，能转告渡边小姐明天的晚会从6点开始吗？……好的，从6点开始对吧。"
+      }
+    ],
+    "texts": [
+      {
+        "id": "L33-T1",
+        "title": "これはどういう意味ですか",
+        "subtitle": "会話",
+        "lines": [
+          {
+            "speaker": "ワット",
+            "ja": "すみません。わたしの車にこんな紙がはってあったんですが、この漢字は何と読むんですか。",
+            "zh": "请问，我的车上贴着这样一张纸，这个汉字念什么？"
+          },
+          {
+            "speaker": "大学職員",
+            "ja": "「ちゅうしゃいはん」です。",
+            "zh": "是“违章停车”。"
+          },
+          {
+            "speaker": "ワット",
+            "ja": "ちゅうしゃいはん……、どういう意味ですか。",
+            "zh": "违章停车……是什么意思？"
+          },
+          {
+            "speaker": "大学職員",
+            "ja": "止めてはいけない場所に車を止めたという意味です。どこに止めたんですか。",
+            "zh": "是把车停在了不许停车的地方的意思。您停在哪里了？"
+          },
+          {
+            "speaker": "ワット",
+            "ja": "駅の前です。雑誌を買いに行って、10分だけ……。",
+            "zh": "车站前面。去买杂志，只停了10分钟……"
+          },
+          {
+            "speaker": "大学職員",
+            "ja": "駅の前だったら、10分でもだめですよ。",
+            "zh": "如果是车站前面，10分钟也不行。"
+          },
+          {
+            "speaker": "ワット",
+            "ja": "そうですか。罰金を払わなければなりませんか。",
+            "zh": "这样啊。必须交罚款吗？"
+          },
+          {
+            "speaker": "大学職員",
+            "ja": "ええ、15,000円払わないといけません。",
+            "zh": "是的，得交15,000日元。"
+          },
+          {
+            "speaker": "ワット",
+            "ja": "えっ。15,000円ですか。雑誌は300円だったんですけど……。",
+            "zh": "诶，15,000日元？杂志才300日元……"
+          }
+        ]
+      }
+    ]
+  },
+  "34": {
+    "examples": [
+      {
+        "id": "L34-P1",
+        "kind": "pattern",
+        "title": "文型 1",
+        "ja": "先生が言ったとおりに、書きます。",
+        "zh": "照老师说的写。"
+      },
+      {
+        "id": "L34-P2",
+        "kind": "pattern",
+        "title": "文型 2",
+        "ja": "ごはんを食べたあとで、歯を磨きます。",
+        "zh": "吃完饭后刷牙。"
+      },
+      {
+        "id": "L34-P3",
+        "kind": "pattern",
+        "title": "文型 3",
+        "ja": "コーヒーは砂糖を入れないで飲みます。",
+        "zh": "咖啡不加糖喝。"
+      },
+      {
+        "id": "L34-E1",
+        "kind": "example",
+        "title": "例文 1",
+        "ja": "これは新しいロボットです。……どんなロボットですか。……人がしたとおりに、何でもするんです。",
+        "zh": "这是新的机器人。……什么样的机器人？……会照着人做的样子，什么都做。"
+      },
+      {
+        "id": "L34-E2",
+        "kind": "example",
+        "title": "例文 2",
+        "ja": "このテーブルは自分で組み立てるんですか。……ええ、説明書のとおりに、組み立ててください。",
+        "zh": "这张桌子要自己组装吗？……是的，请按照说明书组装。"
+      },
+      {
+        "id": "L34-E3",
+        "kind": "example",
+        "title": "例文 3",
+        "ja": "ちょっと待ってください。しょうゆは砂糖を入れたあとで、入れるんですよ。……はい、わかりました。",
+        "zh": "请等一下。酱油要在放糖之后再放。……好的，明白了。"
+      },
+      {
+        "id": "L34-E4",
+        "kind": "example",
+        "title": "例文 4",
+        "ja": "仕事のあとで、飲みに行きませんか。……すみません。きょうはスポーツクラブへ行く日なんです。",
+        "zh": "下班后去喝一杯吗？……不好意思，今天是去健身俱乐部的日子。"
+      },
+      {
+        "id": "L34-E5",
+        "kind": "example",
+        "title": "例文 5",
+        "ja": "友達の結婚式に何を着て行ったらいいですか。……そうですね。日本では男の人は黒か紺のスーツを着て、白いネクタイをして行きます。",
+        "zh": "去朋友的婚礼该穿什么好？……嗯，在日本男士穿黑色或深蓝色西装，系白色领带去。"
+      },
+      {
+        "id": "L34-E6",
+        "kind": "example",
+        "title": "例文 6",
+        "ja": "これはソースをつけるんですか。……いいえ、何もつけないで食べてください。",
+        "zh": "这个要蘸沙司吗？……不，请什么都不蘸直接吃。"
+      },
+      {
+        "id": "L34-E7",
+        "kind": "example",
+        "title": "例文 7",
+        "ja": "最近エレベーターに乗らないで、階段を使っているんです。……いい運動になりますね。",
+        "zh": "最近我不坐电梯，走楼梯。……那是很好的运动呢。"
+      }
+    ],
+    "texts": [
+      {
+        "id": "L34-T1",
+        "title": "わたしがしたとおりに、してください",
+        "subtitle": "会話",
+        "lines": [
+          {
+            "speaker": "クララ",
+            "ja": "一度茶道が見たいんですが……。",
+            "zh": "我想看一次茶道……"
+          },
+          {
+            "speaker": "渡辺",
+            "ja": "じゃ、来週の土曜日いっしょに行きませんか。",
+            "zh": "那下周六一起去吧？"
+          },
+          {
+            "speaker": "お茶の先生",
+            "ja": "渡辺さん、お茶をたててください。クララさん、お菓子をどうぞ。",
+            "zh": "渡边先生，请沏茶。克拉拉小姐，请用点心。"
+          },
+          {
+            "speaker": "クララ",
+            "ja": "えっ、先にお菓子を食べるんですか。",
+            "zh": "诶，先吃点心吗？"
+          },
+          {
+            "speaker": "お茶の先生",
+            "ja": "ええ。甘いお菓子を食べたあとで、お茶を飲むと、おいしいんですよ。",
+            "zh": "是的。吃了甜点心之后再喝茶，会很好喝。"
+          },
+          {
+            "speaker": "クララ",
+            "ja": "そうですか。",
+            "zh": "这样啊。"
+          },
+          {
+            "speaker": "お茶の先生",
+            "ja": "では、お茶を飲みましょう。まず右手でおちゃわんを取って、左手に載せます。次におちゃわんを2回回して、それから飲みます。",
+            "zh": "那么，我们喝茶吧。先用右手拿起茶碗，放在左手上。然后把茶碗转两圈，再喝。"
+          },
+          {
+            "speaker": "クララ",
+            "ja": "はい。",
+            "zh": "好的。"
+          },
+          {
+            "speaker": "お茶の先生",
+            "ja": "じゃ、わたしがしたとおりに、してください。",
+            "zh": "那么，请照我做的样子做。"
+          },
+          {
+            "speaker": "クララ",
+            "ja": "これでいいですか。",
+            "zh": "这样可以吗？"
+          },
+          {
+            "speaker": "お茶の先生",
+            "ja": "はい。いかがですか。",
+            "zh": "可以。怎么样？"
+          },
+          {
+            "speaker": "クララ",
+            "ja": "少し苦いですが、おいしいです。",
+            "zh": "有点苦，但很好喝。"
+          }
+        ]
+      }
+    ]
+  },
+  "35": {
+    "examples": [
+      {
+        "id": "L35-P1",
+        "kind": "pattern",
+        "title": "文型 1",
+        "ja": "春になれば、桜が咲きます。",
+        "zh": "到了春天樱花就会开。"
+      },
+      {
+        "id": "L35-P2",
+        "kind": "pattern",
+        "title": "文型 2",
+        "ja": "天気がよければ、向こうに島が見えます。",
+        "zh": "天气好的话，能看见对面的岛。"
+      },
+      {
+        "id": "L35-P3",
+        "kind": "pattern",
+        "title": "文型 3",
+        "ja": "北海道旅行なら、6月がいいです。",
+        "zh": "要说北海道旅行，6月最好。"
+      },
+      {
+        "id": "L35-E1",
+        "kind": "example",
+        "title": "例文 1",
+        "ja": "車の窓が開かないんですが……。……そのボタンを押せば、開きますよ。",
+        "zh": "车窗打不开……。……按一下那个按钮就会开。"
+      },
+      {
+        "id": "L35-E2",
+        "kind": "example",
+        "title": "例文 2",
+        "ja": "ほかに意見がありますか。……いいえ、特にありません。……なければ、これで終わりましょう。",
+        "zh": "还有其他意见吗？……没有，没什么特别的。……没有的话，就到此结束吧。"
+      },
+      {
+        "id": "L35-E3",
+        "kind": "example",
+        "title": "例文 3",
+        "ja": "日本の生活はどうですか。……とても便利です。でも、もう少し物価が安ければ、もっといいと思います。",
+        "zh": "日本的生活怎么样？……很方便。不过物价要是再便宜点就更好了。"
+      },
+      {
+        "id": "L35-E4",
+        "kind": "example",
+        "title": "例文 4",
+        "ja": "あしたまでにレポートを出さなければなりませんか。……無理なら、金曜日までに出してください。",
+        "zh": "报告必须明天之前交吗？……如果有困难，周五之前交也行。"
+      },
+      {
+        "id": "L35-E5",
+        "kind": "example",
+        "title": "例文 5",
+        "ja": "本を借りたいんですが、どうすればいいですか。……受付でカードを作ってもらってください。",
+        "zh": "我想借书，怎么做好呢？……请在服务台办张卡。"
+      },
+      {
+        "id": "L35-E6",
+        "kind": "example",
+        "title": "例文 6",
+        "ja": "2、3日旅行をしようと思っているんですが、どこかいい所はありませんか。……そうですね。2、3日なら、箱根か日光がいいと思います。",
+        "zh": "我想去旅行两三天，有什么好地方吗？……嗯，两三天的话，我觉得箱根或日光不错。"
+      }
+    ],
+    "texts": [
+      {
+        "id": "L35-T1",
+        "title": "どこかいい所、ありませんか",
+        "subtitle": "会話",
+        "lines": [
+          {
+            "speaker": "タワポン",
+            "ja": "鈴木さん、冬休みに友達とスキーに行きたいんですが、どこかいい所、ありませんか。",
+            "zh": "铃木先生，寒假我想和朋友去滑雪，有什么好地方吗？"
+          },
+          {
+            "speaker": "鈴木",
+            "ja": "何日ぐらいの予定ですか。",
+            "zh": "打算去几天？"
+          },
+          {
+            "speaker": "タワポン",
+            "ja": "3日ぐらいです。",
+            "zh": "三天左右。"
+          },
+          {
+            "speaker": "鈴木",
+            "ja": "それなら、草津か志賀高原がいいと思いますよ。温泉もあるし……。",
+            "zh": "那样的话，我觉得草津或志贺高原不错。还有温泉……"
+          },
+          {
+            "speaker": "タワポン",
+            "ja": "どうやって行くんですか。",
+            "zh": "怎么去呢？"
+          },
+          {
+            "speaker": "鈴木",
+            "ja": "JRでも行けますが、夜行バスなら、朝着きますから、便利ですよ。",
+            "zh": "坐JR也能去，不过坐夜行巴士早上就到，很方便。"
+          },
+          {
+            "speaker": "タワポン",
+            "ja": "そうですか。どちらが安いんですか。",
+            "zh": "这样啊。哪个便宜？"
+          },
+          {
+            "speaker": "鈴木",
+            "ja": "さあ……。旅行社へ行けばもっと詳しいことがわかりますよ。",
+            "zh": "这个嘛……去旅行社的话就能知道更详细的情况。"
+          },
+          {
+            "speaker": "タワポン",
+            "ja": "それからスキーの道具や服は何も持っていないんですが……。",
+            "zh": "还有，滑雪的工具和衣服我什么都没有……"
+          },
+          {
+            "speaker": "鈴木",
+            "ja": "全部スキー場で借りられますよ。心配なら、旅行社で予約もできるし……。",
+            "zh": "都可以在滑雪场租。担心的话，也可以在旅行社预约……"
+          },
+          {
+            "speaker": "タワポン",
+            "ja": "そうですか。どうもありがとうございました。",
+            "zh": "这样啊。非常感谢。"
+          }
+        ]
+      }
+    ]
+  },
+  "36": {
+    "examples": [
+      {
+        "id": "L36-P1",
+        "kind": "pattern",
+        "title": "文型 1",
+        "ja": "速く泳げるように、毎日練習しています。",
+        "zh": "为了能游得快，每天都在练习。"
+      },
+      {
+        "id": "L36-P2",
+        "kind": "pattern",
+        "title": "文型 2",
+        "ja": "やっと自転車に乗れるようになりました。",
+        "zh": "终于会骑自行车了。"
+      },
+      {
+        "id": "L36-P3",
+        "kind": "pattern",
+        "title": "文型 3",
+        "ja": "毎日日記を書くようにしています。",
+        "zh": "我坚持每天写日记。"
+      },
+      {
+        "id": "L36-E1",
+        "kind": "example",
+        "title": "例文 1",
+        "ja": "それは電子辞書ですか。……ええ。知らないことばがあったら、すぐ調べられるように、持っているんです。",
+        "zh": "那是电子词典吗？……是的。为了遇到不认识的词能马上查，所以随身带着。"
+      },
+      {
+        "id": "L36-E2",
+        "kind": "example",
+        "title": "例文 2",
+        "ja": "カレンダーの赤い丸はどういう意味ですか。……ごみの日です。忘れないように、付けてあるんです。",
+        "zh": "日历上的红圈是什么意思？……是扔垃圾的日子。为了不忘记，特意画上的。"
+      },
+      {
+        "id": "L36-E3",
+        "kind": "example",
+        "title": "例文 3",
+        "ja": "もう日本の食べ物に慣れましたか。……はい。初めは食べられませんでしたが、今は何でも食べられるようになりました。",
+        "zh": "已经习惯日本的食物了吗？……是的。起初吃不了，现在什么都能吃了。"
+      },
+      {
+        "id": "L36-E4",
+        "kind": "example",
+        "title": "例文 4",
+        "ja": "ショパンの曲が弾けるようになりましたか。……いいえ、まだ弾けません。早く弾けるようになりたいです。",
+        "zh": "会弹肖邦的曲子了吗？……不，还不会弹。想早点学会。"
+      },
+      {
+        "id": "L36-E5",
+        "kind": "example",
+        "title": "例文 5",
+        "ja": "新しい道ができましたね。……ええ。夫の田舎まで4時間で帰れるようになりました。",
+        "zh": "新路修好了呢。……是啊。现在4个小时就能回到丈夫的老家了。"
+      },
+      {
+        "id": "L36-E6",
+        "kind": "example",
+        "title": "例文 6",
+        "ja": "甘い物は食べないんですか。……ええ。できるだけ食べないようにしているんです。",
+        "zh": "你不吃甜食吗？……嗯。我尽量不吃。"
+      },
+      {
+        "id": "L36-E7",
+        "kind": "example",
+        "title": "例文 7",
+        "ja": "試験は9時からです。絶対に遅れないようにしてください。遅れたら、入れませんから。……はい、わかりました。",
+        "zh": "考试9点开始。请绝对不要迟到。迟到的话就不能进场了。……好的，明白了。"
+      }
+    ],
+    "texts": [
+      {
+        "id": "L36-T1",
+        "title": "毎日運動するようにしています",
+        "subtitle": "会話",
+        "lines": [
+          {
+            "speaker": "アナウンサー",
+            "ja": "皆さん、こんにちは。きょうのお客様はことし80歳の小川よねさんです。",
+            "zh": "大家好。今天的嘉宾是今年80岁的小川米女士。"
+          },
+          {
+            "speaker": "小川よね",
+            "ja": "こんにちは。",
+            "zh": "大家好。"
+          },
+          {
+            "speaker": "アナウンサー",
+            "ja": "お元気ですね。何か特別なことをしていらっしゃいますか。",
+            "zh": "您真精神啊。您在做什么特别的事情吗？"
+          },
+          {
+            "speaker": "小川よね",
+            "ja": "毎日運動するようにしています。",
+            "zh": "我坚持每天运动。"
+          },
+          {
+            "speaker": "アナウンサー",
+            "ja": "どんな運動ですか。",
+            "zh": "什么样的运动？"
+          },
+          {
+            "speaker": "小川よね",
+            "ja": "ダンスとか、水泳とか……。最近500メートル泳げるようになりました。",
+            "zh": "跳舞啦、游泳啦……最近能游500米了。"
+          },
+          {
+            "speaker": "アナウンサー",
+            "ja": "すごいですね。食べ物は？",
+            "zh": "真厉害。饮食方面呢？"
+          },
+          {
+            "speaker": "小川よね",
+            "ja": "何でも食べますが、特に魚が好きです。毎日違う料理を作るようにしています。",
+            "zh": "什么都吃，特别喜欢鱼。我坚持每天做不同的菜。"
+          },
+          {
+            "speaker": "アナウンサー",
+            "ja": "頭と体をよく使っていらっしゃるんですね。",
+            "zh": "您经常动脑又动身体啊。"
+          },
+          {
+            "speaker": "小川よね",
+            "ja": "ええ。来年フランスへ行きたいと思っています。それでフランス語の勉強も始めました。",
+            "zh": "是的。我想明年去法国。所以也开始学法语了。"
+          },
+          {
+            "speaker": "アナウンサー",
+            "ja": "何でもチャレンジする気持ちが大切なんですね。楽しいお話、どうもありがとうございました。",
+            "zh": "什么都敢于挑战的心态很重要啊。谢谢您带来的愉快谈话。"
+          }
+        ]
+      }
+    ]
+  },
+  "37": {
+    "examples": [
+      {
+        "id": "L37-P1",
+        "kind": "pattern",
+        "title": "文型 1",
+        "ja": "子どものとき、よく母にしかられました。",
+        "zh": "小时候，经常被妈妈批评。"
+      },
+      {
+        "id": "L37-P2",
+        "kind": "pattern",
+        "title": "文型 2",
+        "ja": "ラッシュの電車で足を踏まれました。",
+        "zh": "在高峰期的电车上被人踩了脚。"
+      },
+      {
+        "id": "L37-P3",
+        "kind": "pattern",
+        "title": "文型 3",
+        "ja": "法隆寺は607年に建てられました。",
+        "zh": "法隆寺建于607年。"
+      },
+      {
+        "id": "L37-E1",
+        "kind": "example",
+        "title": "例文 1",
+        "ja": "けさ部長に呼ばれました。……何かあったんですか。 出張のレポートの書き方について注意されました。",
+        "zh": "今天早上被部长叫去了。……出什么事了吗？ 关于出差报告的写法被提醒了。"
+      },
+      {
+        "id": "L37-E2",
+        "kind": "example",
+        "title": "例文 2",
+        "ja": "どうしたんですか。……だれかに傘をまちがえられたんです。",
+        "zh": "怎么了？……被人拿错了伞。"
+      },
+      {
+        "id": "L37-E3",
+        "kind": "example",
+        "title": "例文 3",
+        "ja": "また新しい星が発見されましたよ。……そうですか。",
+        "zh": "又发现新的星星了哦。……是吗。"
+      },
+      {
+        "id": "L37-E4",
+        "kind": "example",
+        "title": "例文 4",
+        "ja": "ことしの世界子ども会議はどこで開かれますか。……広島で開かれます。",
+        "zh": "今年的世界儿童会议在哪里召开？……在广岛召开。"
+      },
+      {
+        "id": "L37-E5",
+        "kind": "example",
+        "title": "例文 5",
+        "ja": "ビールは麦から造られます。これが原料の麦です。……これがビールになるんですね。",
+        "zh": "啤酒是用麦子酿造的。这就是原料麦子。……这个会变成啤酒啊。"
+      },
+      {
+        "id": "L37-E6",
+        "kind": "example",
+        "title": "例文 6",
+        "ja": "ブラジルでは何語が使われていますか。……ポルトガル語が使われています。",
+        "zh": "巴西使用什么语言？……使用葡萄牙语。"
+      }
+    ],
+    "texts": [
+      {
+        "id": "L37-T1",
+        "title": "金閣寺は14世紀に建てられました",
+        "subtitle": "会話",
+        "lines": [
+          {
+            "speaker": "ガイド",
+            "ja": "皆様、あちらが有名な金閣寺です。金閣寺は14世紀に建てられました。1950年に一度焼けてしまいましたが、その後新しい建物が建てられて、1994年に世界遺産になりました。京都で人気があるお寺の一つです。",
+            "zh": "各位，那边就是有名的金阁寺。金阁寺建于14世纪。1950年曾一度被烧毁，之后建造了新的建筑，并于1994年成为世界遗产。它是京都最受欢迎的寺庙之一。"
+          },
+          {
+            "speaker": "カリナ",
+            "ja": "きれいですね。壁が金色ですが、本物の金ですか。",
+            "zh": "真漂亮啊。墙壁是金色的，是真金吗？"
+          },
+          {
+            "speaker": "ガイド",
+            "ja": "はい。金が20キロぐらい使われました。",
+            "zh": "是的。使用了大约20公斤金子。"
+          },
+          {
+            "speaker": "カリナ",
+            "ja": "そうですか。あの中に入れますか。",
+            "zh": "是吗。可以进到那里面去吗？"
+          },
+          {
+            "speaker": "ガイド",
+            "ja": "中には入れないんです。池の周りを歩きながら見てください。",
+            "zh": "里面是不能进的。请一边绕着池塘走一边观赏。"
+          },
+          {
+            "speaker": "カリナ",
+            "ja": "紅葉がきれいですね。",
+            "zh": "红叶真美啊。"
+          },
+          {
+            "speaker": "ガイド",
+            "ja": "ええ。金閣寺は紅葉と雪の季節が特に美しいと言われています。",
+            "zh": "是的。据说金阁寺在红叶和雪的季节特别美。"
+          }
+        ]
+      }
+    ]
+  },
+  "38": {
+    "examples": [
+      {
+        "id": "L38-P1",
+        "kind": "pattern",
+        "title": "文型 1",
+        "ja": "絵をかくのは楽しいです。",
+        "zh": "画画很快乐。"
+      },
+      {
+        "id": "L38-P2",
+        "kind": "pattern",
+        "title": "文型 2",
+        "ja": "わたしは星を見るのが好きです。",
+        "zh": "我喜欢看星星。"
+      },
+      {
+        "id": "L38-P3",
+        "kind": "pattern",
+        "title": "文型 3",
+        "ja": "財布を持って来るのを忘れました。",
+        "zh": "忘了带钱包来。"
+      },
+      {
+        "id": "L38-P4",
+        "kind": "pattern",
+        "title": "文型 4",
+        "ja": "わたしが日本へ来たのは去年の3月です。",
+        "zh": "我来日本是去年3月。"
+      },
+      {
+        "id": "L38-E1",
+        "kind": "example",
+        "title": "例文 1",
+        "ja": "日記を続けていますか。……いいえ、3日でやめてしまいました。始めるのは簡単ですが、続けるのは難しいですね。",
+        "zh": "你还在坚持写日记吗？……没有，3天就放弃了。开始容易，坚持很难啊。"
+      },
+      {
+        "id": "L38-E2",
+        "kind": "example",
+        "title": "例文 2",
+        "ja": "きれいな庭ですね。……ありがとうございます。夫は花を育てるのが上手なんです。",
+        "zh": "真漂亮的院子啊。……谢谢。我丈夫很擅长养花。"
+      },
+      {
+        "id": "L38-E3",
+        "kind": "example",
+        "title": "例文 3",
+        "ja": "東京はどうですか。……人が多いですね。それにみんな歩くのが速いですね。",
+        "zh": "东京怎么样？……人很多啊。而且大家走路都很快。"
+      },
+      {
+        "id": "L38-E4",
+        "kind": "example",
+        "title": "例文 4",
+        "ja": "あ、いけない。……どうしたんですか。 車の窓を閉めるのを忘れました。",
+        "zh": "啊，糟了。……怎么了？ 忘了关车窗。"
+      },
+      {
+        "id": "L38-E5",
+        "kind": "example",
+        "title": "例文 5",
+        "ja": "宮崎さんに赤ちゃんが生まれたのを知っていますか。……いいえ、知りませんでした。いつですか。 1か月ぐらいまえです。",
+        "zh": "你知道宫崎生孩子了吗？……不，不知道。什么时候？ 大约一个月前。"
+      },
+      {
+        "id": "L38-E6",
+        "kind": "example",
+        "title": "例文 6",
+        "ja": "初めて好きになった人のことを覚えていますか。……ええ。彼女に初めて会ったのは小学校の教室です。彼女は音楽の先生でした。",
+        "zh": "还记得第一次喜欢上的人吗？……嗯。第一次见到她是在小学的教室。她是音乐老师。"
+      }
+    ],
+    "texts": [
+      {
+        "id": "L38-T1",
+        "title": "片づけるのが好きなんです",
+        "subtitle": "会話",
+        "lines": [
+          {
+            "speaker": "大学職員",
+            "ja": "ワット先生、回覧です。",
+            "zh": "瓦特老师，这是传阅文件。"
+          },
+          {
+            "speaker": "ワット",
+            "ja": "あ、すみません。そこに置いといてください。",
+            "zh": "啊，不好意思。请放在那里。"
+          },
+          {
+            "speaker": "大学職員",
+            "ja": "先生の研究室はいつもきれいですね。",
+            "zh": "老师的研究室总是很整洁啊。"
+          },
+          {
+            "speaker": "ワット",
+            "ja": "わたしは片づけるのが好きなんです。",
+            "zh": "我喜欢收拾。"
+          },
+          {
+            "speaker": "大学職員",
+            "ja": "本もきちんと並べてあるし……。整理するのが上手なんですね。",
+            "zh": "书也整整齐齐地摆着……。您很擅长整理啊。"
+          },
+          {
+            "speaker": "ワット",
+            "ja": "昔『上手な整理の方法』という本を書いたことがあるんです。",
+            "zh": "我以前写过一本叫《高明的整理方法》的书。"
+          },
+          {
+            "speaker": "大学職員",
+            "ja": "へえ、すごいですね。",
+            "zh": "哇，真厉害。"
+          },
+          {
+            "speaker": "ワット",
+            "ja": "あまり売れませんでしたけどね。よかったら、1冊持って来ましょうか。",
+            "zh": "不过卖得不太好。如果不介意的话，我带一本来吧？"
+          },
+          {
+            "speaker": "大学職員",
+            "ja": "おはようございます。",
+            "zh": "早上好。"
+          },
+          {
+            "speaker": "ワット",
+            "ja": "あ、本を持って来るのを忘れました。すみません。",
+            "zh": "啊，我忘了把书带来。对不起。"
+          },
+          {
+            "speaker": "大学職員",
+            "ja": "いいですよ。でも、回覧にはんこを押すのを忘れないでください。先月も押してありませんでしたよ。",
+            "zh": "没关系。不过，请别忘了在传阅文件上盖章。上个月也没盖哦。"
+          }
+        ]
+      }
+    ]
+  },
+  "39": {
+    "examples": [
+      {
+        "id": "L39-P1",
+        "kind": "pattern",
+        "title": "文型 1",
+        "ja": "ニュースを聞いて、びっくりしました。",
+        "zh": "听到新闻，吃了一惊。"
+      },
+      {
+        "id": "L39-P2",
+        "kind": "pattern",
+        "title": "文型 2",
+        "ja": "地震でビルが倒れました。",
+        "zh": "因为地震，大厦倒塌了。"
+      },
+      {
+        "id": "L39-P3",
+        "kind": "pattern",
+        "title": "文型 3",
+        "ja": "体の調子が悪いので、病院へ行きます。",
+        "zh": "因为身体不舒服，所以去医院。"
+      },
+      {
+        "id": "L39-E1",
+        "kind": "example",
+        "title": "例文 1",
+        "ja": "お見合いはどうでしたか。……写真を見たときは、すてきな人だと思いましたが、会って、がっかりしました。",
+        "zh": "相亲怎么样？……看照片的时候觉得是个很棒的人，见了面之后很失望。"
+      },
+      {
+        "id": "L39-E2",
+        "kind": "example",
+        "title": "例文 2",
+        "ja": "今度の土曜日にみんなでハイキングに行くんですが、いっしょに行きませんか。……すみません。土曜日はちょっと都合が悪くて、行けないんです。",
+        "zh": "这周六大家一起去远足，要不要一起去？……对不起。周六我不太方便，去不了。"
+      },
+      {
+        "id": "L39-E3",
+        "kind": "example",
+        "title": "例文 3",
+        "ja": "きのうの映画はどうでしたか。……話が複雑で、よくわかりませんでした。",
+        "zh": "昨天的电影怎么样？……故事情节很复杂，没太看懂。"
+      },
+      {
+        "id": "L39-E4",
+        "kind": "example",
+        "title": "例文 4",
+        "ja": "遅くなって、すみません。……どうしたんですか。 事故でバスが遅れたんです。",
+        "zh": "来晚了，对不起。……怎么了？ 因为事故，公交车晚点了。"
+      },
+      {
+        "id": "L39-E5",
+        "kind": "example",
+        "title": "例文 5",
+        "ja": "ちょっと飲みに行きませんか。……すみません。用事があるので、お先に失礼します。 そうですか。お疲れさまでした。",
+        "zh": "要不要去喝一杯？……对不起。因为有事，我先走了。 是吗。辛苦了。"
+      },
+      {
+        "id": "L39-E6",
+        "kind": "example",
+        "title": "例文 6",
+        "ja": "最近、布団で寝ているんですが、便利ですね。……ベッドはどうしたんですか。 部屋が狭くて、邪魔なので、友達にあげました。",
+        "zh": "最近我睡被褥，很方便啊。……床怎么了？ 房间很小，床碍事，所以送给朋友了。"
+      }
+    ],
+    "texts": [
+      {
+        "id": "L39-T1",
+        "title": "遅れて、すみません",
+        "subtitle": "会話",
+        "lines": [
+          {
+            "speaker": "ミラー",
+            "ja": "課長、遅れて、すみません。",
+            "zh": "科长，来晚了，对不起。"
+          },
+          {
+            "speaker": "中村課長",
+            "ja": "ミラーさん、どうしたんですか。",
+            "zh": "米勒，怎么了？"
+          },
+          {
+            "speaker": "ミラー",
+            "ja": "実は来る途中で事故があって、バスが遅れてしまったんです。",
+            "zh": "其实是来的路上出了事故，公交车晚点了。"
+          },
+          {
+            "speaker": "中村課長",
+            "ja": "バスの事故ですか。",
+            "zh": "是公交车的事故吗？"
+          },
+          {
+            "speaker": "ミラー",
+            "ja": "いいえ。交差点でトラックと車がぶつかって、バスが動かなかったんです。",
+            "zh": "不是。在十字路口卡车和汽车相撞，公交车动不了了。"
+          },
+          {
+            "speaker": "中村課長",
+            "ja": "それは大変でしたね。連絡がないので、みんな心配していたんですよ。",
+            "zh": "那真够呛啊。因为没有联系，大家都很担心呢。"
+          },
+          {
+            "speaker": "ミラー",
+            "ja": "電話したかったんですが、ケータイをうちに忘れてしまって……。どうもすみませんでした。",
+            "zh": "我想打电话的，可是把手机忘在家里了……。实在对不起。"
+          },
+          {
+            "speaker": "中村課長",
+            "ja": "わかりました。じゃ、会議を始めましょう。",
+            "zh": "明白了。那么，开始开会吧。"
+          }
+        ]
+      }
+    ]
+  },
+  "40": {
+    "examples": [
+      {
+        "id": "L40-P1",
+        "kind": "pattern",
+        "title": "文型 1",
+        "ja": "JL107便は何時に到着するか、調べてください。",
+        "zh": "请查一下JL107航班几点到达。"
+      },
+      {
+        "id": "L40-P2",
+        "kind": "pattern",
+        "title": "文型 2",
+        "ja": "台風9号は東京へ来るかどうか、まだわかりません。",
+        "zh": "9号台风是否会来东京，还不知道。"
+      },
+      {
+        "id": "L40-P3",
+        "kind": "pattern",
+        "title": "文型 3",
+        "ja": "この服を着てみてもいいですか。",
+        "zh": "可以试穿一下这件衣服吗？"
+      },
+      {
+        "id": "L40-E1",
+        "kind": "example",
+        "title": "例文 1",
+        "ja": "二次会はどこへ行きましたか。……酔っていたので、どこへ行ったか、全然覚えていないんです。",
+        "zh": "续摊去了哪里？……因为喝醉了，去了哪里完全不记得了。"
+      },
+      {
+        "id": "L40-E2",
+        "kind": "example",
+        "title": "例文 2",
+        "ja": "山の高さはどうやって測るか、知っていますか。……さあ……。インターネットで調べましょう。",
+        "zh": "你知道山的高度是怎么测量的吗？……这个嘛……。上网查查吧。"
+      },
+      {
+        "id": "L40-E3",
+        "kind": "example",
+        "title": "例文 3",
+        "ja": "わたしたちが初めて会ったのはいつか、覚えていますか。……昔のことなので、もう忘れてしまいました。",
+        "zh": "你还记得我们第一次见面是什么时候吗？……因为是很久以前的事，已经忘了。"
+      },
+      {
+        "id": "L40-E4",
+        "kind": "example",
+        "title": "例文 4",
+        "ja": "忘年会に出席できるかどうか、メールで返事をください。……はい、わかりました。",
+        "zh": "能否出席年终聚会，请用邮件回复。……好的，明白了。"
+      },
+      {
+        "id": "L40-E5",
+        "kind": "example",
+        "title": "例文 5",
+        "ja": "大学に出す書類なんですが、まちがいがないかどうか、見ていただけませんか。……いいですよ。",
+        "zh": "这是要交给大学的材料，能请您帮忙看看有没有错误吗？……好的。"
+      },
+      {
+        "id": "L40-E6",
+        "kind": "example",
+        "title": "例文 6",
+        "ja": "長崎へ行ったことがありますか。……まだありません。ぜひ一度行ってみたいです。",
+        "zh": "去过长崎吗？……还没有。一定想去一次看看。"
+      }
+    ],
+    "texts": [
+      {
+        "id": "L40-T1",
+        "title": "友達ができたかどうか、心配です",
+        "subtitle": "会話",
+        "lines": [
+          {
+            "speaker": "クララ",
+            "ja": "先生、ハンスは学校でどうでしょうか。友達ができたかどうか、心配なんですが……。",
+            "zh": "老师，汉斯在学校怎么样啊？我担心他有没有交到朋友……。"
+          },
+          {
+            "speaker": "伊藤先生",
+            "ja": "大丈夫ですよ。ハンス君はクラスでとても人気があります。",
+            "zh": "没问题的。汉斯在班里很受欢迎。"
+          },
+          {
+            "speaker": "クララ",
+            "ja": "そうですか。安心しました。勉強はどうですか。漢字が大変だと言っていますが……。",
+            "zh": "是吗。那我就放心了。学习怎么样？他说汉字很难……。"
+          },
+          {
+            "speaker": "伊藤先生",
+            "ja": "毎日漢字のテストをしていますが、ハンス君はいい成績ですよ。",
+            "zh": "我们每天都做汉字测验，汉斯成绩很好哦。"
+          },
+          {
+            "speaker": "クララ",
+            "ja": "そうですか。ありがとうございます。",
+            "zh": "是吗。谢谢您。"
+          },
+          {
+            "speaker": "伊藤先生",
+            "ja": "ところで、もうすぐ運動会ですが、お父さんもいらっしゃいますか。",
+            "zh": "对了，马上就是运动会了，他父亲也来吗？"
+          },
+          {
+            "speaker": "クララ",
+            "ja": "ええ。",
+            "zh": "是的。"
+          },
+          {
+            "speaker": "伊藤先生",
+            "ja": "ハンス君が学校でどんな様子か、ぜひ見てください。",
+            "zh": "请一定来看看汉斯在学校是什么样子。"
+          },
+          {
+            "speaker": "クララ",
+            "ja": "わかりました。これからもよろしくお願いします。",
+            "zh": "明白了。今后也请多多关照。"
+          }
+        ]
+      }
+    ]
+  },
+  "41": {
+    "examples": [
+      {
+        "id": "L41-P1",
+        "kind": "pattern",
+        "title": "文型 1",
+        "ja": "わたしはワット先生に本をいただきました。",
+        "zh": "我从瓦特老师那里得到了一本书。"
+      },
+      {
+        "id": "L41-P2",
+        "kind": "pattern",
+        "title": "文型 2",
+        "ja": "わたしは先生に漢字のまちがいを直していただきました。",
+        "zh": "我请老师帮我改了汉字的错误。"
+      },
+      {
+        "id": "L41-P3",
+        "kind": "pattern",
+        "title": "文型 3",
+        "ja": "部長の奥さんがお茶を教えてくださいました。",
+        "zh": "部长夫人教了我茶道。"
+      },
+      {
+        "id": "L41-P4",
+        "kind": "pattern",
+        "title": "文型 4",
+        "ja": "わたしは息子に紙飛行機を作ってやりました。",
+        "zh": "我给儿子做了纸飞机。"
+      },
+      {
+        "id": "L41-E1",
+        "kind": "example",
+        "title": "例文 1",
+        "ja": "きれいなお皿ですね。……ええ。結婚のお祝いに田中さんがくださいました。",
+        "zh": "真漂亮的盘子啊。……是的。田中作为结婚贺礼送给我的。"
+      },
+      {
+        "id": "L41-E2",
+        "kind": "example",
+        "title": "例文 2",
+        "ja": "お母さん、猿にお菓子をやってもいい？……だめよ。あそこにえさをやってはいけないと書いてあるでしょう？",
+        "zh": "妈妈，可以给猴子点心吗？……不行哦。那边写着不能喂食，对吧？"
+      },
+      {
+        "id": "L41-E3",
+        "kind": "example",
+        "title": "例文 3",
+        "ja": "相撲を見に行ったことがありますか。……ええ。この間部長に連れて行っていただきました。とてもおもしろかったです。",
+        "zh": "你去看过相扑吗？……嗯。前几天部长带我去了。非常有意思。"
+      },
+      {
+        "id": "L41-E4",
+        "kind": "example",
+        "title": "例文 4",
+        "ja": "夏休みのホームステイはどうでしたか。……楽しかったです。家族の皆さんがとても親切にしてくださいました。",
+        "zh": "暑假的寄宿家庭生活怎么样？……很开心。家里的各位对我都非常热情。"
+      },
+      {
+        "id": "L41-E5",
+        "kind": "example",
+        "title": "例文 5",
+        "ja": "連休は何をしますか。……子どもをディズニーランドへ連れて行ってやります。",
+        "zh": "连休你打算做什么？……带孩子去迪士尼乐园。"
+      },
+      {
+        "id": "L41-E6",
+        "kind": "example",
+        "title": "例文 6",
+        "ja": "新しいコピー機の使い方がよくわからないんですが、ちょっと教えてくださいませんか。……いいですよ。",
+        "zh": "我不太明白新复印机的用法，能教我一下吗？……好的。"
+      }
+    ],
+    "texts": [
+      {
+        "id": "L41-T1",
+        "title": "ご結婚おめでとうございます",
+        "subtitle": "会話",
+        "lines": [
+          {
+            "speaker": "学長",
+            "ja": "ワットさん、いずみさん、ご結婚おめでとうございます。乾杯。",
+            "zh": "瓦特先生、和泉女士，祝贺你们结婚。干杯。"
+          },
+          {
+            "speaker": "皆",
+            "ja": "乾杯。",
+            "zh": "干杯。"
+          },
+          {
+            "speaker": "司会者",
+            "ja": "次にこちらの皆さんにひとことずつお願いします。",
+            "zh": "接下来请这边的各位每人说一句。"
+          },
+          {
+            "speaker": "松本良子",
+            "ja": "わたしは去年の夏のクラスでワット先生に英語を教えていただきました。先生の授業はユーモアがあって、楽しかったです。実はそのクラスにいずみさんもいらっしゃったんです。",
+            "zh": "去年夏天的课上，瓦特老师教了我英语。老师的课很幽默，很有趣。其实和泉女士也在那个班上。"
+          },
+          {
+            "speaker": "大学職員",
+            "ja": "わたしは先生に『上手な整理の方法』という本をいただきました。先生は整理するのがお上手で、研究室はいつもきれいです。きっとお二人のお宅もすてきだと思います。",
+            "zh": "老师送了我一本叫《高明的整理方法》的书。老师很擅长整理，研究室总是很整洁。我想两位的家一定也很棒。"
+          },
+          {
+            "speaker": "ミラー",
+            "ja": "ワットさん、今度は『すてきな人と結婚する方法』という本を書いてくださいませんか。ぜひ読んで、勉強したいです。どうぞお幸せに。",
+            "zh": "瓦特先生，下次能不能写一本叫《和优秀的人结婚的方法》的书呢？我一定要读一读，学习一下。祝你们幸福。"
+          }
+        ]
+      }
+    ]
+  },
+  "42": {
+    "examples": [
+      {
+        "id": "L42-P1",
+        "kind": "pattern",
+        "title": "文型 1",
+        "ja": "将来自分の店を持つために、貯金しています。",
+        "zh": "为了将来拥有自己的店，正在存钱。"
+      },
+      {
+        "id": "L42-P2",
+        "kind": "pattern",
+        "title": "文型 2",
+        "ja": "この靴は山を歩くのにいいです。",
+        "zh": "这双鞋适合走山路。"
+      },
+      {
+        "id": "L42-E1",
+        "kind": "example",
+        "title": "例文 1",
+        "ja": "盆踊りに参加するために、毎日練習しています。……そうですか。楽しみですね。",
+        "zh": "为了参加盂兰盆舞，每天都在练习。……是吗。真令人期待啊。"
+      },
+      {
+        "id": "L42-E2",
+        "kind": "example",
+        "title": "例文 2",
+        "ja": "なぜ一人で山に登るんですか。……一人になって考えるために、山に行くんです。",
+        "zh": "为什么一个人去爬山？……为了独自思考，所以去山里。"
+      },
+      {
+        "id": "L42-E3",
+        "kind": "example",
+        "title": "例文 3",
+        "ja": "健康のために、何かしていますか。……いいえ。でも、来週から毎朝走ろうと思っています。",
+        "zh": "为了健康，你在做什么吗？……没有。不过打算从下周开始每天早上跑步。"
+      },
+      {
+        "id": "L42-E4",
+        "kind": "example",
+        "title": "例文 4",
+        "ja": "きれいな曲ですね。……「エリーゼのために」ですよ。ベートーベンがある女の人のために、作った曲です。",
+        "zh": "真优美的曲子啊。……是《致爱丽丝》哦。是贝多芬为某位女性创作的曲子。"
+      },
+      {
+        "id": "L42-E5",
+        "kind": "example",
+        "title": "例文 5",
+        "ja": "これは何に使うんですか。……ワインを開けるのに使います。",
+        "zh": "这是用来做什么的？……用来开葡萄酒。"
+      },
+      {
+        "id": "L42-E6",
+        "kind": "example",
+        "title": "例文 6",
+        "ja": "2、3日の出張にいいかばんがありますか。……こちらはいかがですか。パソコンも入って、便利ですよ。",
+        "zh": "有适合两三天出差用的包吗？……这个怎么样？还能放电脑，很方便哦。"
+      },
+      {
+        "id": "L42-E7",
+        "kind": "example",
+        "title": "例文 7",
+        "ja": "この橋を造るのに何年かかりましたか。……12年かかりました。",
+        "zh": "造这座桥花了几年？……花了12年。"
+      }
+    ],
+    "texts": [
+      {
+        "id": "L42-T1",
+        "title": "ボーナスは何に使いますか",
+        "subtitle": "会話",
+        "lines": [
+          {
+            "speaker": "鈴木",
+            "ja": "林さん、ボーナスはいつ出るんですか。",
+            "zh": "林，你们的奖金什么时候发？"
+          },
+          {
+            "speaker": "林",
+            "ja": "来週です。鈴木さんの会社は？",
+            "zh": "下周。铃木你们公司呢？"
+          },
+          {
+            "speaker": "鈴木",
+            "ja": "あしたです。楽しみですね。",
+            "zh": "明天。真期待啊。"
+          },
+          {
+            "speaker": "林",
+            "ja": "ええ。鈴木さんは何に使いますか。",
+            "zh": "是啊。铃木你打算用来做什么？"
+          },
+          {
+            "speaker": "鈴木",
+            "ja": "まず新しい自転車を買って、それから旅行に行って……。",
+            "zh": "先买辆新自行车，然后去旅行……。"
+          },
+          {
+            "speaker": "小川",
+            "ja": "貯金はしないんですか。",
+            "zh": "不存钱吗？"
+          },
+          {
+            "speaker": "鈴木",
+            "ja": "僕はあまり考えたこと、ありませんね。",
+            "zh": "我没怎么考虑过呢。"
+          },
+          {
+            "speaker": "林",
+            "ja": "わたしは半分は貯金するつもりです。",
+            "zh": "我打算把一半存起来。"
+          },
+          {
+            "speaker": "鈴木",
+            "ja": "えっ、半分も貯金するんですか。",
+            "zh": "啊，要存一半那么多吗？"
+          },
+          {
+            "speaker": "林",
+            "ja": "ええ、いつかイギリスへ留学しようと思っているんです。",
+            "zh": "是的，我想将来去英国留学。"
+          },
+          {
+            "speaker": "小川",
+            "ja": "へえ、独身の人はいいですね。全部自分のために、使えて。わたしは家のローンを払って、子どもの教育のために、貯金したら、ほとんど残りませんよ。",
+            "zh": "哦，单身的人真好啊。可以全部用在自己身上。我付了房贷，再为孩子的教育存点钱，就几乎不剩什么了。"
+          }
+        ]
+      }
+    ]
+  },
+  "43": {
+    "examples": [
+      {
+        "id": "L43-P1",
+        "kind": "pattern",
+        "title": "文型 1",
+        "ja": "今にも雨が降りそうです。",
+        "zh": "好像马上就要下雨了。"
+      },
+      {
+        "id": "L43-P2",
+        "kind": "pattern",
+        "title": "文型 2",
+        "ja": "ちょっと切符を買って来ます。",
+        "zh": "我去买一下票就回来。"
+      },
+      {
+        "id": "L43-E1",
+        "kind": "example",
+        "title": "例文 1",
+        "ja": "上着のボタンがとれそうですよ。……あっ、ほんとうですね。どうもありがとうございます。",
+        "zh": "上衣的扣子好像要掉了哦。……啊，真的呢。非常感谢。"
+      },
+      {
+        "id": "L43-E2",
+        "kind": "example",
+        "title": "例文 2",
+        "ja": "暖かくなりましたね。……ええ、もうすぐ桜が咲きそうですね。",
+        "zh": "天气变暖了呢。……是啊，樱花好像马上就要开了。"
+      },
+      {
+        "id": "L43-E3",
+        "kind": "example",
+        "title": "例文 3",
+        "ja": "ドイツのりんごのケーキです。どうぞ。……わあ、おいしそうですね。いただきます。",
+        "zh": "这是德国的苹果蛋糕。请用。……哇，看起来很好吃。我开动了。"
+      },
+      {
+        "id": "L43-E4",
+        "kind": "example",
+        "title": "例文 4",
+        "ja": "このアルバイト、よさそうですね。給料もいいし、仕事も楽そうだし。……でも、夜の12時から朝の6時までですよ。",
+        "zh": "这份兼职看起来不错啊。工资也好，工作看起来也轻松。……不过，是从晚上12点到早上6点哦。"
+      },
+      {
+        "id": "L43-E5",
+        "kind": "example",
+        "title": "例文 5",
+        "ja": "資料が足りませんね。……何枚ですか。すぐコピーして来ます。",
+        "zh": "资料不够呢。……要几张？我马上去复印回来。"
+      },
+      {
+        "id": "L43-E6",
+        "kind": "example",
+        "title": "例文 6",
+        "ja": "ちょっと出かけて来ます。……何時ごろ帰りますか。 4時までに帰るつもりです。",
+        "zh": "我出去一下就回来。……几点左右回来？ 打算4点之前回来。"
+      }
+    ],
+    "texts": [
+      {
+        "id": "L43-T1",
+        "title": "毎日楽しそうです",
+        "subtitle": "会話",
+        "lines": [
+          {
+            "speaker": "林",
+            "ja": "これ、どなたの写真ですか。",
+            "zh": "这是谁的照片？"
+          },
+          {
+            "speaker": "シュミット",
+            "ja": "息子のハンスです。運動会のとき、撮った写真です。",
+            "zh": "是我儿子汉斯。运动会时拍的照片。"
+          },
+          {
+            "speaker": "林",
+            "ja": "元気そうですね。",
+            "zh": "看起来很有精神啊。"
+          },
+          {
+            "speaker": "シュミット",
+            "ja": "ええ。ハンスは走るのが速いんですよ。日本の小学校にも慣れて、友達もできて、毎日楽しそうです。",
+            "zh": "是的。汉斯跑得很快哦。他也适应了日本的小学，交到了朋友，每天看起来都很开心。"
+          },
+          {
+            "speaker": "林",
+            "ja": "よかったですね。こちらの方は奥さんですか。きれいな方ですね。",
+            "zh": "那太好了。这位是您夫人吗？真漂亮啊。"
+          },
+          {
+            "speaker": "シュミット",
+            "ja": "ありがとうございます。妻はいろいろなことに興味があって、いっしょにいると、おもしろいんですよ。",
+            "zh": "谢谢。我妻子对很多事情都感兴趣，和她在一起很有意思。"
+          },
+          {
+            "speaker": "林",
+            "ja": "そうですか。",
+            "zh": "是吗。"
+          },
+          {
+            "speaker": "シュミット",
+            "ja": "特に歴史が好きで、時間があれば、古い町を歩いています。",
+            "zh": "她特别喜欢历史，一有时间就去逛老城。"
+          }
+        ]
+      }
+    ]
+  },
+  "44": {
+    "examples": [
+      {
+        "id": "L44-P1",
+        "kind": "pattern",
+        "title": "文型 1",
+        "ja": "ゆうべお酒を飲みすぎました。",
+        "zh": "昨晚酒喝多了。"
+      },
+      {
+        "id": "L44-P2",
+        "kind": "pattern",
+        "title": "文型 2",
+        "ja": "このパソコンは使いやすいです。",
+        "zh": "这台电脑很好用。"
+      },
+      {
+        "id": "L44-P3",
+        "kind": "pattern",
+        "title": "文型 3",
+        "ja": "ズボンを短くしてください。",
+        "zh": "请把裤子改短。"
+      },
+      {
+        "id": "L44-E1",
+        "kind": "example",
+        "title": "例文 1",
+        "ja": "泣いているんですか。……いいえ、笑いすぎて、涙が出たんです。",
+        "zh": "你在哭吗？……不，是笑得太厉害，流眼泪了。"
+      },
+      {
+        "id": "L44-E2",
+        "kind": "example",
+        "title": "例文 2",
+        "ja": "最近の車は操作が簡単ですね。……ええ。でも、簡単すぎて、運転がおもしろくないです。",
+        "zh": "最近的汽车操作很简单啊。……是的。不过太简单了，开起来没意思。"
+      },
+      {
+        "id": "L44-E3",
+        "kind": "example",
+        "title": "例文 3",
+        "ja": "田舎と町とどちらが住みやすいですか。……田舎のほうが住みやすいと思います。物価も安いし、空気もきれいですから。",
+        "zh": "乡下和城市哪个更适合居住？……我觉得乡下更适合居住。物价便宜，空气也好。"
+      },
+      {
+        "id": "L44-E4",
+        "kind": "example",
+        "title": "例文 4",
+        "ja": "このコップは丈夫で割れにくいですよ。……子どもが使うのに安全で、いいですね。",
+        "zh": "这个杯子结实不易碎哦。……给孩子用很安全，真不错。"
+      },
+      {
+        "id": "L44-E5",
+        "kind": "example",
+        "title": "例文 5",
+        "ja": "もう夜遅いですから、静かにしていただけませんか。……はい。すみません。",
+        "zh": "已经很晚了，能请您安静一点吗？……好的。对不起。"
+      },
+      {
+        "id": "L44-E6",
+        "kind": "example",
+        "title": "例文 6",
+        "ja": "飲み物は何にしますか。……ビールにします。",
+        "zh": "饮料要什么？……要啤酒。"
+      }
+    ],
+    "texts": [
+      {
+        "id": "L44-T1",
+        "title": "この写真みたいにしてください",
+        "subtitle": "会話",
+        "lines": [
+          {
+            "speaker": "美容師",
+            "ja": "いらっしゃいませ。きょうはどうなさいますか。",
+            "zh": "欢迎光临。今天您要怎么做？"
+          },
+          {
+            "speaker": "イー",
+            "ja": "カット、お願いします。",
+            "zh": "请帮我剪发。"
+          },
+          {
+            "speaker": "美容師",
+            "ja": "じゃ、シャンプーをしますから、こちらへどうぞ。",
+            "zh": "那么，先洗发，请到这边来。"
+          },
+          {
+            "speaker": "美容師",
+            "ja": "カットはどういうふうになさいますか。",
+            "zh": "剪发要怎么剪呢？"
+          },
+          {
+            "speaker": "イー",
+            "ja": "ショートにしたいんですけど……。この写真みたいにしてください。",
+            "zh": "我想剪成短发……。请剪成像这张照片的样子。"
+          },
+          {
+            "speaker": "美容師",
+            "ja": "あ、すてきですね。",
+            "zh": "啊，很漂亮啊。"
+          },
+          {
+            "speaker": "美容師",
+            "ja": "前の長さはこれでよろしいでしょうか。",
+            "zh": "前面的长度这样可以吗？"
+          },
+          {
+            "speaker": "イー",
+            "ja": "そうですね。もう少し短くしてください。",
+            "zh": "嗯……请再剪短一点。"
+          },
+          {
+            "speaker": "美容師",
+            "ja": "どうもお疲れさまでした。",
+            "zh": "您辛苦了。"
+          },
+          {
+            "speaker": "イー",
+            "ja": "ありがとう。",
+            "zh": "谢谢。"
+          }
+        ]
+      }
+    ]
+  },
+  "45": {
+    "examples": [
+      {
+        "id": "L45-P1",
+        "kind": "pattern",
+        "title": "文型 1",
+        "ja": "カードをなくした場合は、すぐカード会社に連絡してください。",
+        "zh": "卡片丢失的情况下，请马上联系信用卡公司。"
+      },
+      {
+        "id": "L45-P2",
+        "kind": "pattern",
+        "title": "文型 2",
+        "ja": "約束をしたのに、彼女は来ませんでした。",
+        "zh": "明明约好了，她却没来。"
+      },
+      {
+        "id": "L45-E1",
+        "kind": "example",
+        "title": "例文 1",
+        "ja": "地震で電車が止まった場合は、無理に帰らないで、会社に泊まってください。……はい、わかりました。",
+        "zh": "因地震电车停运的情况下，请不要勉强回家，住在公司。……好的，明白了。"
+      },
+      {
+        "id": "L45-E2",
+        "kind": "example",
+        "title": "例文 2",
+        "ja": "これがこのコンピューターの保証書です。調子が悪い場合は、この番号に連絡してください。……はい、わかりました。",
+        "zh": "这是这台电脑的保证书。出问题的情况下，请联系这个号码。……好的，明白了。"
+      },
+      {
+        "id": "L45-E3",
+        "kind": "example",
+        "title": "例文 3",
+        "ja": "あのう、この図書館ではコピーの領収書がもらえますか。……ええ。必要な場合は、言ってください。",
+        "zh": "请问，这个图书馆能开复印的收据吗？……可以。需要的话，请说一声。"
+      },
+      {
+        "id": "L45-E4",
+        "kind": "example",
+        "title": "例文 4",
+        "ja": "火事や地震の場合は、絶対にエレベーターを使わないでください。……はい、わかりました。",
+        "zh": "发生火灾和地震时，请绝对不要使用电梯。……好的，明白了。"
+      },
+      {
+        "id": "L45-E5",
+        "kind": "example",
+        "title": "例文 5",
+        "ja": "スピーチはうまくいきましたか。……いいえ。一生懸命練習して覚えたのに、途中で忘れてしまいました。",
+        "zh": "演讲顺利吗？……不。明明拼命练习记住了，可是中途忘了。"
+      },
+      {
+        "id": "L45-E6",
+        "kind": "example",
+        "title": "例文 6",
+        "ja": "冬なのに、桜が咲いていますね。……えっ、あれは桜じゃありません。梅ですよ。",
+        "zh": "明明是冬天，樱花却开了呢。……哎，那不是樱花。是梅花哦。"
+      }
+    ],
+    "texts": [
+      {
+        "id": "L45-T1",
+        "title": "コースをまちがえた場合は、どうしたらいいですか",
+        "subtitle": "会話",
+        "lines": [
+          {
+            "speaker": "係員",
+            "ja": "皆さん、このマラソンは健康マラソンですから、無理をしないでください。もし気分が悪くなったら、係員に言ってください。",
+            "zh": "各位，这次马拉松是健康马拉松，请不要勉强。如果感到不舒服，请告诉工作人员。"
+          },
+          {
+            "speaker": "参加者全員",
+            "ja": "はい。",
+            "zh": "好的。"
+          },
+          {
+            "speaker": "参加者1",
+            "ja": "すみません。コースをまちがえた場合は、どうしたらいいですか。",
+            "zh": "请问，跑错路线的情况下，该怎么办？"
+          },
+          {
+            "speaker": "係員",
+            "ja": "元の所に戻って、続けてください。",
+            "zh": "请回到原来的地方，继续跑。"
+          },
+          {
+            "speaker": "参加者2",
+            "ja": "あのう、途中でやめたい場合は？",
+            "zh": "那个，中途想放弃的情况下呢？"
+          },
+          {
+            "speaker": "係員",
+            "ja": "その場合は、近くの係員に名前を言って、帰ってください。では、スタートの時間です。",
+            "zh": "那种情况下，请把名字告诉附近的工作人员，然后回去。那么，到出发时间了。"
+          },
+          {
+            "speaker": "鈴木",
+            "ja": "ミラーさん、マラソンはどうでしたか。",
+            "zh": "米勒，马拉松怎么样？"
+          },
+          {
+            "speaker": "ミラー",
+            "ja": "2位でした。",
+            "zh": "得了第2名。"
+          },
+          {
+            "speaker": "鈴木",
+            "ja": "2位だったんですか。すごいですね。",
+            "zh": "第2名啊。真厉害。"
+          },
+          {
+            "speaker": "ミラー",
+            "ja": "いいえ、一生懸命練習したのに、優勝できなくて、残念です。",
+            "zh": "不，明明拼命练习了，却没能夺冠，很遗憾。"
+          },
+          {
+            "speaker": "鈴木",
+            "ja": "また来年がありますよ。",
+            "zh": "明年还有机会哦。"
+          }
+        ]
+      }
+    ]
+  },
+  "46": {
+    "examples": [
+      {
+        "id": "L46-P1",
+        "kind": "pattern",
+        "title": "文型 1",
+        "ja": "会議は今から始まるところです。",
+        "zh": "会议现在正要开始。"
+      },
+      {
+        "id": "L46-P2",
+        "kind": "pattern",
+        "title": "文型 2",
+        "ja": "彼は3月に大学を卒業したばかりです。",
+        "zh": "他3月刚从大学毕业。"
+      },
+      {
+        "id": "L46-P3",
+        "kind": "pattern",
+        "title": "文型 3",
+        "ja": "ミラーさんは会議室にいるはずです。",
+        "zh": "米勒应该在会议室。"
+      },
+      {
+        "id": "L46-E1",
+        "kind": "example",
+        "title": "例文 1",
+        "ja": "もしもし、田中ですが、今いいですか。……すみません。電車に乗るところなんです。あとでこちらから電話します。",
+        "zh": "喂，我是田中，现在方便吗？……对不起。我正要上电车。等会儿我打给你。"
+      },
+      {
+        "id": "L46-E2",
+        "kind": "example",
+        "title": "例文 2",
+        "ja": "故障の原因はわかりましたか。……いいえ、今調べているところです。",
+        "zh": "故障的原因弄清楚了吗？……没有，现在正在查。"
+      },
+      {
+        "id": "L46-E3",
+        "kind": "example",
+        "title": "例文 3",
+        "ja": "渡辺さんはいますか。……あ、たった今帰ったところです。まだエレベーターの所にいるかもしれません。",
+        "zh": "渡边在吗？……啊，刚刚回去了。可能还在电梯那儿。"
+      },
+      {
+        "id": "L46-E4",
+        "kind": "example",
+        "title": "例文 4",
+        "ja": "仕事はどうですか。……先月会社に入ったばかりなので、まだよくわかりません。",
+        "zh": "工作怎么样？……上个月刚进公司，还不太清楚。"
+      },
+      {
+        "id": "L46-E5",
+        "kind": "example",
+        "title": "例文 5",
+        "ja": "このビデオカメラ、先週買ったばかりなのに、動かないんです。……じゃ、ちょっと見せてください。",
+        "zh": "这台摄像机，上周刚买的，却不能用了。……那，让我看一下。"
+      },
+      {
+        "id": "L46-E6",
+        "kind": "example",
+        "title": "例文 6",
+        "ja": "ミラーさんはまだですか。……さっき駅から電話がありましたから、もうすぐ来るはずです。",
+        "zh": "米勒还没来吗？……刚才从车站打来了电话，应该马上就到。"
+      }
+    ],
+    "texts": [
+      {
+        "id": "L46-T1",
+        "title": "先週直してもらったばかりなのに、また……",
+        "subtitle": "会話",
+        "lines": [
+          {
+            "speaker": "係員",
+            "ja": "はい、ガスサービスセンターでございます。",
+            "zh": "您好，这里是煤气服务中心。"
+          },
+          {
+            "speaker": "タワポン",
+            "ja": "あのう、ガスレンジの調子がおかしいんですが……。",
+            "zh": "那个，煤气灶有点不对劲……。"
+          },
+          {
+            "speaker": "係員",
+            "ja": "どんな具合ですか。",
+            "zh": "是什么情况？"
+          },
+          {
+            "speaker": "タワポン",
+            "ja": "先週直してもらったばかりなのに、また火が消えてしまうんです。危ないので、すぐ見に来てくれませんか。",
+            "zh": "上周刚修好，火又会灭掉。很危险，能马上来看看吗？"
+          },
+          {
+            "speaker": "係員",
+            "ja": "わかりました。5時ごろには行けると思います。ご住所とお名前をお願いします。",
+            "zh": "明白了。我想5点左右能过去。请告诉我您的地址和姓名。"
+          },
+          {
+            "speaker": "タワポン",
+            "ja": "もしもし、5時ごろにガスレンジを見に来てくれるはずなんですが、まだですか。",
+            "zh": "喂，说好5点左右来看煤气灶的，还没来吗？"
+          },
+          {
+            "speaker": "係員",
+            "ja": "申し訳ありません。どちら様でしょうか。",
+            "zh": "对不起。您是哪位？"
+          },
+          {
+            "speaker": "タワポン",
+            "ja": "タワポンです。",
+            "zh": "我是塔瓦蓬。"
+          },
+          {
+            "speaker": "係員",
+            "ja": "少々お待ちください。係員に連絡しますから。",
+            "zh": "请稍等。我联系一下工作人员。"
+          },
+          {
+            "speaker": "係員",
+            "ja": "お待たせしました。今そちらに向かっているところです。あと10分ほどお待ちください。",
+            "zh": "让您久等了。现在正在往您那儿去。请再等10分钟左右。"
+          }
+        ]
+      }
+    ]
+  },
+  "47": {
+    "examples": [
+      {
+        "id": "L47-P1",
+        "kind": "pattern",
+        "title": "文型 1",
+        "ja": "天気予報によると、あしたは寒くなるそうです。",
+        "zh": "据天气预报说，明天会变冷。"
+      },
+      {
+        "id": "L47-P2",
+        "kind": "pattern",
+        "title": "文型 2",
+        "ja": "隣の部屋にだれかいるようです。",
+        "zh": "隔壁房间好像有人。"
+      },
+      {
+        "id": "L47-E1",
+        "kind": "example",
+        "title": "例文 1",
+        "ja": "新聞で読んだんですが、1月に日本語のスピーチ大会があるそうですよ。ミラーさんも出てみませんか。……そうですね。考えてみます。",
+        "zh": "我在报纸上看到，听说1月有日语演讲大会。米勒你也参加试试怎么样？……嗯，我考虑一下。"
+      },
+      {
+        "id": "L47-E2",
+        "kind": "example",
+        "title": "例文 2",
+        "ja": "クララさんは子どものとき、フランスに住んでいたそうです。……それで、フランス語もわかるんですね。",
+        "zh": "听说克拉拉小时候住在法国。……所以她也懂法语啊。"
+      },
+      {
+        "id": "L47-E3",
+        "kind": "example",
+        "title": "例文 3",
+        "ja": "パワー電気の新しい電子辞書はとても使いやすくて、いいそうですよ。……ええ。わたしはもう買いました。",
+        "zh": "听说动力电气的新电子词典很好用，很不错。……是的。我已经买了。"
+      },
+      {
+        "id": "L47-E4",
+        "kind": "example",
+        "title": "例文 4",
+        "ja": "ワット先生は厳しい先生だそうですね。……ええ。でも、授業はとてもおもしろいですよ。",
+        "zh": "听说瓦特老师是很严格的老师啊。……是的。不过他的课非常有意思哦。"
+      },
+      {
+        "id": "L47-E5",
+        "kind": "example",
+        "title": "例文 5",
+        "ja": "にぎやかな声がしますね。……ええ。パーティーでもしているようですね。",
+        "zh": "有热闹的说话声呢。……是啊。好像在开派对之类的。"
+      },
+      {
+        "id": "L47-E6",
+        "kind": "example",
+        "title": "例文 6",
+        "ja": "人が大勢集まっていますね。……事故のようですね。パトカーと救急車が来ていますよ。",
+        "zh": "聚集了好多人啊。……好像是事故。警车和救护车都来了。"
+      }
+    ],
+    "texts": [
+      {
+        "id": "L47-T1",
+        "title": "婚約したそうです",
+        "subtitle": "会話",
+        "lines": [
+          {
+            "speaker": "渡辺",
+            "ja": "お先に失礼します。",
+            "zh": "我先走了。"
+          },
+          {
+            "speaker": "高橋",
+            "ja": "あっ、渡辺さん、ちょっと待って。僕も帰ります。",
+            "zh": "啊，渡边，等一下。我也回去。"
+          },
+          {
+            "speaker": "渡辺",
+            "ja": "すみません、ちょっと急ぎますから。",
+            "zh": "对不起，我有点急事。"
+          },
+          {
+            "speaker": "高橋",
+            "ja": "渡辺さん、このごろ早く帰りますね。どうも恋人ができたようですね。",
+            "zh": "渡边最近回去得很早啊。总觉得好像是有恋人了。"
+          },
+          {
+            "speaker": "林",
+            "ja": "あ、知らないんですか。この間婚約したそうですよ。",
+            "zh": "啊，你不知道吗？听说前几天订婚了哦。"
+          },
+          {
+            "speaker": "高橋",
+            "ja": "えっ、だれですか、相手は。",
+            "zh": "哎？对方是谁？"
+          },
+          {
+            "speaker": "林",
+            "ja": "IMCの鈴木さんですよ。",
+            "zh": "是IMC的铃木哦。"
+          },
+          {
+            "speaker": "高橋",
+            "ja": "えっ、鈴木さん？",
+            "zh": "哎，铃木？"
+          },
+          {
+            "speaker": "林",
+            "ja": "ワットさんの結婚式で知り合ったそうですよ。",
+            "zh": "听说是在瓦特先生的婚礼上认识的。"
+          },
+          {
+            "speaker": "高橋",
+            "ja": "そうですか。",
+            "zh": "是吗。"
+          },
+          {
+            "speaker": "林",
+            "ja": "ところで、高橋さんは？",
+            "zh": "对了，高桥你呢？"
+          },
+          {
+            "speaker": "高橋",
+            "ja": "僕ですか。僕は仕事が恋人です。",
+            "zh": "我吗？我的恋人是工作。"
+          }
+        ]
+      }
+    ]
+  },
+  "48": {
+    "examples": [
+      {
+        "id": "L48-P1",
+        "kind": "pattern",
+        "title": "文型 1",
+        "ja": "息子をイギリスへ留学させます。",
+        "zh": "让儿子去英国留学。"
+      },
+      {
+        "id": "L48-P2",
+        "kind": "pattern",
+        "title": "文型 2",
+        "ja": "娘にピアノを習わせます。",
+        "zh": "让女儿学钢琴。"
+      },
+      {
+        "id": "L48-E1",
+        "kind": "example",
+        "title": "例文 1",
+        "ja": "このサッカー教室は練習が厳しいそうですね。……ええ、毎日子どもたちを1キロ走らせています。",
+        "zh": "听说这个足球班训练很严格啊。……是的，每天让孩子们跑1公里。"
+      },
+      {
+        "id": "L48-E2",
+        "kind": "example",
+        "title": "例文 2",
+        "ja": "そろそろ失礼します。……あ、ちょっと待ってください。息子に駅まで送らせますから。",
+        "zh": "我该告辞了。……啊，请稍等。我让儿子送您到车站。"
+      },
+      {
+        "id": "L48-E3",
+        "kind": "example",
+        "title": "例文 3",
+        "ja": "ハンス君は学校の勉強のほかに、何か習っていますか。……ええ、柔道をしたいと言ったので、柔道教室に行かせています。",
+        "zh": "汉斯除了学校的学习之外，还在学什么吗？……是的，他说想学柔道，所以让他去柔道班。"
+      },
+      {
+        "id": "L48-E4",
+        "kind": "example",
+        "title": "例文 4",
+        "ja": "伊藤先生はどんな先生ですか。……いい先生ですよ。生徒に好きな本を読ませて、自由に意見を言わせるんです。",
+        "zh": "伊藤老师是怎样的老师？……是位好老师。她让学生读喜欢的书，让他们自由发表意见。"
+      },
+      {
+        "id": "L48-E5",
+        "kind": "example",
+        "title": "例文 5",
+        "ja": "すみません。しばらくここに車を止めさせていただけませんか。……いいですよ。",
+        "zh": "对不起。能让我在这里停一会儿车吗？……可以。"
+      }
+    ],
+    "texts": [
+      {
+        "id": "L48-T1",
+        "title": "休ませていただけませんか",
+        "subtitle": "会話",
+        "lines": [
+          {
+            "speaker": "ミラー",
+            "ja": "課長、今お忙しいですか。",
+            "zh": "科长，您现在忙吗？"
+          },
+          {
+            "speaker": "中村課長",
+            "ja": "いいえ、どうぞ。",
+            "zh": "不忙，请说。"
+          },
+          {
+            "speaker": "ミラー",
+            "ja": "ちょっとお願いがあるんですが……。",
+            "zh": "我有点事想拜托您……。"
+          },
+          {
+            "speaker": "中村課長",
+            "ja": "何ですか。",
+            "zh": "什么事？"
+          },
+          {
+            "speaker": "ミラー",
+            "ja": "あのう、来月7日から10日ほど休みを取らせていただけませんか。",
+            "zh": "那个，从下个月7号起，能让我请10天左右的假吗？"
+          },
+          {
+            "speaker": "中村課長",
+            "ja": "10日間ですか。",
+            "zh": "10天吗？"
+          },
+          {
+            "speaker": "ミラー",
+            "ja": "実はアメリカの友達が結婚するんです。",
+            "zh": "其实是我美国的朋友要结婚了。"
+          },
+          {
+            "speaker": "中村課長",
+            "ja": "そうですか。えーと、来月は20日に営業会議がありますが、それまでに帰れますね。",
+            "zh": "是吗。嗯，下个月20号有营业会议，在那之前能回来吧？"
+          },
+          {
+            "speaker": "ミラー",
+            "ja": "はい。",
+            "zh": "是的。"
+          },
+          {
+            "speaker": "中村課長",
+            "ja": "じゃ、かまいませんよ。楽しんで来てください。",
+            "zh": "那没关系。好好玩吧。"
+          },
+          {
+            "speaker": "ミラー",
+            "ja": "ありがとうございます。",
+            "zh": "谢谢您。"
+          }
+        ]
+      }
+    ]
+  },
+  "49": {
+    "examples": [
+      {
+        "id": "L49-P1",
+        "kind": "pattern",
+        "title": "文型 1",
+        "ja": "課長は帰られました。",
+        "zh": "科长回去了。"
+      },
+      {
+        "id": "L49-P2",
+        "kind": "pattern",
+        "title": "文型 2",
+        "ja": "社長はお帰りになりました。",
+        "zh": "总经理回去了。"
+      },
+      {
+        "id": "L49-P3",
+        "kind": "pattern",
+        "title": "文型 3",
+        "ja": "部長はアメリカへ出張なさいます。",
+        "zh": "部长去美国出差。"
+      },
+      {
+        "id": "L49-P4",
+        "kind": "pattern",
+        "title": "文型 4",
+        "ja": "しばらくお待ちください。",
+        "zh": "请稍等。"
+      },
+      {
+        "id": "L49-E1",
+        "kind": "example",
+        "title": "例文 1",
+        "ja": "この本は読まれましたか。……ええ、もう読みました。",
+        "zh": "这本书您读过了吗？……嗯，已经读了。"
+      },
+      {
+        "id": "L49-E2",
+        "kind": "example",
+        "title": "例文 2",
+        "ja": "部長はどちらですか。……さっきお出かけになりました。",
+        "zh": "部长在哪儿？……刚才出去了。"
+      },
+      {
+        "id": "L49-E3",
+        "kind": "example",
+        "title": "例文 3",
+        "ja": "よく映画をご覧になりますか。……そうですね。たまに妻と見に行きます。",
+        "zh": "您经常看电影吗？……嗯。偶尔和妻子去看。"
+      },
+      {
+        "id": "L49-E4",
+        "kind": "example",
+        "title": "例文 4",
+        "ja": "小川さんの息子さんがさくら大学に合格したのをご存じですか。……いいえ、知りませんでした。",
+        "zh": "您知道小川的儿子考上樱花大学了吗？……不，不知道。"
+      },
+      {
+        "id": "L49-E5",
+        "kind": "example",
+        "title": "例文 5",
+        "ja": "お名前は何とおっしゃいますか。……ワットといいます。",
+        "zh": "您叫什么名字？……我叫瓦特。"
+      },
+      {
+        "id": "L49-E6",
+        "kind": "example",
+        "title": "例文 6",
+        "ja": "お仕事は何をなさっていますか。……銀行員です。アップル銀行に勤めています。",
+        "zh": "您做什么工作？……我是银行职员。在苹果银行工作。"
+      },
+      {
+        "id": "L49-E7",
+        "kind": "example",
+        "title": "例文 7",
+        "ja": "松本部長はいらっしゃいますか。……ええ、こちらのお部屋です。どうぞお入りください。",
+        "zh": "松本部长在吗？……在，在这个房间。请进。"
+      }
+    ],
+    "texts": [
+      {
+        "id": "L49-T1",
+        "title": "よろしくお伝えください",
+        "subtitle": "会話",
+        "lines": [
+          {
+            "speaker": "先生",
+            "ja": "はい、ひまわり小学校です。",
+            "zh": "您好，这里是向日葵小学。"
+          },
+          {
+            "speaker": "クララ",
+            "ja": "おはようございます。5年2組のハンス・シュミットの母ですが、伊藤先生はいらっしゃいますか。",
+            "zh": "早上好。我是5年2班汉斯·施密特的母亲，伊藤老师在吗？"
+          },
+          {
+            "speaker": "先生",
+            "ja": "まだなんですが……。",
+            "zh": "还没来……。"
+          },
+          {
+            "speaker": "クララ",
+            "ja": "では、伊藤先生に伝えていただきたいんですが……。",
+            "zh": "那么，想请您转告伊藤老师……。"
+          },
+          {
+            "speaker": "先生",
+            "ja": "はい、何でしょうか。",
+            "zh": "好的，什么事？"
+          },
+          {
+            "speaker": "クララ",
+            "ja": "実はハンスがゆうべ熱を出しまして、けさもまだ下がらないんです。",
+            "zh": "其实是汉斯昨晚发烧了，今天早上也还没退。"
+          },
+          {
+            "speaker": "先生",
+            "ja": "それはいけませんね。",
+            "zh": "那可不好啊。"
+          },
+          {
+            "speaker": "クララ",
+            "ja": "それできょうは学校を休ませますので、先生によろしくお伝えください。",
+            "zh": "所以今天不让他去学校了，请代我向老师转告一下。"
+          },
+          {
+            "speaker": "先生",
+            "ja": "わかりました。どうぞお大事に。",
+            "zh": "明白了。请多保重。"
+          },
+          {
+            "speaker": "クララ",
+            "ja": "ありがとうございます。失礼いたします。",
+            "zh": "谢谢您。告辞了。"
+          }
+        ]
+      }
+    ]
+  },
+  "50": {
+    "examples": [
+      {
+        "id": "L50-P1",
+        "kind": "pattern",
+        "title": "文型 1",
+        "ja": "今月のスケジュールをお送りします。",
+        "zh": "我把这个月的日程寄给您。"
+      },
+      {
+        "id": "L50-P2",
+        "kind": "pattern",
+        "title": "文型 2",
+        "ja": "あした3時に伺います。",
+        "zh": "明天3点去拜访您。"
+      },
+      {
+        "id": "L50-P3",
+        "kind": "pattern",
+        "title": "文型 3",
+        "ja": "私はアメリカから参りました。",
+        "zh": "我从美国来。"
+      },
+      {
+        "id": "L50-E1",
+        "kind": "example",
+        "title": "例文 1",
+        "ja": "重そうですね。お持ちしましょうか。……すみません。お願いします。",
+        "zh": "看起来很重啊。我来帮您拿吧？……不好意思。麻烦您了。"
+      },
+      {
+        "id": "L50-E2",
+        "kind": "example",
+        "title": "例文 2",
+        "ja": "ガイドさん、ここを見たあとで、どこへ行くんですか。……江戸東京博物館へご案内します。",
+        "zh": "导游，看完这里之后去哪里？……带您去江户东京博物馆。"
+      },
+      {
+        "id": "L50-E3",
+        "kind": "example",
+        "title": "例文 3",
+        "ja": "グプタさんの到着は2時ですね。だれか迎えに行くんですか。……はい、私が参ります。",
+        "zh": "古普塔先生2点到达吧。有人去接吗？……是的，我去。"
+      },
+      {
+        "id": "L50-E4",
+        "kind": "example",
+        "title": "例文 4",
+        "ja": "ちょっと切符を拝見します。……はい。 どうもありがとうございました。",
+        "zh": "请让我看一下票。……好的。 非常感谢。"
+      },
+      {
+        "id": "L50-E5",
+        "kind": "example",
+        "title": "例文 5",
+        "ja": "こちらはミラーさんです。……初めまして。ミラーと申します。どうぞよろしくお願いします。",
+        "zh": "这位是米勒先生。……初次见面。我叫米勒。请多关照。"
+      },
+      {
+        "id": "L50-E6",
+        "kind": "example",
+        "title": "例文 6",
+        "ja": "ご家族はどちらにいらっしゃいますか。……ニューヨークにおります。",
+        "zh": "您的家人在哪里？……在纽约。"
+      }
+    ],
+    "texts": [
+      {
+        "id": "L50-T1",
+        "title": "心から感謝いたします",
+        "subtitle": "会話",
+        "lines": [
+          {
+            "speaker": "司会者",
+            "ja": "優勝おめでとうございます。すばらしいスピーチでした。",
+            "zh": "恭喜您获得冠军。真是精彩的演讲。"
+          },
+          {
+            "speaker": "ミラー",
+            "ja": "ありがとうございます。",
+            "zh": "谢谢。"
+          },
+          {
+            "speaker": "司会者",
+            "ja": "緊張なさいましたか。",
+            "zh": "您紧张吗？"
+          },
+          {
+            "speaker": "ミラー",
+            "ja": "はい、とても緊張いたしました。",
+            "zh": "是的，非常紧张。"
+          },
+          {
+            "speaker": "司会者",
+            "ja": "練習は大変でしたか。",
+            "zh": "练习辛苦吗？"
+          },
+          {
+            "speaker": "ミラー",
+            "ja": "ええ。忙しくて、なかなか練習の時間がありませんでした。",
+            "zh": "是的。因为很忙，一直没什么练习的时间。"
+          },
+          {
+            "speaker": "司会者",
+            "ja": "賞金は何にお使いになりますか。",
+            "zh": "奖金打算用来做什么？"
+          },
+          {
+            "speaker": "ミラー",
+            "ja": "そうですね。わたしは動物が好きで、子どものときからアフリカへ行くのが夢でした。",
+            "zh": "嗯。我喜欢动物，从小就梦想去非洲。"
+          },
+          {
+            "speaker": "司会者",
+            "ja": "じゃ、アフリカへ行かれますか。",
+            "zh": "那么，您要去非洲吗？"
+          },
+          {
+            "speaker": "ミラー",
+            "ja": "はい。アフリカの自然の中できりんや象を見たいと思います。",
+            "zh": "是的。我想在非洲的大自然中看长颈鹿和大象。"
+          },
+          {
+            "speaker": "司会者",
+            "ja": "子どものころの夢がかなうんですね。",
+            "zh": "小时候的梦想要实现了啊。"
+          },
+          {
+            "speaker": "ミラー",
+            "ja": "はい。うれしいです。応援してくださった皆様に心から感謝いたします。どうもありがとうございました。",
+            "zh": "是的。很高兴。衷心感谢为我加油的各位。非常感谢。"
           }
         ]
       }
