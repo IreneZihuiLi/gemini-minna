@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { isLessonCached, getCollectedSentences } from '../services/storage';
-import { STATIC_LESSONS } from '../data/staticLessons';
+import { STATIC_LESSONS } from '../data/textbook/staticLessons';
 
 interface LessonListProps {
   onSelectLesson: (id: number) => void;

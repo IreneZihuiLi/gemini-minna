@@ -1,6 +1,9 @@
-// Prints (as JSON) every unique Japanese string the app can play:
+// Prints (as JSON) every unique Japanese string the apps can play:
 // vocabulary headwords, vocabulary example sentences, grammar examples,
 // 文型/例文 lines and dialogue lines. Used by scripts/generate_audio.py.
+// Both data sets are included: data/*.ts (original sentences, used by the
+// mini program) and data/textbook/*.ts (textbook sentences, used by the web
+// app), because GitHub Pages serves the clips for both apps.
 const fs = require("fs");
 const path = require("path");
 
@@ -21,22 +24,24 @@ function addText(set, value) {
   }
 }
 
-const lessons = loadTsObject("data/staticLessons.ts", "STATIC_LESSONS");
-const grammar = loadTsObject("data/staticGrammar.ts", "STATIC_GRAMMAR");
 const content = loadTsObject("data/staticLessonContent.ts", "STATIC_LESSON_CONTENT");
 const texts = new Set();
 const kana = {};
 
-for (const words of Object.values(lessons)) {
-  for (const word of words) {
-    addText(texts, word.kanji);
-    if (word.kanji && word.kana && !kana[word.kanji.trim()]) kana[word.kanji.trim()] = word.kana.trim();
-    for (const sentence of word.sentences || []) addText(texts, sentence.ja);
+for (const dir of ["data", "data/textbook"]) {
+  const lessons = loadTsObject(`${dir}/staticLessons.ts`, "STATIC_LESSONS");
+  const grammar = loadTsObject(`${dir}/staticGrammar.ts`, "STATIC_GRAMMAR");
+  for (const words of Object.values(lessons)) {
+    for (const word of words) {
+      addText(texts, word.kanji);
+      if (word.kanji && word.kana && !kana[word.kanji.trim()]) kana[word.kanji.trim()] = word.kana.trim();
+      for (const sentence of word.sentences || []) addText(texts, sentence.ja);
+    }
   }
-}
-for (const points of Object.values(grammar)) {
-  for (const point of points) {
-    for (const example of point.examples || []) addText(texts, example.ja);
+  for (const points of Object.values(grammar)) {
+    for (const point of points) {
+      for (const example of point.examples || []) addText(texts, example.ja);
+    }
   }
 }
 for (const lessonContent of Object.values(content)) {

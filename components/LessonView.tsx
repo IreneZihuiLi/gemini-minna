@@ -7,8 +7,8 @@ import { playText, stopAudio } from '../services/audio';
 import { VocabCard } from './VocabCard';
 import { GrammarCard } from './GrammarCard';
 import { SpeedControl } from './SpeedControl';
-import { STATIC_GRAMMAR } from '../data/staticGrammar';
-import { STATIC_LESSONS } from '../data/staticLessons';
+import { STATIC_GRAMMAR } from '../data/textbook/staticGrammar';
+import { STATIC_LESSONS } from '../data/textbook/staticLessons';
 import { STATIC_LESSON_CONTENT } from '../data/staticLessonContent';
 
 interface LessonViewProps {
