@@ -9,6 +9,48 @@ let fs = null;
 let dirReady = false;
 let current = null;
 
+// Playback speed (0.75x - 1.5x) is a user setting kept in local storage and
+// applied through InnerAudioContext.playbackRate (base library 2.11.0+), so
+// the clips themselves never change.
+const PLAYBACK_RATES = [0.75, 1, 1.25, 1.5];
+const RATE_KEY = "audio_playback_rate";
+
+function loadPlaybackRate() {
+  try {
+    const stored = Number(wx.getStorageSync(RATE_KEY));
+    if (PLAYBACK_RATES.indexOf(stored) >= 0) return stored;
+  } catch (e) {
+    // ignore
+  }
+  return 1;
+}
+
+let playbackRate = loadPlaybackRate();
+
+function getPlaybackRate() {
+  return playbackRate;
+}
+
+function applyRate(audio) {
+  try {
+    audio.playbackRate = playbackRate;
+  } catch (e) {
+    // older base library without playbackRate
+  }
+}
+
+/** Change the speed for every clip from now on, including the one playing. */
+function setPlaybackRate(rate) {
+  if (PLAYBACK_RATES.indexOf(rate) < 0) return;
+  playbackRate = rate;
+  try {
+    wx.setStorageSync(RATE_KEY, rate);
+  } catch (e) {
+    // ignore
+  }
+  if (current) applyRate(current);
+}
+
 function fileSystem() {
   if (!fs) fs = wx.getFileSystemManager();
   return fs;
@@ -116,6 +158,12 @@ function playSource(src, onError) {
   current = audio;
   audio.src = src;
   audio.obeyMuteSwitch = false;
+  if (playbackRate !== 1) {
+    // iOS only honours the rate once the clip is ready, so set it again then.
+    applyRate(audio);
+    audio.onCanplay(() => applyRate(audio));
+    audio.onPlay(() => applyRate(audio));
+  }
   audio.onError((error) => {
     console.warn("Audio playback failed", src, error);
     audio.destroy();
@@ -228,6 +276,9 @@ function clearAudioCache() {
 module.exports = {
   playPronunciation,
   clearAudioCache,
+  getPlaybackRate,
+  setPlaybackRate,
+  PLAYBACK_RATES,
   remoteUrl,
   clipName,
   sha1Hex

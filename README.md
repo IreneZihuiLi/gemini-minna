@@ -2,7 +2,7 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Minna no Nihongo Study App
+# 艾酱的日语助手 (Japanese Study App)
 
 This is a local Japanese study app for vocabulary, grammar cards, examples, texts, verb forms, romaji, and pronunciation. The app itself makes no API calls: pronunciation clips are generated once with an LLM-based TTS model (OpenAI gpt-4o-mini-tts, see below) and shipped as static files.
 

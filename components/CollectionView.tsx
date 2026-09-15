@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { CollectedSentence } from '../types';
 import { getCollectedSentences, toggleCollectSentence } from '../services/storage';
 import { playText } from '../services/audio';
+import { SpeedControl } from './SpeedControl';
 
 interface CollectionViewProps {
   onBack: () => void;
@@ -30,12 +31,15 @@ export const CollectionView: React.FC<CollectionViewProps> = ({ onBack }) => {
 
   return (
     <div className="min-h-screen bg-slate-50">
-      <div className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200 px-6 py-4 flex items-center gap-4 shadow-sm">
+      <div className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200 px-4 sm:px-6 py-4 flex items-center gap-3 sm:gap-4 shadow-sm">
         <button onClick={onBack} className="p-2 rounded-full hover:bg-slate-100 text-slate-500 transition-colors">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
         </button>
         <h2 className="text-xl font-bold text-slate-800">My Sentence Collection</h2>
-        <span className="ml-auto text-sm font-medium text-slate-400 bg-slate-100 px-3 py-1 rounded-full">{collection.length} items</span>
+        <div className="ml-auto flex items-center gap-3">
+          <SpeedControl />
+          <span className="text-sm font-medium text-slate-400 bg-slate-100 px-3 py-1 rounded-full hidden sm:inline">{collection.length} items</span>
+        </div>
       </div>
 
       <div className="max-w-4xl mx-auto p-6">

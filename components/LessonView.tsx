@@ -6,6 +6,7 @@ import { deleteCustomWord } from '../services/storage';
 import { playText, stopAudio } from '../services/audio';
 import { VocabCard } from './VocabCard';
 import { GrammarCard } from './GrammarCard';
+import { SpeedControl } from './SpeedControl';
 import { STATIC_GRAMMAR } from '../data/staticGrammar';
 import { STATIC_LESSONS } from '../data/staticLessons';
 import { STATIC_LESSON_CONTENT } from '../data/staticLessonContent';
@@ -123,8 +124,8 @@ export const LessonView: React.FC<LessonViewProps> = ({ lessonId, onBack }) => {
   return (
     <div className="min-h-screen bg-slate-50">
       {/* Sticky Header */}
-      <div className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200 px-6 py-4 flex items-center justify-between shadow-sm">
-        <div className="flex items-center gap-4">
+      <div className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200 px-4 sm:px-6 py-4 flex items-center justify-between gap-3 shadow-sm">
+        <div className="flex items-center gap-2 sm:gap-4 min-w-0">
           <button 
             onClick={handleHeaderBack}
             className="p-2 -ml-2 rounded-full hover:bg-slate-100 text-slate-500 hover:text-slate-800 transition-colors"
@@ -133,12 +134,13 @@ export const LessonView: React.FC<LessonViewProps> = ({ lessonId, onBack }) => {
           </button>
           <h2 className="text-xl font-bold text-slate-800">
             Lesson {lessonId}
-            <span className="text-slate-400 font-normal ml-2 text-base">
+            <span className="text-slate-400 font-normal ml-2 text-base hidden sm:inline">
               {activeSection === 'grammar' ? 'Grammar' : activeSection === 'vocabulary' ? 'Vocabulary' : activeSection === 'examples' ? 'Examples' : activeSection === 'text' ? 'Text' : 'Study Mode'}
             </span>
           </h2>
         </div>
         <div className="flex items-center gap-4">
+          <SpeedControl />
           {activeSection === 'vocabulary' && (
             <div className="text-sm font-medium text-slate-500 hidden sm:block">
               {loading ? 'Loading...' : `${words.length} words`}

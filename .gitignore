@@ -30,3 +30,4 @@ __pycache__/
 # WeChat mini program upload key (never commit)
 private.*.key
 miniprogram-preview.png
+.claude/launch.json

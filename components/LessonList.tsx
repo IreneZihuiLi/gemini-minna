@@ -32,10 +32,10 @@ export const LessonList: React.FC<LessonListProps> = ({ onSelectLesson, onOpenCo
     <div className="max-w-5xl mx-auto p-6">
       <header className="mb-10 text-center">
         <h1 className="text-4xl font-extrabold text-slate-800 mb-4 tracking-tight">
-          Minna no <span className="text-indigo-600">Nihongo</span>
+          艾酱的<span className="text-indigo-600">日语助手</span>
         </h1>
         <p className="text-slate-500 max-w-xl mx-auto text-lg mb-8">
-          Select a lesson from "Minna no Nihongo Elementary 1 & 2".
+          选一课开始学习：词汇、语法、例句、课文和发音。
         </p>
 
         {/* Collection Quick Access */}

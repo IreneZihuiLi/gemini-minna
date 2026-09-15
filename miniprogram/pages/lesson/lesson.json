@@ -1,3 +1,6 @@
 {
-  "navigationBarTitleText": "Lesson"
+  "navigationBarTitleText": "Lesson",
+  "usingComponents": {
+    "speed-picker": "/components/speed-picker/index"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "miniprogramRoot": "./",
   "projectname": "gemini-minna-miniprogram",
-  "description": "みんなの日本語 local study mini program",
+  "description": "艾酱的日语助手 local study mini program",
   "appid": "wx116b5d6fa66e027e",
   "setting": {
     "urlCheck": false,

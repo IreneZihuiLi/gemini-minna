@@ -5,7 +5,7 @@
     "pages/collection/collection"
   ],
   "window": {
-    "navigationBarTitleText": "みんなの日本語",
+    "navigationBarTitleText": "艾酱的日语助手",
     "navigationBarBackgroundColor": "#f8fafc",
     "navigationBarTextStyle": "black",
     "backgroundColor": "#f8fafc"

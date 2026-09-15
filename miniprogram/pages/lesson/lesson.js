@@ -108,7 +108,7 @@ Page({
   onShareAppMessage() {
     const id = this.data.lessonId;
     return {
-      title: `みんなの日本語 第${id}课：词汇・语法・课文・发音`,
+      title: `艾酱的日语助手 第${id}课：词汇・语法・课文・发音`,
       path: `/pages/lesson/lesson?id=${id}`
     };
   },
@@ -116,7 +116,7 @@ Page({
   onShareTimeline() {
     const id = this.data.lessonId;
     return {
-      title: `みんなの日本語 第${id}课`,
+      title: `艾酱的日语助手 第${id}课`,
       query: `id=${id}`
     };
   },

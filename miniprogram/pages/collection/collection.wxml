@@ -6,6 +6,7 @@
     </view>
     <view class="count">{{collection.length}} items</view>
   </view>
+  <speed-picker />
 
   <view wx:if="{{collection.length === 0}}" class="empty card">
     <view class="empty-title">还没有收藏</view>

@@ -2,7 +2,7 @@
   <view class="hero">
     <view>
       <text class="eyebrow">LOCAL STUDY APP</text>
-      <view class="title">みんなの日本語</view>
+      <view class="title">艾酱的日语助手</view>
     </view>
     <button class="collection-btn plain-btn" bindtap="openCollection">收藏</button>
   </view>

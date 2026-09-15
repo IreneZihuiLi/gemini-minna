@@ -1,0 +1,8 @@
+<view class="speed-picker">
+  <text class="speed-label">语速</text>
+  <view class="speed-options">
+    <block wx:for="{{rates}}" wx:key="value">
+      <view class="speed-option {{item.value === current ? 'active' : ''}}" hover-class="speed-option-hover" hover-stay-time="60" data-value="{{item.value}}" bindtap="pick">{{item.label}}</view>
+    </block>
+  </view>
+</view>

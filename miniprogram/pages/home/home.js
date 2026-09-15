@@ -46,7 +46,7 @@ Page({
   // Enables the 转发 menu item and chat sharing.
   onShareAppMessage() {
     return {
-      title: "みんなの日本語 学习助手：词汇・语法・课文・发音",
+      title: "艾酱的日语助手：词汇・语法・课文・发音",
       path: "/pages/home/home"
     };
   },
@@ -54,7 +54,7 @@ Page({
   // Enables 分享到朋友圈.
   onShareTimeline() {
     return {
-      title: "みんなの日本語 学习助手：词汇・语法・课文・发音",
+      title: "艾酱的日语助手：词汇・语法・课文・发音",
       query: ""
     };
   }

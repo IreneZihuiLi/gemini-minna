@@ -6,6 +6,7 @@
     </view>
     <button wx:if="{{activeMode}}" class="back-btn plain-btn" bindtap="backToModes">返回</button>
   </view>
+  <speed-picker />
 
   <view wx:if="{{!activeMode}}" class="mode-grid">
     <block wx:for="{{modeCards}}" wx:key="id">
