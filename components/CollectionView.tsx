@@ -1,7 +1,8 @@
 
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import { CollectedSentence } from '../types';
 import { getCollectedSentences, toggleCollectSentence } from '../services/storage';
+import { playText } from '../services/audio';
 
 interface CollectionViewProps {
   onBack: () => void;
@@ -10,7 +11,6 @@ interface CollectionViewProps {
 export const CollectionView: React.FC<CollectionViewProps> = ({ onBack }) => {
   const [collection, setCollection] = useState<CollectedSentence[]>([]);
   const [activeAudioId, setActiveAudioId] = useState<string | null>(null);
-  const synth = useRef(window.speechSynthesis);
 
   useEffect(() => {
     setCollection(getCollectedSentences());
@@ -22,13 +22,10 @@ export const CollectionView: React.FC<CollectionViewProps> = ({ onBack }) => {
   };
 
   const playNative = (text: string, id: string) => {
-    synth.current.cancel();
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = 'ja-JP';
-    utterance.rate = 0.85;
-    setActiveAudioId(id);
-    utterance.onend = () => setActiveAudioId(null);
-    synth.current.speak(utterance);
+    playText(text, {
+      onStart: () => setActiveAudioId(id),
+      onEnd: () => setActiveAudioId(null)
+    });
   };
 
   return (

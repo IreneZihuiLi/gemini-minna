@@ -23,3 +23,6 @@ miniprogram/project.private.config.json
 *.njsproj
 *.sln
 *.sw?
+
+# Python
+__pycache__/

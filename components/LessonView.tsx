@@ -3,6 +3,7 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { VocabularyItem } from '../types';
 import { fetchVocabularyForLesson } from '../services/lessonService';
 import { deleteCustomWord } from '../services/storage';
+import { playText, stopAudio } from '../services/audio';
 import { VocabCard } from './VocabCard';
 import { GrammarCard } from './GrammarCard';
 import { STATIC_GRAMMAR } from '../data/staticGrammar';
@@ -70,7 +71,7 @@ export const LessonView: React.FC<LessonViewProps> = ({ lessonId, onBack }) => {
   }, [activeSection, lessonId]);
 
   const handleHeaderBack = () => {
-    window.speechSynthesis.cancel();
+    stopAudio();
     setActiveReadingId(null);
     if (activeSection) {
       setActiveSection(null);
@@ -81,18 +82,10 @@ export const LessonView: React.FC<LessonViewProps> = ({ lessonId, onBack }) => {
   };
 
   const playSentenceAudio = (text: string, id: string) => {
-    window.speechSynthesis.cancel();
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = 'ja-JP';
-    utterance.rate = 0.85;
-    const voices = window.speechSynthesis.getVoices();
-    const jaVoice = voices.find(v => v.lang === 'ja-JP' && !v.name.includes('Compact')) ||
-                    voices.find(v => v.lang.includes('ja'));
-    if (jaVoice) utterance.voice = jaVoice;
-    setActiveReadingId(id);
-    utterance.onend = () => setActiveReadingId(null);
-    utterance.onerror = () => setActiveReadingId(null);
-    window.speechSynthesis.speak(utterance);
+    playText(text, {
+      onStart: () => setActiveReadingId(id),
+      onEnd: () => setActiveReadingId(null)
+    });
   };
 
   const handleDeleteWord = (id: string) => {

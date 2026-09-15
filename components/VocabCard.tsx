@@ -1,7 +1,8 @@
 
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import { VocabularyItem, CollectedSentence } from '../types';
 import { toggleCollectSentence, isSentenceCollected } from '../services/storage';
+import { playText } from '../services/audio';
 
 interface VocabCardProps {
   item: VocabularyItem;
@@ -92,7 +93,6 @@ const getVerbForms = (item: VocabularyItem) => {
 
 export const VocabCard: React.FC<VocabCardProps> = ({ item, onDelete }) => {
   const [activeAudioId, setActiveAudioId] = useState<string | null>(null);
-  const synth = useRef(window.speechSynthesis);
   const grammarType = getInferredGrammarType(item);
   const verbForms = getVerbForms(item);
 
@@ -119,19 +119,10 @@ export const VocabCard: React.FC<VocabCardProps> = ({ item, onDelete }) => {
   };
 
   const playNativeAudio = (text: string, id: string) => {
-    if (!synth.current) return;
-    synth.current.cancel();
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = 'ja-JP';
-    utterance.rate = 0.85; 
-    const voices = synth.current.getVoices();
-    const jaVoice = voices.find(v => v.lang === 'ja-JP' && !v.name.includes('Compact')) || 
-                    voices.find(v => v.lang.includes('ja'));
-    if (jaVoice) utterance.voice = jaVoice;
-    setActiveAudioId(id);
-    utterance.onend = () => setActiveAudioId(null);
-    utterance.onerror = () => setActiveAudioId(null);
-    synth.current.speak(utterance);
+    playText(text, {
+      onStart: () => setActiveAudioId(id),
+      onEnd: () => setActiveAudioId(null)
+    });
   };
 
   return (
