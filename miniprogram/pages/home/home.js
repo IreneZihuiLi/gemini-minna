@@ -6,6 +6,7 @@ Page({
   },
 
   onLoad() {
+    wx.showShareMenu({ withShareTicket: false, menus: ["shareAppMessage", "shareTimeline"] });
     const maxLesson = Math.max(
       ...Object.keys(STATIC_LESSONS).map(Number),
       ...Object.keys(STATIC_GRAMMAR).map(Number),
@@ -40,5 +41,21 @@ Page({
     wx.navigateTo({
       url: "/pages/collection/collection"
     });
+  },
+
+  // Enables the 转发 menu item and chat sharing.
+  onShareAppMessage() {
+    return {
+      title: "みんなの日本語 学习助手：词汇・语法・课文・发音",
+      path: "/pages/home/home"
+    };
+  },
+
+  // Enables 分享到朋友圈.
+  onShareTimeline() {
+    return {
+      title: "みんなの日本語 学习助手：词汇・语法・课文・发音",
+      query: ""
+    };
   }
 });

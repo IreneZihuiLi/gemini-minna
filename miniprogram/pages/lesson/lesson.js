@@ -64,6 +64,7 @@ Page({
   },
 
   onLoad(query) {
+    wx.showShareMenu({ withShareTicket: false, menus: ["shareAppMessage", "shareTimeline"] });
     const lessonId = Number(query.id || 1);
     const words = STATIC_LESSONS[lessonId] || [];
     const grammar = STATIC_GRAMMAR[lessonId] || [];
@@ -102,6 +103,22 @@ Page({
   play(event) {
     wx.vibrateShort({ type: "light", fail() {} });
     playPronunciation(event.currentTarget.dataset.text);
+  },
+
+  onShareAppMessage() {
+    const id = this.data.lessonId;
+    return {
+      title: `みんなの日本語 第${id}课：词汇・语法・课文・发音`,
+      path: `/pages/lesson/lesson?id=${id}`
+    };
+  },
+
+  onShareTimeline() {
+    const id = this.data.lessonId;
+    return {
+      title: `みんなの日本語 第${id}课`,
+      query: `id=${id}`
+    };
   },
 
   toggleSentence(event) {

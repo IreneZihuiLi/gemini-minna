@@ -7,9 +7,23 @@ Page({
   },
 
   onShow() {
+    wx.showShareMenu({ withShareTicket: false, menus: ["shareAppMessage", "shareTimeline"] });
     this.setData({
       collection: getCollection()
     });
+  },
+
+  onShareAppMessage() {
+    return {
+      title: "みんなの日本語 学习助手：词汇・语法・课文・发音",
+      path: "/pages/home/home"
+    };
+  },
+
+  onShareTimeline() {
+    return {
+      title: "みんなの日本語 学习助手：词汇・语法・课文・发音"
+    };
   },
 
   play(event) {
