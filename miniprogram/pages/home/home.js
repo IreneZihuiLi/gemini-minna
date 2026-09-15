@@ -30,6 +30,7 @@ Page({
 
   openLesson(event) {
     const lessonId = event.currentTarget.dataset.id;
+    if (!event.currentTarget.dataset.ready) return;
     wx.navigateTo({
       url: `/pages/lesson/lesson?id=${lessonId}`
     });

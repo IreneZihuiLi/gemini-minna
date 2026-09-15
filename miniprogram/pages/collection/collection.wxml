@@ -20,7 +20,7 @@
           <button class="remove plain-btn" data-index="{{index}}" bindtap="remove">×</button>
         </view>
         <view class="sentence-head">
-          <button class="audio-btn" data-index="{{index}}" bindtap="play">♪</button>
+          <button class="audio-btn" hover-class="audio-btn-hover" hover-stay-time="80" data-index="{{index}}" bindtap="play">♪</button>
           <view class="ja">{{item.ja}}</view>
         </view>
         <view class="zh">{{item.zh}}</view>

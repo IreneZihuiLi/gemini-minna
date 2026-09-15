@@ -16,6 +16,7 @@ Page({
     const index = Number(event.currentTarget.dataset.index);
     const item = this.data.collection[index];
     if (!item || !item.ja) return;
+    wx.vibrateShort({ type: "light", fail() {} });
     playPronunciation(item.ja);
   },
 

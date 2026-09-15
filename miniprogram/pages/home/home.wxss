@@ -60,16 +60,17 @@
 }
 
 .lesson-card {
-  margin: 0;
+  box-sizing: border-box;
   width: 100%;
-  padding: 24rpx 18rpx;
+  padding: 24rpx 20rpx;
   text-align: left;
   line-height: 1.35;
   min-width: 0;
   overflow: hidden;
+  transition: transform 0.08s ease, opacity 0.08s ease;
 }
 
-.lesson-card[disabled] {
+.lesson-card.disabled {
   opacity: 0.45;
 }
 
@@ -84,7 +85,7 @@
 .lesson-no {
   min-width: 0;
   color: #64748b;
-  font-size: 23rpx;
+  font-size: 24rpx;
   font-weight: 800;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -107,9 +108,9 @@
 }
 
 .lesson-title {
-  margin-top: 28rpx;
+  margin-top: 24rpx;
   color: #0f172a;
-  font-size: 37rpx;
+  font-size: 40rpx;
   font-weight: 900;
 }
 

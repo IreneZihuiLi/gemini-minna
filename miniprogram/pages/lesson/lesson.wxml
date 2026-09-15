@@ -9,7 +9,7 @@
 
   <view wx:if="{{!activeMode}}" class="mode-grid">
     <block wx:for="{{modeCards}}" wx:key="id">
-      <button class="mode-card plain-btn card {{item.color}}" data-mode="{{item.id}}" bindtap="chooseMode" disabled="{{item.disabled}}">
+      <view class="mode-card card {{item.color}} {{item.disabled ? 'disabled' : ''}}" hover-class="card-hover" hover-stay-time="80" data-mode="{{item.id}}" data-disabled="{{item.disabled}}" bindtap="chooseMode">
         <view class="mode-count">{{item.count}} {{item.suffix}}</view>
         <view class="mode-title">{{item.title}}</view>
         <view class="mode-desc">
@@ -18,7 +18,7 @@
           <text wx:elif="{{item.id === 'examples'}}">本课文型与例文。</text>
           <text wx:else>会话课文，中日对照。</text>
         </view>
-      </button>
+      </view>
     </block>
   </view>
 
@@ -34,7 +34,7 @@
         <view class="examples">
           <block wx:for="{{item.examples}}" wx:key="ja" wx:for-item="example">
             <view class="example-line">
-              <button class="audio-btn" data-text="{{example.ja}}" data-key="{{example.ja}}" bindtap="play">♪</button>
+              <button class="audio-btn" hover-class="audio-btn-hover" hover-stay-time="80" data-text="{{example.ja}}" data-key="{{example.ja}}" bindtap="play">♪</button>
               <view class="sentence">
                 <view class="ja">{{example.ja}}</view>
                 <view class="zh">{{example.zh}}</view>
@@ -58,7 +58,7 @@
               </view>
               <view class="word-title-line">
                 <view class="word-kanji">{{word.kanji}} <text>{{word.kana}}</text></view>
-                <button class="audio-btn" data-text="{{word.kanji}}" data-key="{{word.id}}" bindtap="play">♪</button>
+                <button class="audio-btn" hover-class="audio-btn-hover" hover-stay-time="80" data-text="{{word.kanji}}" data-key="{{word.id}}" bindtap="play">♪</button>
               </view>
               <view class="romaji">{{word.romaji}}</view>
               <view class="word-meaning">{{word.meaning}}</view>
@@ -81,7 +81,7 @@
             <block wx:for="{{word.sentences}}" wx:key="ja" wx:for-item="sentence">
               <view class="word-example">
                 <view class="sentence-head">
-                  <button class="audio-btn small" data-text="{{sentence.ja}}" data-key="{{word.id}}-{{sentence.index}}" bindtap="play">♪</button>
+                  <button class="audio-btn small" hover-class="audio-btn-hover" hover-stay-time="80" data-text="{{sentence.ja}}" data-key="{{word.id}}-{{sentence.index}}" bindtap="play">♪</button>
                   <view class="ja">{{sentence.ja}}</view>
                   <button class="bookmark plain-btn {{sentence.collected ? 'on' : ''}}" data-word-id="{{word.id}}" data-index="{{sentence.index}}" bindtap="toggleSentence">{{sentence.collected ? '★' : '☆'}}</button>
                 </view>
@@ -104,7 +104,7 @@
           <text class="content-title">{{item.title}}</text>
         </view>
         <view class="example-line">
-          <button class="audio-btn" data-text="{{item.ja}}" data-key="{{item.id}}" bindtap="play">♪</button>
+          <button class="audio-btn" hover-class="audio-btn-hover" hover-stay-time="80" data-text="{{item.ja}}" data-key="{{item.id}}" bindtap="play">♪</button>
           <view class="sentence">
             <view class="ja big">{{item.ja}}</view>
             <view class="zh">{{item.zh}}</view>
@@ -125,7 +125,7 @@
           <view class="dialogue-line">
             <view class="speaker">{{line.speaker}}</view>
             <view class="example-line">
-              <button class="audio-btn small" data-text="{{line.ja}}" data-key="{{item.id}}-{{lineIndex}}" bindtap="play">♪</button>
+              <button class="audio-btn small" hover-class="audio-btn-hover" hover-stay-time="80" data-text="{{line.ja}}" data-key="{{item.id}}-{{lineIndex}}" bindtap="play">♪</button>
               <view class="sentence">
                 <view class="ja">{{line.ja}}</view>
                 <view class="zh">{{line.zh}}</view>

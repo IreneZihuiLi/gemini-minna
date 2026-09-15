@@ -90,6 +90,7 @@ Page({
   },
 
   chooseMode(event) {
+    if (event.currentTarget.dataset.disabled) return;
     const mode = event.currentTarget.dataset.mode;
     this.setData({ activeMode: mode });
   },
@@ -99,6 +100,7 @@ Page({
   },
 
   play(event) {
+    wx.vibrateShort({ type: "light", fail() {} });
     playPronunciation(event.currentTarget.dataset.text);
   },
 

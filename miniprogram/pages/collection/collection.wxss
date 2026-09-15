@@ -79,31 +79,31 @@
 
 .sentence-head {
   display: grid;
-  grid-template-columns: 38rpx minmax(0, 1fr);
-  align-items: flex-start;
-  gap: 14rpx;
+  grid-template-columns: 72rpx minmax(0, 1fr);
+  align-items: center;
+  gap: 18rpx;
 }
 
 .ja {
   color: #1e293b;
-  font-size: 38rpx;
+  font-size: 42rpx;
   font-weight: 800;
-  line-height: 1.45;
+  line-height: 1.5;
 }
 
 .zh {
   margin-top: 12rpx;
-  margin-left: 52rpx;
+  margin-left: 90rpx;
   color: #64748b;
-  font-size: 30rpx;
+  font-size: 32rpx;
   line-height: 1.5;
 }
 
 .remove {
   flex: 0 0 auto;
   margin: 0;
-  width: 38rpx;
-  height: 38rpx;
+  width: 48rpx;
+  height: 48rpx;
   padding: 0;
   display: flex;
   align-items: center;

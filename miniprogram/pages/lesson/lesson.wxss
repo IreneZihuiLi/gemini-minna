@@ -37,16 +37,18 @@
 }
 
 .mode-card {
-  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
   min-height: 168rpx;
   padding: 28rpx 30rpx;
   text-align: left;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  transition: transform 0.08s ease, opacity 0.08s ease;
 }
 
-.mode-card[disabled] {
+.mode-card.disabled {
   opacity: 0.45;
 }
 
@@ -101,7 +103,7 @@
 .text-title {
   margin-top: 10rpx;
   color: #0f172a;
-  font-size: 40rpx;
+  font-size: 42rpx;
   font-weight: 900;
 }
 
@@ -111,7 +113,7 @@
   border-radius: 16rpx;
   background: #eef2ff;
   color: #4338ca;
-  font-size: 32rpx;
+  font-size: 34rpx;
   font-weight: 800;
 }
 
@@ -120,7 +122,7 @@
 .tip {
   margin-top: 18rpx;
   color: #475569;
-  font-size: 30rpx;
+  font-size: 31rpx;
   line-height: 1.6;
 }
 
@@ -139,7 +141,7 @@
 }
 
 .word-examples .sentence {
-  padding-left: 50rpx;
+  padding-left: 80rpx;
 }
 
 .word-example {
@@ -152,9 +154,9 @@
 
 .sentence-head {
   display: grid;
-  grid-template-columns: 38rpx minmax(0, 1fr) 38rpx;
-  align-items: flex-start;
-  gap: 12rpx;
+  grid-template-columns: 64rpx minmax(0, 1fr) 48rpx;
+  align-items: center;
+  gap: 16rpx;
 }
 
 .grammar-card .example-line,
@@ -166,21 +168,14 @@
 .grammar-card .audio-btn,
 .content-card .audio-btn,
 .text-card .audio-btn {
-  margin-top: 8rpx;
+  margin-top: 4rpx;
 }
 
 .example-line {
   display: flex;
   align-items: flex-start;
-  gap: 12rpx;
+  gap: 18rpx;
   padding: 20rpx 0;
-}
-
-.audio-btn.small {
-  width: 34rpx;
-  height: 34rpx;
-  min-width: 34rpx;
-  font-size: 18rpx;
 }
 
 .sentence {
@@ -190,19 +185,19 @@
 
 .ja {
   color: #1e293b;
-  font-size: 38rpx;
+  font-size: 42rpx;
   font-weight: 800;
-  line-height: 1.45;
+  line-height: 1.5;
 }
 
 .ja.big {
-  font-size: 40rpx;
+  font-size: 44rpx;
 }
 
 .zh {
   margin-top: 10rpx;
   color: #64748b;
-  font-size: 30rpx;
+  font-size: 32rpx;
   line-height: 1.5;
 }
 
@@ -220,7 +215,8 @@
 .word-title-line {
   display: flex;
   align-items: center;
-  gap: 12rpx;
+  justify-content: space-between;
+  gap: 20rpx;
   margin-top: 12rpx;
 }
 
@@ -238,30 +234,31 @@
 }
 
 .word-kanji {
+  flex: 1;
   min-width: 0;
   color: #0f172a;
-  font-size: 58rpx;
+  font-size: 64rpx;
   font-weight: 900;
   line-height: 1.25;
 }
 
 .word-kanji text {
   color: #4f46e5;
-  font-size: 40rpx;
+  font-size: 44rpx;
   font-weight: 800;
 }
 
 .romaji {
-  margin-top: 6rpx;
+  margin-top: 8rpx;
   color: #94a3b8;
-  font-size: 31rpx;
+  font-size: 32rpx;
   font-family: Menlo, Consolas, monospace;
 }
 
 .word-meaning {
   margin-top: 14rpx;
   color: #334155;
-  font-size: 36rpx;
+  font-size: 38rpx;
   font-weight: 800;
 }
 
@@ -315,15 +312,15 @@
 .bookmark {
   flex: 0 0 auto;
   margin: 0;
-  width: 38rpx;
-  height: 38rpx;
+  width: 48rpx;
+  height: 48rpx;
   padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   background: transparent;
   color: #cbd5e1;
-  font-size: 28rpx;
+  font-size: 36rpx;
   line-height: 1;
 }
 
@@ -350,8 +347,8 @@
 }
 
 .text-head {
-  margin: -28rpx -28rpx 18rpx;
-  padding: 26rpx 28rpx;
+  margin: -34rpx -34rpx 18rpx;
+  padding: 26rpx 34rpx;
   border-bottom: 1rpx solid #e2e8f0;
   background: #fff1f2;
 }
@@ -374,6 +371,6 @@
 
 .speaker {
   color: #e11d48;
-  font-size: 30rpx;
+  font-size: 32rpx;
   font-weight: 900;
 }

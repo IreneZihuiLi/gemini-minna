@@ -9,7 +9,7 @@
 
   <view class="lesson-grid">
     <block wx:for="{{lessons}}" wx:key="id">
-      <button class="lesson-card plain-btn card" data-id="{{item.id}}" bindtap="openLesson" disabled="{{!item.ready}}">
+      <view class="lesson-card card {{item.ready ? '' : 'disabled'}}" hover-class="card-hover" hover-stay-time="80" data-id="{{item.id}}" data-ready="{{item.ready}}" bindtap="openLesson">
         <view class="lesson-top">
           <text class="lesson-no">Lesson {{item.id}}</text>
           <text class="status {{item.ready ? 'ready' : ''}}">{{item.ready ? 'READY' : 'SOON'}}</text>
@@ -21,7 +21,7 @@
           <text>{{item.exampleCount}} 例句</text>
           <text>{{item.textCount}} 课文</text>
         </view>
-      </button>
+      </view>
     </block>
   </view>
 </view>
