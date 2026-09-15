@@ -6,6 +6,8 @@
 
 This is a local Japanese study app for vocabulary, grammar cards, examples, texts, verb forms, romaji, and pronunciation. The app itself makes no API calls: pronunciation clips are generated once with an LLM-based TTS model (OpenAI gpt-4o-mini-tts, see below) and shipped as static files.
 
+The vocabulary lists and grammar points follow the lesson order of *Minna no Nihongo Shokyu I/II* (2nd edition), but every vocabulary example sentence, grammar explanation and grammar example in `data/staticLessons.ts` and `data/staticGrammar.ts` is written independently for this app rather than copied from the textbook. `scripts/dump_content.cjs` lists the entries per lesson and `scripts/apply_rewrite.cjs <dir>` merges `L<n>.json` rewrite files back into the data files.
+
 ## Run Locally
 
 **Prerequisites:**  Node.js
