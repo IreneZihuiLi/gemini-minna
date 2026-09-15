@@ -19,7 +19,7 @@ This is a local Japanese study app for vocabulary, grammar cards, examples, text
 
 Open the `miniprogram/` folder in WeChat Developer Tools. Lesson data is bundled (`miniprogram/utils/lessonData.js`, regenerate it with `node scripts/build_miniprogram_data.cjs` after editing `data/*.ts`).
 
-Pronunciation clips are **not** bundled (they would exceed the package size limits). The mini program downloads each clip on first play from `AUDIO_BASE_URL` in `miniprogram/utils/config.js` (by default the GitHub Pages copy of `public/audio/`) and caches it in local storage.
+Pronunciation clips are **not** bundled (they would exceed the package size limits). The mini program streams each clip from `AUDIO_BASE_URL` in `miniprogram/utils/config.js` (by default the GitHub Pages copy of `public/audio/`) and, where `wx.downloadFile` is allowed, caches it in local storage for next time.
 
 - In WeChat DevTools tick 不校验合法域名 (project.config.json already sets `urlCheck: false`).
 - For a published mini program the audio host must be listed under 服务器域名 → downloadFile 合法域名 and be ICP-filed, so upload `public/audio/` to your own server/CDN and change `AUDIO_BASE_URL`.

@@ -137,30 +137,62 @@ function removeFile(path) {
   }
 }
 
-function downloadAndPlay(text, path) {
+function explainFailure(error) {
+  const msg = (error && (error.errMsg || error.errMsg === "" ? error.errMsg : String(error))) || "";
+  if (/domain list|合法域名/i.test(msg)) {
+    return "音频域名未配置：请在真机打开调试模式，或在小程序后台配置 downloadFile 合法域名";
+  }
+  if (/timeout|time out/i.test(msg)) return "音频下载超时，请检查网络";
+  return msg ? `音频加载失败：${msg.slice(0, 60)}` : "音频加载失败";
+}
+
+// Download the clip into the cache directory; resolves with the local path.
+function download(text, path, onSuccess, onFailure) {
   wx.downloadFile({
     url: remoteUrl(text),
     filePath: path,
     success: (res) => {
       if (res.statusCode === 200) {
-        playSource(res.filePath || path, () => {
-          removeFile(path);
-          toast("音频播放失败");
-        });
+        onSuccess(res.filePath || path);
       } else {
         removeFile(path);
-        toast(res.statusCode === 404 ? "没有找到这条音频" : `音频下载失败 (${res.statusCode})`);
+        onFailure({ errMsg: res.statusCode === 404 ? "没有这条音频 (404)" : `HTTP ${res.statusCode}` });
       }
     },
     fail: (error) => {
-      console.warn("Audio download failed", remoteUrl(text), error);
       removeFile(path);
-      toast("音频下载失败，请检查网络或域名设置");
+      onFailure(error);
     }
   });
 }
 
-/** Play the pronunciation clip for `text` (downloading and caching it on first use). */
+// Second attempt after direct streaming failed: download, then play the file.
+function downloadAndPlay(text, path, streamError) {
+  download(
+    text,
+    path,
+    (localFile) => playSource(localFile, (error) => {
+      removeFile(path);
+      toast(explainFailure(error));
+    }),
+    (error) => {
+      console.warn("Audio unavailable", remoteUrl(text), streamError, error);
+      toast(explainFailure(error));
+    }
+  );
+}
+
+// Play straight from the remote URL (starts immediately, no whitelist needed for
+// media sources on most base libraries) and cache a copy quietly for next time.
+function playRemote(text, path) {
+  playSource(remoteUrl(text), (error) => {
+    console.warn("Streaming failed, trying download", remoteUrl(text), error);
+    downloadAndPlay(text, path, error);
+  });
+  download(text, path, () => {}, () => {});
+}
+
+/** Play the pronunciation clip for `text` (cached copy first, otherwise streamed). */
 function playPronunciation(text) {
   if (!text) return;
   ensureCacheDir();
@@ -174,13 +206,13 @@ function playPronunciation(text) {
   }
   if (cached) {
     playSource(path, () => {
-      // corrupt cache entry: drop it and fetch again
+      // corrupt cache entry: drop it and stream instead
       removeFile(path);
-      downloadAndPlay(text, path);
+      playRemote(text, path);
     });
     return;
   }
-  downloadAndPlay(text, path);
+  playRemote(text, path);
 }
 
 /** Remove every cached clip (e.g. after changing AUDIO_BASE_URL). */
