@@ -26,3 +26,7 @@ miniprogram/project.private.config.json
 
 # Python
 __pycache__/
+
+# WeChat mini program upload key (never commit)
+private.*.key
+miniprogram-preview.png

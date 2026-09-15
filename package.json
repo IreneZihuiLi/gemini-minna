@@ -1,12 +1,16 @@
 {
   "name": "minna-no-nihongo",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "mp:data": "node scripts/build_miniprogram_data.cjs",
+    "mp:upload": "node scripts/upload_miniprogram.cjs",
+    "mp:preview": "node scripts/upload_miniprogram.cjs --preview",
+    "audio": "python3 scripts/generate_audio.py"
   },
   "dependencies": {
     "react": "^19.2.1",
@@ -15,6 +19,7 @@
   "devDependencies": {
     "@types/node": "^22.14.0",
     "@vitejs/plugin-react": "^5.0.0",
+    "miniprogram-ci": "^2.1.31",
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
   }

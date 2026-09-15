@@ -1,0 +1,41 @@
+name: Upload WeChat Mini Program
+
+# Uploads miniprogram/ as a new development version whenever it changes on main.
+# Needs the repository secret WX_MP_PRIVATE_KEY (content of the upload key from
+# 小程序后台 → 开发管理 → 开发设置 → 小程序代码上传) and the IP whitelist for
+# code upload switched off in the same page (GitHub runners have no fixed IP).
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "miniprogram/**"
+      - "package.json"
+      - "scripts/upload_miniprogram.cjs"
+      - ".github/workflows/miniprogram.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: "miniprogram-upload"
+  cancel-in-progress: false
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Upload to WeChat
+        env:
+          MP_PRIVATE_KEY: ${{ secrets.WX_MP_PRIVATE_KEY }}
+          MP_DESC: "${{ github.event.head_commit.message }}"
+        run: |
+          if [ -z "$MP_PRIVATE_KEY" ]; then
+            echo "::warning::WX_MP_PRIVATE_KEY secret is not set; skipping the upload."
+            exit 0
+          fi
+          export MP_DESC="$(printf '%s' "$MP_DESC" | head -n 1 | cut -c1-80) (${GITHUB_SHA::7})"
+          node scripts/upload_miniprogram.cjs
