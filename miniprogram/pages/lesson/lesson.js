@@ -1,5 +1,5 @@
 const { STATIC_LESSONS, STATIC_GRAMMAR, STATIC_LESSON_CONTENT } = require("../../utils/lessonData");
-const { playPronunciation } = require("../../utils/speech");
+const { playPronunciation } = require("../../utils/audio");
 const { isCollected, toggleCollection } = require("../../utils/collection");
 
 const CATEGORY_ORDER = ["Nouns", "Verbs", "Adjectives", "Adverbs", "Expressions", "Grammar", "Others"];
@@ -99,9 +99,7 @@ Page({
   },
 
   play(event) {
-    const text = event.currentTarget.dataset.text;
-    const key = event.currentTarget.dataset.key;
-    playPronunciation(text, key);
+    playPronunciation(event.currentTarget.dataset.text);
   },
 
   toggleSentence(event) {
@@ -115,7 +113,8 @@ Page({
       ja: sentence.ja,
       zh: sentence.zh,
       sourceKanji: word.kanji,
-      sourceMeaning: word.meaning
+      sourceMeaning: word.meaning,
+      sourceLessonId: this.data.lessonId
     });
 
     this.setData({

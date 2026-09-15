@@ -1,4 +1,5 @@
-// Generated from data/staticLessons.ts, data/staticGrammar.ts, and data/staticLessonContent.ts.
+// Generated from data/staticLessons.ts, data/staticGrammar.ts, and data/staticLessonContent.ts
+// by scripts/build_miniprogram_data.cjs. Do not edit by hand.
 // Keep this file local to the WeChat Mini Program; it contains no API calls.
 
 const STATIC_LESSONS = {

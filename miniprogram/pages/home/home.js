@@ -30,9 +30,8 @@ Page({
 
   openLesson(event) {
     const lessonId = event.currentTarget.dataset.id;
-    const lessonCode = String(lessonId).padStart(2, "0");
     wx.navigateTo({
-      url: `/pkg_l${lessonCode}/pages/lesson/lesson?id=${lessonId}`
+      url: `/pages/lesson/lesson?id=${lessonId}`
     });
   },
 

@@ -2,8 +2,9 @@
 """Generate pronunciation audio for every Japanese text in the app with an
 LLM-based TTS model (OpenAI gpt-4o-mini-tts by default, or Gemini TTS).
 
-Output: public/audio/a_<sha1-16>.m4a (one file per unique text, same naming
-scheme the mini program uses) plus miniprogram/utils/speech.js.
+Output: public/audio/a_<sha1-16>.m4a, one file per unique text. The web app
+serves these from public/, and the mini program streams the same files from
+AUDIO_BASE_URL (miniprogram/utils/config.js) once they are deployed.
 
 Usage:
   python3 scripts/generate_audio.py                                   # all missing texts, OpenAI
@@ -27,7 +28,6 @@ import time
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DEFAULT_OUT = os.path.join(ROOT, "public", "audio")
-SPEECH_FILE = os.path.join(ROOT, "miniprogram", "utils", "speech.js")
 MANIFEST_NAME = "manifest.json"
 
 
@@ -228,55 +228,6 @@ class GeminiGenerator:
                 time.sleep(delay)
 
 
-def write_speech_js(entries):
-    body = "const LOCAL_AUDIO = " + json.dumps(entries, ensure_ascii=False, indent=2) + ";\n"
-    body += """
-function playPronunciation(text, audioKey) {
-  const src = LOCAL_AUDIO[audioKey] || LOCAL_AUDIO[text];
-
-  if (!src) {
-    wx.showToast({
-      title: "没有找到本地音频",
-      icon: "none"
-    });
-    return;
-  }
-
-  const sources = src.startsWith("/") ? [src, src.slice(1)] : [src, `/${src}`];
-  let index = 0;
-
-  const playSource = () => {
-    const audio = wx.createInnerAudioContext();
-    audio.src = sources[index];
-    audio.obeyMuteSwitch = false;
-    audio.onError((error) => {
-      console.warn("Audio playback failed", sources[index], error);
-      audio.destroy();
-      index += 1;
-      if (index < sources.length) {
-        playSource();
-      } else {
-        wx.showToast({
-          title: "音频播放失败",
-          icon: "none"
-        });
-      }
-    });
-    audio.onEnded(() => audio.destroy());
-    audio.play();
-  };
-
-  playSource();
-}
-
-module.exports = {
-  playPronunciation
-};
-"""
-    with open(SPEECH_FILE, "w", encoding="utf-8") as f:
-        f.write(body)
-
-
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--provider", choices=["openai", "gemini"], default=os.environ.get("TTS_PROVIDER", "openai"))
@@ -291,7 +242,6 @@ def main():
     ap.add_argument("--limit", type=int, default=0, help="only generate the first N missing texts")
     ap.add_argument("--text", action="append", help="generate only these texts (repeatable)")
     ap.add_argument("--force", action="store_true", help="regenerate even if the file exists")
-    ap.add_argument("--no-speech-js", action="store_true")
     ap.add_argument("--no-kana", action="store_true", help="read headwords as written instead of from their kana")
     ap.add_argument("--headwords-only", action="store_true", help="only (re)generate vocabulary headwords")
     args = ap.parse_args()
@@ -380,9 +330,6 @@ def main():
 
     with open(manifest_path, "w", encoding="utf-8") as f:
         json.dump(manifest, f, ensure_ascii=False, indent=1)
-    if not args.no_speech_js and not args.text:
-        all_entries = {t: f"/assets/audio/a_{file_hash(t)}.m4a" for t in list_texts()}
-        write_speech_js(all_entries)
     # sanity: clips that are suspiciously long for their text (instruction read aloud?) or empty
     odd = [(t, m["duration"], len(m["spoken"])) for t, m in manifest.items()
            if m["duration"] < 0.3 or m["duration"] > 2.5 + 0.35 * len(m["spoken"])]
