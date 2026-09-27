@@ -257,6 +257,12 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
   const word = words[index];
   // 默写 (recall) gives no pronunciation until the word is answered.
   const hasAudio = stage !== 'recall';
+  // Touch devices need a focused text field to show a keyboard. On desktop we
+  // deliberately focus nothing and read keys from the window: with no editable
+  // element focused the OS input method (Chinese/Japanese IME) never composes,
+  // so romaji can be typed whatever input source is selected.
+  const touchDevice = useMemo(() => typeof window !== 'undefined' && window.matchMedia('(pointer: coarse)').matches, []);
+  const actionsRef = useRef({ feed: (_text: string) => {}, peek: () => {}, replay: () => {}, quit: () => {} });
   const [typing, setTyping] = useState<MultiState>(() => createMultiState(wordTargets(word, matching)));
   const [mistakes, setMistakes] = useState(0);
   const [failed, setFailed] = useState(false);
@@ -300,8 +306,41 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
     setFeedback(null);
     startRef.current = Date.now();
     if (hasAudio) playText(word.kanji, { rate: preset.rate });
-    inputRef.current?.focus();
-  }, [index, word, preset, matching, hasAudio]);
+    if (touchDevice) {
+      inputRef.current?.focus();
+      // Programmatic focus can be refused without a user gesture; show the tap overlay only then.
+      setFocused(document.activeElement === inputRef.current);
+    }
+  }, [index, word, preset, matching, hasAudio, touchDevice]);
+
+  // Desktop keyboard: listen on the window, keep nothing focused.
+  useEffect(() => {
+    if (touchDevice) return;
+    const active = document.activeElement as HTMLElement | null;
+    if (active && active !== document.body && typeof active.blur === 'function') active.blur();
+    const onWindowKeyDown = (event: KeyboardEvent) => {
+      const target = event.target as HTMLElement | null;
+      if (target && target !== inputRef.current &&
+        (target.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(target.tagName))) return;
+      if (event.metaKey || event.ctrlKey || event.altKey) return;
+      const actions = actionsRef.current;
+      if (event.key === 'Tab') {
+        event.preventDefault();
+        actions.peek();
+      } else if (event.key === ' ') {
+        event.preventDefault();
+        actions.replay();
+      } else if (event.key === 'Escape') {
+        event.preventDefault();
+        actions.quit();
+      } else if (/^[a-zA-Z'\-]$/.test(event.key)) {
+        event.preventDefault();
+        actions.feed(event.key);
+      }
+    };
+    window.addEventListener('keydown', onWindowKeyDown);
+    return () => window.removeEventListener('keydown', onWindowKeyDown);
+  }, [touchDevice]);
 
   const sentenceHint = useMemo(
     () => (preset.sentenceHint && stage !== 'dictation' ? blankSentence(word) : null),
@@ -397,9 +436,13 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
     if (ascii) feed(ascii);
   };
 
-  // Desktop path: every keystroke arrives here. While an IME is composing the
-  // key is reported as 229/isComposing and the input event below handles it.
+  actionsRef.current = { feed, peek, replay, quit: () => onQuit(resultsRef.current) };
+
+  // Touch path: keys typed into the hidden field. While an IME or the phone
+  // keyboard is composing, the key is reported as 229/isComposing and the input
+  // event below handles it instead.
   const onKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
+    if (!touchDevice) return;
     const native = event.nativeEvent as KeyboardEvent;
     if (native.isComposing || native.keyCode === 229) return;
     if (event.key === 'Tab') {
@@ -421,6 +464,7 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
   // Input path: phone keyboards (no usable keydown) and IME compositions. The
   // value is only cleared outside a composition, so the IME is never cut off.
   const onInput = (event: React.FormEvent<HTMLInputElement>) => {
+    if (!touchDevice) return;
     const input = event.currentTarget;
     const native = event.nativeEvent as InputEvent;
     const data = native.data ?? '';
@@ -443,7 +487,9 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
   };
 
   const keepFocus = (event: React.MouseEvent) => event.preventDefault();
-  const focusInput = () => inputRef.current?.focus();
+  const focusInput = () => {
+    if (touchDevice) inputRef.current?.focus();
+  };
 
   const reveal = failed || peeking || feedback !== null;
   const showKanji = stage === 'shadow' || reveal;
@@ -569,13 +615,13 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
 
         {imeWarning && <p className="mt-3 text-sm text-rose-500 font-bold">检测到中文或日文输入法，请切换成英文输入后继续打</p>}
 
-        {!focused && !feedback && (
+        {touchDevice && !focused && !feedback && (
           <div className="absolute inset-0 rounded-3xl bg-white/80 backdrop-blur-sm flex items-center justify-center text-lg font-bold text-indigo-600">
             点击这里开始输入
           </div>
         )}
       </div>
-      <p className="mt-4 text-center text-xs text-slate-400 font-medium">用罗马音打假名 · {hasAudio ? '空格 重播发音 · ' : '默写模式没有发音 · '}Tab 偷看 · Esc 退出</p>
+      <p className="mt-4 text-center text-xs text-slate-400 font-medium">{touchDevice ? '点击卡片弹出键盘' : '直接打字即可，中文输入法开着也没关系'} · 用罗马音打假名 · {hasAudio ? '空格 重播发音 · ' : '默写模式没有发音 · '}Tab 偷看 · Esc 退出</p>
     </div>
   );
 };
