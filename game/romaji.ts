@@ -304,3 +304,66 @@ export function isMultiComplete(state: MultiState): boolean {
 export function trackKana(track: TypingState): string {
   return track.units.map(unit => unit.kana).join('');
 }
+
+// ---------------------------------------------------------------- free typing (judge on Enter)
+
+// romaji option -> kana, for converting free input the way an IME shows it.
+// COMBO first so that e.g. "wi" shows うぃ rather than ゐ.
+const REVERSE = new Map<string, string>();
+for (const [pair, options] of Object.entries(COMBO)) for (const option of options) if (!REVERSE.has(option)) REVERSE.set(option, pair);
+for (const [kana, options] of Object.entries(BASE)) for (const option of options) if (!REVERSE.has(option)) REVERSE.set(option, kana);
+const LONGEST_OPTION = 4;
+
+/**
+ * Convert freely typed romaji to kana like an IME preview: "gakkou" → がっこう,
+ * "kon" → こ + pending "n". Whatever cannot form a syllable yet is returned as
+ * `pending` so it can be shown as romaji.
+ */
+export function romajiToKana(input: string): { kana: string; pending: string } {
+  const s = input.toLowerCase();
+  let out = '';
+  let i = 0;
+  while (i < s.length) {
+    const ch = s[i];
+    if (ch === 'n') {
+      const next = s[i + 1];
+      if (next === 'n' || next === "'") { out += 'ん'; i += 2; continue; }
+      if (next !== undefined && !VOWELS.includes(next) && next !== 'y') { out += 'ん'; i += 1; continue; }
+    }
+    if (!VOWELS.includes(ch) && ch !== 'n' && ch !== '-' && ch !== "'" && s[i + 1] === ch && s.length > i + 2) {
+      out += 'っ';
+      i += 1;
+      continue;
+    }
+    let matched = false;
+    for (let len = Math.min(LONGEST_OPTION, s.length - i); len >= 1; len--) {
+      const kana = REVERSE.get(s.slice(i, i + len));
+      if (kana) { out += kana; i += len; matched = true; break; }
+    }
+    if (!matched) break;
+  }
+  return { kana: out, pending: s.slice(i) };
+}
+
+/**
+ * Whether a freely typed romaji string spells one of the target readings,
+ * using exactly the same acceptance rules as live typing. A lone final "n"
+ * counts as ん, as an IME would convert it on Enter.
+ */
+export function acceptsSpelling(targets: string[], romaji: string): boolean {
+  let s = romaji.toLowerCase().replace(/[^a-z'\-]/g, '');
+  if (/(^|[^n])n$/.test(s)) s += 'n';
+  if (!s) return false;
+  let state: MultiState;
+  try {
+    state = createMultiState(targets);
+  } catch {
+    return false;
+  }
+  for (const ch of s) {
+    const outcome = pressKeyMulti(state, ch);
+    if (outcome.result === 'miss') return false;
+    state = outcome.state;
+  }
+  return isMultiComplete(state);
+}

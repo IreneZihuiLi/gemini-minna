@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { VocabularyItem } from '../types';
 import { playText, stopAudio } from '../services/audio';
-import { MultiState, activeTrack, createMultiState, isMultiComplete, pressKeyMulti, remainingRomaji, trackKana, unitViews } from '../game/romaji';
+import { MultiState, acceptsSpelling, activeTrack, createMultiState, isMultiComplete, pressKeyMulti, remainingRomaji, romajiToKana, trackKana, unitViews } from '../game/romaji';
 import { ProgressMap, isMastered, isWeak, loadProgress, loadSettings, recordResults, saveSettings } from '../game/progress';
 import {
   DEFAULT_CONFIG, Difficulty, GameConfig, GameMode, LADDER_STAGES, MATCHING_INFO, MODE_INFO, Matching, PASS_RATE, PRESETS, Preset,
@@ -271,13 +271,16 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
   const [index, setIndex] = useState(0);
   const word = words[index];
   // 默写 (recall) gives no pronunciation until the word is answered.
-  const hasAudio = stage !== 'recall';
+  // Hard difficulty judges on Enter: only the meaning is given (听写 still plays
+  // the clip once, 跟打 still shows the kanji) and there is no live checking.
+  const enterJudge = preset.judge === 'enter';
+  const hasAudio = stage === 'dictation' || (stage !== 'recall' && !enterJudge);
   // Touch devices need a focused text field to show a keyboard. On desktop we
   // deliberately focus nothing and read keys from the window: with no editable
   // element focused the OS input method (Chinese/Japanese IME) never composes,
   // so romaji can be typed whatever input source is selected.
   const touchDevice = useMemo(() => typeof window !== 'undefined' && window.matchMedia('(pointer: coarse)').matches, []);
-  const actionsRef = useRef({ feed: (_text: string) => {}, peek: () => {}, replay: () => {}, quit: () => {} });
+  const actionsRef = useRef({ feed: (_text: string) => {}, peek: () => {}, replay: () => {}, quit: () => {}, backspace: () => {}, submit: () => {} });
   const [lastKeyInfo, setLastKeyInfo] = useState('');
   const lastKeyRef = useRef({ letter: '', at: 0 });
   const [typing, setTyping] = useState<MultiState>(() => createMultiState(wordTargets(word, matching)));
@@ -289,6 +292,9 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
   const [peeking, setPeeking] = useState(false);
   const [focused, setFocused] = useState(false);
   const [imeWarning, setImeWarning] = useState(false);
+  // Free input for the Enter-judged difficulty (romaji as typed).
+  const [freeInput, setFreeInput] = useState('');
+  const freeInputRef = useRef('');
   const [feedback, setFeedback] = useState<RoundResult | null>(null);
 
   const resultsRef = useRef<RoundResult[]>([]);
@@ -321,6 +327,9 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
     setPeeksUsed(0);
     setPeeking(false);
     setFeedback(null);
+    setFreeInput('');
+    freeInputRef.current = '';
+    if (inputRef.current) inputRef.current.value = '';
     startRef.current = Date.now();
     if (hasAudio) playText(word.kanji, { rate: preset.rate });
     if (touchDevice) {
@@ -352,6 +361,12 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
       } else if (event.key === 'Escape') {
         event.preventDefault();
         actions.quit();
+      } else if (event.key === 'Backspace') {
+        event.preventDefault();
+        actions.backspace();
+      } else if (event.key === 'Enter') {
+        event.preventDefault();
+        actions.submit();
       } else if (letter) {
         event.preventDefault();
         // The same key reported twice within 30 ms is a duplicate delivery, not a second keystroke.
@@ -419,8 +434,44 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
     }, delay);
   };
 
+  const setFree = (value: string) => {
+    const clean = value.toLowerCase().replace(/[^a-z'\-]/g, '');
+    freeInputRef.current = clean;
+    setFreeInput(clean);
+  };
+
+  const backspaceFree = () => {
+    if (!enterJudge || feedback) return;
+    setFree(freeInputRef.current.slice(0, -1));
+  };
+
+  // Enter-judged difficulty: check the whole answer at once, with the same
+  // accepted spellings as live typing.
+  const submitFree = () => {
+    if (!enterJudge || feedback) return;
+    const answer = freeInputRef.current;
+    if (!answer) return;
+    const correct = acceptsSpelling(wordTargets(word, matching), answer);
+    const result: RoundResult = { word, correct, mistakes: correct ? 0 : 1, ms: Date.now() - startRef.current };
+    resultsRef.current = [...resultsRef.current, result];
+    setFeedback(result);
+    triggerFlash(correct ? 'ok' : 'miss');
+    playText(word.kanji, { rate: preset.rate });
+    later(() => {
+      if (index + 1 < words.length) setIndex(index + 1);
+      else onFinish(resultsRef.current);
+    }, correct ? 1200 : 2200);
+  };
+
   const feed = (text: string) => {
     if (feedback) return;
+    if (enterJudge) {
+      for (const raw of text) {
+        if (raw === ' ') replay();
+      }
+      setFree(freeInputRef.current + text.replace(/ /g, ''));
+      return;
+    }
     let state = typing;
     let missed = 0;
     let completed = false;
@@ -459,7 +510,7 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
     if (ascii) feed(ascii);
   };
 
-  actionsRef.current = { feed, peek, replay, quit: () => onQuit(resultsRef.current) };
+  actionsRef.current = { feed, peek, replay, quit: () => onQuit(resultsRef.current), backspace: backspaceFree, submit: submitFree };
 
   // Touch path: keys typed into the hidden field. While an IME or the phone
   // keyboard is composing, the key is reported as 229/isComposing and the input
@@ -468,6 +519,11 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
     if (!touchDevice) return;
     const native = event.nativeEvent as KeyboardEvent;
     if (native.isComposing || native.keyCode === 229) return;
+    if (event.key === 'Enter') {
+      event.preventDefault();
+      submitFree();
+      return;
+    }
     if (event.key === 'Tab') {
       event.preventDefault();
       peek();
@@ -489,6 +545,12 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
   const onInput = (event: React.FormEvent<HTMLInputElement>) => {
     if (!touchDevice) return;
     const input = event.currentTarget;
+    if (enterJudge) {
+      if (feedback) { input.value = ''; return; }
+      if (/[^\x00-\x7f]/.test(input.value)) setImeWarning(true);
+      setFree(input.value);
+      return;
+    }
     const native = event.nativeEvent as InputEvent;
     const data = native.data ?? '';
     if (native.inputType === 'insertCompositionText' || native.isComposing) {
@@ -506,6 +568,13 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
   const onCompositionEnd = (event: React.CompositionEvent<HTMLInputElement>) => {
     if (/[^\x00-\x7f]/.test(event.data || '')) setImeWarning(true);
     compositionRef.current = '';
+    if (enterJudge) {
+      // keep the romaji, drop anything the IME converted
+      const clean = event.currentTarget.value.toLowerCase().replace(/[^a-z'\-]/g, '');
+      event.currentTarget.value = clean;
+      setFree(clean);
+      return;
+    }
     event.currentTarget.value = '';
   };
 
@@ -521,7 +590,8 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
   const showMeaning = stage !== 'dictation' || failed || feedback !== null;
   const track = activeTrack(typing);
   const views = unitViews(track);
-  const typedKana = trackKana(track);
+  const freeKana = romajiToKana(freeInput);
+  const typedKana = enterJudge ? freeKana.kana + freeKana.pending : trackKana(track);
   const listedKana = trackKana(activeTrack(createMultiState(wordTargets(word, 'strict'))));
   const answered = resultsRef.current.length;
   const correctCount = resultsRef.current.filter(result => result.correct).length;
@@ -562,6 +632,7 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
           autoCorrect="off"
           autoComplete="off"
           spellCheck={false}
+          enterKeyHint="done"
           onInput={onInput}
           onKeyDown={onKeyDown}
           onFocus={() => setFocused(true)}
@@ -591,6 +662,20 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
           )}
         </div>
 
+        {enterJudge ? (
+          <div className="mt-6">
+            {showKanji && kanjiDiffers && <p className="text-3xl font-black text-slate-700 mb-2">{word.kanji}</p>}
+            {feedback && <p className="text-4xl font-black text-slate-800 tracking-wider">{word.kana}</p>}
+            {!feedback && (
+              <div className="text-4xl font-black tracking-wider min-h-[3rem]">
+                <span className="text-slate-800">{freeKana.kana}</span>
+                <span className="text-indigo-400">{freeKana.pending}</span>
+                <span className="text-slate-300 animate-pulse">|</span>
+              </div>
+            )}
+            <p className="mt-3 text-xs text-slate-400 font-medium">{feedback ? '' : '自己输入，按回车判定，退格可以修改'}</p>
+          </div>
+        ) : (
         <div className="mt-6">
           {showKanji && kanjiDiffers && <p className="text-3xl font-black text-slate-700 mb-2">{word.kanji}</p>}
           <div className="flex flex-wrap justify-center gap-1 text-4xl font-black tracking-wider min-h-[3rem]">
@@ -612,11 +697,12 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
               : !isMultiComplete(typing) && <span className="text-slate-300 animate-pulse">|</span>}
           </div>
         </div>
+        )}
 
         {feedback && (
           <div className={`mt-6 rounded-xl px-4 py-2 text-sm font-bold ${feedback.correct ? 'bg-emerald-50 text-emerald-600' : 'bg-rose-50 text-rose-500'}`}>
-            {feedback.correct ? '正确' : '记错了'} · {word.kanji} {kanjiDiffers ? word.kana : ''} · {word.meaning}
-            {typedKana !== listedKana && <span className="ml-2 text-slate-500">你打的是 {typedKana}</span>}
+            {feedback.correct ? '正确' : (enterJudge ? '不对' : '记错了')} · {word.kanji} {kanjiDiffers ? word.kana : ''} · {word.meaning}
+            {typedKana !== listedKana && <span className="ml-2 text-slate-500">你打的是 {typedKana || '（空）'}</span>}
           </div>
         )}
         {failed && !feedback && (
@@ -631,9 +717,16 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
               <PlayIcon /> 重播{preset.replays != null && ` (${replaysLeft})`}
             </button>
           )}
-          <button type="button" onMouseDown={keepFocus} onClick={peek} disabled={peeksLeft <= 0 || failed || feedback !== null} className="px-4 py-2 rounded-full bg-slate-100 text-slate-600 hover:bg-slate-200 disabled:opacity-40">
-            偷看{preset.peeks != null && ` (${peeksLeft})`}
-          </button>
+          {!enterJudge && (
+            <button type="button" onMouseDown={keepFocus} onClick={peek} disabled={peeksLeft <= 0 || failed || feedback !== null} className="px-4 py-2 rounded-full bg-slate-100 text-slate-600 hover:bg-slate-200 disabled:opacity-40">
+              偷看{preset.peeks != null && ` (${peeksLeft})`}
+            </button>
+          )}
+          {enterJudge && (
+            <button type="button" onMouseDown={keepFocus} onClick={submitFree} disabled={feedback !== null || !freeInput} className="px-5 py-2 rounded-full bg-indigo-600 text-white hover:bg-indigo-700 disabled:opacity-40">
+              判定（回车）
+            </button>
+          )}
         </div>
 
         {imeWarning && <p className="mt-3 text-sm text-rose-500 font-bold">检测到中文或日文输入法，请切换成英文输入后继续打</p>}
@@ -644,7 +737,7 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
           </div>
         )}
       </div>
-      <p className="mt-4 text-center text-xs text-slate-400 font-medium">{touchDevice ? '点击卡片弹出键盘' : '直接打字即可，中文输入法开着也没关系'} · 用罗马音打假名 · {hasAudio ? '空格 重播发音 · ' : '默写模式没有发音 · '}Tab 偷看 · Esc 退出</p>
+      <p className="mt-4 text-center text-xs text-slate-400 font-medium">{touchDevice ? '点击卡片弹出键盘' : '直接打字即可，中文输入法开着也没关系'} · 用罗马音打假名 · {enterJudge ? '回车判定 · 退格修改 · ' : hasAudio ? '空格 重播发音 · Tab 偷看 · ' : '没有发音 · Tab 偷看 · '}Esc 退出</p>
       {lastKeyInfo && <p className="mt-1 text-center text-[11px] text-slate-300 font-mono">上次按键 {lastKeyInfo}</p>}
     </div>
   );

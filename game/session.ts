@@ -52,6 +52,8 @@ export interface Preset {
   rate: number;
   /** Extra plays after the automatic one; null = unlimited. */
   replays: number | null;
+  /** live: every keystroke is checked as it is typed; enter: type freely, judge on Enter. */
+  judge: 'live' | 'enter';
 }
 
 export const PRESETS: Record<Difficulty, Preset> = {
@@ -59,19 +61,19 @@ export const PRESETS: Record<Difficulty, Preset> = {
     label: '简单',
     desc: '汉字＋假名＋罗马音；给出词长；例句挖空提示；错了只标红；发音 0.75×，可无限重播和偷看。',
     shadowLayers: 'kanji-kana-romaji', slots: 'length', peeks: null, sentenceHint: true,
-    maxMistakes: null, rate: 0.75, replays: null,
+    maxMistakes: null, rate: 0.75, replays: null, judge: 'live',
   },
   standard: {
     label: '标准',
     desc: '汉字＋假名；只给词长；错 3 次显示答案并记错；发音 1×，最多重播 3 次，Tab 偷看 1 次。',
     shadowLayers: 'kanji-kana', slots: 'length', peeks: 1, sentenceHint: false,
-    maxMistakes: 3, rate: 1, replays: 3,
+    maxMistakes: 3, rate: 1, replays: 3, judge: 'live',
   },
   hard: {
     label: '困难',
-    desc: '跟打只给汉字；不给词长；错 1 次即判错；发音 1.25×，只播一次。',
+    desc: '只给中文意思，不给发音和提示；自己输入完按回车判定，可退格修改，判定同样按宽松／严格。跟打只显示汉字，听写只播一次发音。',
     shadowLayers: 'kanji', slots: 'none', peeks: 0, sentenceHint: false,
-    maxMistakes: 1, rate: 1.25, replays: 0,
+    maxMistakes: null, rate: 1.25, replays: 0, judge: 'enter',
   },
 };
 
