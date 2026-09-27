@@ -2738,7 +2738,7 @@ const STATIC_LESSONS = {
         "dictionary": "ある",
         "masu": "あります",
         "te": "あって",
-        "nai": "あらない",
+        "nai": "ない",
         "ta": "あった"
       },
       "sentences": [
@@ -2836,7 +2836,7 @@ const STATIC_LESSONS = {
         "dictionary": "ある",
         "masu": "あります",
         "te": "あって",
-        "nai": "あらない",
+        "nai": "ない",
         "ta": "あった"
       },
       "sentences": [
@@ -3128,7 +3128,7 @@ const STATIC_LESSONS = {
         "dictionary": "ある",
         "masu": "あります",
         "te": "あって",
-        "nai": "あらない",
+        "nai": "ない",
         "ta": "あった"
       },
       "sentences": [
@@ -7154,7 +7154,7 @@ const STATIC_LESSONS = {
         "dictionary": "ある",
         "masu": "あります",
         "te": "あって",
-        "nai": "あらない",
+        "nai": "ない",
         "ta": "あった"
       },
       "sentences": [

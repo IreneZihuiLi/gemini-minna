@@ -198,7 +198,7 @@ export const STATIC_LESSONS: Record<number, VocabularyItem[]> = {
     { id: 'L9-W9', category: 'Nouns', kanji: '運転', kana: 'うんてん', romaji: 'unten', meaning: '驾驶', sentences: [{ ja: '父は運転が上手です。', zh: '爸爸开车很好。' }] },
     { id: 'L9-W10', category: 'Nouns', kanji: '買い物', kana: 'かいもの', romaji: 'kaimono', meaning: '购物', sentences: [{ ja: '買い物は嫌いです。', zh: '讨厌购物。' }] },
     { id: 'L9-W11', category: 'Verbs', grammarType: 'Group I', kanji: '分かります', kana: 'わかります', romaji: 'wakarimasu', meaning: '明白，懂', conjugations: { dictionary: '分かる', masu: '分かります', te: '分かって', nai: '分からない', ta: '分かった' }, sentences: [{ ja: '少し日本語が分かります。', zh: '会一点日语。' }] },
-    { id: 'L9-W12', category: 'Verbs', grammarType: 'Group I', kanji: 'あります', kana: 'あります', romaji: 'arimasu', meaning: '有（无生命）', conjugations: { dictionary: 'ある', masu: 'あります', te: 'あって', nai: 'あらない', ta: 'あった' }, sentences: [{ ja: '今日はお金がありません。', zh: '今天没有钱。' }] },
+    { id: 'L9-W12', category: 'Verbs', grammarType: 'Group I', kanji: 'あります', kana: 'あります', romaji: 'arimasu', meaning: '有（无生命）', conjugations: { dictionary: 'ある', masu: 'あります', te: 'あって', nai: 'ない', ta: 'あった' }, sentences: [{ ja: '今日はお金がありません。', zh: '今天没有钱。' }] },
     { id: 'L9-W13', category: 'Adjectives', grammarType: 'na-adj', kanji: '好きです', kana: 'すきです', romaji: 'suki desu', meaning: '喜欢', sentences: [{ ja: '私は猫が好きです。', zh: '我喜欢猫。' }] },
     { id: 'L9-W14', category: 'Adjectives', grammarType: 'na-adj', kanji: '嫌いです', kana: 'きらいです', romaji: 'kirai desu', meaning: '讨厌', sentences: [{ ja: '妹は魚が嫌いです。', zh: '妹妹讨厌鱼。' }] },
     { id: 'L9-W15', category: 'Adjectives', grammarType: 'na-adj', kanji: '上手です', kana: 'じょうずです', romaji: 'jouzu desu', meaning: '擅长', sentences: [{ ja: '加藤さんは英語が上手です。', zh: '加藤英语很好。' }] },
@@ -206,7 +206,7 @@ export const STATIC_LESSONS: Record<number, VocabularyItem[]> = {
     { id: 'L9-W17', category: 'Expressions', kanji: 'どうして', kana: 'どうして', romaji: 'doushite', meaning: '为什么', sentences: [{ ja: 'どうして昨日休みましたか。……病気でしたから。', zh: '为什么昨天休息了？……因为生病了。' }] }
   ],
   10: [
-    { id: 'L10-W1', category: 'Verbs', grammarType: 'Group I', kanji: 'あります', kana: 'あります', romaji: 'arimasu', meaning: '有（无生命）', conjugations: { dictionary: 'ある', masu: 'あります', te: 'あって', nai: 'あらない', ta: 'あった' }, sentences: [{ ja: '机の上に辞書があります。', zh: '桌子上有词典。' }] },
+    { id: 'L10-W1', category: 'Verbs', grammarType: 'Group I', kanji: 'あります', kana: 'あります', romaji: 'arimasu', meaning: '有（无生命）', conjugations: { dictionary: 'ある', masu: 'あります', te: 'あって', nai: 'ない', ta: 'あった' }, sentences: [{ ja: '机の上に辞書があります。', zh: '桌子上有词典。' }] },
     { id: 'L10-W2', category: 'Verbs', grammarType: 'Group II', kanji: 'います', kana: 'います', romaji: 'imasu', meaning: '有（人/动物）', conjugations: { dictionary: 'いる', masu: 'います', te: 'いて', nai: 'いない', ta: 'いた' }, sentences: [{ ja: '部屋に猫がいます。', zh: '房间里有猫。' }] },
     { id: 'L10-W3', category: 'Nouns', kanji: '上', kana: 'うえ', romaji: 'ue', meaning: '上面', sentences: [{ ja: '本棚の上に写真があります。', zh: '书架上面有照片。' }] },
     { id: 'L10-W4', category: 'Nouns', kanji: '下', kana: 'した', romaji: 'shita', meaning: '下面', sentences: [{ ja: 'いすの下に鞄があります。', zh: '椅子下面有包。' }] },
@@ -227,7 +227,7 @@ export const STATIC_LESSONS: Record<number, VocabularyItem[]> = {
   ],
   11: [
     { id: 'L11-W1', category: 'Verbs', grammarType: 'Group II', kanji: 'います', kana: 'います', romaji: 'imasu', meaning: '有（人/动物）', conjugations: { dictionary: 'いる', masu: 'います', te: 'いて', nai: 'いない', ta: 'いた' }, sentences: [{ ja: '教室に学生が三人います。', zh: '教室里有三个学生。' }] },
-    { id: 'L11-W2', category: 'Verbs', grammarType: 'Group I', kanji: 'あります', kana: 'あります', romaji: 'arimasu', meaning: '有（无生命）', conjugations: { dictionary: 'ある', masu: 'あります', te: 'あって', nai: 'あらない', ta: 'あった' }, sentences: [{ ja: '冷蔵庫にりんごが二つあります。', zh: '冰箱里有两个苹果。' }] },
+    { id: 'L11-W2', category: 'Verbs', grammarType: 'Group I', kanji: 'あります', kana: 'あります', romaji: 'arimasu', meaning: '有（无生命）', conjugations: { dictionary: 'ある', masu: 'あります', te: 'あって', nai: 'ない', ta: 'あった' }, sentences: [{ ja: '冷蔵庫にりんごが二つあります。', zh: '冰箱里有两个苹果。' }] },
     { id: 'L11-W3', category: 'Nouns', kanji: '兄', kana: 'あに', romaji: 'ani', meaning: '（我）哥哥', sentences: [{ ja: '兄は大阪の会社で働いています。', zh: '哥哥在大阪的公司工作。' }] },
     { id: 'L11-W4', category: 'Nouns', kanji: '姉', kana: 'あね', romaji: 'ane', meaning: '（我）姐姐', sentences: [{ ja: '姉は二人います。', zh: '我有两个姐姐。' }] },
     { id: 'L11-W5', category: 'Nouns', kanji: '弟', kana: 'おとうと', romaji: 'otouto', meaning: '（我）弟弟', sentences: [{ ja: '弟は今年、高校に入りました。', zh: '弟弟今年上了高中。' }] },
@@ -482,7 +482,7 @@ export const STATIC_LESSONS: Record<number, VocabularyItem[]> = {
     { id: 'L21-W3', category: 'Verbs', grammarType: 'Group II', kanji: '足ります', kana: 'たります', romaji: 'tarimasu', meaning: '足够', conjugations: { dictionary: '足りる', masu: '足ります', te: '足りて', nai: '足りない', ta: '足りた' }, sentences: [{ ja: '旅行のお金は10万円で足りると思います。', zh: '我想旅行的钱10万日元就够了。' }] },
     { id: 'L21-W4', category: 'Verbs', grammarType: 'Group I', kanji: '勝ちます', kana: 'かちます', romaji: 'kachimasu', meaning: '赢', conjugations: { dictionary: '勝つ', masu: '勝ちます', te: '勝って', nai: '勝たない', ta: '勝った' }, sentences: [{ ja: '昨日の試合はどちらが勝ちましたか。', zh: '昨天的比赛哪一方赢了？' }] },
     { id: 'L21-W5', category: 'Verbs', grammarType: 'Group II', kanji: '負けます', kana: 'まけます', romaji: 'makemasu', meaning: '输', conjugations: { dictionary: '負ける', masu: '負けます', te: '負けて', nai: '負けない', ta: '負けた' }, sentences: [{ ja: '私たちのチームは2対1で負けました。', zh: '我们队以2比1输了。' }] },
-    { id: 'L21-W6', category: 'Verbs', grammarType: 'Group I', kanji: 'あります', kana: 'あります', romaji: 'arimasu', meaning: '举行；发生', conjugations: { dictionary: 'ある', masu: 'あります', te: 'あって', nai: 'あらない', ta: 'あった' }, sentences: [{ ja: '来月、町でお祭りがあります。', zh: '下个月城里有节日庆典。' }] },
+    { id: 'L21-W6', category: 'Verbs', grammarType: 'Group I', kanji: 'あります', kana: 'あります', romaji: 'arimasu', meaning: '举行；发生', conjugations: { dictionary: 'ある', masu: 'あります', te: 'あって', nai: 'ない', ta: 'あった' }, sentences: [{ ja: '来月、町でお祭りがあります。', zh: '下个月城里有节日庆典。' }] },
     { id: 'L21-W7', category: 'Nouns', kanji: '意見', kana: 'いけん', romaji: 'iken', meaning: '意见', sentences: [{ ja: 'この計画について意見がありますか。', zh: '对这个计划有什么意见吗？' }] },
     { id: 'L21-W8', category: 'Nouns', kanji: '話', kana: 'はなし', romaji: 'hanashi', meaning: '话，谈话', sentences: [{ ja: '先生の話はとてもおもしろかったです。', zh: '老师的话非常有意思。' }] },
     { id: 'L21-W9', category: 'Nouns', kanji: '試合', kana: 'しあい', romaji: 'shiai', meaning: '比赛', sentences: [{ ja: '日曜日に野球の試合を見に行きます。', zh: '星期天去看棒球比赛。' }] },

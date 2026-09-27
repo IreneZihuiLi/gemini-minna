@@ -1,11 +1,11 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { VocabularyItem } from '../types';
 import { playText, stopAudio } from '../services/audio';
-import { TypingState, createState, isComplete, pressKey, remainingRomaji, unitViews } from '../game/romaji';
+import { MultiState, activeTrack, createMultiState, isMultiComplete, pressKeyMulti, remainingRomaji, trackKana, unitViews } from '../game/romaji';
 import { ProgressMap, isMastered, isWeak, loadProgress, loadSettings, recordResults, saveSettings } from '../game/progress';
 import {
-  DEFAULT_CONFIG, Difficulty, GameConfig, GameMode, LADDER_STAGES, MODE_INFO, PASS_RATE, PRESETS, Preset,
-  RoundResult, RoundSize, StageMode, accuracy, blankSentence, canType, pickWords,
+  DEFAULT_CONFIG, Difficulty, GameConfig, GameMode, LADDER_STAGES, MATCHING_INFO, MODE_INFO, Matching, PASS_RATE, PRESETS, Preset,
+  RoundResult, RoundSize, StageMode, accuracy, blankSentence, canType, pickWords, wordTargets,
 } from '../game/session';
 
 interface TypingGameProps {
@@ -19,6 +19,7 @@ type Phase = 'setup' | 'play' | 'result';
 const MODES: GameMode[] = ['shadow', 'normal', 'dictation', 'ladder'];
 const DIFFICULTIES: Difficulty[] = ['easy', 'standard', 'hard'];
 const SIZES: RoundSize[] = [10, 20, 'all'];
+const MATCHINGS: Matching[] = ['lenient', 'strict'];
 
 function stageTitle(mode: GameMode, stage: StageMode, stageIndex: number, preset: Preset) {
   if (mode === 'ladder') return `闯关 第 ${stageIndex + 1} 关 · ${MODE_INFO[stage].short} · ${preset.label}`;
@@ -109,6 +110,7 @@ export const TypingGame: React.FC<TypingGameProps> = ({ lessonId, words, onExit 
         words={roundWords}
         stage={stage}
         preset={preset}
+        matching={config.matching}
         title={stageTitle(config.mode, stage, stageIndex, preset)}
         onFinish={finishRound}
         onQuit={quitRound}
@@ -198,6 +200,18 @@ const SetupScreen: React.FC<SetupScreenProps> = ({ lessonId, config, setConfig, 
     </section>
 
     <section className="mb-8">
+      <h4 className="text-sm font-bold text-slate-400 uppercase tracking-wider mb-3">判定</h4>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+        {MATCHINGS.map(matching => (
+          <button key={matching} type="button" onClick={() => setConfig(prev => ({ ...prev, matching }))} className={optionClass(config.matching === matching)}>
+            <div className="font-black text-slate-800">{MATCHING_INFO[matching].label}</div>
+            <div className="text-sm text-slate-500 mt-1 leading-relaxed">{MATCHING_INFO[matching].desc}</div>
+          </button>
+        ))}
+      </div>
+    </section>
+
+    <section className="mb-8">
       <h4 className="text-sm font-bold text-slate-400 uppercase tracking-wider mb-3">每轮词数</h4>
       <div className="flex flex-wrap gap-3">
         {SIZES.map(size => (
@@ -209,7 +223,7 @@ const SetupScreen: React.FC<SetupScreenProps> = ({ lessonId, config, setConfig, 
     </section>
 
     <div className="rounded-2xl bg-slate-100 p-4 text-sm text-slate-600 leading-relaxed mb-8">
-      用英文输入法按罗马音打出假名，比如 がっこう 打 gakkou，词尾的 ん 打 nn。空格重播发音，Tab 偷看，Esc 退出。发音语速由难度决定。跟打模式不计入错词记录。
+      用英文输入法按罗马音打出假名，比如 がっこう 打 gakkou，词尾的 ん 打 nn。宽松判定下，动词打 かきます 或 かく、かいて 都算对。空格重播发音，Tab 偷看，Esc 退出。发音语速由难度决定。跟打模式不计入错词记录。
     </div>
 
     <div className="flex flex-wrap gap-3">
@@ -232,15 +246,16 @@ interface PlayScreenProps {
   words: VocabularyItem[];
   stage: StageMode;
   preset: Preset;
+  matching: Matching;
   title: string;
   onFinish: (results: RoundResult[]) => void;
   onQuit: (partial: RoundResult[]) => void;
 }
 
-const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, title, onFinish, onQuit }) => {
+const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching, title, onFinish, onQuit }) => {
   const [index, setIndex] = useState(0);
   const word = words[index];
-  const [typing, setTyping] = useState<TypingState>(() => createState(word.kana));
+  const [typing, setTyping] = useState<MultiState>(() => createMultiState(wordTargets(word, matching)));
   const [mistakes, setMistakes] = useState(0);
   const [failed, setFailed] = useState(false);
   const [flash, setFlash] = useState<'miss' | 'ok' | null>(null);
@@ -271,7 +286,7 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, title, on
 
   // New word: reset everything, play it, keep the keyboard focus.
   useEffect(() => {
-    setTyping(createState(word.kana));
+    setTyping(createMultiState(wordTargets(word, matching)));
     setMistakes(0);
     mistakesRef.current = 0;
     setFailed(false);
@@ -284,7 +299,7 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, title, on
     startRef.current = Date.now();
     playText(word.kanji, { rate: preset.rate });
     inputRef.current?.focus();
-  }, [index, word, preset]);
+  }, [index, word, preset, matching]);
 
   // Countdown (hard difficulty only).
   useEffect(() => {
@@ -334,7 +349,7 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, title, on
     }, 1500);
   };
 
-  const completeWord = (state: TypingState) => {
+  const completeWord = (state: MultiState) => {
     const result: RoundResult = {
       word,
       correct: !failedRef.current,
@@ -362,7 +377,7 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, title, on
         replay();
         continue;
       }
-      const outcome = pressKey(state, raw);
+      const outcome = pressKeyMulti(state, raw);
       if (outcome.result === 'miss') {
         missed += 1;
         continue;
@@ -411,7 +426,10 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, title, on
   const showKana = reveal || (stage === 'shadow' && preset.shadowLayers !== 'kanji');
   const showRomaji = reveal || (stage === 'shadow' && preset.shadowLayers === 'kanji-kana-romaji');
   const showMeaning = stage !== 'dictation' || failed || feedback !== null;
-  const views = unitViews(typing);
+  const track = activeTrack(typing);
+  const views = unitViews(track);
+  const typedKana = trackKana(track);
+  const listedKana = trackKana(activeTrack(createMultiState(wordTargets(word, 'strict'))));
   const answered = resultsRef.current.length;
   const correctCount = resultsRef.current.filter(result => result.correct).length;
   const kanjiDiffers = word.kanji.trim() !== word.kana.trim();
@@ -498,10 +516,10 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, title, on
             })}
           </div>
           <div className="mt-3 font-mono text-lg tracking-[0.2em] min-h-[1.75rem]">
-            <span className="text-indigo-600">{typing.typed}</span>
+            <span className="text-indigo-600">{track.typed}</span>
             {showRomaji
-              ? <span className="text-slate-300">{remainingRomaji(typing)}</span>
-              : !isComplete(typing) && <span className="text-slate-300 animate-pulse">|</span>}
+              ? <span className="text-slate-300">{remainingRomaji(track)}</span>
+              : !isMultiComplete(typing) && <span className="text-slate-300 animate-pulse">|</span>}
           </div>
         </div>
 
@@ -517,6 +535,7 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, title, on
         {feedback && (
           <div className={`mt-6 rounded-xl px-4 py-2 text-sm font-bold ${feedback.correct ? 'bg-emerald-50 text-emerald-600' : 'bg-rose-50 text-rose-500'}`}>
             {feedback.correct ? '正确' : '记错了'} · {word.kanji} {kanjiDiffers ? word.kana : ''} · {word.meaning}
+            {typedKana !== listedKana && <span className="ml-2 text-slate-500">你打的是 {typedKana}</span>}
           </div>
         )}
         {failed && !feedback && (

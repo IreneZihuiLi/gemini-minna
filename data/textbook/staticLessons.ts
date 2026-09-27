@@ -330,7 +330,7 @@ export const STATIC_LESSONS: Record<number, VocabularyItem[]> = {
 
   { "id": "L9-W11", "category": "Verbs", "grammarType": "Group I", "kanji": "分かります", "kana": "わかります", "romaji": "wakarimasu", "meaning": "明白，懂", "conjugations": { "masu": "分かります", "dictionary": "分かる", "te": "分かって", "nai": "分からない", "ta": "分かった" }, "sentences": [{ "ja": "日本語が分かります。", "zh": "懂日语。" }] },
 
-  { "id": "L9-W12", "category": "Verbs", "grammarType": "Group I", "kanji": "あります", "kana": "あります", "romaji": "arimasu", "meaning": "有（无生命）", "conjugations": { "masu": "あります", "dictionary": "ある", "te": "あって", "nai": "あらない", "ta": "あった" }, "sentences": [{ "ja": "時間があります。", "zh": "有时间。" }] },
+  { "id": "L9-W12", "category": "Verbs", "grammarType": "Group I", "kanji": "あります", "kana": "あります", "romaji": "arimasu", "meaning": "有（无生命）", "conjugations": { "masu": "あります", "dictionary": "ある", "te": "あって", "nai": "ない", "ta": "あった" }, "sentences": [{ "ja": "時間があります。", "zh": "有时间。" }] },
 
   { "id": "L9-W13", "category": "Adjectives", "grammarType": "na-adj", "kanji": "好きです", "kana": "すきです", "romaji": "suki desu", "meaning": "喜欢", "sentences": [{ "ja": "映画が好きです。", "zh": "喜欢电影。" }] },
 
@@ -345,7 +345,7 @@ export const STATIC_LESSONS: Record<number, VocabularyItem[]> = {
 ],
   10: [
 
-  { "id": "L10-W1", "category": "Verbs", "grammarType": "Group I", "kanji": "あります", "kana": "あります", "romaji": "arimasu", "meaning": "有（无生命）", "conjugations": { "masu": "あります", "dictionary": "ある", "te": "あって", "nai": "あらない", "ta": "あった" }, "sentences": [{ "ja": "机の上に本があります。", "zh": "桌子上有书。" }] },
+  { "id": "L10-W1", "category": "Verbs", "grammarType": "Group I", "kanji": "あります", "kana": "あります", "romaji": "arimasu", "meaning": "有（无生命）", "conjugations": { "masu": "あります", "dictionary": "ある", "te": "あって", "nai": "ない", "ta": "あった" }, "sentences": [{ "ja": "机の上に本があります。", "zh": "桌子上有书。" }] },
 
   { "id": "L10-W2", "category": "Verbs", "grammarType": "Group II", "kanji": "います", "kana": "います", "romaji": "imasu", "meaning": "有（人/动物）", "conjugations": { "masu": "います", "dictionary": "いる", "te": "いて", "nai": "いない", "ta": "いた" }, "sentences": [{ "ja": "部屋に猫がいます。", "zh": "房间里有猫。" }] },
 
@@ -386,7 +386,7 @@ export const STATIC_LESSONS: Record<number, VocabularyItem[]> = {
 
   { "id": "L11-W1", "category": "Verbs", "grammarType": "Group II", "kanji": "います", "kana": "います", "romaji": "imasu", "meaning": "有（人/动物）", "conjugations": { "masu": "います", "dictionary": "いる", "te": "いて", "nai": "いない", "ta": "いた" }, "sentences": [{ "ja": "兄がいます。", "zh": "有哥哥。" }] },
 
-  { "id": "L11-W2", "category": "Verbs", "grammarType": "Group I", "kanji": "あります", "kana": "あります", "romaji": "arimasu", "meaning": "有（无生命）", "conjugations": { "masu": "あります", "dictionary": "ある", "te": "あって", "nai": "あらない", "ta": "あった" }, "sentences": [{ "ja": "車があります。", "zh": "有车。" }] },
+  { "id": "L11-W2", "category": "Verbs", "grammarType": "Group I", "kanji": "あります", "kana": "あります", "romaji": "arimasu", "meaning": "有（无生命）", "conjugations": { "masu": "あります", "dictionary": "ある", "te": "あって", "nai": "ない", "ta": "あった" }, "sentences": [{ "ja": "車があります。", "zh": "有车。" }] },
 
   { "id": "L11-W3", "category": "Nouns", "kanji": "兄", "kana": "あに", "romaji": "ani", "meaning": "（我）哥哥", "sentences": [{ "ja": "兄がいます。", "zh": "有哥哥。" }] },
 
@@ -698,7 +698,7 @@ export const STATIC_LESSONS: Record<number, VocabularyItem[]> = {
 
   { "id": "L21-W5", "category": "Verbs", "grammarType": "Group II", "kanji": "負けます", "kana": "まけます", "romaji": "makemasu", "meaning": "输", "conjugations": { "masu": "負けます", "dictionary": "負ける", "te": "負けて", "nai": "負けない", "ta": "負けた" }, "sentences": [{ "ja": "試合に負けました。", "zh": "比赛输了。" }] },
 
-  { "id": "L21-W6", "category": "Verbs", "grammarType": "Group I", "kanji": "あります", "kana": "あります", "romaji": "arimasu", "meaning": "举行；发生", "conjugations": { "masu": "あります", "dictionary": "ある", "te": "あって", "nai": "あらない", "ta": "あった" }, "sentences": [{ "ja": "会議があります。", "zh": "有会议。" }] },
+  { "id": "L21-W6", "category": "Verbs", "grammarType": "Group I", "kanji": "あります", "kana": "あります", "romaji": "arimasu", "meaning": "举行；发生", "conjugations": { "masu": "あります", "dictionary": "ある", "te": "あって", "nai": "ない", "ta": "あった" }, "sentences": [{ "ja": "会議があります。", "zh": "有会议。" }] },
 
   { "id": "L21-W7", "category": "Nouns", "kanji": "意見", "kana": "いけん", "romaji": "iken", "meaning": "意见", "sentences": [{ "ja": "意見があります。", "zh": "有意见。" }] },
 

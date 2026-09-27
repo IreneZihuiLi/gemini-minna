@@ -65,6 +65,11 @@ function toHiragana(text: string): string {
   return text.replace(/[ァ-ヶ]/g, ch => String.fromCharCode(ch.charCodeAt(0) - 0x60));
 }
 
+/** Remove ～ and punctuation that is never typed. */
+export function stripPunctuation(text: string): string {
+  return text.replace(/[～〜~\s、。，,．.・「」『』!！?？:：;；]/g, '');
+}
+
 /**
  * The part of a dictionary kana field that is actually typed: drops ～,
  * optional parts in ［］, alternative readings in （）, keeps the first of
@@ -74,7 +79,28 @@ export function cleanKana(kana: string): string {
   let s = kana.replace(/［[^］]*］|\[[^\]]*\]/g, '').replace(/（[^）]*）|\([^)]*\)/g, '');
   const alternatives = s.split(/[／/]/);
   if (alternatives.length > 1) s = alternatives[0];
-  return s.replace(/[～〜~\s、。，,．.・「」『』!！?？:：;；]/g, '');
+  return stripPunctuation(s);
+}
+
+/**
+ * Every reading a kana field allows: each "／" alternative, with and without
+ * the optional ［］ part, and a （） alternative reading on its own.
+ * The first entry is the primary reading (same as cleanKana).
+ */
+export function kanaVariants(kana: string): string[] {
+  const out: string[] = [];
+  const push = (text: string) => {
+    const cleaned = stripPunctuation(text);
+    if (cleaned && !out.includes(cleaned)) out.push(cleaned);
+  };
+  const noParen = (text: string) => text.replace(/（[^）]*）|\([^)]*\)/g, '');
+  for (const alternative of kana.split(/[／/]/)) {
+    push(noParen(alternative.replace(/［[^］]*］|\[[^\]]*\]/g, '')));
+    push(noParen(alternative.replace(/［([^］]*)］|\[([^\]]*)\]/g, (_m, a, b) => a ?? b ?? '')));
+    const paren = alternative.match(/（([^）]*)）|\(([^)]*)\)/);
+    if (paren) push(paren[1] ?? paren[2] ?? '');
+  }
+  return out;
 }
 
 function unitAt(hira: string, display: string, i: number): { unit: KanaUnit; length: number } {
@@ -221,4 +247,60 @@ export function unitViews(state: TypingState): UnitView[] {
     kana: unit.kana,
     status: i < state.index ? 'done' : i === state.index ? 'current' : 'todo',
   }));
+}
+
+// ---------------------------------------------------------------- several accepted spellings
+
+/**
+ * Several target spellings typed at once (for example ます形 and 辞書形 of a
+ * verb): every track consistent with the keystrokes so far stays alive, a key
+ * is a miss only when no track accepts it, and the first track to finish wins.
+ * tracks[0] is what the UI shows: the primary spelling until it dies.
+ */
+export interface MultiState {
+  tracks: TypingState[];
+}
+
+export function createMultiState(targets: string[]): MultiState {
+  const tracks: TypingState[] = [];
+  const seen = new Set<string>();
+  for (const target of targets) {
+    if (seen.has(target)) continue;
+    seen.add(target);
+    try {
+      const state = createState(target);
+      if (state.units.length > 0) tracks.push(state);
+    } catch {
+      // not typeable, skip this spelling
+    }
+  }
+  if (tracks.length === 0) throw new Error('No typeable spelling');
+  return { tracks };
+}
+
+export function pressKeyMulti(state: MultiState, key: string): { state: MultiState; result: KeyResult } {
+  const survivors: TypingState[] = [];
+  let result: KeyResult = 'miss';
+  for (const track of state.tracks) {
+    const outcome = pressKey(track, key);
+    if (outcome.result === 'miss') continue;
+    if (outcome.result === 'complete') return { state: { tracks: [outcome.state] }, result: 'complete' };
+    survivors.push(outcome.state);
+    if (result === 'miss') result = outcome.result;
+  }
+  if (survivors.length === 0) return { state, result: 'miss' };
+  return { state: { tracks: survivors }, result };
+}
+
+export function activeTrack(state: MultiState): TypingState {
+  return state.tracks[0];
+}
+
+export function isMultiComplete(state: MultiState): boolean {
+  return isComplete(state.tracks[0]);
+}
+
+/** The kana of a track, e.g. the spelling the learner actually typed. */
+export function trackKana(track: TypingState): string {
+  return track.units.map(unit => unit.kana).join('');
 }
