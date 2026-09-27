@@ -51,10 +51,10 @@ export function subscribePlaybackRate(listener: () => void) {
   };
 }
 
-function applyRate(audio: HTMLAudioElement) {
+function applyRate(audio: HTMLAudioElement, rate: number = playbackRate) {
   // The load algorithm resets playbackRate to defaultPlaybackRate, so set both.
-  audio.defaultPlaybackRate = playbackRate;
-  audio.playbackRate = playbackRate;
+  audio.defaultPlaybackRate = rate;
+  audio.playbackRate = rate;
   // Keep the voice's pitch natural when the speed changes.
   audio.preservesPitch = true;
   const legacy = audio as HTMLAudioElement & { webkitPreservesPitch?: boolean };
@@ -85,12 +85,12 @@ export function stopAudio() {
   if (window.speechSynthesis) window.speechSynthesis.cancel();
 }
 
-function speakWithBrowserVoice(text: string, onEnd: () => void) {
+function speakWithBrowserVoice(text: string, onEnd: () => void, rate: number = playbackRate) {
   const synth = window.speechSynthesis;
   if (!synth) { onEnd(); return; }
   const utterance = new SpeechSynthesisUtterance(text);
   utterance.lang = 'ja-JP';
-  utterance.rate = 0.9 * playbackRate;
+  utterance.rate = 0.9 * rate;
   const voices = synth.getVoices();
   const jaVoice = voices.find(v => v.lang === 'ja-JP' && !v.name.includes('Compact')) ||
                   voices.find(v => v.lang.includes('ja'));
@@ -103,10 +103,12 @@ function speakWithBrowserVoice(text: string, onEnd: () => void) {
 export interface PlayOptions {
   onStart?: () => void;
   onEnd?: () => void;
+  /** Speed for this clip only; defaults to the user's global setting. */
+  rate?: number;
 }
 
 /** Play the recorded clip for `text`; falls back to the browser voice. */
-export async function playText(text: string, { onStart, onEnd }: PlayOptions = {}) {
+export async function playText(text: string, { onStart, onEnd, rate }: PlayOptions = {}) {
   stopAudio();
   const finish = () => {
     if (currentAudio === audio) currentAudio = null;
@@ -114,19 +116,19 @@ export async function playText(text: string, { onStart, onEnd }: PlayOptions = {
   };
   const fallback = () => {
     if (currentAudio === audio) currentAudio = null;
-    speakWithBrowserVoice(text, () => onEnd?.());
+    speakWithBrowserVoice(text, () => onEnd?.(), rate);
   };
   const audio = new Audio();
   currentAudio = audio;
   audio.preload = 'auto';
-  applyRate(audio);
+  applyRate(audio, rate);
   audio.onended = finish;
   audio.onerror = fallback;
   onStart?.();
   try {
     audio.src = await audioUrlFor(text);
     await audio.play();
-    applyRate(audio);
+    applyRate(audio, rate);
   } catch {
     if (currentAudio === audio) fallback();
   }

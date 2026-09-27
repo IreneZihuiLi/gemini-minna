@@ -22,6 +22,10 @@ The vocabulary lists and grammar points follow the lesson order of *Minna no Nih
 2. Run the web app:
    `npm run dev`
 
+## Typing game (web)
+
+Every lesson has a 打字背单词 mode (`components/TypingGame.tsx`): type the lesson's words in romaji, kana by kana, the way a Japanese IME accepts them (`game/romaji.ts` handles shi/si, っ, ん, 拗音, katakana loanwords and so on). Three modes (跟打 shows hint and word, 普通 shows only the hint, 默写 plays only the audio), three difficulty presets (`game/session.ts`) and a 闯关 flow that runs the same words through all three modes with an 80% pass mark. Results of 普通 and 默写 rounds feed a five-box Leitner record in localStorage (`game/progress.ts`), which drives the 错词 count and the word order of later rounds. The romaji engine has a small node test: `npx esbuild game/romaji.ts --bundle --format=cjs --outfile=/tmp/romaji.cjs` and run a script against it (see the session notes).
+
 ## WeChat Mini Program
 
 Open the `miniprogram/` folder in WeChat Developer Tools. Lesson data is bundled (`miniprogram/utils/lessonData.js`, regenerate it with `node scripts/build_miniprogram_data.cjs` after editing `data/*.ts`).

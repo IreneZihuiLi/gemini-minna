@@ -7,6 +7,7 @@ import { playText, stopAudio } from '../services/audio';
 import { VocabCard } from './VocabCard';
 import { GrammarCard } from './GrammarCard';
 import { SpeedControl } from './SpeedControl';
+import { TypingGame } from './TypingGame';
 import { STATIC_GRAMMAR } from '../data/textbook/staticGrammar';
 import { STATIC_LESSONS } from '../data/textbook/staticLessons';
 import { STATIC_LESSON_CONTENT } from '../data/staticLessonContent';
@@ -16,7 +17,7 @@ interface LessonViewProps {
   onBack: () => void;
 }
 
-type LessonSection = 'grammar' | 'vocabulary' | 'examples' | 'text' | null;
+type LessonSection = 'grammar' | 'vocabulary' | 'examples' | 'text' | 'typing' | null;
 
 const SentenceAudioButton = ({ active, onClick }: { active: boolean; onClick: () => void }) => (
   <button
@@ -135,7 +136,7 @@ export const LessonView: React.FC<LessonViewProps> = ({ lessonId, onBack }) => {
           <h2 className="text-xl font-bold text-slate-800">
             Lesson {lessonId}
             <span className="text-slate-400 font-normal ml-2 text-base hidden sm:inline">
-              {activeSection === 'grammar' ? 'Grammar' : activeSection === 'vocabulary' ? 'Vocabulary' : activeSection === 'examples' ? 'Examples' : activeSection === 'text' ? 'Text' : 'Study Mode'}
+              {activeSection === 'grammar' ? 'Grammar' : activeSection === 'vocabulary' ? 'Vocabulary' : activeSection === 'examples' ? 'Examples' : activeSection === 'text' ? 'Text' : activeSection === 'typing' ? 'Typing' : 'Study Mode'}
             </span>
           </h2>
         </div>
@@ -159,7 +160,7 @@ export const LessonView: React.FC<LessonViewProps> = ({ lessonId, onBack }) => {
               <p className="text-slate-500 mt-3 max-w-2xl">先选语法或词汇。语法是知识卡片，词汇是背词卡片和动词变形。</p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
               <button
                 type="button"
                 onClick={() => setActiveSection('grammar')}
@@ -263,8 +264,42 @@ export const LessonView: React.FC<LessonViewProps> = ({ lessonId, onBack }) => {
                   )}
                 </div>
               </button>
+
+              <button
+                type="button"
+                onClick={() => setActiveSection('typing')}
+                disabled={staticWordCount === 0}
+                className={`group text-left bg-white rounded-2xl border p-6 shadow-sm transition-all min-h-[260px] ${staticWordCount > 0 ? 'border-amber-100 hover:border-amber-300 hover:shadow-lg hover:-translate-y-1' : 'border-slate-200 opacity-60 cursor-not-allowed'}`}
+              >
+                <div className="flex items-start justify-between gap-4">
+                  <div className="h-12 w-12 rounded-2xl bg-amber-100 text-amber-600 flex items-center justify-center group-hover:bg-amber-500 group-hover:text-white transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <rect x="2" y="6" width="20" height="12" rx="2"/>
+                      <path d="M6 10h.01M10 10h.01M14 10h.01M18 10h.01M8 14h8"/>
+                    </svg>
+                  </div>
+                  <span className="text-sm font-bold text-amber-600 bg-amber-50 px-2.5 py-1 rounded-full">{staticWordCount} words</span>
+                </div>
+                <h4 className="mt-8 text-2xl font-black text-slate-800">打字背单词</h4>
+                <p className="mt-3 text-slate-500 leading-relaxed">跟打、普通、默写三种模式，三档难度，用罗马音把本课单词打出来，错词自动记录。</p>
+                <div className="mt-8 flex items-center text-amber-600 font-bold">
+                  <span>{staticWordCount > 0 ? 'Start Typing' : 'Coming Soon'}</span>
+                  {staticWordCount > 0 && (
+                    <svg className="ml-2 group-hover:translate-x-1 transition-transform" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                  )}
+                </div>
+              </button>
             </div>
           </div>
+        ) : activeSection === 'typing' ? (
+          <TypingGame
+            lessonId={lessonId}
+            words={STATIC_LESSONS[lessonId] || []}
+            onExit={() => {
+              stopAudio();
+              setActiveSection(null);
+            }}
+          />
         ) : activeSection === 'vocabulary' && loading ? (
           <div className="flex flex-col items-center justify-center min-h-[50vh]">
             <div className="w-16 h-16 border-4 border-slate-100 border-t-indigo-600 rounded-full animate-spin mb-6"></div>
