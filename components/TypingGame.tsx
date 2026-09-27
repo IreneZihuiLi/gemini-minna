@@ -380,6 +380,26 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
     return () => window.removeEventListener('keydown', onWindowKeyDown);
   }, [touchDevice]);
 
+  // Touch layout: the play screen becomes a full-screen shell sized to the
+  // visual viewport, so meaning, kana and buttons stay above the keyboard.
+  const [viewportHeight, setViewportHeight] = useState<number | undefined>(undefined);
+  useEffect(() => {
+    if (!touchDevice) return;
+    const vv = window.visualViewport;
+    const update = () => setViewportHeight(vv ? Math.round(vv.height) : window.innerHeight);
+    update();
+    vv?.addEventListener('resize', update);
+    window.addEventListener('resize', update);
+    window.scrollTo(0, 0);
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    return () => {
+      vv?.removeEventListener('resize', update);
+      window.removeEventListener('resize', update);
+      document.body.style.overflow = previousOverflow;
+    };
+  }, [touchDevice]);
+
   const sentenceHint = useMemo(
     () => (preset.sentenceHint && stage !== 'dictation' ? blankSentence(word) : null),
     [word, preset.sentenceHint, stage]
@@ -605,29 +625,78 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
         ? (feedback.correct ? 'border-emerald-300' : 'border-rose-300')
         : 'border-slate-200';
 
-  return (
-    <div className="max-w-3xl mx-auto">
-      <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
-        <div>
-          <p className="text-xs font-bold text-indigo-500 uppercase tracking-widest">{title}</p>
-          <h3 className="text-2xl font-black text-slate-800 mt-1">第 {index + 1} / {words.length} 个</h3>
+  // Compact sizes on touch devices so the essentials fit above the keyboard.
+  const c = touchDevice;
+  const shellClass = c ? 'fixed inset-0 z-[60] overflow-y-auto bg-slate-50 px-3 pt-1.5 pb-3' : 'max-w-3xl mx-auto';
+  const shellStyle = c && viewportHeight ? { height: viewportHeight } : undefined;
+  const chip = c ? 'px-2 py-0.5 rounded-full' : 'px-3 py-1 rounded-full';
+
+  const wordArea = enterJudge ? (
+    <div className={c ? 'mt-1.5' : 'mt-6'}>
+      {showKanji && kanjiDiffers && <p className={`${c ? 'text-xl mb-0.5' : 'text-3xl mb-2'} font-black text-slate-700`}>{word.kanji}</p>}
+      {feedback && <p className={`${c ? 'text-3xl' : 'text-4xl'} font-black text-slate-800 tracking-wider`}>{word.kana}</p>}
+      {!feedback && (
+        <div className={`${c ? 'text-3xl min-h-[2.25rem]' : 'text-4xl min-h-[3rem]'} font-black tracking-wider`}>
+          <span className="text-slate-800">{freeKana.kana}</span>
+          <span className="text-indigo-400">{freeKana.pending}</span>
+          <span className="text-slate-300 animate-pulse">|</span>
         </div>
-        <div className="flex items-center gap-2 text-sm font-bold">
-          <span className="px-3 py-1 rounded-full bg-emerald-50 text-emerald-600">对 {correctCount}</span>
-          <span className="px-3 py-1 rounded-full bg-rose-50 text-rose-500">错 {answered - correctCount}</span>
-          <span className="px-3 py-1 rounded-full bg-slate-100 text-slate-500">失误 {mistakes}</span>
-          <button type="button" onClick={() => onQuit(resultsRef.current)} className="px-3 py-1 rounded-full bg-slate-100 text-slate-600 hover:bg-slate-200">退出</button>
+      )}
+      {!feedback && (
+        <p className={`${c ? 'mt-0.5 text-[11px]' : 'mt-3 text-xs'} text-slate-400 font-medium`}>
+          {c ? '输入后按键盘上的完成键判定' : '自己输入，按回车判定，退格可以修改'}
+        </p>
+      )}
+    </div>
+  ) : (
+    <div className={c ? 'mt-1.5' : 'mt-6'}>
+      {showKanji && kanjiDiffers && <p className={`${c ? 'text-xl mb-0.5' : 'text-3xl mb-2'} font-black text-slate-700`}>{word.kanji}</p>}
+      <div className={`flex flex-wrap justify-center gap-1 ${c ? 'text-3xl min-h-[2.25rem]' : 'text-4xl min-h-[3rem]'} font-black tracking-wider`}>
+        {views.map((view, i) => {
+          const visible = view.status === 'done' || showKana;
+          const text = visible ? view.kana : preset.slots === 'none' ? '' : '＿'.repeat(view.kana.length);
+          const colour = view.status === 'done'
+            ? 'text-indigo-600'
+            : view.status === 'current'
+              ? 'text-slate-800 border-b-4 border-indigo-400'
+              : 'text-slate-300';
+          return <span key={i} className={colour}>{text}</span>;
+        })}
+      </div>
+      <div className={`${c ? 'mt-0.5 text-sm min-h-[1.25rem]' : 'mt-3 text-lg min-h-[1.75rem]'} font-mono tracking-[0.2em]`}>
+        <span className="text-indigo-600">{track.typed}</span>
+        {showRomaji
+          ? <span className="text-slate-300">{remainingRomaji(track)}</span>
+          : !isMultiComplete(typing) && <span className="text-slate-300 animate-pulse">|</span>}
+      </div>
+    </div>
+  );
+
+  return (
+    <div className={shellClass} style={shellStyle}>
+      <div className={`flex flex-wrap items-center justify-between ${c ? 'gap-2 mb-1.5' : 'gap-3 mb-4'}`}>
+        <div className={`min-w-0 ${c ? 'flex items-baseline gap-2' : ''}`}>
+          {!c && <p className="text-xs font-bold text-indigo-500 uppercase tracking-widest truncate">{title}</p>}
+          <h3 className={`${c ? 'text-base' : 'text-2xl mt-1'} font-black text-slate-800 shrink-0`}>第 {index + 1} / {words.length} 个</h3>
+          {c && <p className="text-[10px] font-bold text-indigo-500 truncate">{title}</p>}
+        </div>
+        <div className={`flex items-center ${c ? 'gap-1.5 text-xs' : 'gap-2 text-sm'} font-bold`}>
+          <span className={`${chip} bg-emerald-50 text-emerald-600`}>对 {correctCount}</span>
+          <span className={`${chip} bg-rose-50 text-rose-500`}>错 {answered - correctCount}</span>
+          {!c && <span className={`${chip} bg-slate-100 text-slate-500`}>失误 {mistakes}</span>}
+          <button type="button" onClick={() => onQuit(resultsRef.current)} className={`${chip} bg-slate-100 text-slate-600 hover:bg-slate-200`}>退出</button>
         </div>
       </div>
-      <div className="h-1.5 bg-slate-100 rounded-full overflow-hidden mb-6">
+      <div className={`${c ? 'h-1 mb-1.5' : 'h-1.5 mb-6'} bg-slate-100 rounded-full overflow-hidden`}>
         <div className="h-full bg-indigo-500 transition-all" style={{ width: `${(index / words.length) * 100}%` }} />
       </div>
 
-      <div onClick={focusInput} className={`relative bg-white rounded-3xl border-2 shadow-sm p-6 sm:p-10 text-center transition-colors cursor-text ${cardBorder}`}>
+      <div onClick={focusInput} className={`relative bg-white border-2 shadow-sm text-center transition-colors cursor-text ${c ? 'rounded-2xl p-3' : 'rounded-3xl p-6 sm:p-10'} ${cardBorder}`}>
         <input
           ref={inputRef}
           type="text"
           className="absolute top-0 left-0 w-px h-px opacity-0"
+          style={{ fontSize: 16 }}
           autoCapitalize="none"
           autoCorrect="off"
           autoComplete="off"
@@ -642,103 +711,80 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
           aria-label="输入罗马音"
         />
 
-        <div className="min-h-[5rem]">
+        <div className={c ? '' : 'min-h-[5rem]'}>
           {showMeaning ? (
             <>
-              <div className="flex justify-center gap-2 mb-2">
-                <span className="text-[11px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full bg-slate-100 text-slate-500">{word.category}</span>
-                {word.grammarType && <span className="text-[11px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full bg-indigo-50 text-indigo-500">{word.grammarType}</span>}
-              </div>
-              <p className="text-2xl font-bold text-slate-800">{word.meaning}</p>
+              {!c && (
+                <div className="flex justify-center gap-2 mb-2">
+                  <span className="text-[11px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full bg-slate-100 text-slate-500">{word.category}</span>
+                  {word.grammarType && <span className="text-[11px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full bg-indigo-50 text-indigo-500">{word.grammarType}</span>}
+                </div>
+              )}
+              <p className={`${c ? 'text-lg' : 'text-2xl'} font-bold text-slate-800`}>{word.meaning}</p>
               {sentenceHint && !feedback && (
-                <p className="text-sm text-slate-500 mt-2 leading-relaxed">
+                <p className={`${c ? 'text-[11px] mt-0.5' : 'text-sm mt-2'} text-slate-500 leading-relaxed`}>
                   {sentenceHint.ja}
                   <span className="text-slate-400 ml-2">{sentenceHint.zh}</span>
                 </p>
               )}
             </>
           ) : (
-            <p className="text-lg font-bold text-slate-500 mt-4">听发音，打出这个词</p>
+            <p className={`${c ? 'text-base' : 'text-lg mt-4'} font-bold text-slate-500`}>听发音，打出这个词</p>
           )}
         </div>
 
-        {enterJudge ? (
-          <div className="mt-6">
-            {showKanji && kanjiDiffers && <p className="text-3xl font-black text-slate-700 mb-2">{word.kanji}</p>}
-            {feedback && <p className="text-4xl font-black text-slate-800 tracking-wider">{word.kana}</p>}
-            {!feedback && (
-              <div className="text-4xl font-black tracking-wider min-h-[3rem]">
-                <span className="text-slate-800">{freeKana.kana}</span>
-                <span className="text-indigo-400">{freeKana.pending}</span>
-                <span className="text-slate-300 animate-pulse">|</span>
-              </div>
-            )}
-            <p className="mt-3 text-xs text-slate-400 font-medium">{feedback ? '' : '自己输入，按回车判定，退格可以修改'}</p>
-          </div>
-        ) : (
-        <div className="mt-6">
-          {showKanji && kanjiDiffers && <p className="text-3xl font-black text-slate-700 mb-2">{word.kanji}</p>}
-          <div className="flex flex-wrap justify-center gap-1 text-4xl font-black tracking-wider min-h-[3rem]">
-            {views.map((view, i) => {
-              const visible = view.status === 'done' || showKana;
-              const text = visible ? view.kana : preset.slots === 'none' ? '' : '＿'.repeat(view.kana.length);
-              const colour = view.status === 'done'
-                ? 'text-indigo-600'
-                : view.status === 'current'
-                  ? 'text-slate-800 border-b-4 border-indigo-400'
-                  : 'text-slate-300';
-              return <span key={i} className={colour}>{text}</span>;
-            })}
-          </div>
-          <div className="mt-3 font-mono text-lg tracking-[0.2em] min-h-[1.75rem]">
-            <span className="text-indigo-600">{track.typed}</span>
-            {showRomaji
-              ? <span className="text-slate-300">{remainingRomaji(track)}</span>
-              : !isMultiComplete(typing) && <span className="text-slate-300 animate-pulse">|</span>}
-          </div>
-        </div>
-        )}
+        {wordArea}
 
         {feedback && (
-          <div className={`mt-6 rounded-xl px-4 py-2 text-sm font-bold ${feedback.correct ? 'bg-emerald-50 text-emerald-600' : 'bg-rose-50 text-rose-500'}`}>
+          <div className={`${c ? 'mt-2 px-3 py-1.5 text-xs' : 'mt-6 px-4 py-2 text-sm'} rounded-xl font-bold ${feedback.correct ? 'bg-emerald-50 text-emerald-600' : 'bg-rose-50 text-rose-500'}`}>
             {feedback.correct ? '正确' : (enterJudge ? '不对' : '记错了')} · {word.kanji} {kanjiDiffers ? word.kana : ''} · {word.meaning}
             {typedKana !== listedKana && <span className="ml-2 text-slate-500">你打的是 {typedKana || '（空）'}</span>}
           </div>
         )}
         {failed && !feedback && (
-          <div className="mt-6 rounded-xl px-4 py-2 text-sm font-bold bg-rose-50 text-rose-500">
+          <div className={`${c ? 'mt-2 px-3 py-1.5 text-xs' : 'mt-6 px-4 py-2 text-sm'} rounded-xl font-bold bg-rose-50 text-rose-500`}>
             这个词记错了，照着打完再继续
           </div>
         )}
 
-        <div className="mt-6 flex flex-wrap justify-center gap-2 text-sm font-bold">
-          {hasAudio && (
-            <button type="button" onMouseDown={keepFocus} onClick={replay} disabled={replaysLeft <= 0 || feedback !== null} className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-50 text-indigo-600 hover:bg-indigo-100 disabled:opacity-40">
-              <PlayIcon /> 重播{preset.replays != null && ` (${replaysLeft})`}
-            </button>
-          )}
-          {!enterJudge && (
-            <button type="button" onMouseDown={keepFocus} onClick={peek} disabled={peeksLeft <= 0 || failed || feedback !== null} className="px-4 py-2 rounded-full bg-slate-100 text-slate-600 hover:bg-slate-200 disabled:opacity-40">
-              偷看{preset.peeks != null && ` (${peeksLeft})`}
-            </button>
-          )}
-          {enterJudge && (
-            <button type="button" onMouseDown={keepFocus} onClick={submitFree} disabled={feedback !== null || !freeInput} className="px-5 py-2 rounded-full bg-indigo-600 text-white hover:bg-indigo-700 disabled:opacity-40">
-              判定（回车）
-            </button>
-          )}
-        </div>
+        {!feedback && (
+          <div className={`${c ? 'mt-2 text-xs' : 'mt-6 text-sm'} flex flex-wrap justify-center gap-2 font-bold`}>
+            {hasAudio && (
+              <button type="button" onMouseDown={keepFocus} onClick={replay} disabled={replaysLeft <= 0} className={`inline-flex items-center gap-2 ${c ? 'px-3 py-1.5' : 'px-4 py-2'} rounded-full bg-indigo-50 text-indigo-600 hover:bg-indigo-100 disabled:opacity-40`}>
+                <PlayIcon /> 重播{preset.replays != null && ` (${replaysLeft})`}
+              </button>
+            )}
+            {!enterJudge && (
+              <button type="button" onMouseDown={keepFocus} onClick={peek} disabled={peeksLeft <= 0 || failed} className={`${c ? 'px-3 py-1.5' : 'px-4 py-2'} rounded-full bg-slate-100 text-slate-600 hover:bg-slate-200 disabled:opacity-40`}>
+                偷看{preset.peeks != null && ` (${peeksLeft})`}
+              </button>
+            )}
+            {enterJudge && (
+              <button type="button" onMouseDown={keepFocus} onClick={submitFree} disabled={!freeInput} className={`${c ? 'px-4 py-1.5' : 'px-5 py-2'} rounded-full bg-indigo-600 text-white hover:bg-indigo-700 disabled:opacity-40`}>
+                判定{c ? '' : '（回车）'}
+              </button>
+            )}
+          </div>
+        )}
 
         {imeWarning && <p className="mt-3 text-sm text-rose-500 font-bold">检测到中文或日文输入法，请切换成英文输入后继续打</p>}
 
         {touchDevice && !focused && !feedback && (
-          <div className="absolute inset-0 rounded-3xl bg-white/80 backdrop-blur-sm flex items-center justify-center text-lg font-bold text-indigo-600">
+          <div className="absolute inset-0 rounded-2xl bg-white/80 backdrop-blur-sm flex items-center justify-center text-lg font-bold text-indigo-600">
             点击这里开始输入
           </div>
         )}
       </div>
-      <p className="mt-4 text-center text-xs text-slate-400 font-medium">{touchDevice ? '点击卡片弹出键盘' : '直接打字即可，中文输入法开着也没关系'} · 用罗马音打假名 · {enterJudge ? '回车判定 · 退格修改 · ' : hasAudio ? '空格 重播发音 · Tab 偷看 · ' : '没有发音 · Tab 偷看 · '}Esc 退出</p>
-      {lastKeyInfo && <p className="mt-1 text-center text-[11px] text-slate-300 font-mono">上次按键 {lastKeyInfo}</p>}
+      {c ? (
+        <p className="mt-1.5 text-center text-[11px] text-slate-400 font-medium">
+          {enterJudge ? '用罗马音输入，键盘上的完成键判定' : '用罗马音打假名，打对自动进入下一个词'}
+        </p>
+      ) : (
+        <>
+          <p className="mt-4 text-center text-xs text-slate-400 font-medium">直接打字即可，中文输入法开着也没关系 · 用罗马音打假名 · {enterJudge ? '回车判定 · 退格修改 · ' : hasAudio ? '空格 重播发音 · Tab 偷看 · ' : '没有发音 · Tab 偷看 · '}Esc 退出</p>
+          {lastKeyInfo && <p className="mt-1 text-center text-[11px] text-slate-300 font-mono">上次按键 {lastKeyInfo}</p>}
+        </>
+      )}
     </div>
   );
 };
