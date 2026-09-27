@@ -262,9 +262,8 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
   const [replaysUsed, setReplaysUsed] = useState(0);
   const [peeksUsed, setPeeksUsed] = useState(0);
   const [peeking, setPeeking] = useState(false);
-  const [timeLeft, setTimeLeft] = useState<number | null>(preset.timeLimit);
   const [focused, setFocused] = useState(false);
-  const [ime, setIme] = useState(false);
+  const [imeWarning, setImeWarning] = useState(false);
   const [feedback, setFeedback] = useState<RoundResult | null>(null);
 
   const resultsRef = useRef<RoundResult[]>([]);
@@ -272,6 +271,8 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
   const mistakesRef = useRef(0);
   const startRef = useRef(Date.now());
   const inputRef = useRef<HTMLInputElement>(null);
+  // Text of the IME composition in progress (Chinese/Japanese IME, or a phone keyboard's word prediction).
+  const compositionRef = useRef('');
   const timers = useRef<number[]>([]);
 
   const later = (fn: () => void, ms: number) => {
@@ -295,24 +296,10 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
     setPeeksUsed(0);
     setPeeking(false);
     setFeedback(null);
-    setTimeLeft(preset.timeLimit);
     startRef.current = Date.now();
     playText(word.kanji, { rate: preset.rate });
     inputRef.current?.focus();
   }, [index, word, preset, matching]);
-
-  // Countdown (hard difficulty only).
-  useEffect(() => {
-    if (preset.timeLimit == null || failed || feedback) return;
-    const limit = preset.timeLimit;
-    const started = Date.now();
-    const id = window.setInterval(() => setTimeLeft(Math.max(0, limit - (Date.now() - started) / 1000)), 100);
-    return () => window.clearInterval(id);
-  }, [index, failed, feedback, preset.timeLimit]);
-
-  useEffect(() => {
-    if (timeLeft !== null && timeLeft <= 0 && !failedRef.current && !feedback) fail();
-  }, [timeLeft, feedback]);
 
   const sentenceHint = useMemo(
     () => (preset.sentenceHint && stage !== 'dictation' ? blankSentence(word) : null),
@@ -398,14 +385,20 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
     else if (state !== typing) setTyping(state);
   };
 
-  const onChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const value = event.target.value;
-    event.target.value = '';
-    if (ime || !value) return;
-    feed(value);
+  // Letters typed while an IME or a phone keyboard is composing, or committed
+  // text: keep the ASCII part (romaji, space) and warn about anything else.
+  const handleTyped = (text: string) => {
+    if (!text) return;
+    const ascii = text.replace(/[^a-zA-Z'\- ]/g, '');
+    if (ascii.length !== text.length) setImeWarning(true);
+    if (ascii) feed(ascii);
   };
 
+  // Desktop path: every keystroke arrives here. While an IME is composing the
+  // key is reported as 229/isComposing and the input event below handles it.
   const onKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
+    const native = event.nativeEvent as KeyboardEvent;
+    if (native.isComposing || native.keyCode === 229) return;
     if (event.key === 'Tab') {
       event.preventDefault();
       peek();
@@ -415,7 +408,35 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
     } else if (event.key === 'Escape') {
       event.preventDefault();
       onQuit(resultsRef.current);
+    } else if (!event.metaKey && !event.ctrlKey && !event.altKey && /^[a-zA-Z'\-]$/.test(event.key)) {
+      event.preventDefault();
+      setImeWarning(false);
+      feed(event.key);
     }
+  };
+
+  // Input path: phone keyboards (no usable keydown) and IME compositions. The
+  // value is only cleared outside a composition, so the IME is never cut off.
+  const onInput = (event: React.FormEvent<HTMLInputElement>) => {
+    const input = event.currentTarget;
+    const native = event.nativeEvent as InputEvent;
+    const data = native.data ?? '';
+    if (native.inputType === 'insertCompositionText' || native.isComposing) {
+      const previous = compositionRef.current;
+      const added = data.startsWith(previous) ? data.slice(previous.length) : '';
+      compositionRef.current = data;
+      handleTyped(added);
+      return;
+    }
+    compositionRef.current = '';
+    handleTyped(data || input.value);
+    input.value = '';
+  };
+
+  const onCompositionEnd = (event: React.CompositionEvent<HTMLInputElement>) => {
+    if (/[^\x00-\x7f]/.test(event.data || '')) setImeWarning(true);
+    compositionRef.current = '';
+    event.currentTarget.value = '';
   };
 
   const keepFocus = (event: React.MouseEvent) => event.preventDefault();
@@ -469,15 +490,12 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
           autoCorrect="off"
           autoComplete="off"
           spellCheck={false}
-          onChange={onChange}
+          onInput={onInput}
           onKeyDown={onKeyDown}
           onFocus={() => setFocused(true)}
           onBlur={() => setFocused(false)}
-          onCompositionStart={() => setIme(true)}
-          onCompositionEnd={event => {
-            setIme(false);
-            (event.target as HTMLInputElement).value = '';
-          }}
+          onCompositionStart={() => { compositionRef.current = ''; }}
+          onCompositionEnd={onCompositionEnd}
           aria-label="输入罗马音"
         />
 
@@ -523,15 +541,6 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
           </div>
         </div>
 
-        {preset.timeLimit != null && timeLeft !== null && (
-          <div className="mt-6">
-            <div className="h-1.5 bg-slate-100 rounded-full overflow-hidden">
-              <div className={`h-full ${timeLeft < 3 ? 'bg-rose-500' : 'bg-amber-400'}`} style={{ width: `${(timeLeft / preset.timeLimit) * 100}%` }} />
-            </div>
-            <p className="text-xs text-slate-400 font-bold mt-1">{timeLeft.toFixed(1)} s</p>
-          </div>
-        )}
-
         {feedback && (
           <div className={`mt-6 rounded-xl px-4 py-2 text-sm font-bold ${feedback.correct ? 'bg-emerald-50 text-emerald-600' : 'bg-rose-50 text-rose-500'}`}>
             {feedback.correct ? '正确' : '记错了'} · {word.kanji} {kanjiDiffers ? word.kana : ''} · {word.meaning}
@@ -553,7 +562,7 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
           </button>
         </div>
 
-        {ime && <p className="mt-3 text-sm text-rose-500 font-bold">检测到中文或日文输入法，请切换成英文输入</p>}
+        {imeWarning && <p className="mt-3 text-sm text-rose-500 font-bold">检测到中文或日文输入法，请切换成英文输入后继续打</p>}
 
         {!focused && !feedback && (
           <div className="absolute inset-0 rounded-3xl bg-white/80 backdrop-blur-sm flex items-center justify-center text-lg font-bold text-indigo-600">

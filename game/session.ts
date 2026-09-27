@@ -47,8 +47,6 @@ export interface Preset {
   sentenceHint: boolean;
   /** Wrong keystrokes before the word counts as wrong and is revealed; null = unlimited. */
   maxMistakes: number | null;
-  /** Seconds per word; null = no timer. */
-  timeLimit: number | null;
   /** Playback speed of the pronunciation clip. */
   rate: number;
   /** Extra plays after the automatic one; null = unlimited. */
@@ -60,19 +58,19 @@ export const PRESETS: Record<Difficulty, Preset> = {
     label: '简单',
     desc: '汉字＋假名＋罗马音；给出词长和首个假名；例句挖空提示；错了只标红；发音 0.75×，可无限重播和偷看。',
     shadowLayers: 'kanji-kana-romaji', slots: 'first', peeks: null, sentenceHint: true,
-    maxMistakes: null, timeLimit: null, rate: 0.75, replays: null,
+    maxMistakes: null, rate: 0.75, replays: null,
   },
   standard: {
     label: '标准',
     desc: '汉字＋假名；只给词长；错 3 次显示答案并记错；发音 1×，最多重播 3 次，Tab 偷看 1 次。',
     shadowLayers: 'kanji-kana', slots: 'length', peeks: 1, sentenceHint: false,
-    maxMistakes: 3, timeLimit: null, rate: 1, replays: 3,
+    maxMistakes: 3, rate: 1, replays: 3,
   },
   hard: {
     label: '困难',
-    desc: '跟打只给汉字；不给词长；错 1 次即判错；每词限时 10 秒；发音 1.25×，只播一次。',
+    desc: '跟打只给汉字；不给词长；错 1 次即判错；发音 1.25×，只播一次。',
     shadowLayers: 'kanji', slots: 'none', peeks: 0, sentenceHint: false,
-    maxMistakes: 1, timeLimit: 10, rate: 1.25, replays: 0,
+    maxMistakes: 1, rate: 1.25, replays: 0,
   },
 };
 
