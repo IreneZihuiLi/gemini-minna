@@ -21,8 +21,8 @@ export interface GameConfig {
 export const DEFAULT_CONFIG: GameConfig = { mode: 'normal', difficulty: 'standard', size: 10, matching: 'lenient' };
 
 export const MATCHING_INFO: Record<Matching, { label: string; desc: string }> = {
-  lenient: { label: '宽松', desc: '动词打 ます形、辞书形、て形、ない形、た形都算对；［］里的部分可省略；／两种读法都行。' },
-  strict: { label: '严格', desc: '必须和词表上的写法一致。' },
+  lenient: { label: '模糊匹配（推荐）', desc: '动词打 ます形、辞书形、て形、ない形、た形、ません、ました 等任何一种都算对；［］里的部分可省略；／两种读法都行。' },
+  strict: { label: '精确匹配', desc: '必须和词表上的写法一致。' },
 };
 export const LADDER_STAGES: StageMode[] = ['shadow', 'normal', 'dictation', 'recall'];
 export const PASS_RATE = 0.8;
@@ -177,6 +177,17 @@ export function verbFormsKana(word: VocabularyItem): string[] {
         }
       }
       if (kana && kana !== kanaHead && !out.includes(kana)) out.push(kana);
+    }
+  }
+  // polite negative / past from the ます stem, and the plain past negative
+  if (kanaHead.endsWith('ます')) {
+    const stem = kanaHead.slice(0, -2);
+    for (const form of [`${stem}ません`, `${stem}ました`, `${stem}ませんでした`]) if (!out.includes(form)) out.push(form);
+  }
+  for (const form of [...out]) {
+    if (form.endsWith('ない')) {
+      const past = `${form.slice(0, -2)}なかった`;
+      if (!out.includes(past)) out.push(past);
     }
   }
   return out;

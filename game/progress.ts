@@ -64,18 +64,26 @@ export function isMastered(stat?: WordStat): boolean {
   return Boolean(stat && stat.box >= 3);
 }
 
-export function loadSettings<T>(fallback: T): T {
+// Bumped when saved settings must be corrected: v2 switched everyone back to fuzzy matching.
+const SETTINGS_VERSION = 2;
+
+export function loadSettings<T extends object>(fallback: T): T {
   try {
     const raw = localStorage.getItem(SETTINGS_KEY);
-    return raw ? { ...fallback, ...JSON.parse(raw) } : fallback;
+    if (!raw) return fallback;
+    const saved = JSON.parse(raw) as Partial<T> & { v?: number };
+    if ((saved.v ?? 1) < SETTINGS_VERSION) {
+      delete (saved as { matching?: unknown }).matching;
+    }
+    return { ...fallback, ...saved };
   } catch {
     return fallback;
   }
 }
 
-export function saveSettings<T>(settings: T) {
+export function saveSettings<T extends object>(settings: T) {
   try {
-    localStorage.setItem(SETTINGS_KEY, JSON.stringify(settings));
+    localStorage.setItem(SETTINGS_KEY, JSON.stringify({ ...settings, v: SETTINGS_VERSION }));
   } catch {
     // ignore
   }

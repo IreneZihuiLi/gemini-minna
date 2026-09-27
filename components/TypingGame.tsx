@@ -237,7 +237,7 @@ const SetupScreen: React.FC<SetupScreenProps> = ({ lessonId, config, setConfig, 
     </section>
 
     <div className="rounded-2xl bg-slate-100 p-4 text-sm text-slate-600 leading-relaxed mb-8">
-      用英文输入法按罗马音打出假名，比如 がっこう 打 gakkou，词尾的 ん 打 nn。宽松判定下，动词打 かきます 或 かく、かいて 都算对。空格重播发音（默写模式没有发音），Tab 偷看，Esc 退出。发音语速由难度决定。跟打模式不计入错词记录。
+      用英文输入法按罗马音打出假名，比如 がっこう 打 gakkou，词尾的 ん 打 nn。模糊匹配下，动词打 かきます、かく、かいて、かきません 等都算对。空格重播发音（默写模式没有发音），Tab 偷看，Esc 退出。发音语速由难度决定。跟打模式不计入错词记录。
     </div>
 
     <div className="flex flex-wrap gap-3">
