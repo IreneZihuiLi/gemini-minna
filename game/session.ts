@@ -40,8 +40,8 @@ export interface Preset {
   desc: string;
   /** What the word area shows in 跟打 mode. */
   shadowLayers: 'kanji-kana-romaji' | 'kanji-kana' | 'kanji';
-  /** Placeholder slots for the hidden word: length and first kana, length only, or nothing. */
-  slots: 'first' | 'length' | 'none';
+  /** Placeholder slots for the hidden word: one per kana (shows the length) or nothing. */
+  slots: 'length' | 'none';
   /** Peeks (reveal kana + romaji for a moment) per word; null = unlimited. */
   peeks: number | null;
   /** Show an example sentence with the word blanked out. */
@@ -57,8 +57,8 @@ export interface Preset {
 export const PRESETS: Record<Difficulty, Preset> = {
   easy: {
     label: '简单',
-    desc: '汉字＋假名＋罗马音；给出词长和首个假名；例句挖空提示；错了只标红；发音 0.75×，可无限重播和偷看。',
-    shadowLayers: 'kanji-kana-romaji', slots: 'first', peeks: null, sentenceHint: true,
+    desc: '汉字＋假名＋罗马音；给出词长；例句挖空提示；错了只标红；发音 0.75×，可无限重播和偷看。',
+    shadowLayers: 'kanji-kana-romaji', slots: 'length', peeks: null, sentenceHint: true,
     maxMistakes: null, rate: 0.75, replays: null,
   },
   standard: {

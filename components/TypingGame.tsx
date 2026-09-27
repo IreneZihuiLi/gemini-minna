@@ -595,7 +595,7 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
           {showKanji && kanjiDiffers && <p className="text-3xl font-black text-slate-700 mb-2">{word.kanji}</p>}
           <div className="flex flex-wrap justify-center gap-1 text-4xl font-black tracking-wider min-h-[3rem]">
             {views.map((view, i) => {
-              const visible = view.status === 'done' || showKana || (preset.slots === 'first' && i === 0);
+              const visible = view.status === 'done' || showKana;
               const text = visible ? view.kana : preset.slots === 'none' ? '' : '＿'.repeat(view.kana.length);
               const colour = view.status === 'done'
                 ? 'text-indigo-600'
