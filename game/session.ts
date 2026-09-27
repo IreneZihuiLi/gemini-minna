@@ -4,7 +4,7 @@ import { VocabularyItem } from '../types';
 import { ProgressMap, isWeak } from './progress';
 import { cleanKana, kanaVariants, stripPunctuation, tokenize } from './romaji';
 
-export type StageMode = 'shadow' | 'normal' | 'dictation';
+export type StageMode = 'shadow' | 'normal' | 'dictation' | 'recall';
 export type GameMode = StageMode | 'ladder';
 export type Difficulty = 'easy' | 'standard' | 'hard';
 export type RoundSize = 10 | 20 | 'all';
@@ -24,14 +24,15 @@ export const MATCHING_INFO: Record<Matching, { label: string; desc: string }> = 
   lenient: { label: '宽松', desc: '动词打 ます形、辞书形、て形、ない形、た形都算对；［］里的部分可省略；／两种读法都行。' },
   strict: { label: '严格', desc: '必须和词表上的写法一致。' },
 };
-export const LADDER_STAGES: StageMode[] = ['shadow', 'normal', 'dictation'];
+export const LADDER_STAGES: StageMode[] = ['shadow', 'normal', 'dictation', 'recall'];
 export const PASS_RATE = 0.8;
 
 export const MODE_INFO: Record<GameMode, { label: string; short: string; desc: string }> = {
-  shadow: { label: '跟打模式', short: '跟打', desc: '显示提示，也显示单词，照着打，先混个脸熟。' },
-  normal: { label: '普通模式', short: '普通', desc: '显示提示，不显示单词，凭记忆打出来。' },
-  dictation: { label: '默写模式', short: '默写', desc: '不显示提示，不显示单词，只听发音，听写。' },
-  ladder: { label: '闯关模式', short: '闯关', desc: '同一组词依次跟打、普通、默写，正确率 80% 过关。' },
+  shadow: { label: '跟打模式', short: '跟打', desc: '显示提示，也显示单词，有发音，照着打，先混个脸熟。' },
+  normal: { label: '普通模式', short: '普通', desc: '显示提示，不显示单词，有发音，凭记忆打出来。' },
+  dictation: { label: '听写模式', short: '听写', desc: '不显示提示，不显示单词，只听发音，把听到的词打出来。' },
+  recall: { label: '默写模式', short: '默写', desc: '只给中文意思，没有发音，全凭记忆打出日语。答完才播读音。' },
+  ladder: { label: '闯关模式', short: '闯关', desc: '同一组词依次跟打、普通、听写、默写，正确率 80% 过关。' },
 };
 
 export interface Preset {

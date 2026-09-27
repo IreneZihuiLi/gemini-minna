@@ -281,7 +281,7 @@ export const LessonView: React.FC<LessonViewProps> = ({ lessonId, onBack }) => {
                   <span className="text-sm font-bold text-amber-600 bg-amber-50 px-2.5 py-1 rounded-full">{staticWordCount} words</span>
                 </div>
                 <h4 className="mt-8 text-2xl font-black text-slate-800">打字背单词</h4>
-                <p className="mt-3 text-slate-500 leading-relaxed">跟打、普通、默写三种模式，三档难度，用罗马音把本课单词打出来，错词自动记录。</p>
+                <p className="mt-3 text-slate-500 leading-relaxed">跟打、普通、听写、默写四种模式，三档难度，用罗马音把本课单词打出来，错词自动记录。</p>
                 <div className="mt-8 flex items-center text-amber-600 font-bold">
                   <span>{staticWordCount > 0 ? 'Start Typing' : 'Coming Soon'}</span>
                   {staticWordCount > 0 && (

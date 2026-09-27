@@ -16,7 +16,7 @@ interface TypingGameProps {
 
 type Phase = 'setup' | 'play' | 'result';
 
-const MODES: GameMode[] = ['shadow', 'normal', 'dictation', 'ladder'];
+const MODES: GameMode[] = ['shadow', 'normal', 'dictation', 'recall', 'ladder'];
 const DIFFICULTIES: Difficulty[] = ['easy', 'standard', 'hard'];
 const SIZES: RoundSize[] = [10, 20, 'all'];
 const MATCHINGS: Matching[] = ['lenient', 'strict'];
@@ -179,7 +179,7 @@ const SetupScreen: React.FC<SetupScreenProps> = ({ lessonId, config, setConfig, 
       <h4 className="text-sm font-bold text-slate-400 uppercase tracking-wider mb-3">模式</h4>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
         {MODES.map(mode => (
-          <button key={mode} type="button" onClick={() => setConfig(prev => ({ ...prev, mode }))} className={optionClass(config.mode === mode)}>
+          <button key={mode} type="button" onClick={() => setConfig(prev => ({ ...prev, mode }))} className={`${optionClass(config.mode === mode)} ${mode === 'ladder' ? 'sm:col-span-2' : ''}`}>
             <div className="font-black text-slate-800">{MODE_INFO[mode].label}</div>
             <div className="text-sm text-slate-500 mt-1 leading-relaxed">{MODE_INFO[mode].desc}</div>
           </button>
@@ -223,7 +223,7 @@ const SetupScreen: React.FC<SetupScreenProps> = ({ lessonId, config, setConfig, 
     </section>
 
     <div className="rounded-2xl bg-slate-100 p-4 text-sm text-slate-600 leading-relaxed mb-8">
-      用英文输入法按罗马音打出假名，比如 がっこう 打 gakkou，词尾的 ん 打 nn。宽松判定下，动词打 かきます 或 かく、かいて 都算对。空格重播发音，Tab 偷看，Esc 退出。发音语速由难度决定。跟打模式不计入错词记录。
+      用英文输入法按罗马音打出假名，比如 がっこう 打 gakkou，词尾的 ん 打 nn。宽松判定下，动词打 かきます 或 かく、かいて 都算对。空格重播发音（默写模式没有发音），Tab 偷看，Esc 退出。发音语速由难度决定。跟打模式不计入错词记录。
     </div>
 
     <div className="flex flex-wrap gap-3">
@@ -255,6 +255,8 @@ interface PlayScreenProps {
 const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching, title, onFinish, onQuit }) => {
   const [index, setIndex] = useState(0);
   const word = words[index];
+  // 默写 (recall) gives no pronunciation until the word is answered.
+  const hasAudio = stage !== 'recall';
   const [typing, setTyping] = useState<MultiState>(() => createMultiState(wordTargets(word, matching)));
   const [mistakes, setMistakes] = useState(0);
   const [failed, setFailed] = useState(false);
@@ -297,9 +299,9 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
     setPeeking(false);
     setFeedback(null);
     startRef.current = Date.now();
-    playText(word.kanji, { rate: preset.rate });
+    if (hasAudio) playText(word.kanji, { rate: preset.rate });
     inputRef.current?.focus();
-  }, [index, word, preset, matching]);
+  }, [index, word, preset, matching, hasAudio]);
 
   const sentenceHint = useMemo(
     () => (preset.sentenceHint && stage !== 'dictation' ? blankSentence(word) : null),
@@ -322,7 +324,7 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
   const peeksLeft = preset.peeks == null ? Infinity : Math.max(0, preset.peeks - peeksUsed);
 
   const replay = () => {
-    if (feedback || replaysLeft <= 0) return;
+    if (!hasAudio || feedback || replaysLeft <= 0) return;
     setReplaysUsed(count => count + 1);
     playText(word.kanji, { rate: preset.rate });
   };
@@ -347,6 +349,7 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
     setTyping(state);
     setFeedback(result);
     triggerFlash(result.correct ? 'ok' : null);
+    if (!hasAudio) playText(word.kanji, { rate: preset.rate });
     const delay = stage === 'shadow' && result.correct ? 450 : 1200;
     later(() => {
       if (index + 1 < words.length) setIndex(index + 1);
@@ -554,9 +557,11 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
         )}
 
         <div className="mt-6 flex flex-wrap justify-center gap-2 text-sm font-bold">
-          <button type="button" onMouseDown={keepFocus} onClick={replay} disabled={replaysLeft <= 0 || feedback !== null} className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-50 text-indigo-600 hover:bg-indigo-100 disabled:opacity-40">
-            <PlayIcon /> 重播{preset.replays != null && ` (${replaysLeft})`}
-          </button>
+          {hasAudio && (
+            <button type="button" onMouseDown={keepFocus} onClick={replay} disabled={replaysLeft <= 0 || feedback !== null} className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-50 text-indigo-600 hover:bg-indigo-100 disabled:opacity-40">
+              <PlayIcon /> 重播{preset.replays != null && ` (${replaysLeft})`}
+            </button>
+          )}
           <button type="button" onMouseDown={keepFocus} onClick={peek} disabled={peeksLeft <= 0 || failed || feedback !== null} className="px-4 py-2 rounded-full bg-slate-100 text-slate-600 hover:bg-slate-200 disabled:opacity-40">
             偷看{preset.peeks != null && ` (${peeksLeft})`}
           </button>
@@ -570,7 +575,7 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
           </div>
         )}
       </div>
-      <p className="mt-4 text-center text-xs text-slate-400 font-medium">用罗马音打假名 · 空格 重播发音 · Tab 偷看 · Esc 退出</p>
+      <p className="mt-4 text-center text-xs text-slate-400 font-medium">用罗马音打假名 · {hasAudio ? '空格 重播发音 · ' : '默写模式没有发音 · '}Tab 偷看 · Esc 退出</p>
     </div>
   );
 };
@@ -606,7 +611,7 @@ const ResultScreen: React.FC<ResultScreenProps> = ({ results, mode, stage, stage
 
   let headline: string;
   if (mode === 'ladder') {
-    headline = passed ? (lastStage ? '三关全部通过！' : `第 ${stageIndex + 1} 关通过`) : `第 ${stageIndex + 1} 关未通过，需要 ${Math.round(PASS_RATE * 100)}%`;
+    headline = passed ? (lastStage ? `全部 ${LADDER_STAGES.length} 关通过！` : `第 ${stageIndex + 1} 关通过`) : `第 ${stageIndex + 1} 关未通过，需要 ${Math.round(PASS_RATE * 100)}%`;
   } else {
     headline = percent >= 90 ? '很稳！' : percent >= 70 ? '不错，再练一轮' : '再来一遍吧';
   }
