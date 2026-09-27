@@ -26,6 +26,20 @@ function stageTitle(mode: GameMode, stage: StageMode, stageIndex: number, preset
   return `${MODE_INFO[stage].label} · ${preset.label}`;
 }
 
+/**
+ * The romaji character a key event stands for: the key itself when it is a
+ * plain letter, otherwise the physical key (event.code), which stays readable
+ * even when an input method rewrites event.key.
+ */
+function letterFromKeyEvent(event: KeyboardEvent): string | null {
+  if (/^[a-zA-Z'\-]$/.test(event.key)) return event.key;
+  const physical = /^Key([A-Z])$/.exec(event.code || '');
+  if (physical) return physical[1].toLowerCase();
+  if (event.code === 'Minus') return '-';
+  if (event.code === 'Quote') return "'";
+  return null;
+}
+
 function formatMs(ms: number) {
   const seconds = Math.round(ms / 1000);
   return `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, '0')}`;
@@ -237,6 +251,7 @@ const SetupScreen: React.FC<SetupScreenProps> = ({ lessonId, config, setConfig, 
         返回课程
       </button>
     </div>
+    <p className="mt-8 text-[11px] text-slate-300 font-mono">版本 {__BUILD_ID__}</p>
   </div>
 );
 
@@ -263,6 +278,8 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
   // so romaji can be typed whatever input source is selected.
   const touchDevice = useMemo(() => typeof window !== 'undefined' && window.matchMedia('(pointer: coarse)').matches, []);
   const actionsRef = useRef({ feed: (_text: string) => {}, peek: () => {}, replay: () => {}, quit: () => {} });
+  const [lastKeyInfo, setLastKeyInfo] = useState('');
+  const lastKeyRef = useRef({ letter: '', at: 0 });
   const [typing, setTyping] = useState<MultiState>(() => createMultiState(wordTargets(word, matching)));
   const [mistakes, setMistakes] = useState(0);
   const [failed, setFailed] = useState(false);
@@ -322,20 +339,26 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
       const target = event.target as HTMLElement | null;
       if (target && target !== inputRef.current &&
         (target.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(target.tagName))) return;
-      if (event.metaKey || event.ctrlKey || event.altKey) return;
+      if (event.metaKey || event.ctrlKey || event.altKey || event.repeat) return;
       const actions = actionsRef.current;
+      const letter = letterFromKeyEvent(event);
+      setLastKeyInfo(`${event.key} / ${event.code || '?'}${event.isComposing ? ' / composing' : ''}${letter ? ` → ${letter}` : ''}`);
       if (event.key === 'Tab') {
         event.preventDefault();
         actions.peek();
-      } else if (event.key === ' ') {
+      } else if (event.key === ' ' || event.code === 'Space') {
         event.preventDefault();
         actions.replay();
       } else if (event.key === 'Escape') {
         event.preventDefault();
         actions.quit();
-      } else if (/^[a-zA-Z'\-]$/.test(event.key)) {
+      } else if (letter) {
         event.preventDefault();
-        actions.feed(event.key);
+        // The same key reported twice within 30 ms is a duplicate delivery, not a second keystroke.
+        const now = performance.now();
+        if (lastKeyRef.current.letter === letter && now - lastKeyRef.current.at < 30) return;
+        lastKeyRef.current = { letter, at: now };
+        actions.feed(letter);
       }
     };
     window.addEventListener('keydown', onWindowKeyDown);
@@ -622,6 +645,7 @@ const PlayScreen: React.FC<PlayScreenProps> = ({ words, stage, preset, matching,
         )}
       </div>
       <p className="mt-4 text-center text-xs text-slate-400 font-medium">{touchDevice ? '点击卡片弹出键盘' : '直接打字即可，中文输入法开着也没关系'} · 用罗马音打假名 · {hasAudio ? '空格 重播发音 · ' : '默写模式没有发音 · '}Tab 偷看 · Esc 退出</p>
+      {lastKeyInfo && <p className="mt-1 text-center text-[11px] text-slate-300 font-mono">上次按键 {lastKeyInfo}</p>}
     </div>
   );
 };
